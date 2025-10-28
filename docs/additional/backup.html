@@ -1,0 +1,55 @@
+<!--
+title: Настройка резервного копирования проекта
+description: 
+published: true
+date: 2025-06-27T19:47:46.925Z
+tags: 
+editor: ckeditor
+dateCreated: 2025-06-26T11:36:28.425Z
+-->
+
+<p><strong>BACKUP</strong></p>
+<p>&nbsp;</p>
+<p>В SIGNAL DOCS возможно настроить резервное копирование файлов проекта на сервер компании. Для этого необходимо скачать <a href="https://docs.sgnl.pro/s/i/e2f95796-0278-462c-930d-614f2d472c2f"><u>клиент резервного копирования</u></a>&nbsp;и заполнить файл настроек.</p>
+<p>&nbsp;</p>
+<ol>
+  <li>Скачать <a href="https://docs.sgnl.pro/s/i/e2f95796-0278-462c-930d-614f2d472c2f"><u>клиент резервного копирования</u></a>&nbsp;и распаковать его в папку резервной копии.</li>
+</ol>
+<p><strong>Внимание! </strong>Папка резервной копии должна располагаться на диске с достаточным объемом свободной памяти</p>
+<p style="text-align:justify;"><br>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdk8RvSgX6nPVlkO0urcIGP9B1EW-jCPj5thvyL4JrwH3juZZ9VO97imLTiXLAhZNgl-vBWAuXom3bmwZBa0W54N6-y21iDAiPGscdh6aS8u_a2u6bg7_guPl8EaT7CBhE?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<p style="text-align:justify;">&nbsp;</p>
+<ol>
+  <li style="text-align:justify;">Заполнить файл настроек <strong>appsettings.json. </strong>Открыть его можно с помощью стандартного блокнота<br>&nbsp;</li>
+</ol>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSWxP3gH_3i7gq434Znqkhk5WLMVBP_09P5dgISiE0EwX4lMH8A3tZp4qtavLDaKFq8lcCxwuEEj0WFwBFKo4jvwrgEphH4OhVnhqFQocEaTnjCSITFccfUY-H_JuEWuc?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<p style="text-align:justify;"><br>&nbsp;</p>
+<ol>
+  <li style="text-align:justify;">“YOUR_PROJECT_ID” необходимо заменить на ID проекта из DOCS. Для этого перейдите в нужный проект в DOCS и скопируйте его ID из адресной строки.<br>&nbsp;</li>
+</ol>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfQRvb0nspH5mU4_2Oa12KVm6vu7q0A8flwiT_Hr2VM6AaA8IB2i7_VHsUEqqIEVk8UQNRQFjMBon5f3jSEyi4QE1IlVwczM_Koirt6aVh8t-thE7CCg33zjHvN48va_uM?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<p style="text-align:justify;"><br>&nbsp;</p>
+<ol>
+  <li style="text-align:justify;">Данные для полей “YOUR_CLIENT_ID” и “YOUR_CLIENT_SECRET” нужно получить &nbsp;на <a href="https://hub.sgnl.pro/"><u>SIGNAL HUB</u></a>&nbsp;в разеделе “Интеграции”<br>&nbsp;</li>
+</ol>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe3At_LFUt-KTSqA-dsNtEerlxulmTuXNpTzCcVZhii2lhSeFYhoE674DP650HsAnhaDYZ2YNHak-TI05mbgBc5f2qSZvf0JwyAtg1ma0v0rxWMZpDak_rwqIpzneEeaNo?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<p style="text-align:justify;"><br>&nbsp;</p>
+<ol>
+  <li style="text-align:justify;">Нажмите “Добавить”, напишите название и выберите все методы в строке “Scopes”.<br><br><br>&nbsp;</li>
+  <li>После создания интеграции появится “YOUR_CLIENT_SECRET”, скопируйте его в файл настроек</li>
+</ol>
+<p><br>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcGE4Av_06-6XM2DaBLTpcz29kC7DCp4oipEUoqSaIocVK8r3lbVzp-H3I0kH8ltted-XJPflgduV4BIVIu2SiHRJZO1VZqJ0An-06rvWM9aJgi509M6pG75C-rUG-NOcY?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<p><br>&nbsp;</p>
+<ol>
+  <li>Выберите созданную интеграцию и нажмите &nbsp; В открывшемся окне будет “YOUR_CLIENT_ID”, скопируйте его в файл настроек.</li>
+</ol>
+<p><br>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSjTTfUvIIoWFlO8mIxqm9Xz-h5pjVpytJB_pYx9ESOE3TO2tEYCWrS02wDxudVvhewurTUKgWU52gjN4o6tMVBPkKn6Bf1rM07mTnWI8rRFFWnhRu44tUAk97xZZ1ahM?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<p>&nbsp;</p>
+<ol>
+  <li>Сохраните заполненный файл настроек и запустите клиент резервного копирования, файлы начнут скачиваться в созданную ранее папку.<br><br>&nbsp;</li>
+</ol>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbktgfHZBtBb2FBpwLCBDeHB7xN2Ht9H2z12ZhvAyzHCtV9F8VdydYQODBM5yWp3DSV4f4mngmo9TVsKz1WaQv2DCZKgG0GySu_Kx9OO8HHEJT3BtqN1ZFrhytkrOHw4Q?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeLXbyg01GyeNzGrFUFzKy_P9ex7lgpw8vIUMKWPtgwHuqdZfQjbA2WbdQgrMAyI_tmOVEy8jRFlq8Za_lOHhi-WpNw2gAjKxIZVDvIdma4mXaBHDNCEjHgJS8O7L0pbQ?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv_nv60poflUXj1yYDkgT4GUiEFWCtBAn9IMxc3plTejybJxuirpj6RRHRq4k22_KBC0XfRKkmKFqP5kxGV3vCPRUg5GTD8Jor95M4LY31-gB8fl6sof2B7wIAlGC99w?key=VGXN1rdtEeDWgfm-RwOoQ0kd" alt=""></figure>

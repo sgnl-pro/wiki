@@ -1,0 +1,60 @@
+<!--
+title: Настройки замечаний
+description: 
+published: true
+date: 2025-06-27T18:19:49.529Z
+tags: 
+editor: ckeditor
+dateCreated: 2025-06-26T10:55:01.206Z
+-->
+
+<p>Администратор проекта имеет доступ к Настройкам проекта, а также полный доступ к редактированию любого замечания.</p>
+<p>&nbsp;</p>
+<p>В настройках проекта администратор создает типы замечаний для текущего проекта.</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcN7p4G_ZoYr_-N0jF6nQKeD0LJSHkKJhd88g3-CjV3oPI-DfOlktlMChzLbtOnH5-JjQj29o_A2vRglqPfRKftg9UHVfhLKhCi9HbDXKHUKHKiuiFjn2BSQ15XA7BtJ7Ag06FQaNPED0rn9xxL?key=DikC-fotJxKF9jvBMPQYCw" alt=""></figure>
+<p>&nbsp;</p>
+<p>В левой части интерфейса отображается список всех типов замечаний в проекте.</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqkx19vDS6iOptWrfKszAdcsGbddapcO1RsGqW8lDRORNoN0TgjUWyR0JtUt7dF-qAFr5DytlQKpLUgqcFr2aZsqRZ4KCcoKHFtYQPb-j-REOmb_5TYUxQ0qaumEFniTUJ_ZFS95al4ZpndjcJqQ?key=DikC-fotJxKF9jvBMPQYCw" alt=""></figure>
+<p>&nbsp;</p>
+<p>В центральной части интерфейса настраивается доступ к выбранному типу замечания и указываются общие настройки для данного типа замечания.</p>
+<p>&nbsp;</p>
+<h3><strong>Доступы</strong></h3>
+<p>&nbsp;</p>
+<p>Пользователь может видеть следующие замечания в реестре:</p>
+<ul>
+  <li>&nbsp; &nbsp;Назначенные ему (ответственный)</li>
+  <li>&nbsp; &nbsp;Назначенные им (автор) (он может назначить только с доступом на создание и редактирование)</li>
+  <li>&nbsp; &nbsp;В которых он стоит наблюдателем</li>
+  <li>&nbsp; &nbsp;Доступные для его роли (просмотр, создание и редактирование)</li>
+</ul>
+<p>Пользователь может создавать следующие замечания:</p>
+<ul>
+  <li>&nbsp; &nbsp;Доступные для его роли (создание и редактирование)</li>
+</ul>
+<p>Пользователь может полностью редактировать (заполнять атрибуты, прикреплять вложения, менять статус) следующие замечания:</p>
+<ul>
+  <li>&nbsp; &nbsp;Доступные для его роли (редактирование)</li>
+</ul>
+<p>Для прав доступа действует логика повышения, т.е. если у роли стоит доступ на редактирование, то по умолчанию у нее есть доступ и для создания, и для просмотра.</p>
+<p>Автор и ответственный при создании замечания имеют права на редактирование в конкретном замечании вне зависимости от роли.</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_ZRf3qW1mz4RMSNokBNvsSngkO2XFE05EKKefWUmrSGkPZoWOhtMm3x5d4NgiTZ9Rlayur5JHwgpZWR208uOtM67X6ghXdYehubFMx7FeD8VlQIooTAwFyKvhr7NKpT9i6GQJCPPiy2MUtRU8EQ?key=DikC-fotJxKF9jvBMPQYCw" alt=""></figure>
+<p>&nbsp;</p>
+<h3><strong>Общие</strong></h3>
+<p>&nbsp;</p>
+<p>Администратор может назначить роль или пользователя, ответственного за данный тип замечания по умолчанию. Таким образом при создании типа замечания, у которого заполнен Ответственный по умолчанию, поле "Ответственный" в карточке замечания будет заполнено автоматически в зависимости от настроек администратора.</p>
+<p>Если в настройках поле "Ответственный по умолчанию" оставить пустым, то при создании замечания поле "Ответственный" будет не заполнено.</p>
+<p>Администратор имеет возможность установить в настройках галочки обязательного добавления описания замечания и/или даты устранения замечания. Таким образом, когда установлены галочки, если пользователь не заполнит&nbsp;данные поля при создании замечания, то система не даст возможность сохранить замечание.</p>
+<p>В строке “Срок устранения по умолчанию” при необходимости указывается количество дней на устранения замечания. Итоговая дата будет сформирована по формуле “Дата создания замечания” + “Срок устранения по умолчанию”</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcegYChxvQgn26dBobcNZfkDDtUpsltNcJ6hgBSsMU6N0Fw3Hi3iUnJzzy4_MKI6Y8cpDv_MimCOOa_RfKL8255SCKgqt_F5Mqrv75b3vkNQoBCE1-17dJzHTKVyhKCmZo?key=DikC-fotJxKF9jvBMPQYCw" alt=""></figure>
+<p>&nbsp;</p>
+<h3><strong>Атрибуты</strong></h3>
+<p>&nbsp;</p>
+<p>Каждому типу могут быть назначены пользовательские атрибуты, в которых пользователь сможет указать дополнительную информацию по замечанию.</p>
+<p>Подробнее о создании и настройке атрибутов по <a href="https://wiki.sgnl.pro/app/page/1vCqWHmdhLF8SJ4JA82I8hqQzpEzhmqHse-X0-4sr7a0"><u>ссылке</u></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<figure class="image"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4bGFglUBagjMQDugWoNB93gjVQbGdIFwL1kvYZHaK20h7MEfc3yGHrYru75eFuXjTfG6Mecd_EV8tKiKV_G1xfZeHr5SXjpzi0ede4tIz10jFirl9BN7iQn_My6INJ9pgAk49rSFyAAqI3-FcgQ?key=DikC-fotJxKF9jvBMPQYCw" alt=""></figure>
