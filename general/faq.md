@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-10-22T09:11:27.345Z
+date: 2025-10-28T13:19:12.478Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -18,4 +18,4 @@ dateCreated: 2025-09-12T09:34:38.591Z
 {.links-list}
 
 #
-<sub>**[<   SIGNAL. Лицензионное соглашение](/ru/general/license-agreement)     **|**     [SIGNAL. Поддержка   >](/ru/general/support)**</sub>
+<sub>**[<   SIGNAL. Лицензионное соглашение](/ru/general/license-agreement)     **|**     [SIGNAL. Поддержка   >](/ru/general/support)**</sub> 
