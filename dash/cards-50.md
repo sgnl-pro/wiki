@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 50. 3D карточки
 description: 
 published: true
-date: 2025-10-15T08:12:39.093Z
+date: 2025-10-29T09:35:06.809Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:39:52.568Z
@@ -103,7 +103,7 @@ dateCreated: 2025-09-18T13:39:52.568Z
 ![image-1719476021131.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfHrPQ2r9tES22qJj9QzDNKPTuUmRaUiIfKZSjOJLDXeoXixM7ID1Amg9JXeW-KEUWyfflrWwZvyug5DPqz7AVrnknJ_rFlniB-P-SLXjIwEDP2AxOzUS90xHLzpou752JvW2BbYUO3-5CU8v5Cwg?key=jGY6qOPVFanfIvvGDWzJ4A)
   
 ## 52. 3D Цвета
-### 52. 3D Цвета
+### 52. 3D Цвета {#52}
 *Карточка позволяет разбивать и выделять элементы по системным цветам установленным в Navisworks.*
   Отображение карточки в режиме пользователя
   ![chrome_nl4jfnuazc.png](/chrome_nl4jfnuazc.png)
