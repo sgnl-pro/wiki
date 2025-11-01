@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-10-09T17:21:39.549Z
+date: 2025-11-01T11:56:56.936Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -20,6 +20,10 @@ dateCreated: 2025-09-12T13:40:06.575Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+  
+----
+**[2025.33](/general/updates/2025-33)** ^30.10.2025^
+:hammer_and_wrench: Поправили отображение кружочков при пересечении линий в 15-й карточке.
   
 ----
 **[2025.27](/general/updates/2025-27)** ^18.09.2025^
