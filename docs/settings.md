@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-01T11:50:23.372Z
+date: 2025-11-03T11:16:23.704Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -76,7 +76,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > Доступно обновление настроек из другого проекта, если в нём типы имеют такое же название. См. далее **10. Обновление настроек**
 {.is-success}
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcN7p4G_ZoYr_-N0jF6nQKeD0LJSHkKJhd88g3-CjV3oPI-DfOlktlMChzLbtOnH5-JjQj29o_A2vRglqPfRKftg9UHVfhLKhCi9HbDXKHUKHKiuiFjn2BSQ15XA7BtJ7Ag06FQaNPED0rn9xxL?key=DikC-fotJxKF9jvBMPQYCw)
+![browser_ambc3hrhme.png](/sgnl_docs/docs_issues/browser_ambc3hrhme.png))
 ### Вкладки{.tabset}
 #### 1.1. Типы замечаний
 
