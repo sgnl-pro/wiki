@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-05T08:53:35.809Z
+date: 2025-11-05T10:25:15.127Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -258,6 +258,15 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. [инструкцию по работе с передачей для пользователя](/ru/docs/documentsTransfers)
 {.is-info}
 
+  В системе доступна возможность обменивать документацией между юр лицами с помощью специального функционала **Передача**. В данном разделе настраиваются типы передачи, используемые на проекте
+  ![transmittal_main.png](/sgnl_docs/transmittal_main.png)
+  1 — Создание нового типа передачи
+  2 — Переименование, удаление типа передачи
+  3 — Доступы в типу передачи. Настройки аналогичны доступам замечаний и согласований
+  4 — **Требуется акт приема-передачи**. Данная настройка отвечает за формирование акта приема передачи в системе.
+  5 — **Требуется подписание ЭЦП**. Данная настройка отвечает за необходимость подписывать акт приема-передачи с помощью ЭЦП отправителем и получателем пакета.
+  6 — **Скачать можно только после подписания**. Данная настройка отвечает за возможность получателем скачивать документы до согласования акта приема-передачи со своей стороны.
+  7 — **Получатель пакета**. Выберите пользователя или роль по умолчанию, который будет являться получателем пакета. Данный пользователь будет получать уведомления о пакетах передачи.
 ## 4. Атрибуты
 ###### 4. Атрибуты {#attributes}
   
@@ -266,7 +275,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 Атрибуты — дополнительные поля для заполнения информации по замечаниям, папкам и файлам. Атрибуты необходимы для дополнительной фильтрации, а также дополнения документации в СОД необходимыми метаданными.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeBSru7dO3P1Pazz21uZ8dMsw01MI0l710h1b8T1FubVH3OE0uadcZRlxu57QeElKNAjDV2eXLiBVaeqDvk3R8v-3tc_WfcuUocbx1PVs50P35HY3Mw0WniBxg0eOc1jwHuJ5nSD_ZccxRV1PrD1Q?key=DMy4N3yohGr1J0s7rFEk7w)
+![attribute_main.png](/sgnl_docs/docs_attributes/attribute_main.png)
 
 Заполнить поля:
 
@@ -289,37 +298,6 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![image-1703763310200.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFtI5aXO9fjGHTAi4wJo3UpiX51MxDqIm2GRgNa0F2r_k8P1a0NKG4pF-5osnDDpC-EH1s0qj3AeEW2frxWv0WX2kxrRC_QjgEEOO7l9tG_9Qu-T74rocjzNqgrOKn31MWD_I1NcYjdw_ZzNEA?key=DMy4N3yohGr1J0s7rFEk7w)
 
-### Пример:
-
-Создать атрибут
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXexvqgujuuFwLEcVK9ViXiDGeJWLTpx2KUOXQ3zGn8hR1X8COUhGwtKYMnw7SqukqIAatpm_GS-vgW90MN-79_DBfCNNzXhlh6fCVSGkGCU0mBZztg87xlixnwrrijXLXkIy-b8DhI9KAJjUYf7iw?key=DMy4N3yohGr1J0s7rFEk7w)
-
-Добавить атрибут в тип замечания
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe2jUN-ehplC3vSilKCcLCtzHY2gEFNqfWUBmhmP4i6_lFn6eaUumVjWfbWCmT-RgfgQXKBunWKpCwdDKe_NnlnsIqkSAbGLT2yDBdsEvNP4DdxsLF6JP8YG5qwHEoGlgwoAxiBm2vjhkqgTS1s?key=DMy4N3yohGr1J0s7rFEk7w)
-
-Назначить атрибут на папку
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe9riE-4mxmFW2TRXUFtT8R28xzspXfAzZa5AzCt-ds0j7-pySHEP03UbOxQMADZb95k99pdPVMZCUDisJnfnJi7GemJrBA0ZZef56dL89kx2sWBOmQWkgLHbl1efd4KElBkJRLUQV1bq_ZWL-RwA?key=DMy4N3yohGr1J0s7rFEk7w)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEzoYx0aIcjCffGSRUwT7Gc3Q3th-r5MFV52y2rDzt4ywG63BADGQy8ELZpwcPyaDQFBZoXuCrgZT5I0af9bl8sCpWSGFMRJO9OzrOfDV9BP_tz1vZnh9VzWXfNaDPT4hV3Srl-Aqw2q7GZHja6A?key=DMy4N3yohGr1J0s7rFEk7w)
-
-Открыть настройки
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfuVOgKpNPaWYiJfP_Ec_2HRDucdqR5_vyFYU25yrvT22VK903p4UXd65pBqzMKS3hnFcrY5tMvT-OZIab2T3PpkJHsp_WGutaXoQ3TvNplQRHVcBEfckP2CPo1kD19TIhectFdf1MjMq2NTm4iMA?key=DMy4N3yohGr1J0s7rFEk7w)
-
-Назначить атрибут на файл в папке
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclRi14EfzbhnpkQiYJvdj2qJ5vNpAX5HV3rUUE5fj0LEaonCfZPk7L0BJ7Cr8Mlip365hlQw1Kv4T3yVkHgC4gnZ-u3nBIlLyD65OWopudJuhE8rrSYsj7Vze6KDehFEAO1wAWL9OOVYkp57sb?key=DMy4N3yohGr1J0s7rFEk7w)
-
-Введите значение:
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqY7IlCfzGeuduzad4XAguWSFViSWBYCWq25pMeR0q0s_1QZFjdaDnED_6w6Mcridggd5ZlyPtBGyCLrzCjpO91Rk5cocIb_y_9frcWMxLRynCA3VUoDOyns-8ZOAYtTAdd4T6epH8PWYCTFBZEg?key=DMy4N3yohGr1J0s7rFEk7w)
-
-Создать замечание к файлу. Атрибут заполнится автоматически
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTisz4zdOdHNvAyy0xVZLdLwVgTIgKffdNb5Nq5AhVccwaNabT2F9xMW0AahBGD_4xwoev_QuRVr_3juUjWWJ67lKa-fC2IRp_0woccV51ZobQoLZOS3xegjCbej-P-LmlOrT-ZCbfNia-6HTq_w?key=DMy4N3yohGr1J0s7rFEk7w)
 
 ## 5. Сервер
 ###### 5. Сервер {#server}
@@ -332,22 +310,24 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ## 6. Сервисы
 ###### 6. Сервисы {#services}
-  
-> См. также [DOCS. Дополнительно → Интеграция с Tangl](/ru/docs/more)
-{.is-info}
-  
+    
 > См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
 
-Для просмотра 3D моделей в сервисе SIGNAL DOCS используются **Forge Viewer** и/или **Tangl Viewer**. Администратор проекта может выбрать, каким вьювером просматривать модели для каждого проекта. Переключение находится в "Настройках" в разделе “Сервисы".
+  В разделе **Сервисы** происходит настройка инструментов просмотра моделей а также дополнительные настройки проекта.
+  ![services_main.png](/sgnl_docs/docs_services/services_main.png)
+  1 — Настройки подписания документов ЭЦП напрямую из раздела **Хранилище**. 
+  2 — **Цвет пометок**. Данная настройка отвечает за цвет пометок оставленных в PDF документах. При включенной настройке цвет пометки будет соответствовать статусу замечания. Например, если замечание имеет статус "В работе", то пометка будет синего цвета, а "Закрыто" зеленая
+  3 — **BIM-вьвюер**. Для просмотра 3D моделей в сервисе SIGNAL DOCS используются **Forge Viewer** и/или **Tangl Viewer**. Администратор проекта может выбрать, каким вьювером просматривать модели для каждого проекта
+  4 — **Клиент Tangl**. В данном разделе настраивается интеграции с личным кабинетом Tangl. По умолчанию подключен кабинет SIGNAL. Подробнее: [DOCS. Дополнительно → Интеграция с Tangl](/ru/docs/more)
+  5 — **Простой просмотр**. Конфигуратор и предупреждение для простого просмотра моделей. Более подробно о функции простого просмотра [Нарезка квартир](https://wiki.sgnl.pro/ru/tools/tools-for-revit/flat-slice)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJKntu5PbfCiBxAg_PYaLBCmcvkBXXsPjt9350pvu3LgOGoqN_EeEQIVmeo9glzf4HSt8KRjdLbpNgycsTV9slZx9QgefaMu8dBpsoPACvzS5bCGJSedpTzJbkNzsPKOg?key=mSlD0f1iO2mqCDbxSYrHzQ)
 
 **Forge Viewer** позволяет просмотреть следующие форматы файлов:
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEPxyBT1yqLC3G6KS64ka2CneTJJDfysi6VXZwppvGZNM2k22YHOgXfhz-mdGsTnyCAo4b0KLuVgxlyruRwbnwvmo0VRFSqbja2kSVAfF7mao2GYZA1OpnVnKbrHlMZ1aGLKk-A-kbhHItcb__?key=mSlD0f1iO2mqCDbxSYrHzQ)
 
-**Tangl Viewer** позволяет просмотреть IFC формат и RVT (с помощью плагина). 
+**Tangl Viewer** позволяет просмотреть IFC формат и RVT . 
 
 ## 7. Уведомления
 ###### 7. Уведомления {#notifications}
