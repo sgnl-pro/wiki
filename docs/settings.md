@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-05T08:34:05.824Z
+date: 2025-11-05T08:53:35.809Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -181,28 +181,31 @@ dateCreated: 2025-09-09T08:02:36.643Z
 1 — **Срок согласования этапа**. Учитываются только рабочие дни согласно настроенному в проекте [календарю](https://wiki.sgnl.pro/ru/docs/admin/calendar). Максимальное количество дней на согласование этапа - 31 день.
 2 — **Блокирующий этап**. Если пользователь с правами блокировки отклонит документацию, то она сразу отправится на доработку. Следующим за ним пользователям в согласовании выставление статуса этому документу будет недоступно.
 3 — **Ответственный на этапе не может отменять процесс**. Пользователи с такой настройкой не смогут отменить документацию или процесс согласования.
-4 
-
+4 — **Порядок этапа**. Для пользователей можно настроить порядок согласования. Доступно два вида: Последовательно - этап начнется при завершении вышестоящего. Параллельно - этап начнется параллельно с вышестоящим.
+  
 #### 2.3. Статусы
 
 В поле “Статус” выбирается тип статуса, являющийся логической опцией, отвечающей за продвижение документа к следующему этапу согласования: Утверждено или Отклонено. Таким образом, утвержденный документ переходит к следующему этапу согласования, а отклоненный документ не переходит.
 
-![image-1705928408533.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfdpFt8fnGDJfWwpVYfsBXapte8HHIvXLKo_YefA3H-i1kdhGYkVqCpADe9t8VVp9nStiXY4_8sIflcMriK_5ThYxvUXY6eJuHg2fDMV2eUC0Au8VIu1oiYkt4pdpcRrQtdE_Aq7KQwL5X_64kYHQ?key=WxzNGmtFs96UM_eMLcTLzg)
+![reviews_statuses.png](/sgnl_docs/docs_reviews/reviews_statuses.png)
 
 В последующих полях указываются название и иконка статуса, которые будут отображаться для пользователей в процессе согласования. Можно добавить до 10 статусов.
 
 #### 2.4. Штампование
 
 На этапе “Штампование” проставляются штампы и QR на документы из комплекта.
+  > Штамп и  QR-код проставляются только на документацию формата PDF
+{.is-warning}
+
 
 Сначала из списка выбирается тип штампования:
 
--   Штамп - будет проставлен только Штамп
--   QR-код - будет проставлен только QR
--   Штамп и QR-код - будут проставлены Штамп и QR
--   Не штамповать
+-   **Штамп** - будет проставлен только Штамп
+-   **QR-код** - будет проставлен только QR
+-   **Штамп и QR-код** - будут проставлены Штамп и QR
+-   **Спросить на финальном этапе** - последний пользователь в этапах согласования выберет нужно ли штамповать документацию
 
-![image-1705928420720.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXca6bdP0aI8ymPjD7BhfIQmCLDtvowWs-rBiqOI0Yo5q5o_OrSIvV6k9Leo5470fkBWY-PjJ5HxFofoTx-dr68z2OR4hsPAGzTlbieygRvNFfAVM6Sf988Uq-16yaGr-kCgxRQGd_sMkmeL0uUgVw?key=WxzNGmtFs96UM_eMLcTLzg)
+![reviews_stamp.png](/sgnl_docs/docs_reviews/reviews_stamp.png)
 
 Затем выбирается Ответственный за этап штампования, который проверяет правильность штампования документов.
 
@@ -218,18 +221,21 @@ dateCreated: 2025-09-09T08:02:36.643Z
 #### 2.5. Подписания
 
 На этапах подписания назначаются пользователи или роли, которые ответственны за подписание документов с помощью ЭЦП. Также указывается срок подписания документов (до 31 дней).
-
-Подписать документ можно двумя способами: встроенной подписью или отдельным sig файлом. Встроенной подписью можно подписать только PDF.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe69CIItS94WQ06zE616P1h9ZQ0QNpybcbOWBQNm1AASVo32mwmmxIBzcVwfmJRk3AEA1BwsSRQ3dy-AsFND-NYWmwtI0uuQwCB6uhheDdoRe0zWI9FvbORAdF-T5WXpe1km8WpEJxCU6HgyUP7?key=WxzNGmtFs96UM_eMLcTLzg)
-
 Как и этапы согласования, подписания могут проходить последовательно или параллельно
+  
+Подписать документ можно двумя способами: встроенной подписью или отдельным sig файлом. 
+  > Встроенная подпись доступна только с форматом PDF
+{.is-warning}
+
+![reviews_ecp.png](/sgnl_docs/docs_reviews/reviews_ecp.png)
+
+
 
 #### 2.6. Копирование
 
 На данном этапе указывается папка, в которую необходимо скопировать проштампованные документы из комплекта.
 
-![image-1705928611272.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc86mV80j4A1Jv12xq5k11Vn4Rwfxz76UcFDSd0SGSl5cXlFacUNxRPCfqZkmym9LNg_IO1t3sPKpXx2NCRcI2izqLWaQiWJWc6tdAQwHIT492FwQNRIFpY9dxGmVFmiFutBCByzKnCWn6RXfoRwg?key=WxzNGmtFs96UM_eMLcTLzg)
+![reviews_copy.png](/sgnl_docs/docs_reviews/reviews_copy.png)
 
 Можно выбрать несколько вариантов копирования:
 
@@ -241,8 +247,10 @@ dateCreated: 2025-09-09T08:02:36.643Z
 #### 2.7. Оповещение
 
 Опция Оповещения позволяет указать пользователя, роль или Email, которым будет приходить полный отчет о согласовании после его завершения
+  > Оповещение приходит только по успешно завершенным комплектам
+{.is-warning}
 
-![image-1705928699336.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfXjjenmWbHIl3qr9tZ4PC07YB9UMxRAodGMzjVIGVwKxohfRysIoDe-ozHMF6n65vnSUr2F0M1lQV4KHGS_yDNwO6Z3Y47QOZzoNhtPMgz0OfJUaALD4nzvPQIDOwV7_MnwMkSxYLjlX2OHDho?key=WxzNGmtFs96UM_eMLcTLzg)
+![reviews_notification.png](/sgnl_docs/docs_reviews/reviews_notification.png)
 
 ## 3. Передача
 ###### 3. Передача {#documentsTransfer}
@@ -256,9 +264,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. также видеоинструкцию по настройке замечаний и атрибутов: [Telegram](https://t.me/sgnlpro/198) [YouTube](https://youtu.be/0ki2I6Tl2KE)	[Rutube](https://rutube.ru/video/ff98be6edbe568e45ddec40a0ebce695/) [VK](https://vk.com/wall-223002264_14)
 {.is-info}
 
-Атрибуты -- дополнительные поля для заполнения информации по замечаниям, папкам и файлам.
-
-Атрибуты создаются администратором.
+Атрибуты — дополнительные поля для заполнения информации по замечаниям, папкам и файлам. Атрибуты необходимы для дополнительной фильтрации, а также дополнения документации в СОД необходимыми метаданными.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeBSru7dO3P1Pazz21uZ8dMsw01MI0l710h1b8T1FubVH3OE0uadcZRlxu57QeElKNAjDV2eXLiBVaeqDvk3R8v-3tc_WfcuUocbx1PVs50P35HY3Mw0WniBxg0eOc1jwHuJ5nSD_ZccxRV1PrD1Q?key=DMy4N3yohGr1J0s7rFEk7w)
 
