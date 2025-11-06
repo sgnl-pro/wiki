@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2025-11-06T14:05:38.179Z
+date: 2025-11-06T14:06:01.031Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -109,7 +109,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 При открытии файла IFC система спросит каким способом его открыть.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJBCHkoqio1sXt7kT6jNmIrdny4HZXU114lKVbSIbchgPlcDaWNur2USrbfShaMEQnruyequ8-P8toaBXb4Mx5-ar0VVnHogWS7Wuv24yNA1AsZY13XwDMZkPo81rYGkiO3BV3CzY7OQQ1iNXD?key=i8J0tGtIeCmYFt7QxAzbTw =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJBCHkoqio1sXt7kT6jNmIrdny4HZXU114lKVbSIbchgPlcDaWNur2USrbfShaMEQnruyequ8-P8toaBXb4Mx5-ar0VVnHogWS7Wuv24yNA1AsZY13XwDMZkPo81rYGkiO3BV3CzY7OQQ1iNXD?key=i8J0tGtIeCmYFt7QxAzbTw =50%x)
 
 ## 3. Сборки BIM-моделей
 ###### 3. Сборки BIM-моделей {#assemblies}
