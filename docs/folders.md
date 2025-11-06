@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:22:45.066Z
+date: 2025-11-06T13:23:52.228Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -195,17 +195,17 @@ dateCreated: 2025-09-09T09:17:01.781Z
   
 В зоне работы с документами напротив файлов проставляется статус в зависимости от согласований комплектов, в которых участвовал файл.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfU_oj9iPjyCpppYbuRAZJ5yVvVqWMtsiYSdYwAFow3dL9N4D_hhEn3BHohIpC-z2EFmOf7cngpuMNnIFodLFdpqQz0K0_qTBQeRdfLhw6_Xpimj0G10p-AonKfpxQEmf6nxEPb5anDqX7FoOlJmQ?key=Jk1iD7eu81nhSX4JQcW_nQ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfU_oj9iPjyCpppYbuRAZJ5yVvVqWMtsiYSdYwAFow3dL9N4D_hhEn3BHohIpC-z2EFmOf7cngpuMNnIFodLFdpqQz0K0_qTBQeRdfLhw6_Xpimj0G10p-AonKfpxQEmf6nxEPb5anDqX7FoOlJmQ?key=Jk1iD7eu81nhSX4JQcW_nQ =70%x)
 
 Статусы также доступны в окне просмотра версий
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjLM5FbTqx8reXsPZ82UfJUa8T7Fv_6HH7CMFASVR2bKK3rowxGJ78oikaxiK_UEY9U9U5G05iCk9gNq_g-MLsZNMJK74fDQQuZV6EbCdi-NfYlLSJAuKwH5QE-Uy2rjGche-WAS7Y0nWPxBxqBA?key=Jk1iD7eu81nhSX4JQcW_nQ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjLM5FbTqx8reXsPZ82UfJUa8T7Fv_6HH7CMFASVR2bKK3rowxGJ78oikaxiK_UEY9U9U5G05iCk9gNq_g-MLsZNMJK74fDQQuZV6EbCdi-NfYlLSJAuKwH5QE-Uy2rjGche-WAS7Y0nWPxBxqBA?key=Jk1iD7eu81nhSX4JQcW_nQ =70%x)
 
 При нажатии на статус открывается комплект согласования.
 
 Доступные статусы:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdz75f8gppb0d6zBPUsFUQjv6QLha_goCtuKBBjZckrsSDtjUaK4mirkbHPURi6IpF3eYbOiPodoD4by1LXlOnVrDLp6azYf3SI9zGlB-HwHBjFrRqQlA4QOB77RdJOdCkECwufiZKM9u1UDnDyKQ?key=Jk1iD7eu81nhSX4JQcW_nQ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdz75f8gppb0d6zBPUsFUQjv6QLha_goCtuKBBjZckrsSDtjUaK4mirkbHPURi6IpF3eYbOiPodoD4by1LXlOnVrDLp6azYf3SI9zGlB-HwHBjFrRqQlA4QOB77RdJOdCkECwufiZKM9u1UDnDyKQ?key=Jk1iD7eu81nhSX4JQcW_nQ =70%x)
   
 #### 2.3. Версионность файлов
 ###### 2.3. Версионность файлов {#versions}
@@ -214,16 +214,16 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 1\. Чтобы открыть историю файла, нажмите на номер версии файла в колонке “Версия”
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXci1WYOTWRlPLxvydlk6kgDnPsMfT4VKRO4XeAUO4txhpgzGRaJgy7MpX7brorU7K7p2HSIbQ0KKSHQur8kVisiRnLSQoNPui4QhCbFszdztFRTyUt737G0pZfANQLaoBOC-5LZwZCMCSz-Hcn6?key=TFBRQnMDqnFewlQGqykJ7w)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXci1WYOTWRlPLxvydlk6kgDnPsMfT4VKRO4XeAUO4txhpgzGRaJgy7MpX7brorU7K7p2HSIbQ0KKSHQur8kVisiRnLSQoNPui4QhCbFszdztFRTyUt737G0pZfANQLaoBOC-5LZwZCMCSz-Hcn6?key=TFBRQnMDqnFewlQGqykJ7w =70%x)
 
 2\. Откроется окно со списком всех версий файла с информацией о том, кто и когда добавлял документ. Напротив актуальной версии файла стоит отметка (Текущая).
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdzA_5v1j-oVdELyYAZZ_GRjcTc3Xlu0C-9KOThw5At4pzWEXUan1S8Ny97KFiThVODhev4m90LIZCOEcFQo4cSIMZ4wlWhm4q5P7DQmAOGISPp8yn7_YgZhGlZPlekaXvnJeIqoibDbc1xWqxKzg?key=TFBRQnMDqnFewlQGqykJ7w)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdzA_5v1j-oVdELyYAZZ_GRjcTc3Xlu0C-9KOThw5At4pzWEXUan1S8Ny97KFiThVODhev4m90LIZCOEcFQo4cSIMZ4wlWhm4q5P7DQmAOGISPp8yn7_YgZhGlZPlekaXvnJeIqoibDbc1xWqxKzg?key=TFBRQnMDqnFewlQGqykJ7w =70%x)
 
 -   Пользователи с правами доступа на редактирование могут сделать старую версию текущей. Для этого необходимо нажать . При этом номер версии останется исходным
 -   Для скачивания любой версии файла нажмите [](https://wiki.sgnl.pro/uploads/images/gallery/2023-08/image-1691669882765.png)
 
-![image-1691669882765.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfzUyfdfMF3fnVdE9rkXntbpHGKOGzbNK-cdQJztMfgUOA0lZJ9cSfO1Gqsa3aOz5pTf8ziwbPmK83kqhPSsQG5ySuoKzH4nCqCyfiYm2xSY_ZDevSZQdCZoYPhsHaRwAOBkMzrTB3TKvnxoA3Liw?key=TFBRQnMDqnFewlQGqykJ7w)
+![image-1691669882765.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfzUyfdfMF3fnVdE9rkXntbpHGKOGzbNK-cdQJztMfgUOA0lZJ9cSfO1Gqsa3aOz5pTf8ziwbPmK83kqhPSsQG5ySuoKzH4nCqCyfiYm2xSY_ZDevSZQdCZoYPhsHaRwAOBkMzrTB3TKvnxoA3Liw?key=TFBRQnMDqnFewlQGqykJ7w )
 
 ![image-1691669859628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjEhR1qqIsFdPu_osfcvkJZ5DO8uE1g0s1320xhdHdc2fxyO5WCQFmz_8SMYU1jYZJIs8qAMRscy9KlHP8zth22qXj9aK2flW8K4BXD8GJ8xHwhwtyP04P5bqQ06x0r2wqtiGDP7ZlrLGNDVOW?key=TFBRQnMDqnFewlQGqykJ7w)
 
