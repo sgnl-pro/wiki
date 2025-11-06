@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:23:52.228Z
+date: 2025-11-06T13:24:34.336Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -218,14 +218,14 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 2\. Откроется окно со списком всех версий файла с информацией о том, кто и когда добавлял документ. Напротив актуальной версии файла стоит отметка (Текущая).
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdzA_5v1j-oVdELyYAZZ_GRjcTc3Xlu0C-9KOThw5At4pzWEXUan1S8Ny97KFiThVODhev4m90LIZCOEcFQo4cSIMZ4wlWhm4q5P7DQmAOGISPp8yn7_YgZhGlZPlekaXvnJeIqoibDbc1xWqxKzg?key=TFBRQnMDqnFewlQGqykJ7w =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdzA_5v1j-oVdELyYAZZ_GRjcTc3Xlu0C-9KOThw5At4pzWEXUan1S8Ny97KFiThVODhev4m90LIZCOEcFQo4cSIMZ4wlWhm4q5P7DQmAOGISPp8yn7_YgZhGlZPlekaXvnJeIqoibDbc1xWqxKzg?key=TFBRQnMDqnFewlQGqykJ7w =50%x)
 
 -   Пользователи с правами доступа на редактирование могут сделать старую версию текущей. Для этого необходимо нажать . При этом номер версии останется исходным
 -   Для скачивания любой версии файла нажмите [](https://wiki.sgnl.pro/uploads/images/gallery/2023-08/image-1691669882765.png)
 
 ![image-1691669882765.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfzUyfdfMF3fnVdE9rkXntbpHGKOGzbNK-cdQJztMfgUOA0lZJ9cSfO1Gqsa3aOz5pTf8ziwbPmK83kqhPSsQG5ySuoKzH4nCqCyfiYm2xSY_ZDevSZQdCZoYPhsHaRwAOBkMzrTB3TKvnxoA3Liw?key=TFBRQnMDqnFewlQGqykJ7w )
 
-![image-1691669859628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjEhR1qqIsFdPu_osfcvkJZ5DO8uE1g0s1320xhdHdc2fxyO5WCQFmz_8SMYU1jYZJIs8qAMRscy9KlHP8zth22qXj9aK2flW8K4BXD8GJ8xHwhwtyP04P5bqQ06x0r2wqtiGDP7ZlrLGNDVOW?key=TFBRQnMDqnFewlQGqykJ7w)
+![image-1691669859628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjEhR1qqIsFdPu_osfcvkJZ5DO8uE1g0s1320xhdHdc2fxyO5WCQFmz_8SMYU1jYZJIs8qAMRscy9KlHP8zth22qXj9aK2flW8K4BXD8GJ8xHwhwtyP04P5bqQ06x0r2wqtiGDP7ZlrLGNDVOW?key=TFBRQnMDqnFewlQGqykJ7w )
 
 #### 2.4. Добавление ссылок на Google
 ###### 2.4. Добавление ссылок на Google {#google}
@@ -234,15 +234,15 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 1\. Нажмите + и выберите “Ссылка”
 
-![image-1703239854055.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXWC3lnkQneU2PD6Iq1psnhfFSP35PlKR3NvNo-TVg5dvn7ilFTM_-0yox8iLRmAkCOK9rgYMOXh39gdHFXkGYGuFal3kM7CjkV-pbNs_24dwsBSrYqEk9pjGo2CYK1ct6iIorTY4S2tU5aMOCZA?key=IHgocgQF9khFrVYyYoKhDQ)
+![image-1703239854055.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXWC3lnkQneU2PD6Iq1psnhfFSP35PlKR3NvNo-TVg5dvn7ilFTM_-0yox8iLRmAkCOK9rgYMOXh39gdHFXkGYGuFal3kM7CjkV-pbNs_24dwsBSrYqEk9pjGo2CYK1ct6iIorTY4S2tU5aMOCZA?key=IHgocgQF9khFrVYyYoKhDQ =70%x)
 
 2\. В появившемся окне впишите название файла и вставьте скопированную ссылку на docs.google в поле “Ссылка на файл”. Нажмите “Загрузить”
 
-![image-1686836337357.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfDH3VMxbsVt8Z7ZLMjMtauKJn9AopqG5u0tNu1Q5UGoFesYHrQoX81bd6yYJ4a6vEP7QHEaS6yFZTNK0O6KRcD048Lz67hZocQs7DXFLXsMaMxa-ulG7D--RsOLGzIxOaaeHMT6F8vXIJfr_LkBg?key=IHgocgQF9khFrVYyYoKhDQ)
+![image-1686836337357.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfDH3VMxbsVt8Z7ZLMjMtauKJn9AopqG5u0tNu1Q5UGoFesYHrQoX81bd6yYJ4a6vEP7QHEaS6yFZTNK0O6KRcD048Lz67hZocQs7DXFLXsMaMxa-ulG7D--RsOLGzIxOaaeHMT6F8vXIJfr_LkBg?key=IHgocgQF9khFrVYyYoKhDQ =70%x)
 
 3\. Будет создан файл, при нажатии на который Документы и Таблицы google будут открываться в сервисе DOCS, остальные ссылки будут открываться в новой вкладке браузера.
 
-![image-1686836350076.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXca6jGXY8gBGst7BZ3A8G3rafwJBNBQPl52zm2nKQIHYRRFr0StATsvEA75xp3cisGZkEjkY5aca7nH6nCcVZBCObjdp2e1ZfKqE8h6yiZ8zQWkUIs6WTRu6E_nAIvZXGKLnItvrImDdXR_qvVdRA?key=IHgocgQF9khFrVYyYoKhDQ)  
+![image-1686836350076.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXca6jGXY8gBGst7BZ3A8G3rafwJBNBQPl52zm2nKQIHYRRFr0StATsvEA75xp3cisGZkEjkY5aca7nH6nCcVZBCObjdp2e1ZfKqE8h6yiZ8zQWkUIs6WTRu6E_nAIvZXGKLnItvrImDdXR_qvVdRA?key=IHgocgQF9khFrVYyYoKhDQ =70%x)  
 
 ## 3. Просмотр и редактирование файлов
 См. [DOCS. Работа в файлах](/docs/viewers)
