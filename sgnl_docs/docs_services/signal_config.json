@@ -1,0 +1,86 @@
+{
+  "comparisonOps": {
+    "EQUAL": "===",
+    "NOT_EQUAL": "!==",
+    "MORE": ">",
+    "LESS": "<",
+    "EQUAL_MORE": ">=",
+    "EQUAL_LESS": "<=",
+    "INCLUDES": "includes",
+    "NOT_INCLUDES": "!includes"
+  },
+  "logicalOps": {
+    "AND": "&&",
+    "OR": "||"
+  },
+  "joinTypes": {
+    "EQUALITY": "equality",
+    "SUM": "sum"
+  },
+  "propAtoms": {
+    "S_Plan": {
+      "title": "План",
+      "categoryName": "SIGNAL",
+      "propName": "Planned",
+      "joinType": "$EQUALITY"
+    },
+    "S_Work": {
+      "title": "Работа",
+      "categoryName": "SIGNAL",
+      "propName": "Work",
+      "joinType": "$EQUALITY"
+    }, 
+    "S_Unit": {
+      "title": "Ед. изм",
+      "categoryName": "SIGNAL",
+      "propName": "Unit",
+      "joinType": "$EQUALITY"
+    },   
+    "S_Completed": {
+      "title": "Факт",
+      "categoryName": "SIGNAL",
+      "propName": "Completed",
+      "joinType": "$EQUALITY"
+    }
+  },
+  "data": {
+    "id": "root",
+    "name": "root",
+    "selectors": [],
+    "children": [        
+    {
+      "id": "SIGNAL",
+      "name": "SIGNAL",
+      "selectors": [],
+      "children": [
+        {
+          "id": "SIGNAL_Plan",
+          "name": "S_Plan",
+          "displayProps": ["$S_Plan", "$S_Unit", "$S_Work"],
+          "selectors": [
+            ["Объект", "Категория", "$EQUAL", "Несущие колонны", "$OR"],
+            ["Объект", "Категория", "$EQUAL", "Каркас несущий", "$OR"],
+            ["Объект", "Категория", "$EQUAL", "Стены", "$OR"],
+			["SIGNAL", "Unit", "$EQUAL", "м3", "$OR"],
+            ["Объект", "Категория", "$EQUAL", "Перекрытия"]           
+          ],
+          "children": []
+    },
+    {
+      "id": "SIGNAL_Completed",
+      "name": "S_Completed",
+      "displayProps": ["$S_Completed", "$S_Unit", "$S_Work"],
+      "selectors": [
+        ["Объект", "Категория", "$EQUAL", "Несущие колонны", "$OR"],
+        ["Объект", "Категория", "$EQUAL", "Каркас несущий", "$OR"],
+        ["Объект", "Категория", "$EQUAL", "Стены", "$OR"],
+		["SIGNAL", "Unit", "$EQUAL", "м3", "$OR"],
+        ["Объект", "Категория", "$EQUAL", "Перекрытия"]           
+      ],
+      "children": []
+    }
+      ]
+    }    
+  ]
+  }
+}
