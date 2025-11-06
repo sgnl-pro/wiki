@@ -2,7 +2,7 @@
 title: DOCS. Публикация файлов
 description: 
 published: true
-date: 2025-11-06T09:45:43.016Z
+date: 2025-11-06T14:17:31.871Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:32:31.629Z
@@ -50,11 +50,11 @@ dateCreated: 2025-09-09T12:32:31.629Z
 
 1\. Чтобы открыть общий доступ для файла или папки нажмите ПКМ → Поделиться.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfyxl8AwynNTwv1JW1Z6EE_TOFjvid5wOSjfw527lxJtM-GVD1bOaqC-e7Chr4GPuUz5FslVI176u-x3b38UDT-7pKLUDVJ8IFsMmTBScmWrJm7_CMySnEGbN5sukT9tw?key=jsauY7gtcpEA07Snv4NNyw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfyxl8AwynNTwv1JW1Z6EE_TOFjvid5wOSjfw527lxJtM-GVD1bOaqC-e7Chr4GPuUz5FslVI176u-x3b38UDT-7pKLUDVJ8IFsMmTBScmWrJm7_CMySnEGbN5sukT9tw?key=jsauY7gtcpEA07Snv4NNyw =70%x)
 
 2\. В открывшемся окне выберите из списка Тип публикации и нажмите “Открыть доступ”. Ссылка на опубликованный файл будет автоматически скопирована в буфер обмена.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXez8D73245JWrGuYLjJU6_RtEhWQ7fGTgy0ou-wlr3x-ia9DS2nmTmREA5p1j0nRYz-6JjjXbG32L3Woia1Ssv6tkQ6w5dWVJkLn6jNtc06e3hXZ2wMueglo3GMy5rbZA?key=jsauY7gtcpEA07Snv4NNyw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXez8D73245JWrGuYLjJU6_RtEhWQ7fGTgy0ou-wlr3x-ia9DS2nmTmREA5p1j0nRYz-6JjjXbG32L3Woia1Ssv6tkQ6w5dWVJkLn6jNtc06e3hXZ2wMueglo3GMy5rbZA?key=jsauY7gtcpEA07Snv4NNyw =40%x)
 
 **Типы публикаций:**
 
@@ -65,7 +65,7 @@ dateCreated: 2025-09-09T12:32:31.629Z
 
 3\. При открытии опубликованной ссылки на папку пользователь увидит все файлы и дочерние папки, входящие в папку с общим доступом.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfI6Bw-9xLvIMIT4g8LbwYs2q624jC08ZOa2bQpRdvYawv8O5dDg52wGVyMMF7j_txvFsjg2KH2knPvRngCgFzGGmGSKjWyhT3aJkz4Qr69Rg6uWCWmJVkMkd2Nmcgoc_I?key=jsauY7gtcpEA07Snv4NNyw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfI6Bw-9xLvIMIT4g8LbwYs2q624jC08ZOa2bQpRdvYawv8O5dDg52wGVyMMF7j_txvFsjg2KH2knPvRngCgFzGGmGSKjWyhT3aJkz4Qr69Rg6uWCWmJVkMkd2Nmcgoc_I?key=jsauY7gtcpEA07Snv4NNyw =70%x)
 
 4\. Все опубликованные файлы и папки помечены иконкой 
 
@@ -73,13 +73,13 @@ dateCreated: 2025-09-09T12:32:31.629Z
 
 , нажав на которую, откроется окно с возможностью вновь скопировать опубликованный файл, поменять тип публикации или отключить общий доступ для файла.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9QUb-H29qhY9eWvRMxW_A4QGRsrOx-x3WCXEg24rPaaOtvHCrV00BJYpzdT-AhSMKkEXXxedpWe-I-xlE2d4BcWngeAd9EMStMmam0ZvvQtVP_DAyJ_V0ehfuGTDiqxc?key=jsauY7gtcpEA07Snv4NNyw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9QUb-H29qhY9eWvRMxW_A4QGRsrOx-x3WCXEg24rPaaOtvHCrV00BJYpzdT-AhSMKkEXXxedpWe-I-xlE2d4BcWngeAd9EMStMmam0ZvvQtVP_DAyJ_V0ehfuGTDiqxc?key=jsauY7gtcpEA07Snv4NNyw =70%x)
 
   
 ## 2. Публикация моделей (Простой просмотр)
 ###### 2. Публикация моделей {#publicmodels}
   В SIGNAL DOCS доступна публикация моделей формата NWD в упрощенном виде. Данная функция используется для передачи конечным клиентам моделей, в частности [квартир](/tools/tools-for-revit/flat-slice)
-  ![simpleview_user.png](/sgnl_docs/docs_publication/simpleview_user.png)
+  ![simpleview_user.png](/sgnl_docs/docs_publication/simpleview_user.png )
   1 — **Линейка** для измерения моделей
   2 — **Наборы выбора** группирование элементов модели по заданным в [конфигурации](/docs/settings#services) параметрам.
   3 — **2D/3D** переключение между двухмерным и трехмерным измерением
@@ -89,7 +89,7 @@ dateCreated: 2025-09-09T12:32:31.629Z
 ###### 3. Администрирование {#publicadmin}  
   Администратор проекта имеет доступ ко всем опубликованным ссылкам, хранящимся в табличной форме в разделе Публичные ссылки.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyYgH5wNi8b1g7QVwSieYcefqhlAH5yhLAAODneC6s7FATz_iGMZKX3roF_rZVRTqeGx0yOCq6ts6uukDUSRpZcnOZfOTKAFWkjYsxPu154yDnl5G0Yql88ZBZ49YdEAo?key=jsauY7gtcpEA07Snv4NNyw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyYgH5wNi8b1g7QVwSieYcefqhlAH5yhLAAODneC6s7FATz_iGMZKX3roF_rZVRTqeGx0yOCq6ts6uukDUSRpZcnOZfOTKAFWkjYsxPu154yDnl5G0Yql88ZBZ49YdEAo?key=jsauY7gtcpEA07Snv4NNyw =70%x)
 
 В данном разделе отображается следующая информация:
 
