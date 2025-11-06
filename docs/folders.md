@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:19:40.090Z
+date: 2025-11-06T13:20:12.472Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -104,11 +104,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 Для этого удалите все папки в Вашем новом проекте. Далее нажмите ПКМ на папке "Файлы проекта" ➤ "Скопировать структуру папок".  
 
-![image-1711023286263.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmUk53Q2n-NEVBXFOXFwUP4EmZk9VStSZK5I36VdZ36GIhtLyM7SHdDVNwAoWXR9mBdl_m_GV_ccmYEUO-4Xemhz_1oQgEnQ6N_px1qwv1AI5KjYS_E_XGchLg0ybLjwknEh-r5kTl14FOZjSc?key=zBqQ8BYDkcBgAmVqILTIKw =70%x)
+![image-1711023286263.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmUk53Q2n-NEVBXFOXFwUP4EmZk9VStSZK5I36VdZ36GIhtLyM7SHdDVNwAoWXR9mBdl_m_GV_ccmYEUO-4Xemhz_1oQgEnQ6N_px1qwv1AI5KjYS_E_XGchLg0ybLjwknEh-r5kTl14FOZjSc?key=zBqQ8BYDkcBgAmVqILTIKw =40%x)
 
 В открывшемся окне выберите из списка типовой проект из которого будут скопированы папки и нажмите "Копировать". Таким образом, папочная структура будет скопирована из типового проекта в Ваш новый проект.
 
-![image-1711023558799.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUbiGIAy424PCvJXG0yZcUZkKwkTbOKiI8s_PepULBejV4tZv1ueMS_gT6gGT23PADUkHzWNFd9K4AlKkFEG-Awsz2762cutopz2k7K6KcO1ksTHYebu30GLmAXTtwrqDeBc68gLTd3Goeb6z6_g?key=zBqQ8BYDkcBgAmVqILTIKw =70%x)
+![image-1711023558799.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUbiGIAy424PCvJXG0yZcUZkKwkTbOKiI8s_PepULBejV4tZv1ueMS_gT6gGT23PADUkHzWNFd9K4AlKkFEG-Awsz2762cutopz2k7K6KcO1ksTHYebu30GLmAXTtwrqDeBc68gLTd3Goeb6z6_g?key=zBqQ8BYDkcBgAmVqILTIKw =40%x)
 
 #### 1.2. Настройка прав доступа к папкам
 ###### 1.2. Настройка прав доступа к папкам {#access}
