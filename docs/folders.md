@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:24:34.336Z
+date: 2025-11-06T13:24:54.860Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -234,7 +234,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 1\. Нажмите + и выберите “Ссылка”
 
-![image-1703239854055.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXWC3lnkQneU2PD6Iq1psnhfFSP35PlKR3NvNo-TVg5dvn7ilFTM_-0yox8iLRmAkCOK9rgYMOXh39gdHFXkGYGuFal3kM7CjkV-pbNs_24dwsBSrYqEk9pjGo2CYK1ct6iIorTY4S2tU5aMOCZA?key=IHgocgQF9khFrVYyYoKhDQ =70%x)
+![image-1703239854055.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXWC3lnkQneU2PD6Iq1psnhfFSP35PlKR3NvNo-TVg5dvn7ilFTM_-0yox8iLRmAkCOK9rgYMOXh39gdHFXkGYGuFal3kM7CjkV-pbNs_24dwsBSrYqEk9pjGo2CYK1ct6iIorTY4S2tU5aMOCZA?key=IHgocgQF9khFrVYyYoKhDQ =40%x)
 
 2\. В появившемся окне впишите название файла и вставьте скопированную ссылку на docs.google в поле “Ссылка на файл”. Нажмите “Загрузить”
 
