@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-06T14:57:00.706Z
+date: 2025-11-06T15:06:31.743Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -28,7 +28,7 @@ dateCreated: 2025-11-06T14:53:09.140Z
   
 **Документация**
 - Swagger: https://api.sgnl.pro/openapi/swagger/index.html
-- Redoc: https://api.sgnl.pro/openapi/redoc-v1/index.html
+- ReDoc: https://api.sgnl.pro/openapi/redoc-v1/index.html
   
 **Примеры**
 - Авторизация:
