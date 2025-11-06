@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T09:13:42.679Z
+date: 2025-11-06T09:17:57.120Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -273,17 +273,17 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSfFTUDh0HkoWrULPbZqbi5U0ys1UV7pzXeeTvftsqJH-1y-tR5txr5HyMsaFawPzPsQKY_-EiPBktvhR5ZUhnCkarlwapMzF4DRi28E3owLI03WycxeXcBGaau5Ukyk72IArcQv_s1Q7OyGg64g?key=1VkSydAD1I0iXDEgmMtMRw)
   
-## 6. Быстрые фильтры
-#### 6. Быстрые фильтры {#quickFilters}
+## 6. Фильтрация
+#### 6. Фильтры {#Filters}
   
 > См. также видеоинструкцию по работе с фильтрами, полям и атрибутам: [Telegram](https://t.me/signal_docs/259) [YouTube](https://youtu.be/FnXnPphpW18)	[Rutube](https://rutube.ru/video/711c787788f1e03131a05563ba28599c/) [VK](https://vkvideo.ru/video-223002264_456239058)
 {.is-info}
   
-Для работы с файлами доступна панель быстрых фильтров, расположенная в верхней части экрана.
+Для работы с файлами доступна панель быстрых фильтров, расположенная в верхней части экрана, а также фильтры по атрибутам и поисковая строка
 
 При активации быстрого фильтра  отображаются файлы в выбранной папке, соответствующие запросу.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUN_vzG9mxvlfNZKGYr1WHtY88BG7WWmg-DbmFpIC-uJp1gdvkzyLmo1TO5qBbS_JieJsoVMtU9E8-aqMqgkVy_KzMGWRi4hVhj9UXOv7LcZoAxXaR5OuslPCtmpQ4AUZxzTMMwyDZShmbeCB4Bg?key=Vis5mNfFGhcjlsBry-oKGw)
+![quick_filters.png](/sgnl_docs/docs_documents/quick_filters.png)
 
 Условные обозначения:
 
