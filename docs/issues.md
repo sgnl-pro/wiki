@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2025-11-01T11:53:23.165Z
+date: 2025-11-06T14:10:13.175Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -83,11 +83,11 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 Для создания замечания, привязанного к документу, откройте любой файл и в правой части экрана нажмите 
 
-![image-1703763431065.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXek95ZV6SVRgs9zvH0I1wsx8MmMmqXYMj8bOfrItmS7_3B3ABMZDm2LbsgwjGMwYTJKfrYvNlC9fkQ9Vsdl9o_f4OyhI5qQ6EoysMGvADi88eE4ZIc5WtM8oKPQGdHQ4TGATiLfysVVTAc80kI1?key=cnL3kvpEZPujFMNQA9w79A)
+![image-1703763431065.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXek95ZV6SVRgs9zvH0I1wsx8MmMmqXYMj8bOfrItmS7_3B3ABMZDm2LbsgwjGMwYTJKfrYvNlC9fkQ9Vsdl9o_f4OyhI5qQ6EoysMGvADi88eE4ZIc5WtM8oKPQGdHQ4TGATiLfysVVTAc80kI1?key=cnL3kvpEZPujFMNQA9w79A )
 
-[.](https://wiki.sgnl.pro/uploads/images/gallery/2023-12/image-1703763431065.png)
+[](https://wiki.sgnl.pro/uploads/images/gallery/2023-12/image-1703763431065.png )
 
-![image-1703763444345.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePvEUqMtfu2Wj3EgWG9VrOgRccflTYaUWE18nA9R5KGPbPBMedIou3LLtnjtZjMStkcxu3loMsnzEELxZ7V7pMF7fw1wlX4WFAPlQH1cRPQMRARMVaaBPmGYbHR2_Vca8-iiMFEmeU7hxgbzEJ6Q?key=cnL3kvpEZPujFMNQA9w79A)
+![image-1703763444345.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePvEUqMtfu2Wj3EgWG9VrOgRccflTYaUWE18nA9R5KGPbPBMedIou3LLtnjtZjMStkcxu3loMsnzEELxZ7V7pMF7fw1wlX4WFAPlQH1cRPQMRARMVaaBPmGYbHR2_Vca8-iiMFEmeU7hxgbzEJ6Q?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 В левой части экрана откроется форма замечания, которую необходимо заполнить:
 
@@ -105,7 +105,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
 -   Статус **“Не принято”** устанавливает аудитор в случае если он не удовлетворен устранением замечания.
 -   Статус **“Удалено”** \- замечание было создано по ошибке.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfVDjUgKQyyE5lhJFXBK52v4SsUAgglQRtA9wQZDaS4Lk9mgmcpdDpY6gOB8PPzxmFW6T5tEZXB3n46yOH9UXAicwBpwgSiMJZH4WDY9AfJFHkqqTJ7kAF1RYOh62Ow97Y?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfVDjUgKQyyE5lhJFXBK52v4SsUAgglQRtA9wQZDaS4Lk9mgmcpdDpY6gOB8PPzxmFW6T5tEZXB3n46yOH9UXAicwBpwgSiMJZH4WDY9AfJFHkqqTJ7kAF1RYOh62Ow97Y?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 -   **Описание** - заполняется для более подробного описания замечания.
 -   **Дата устранения** - указывается дата, до которой нужно отработать замечание
@@ -144,19 +144,19 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 Для создания замечаний откройте файл модели через **Forge Viewer** и в правой части экрана нажмите
 
-![image-1703763431065.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbbmj5wK332QSQFScqdVVZcKKDgiZoEnZkOVtj30Owl625o8xdi90rbdyYOH-g2DKD3KQAqQIuxWXv-5nfHmJvnLsttqTiF3iyYnUyOHXhF1bDi3y8RS2LLeMOANb7DWLWshTfGwNTXI8t6DZ42Q?key=cnL3kvpEZPujFMNQA9w79A)
+![image-1703763431065.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbbmj5wK332QSQFScqdVVZcKKDgiZoEnZkOVtj30Owl625o8xdi90rbdyYOH-g2DKD3KQAqQIuxWXv-5nfHmJvnLsttqTiF3iyYnUyOHXhF1bDi3y8RS2LLeMOANb7DWLWshTfGwNTXI8t6DZ42Q?key=cnL3kvpEZPujFMNQA9w79A )
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHC0Yta5CQrjIyVHGVnJbMWEB22kWoohWIwDN7BftDcTsz1a1pTXmzBIPrLsIDXwUtAYBzuyaJndMyamKCpJrEFUutT3jx4-fuKud08GlY6r0YYrYpYv_32Yqma5xZ5Vh3CItIXuNqFidDSUngtQ?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHC0Yta5CQrjIyVHGVnJbMWEB22kWoohWIwDN7BftDcTsz1a1pTXmzBIPrLsIDXwUtAYBzuyaJndMyamKCpJrEFUutT3jx4-fuKud08GlY6r0YYrYpYv_32Yqma5xZ5Vh3CItIXuNqFidDSUngtQ?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 Заполните поля, при необходимости, выберите один или несколько элементов(через Ctrl),к которым будет привязано замечание, нажмите сохранить выбор. После этого ID элементов отобразятся в теле замечания. Выделить элементы в модели, можно нажав на
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-CJu_PMwjdfvt69RbGW3WwEE5ImCbLMWsh8dMyfjZchgUv3VHOFWDorjc_tZ4uwZYhwVoSUjrOpTdfYwKyL4P3TV2ngCYzwxrvzDwiyoI9lacwccOEZNDWzihhXHUhkIyh_ZGY_XZj6WR-Ua0ZA?key=cnL3kvpEZPujFMNQA9w79A)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXedrCn_fUBhU8eWD0u91_90qXq0G8rhngnKupG8oopGfj8W77JV-vziIy7J2V6vhvJy2pfYM9HAqimA2VAaBXxuVIxg2dDtCR-yKhLd-ffo6R94_uygnHTpXuEWvvZJ1tB3Iha5AT5V9I8qo91DVw?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXedrCn_fUBhU8eWD0u91_90qXq0G8rhngnKupG8oopGfj8W77JV-vziIy7J2V6vhvJy2pfYM9HAqimA2VAaBXxuVIxg2dDtCR-yKhLd-ffo6R94_uygnHTpXuEWvvZJ1tB3Iha5AT5V9I8qo91DVw?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 Помимо привязки замечания к элементам, есть возможность сделать пометки на виде. Для этого нажмите 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcraMESf-Z9x9xJ4JRuL3mAGZNZA2Q8cM_Qyun8bQt7ZybC2VFcm94el7Gfm1xS6z3FjL-9In0ffrI0axQQGfo-wSEzJBOXFWUnQlyHxEDyIHEqtqCO8yZQ_PbApwVIK-Q?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcraMESf-Z9x9xJ4JRuL3mAGZNZA2Q8cM_Qyun8bQt7ZybC2VFcm94el7Gfm1xS6z3FjL-9In0ffrI0axQQGfo-wSEzJBOXFWUnQlyHxEDyIHEqtqCO8yZQ_PbApwVIK-Q?key=cnL3kvpEZPujFMNQA9w79A )
 
  на преднастроенном виде и сделайте пометки. Пометка с изображением вида появится во вложенных файлах к замечанию.
 
@@ -166,11 +166,11 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 ![image-1703763431065.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnfw1os8wo_h0Ufd9esJajUVpP3V5w-VneOS4ZgxqCCQlFx5e9kvyu4stppiCrEKk8TcYS9YDtaE0xN6KscFycZv0TTV3UxhexT6FRR0XdGnAlnzYHplI8oAzReyayDbjHsh6qx4tT7cBIa1FGoA?key=cnL3kvpEZPujFMNQA9w79A)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcu5ZUT--hEyPUvqMBKp5-63T-TDFgczYI9cmGzb1rpa7VguPPXkew5LEPOubwiExe7Ju2A_FWkdChnnDsmyKIFHmKjWjvX5Kc28oDYQhWB-3XIFWnxE7DksHOA41aE_wxaKa0CV8Tb-UQvFMaOWw?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcu5ZUT--hEyPUvqMBKp5-63T-TDFgczYI9cmGzb1rpa7VguPPXkew5LEPOubwiExe7Ju2A_FWkdChnnDsmyKIFHmKjWjvX5Kc28oDYQhWB-3XIFWnxE7DksHOA41aE_wxaKa0CV8Tb-UQvFMaOWw?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 Заполните поля замечания.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcn0LRls873mkIdy7_pFZjnj4-PDZ2bQai5zrerTq7_BdITO1cemYOLOpqFvDNpka_vq8afqP6mlQD4y8ZJ_hsucIQ1ucb_ycDT_rJu1eKxhS-gVfnij2VBLhRzMVexJUH9pvz4XhrGmJ8FND9dow?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcn0LRls873mkIdy7_pFZjnj4-PDZ2bQai5zrerTq7_BdITO1cemYOLOpqFvDNpka_vq8afqP6mlQD4y8ZJ_hsucIQ1ucb_ycDT_rJu1eKxhS-gVfnij2VBLhRzMVexJUH9pvz4XhrGmJ8FND9dow?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 ## 3. Реестр замечаний
 ###### 3. Реестр замечаний {#register}
@@ -180,7 +180,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
   
 Все созданные в проекте замечания хранятся в табличной форме разделе “Замечания”.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaYXenocwOnKZS5V4wYYLvb_zRlrMFrpuHg3J3XDgO04Xzr00Ni4yf9mqzxyJcHKwirXceYc1i9S4NdUCtjrseLtwu4gnPpStR-EUVcStcxKKff8TAgwpvjHDKD0IRiWS3af3jWyK1zJawMBoC?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaYXenocwOnKZS5V4wYYLvb_zRlrMFrpuHg3J3XDgO04Xzr00Ni4yf9mqzxyJcHKwirXceYc1i9S4NdUCtjrseLtwu4gnPpStR-EUVcStcxKKff8TAgwpvjHDKD0IRiWS3af3jWyK1zJawMBoC?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 В реестре отображается необходимая информация о замечаниях:
 
@@ -196,7 +196,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 Для просмотра и редактирования замечания, нажмите на строку замечания в реестре.
 
-![image-1703763690634.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeQ7bKSR--Pk_3C9fpC06UVic7TZo4EU_5pDG6IGBZI1yIxE10v5Hw4JntxIifFajzyuAds-r___pvQDJtMQGv3311sItdi9O-QhI7-5QvKyRk9j-g_QsAq-9esxGISHBMdWOHZOhNIB0r-LpqL5w?key=cnL3kvpEZPujFMNQA9w79A)
+![image-1703763690634.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeQ7bKSR--Pk_3C9fpC06UVic7TZo4EU_5pDG6IGBZI1yIxE10v5Hw4JntxIifFajzyuAds-r___pvQDJtMQGv3311sItdi9O-QhI7-5QvKyRk9j-g_QsAq-9esxGISHBMdWOHZOhNIB0r-LpqL5w?key=cnL3kvpEZPujFMNQA9w79A )
 
 Чтобы открыть документ, в котором создано замечание, нажмите на путь к файлу в поле “Документ”
 
@@ -210,11 +210,11 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 При экспорте в PDF открывается окно с настройками экспортируемых полей. Максимальное количество замечаний в одном файле ограничено 100 единицами.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpbx2Ujeo-wfM5Cfo888FKPHJ5cPtSrhf7sHWO0kkQA9pEQyDsWubPqMZbUjCcM_gStq8up5IkeZ2W4hGSGpL74A0ht_TivZoicXTrTrXsKk7FBjbefUh-x7FwfvMDaA?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpbx2Ujeo-wfM5Cfo888FKPHJ5cPtSrhf7sHWO0kkQA9pEQyDsWubPqMZbUjCcM_gStq8up5IkeZ2W4hGSGpL74A0ht_TivZoicXTrTrXsKk7FBjbefUh-x7FwfvMDaA?key=cnL3kvpEZPujFMNQA9w79A )
 
 Из реестра Excel есть возможность перейти к документу, в котором выдано замечание, нажав на файл.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqjzCT7pIOvIz2ViG_zAJRYbx94u3I9Af9JcucJfwwj8jGxUGKnN9X1OvVrSAvvfpdduVJrovpORRYqR5czu98I2pTK3dDqUQkdSUs9d0HIxEN0ckHWNY625wZFxV-c1XF7vqTzS7wL9pRHKak?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqjzCT7pIOvIz2ViG_zAJRYbx94u3I9Af9JcucJfwwj8jGxUGKnN9X1OvVrSAvvfpdduVJrovpORRYqR5czu98I2pTK3dDqUQkdSUs9d0HIxEN0ckHWNY625wZFxV-c1XF7vqTzS7wL9pRHKak?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 ### Пакетный перенос пометок между листами PDF
 
@@ -222,11 +222,11 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 Для того чтобы воспользоваться ей перейдите в файл и нажмите 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S8PZGrlXpvLJq4xidE_PlWPXxQUGYIZz-x1REEWk-Cv3vE8qSllPxgG18zpWy_Jz2X4ZLe6a5LUHD4tWnZgAvPUOWmKYqw-vZnzXRlPNF9UQa06xtA5HyQjK-qmSWeA?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S8PZGrlXpvLJq4xidE_PlWPXxQUGYIZz-x1REEWk-Cv3vE8qSllPxgG18zpWy_Jz2X4ZLe6a5LUHD4tWnZgAvPUOWmKYqw-vZnzXRlPNF9UQa06xtA5HyQjK-qmSWeA?key=cnL3kvpEZPujFMNQA9w79A )
 
   в левой верхней части экрана. Откроется окно перемещения пометок:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_fokjN9iWCaJINMK20qH_5gIgiVv_6JQN63Co0q6qNDUB3deb-FuytLt23z6ZCadW2seATk4tZvaAtqI-HzTgwDf7NGNLfoy1XcjMJ6aiqqhYRIltHZGgZRXLfntGPao?key=cnL3kvpEZPujFMNQA9w79A)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_fokjN9iWCaJINMK20qH_5gIgiVv_6JQN63Co0q6qNDUB3deb-FuytLt23z6ZCadW2seATk4tZvaAtqI-HzTgwDf7NGNLfoy1XcjMJ6aiqqhYRIltHZGgZRXLfntGPao?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
 1 - Выберите предыдущую версию файла, с корректным расположением пометок
 
