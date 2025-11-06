@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-06T12:18:21.435Z
+date: 2025-11-06T13:14:06.740Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -219,7 +219,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 По умолчанию для полей “Масштаб”, “Отступ” и “Размер” заполнены оптимальные значения для простановки штампа и QR. При необходимости замените данные значения.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeoKXsJa-XFsbJuPWRm18pk6osbBKp69YGmPqyKB_OiR1TVmeiZ11a7eAOB78v3RK4j38hvrqwJ2gNrUqMCuS8fejybfoRnV1NkAKG95pIUAXSqOeBNSss8fYV5zegVA8Q4dRbWd5GQsNwue7hRDw?key=WxzNGmtFs96UM_eMLcTLzg)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeoKXsJa-XFsbJuPWRm18pk6osbBKp69YGmPqyKB_OiR1TVmeiZ11a7eAOB78v3RK4j38hvrqwJ2gNrUqMCuS8fejybfoRnV1NkAKG95pIUAXSqOeBNSss8fYV5zegVA8Q4dRbWd5GQsNwue7hRDw?key=WxzNGmtFs96UM_eMLcTLzg =70%x)
 
 #### 3.5. Подписания
 
@@ -282,7 +282,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 Заполнить поля:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwRy6X5Nt0Jpq7AarP0E3wTTuhkmynE_wv7G6fHGQcj34y3Jv-DAIh8mfjnwUtgJBzG2MA_rXuyFVcS25KaeT2OntOaqLcPrCnV6FIbMQad2QRcj4wLtYF6ZwYBEzLBk5euOCMlzLKjucafGKhSQ?key=DMy4N3yohGr1J0s7rFEk7w)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwRy6X5Nt0Jpq7AarP0E3wTTuhkmynE_wv7G6fHGQcj34y3Jv-DAIh8mfjnwUtgJBzG2MA_rXuyFVcS25KaeT2OntOaqLcPrCnV6FIbMQad2QRcj4wLtYF6ZwYBEzLBk5euOCMlzLKjucafGKhSQ?key=DMy4N3yohGr1J0s7rFEk7w =70%x)
 
 Типы атрибутов:
 
@@ -334,7 +334,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
   **BIM-вьвюер**. Для просмотра 3D моделей в сервисе SIGNAL DOCS используются **Forge Viewer** и/или **Tangl Viewer**. Администратор проекта может выбрать, каким вьювером просматривать модели для каждого проекта
   **Forge Viewer** позволяет просмотреть следующие форматы файлов:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEPxyBT1yqLC3G6KS64ka2CneTJJDfysi6VXZwppvGZNM2k22YHOgXfhz-mdGsTnyCAo4b0KLuVgxlyruRwbnwvmo0VRFSqbja2kSVAfF7mao2GYZA1OpnVnKbrHlMZ1aGLKk-A-kbhHItcb__?key=mSlD0f1iO2mqCDbxSYrHzQ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEPxyBT1yqLC3G6KS64ka2CneTJJDfysi6VXZwppvGZNM2k22YHOgXfhz-mdGsTnyCAo4b0KLuVgxlyruRwbnwvmo0VRFSqbja2kSVAfF7mao2GYZA1OpnVnKbrHlMZ1aGLKk-A-kbhHItcb__?key=mSlD0f1iO2mqCDbxSYrHzQ =70%x)
   **Tangl Viewer** позволяет просмотреть IFC формат и RVT 
   
   #### 7.4 Клиент Tangl
@@ -497,14 +497,14 @@ dateCreated: 2025-09-09T08:02:36.643Z
 -   **Загрузка** - пользователи получают возможность загружать свои файлы в папку
 -   **Редактирование** - пользователи получают полный доступ на редактирование файлов в папке (удаление, переименование и т.д.)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcWQWZqiRxX7JS_D20YPLEFX7eV26pgTIHa7CeFRjB1lqkoocLLWfFkDwjHxHFt9suT83T5nc3DyxK7kv9WOPtZJPgEJ9JxOqgU8Ajc6ewir1BQCw9qH12RLgCGvhFvyJCXt1rHmbSD8C3skqHx?key=H_gsEk68-7fVudPNDTx0iQ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcWQWZqiRxX7JS_D20YPLEFX7eV26pgTIHa7CeFRjB1lqkoocLLWfFkDwjHxHFt9suT83T5nc3DyxK7kv9WOPtZJPgEJ9JxOqgU8Ajc6ewir1BQCw9qH12RLgCGvhFvyJCXt1rHmbSD8C3skqHx?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
 
 ### Способ 1. Настройки прав доступа в настройках
 1\. Перейдите в “Настройки” раздел “Права доступа”
 
 2\. Строками является папочная структура проекта. Колонки отвечают за уровень доступа. В ячейках выберите роли, в соответствии с их доступом к папкам
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHl7VFjffKFYIRlREV8BTxmfCPoGAkhhmozKYOe491o4mWV2y-vcIGucf0Pt10fW9rJRoJXHoMSZGDJS3iIYKJjbaPboEGG4GO_v-3_uSGZPBdlEVRG2KMp1EBx7aclAs?key=H_gsEk68-7fVudPNDTx0iQ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHl7VFjffKFYIRlREV8BTxmfCPoGAkhhmozKYOe491o4mWV2y-vcIGucf0Pt10fW9rJRoJXHoMSZGDJS3iIYKJjbaPboEGG4GO_v-3_uSGZPBdlEVRG2KMp1EBx7aclAs?key=H_gsEk68-7fVudPNDTx0iQ =80%x)
 
 
 ### Способ 2. Настройки прав доступа через папочную структуру
