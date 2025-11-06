@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2025-11-06T14:06:01.031Z
+date: 2025-11-06T14:06:56.830Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -127,7 +127,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 По умолчанию модели совмещаются по внутреннему началу, однако есть возможность дополнительно настроить координаты для каждой модели. Нажмите “Создать”
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemr0Ypqu73EotRJrlMzvGD8ah5XfP1HfBfGAH3t4TIWPJENUCgEZvOsYjmFIOauk7cNBguY8IvbN_NQNIZgkAfNvfHF-pTd9s4NeuJrv2bE2zgWpOypvh7D9S9wp42_A?key=Sq65MbBALlfgU7uhYqZ_IW0t =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemr0Ypqu73EotRJrlMzvGD8ah5XfP1HfBfGAH3t4TIWPJENUCgEZvOsYjmFIOauk7cNBguY8IvbN_NQNIZgkAfNvfHF-pTd9s4NeuJrv2bE2zgWpOypvh7D9S9wp42_A?key=Sq65MbBALlfgU7uhYqZ_IW0t =50%x)
 
 В просмотрщике будут доступны все функции выбранного вьювера.
 
@@ -149,7 +149,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 При необходимости, есть возможность для сравнения  выбрать другой файл, загруженный в систему SIGNAL DOCS.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUxYhLZtHFuuIbmGTwyL1yLLXJYtW5rTBUe8QYpXpiyRbLr_2BKtHvmyC_89z1Ux1aa2ervmWybHn6Uibrrq-50zada_osj0jiBozlGrH6x073iV8RHUZ9plY2gdReNS7G1dkGHNZV7jl-Q5A5?key=G5mC2kC-3FTUbBlnmOZq9Q =50%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUxYhLZtHFuuIbmGTwyL1yLLXJYtW5rTBUe8QYpXpiyRbLr_2BKtHvmyC_89z1Ux1aa2ervmWybHn6Uibrrq-50zada_osj0jiBozlGrH6x073iV8RHUZ9plY2gdReNS7G1dkGHNZV7jl-Q5A5?key=G5mC2kC-3FTUbBlnmOZq9Q =30%x)
 
 Откроется окно сравнения документов.
 
