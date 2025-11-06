@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2025-11-06T14:15:34.853Z
+date: 2025-11-06T14:16:22.753Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -76,7 +76,7 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe9wYqdtzmAuXvnq1pkwedPjzvUVAm5HBgNv-Xi-zZ3-gU0BtwBW7k2KG3VldSpS6fOG8VZe4af7PnWZofI5fMYzOZh82wXbHRW2OLzXxuggfZba_bgwmKFXmdrXgNE3qE?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxl_Qp67zJMU-tlqhTNdYYszFPYw7AiT9Fuij2ha33xUSlg1trEgdkVthFNlsq1R5mo3I3VPFdeAKHq-aDTbIqWmKZHoyxTE78dMXTLtSWZG6Vn1f4EoS8fKcfRQQ8EA?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxl_Qp67zJMU-tlqhTNdYYszFPYw7AiT9Fuij2ha33xUSlg1trEgdkVthFNlsq1R5mo3I3VPFdeAKHq-aDTbIqWmKZHoyxTE78dMXTLtSWZG6Vn1f4EoS8fKcfRQQ8EA?key=0w72pDhc1Q-bjFjEPHaI_2Sz =30%x)
 
 В сформированном и подписанном акте указаны:
 
@@ -86,7 +86,7 @@ dateCreated: 2025-09-09T12:28:36.555Z
 -   Размер каждого передаваемого файла  
     ЭЦП располагается в нижней части акта
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXek6XvxSKCTnm-n-Afaz5j0-VOuJmHEL5Z-LRpPrZUitdS4BHFKJW7srdEHLpkDaT_phyqlp5tt9ya_OWJs0vWym8tTkzbyaap_ypDhe0rzAn7Bp2vC8_LWjt5GEFcoNws?key=0w72pDhc1Q-bjFjEPHaI_2Sz =60%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXek6XvxSKCTnm-n-Afaz5j0-VOuJmHEL5Z-LRpPrZUitdS4BHFKJW7srdEHLpkDaT_phyqlp5tt9ya_OWJs0vWym8tTkzbyaap_ypDhe0rzAn7Bp2vC8_LWjt5GEFcoNws?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 ## 3. Отправка пакета передачи
 ###### 3. Отправка пакета передачи {#sending}
@@ -95,7 +95,7 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZ0G480s-wNKpN4XSzQqDjpSOoPu5980ceP86klJvMNTa1YSu7ice1pfy1lcrw3KpqsE8DiBk3-Q9aNrRg3LMXkhYGHRbZpL_IE0XlhyaMchhjpm4Y_3wWGI9msUKtUg?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyokRvS9skNIO0vX4hzocFQ_YqDvqA0NcjIzRaN9SW4MNBMthZIqfblYo6AVVIOb_hDVqDaK_wObr_8dAoVITR96gKuveYoa-HDZZcSXMRt9sKprvk82qqYd_j7j-9ewA?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyokRvS9skNIO0vX4hzocFQ_YqDvqA0NcjIzRaN9SW4MNBMthZIqfblYo6AVVIOb_hDVqDaK_wObr_8dAoVITR96gKuveYoa-HDZZcSXMRt9sKprvk82qqYd_j7j-9ewA?key=0w72pDhc1Q-bjFjEPHaI_2Sz =30%x)
 
 ## 4. Подписание пакета получателем
 ###### 4. Подписание пакета получателем {#recipientSigning}
