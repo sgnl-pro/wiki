@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-05T10:25:15.127Z
+date: 2025-11-06T07:58:32.797Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -116,7 +116,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_ZRf3qW1mz4RMSNokBNvsSngkO2XFE05EKKefWUmrSGkPZoWOhtMm3x5d4NgiTZ9Rlayur5JHwgpZWR208uOtM67X6ghXdYehubFMx7FeD8VlQIooTAwFyKvhr7NKpT9i6GQJCPPiy2MUtRU8EQ?key=DikC-fotJxKF9jvBMPQYCw)
 
-#### 1.3. Общие
+#### 1.2. Общие
 Для типа замечаний доступны следующие общие настройки:
 1. **Ответственный по умолчанию** — можно назначить роль или конкретного пользователя. В этом случае поле `Ответственный` в карточке замечания данного типа будет заполняться автоматически
 1. **Срок устранения по умолчанию** — при необходимости указывается количество дней на устранение замечания. Учитываются только рабочие дни согласно настроенному в проекте [календарю](https://wiki.sgnl.pro/ru/docs/admin/calendar). Итоговая дата будет сформирована по формуле `Дата создания замечания + Срок устранения по умолчанию`
@@ -128,7 +128,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![browser_17fkim1xnv.png](/sgnl_docs/docs_issues/browser_17fkim1xnv.png)
 
-#### 1.4. Атрибуты
+#### 1.3. Атрибуты
 Каждому типу замечания можно назначить атрибуты, в которых пользователь сможет указать дополнительную информацию по замечанию. Атрибуты добавляются из общего перечня, который настраивается для текущего проекта (см. далее **4. Атрибуты**).
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4bGFglUBagjMQDugWoNB93gjVQbGdIFwL1kvYZHaK20h7MEfc3yGHrYru75eFuXjTfG6Mecd_EV8tKiKV_G1xfZeHr5SXjpzi0ede4tIz10jFirl9BN7iQn_My6INJ9pgAk49rSFyAAqI3-FcgQ?key=DikC-fotJxKF9jvBMPQYCw)
