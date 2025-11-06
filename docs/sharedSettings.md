@@ -2,7 +2,7 @@
 title: DOCS. Публикация файлов
 description: 
 published: true
-date: 2025-11-01T11:56:17.885Z
+date: 2025-11-06T09:31:55.159Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:32:31.629Z
@@ -43,7 +43,9 @@ dateCreated: 2025-09-09T12:32:31.629Z
 </details>
   
 ----
-
+# Вкладки{.tabset}
+## 1. Публикация документов
+###### 1. Публикация документов {#publicdocuments}
 В сервисе SIGNAL DOCS есть возможность открыть общий доступ к любым файлам и папкам и делиться ими со всеми участниками строительного процесса, даже не имеющих аккаунта SIGNAL.
 
 1\. Чтобы открыть общий доступ для файла или папки нажмите ПКМ → Поделиться.
@@ -73,7 +75,16 @@ dateCreated: 2025-09-09T12:32:31.629Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9QUb-H29qhY9eWvRMxW_A4QGRsrOx-x3WCXEg24rPaaOtvHCrV00BJYpzdT-AhSMKkEXXxedpWe-I-xlE2d4BcWngeAd9EMStMmam0ZvvQtVP_DAyJ_V0ehfuGTDiqxc?key=jsauY7gtcpEA07Snv4NNyw)
 
-5\. Администратор проекта имеет доступ ко всем опубликованным ссылкам, хранящимся в табличной форме в разделе Публичные ссылки.
+  
+## 2. Публикация моделей (Простой просмотр)
+###### 2. Публикация моделей {#publicmodels}
+  В SIGNAL DOCS доступна публикация моделей формата NWD в упрощенном виде. По публичной ссылке будут доступны группы наборов для элементов, рулетка, отображение в 2D или 3D виде
+  
+  
+  
+## 3. Администрирование
+###### 3. Администрирование {#publicadmin}  
+  Администратор проекта имеет доступ ко всем опубликованным ссылкам, хранящимся в табличной форме в разделе Публичные ссылки.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyYgH5wNi8b1g7QVwSieYcefqhlAH5yhLAAODneC6s7FATz_iGMZKX3roF_rZVRTqeGx0yOCq6ts6uukDUSRpZcnOZfOTKAFWkjYsxPu154yDnl5G0Yql88ZBZ49YdEAo?key=jsauY7gtcpEA07Snv4NNyw)
 
@@ -84,6 +95,5 @@ dateCreated: 2025-09-09T12:32:31.629Z
 -   Ссылка на опубликованный файл или папку, которую можно скопировать или удалить, тем самым отключить общий доступ;
 -   Кем добавлена ссылка;
 -   Дата, когда была добавлена ссылка.
-
 #
 <sub>**[<   DOCS. Передача](/ru/docs/documentsTransfers)     **|**     [DOCS. Уведомления   >](/ru/docs/notifications)**</sub>
