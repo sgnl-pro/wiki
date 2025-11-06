@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-06T13:14:06.740Z
+date: 2025-11-06T13:16:44.008Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -219,7 +219,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 По умолчанию для полей “Масштаб”, “Отступ” и “Размер” заполнены оптимальные значения для простановки штампа и QR. При необходимости замените данные значения.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeoKXsJa-XFsbJuPWRm18pk6osbBKp69YGmPqyKB_OiR1TVmeiZ11a7eAOB78v3RK4j38hvrqwJ2gNrUqMCuS8fejybfoRnV1NkAKG95pIUAXSqOeBNSss8fYV5zegVA8Q4dRbWd5GQsNwue7hRDw?key=WxzNGmtFs96UM_eMLcTLzg =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeoKXsJa-XFsbJuPWRm18pk6osbBKp69YGmPqyKB_OiR1TVmeiZ11a7eAOB78v3RK4j38hvrqwJ2gNrUqMCuS8fejybfoRnV1NkAKG95pIUAXSqOeBNSss8fYV5zegVA8Q4dRbWd5GQsNwue7hRDw?key=WxzNGmtFs96UM_eMLcTLzg =50%x)
 
 #### 3.5. Подписания
 
