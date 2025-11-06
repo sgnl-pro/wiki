@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2025-11-01T11:52:38.112Z
+date: 2025-11-06T08:00:26.211Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -125,7 +125,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 В окне создания сборки введите “Название”, выберите исходную папку, в которой хранятся модели и выберите модели, которые необходимо включить в сборку.
 
-По умолчанию модели прикрепятся к сборке по общим координатам, однако есть возможность дополнительно настроить координаты для каждой модели. Нажмите “Создать”
+По умолчанию модели совмещаются по внутреннему началу, однако есть возможность дополнительно настроить координаты для каждой модели. Нажмите “Создать”
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemr0Ypqu73EotRJrlMzvGD8ah5XfP1HfBfGAH3t4TIWPJENUCgEZvOsYjmFIOauk7cNBguY8IvbN_NQNIZgkAfNvfHF-pTd9s4NeuJrv2bE2zgWpOypvh7D9S9wp42_A?key=Sq65MbBALlfgU7uhYqZ_IW0t)
 
