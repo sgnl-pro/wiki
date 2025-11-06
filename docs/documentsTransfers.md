@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2025-10-24T07:51:41.779Z
+date: 2025-11-06T14:15:01.332Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -53,30 +53,30 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 Нажмите +, заполните шифр и название пакета передачи
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXmKGWo5d8IIWJ2auxxL3b_3AsVeFx4A-G_PKFBrvI-6OMH4yFLvK0Rc7igWOryNtGw5qM9ptF6Gb3wPtmug2cGHnH6-xDItrlxocrotTALL_Z-nPS9hoPzOkPfCG-J9w?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXmKGWo5d8IIWJ2auxxL3b_3AsVeFx4A-G_PKFBrvI-6OMH4yFLvK0Rc7igWOryNtGw5qM9ptF6Gb3wPtmug2cGHnH6-xDItrlxocrotTALL_Z-nPS9hoPzOkPfCG-J9w?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 Добавьте необходимые для передачи файлы и нажмите “Сформировать”
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd8OzzzOntjWu5PFmZhPC2O-g2kNlvN7Bh8GQ2bf-jhC8nlbthgAzSIJHxq2Xcbm0qyVJVcv5pulj1smIcT9PzfC8TU2nIBY21jOKO7VOq6Kgi-Uf-NWptGNGxDe-8o5-Y?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd8OzzzOntjWu5PFmZhPC2O-g2kNlvN7Bh8GQ2bf-jhC8nlbthgAzSIJHxq2Xcbm0qyVJVcv5pulj1smIcT9PzfC8TU2nIBY21jOKO7VOq6Kgi-Uf-NWptGNGxDe-8o5-Y?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
 Файлы также можно добавить прямо из файлового хранилища. Для этого выберите нужные файлы и нажмите “Сформировать пакет передачи”
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4b3cTCimEm0QEDyidcP_Uu-Sbl0PJN4-2gef3tbgLr7XDrdn-pM3ZYKikw6wrysGRoGPN--65jSkyuMqumTP57kOKnWeqRZ40MZLn-7IDbDJHMCJF8zr_e42bdFf2PVw?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4b3cTCimEm0QEDyidcP_Uu-Sbl0PJN4-2gef3tbgLr7XDrdn-pM3ZYKikw6wrysGRoGPN--65jSkyuMqumTP57kOKnWeqRZ40MZLn-7IDbDJHMCJF8zr_e42bdFf2PVw?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0HpfUvOIi4fT_Xzd5l9D91aOQnhoGfCkn_Ym6iVXdPp3eqn_Zq-nHax0pMQ90AuUC12HTlwL8sZsYGcyUUMsRN5NLU3gkFZCOZqFgvBEmLtESZ9jNfCZxeJL-dMOWuhU?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0HpfUvOIi4fT_Xzd5l9D91aOQnhoGfCkn_Ym6iVXdPp3eqn_Zq-nHax0pMQ90AuUC12HTlwL8sZsYGcyUUMsRN5NLU3gkFZCOZqFgvBEmLtESZ9jNfCZxeJL-dMOWuhU?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 Заполните компанию отправителя и компанию получателя
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5GGcN93VHb2YEmjo-pdeeYj19omPEouhZs3nODQd6YUAViL9rjFGENJRklHy0vhGYjTET4CLapirQUEkMKEj8nfJsMA7o1gbW1Qob-O2lQHBrWaf_VGXNtL9tWTlUI0g?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5GGcN93VHb2YEmjo-pdeeYj19omPEouhZs3nODQd6YUAViL9rjFGENJRklHy0vhGYjTET4CLapirQUEkMKEj8nfJsMA7o1gbW1Qob-O2lQHBrWaf_VGXNtL9tWTlUI0g?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 ## 2. Подписание пакета отправителем
 ###### 2. Подписание пакета отправителем {#senderSigning}
   
 Следующим этапом является подписание акта приема-передачи со стороны отправителя. Нажмите “Подписать” и выберите свою подпись. (Для того, чтобы ваша подпись появилась в выпадающем списке вам нужны: флешка с подписью, установленный плагин [_CryptoPro_](https://www.cryptopro.ru/) и установленные сертификаты электронной подписи) 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe9wYqdtzmAuXvnq1pkwedPjzvUVAm5HBgNv-Xi-zZ3-gU0BtwBW7k2KG3VldSpS6fOG8VZe4af7PnWZofI5fMYzOZh82wXbHRW2OLzXxuggfZba_bgwmKFXmdrXgNE3qE?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe9wYqdtzmAuXvnq1pkwedPjzvUVAm5HBgNv-Xi-zZ3-gU0BtwBW7k2KG3VldSpS6fOG8VZe4af7PnWZofI5fMYzOZh82wXbHRW2OLzXxuggfZba_bgwmKFXmdrXgNE3qE?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxl_Qp67zJMU-tlqhTNdYYszFPYw7AiT9Fuij2ha33xUSlg1trEgdkVthFNlsq1R5mo3I3VPFdeAKHq-aDTbIqWmKZHoyxTE78dMXTLtSWZG6Vn1f4EoS8fKcfRQQ8EA?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxl_Qp67zJMU-tlqhTNdYYszFPYw7AiT9Fuij2ha33xUSlg1trEgdkVthFNlsq1R5mo3I3VPFdeAKHq-aDTbIqWmKZHoyxTE78dMXTLtSWZG6Vn1f4EoS8fKcfRQQ8EA?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 В сформированном и подписанном акте указаны:
 
@@ -86,32 +86,32 @@ dateCreated: 2025-09-09T12:28:36.555Z
 -   Размер каждого передаваемого файла  
     ЭЦП располагается в нижней части акта
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXek6XvxSKCTnm-n-Afaz5j0-VOuJmHEL5Z-LRpPrZUitdS4BHFKJW7srdEHLpkDaT_phyqlp5tt9ya_OWJs0vWym8tTkzbyaap_ypDhe0rzAn7Bp2vC8_LWjt5GEFcoNws?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXek6XvxSKCTnm-n-Afaz5j0-VOuJmHEL5Z-LRpPrZUitdS4BHFKJW7srdEHLpkDaT_phyqlp5tt9ya_OWJs0vWym8tTkzbyaap_ypDhe0rzAn7Bp2vC8_LWjt5GEFcoNws?key=0w72pDhc1Q-bjFjEPHaI_2Sz =60%x)
 
 ## 3. Отправка пакета передачи
 ###### 3. Отправка пакета передачи {#sending}
   
 Следующим этапом является отправка пакета передачи с подписанным актом получателю. Нажмите “Отправить” и выберите получателя - пользователя в проекте с учетной записью SIGNAL
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZ0G480s-wNKpN4XSzQqDjpSOoPu5980ceP86klJvMNTa1YSu7ice1pfy1lcrw3KpqsE8DiBk3-Q9aNrRg3LMXkhYGHRbZpL_IE0XlhyaMchhjpm4Y_3wWGI9msUKtUg?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZ0G480s-wNKpN4XSzQqDjpSOoPu5980ceP86klJvMNTa1YSu7ice1pfy1lcrw3KpqsE8DiBk3-Q9aNrRg3LMXkhYGHRbZpL_IE0XlhyaMchhjpm4Y_3wWGI9msUKtUg?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyokRvS9skNIO0vX4hzocFQ_YqDvqA0NcjIzRaN9SW4MNBMthZIqfblYo6AVVIOb_hDVqDaK_wObr_8dAoVITR96gKuveYoa-HDZZcSXMRt9sKprvk82qqYd_j7j-9ewA?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyokRvS9skNIO0vX4hzocFQ_YqDvqA0NcjIzRaN9SW4MNBMthZIqfblYo6AVVIOb_hDVqDaK_wObr_8dAoVITR96gKuveYoa-HDZZcSXMRt9sKprvk82qqYd_j7j-9ewA?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 ## 4. Подписание пакета получателем
 ###### 4. Подписание пакета получателем {#recipientSigning}
   
 Отправителю придет уведомление на почту со ссылкой на отправленный акт передачи. Следующим шагом будет ознакомление с актом приема-передачи и его подписание ЭЦП получателя. На данном шаге получатель не может скачать файлы, пока не подпишет или не отклонит акт
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWFYqRMl8VzgylrNzBJliU7fzbza-IzZIpHSVXhnwKa5C5uD6STQJlbopekVm7V8mPw0ejZGyoL9vIKAcJarQEZCA5KU7Ir-lGnCh92NejlrzLKUigxN3OFrwcITjCP1E?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWFYqRMl8VzgylrNzBJliU7fzbza-IzZIpHSVXhnwKa5C5uD6STQJlbopekVm7V8mPw0ejZGyoL9vIKAcJarQEZCA5KU7Ir-lGnCh92NejlrzLKUigxN3OFrwcITjCP1E?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcW37XRbTqAyOl_F1vHX3yoW1N2zsVUPlIBPLfGR2p-sr2KGdFNJzEUsp7Fzbkhf-BDIPytcnAI0j1mo_R5as7lCqh42Nr1DNI2nF32OXBiyxBKlBqp3qSbU8Z2gqYx4CM?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcW37XRbTqAyOl_F1vHX3yoW1N2zsVUPlIBPLfGR2p-sr2KGdFNJzEUsp7Fzbkhf-BDIPytcnAI0j1mo_R5as7lCqh42Nr1DNI2nF32OXBiyxBKlBqp3qSbU8Z2gqYx4CM?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 ## 5. Скачивание отправленной документации
 ###### 5. Скачивание отправленной документации {#downloading}
   
 Последним этапом является скачивание отправленной документации. Нажмите на скачать и получите архив с файлами пакета и актом приема передачи:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbgsmvdvensFoiI__T5-jGU-sPjNDpvQ5-rKG6CIlCk4j_S2lJBTWyGaTWVpH5scOyAORM4IvCmAzJu6GUc95BrZSEO9SC0B7eKwgbXsd1SNvGBbL8De-7Tw7HaGn4hS4?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbgsmvdvensFoiI__T5-jGU-sPjNDpvQ5-rKG6CIlCk4j_S2lJBTWyGaTWVpH5scOyAORM4IvCmAzJu6GUc95BrZSEO9SC0B7eKwgbXsd1SNvGBbL8De-7Tw7HaGn4hS4?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
 ## 6. Администрирование
 ###### 6. Администрирование {#admin}
