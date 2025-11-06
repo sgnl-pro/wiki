@@ -2,13 +2,13 @@
 title: HUB. Введение
 description: 
 published: true
-date: 2025-11-01T11:59:47.955Z
+date: 2025-11-06T15:00:00.363Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T16:50:10.735Z
 ---
 
-<sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Администратор   >](/ru/hub/admin)**</sub>
+<sub>**[<   SIGNAL. Публичный API](/ru/general/api)     **|**     [HUB. Администратор   >](/ru/hub/admin)**</sub>
 
 <details>
 <summary>Что нового</summary>
@@ -52,4 +52,4 @@ dateCreated: 2025-06-24T16:50:10.735Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfTY75oKWEB7SrkuuZXe8fSoFfF8QQReiZoqOGB7yLJa9e2tl1BSatRAjBI_t4sNBZcvVqwTUlGbBqyiQSvb941orzC2Ie-NDqY2NdJfmyESSS9kFc4CeyTTnMGv4_jhqea47vZwFJ_y1X4G3lFW6tS-5s?key=qA_rPwevXHo6Xnot-JrtBg)
 
 #
-<sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Администратор   >](/ru/hub/admin)**</sub>
+<sub>**[<   SIGNAL. Публичный API](/ru/general/api)     **|**     [HUB. Администратор   >](/ru/hub/admin)**</sub>
