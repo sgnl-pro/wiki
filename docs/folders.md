@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:20:55.726Z
+date: 2025-11-06T13:21:36.631Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -147,27 +147,27 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 Для этого необходимо нажать на точки рядом с папкой и выбрать “Подписаться на обновления”.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpcKamdv4nOnzaBLvffcUoJok_r4Yp-lHZosKjpm-0OsbHJJ9SzHjg5YQbmMPeTdshmSTHdf4guS6vKQSJCZqydZp69cBYqk9xY9M-KvJ7NwK7B_24DFCVQElHcM9OZED83Ah7vhZkWQjKgKCy6A?key=65JISIEEZuq7xiFiea2Chg =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpcKamdv4nOnzaBLvffcUoJok_r4Yp-lHZosKjpm-0OsbHJJ9SzHjg5YQbmMPeTdshmSTHdf4guS6vKQSJCZqydZp69cBYqk9xY9M-KvJ7NwK7B_24DFCVQElHcM9OZED83Ah7vhZkWQjKgKCy6A?key=65JISIEEZuq7xiFiea2Chg =50%x)
 
 Пример оповещения на электронную почту.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAyERvnhUGTp_W-Zn5bKNTgz6X0mWtAi9WW5_mUU0Vup6rUCpt_feXQCDqKBi-pnCx0--gkUk5CaApUImJql4ACGzcLbckYIFH34ZH0N5wfaPL7QUO-r49QUwZCegu9_6HFgZzq8E4k76iqX60Bg?key=65JISIEEZuq7xiFiea2Chg =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAyERvnhUGTp_W-Zn5bKNTgz6X0mWtAi9WW5_mUU0Vup6rUCpt_feXQCDqKBi-pnCx0--gkUk5CaApUImJql4ACGzcLbckYIFH34ZH0N5wfaPL7QUO-r49QUwZCegu9_6HFgZzq8E4k76iqX60Bg?key=65JISIEEZuq7xiFiea2Chg =50%x)
 
 Отписаться от оповещений можно либо перейдя по ссылке из письма, либо через настройки.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegUi1J6uosjf-6CFIXbLJVi3HfsosFQTUXyOd6S4Mz3GN3_xEQ6tBSLzcQQKtZrHqHsNDyGd4sPLMxUzUEzNNxC-Xi6q4tYb8_Ig2oZlSUG2tPNEcT8oKXKJhjETUYS3y1J_rDZAFq4SHtZPSkjQ?key=65JISIEEZuq7xiFiea2Chg =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegUi1J6uosjf-6CFIXbLJVi3HfsosFQTUXyOd6S4Mz3GN3_xEQ6tBSLzcQQKtZrHqHsNDyGd4sPLMxUzUEzNNxC-Xi6q4tYb8_Ig2oZlSUG2tPNEcT8oKXKJhjETUYS3y1J_rDZAFq4SHtZPSkjQ?key=65JISIEEZuq7xiFiea2Chg =50%x)
 
 Администратор проекта может подписать роль на папку для получения уведомлений об изменениях, которые произойдут в папке.
 
 Для этого нажмите три точки → Настроить подписки → Добавить роль.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdE1kn64fXTNFcBeNMBZBK9_fQLVjFg7Q3FTivUmWmh5X3NZE8ecDEzqJk8rvLZYcWkfebYUkC8E_iqdE-P9m2XO6dvgJPRF9Hz8c34CFLZcmbz_dwNti0OgzTazsQxW97sy0uKYmI4tQz5hh4nfA?key=PUlaMCJy-5A3womcIShAzw =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdE1kn64fXTNFcBeNMBZBK9_fQLVjFg7Q3FTivUmWmh5X3NZE8ecDEzqJk8rvLZYcWkfebYUkC8E_iqdE-P9m2XO6dvgJPRF9Hz8c34CFLZcmbz_dwNti0OgzTazsQxW97sy0uKYmI4tQz5hh4nfA?key=PUlaMCJy-5A3womcIShAzw =50%x)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FOrh-haW5InO-zWnGBL-j8xQUoZVAI8di2z8tWzA_JKQBqhGV5-bLQsRML_ewhNZXfIq6GLPryvuWtg86izBQxWx3yLKwMr5eMBhFmScN3SZn7hD0CHJMauVn8vy-LxUzkbcccjElj3yhZauEQ?key=PUlaMCJy-5A3womcIShAzw =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FOrh-haW5InO-zWnGBL-j8xQUoZVAI8di2z8tWzA_JKQBqhGV5-bLQsRML_ewhNZXfIq6GLPryvuWtg86izBQxWx3yLKwMr5eMBhFmScN3SZn7hD0CHJMauVn8vy-LxUzkbcccjElj3yhZauEQ?key=PUlaMCJy-5A3womcIShAzw =50%x)
 
 Выберите роль из списка:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7pSmklginAsNNQKdIbweHOnxeO_sRDKM1bgMpoXk2YHMqrqCuxZZBYvNxsIFzyAEVBJI73XzXekS5t5-6nqR2O23fD4K6EkHv60DfMyPqBsQKEznCNG7rQNl2vpcUZvwlWkRK123kddh3I4Ee?key=PUlaMCJy-5A3womcIShAzw =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7pSmklginAsNNQKdIbweHOnxeO_sRDKM1bgMpoXk2YHMqrqCuxZZBYvNxsIFzyAEVBJI73XzXekS5t5-6nqR2O23fD4K6EkHv60DfMyPqBsQKEznCNG7rQNl2vpcUZvwlWkRK123kddh3I4Ee?key=PUlaMCJy-5A3womcIShAzw =50%x)
 
 ## 2. Добавление файлов
 ###### 2. Добавление файлов {#addingFiles}
