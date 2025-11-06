@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:20:12.472Z
+date: 2025-11-06T13:20:55.726Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -130,11 +130,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 2\. В открывшемся окне нажмите "Добавить". Далее из списка выберите пользователя или роль и нажмите "Добавить". В одной роли могут находится несколько пользователей, например, Проектировщики. ([_см. Создание ролей_](https://wiki.sgnl.pro/app/page/1r1t8jrSzalcZiX--SISO8z6o3Tip44qw3la-tdVA8Tc))
 
-![image-1686836287860.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclZQjOwLGQftSZz0O6KeCN1LA_jFZ8T-krB-pxiWHQvGTIpXnsxyctgSIDr4Cc8LBGUR2gFH6sW4ya4fmuDwoIp1y-sBWyOeKkOJvwviPKYvsvE9qh7o7ZWgWwznDjUhriLKZsdRgoJM-3hMLJUA?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
+![image-1686836287860.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclZQjOwLGQftSZz0O6KeCN1LA_jFZ8T-krB-pxiWHQvGTIpXnsxyctgSIDr4Cc8LBGUR2gFH6sW4ya4fmuDwoIp1y-sBWyOeKkOJvwviPKYvsvE9qh7o7ZWgWwznDjUhriLKZsdRgoJM-3hMLJUA?key=H_gsEk68-7fVudPNDTx0iQ =30%x)
 
 3\. После добавления пользователей задайте им определенные права доступа на папку в столбце ПРАВА.  При этом, подпапки наследуют права доступа родительской папки.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcD46F-1o9ZxKQej8WEvypKwyQUYfpuR2OIWefzxVscUmwrFECYle5S8bK2Rt-SUlQvpKEcofMZMyRuJa7BJl9lfm8fIDn44ExB6caDRQeCrDldkCZLl3BIaDB4vGe4AuNdwqZORPWmCZWup7eMiA?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcD46F-1o9ZxKQej8WEvypKwyQUYfpuR2OIWefzxVscUmwrFECYle5S8bK2Rt-SUlQvpKEcofMZMyRuJa7BJl9lfm8fIDn44ExB6caDRQeCrDldkCZLl3BIaDB4vGe4AuNdwqZORPWmCZWup7eMiA?key=H_gsEk68-7fVudPNDTx0iQ =30%x)
 
 ##### Способ 2. Настройки прав доступа в настройках
 > См. [DOCS. Настройки проекта → Права доступа](/ru/docs/settings)
