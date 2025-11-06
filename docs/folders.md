@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:21:36.631Z
+date: 2025-11-06T13:22:45.066Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -128,7 +128,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![image-1703239822471.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXevc6G-CtuEE30kxMvCVIAcJiV_gPmRKKCTSOofHU1nJmIv695-zqDs9xYgR0ztzhUmPFkjhB3bOSjm3B0dFEsWHryxJopA0zl9mJJar3XEVu0x5mux3WH2FJ6VWcd68PK0cpokaXN6yB3ytY-ecg?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
 
-2\. В открывшемся окне нажмите "Добавить". Далее из списка выберите пользователя или роль и нажмите "Добавить". В одной роли могут находится несколько пользователей, например, Проектировщики. ([_см. Создание ролей_](https://wiki.sgnl.pro/app/page/1r1t8jrSzalcZiX--SISO8z6o3Tip44qw3la-tdVA8Tc))
+2\. В открывшемся окне нажмите "Добавить". Далее из списка выберите пользователя или роль и нажмите "Добавить". В одной роли могут находится несколько пользователей, например, Проектировщики. ([_см. Создание ролей_]([admin](/hub/admin)))
 
 ![image-1686836287860.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclZQjOwLGQftSZz0O6KeCN1LA_jFZ8T-krB-pxiWHQvGTIpXnsxyctgSIDr4Cc8LBGUR2gFH6sW4ya4fmuDwoIp1y-sBWyOeKkOJvwviPKYvsvE9qh7o7ZWgWwznDjUhriLKZsdRgoJM-3hMLJUA?key=H_gsEk68-7fVudPNDTx0iQ =30%x)
 
