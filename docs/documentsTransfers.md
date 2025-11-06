@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2025-11-06T14:15:01.332Z
+date: 2025-11-06T14:15:34.853Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -49,7 +49,7 @@ dateCreated: 2025-09-09T12:28:36.555Z
   
 Для того, чтобы создать пакет передачи необходимо перейти во вкладку “Передача” в верхнем меню DOCS
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdBimHypOWwQJDMNl8rkAFULK5wOgqWWCGvdlTRr8rUYI9Yr6m0ExA1fKxzEbzuHCSV7-nZ57fkXwQaAuCn-vrTHHfdYmu44I7zoaDd7IqvHW001J92t2I7r78VQgXiwYg?key=0w72pDhc1Q-bjFjEPHaI_2Sz)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdBimHypOWwQJDMNl8rkAFULK5wOgqWWCGvdlTRr8rUYI9Yr6m0ExA1fKxzEbzuHCSV7-nZ57fkXwQaAuCn-vrTHHfdYmu44I7zoaDd7IqvHW001J92t2I7r78VQgXiwYg?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 Нажмите +, заполните шифр и название пакета передачи
 
