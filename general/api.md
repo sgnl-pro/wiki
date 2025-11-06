@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-06T14:53:09.140Z
+date: 2025-11-06T14:57:00.706Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -10,6 +10,22 @@ dateCreated: 2025-11-06T14:53:09.140Z
 
 <sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Введение   >](/ru/hub/intro)**</sub>
 
+<details>
+<summary>Что нового</summary>
+
+**[2025.34](/general/updates/2025-34)** ^06.11.2025^
+- Добавили методы получения согласований проекта.
+  
+**[2025.33](/general/updates/2025-33)** ^30.10.2025^
+- Добавили методы для работы с замечаниями, деревом папок (в том числе назначение доступов) и получения списка сотрудников и ролей.
+
+> Информация о более ранних обновлениях доступна в закрытом Telegam канале для пользователей SIGNAL. Для добавления **[обращайетесь в поддержку](/general/support)**.
+{.is-info}
+
+</details>  
+  
+----
+  
 **Документация**
 - Swagger: https://api.sgnl.pro/openapi/swagger/index.html
 - Redoc: https://api.sgnl.pro/openapi/redoc-v1/index.html
