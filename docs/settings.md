@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-06T08:44:44.650Z
+date: 2025-11-06T08:53:55.224Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -346,7 +346,12 @@ dateCreated: 2025-09-09T08:02:36.643Z
   
 > См. видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
-
+  
+  Для юридической значимости ЭЦП в SIGNAL DOCS есть возможность подкрепить машиночитаемые доверенности (МЧД) - это электронный документ в формате XML, который юридически подтверждает полномочия сотрудника действовать от имени организации.
+  Прикрепленные доверенности будут скачиваться вместе с подписанным ЭЦП документом
+  ![powerofattorney_main.png](/sgnl_docs/powerofattorney_main.png)
+1 — Добавить МЧД
+2 — Скачать МЧД
 ## 10. Права доступа
 ###### 10. Права доступа {#foldersPermissions}
 
