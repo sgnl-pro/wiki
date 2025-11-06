@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:26:28.832Z
+date: 2025-11-06T14:28:37.223Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -178,7 +178,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
   
 **Способ 1.** Для загрузки файлов можно воспользоваться “Перетаскиванием” файлов из проводника в SIGNAL DOCS.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfo6MBU1MgeiKod8WUnMo2xhPANg8QbpNg1svGtjzr5PBdBU2RWj1qgZlky7cZZ1VyOzrw04fk4CfxLV270saozf6dIAGTgAWYFCL0W6lDxwxPvXbg4zNzogCIQv3ytbuHNkx-AvdnZLOzkIXRGJQ?key=6Xw886XRITsgkPdRw22mAg)
+![example1_addfiles.gif](/sgnl_docs/docs_documents/example1_addfiles.gif)
 
 **Способ 2.** В нужной папке нажать “+”  → выбрать файл →  в открывшемся окне выбрать файл для загрузки.
 
