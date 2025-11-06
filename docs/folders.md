@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T14:28:37.223Z
+date: 2025-11-06T14:40:30.656Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -178,11 +178,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
   
 **Способ 1.** Для загрузки файлов можно воспользоваться “Перетаскиванием” файлов из проводника в SIGNAL DOCS.
 
-![example1_addfiles.gif](/sgnl_docs/docs_documents/example1_addfiles.gif)
+![addfiles_1.gif](/sgnl_docs/docs_documents/addfiles_1.gif)
 
 **Способ 2.** В нужной папке нажать “+”  → выбрать файл →  в открывшемся окне выбрать файл для загрузки.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd4QKsPg5pcfGwgKJpGb4GBYMnGFEZ8HvzvsDw6F1rj_EZApXFbDv_Z9lVzAQkjv0JEUhn_Q83qKObai71SkrEvXvKFSxfOZQPOTQOxyEavmcvwDW7rOyTpSgxEw3XSUgSxpvKdeKcpPKT8SU-Ghg?key=6Xw886XRITsgkPdRw22mAg)
+![addfiles_2.gif](/sgnl_docs/docs_documents/addfiles_2.gif)
 
 **Способ 3.** Если в системе уже загружен файл предыдущей версии, то загрузить следующую версию можно нажав ПКМ по файлу → Загрузить версию.
 
