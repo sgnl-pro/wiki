@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:24:54.860Z
+date: 2025-11-06T13:25:39.451Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -259,19 +259,19 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 1\. Чтобы подписать несколько документов, поставьте галочки напротив файлов и нажмите “Подписать”. Для подписания одного документа нажмите ПКМ →  Подписать.
 
-![image-1703238031496.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCcD4Ab_jUomozW60mWLCS2XUybMWootcWmuIW6czjBk-2zoVH8gDvwm8XpM_uQQo5ZngV4KP3T7HGMOmIa5EuxQqv-N-Qkn2S0mXG3iNAXIPcLJuh1C56l2o7aRhBiThFPIRgbF-_UyJm9hAu?key=1VkSydAD1I0iXDEgmMtMRw)
+![image-1703238031496.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCcD4Ab_jUomozW60mWLCS2XUybMWootcWmuIW6czjBk-2zoVH8gDvwm8XpM_uQQo5ZngV4KP3T7HGMOmIa5EuxQqv-N-Qkn2S0mXG3iNAXIPcLJuh1C56l2o7aRhBiThFPIRgbF-_UyJm9hAu?key=1VkSydAD1I0iXDEgmMtMRw =70%x)
 
 2\. Выберите нужный сертификат из списка, способ подписания (встроенная подпись доступна только для PDF файлов) и нажмите “Подписать”. Все выбранные файлы будут подписаны.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdNuK7k4Z4oAhrPFlDmPB-R3lB5Z7-WYmbRDvo8Vttr84D7oOswoBdiTB9H03w2DY_61jVciAqvRe6NtiZOhOo86C5WlofTwZIUer3XHlvyDYkhiVST1pBUH6b3ctxD71BxIkRnPUwM48ILIv2vQ?key=1VkSydAD1I0iXDEgmMtMRw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdNuK7k4Z4oAhrPFlDmPB-R3lB5Z7-WYmbRDvo8Vttr84D7oOswoBdiTB9H03w2DY_61jVciAqvRe6NtiZOhOo86C5WlofTwZIUer3XHlvyDYkhiVST1pBUH6b3ctxD71BxIkRnPUwM48ILIv2vQ?key=1VkSydAD1I0iXDEgmMtMRw =70%x)
 
 3\. Чтобы посмотреть подписи файла, нажмите иконку 
 
-![image-1703765550632.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0wEJitTYN_RFfWqdd0RlkcRqMNbmoTITXPmVDUvCI_lwoKSALOGUQZtGhEdnZ1hXhwBXN9_L3_ZDJFgyQQG-ysXmu6P8LkyoSBSoKfZWNc1GQh6NP4cVFlyLCRVFO-DcT1vUAVJSu1sssbMTe?key=1VkSydAD1I0iXDEgmMtMRw)
+![image-1703765550632.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0wEJitTYN_RFfWqdd0RlkcRqMNbmoTITXPmVDUvCI_lwoKSALOGUQZtGhEdnZ1hXhwBXN9_L3_ZDJFgyQQG-ysXmu6P8LkyoSBSoKfZWNc1GQh6NP4cVFlyLCRVFO-DcT1vUAVJSu1sssbMTe?key=1VkSydAD1I0iXDEgmMtMRw )
 
  в столбце “Подпись”. В открывшемся окне Вы можете скачать файл со всеми подписями или отдельную подпись каждого пользователя в формате SIG.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSfFTUDh0HkoWrULPbZqbi5U0ys1UV7pzXeeTvftsqJH-1y-tR5txr5HyMsaFawPzPsQKY_-EiPBktvhR5ZUhnCkarlwapMzF4DRi28E3owLI03WycxeXcBGaau5Ukyk72IArcQv_s1Q7OyGg64g?key=1VkSydAD1I0iXDEgmMtMRw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSfFTUDh0HkoWrULPbZqbi5U0ys1UV7pzXeeTvftsqJH-1y-tR5txr5HyMsaFawPzPsQKY_-EiPBktvhR5ZUhnCkarlwapMzF4DRi28E3owLI03WycxeXcBGaau5Ukyk72IArcQv_s1Q7OyGg64g?key=1VkSydAD1I0iXDEgmMtMRw =70%x)
   
 ## 6. Фильтрация
 #### 6. Фильтры {#Filters}
