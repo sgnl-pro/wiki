@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-06T13:25:39.451Z
+date: 2025-11-06T13:26:28.832Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -283,15 +283,15 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 При активации быстрого фильтра  отображаются файлы в выбранной папке, соответствующие запросу.
 
-![quick_filters.png](/sgnl_docs/docs_documents/quick_filters.png)
+![quick_filters.png](/sgnl_docs/docs_documents/quick_filters.png )
 
 Условные обозначения:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdl1qxRXYvWnau_9CTvQuQSIr55tuUG-7X1z1a8sFPvQGW4TmGa-DCTm5v7OUoeg7mbLN369-3Gf421oUKkvXaQ9pkrEt4-EpNlm8l1keIJfIyNDe1IXVsTYxhqhokkBWFOp32bOSjR7qqFR4gtFQ?key=Vis5mNfFGhcjlsBry-oKGw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdl1qxRXYvWnau_9CTvQuQSIr55tuUG-7X1z1a8sFPvQGW4TmGa-DCTm5v7OUoeg7mbLN369-3Gf421oUKkvXaQ9pkrEt4-EpNlm8l1keIJfIyNDe1IXVsTYxhqhokkBWFOp32bOSjR7qqFR4gtFQ?key=Vis5mNfFGhcjlsBry-oKGw =70%x)
 
 Фильтры по дня и по форматам можно использовать одновременно. Например, найти файлы формата PDF, загруженные за последнюю неделю.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSvKFz2UUSpqY4Fse4Owgit-POdvXcBT_KL78IUV2BK44prCTCv0wcohxuj0UUbcdAYPX5jmVeBQ1yiWU8_9n88RLC8702pnf3h6PVpqp5aqiJcOpLqpwoqIdgN0dTLpJxhUBN-BDxezv_IU83TA?key=Vis5mNfFGhcjlsBry-oKGw)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSvKFz2UUSpqY4Fse4Owgit-POdvXcBT_KL78IUV2BK44prCTCv0wcohxuj0UUbcdAYPX5jmVeBQ1yiWU8_9n88RLC8702pnf3h6PVpqp5aqiJcOpLqpwoqIdgN0dTLpJxhUBN-BDxezv_IU83TA?key=Vis5mNfFGhcjlsBry-oKGw =70%x)
 
 ## 7. Экспорт данных о файлах
 ###### 7. Экспорт данных о файлах {#export}
@@ -300,15 +300,15 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 Для экспорта данных перейдите в раздел документы, и в правом верхнем углу нажмите 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc9TsltLu2DO2dVWuZKilvc2LgqyygzW783VsCEXb_Gpc0jdMWhzxjQKErJYag-VrkFiqsMZ1nvlHrI0k5CUGUXRt04XyIXYIPyoM3RwqnrbfsYlG8ojZbMQhGQy1hE8A?key=3A7uOwmP0D1pvIhJPefBkZc9)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc9TsltLu2DO2dVWuZKilvc2LgqyygzW783VsCEXb_Gpc0jdMWhzxjQKErJYag-VrkFiqsMZ1nvlHrI0k5CUGUXRt04XyIXYIPyoM3RwqnrbfsYlG8ojZbMQhGQy1hE8A?key=3A7uOwmP0D1pvIhJPefBkZc9 )
 
  → Экспорт
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHE6zGoJSwiLu2f3AmYMS3uZ18yyGjj9x1YUW4-GFH0poaGuWCVh2XWEGpkeKMAil4Aw8tImaZNbXI2lC8VZspd58KMG4HpvnbJHoTZikM4Q0I4XKUfJ2QkFxmfmIQH7U?key=3A7uOwmP0D1pvIhJPefBkZc9)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHE6zGoJSwiLu2f3AmYMS3uZ18yyGjj9x1YUW4-GFH0poaGuWCVh2XWEGpkeKMAil4Aw8tImaZNbXI2lC8VZspd58KMG4HpvnbJHoTZikM4Q0I4XKUfJ2QkFxmfmIQH7U?key=3A7uOwmP0D1pvIhJPefBkZc9 =70%x)
 
 Результат:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhSwUMPiVcWkJcWpEdkky2Yx6j5pDWNlK1-gIiWQtjiLjE5N5bHlrTwweNxR0zzyQWdk0U2Bl8IGd_HFwDrsF1mJiqwx-725yCwWDFlC71NUj87UYQvLpNitdvr59TFJM?key=3A7uOwmP0D1pvIhJPefBkZc9)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhSwUMPiVcWkJcWpEdkky2Yx6j5pDWNlK1-gIiWQtjiLjE5N5bHlrTwweNxR0zzyQWdk0U2Bl8IGd_HFwDrsF1mJiqwx-725yCwWDFlC71NUj87UYQvLpNitdvr59TFJM?key=3A7uOwmP0D1pvIhJPefBkZc9 =70%x)
 
 ## 8. Корзина
 ###### 8. Корзина {#trash}  
@@ -317,11 +317,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 1\. Перейдите в папку, где был удален файл, и в нижнем левом углу нажмите “КОРЗИНА”
 
-![image-1691669998031.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcoDdoDh85FsNzrf_TDPbu8UK6cs8Rl2lM4HwJ3Ot5n5KE2RPFKtXcuBkZCmYj09uBG0XQVvL_iN9ioLbgLAwSia6MEERtyoWiQ_QKVzRaI_Ty4UnvXeC5TbI4MFXSNBFIgzH2_k3t7UPwaL5SoJw?key=4G6B2ISZ0ztQv4QGxaT-0w)
+![image-1691669998031.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcoDdoDh85FsNzrf_TDPbu8UK6cs8Rl2lM4HwJ3Ot5n5KE2RPFKtXcuBkZCmYj09uBG0XQVvL_iN9ioLbgLAwSia6MEERtyoWiQ_QKVzRaI_Ty4UnvXeC5TbI4MFXSNBFIgzH2_k3t7UPwaL5SoJw?key=4G6B2ISZ0ztQv4QGxaT-0w =70%x)
 
 2\. Появится список файлов, содержащихся в корзине, с информацией о том, кто и когда удалил файл. Для восстановления поставьте галочки напротив файлов и нажмите “Восстановить”. Для восстановления одного файла нажмите ПКМ ➤ Восстановить.
 
-![image-1711962151947.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcB1tIWMzu_j6fKQVrogfg9PGWuhoAJ_aodTC_Sn0Tvna8utkZgd-95HDNzQY8ntDuNXVwN9aTeDPntd0pfMtoiAKa_yyNeLs5SmT3YO8-Yd2Z2I3qZIx0pKdavk1mcqAlYVsZXcdKvORkHQimC?key=4G6B2ISZ0ztQv4QGxaT-0w)
+![image-1711962151947.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcB1tIWMzu_j6fKQVrogfg9PGWuhoAJ_aodTC_Sn0Tvna8utkZgd-95HDNzQY8ntDuNXVwN9aTeDPntd0pfMtoiAKa_yyNeLs5SmT3YO8-Yd2Z2I3qZIx0pKdavk1mcqAlYVsZXcdKvORkHQimC?key=4G6B2ISZ0ztQv4QGxaT-0w =70%x)
 
 3\. Для выхода из корзины снова нажмите “КОРЗИНА”
 
