@@ -2,7 +2,7 @@
 title: ОБЩИЕ СВЕДЕНИЯ
 description: 
 published: true
-date: 2025-09-25T17:46:25.776Z
+date: 2025-11-07T08:58:02.616Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-03T17:24:59.752Z
@@ -13,4 +13,5 @@ dateCreated: 2025-07-03T17:24:59.752Z
 - [Частые вопросы](/general/faq)
 - [Поддержка](/general/mission)
 - [Что нового](/general/updates)
+- [Публичный API](/general/api)
 {.links-list}
