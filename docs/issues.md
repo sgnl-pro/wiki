@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2025-11-06T15:09:22.653Z
+date: 2025-11-07T06:45:13.034Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -24,6 +24,10 @@ dateCreated: 2025-09-09T12:10:08.827Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.34](/general/updates/2025-34)** ^06.11.2025^
+:hammer_and_wrench: Исправили ошибку экспорта некоторых замечаний из реестра в PDF.
+  
 ----
 **[2025.33](/general/updates/2025-33)** ^30.10.2025^
 :sparkles: Добавили копирование замечаний со всеми настройками в пределах файла.
