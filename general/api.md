@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-06T15:07:52.467Z
+date: 2025-11-07T08:30:11.985Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -25,12 +25,17 @@ dateCreated: 2025-11-06T14:53:09.140Z
 </details>  
   
 ----
+
+# Вкладки{.tabset}
+## Документация
+###### Документация {#doc}
   
-**Документация**
 - Swagger: https://api.sgnl.pro/openapi/swagger/index.html
 - ReDoc: https://api.sgnl.pro/openapi/redoc-v1/index.html
   
-**Примеры**
+## Примеры
+###### Примеры {#examples}
+  
 - Авторизация:
 [GoogleScript](https://vkvideo.ru/video890470724_456239019)
 [IronPython](https://vkvideo.ru/video890470724_456239020)
@@ -42,5 +47,8 @@ dateCreated: 2025-11-06T14:53:09.140Z
 [Python](https://vkvideo.ru/video-230401166_456239019)
 
 - [Сбор аналитики в SIGNAL DOCS с помощью n8n](https://vkvideo.ru/video-230401166_456239023)
+  
+## Авторизация в Swagger
+###### Авторизация в Swagger {#swagger}
 
 <sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Введение   >](/ru/hub/intro)**</sub>
