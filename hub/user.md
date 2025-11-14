@@ -2,7 +2,7 @@
 title: HUB. Пользователь
 description: 
 published: true
-date: 2025-11-06T15:08:30.803Z
+date: 2025-11-14T09:48:09.430Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T17:30:45.102Z
@@ -23,6 +23,10 @@ dateCreated: 2025-06-24T17:30:45.102Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2025.35](/general/updates/2025-35)** ^13.11.2025^
+:hammer_and_wrench: Поправили отображение лупы при поиске в браузере Firefox.
   
 ----
 **[2025.33](/general/updates/2025-33)** ^30.10.2025^
