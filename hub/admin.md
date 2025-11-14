@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: true
-date: 2025-11-06T15:08:16.195Z
+date: 2025-11-14T09:47:50.483Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -26,6 +26,10 @@ dateCreated: 2025-06-24T16:53:52.277Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2025.35](/general/updates/2025-35)** ^13.11.2025^
+:hammer_and_wrench: Поправили отображение лупы при поиске в браузере Firefox.
   
 ----
 **[2025.32](/general/updates/2025-32)** ^23.10.2025^
