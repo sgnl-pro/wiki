@@ -2,7 +2,7 @@
 title: DASHBOARD. Отчеты
 description: 
 published: true
-date: 2025-11-14T12:56:08.904Z
+date: 2025-11-14T12:58:08.531Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
@@ -45,27 +45,6 @@ dateCreated: 2025-09-12T13:32:58.722Z
 # Вкладки{.tabset}
 ## 1. Отчет плановый по дате
   
-##### 1. Личный кабинет пользователя {#account}
-  
-
-Просмотр отчета с карточками осуществляется через web-браузер на ПК и с мобильного устройства по адресу [dash.sgnl.pro](https://dash.sgnl.pro/). Для доступа к личному кабинету потребуется учетная запись SIGNAL с лицензией DASHBOARD.
-
-Скачать мобильное приложение для устройств iOS или Android: [*https://dm.sgnl.pro*](https://dm.sgnl.pro/)​
-
-Пользователю доступен раздел “Отчет”, в котором отображаются опубликованные отчеты с карточками на выбранную дату. Некоторые карточки можно открывать, некоторые показывают информацию только на превью. С назначением всех карточек можно ознакомится в “Инструкции”.
-
-![image-1712754652578.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd3QtbLPDjwmHJJo08gU0VZXfSxnCraHT0nYmFzdgHE5ASlgnek_MrnA4NlnVAAdebsxeMxHYMg6z65sUW2NNbKKCHIAAqHVdGm_GoDSLTOf7msxbJBL6O_7edcOviiYbTLKLJYxmAoLAJLPPfMxw?key=HSbqruOFIt2wzvqHxDuU8w)
-
-Создание и редактирование карточек отчета осуществляется по адресу [*dash.sgnl.pro*](https://dash.sgnl.pro/) в разделе “Управление”. Для доступа к личному кабинету потребуется учетная запись SIGNAL с лицензией DASHBOARD.
-
-Добавление пользователей в проект и регулирование прав доступа на просмотр определенных проектов производится с помощью панели администратора [*SIGNAL HUB*](https://hub.sgnl.pro/).
-
-Вход в личный кабинет не отличается от пользовательского. Помимо раздела “Отчет” Администратору доступны разделы “Управление” и “Привязка”  для создания и настройки карточек.
-
-При первом открытии нового проекта будет предложено создать отчет - введите дату отчета и нажмите “Сохранить”.
-
-![image-1712754696224.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1gJTLG3qJYnJB3DMr7KAMw1REAeqtxUh_6Z9wVe8-AQDmL97oobTTVmKNoe2R9zZtb48Uxmzn5IDytvXSKRrZYpcDYQnxaNl4M9HORxALuEMhct8hXUaGqDP9nwmCme7JPXxm0BnldeFoJpUj3A?key=YVnb_sBMKLvgPwP_Ds1sxA)
-
 #### Создание плавного отчета
 
 Создание отчета выполняется в разделе “Управление”.
