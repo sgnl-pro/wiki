@@ -2,7 +2,7 @@
 title: DASHBOARD. Настройка проекта
 description: 
 published: true
-date: 2025-11-14T11:34:47.972Z
+date: 2025-11-14T11:36:05.533Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-14T11:33:22.397Z
@@ -119,12 +119,12 @@ dateCreated: 2025-11-14T11:33:22.397Z
   
 3\. Наполните отчет Google таблицы необходимыми карточками, располагая их на одном листе как в [шаблоне](https://docs.sgnl.pro/s/f/4d8f615a-27fd-4b1a-a631-c7529eb99f03/i/4b15b902-df5a-4795-b68b-50963eddf283?f=663dec15-0db0-4e70-b152-ceb803fe6ea6) или на разных. Нажмите "Копировать данные карточки", чтобы скопировать данные в буфер обмена. Перейдите в Google таблицы и через Ctrl+V вставьте данные.
 
-![image-1689148845399.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0kLL66Oi9Cy9Mqfbq0cuPaYoOLNlfiCp1MQn2zwr8-tAj_3ZCtq_p9e_nOUsSD6ft67PF74ymwiosoVPffw0LkIijxnb7_SpWRju3B8BTHafeAZ-nprm_21CWTGX5QT_f90GppbGmKLfdcwoFIg?key=fbjahmDVrqngiYxvm4q7FA =80%x)
+![image-1689148845399.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0kLL66Oi9Cy9Mqfbq0cuPaYoOLNlfiCp1MQn2zwr8-tAj_3ZCtq_p9e_nOUsSD6ft67PF74ymwiosoVPffw0LkIijxnb7_SpWRju3B8BTHafeAZ-nprm_21CWTGX5QT_f90GppbGmKLfdcwoFIg?key=fbjahmDVrqngiYxvm4q7FA =60%x)
 
 >При размещении карточек на одном листе следует располагать их горизонтально, а также не вставлять новую карточку поверх уже стоящей.
 {.is-warning}
   
-![image-1690179165516.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAiv4qX_O_s-qn06rcdEgWuDFUFw77PYgq2MWPd5LF_wWVAAUcf3wArW-iPqtwyvGgrtZSH-mJJYVTpm3HfaHTv4KojmhL7SnUbac-mRfTZFzX_Mcjj80Imuf1tEwPXY5Hg04ENclrykrzNi74Ww?key=fbjahmDVrqngiYxvm4q7FA)
+![image-1690179165516.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAiv4qX_O_s-qn06rcdEgWuDFUFw77PYgq2MWPd5LF_wWVAAUcf3wArW-iPqtwyvGgrtZSH-mJJYVTpm3HfaHTv4KojmhL7SnUbac-mRfTZFzX_Mcjj80Imuf1tEwPXY5Hg04ENclrykrzNi74Ww?key=fbjahmDVrqngiYxvm4q7FA =60%x)
 
 4\. Теперь необходимо создать диапазоны для карточек, придерживаясь правила: в один диапазон может входить только одна карточка.
 
