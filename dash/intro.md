@@ -1,8 +1,8 @@
 ---
-title: DASHBOARD. Введение
+title: DASHBOARD. Отчеты
 description: 
 published: true
-date: 2025-11-14T12:00:34.251Z
+date: 2025-11-14T12:56:08.904Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
@@ -43,36 +43,19 @@ dateCreated: 2025-09-12T13:32:58.722Z
   [SIGNAL DASHBOARD](dash.sgnl.pro) это личный кабинет руководителя, в котором выполняется отслеживание основных метрик по проектам. 
   Вся информация, ключевые цифры о ходе реализации проекта в кармане руководителя. Отображение строительной модели на смартфоне, расчёт темпов строительства и прогноза
 # Вкладки{.tabset}
-## 1. Личный кабинет пользователя
+## 1. Отчет плановый по дате
   
 ##### 1. Личный кабинет пользователя {#account}
   
-###### Доступ к личному кабинету
 
 Просмотр отчета с карточками осуществляется через web-браузер на ПК и с мобильного устройства по адресу [dash.sgnl.pro](https://dash.sgnl.pro/). Для доступа к личному кабинету потребуется учетная запись SIGNAL с лицензией DASHBOARD.
 
 Скачать мобильное приложение для устройств iOS или Android: [*https://dm.sgnl.pro*](https://dm.sgnl.pro/)​
 
-###### Вход в личный кабинет
-
-Перейдите в [*личный кабинет*](https://dash.sgnl.pro/), введите Ваши почту и пароль при регистрации, нажмите “Войти”.
-
-![image-1712754612616.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcUIoaCkMvM-FNstEDTxnBFrrXgmxToiU1U030jlslKb4rr6ae6DaeeLEuNlJLoIfdz73ymG0gMJ4cnC_J2SMuglecQOfMbAXWEyBsYh0RrQ1giTpSmC0uGHP-Gv0uCt1UhhVOD81lMH6ayMm-0Q?key=HSbqruOFIt2wzvqHxDuU8w)
-
-Выберите Компанию и откройте Проект из перечня доступных для пользователя. Для каждого проекта отображается краткая информация по его статусу, которая настраивается Администратором проекта.
-
-![image-1712754645100.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcrzOBa71gDFEJynB-WmgMIs_m8HoSnQqiNZcgvvh_Aa51ZvaIZ_Z9Ugu2yM8VVMY8zsC-hAXR-99OsFnO6aMZiVF2bmnJaEAG6PEa_9gQq_dqXjunnZEetRaCXthFCmveHHkz_36BvbsUcQVkjgg?key=HSbqruOFIt2wzvqHxDuU8w)
-
 Пользователю доступен раздел “Отчет”, в котором отображаются опубликованные отчеты с карточками на выбранную дату. Некоторые карточки можно открывать, некоторые показывают информацию только на превью. С назначением всех карточек можно ознакомится в “Инструкции”.
 
 ![image-1712754652578.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd3QtbLPDjwmHJJo08gU0VZXfSxnCraHT0nYmFzdgHE5ASlgnek_MrnA4NlnVAAdebsxeMxHYMg6z65sUW2NNbKKCHIAAqHVdGm_GoDSLTOf7msxbJBL6O_7edcOviiYbTLKLJYxmAoLAJLPPfMxw?key=HSbqruOFIt2wzvqHxDuU8w)
 
-## 2. Создание отчета
-###### 2. Создание отчета {#creating}
-  
-{#tab2}
-### Вкладки{.tabset}
-#### 2.1. Доступ к личному кабинету
 Создание и редактирование карточек отчета осуществляется по адресу [*dash.sgnl.pro*](https://dash.sgnl.pro/) в разделе “Управление”. Для доступа к личному кабинету потребуется учетная запись SIGNAL с лицензией DASHBOARD.
 
 Добавление пользователей в проект и регулирование прав доступа на просмотр определенных проектов производится с помощью панели администратора [*SIGNAL HUB*](https://hub.sgnl.pro/).
@@ -83,47 +66,7 @@ dateCreated: 2025-09-12T13:32:58.722Z
 
 ![image-1712754696224.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1gJTLG3qJYnJB3DMr7KAMw1REAeqtxUh_6Z9wVe8-AQDmL97oobTTVmKNoe2R9zZtb48Uxmzn5IDytvXSKRrZYpcDYQnxaNl4M9HORxALuEMhct8hXUaGqDP9nwmCme7JPXxm0BnldeFoJpUj3A?key=YVnb_sBMKLvgPwP_Ds1sxA)
 
-#### 2.2. Добавление карточек и групп
-{#tab2-2}
-  
-Добавление и редактирование карточек выполняется в разделе “Управление”.
-
-Сперва необходимо создать группу. С помощью групп можно разделить карточки на разные строительные разделы, локации и т.д., для удобной навигации по отчету.
-
-Для создания группы введите ее название, например, ОБЩИЕ ДАННЫЕ, и нажмите “+”.
-
-![image-1712754716772.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdckaovrdLK_O91OmYIrIfIAaiaRktfqv24Vkme6K0sqzlAsPxtzzq1F4fCqpDNSVyJenR9eys8LpnzrQ2n3gSrahj-b0T2L5qtcsoIA7Z-oiHiyeyZLpTb_OTlnJN6ipW5IT1Ela1otKM69fM?key=YVnb_sBMKLvgPwP_Ds1sxA)
-
-Редактирование группы:
-
-![image-1712754732264.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfkmxUf22FoKhz2pdmkX67bGwgBZfX12KEp1sAtovbLHwzwQtYG6RwVGPFo88ER36GqrdF5PYho8AujFNcK4iW_NcEPfhQg_WRtpT7Ezetp7vrXGL2q2EtloRXh4te1vHnbVeZVvGXsErUBdPNmzw?key=YVnb_sBMKLvgPwP_Ds1sxA)
-
-1.  Переименовать группу
-2.  Скрыть/Показать группу в разделе “Отчет”
-3.  Удалить группу
-4.  Переместить группу ниже
-5.  Переместить группу выше
-
-Для создания карточки нажмите “+” внутри группы.
-
-![image-1712754756014.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeCTluSgCivWS_bA_OWc_aAWbD6-PVnM5SLsTxDd0Sxpcccu3DGgCkzqf3oLAnhdIMsPlHS4IiZIhnvcvHgVFP64iSp8C6JQxdHLUkhWh8efPGLXL4YHow50XybobJU2QaqtHP-OBOWhd-yqnlRuQ?key=YVnb_sBMKLvgPwP_Ds1sxA)
-
-В открывшемся окне выберите из списка тип карточки и введите название карточки. Затем нажмите “Сохранить”. Подробно про каждую карточку описано в инструкции.
-
-![image-1712754770551.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeIJmWZmOQrRgPrhxvtgjARntXik0Zaz68aBLxOR-R6_SWkhblFiS5AL17__Iod76BJbMFfRy1KHmm3QgJGrDoVdb6r5iszNiDRUbmQJWr8VjQZchyzZSZymjqfupG0uvD3fiB1CvVlncR-57qIug?key=YVnb_sBMKLvgPwP_Ds1sxA)
-
-Редактирование карточки:
-
-![image-1719208672243.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXenc9S0zwWSVtLH9qgLqL4BwRdlRqvlipWM7RLYbhbrfIzEYldk9pW7wzcrUM8qDuUtADI6J06XzAv7BCpJM08c5wy9tngA_LXGdoAlLMzQ524x8GGqA2DHO9J3DjJrJguwXQ5Z-hV_7pAKGafPrw?key=YVnb_sBMKLvgPwP_Ds1sxA)
-
-1.  Переименовать карточку
-2.  Скрыть/Показать карточку в разделе “Отчет”
-3.  Удалить карточку
-4.  Переместить карточку в верхнюю группу
-5.  Переместить карточку вправо
-6.  Войти в режим редактирования карточки
-
-#### 2.3. Создание отчета
+#### Создание плавного отчета
 
 Создание отчета выполняется в разделе “Управление”.
 
@@ -135,14 +78,13 @@ dateCreated: 2025-09-12T13:32:58.722Z
 
 ![image-1712754814752.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdMC2JjxU06K-fTZD2GZBYiO_UBncFcAgOBjOwz6m1B1LgwDJMe9yHmWy35AL5xojkAWRP6Sjb5utaWsMqWI131iHfDVT3iBjwVJFt81PmfDVDOBJOGuGr0I_F30hMa47C53maqc6f3mYtyFkuD_g?key=YVnb_sBMKLvgPwP_Ds1sxA)
 
-#### 2.4. Публикация отчета
+#### Публикация отчета
 Еще не опубликованный отчет не доступен к просмотру для пользовател
 
 Еще не опубликованный отчет не доступен к просмотру для пользователей. Чтобы отчет стал доступен для пользователей необходимо опубликовать его в раздел “Отчет”. Для этого нажмите “Опубликовать отчет”. Ранее опубликованные отчеты остаются доступны для пользователей в разделе “Отчет”.
 
 ![image-1712754850337.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3EA7i6KOVkKDSeig60X1mjr7I11PfKJmP_ek7B0yyCr81PJIKhz-bwOj8N-ybW9kivMD6tMnc-edJstMsYMSujYqbcLPHPNTAEmxQENesy3VtCQ6YvUa43bo9AoBhelOanuIBGiSjyMu3SOdTzw?key=YVnb_sBMKLvgPwP_Ds1sxA)
 
-## 3. Обновление данных отчета
 ###### 3. Обновление данных отчета {#updating}
   
 >После создания нового отчета необходимо обновить данные по карточкам в соответствии с актуальной информацией по объекту.
