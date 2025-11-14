@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2025-11-07T06:37:16.087Z
+date: 2025-11-14T07:35:44.703Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -17,6 +17,8 @@ dateCreated: 2025-09-25T13:55:16.192Z
 {.is-info}
 ---
 
+- [Релиз 2025.35 *13.11.2025*](/general/updates/2025-35)
+<span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 - [Релиз 2025.34 *06.11.2025*](/general/updates/2025-34)
 <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 - [Релиз 2025.33 *30.10.2025*](/general/updates/2025-33)
