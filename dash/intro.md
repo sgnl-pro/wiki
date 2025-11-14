@@ -2,7 +2,7 @@
 title: DASHBOARD. Отчеты
 description: 
 published: true
-date: 2025-11-14T12:58:08.531Z
+date: 2025-11-14T13:04:07.729Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
@@ -156,6 +156,14 @@ dateCreated: 2025-09-12T13:32:58.722Z
 на самой карточке, чтобы синхронизировать данные одной карточки, или сверху напротив ссылки на Google-таблицу, для синхронизации всего отчета.
 
 ![image-1689148960852.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfG9n71VIjktr-L98p9lYa7MI8Fyrwzp1ra0kxcXxzKWSyWFy9HZ37XKtZX6iZi1LD4EBkT_P7gslc2S886sLChtnvleuPsXrnC4MBNmDS6sZJW73CbEMqdH4ugh5oTRoDhUEn43Wq6jQHRqvhWLg?key=fbjahmDVrqngiYxvm4q7FA)
+  
+  ## Онлайн отчет
+  
+  
+  ## Отчет компании
+  
+  
+  ## Отчет пользователя
   
 #
 <sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Карточки 10. Общие    >](/ru/dash/cards-10)**</sub>
