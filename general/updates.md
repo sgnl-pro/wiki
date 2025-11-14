@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2025-11-14T07:37:43.643Z
+date: 2025-11-14T09:39:38.577Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -16,8 +16,9 @@ dateCreated: 2025-09-25T13:55:16.192Z
 > Для пользователей SIGNAL также доступен Telegam канал с основными обновлениями. В нём же вы найдёте информацию о более ранних обновлениях. Для добавления **[обращайтесь в поддержку](/general/support)**
 {.is-info}
 ---
-
-**Ноябрь 2025**
+  
+<span style="font-size: 20px; font-weight: bold;">Ноябрь 2025</span>
+  
 - [Релиз 2025.35 *13.11.2025*](/general/updates/2025-35)
 <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 - [Релиз 2025.34 *06.11.2025*](/general/updates/2025-34)
@@ -26,7 +27,8 @@ dateCreated: 2025-09-25T13:55:16.192Z
 <span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">TOOLS</span>
 {.links-list}
 
-**Октябрь 2025**
+<span style="font-size: 20px; font-weight: bold;">Октябрь 2025</span>
+  
 - [Релиз 2025.32 *24.10.2025*](/general/updates/2025-32)
 <span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 - [Релиз 2025.31 *16.10.2025*](/general/updates/2025-31)
@@ -37,7 +39,8 @@ dateCreated: 2025-09-25T13:55:16.192Z
 <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 {.links-list}
 
-**Сентябрь 2025**
+<span style="font-size: 20px; font-weight: bold;">Сентябрь 2025</span>
+  
 - [Релиз 2025.28 *25.09.2025*](/general/updates/2025-28)
 <span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">TOOLS</span>
 - [Релиз 2025.27 *18.09.2025*](/general/updates/2025-27)
