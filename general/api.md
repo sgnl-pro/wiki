@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-07T08:52:51.723Z
+date: 2025-11-17T10:20:53.856Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -13,6 +13,9 @@ dateCreated: 2025-11-06T14:53:09.140Z
 <details>
 <summary>Что нового</summary>
 
+**[2025.35](/general/updates/2025-35)** ^13.11.2025^
+- Добавили методы получения атрибутов и их значений у замечаний.
+  
 **[2025.34](/general/updates/2025-34)** ^06.11.2025^
 - Добавили методы получения согласований проекта.
   
