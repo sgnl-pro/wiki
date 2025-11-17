@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-17T10:20:53.856Z
+date: 2025-11-17T10:21:15.228Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -66,7 +66,7 @@ dateCreated: 2025-11-06T14:53:09.140Z
 4. Зайдите в [Swagger](https://api.sgnl.dev/openapi/swagger/index.html) и при наличии авторизации (закрытого замочка) выполните **Logout:**
 ![auth_swagger_3.png](/api/auth_swagger_3.png)
 
-5. Раскройте метод **/public/v1/auth/token** (самый первый), нажмите **Try it out** и вставьте в поле **Edit Value** скопированные ранее **clientId, clientSecret** и список **scopes** (обратите внимание, что каждый **scope** в списке нужно брать в кавычки). Нажмите **Execute:**
+5. Раскройте метод **/public/v1/auth/token**, нажмите **Try it out** и вставьте в поле **Edit Value** скопированные ранее **clientId, clientSecret** и список **scopes** (обратите внимание, что каждый **scope** в списке нужно брать в кавычки). Нажмите **Execute:**
 ![auth_swagger_5.png](/api/auth_swagger_5.png)
 
 6. При успешном выполнении запроса (Code 200) скопируйте значение поля **token** из ответа (обратите внимание, что токен сбрасывается через час, затем нужно будет повторно нажать **Execute** и получить новый токен):
