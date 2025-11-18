@@ -2,7 +2,7 @@
 title: DASHBOARD. Отчеты
 description: 
 published: true
-date: 2025-11-14T13:12:12.752Z
+date: 2025-11-18T06:45:17.583Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
@@ -158,7 +158,12 @@ dateCreated: 2025-09-12T13:32:58.722Z
 ![image-1689148960852.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfG9n71VIjktr-L98p9lYa7MI8Fyrwzp1ra0kxcXxzKWSyWFy9HZ37XKtZX6iZi1LD4EBkT_P7gslc2S886sLChtnvleuPsXrnC4MBNmDS6sZJW73CbEMqdH4ugh5oTRoDhUEn43Wq6jQHRqvhWLg?key=fbjahmDVrqngiYxvm4q7FA)
   
   ## Онлайн отчет
+  Онлайн-отчет обновляется автоматически с каждым изменением в карточках. Однако в онлайн-отчет можно поместить только некоторые виды карточек:
   
+  ![chrome_4gfs7dm1dq.png](/chrome_4gfs7dm1dq.png)
+  
+  Как показано на рисунке выше, большинство карточек связанны с модулем DOCS и изменяемыми графиками. Именно, поэтому данный вид отчета имеет возможность обновляться в прямом времени онлайн.
+  Это единственная вкладка в которой нет кнопок публикации и экспорта.
   
   ## Отчет компании
   
