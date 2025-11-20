@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2025-11-20T07:43:32.464Z
+date: 2025-11-20T13:27:44.546Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -142,7 +142,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfE3dXlLbbxT3sUjWUrNVY5uInQYtS0sBFU_tbdJvJs419RP1VYN3JnKfbpflluF8s6v0aRFxSGQ1yR0PmAM7T0zodaN6x16jYpnfr3XOpkxG3ko16czKyik3Ulz7ePtp4?key=Sq65MbBALlfgU7uhYqZ_IW0t =70%x)
 
 ## 4. Сравнение чертежей
-###### 4. Сравнение чертежей {drawingCompare}
+###### 4. Сравнение чертежей {#drawingCompare}
 
 > См. также видеоинструкцию по работе с PDF: [Telegram](https://t.me/signal_docs/284) [YouTube](https://youtu.be/APrrvpOYETM)	[Rutube](https://rutube.ru/video/6c121c69bdea591e00e8cee06e5cbdc1/) [VK](https://vkvideo.ru/video-223002264_456239070)
 {.is-info}
@@ -204,7 +204,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 ![image-1719396933792.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3eBd9XxWlu7UuJZ94beyhYRf2DnvfvcemqCACflV0dBXY_5G9NqDHGMmYeVHcKu1GCEKXpOIrCeLXmrQf6qKRQln9aZ-o07oWUVN0J-VxUjVZfCXqIHTWSBeV-tpwv_GNm2Uv7NGWLH7_gAo?key=G5mC2kC-3FTUbBlnmOZq9Q =70%x)
 
 ## 5. Сравнение BIM-моделей
-###### 5. Сравнение BIM-моделей {modelCompare}
+###### 5. Сравнение BIM-моделей {#modelCompare}
   
 > См. также видеоинструкцию по работе с BIM моделями: [Telegram](https://t.me/signal_docs/316)
 {.is-info}
