@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-17T10:21:15.228Z
+date: 2025-11-20T07:33:54.183Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -49,7 +49,10 @@ dateCreated: 2025-11-06T14:53:09.140Z
 [VBA Excel](https://vkvideo.ru/video-230401166_456239018)
 [Python](https://vkvideo.ru/video-230401166_456239019)
 
-- [Сбор аналитики в SIGNAL DOCS с помощью n8n](https://vkvideo.ru/video-230401166_456239023)
+- Кейсы с применением n8n
+[Сбор аналитики в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239023)
+[Ежедневный отчет в Telegram по событиям в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239026)
+
   
 ## Авторизация в Swagger
 ###### Авторизация в Swagger {#swagger}
