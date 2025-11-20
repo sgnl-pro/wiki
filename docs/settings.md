@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-11-14T09:48:24.974Z
+date: 2025-11-20T07:44:30.284Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -517,6 +517,10 @@ dateCreated: 2025-09-09T08:02:36.643Z
   
 ## 11. XML документы
 ###### 11. XML документы {#xml}
+      
+> См. также видео **[XML-документы по XSD-схемам в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239025)**
+{.is-info}
+      
 Создайте тип схемы, настройте доступы на просмотр, создание и редактирование и загрузите нужные файлы XSD (шаблоны XML), например с [сайта Минстроя](https://www.minstroyrf.gov.ru/tim/xml-skhemy).
 
 
