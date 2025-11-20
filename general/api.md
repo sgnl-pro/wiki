@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-20T07:33:54.183Z
+date: 2025-11-20T07:35:22.083Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -50,6 +50,7 @@ dateCreated: 2025-11-06T14:53:09.140Z
 [Python](https://vkvideo.ru/video-230401166_456239019)
 
 - Кейсы с применением n8n
+[Интеграция SIGNAL DOCS с n8n](https://vkvideo.ru/video-230401166_456239022)
 [Сбор аналитики в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239023)
 [Ежедневный отчет в Telegram по событиям в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239026)
 
