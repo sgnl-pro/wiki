@@ -2,13 +2,13 @@
 title: DASHBOARD. Настройка проекта
 description: 
 published: true
-date: 2025-11-21T07:04:35.857Z
+date: 2025-11-21T07:06:52.263Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-14T11:33:22.397Z
 ---
 
-<sub>**[<   DASHBOARD. Отчеты](/ru/dash/intro)     **|**     [DASHBOARD. Карточки 10. Общие    >](/ru/dash/cards-10)**</sub>
+<sub>**[<   DASHBOARD. Введение](/ru/dash/intro)     **|**     [DASHBOARD. Карточки 10. Общие    >](/ru/dash/cards-10)**</sub>
 
 <details>
 <summary>Что нового</summary>
