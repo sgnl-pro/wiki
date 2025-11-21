@@ -1,8 +1,8 @@
 ---
-title: DASHBOARD. Отчеты
+title: DASHBOARD. Введение
 description: 
 published: true
-date: 2025-11-21T07:04:11.239Z
+date: 2025-11-21T07:06:07.196Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
