@@ -2,13 +2,13 @@
 title: DASHBOARD. Введение
 description: 
 published: true
-date: 2025-11-21T07:06:07.196Z
+date: 2025-11-21T07:06:32.428Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
 ---
 
-<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Карточки 10. Общие    >](/ru/dash/cards-10)**</sub>
+<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
 
 <details>
 <summary>Что нового</summary>
@@ -187,4 +187,4 @@ dateCreated: 2025-09-12T13:32:58.722Z
   ![chrome_dyracujxbb.png](/chrome_dyracujxbb.png)
   
 #
-<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Карточки 10. Общие    >](/ru/dash/cards-10)**</sub>
+<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
