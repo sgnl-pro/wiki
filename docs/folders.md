@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2025-11-21T06:55:23.165Z
+date: 2025-11-21T07:01:31.931Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -22,7 +22,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 :hammer_and_wrench: — исправление ошибок
 
 ----
-**[2025.36](/general/updates/2025-36)** ^21.11.2025^
+**[2025.36](/general/updates/2025-36)** ^20.11.2025^
 :hammer_and_wrench: Устранили проблему блокировки антивирусом при скачивании больших файлов.
   
 ----
