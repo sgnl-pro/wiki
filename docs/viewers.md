@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2025-11-21T06:55:44.047Z
+date: 2025-11-21T07:01:41.094Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -22,7 +22,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 :hammer_and_wrench: — исправление ошибок
 
 ----
-**[2025.36](/general/updates/2025-36)** ^21.11.2025^
+**[2025.36](/general/updates/2025-36)** ^20.11.2025^
 :hammer_and_wrench: Устранили проблему блокировки антивирусом при скачивании больших файлов.
 :hammer_and_wrench: Устранили проблему сжатия некоторых чертежей при сравнении двух версий DWG файлов в Forge.
   
