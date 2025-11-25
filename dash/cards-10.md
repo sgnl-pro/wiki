@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-11-06T15:10:57.344Z
+date: 2025-11-25T13:46:04.193Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -60,18 +60,42 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ![image-1676895655591.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnj4zCNei4QrhXWp2eTWBJ9utQRvB9HogI1WsnXX0A7b-OavTy2KBMiXX6KqSPdCy7t6a9WRNTCkvKYUxqmIcgknmrbfuwMmd3U_Yt-2VrRNqRbSGya7f8phwdOSJkSVkmNr-pdB9zhqqoCD5o?key=pbozojj_UeH4ZM-gQ0LuQA)
 
 ### 11. ТЭПы
-**11\_ТЭПы** \- технико-экономические показатели. [*Шаблон в Excel*](https://wiki.sgnl.pro/app/page/1nZuCXwnTei6LnES0Sy3IQH8dI0ngrWKv/view?usp%3Dsharing) 
+**11\_ТЭПы** \- технико-экономические показатели проекта
+  
+<details>
+<summary>Шаблон Excel</summary>
+  
 
+|-----------------|------------------------------------|-------------------------------|
+| Заголовок       | ТЭПЫ                               |                               |  
+| Статус          |                TRUE                |                               |
+| Url изображения |                                    |                               |
+| Тип             | teps                               |                               |
+|                 |                                    |                               |
+|               0 | Площадь участка в ГПЗУ             | 1,4479 га                     |
+|               1 | Строительный объем                 | 702 477,42 м³                 |
+|               2 | Общая площадь здания, в том числе: | 164 740,0 м²                  |
+|               3 | Надземная часть                    | 137 560,0 м²                  |
+|               4 | Подземная часть                    | 27 180,0 м²                   |
+|               5 | Количество этажей, в том числе:    | 1-2-4-36-43-49-54+2 подземных |
+|               6 | Корпус - "Башня А"                 | 54 (h-190,00м)                |
+|               7 | Корпус - "Башня В"                 | 49 (h-173,75м)                |
+|               8 | Корпус - "Башня С"                 | 43 (h-151,55м)                |
+|               9 | Корпус - "Башня D"                 | 36 (h-126,50м)                |
+|              10 | Вместимость подземной автостоянки  | 662 м/м                       |
+
+  
+</details>
 
 Отображение карточки в режиме пользователя.
 
-![30_ТЭПы.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6XyyerBTrhT6UjZxKj_zabEvi9skoSsiSiPuLtngETIAHI4ZZ77uPt7kLcRrsfHjkxJzqnTEhRQDvzQwinfN8l17viTwcC-vRYudba3GBYCiEk3ZecCvTnVbKBIONEVir7wG11os0BT8xnREoIw?key=hZa0lAxxmhH8SSlY8Ys5qg)
+![10_teps.png](/sgnl_dash/10_common/10_teps.png)
 
 #### Настройка
 
 Администратор в режиме редактирования вписывает необходимы значения в строки.
 
-![image-1719208354384.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCEJ9HDjI4ybmAApMdBYjUv-AS6XxNUADBJ5ChY2n5EM37lMpCAM7AUxRGSLWuL6ZKNsykWQSZliCnYwYPpBhYmqV63PejK3mPc7v9wxerLCKtTYdYukyyDiHJ1V4Arj17eCLk7L0b-lWcWNtR?key=hZa0lAxxmhH8SSlY8Ys5qg)
+![10_teps_settings.png](/sgnl_dash/10_common/10_teps_settings.png)
 
  ### 12. Риски
  
