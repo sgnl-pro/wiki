@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-11-25T13:52:21.725Z
+date: 2025-11-25T14:00:22.723Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -40,7 +40,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ### 10. Альбом
 **10\_Альбом** - карточка представляет собой фотоальбом, в который можно загрузить несколько фотографий. Например, это может быть фотоотчет со строительной площадки или фотографии для гео-маркетинга или рекламы.
 
-Отображение карточки в режиме пользователя
+#### Отображение карточки в режиме пользователя
 
 ![image-1676895534452.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S3cjLhFx_ppEY6-KyVObW5V8FFlZ4Ys8pYJYuYOtFy2nJVO4pIWK2HwCbJfddBD4TSsCXJfxedUKA5d_LG2eJXIghsOnRliBmXixRHPpTDZ63b1Gk_sVAaPaLdgUCXc3Y1CUWHk1W2FGb4x0kQ?key=pbozojj_UeH4ZM-gQ0LuQA)
 
@@ -87,7 +87,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
   
 </details>
 
-Отображение карточки в режиме пользователя.
+#### Отображение карточки в режиме пользователя.
 
 ![10_teps.png](/sgnl_dash/10_common/10_teps.png)
 
@@ -101,7 +101,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
  
   **12\.Риски** - карточка отражает  информацию со степенью важности о всех возможных рисках связанных с объектом.
 
-**Отображение карточки в режиме пользователя**
+#### Отображение карточки в режиме пользователя
 
 В режиме просмотра отчета:
 
@@ -128,7 +128,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ### 13. Видеотрансляция
 **13\_Видеотрансляция** \- позволяет отслеживать в режиме реального времени производственные процессы на строительной площадке.
 
-Отображение карточки в режиме пользователя
+#### Отображение карточки в режиме пользователя
 
 ![image-1677495617796.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdf8LANtCkPjB0XqJ7OIEHADpAq8ZCnKpjtfdzkEjwNY3ODcK9fZWekaUF3tmuw5vWdH6Kyf60a-AB9MnxzIRlkO5nQJf71nPsVAJSUm_m3hDfb89SQS9DHFUCNX7ouJLLHSvkPqe8mKFpiPqynyg?key=s-dInLXl9pn3yd906GJSsQ)
 
@@ -168,9 +168,9 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ![26_Видеотрансляция_2.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdD4Ag665H-lsdum1XCd-WfJz74qQJ92rtiITVELp_vQ2JUjas-K6DEpbGUsMun16KOBBezyFBH1C0fYeVTX2nuVHmHUieX5vDv-tbsm0kPNZhGa_7wldE8kqA1WprQ7ka-fgV0rQM_xr-oMwhQeg?key=s-dInLXl9pn3yd906GJSsQ)
 
 ### 14. Динамика рабочих
-***14\_Динамика рабочих -*** график планового и фактического количества рабочих по дням. [_Шаблон в Excel_](https://docs.sgnl.pro/s/f/4d8f615a-27fd-4b1a-a631-c7529eb99f03).
+***14\_Динамика рабочих -*** график планового и фактического количества рабочих по дням. 
 
-**Отображение карточки в режиме пользователя**
+#### Отображение карточки в режиме пользователя
 
 В режиме просмотра отчета:
 
@@ -199,7 +199,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ### 15. Динамика универсальная
 **15\_Динамика универсальная** - карточка отображает динамику по каким-либо работам. Например, можно показывать количество техники на стройплощадке в определенный день, количество подписанных или находящихся в работе актов и т.д.
 
-Отображение карточки в режиме пользователя
+#### Отображение карточки в режиме пользователя
 
 ![image-1681292468949.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbebUh1fTcSqUJN-1741NGU620IMgkvQb2EPpqC93vn7lUE5OhBpPM0NcjpkT0u4LvPDM852Ehk8P0kQpzWBYBME4WkN05lE8eXgyBrWePiwZpKrma4b8T5qYCJjzYCWH5fZ5UQMjeSLEUUe13qQ?key=myod8CZdaq8YP84STX-MiA)
 
@@ -228,7 +228,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ### 16. Процент готовности объекта
 **16\_Процент готовности объекта** - карточка показывает степень готовности объекта в процентном соотношении: план/факт/осталось. Например, можно визуализировать общий процент готовности по всему объекту или процент готовности по отдельному виду работы.
 
-Отображение карточки в режиме пользователя
+#### Отображение карточки в режиме пользователя
 
 ![image-1677655525000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch7WyfpPzGofJwPDTV-uW73UQaxqykUOi72EVsdCPEw3mfpadsvMBNs2jr8uKWNrqRVEMlIEe9b4Gey0fucdjbxem_EiweBeNihPy4z9xD71-z5OSoLbnI0F7fYIreSSORymEMmFosKgJYIRWtwQ?key=WCWKhvs0TBg0F0UgEM_5cQ)
 
@@ -253,7 +253,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ### 17. Отчет
 **17\_Отчет** - карточка для отображения отчетной графической и текстовой информации.
 
-Отображение карточки в режиме пользователя
+#### Отображение карточки в режиме пользователя
 
 ![image-1677491513000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8aiFmihdEnbJS0tndaDB0-6WFSMUAjwzKpB_6K96CWNtsLptJxYzsAtAvsEEXSSrtbbOlwNWsWZ7HVNk7CIho1mMU2eRenHuW3xLc49NqWSC3vUYf-lzQjM9jifrKh6m3Xc95p6u0mjGmwjHjcA?key=4JGiycXz0KOTLWiJLf8rJQ)
 
