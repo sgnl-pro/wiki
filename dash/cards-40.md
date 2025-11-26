@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 40. Объёмы
 description: 
 published: true
-date: 2025-11-14T09:52:06.704Z
+date: 2025-11-26T08:44:43.332Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
@@ -40,26 +40,31 @@ dateCreated: 2025-09-18T13:37:28.921Z
 ## 40_Процент освоения объемов
 ###### 40_Процент освоения объемов {#card-40}
   
-**40\_Процент освоения объемов** \- карточка показывает степень освоения объема работ объекта в процентном соотношении: план/факт/осталось. Например, можно визуализировать общий процент освоения объема работ по всему объекту или процент освоения по отдельному виду работы.
+**40\_Процент освоения объемов** \- карточка показывает степень освоения объема работ объекта в процентном соотношении: план/факт/осталось. 
+  *Например, можно визуализировать общий процент освоения объема работ по всему объекту или процент освоения по отдельному виду работы.*
 
-Отображение карточки в режиме пользователя
+#### Отображение карточки в режиме пользователя
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7aLIW0D40UOIiFhIsJ1-ZXsRUgyJd16Q7DDKKHxRQihDb0IEDLuob51hb4e8fgowfPjpf6dFBA66jfkqKWFS6p4un2F89LnNh5p2h_EPDG4UEey-fZxMu5y7XWUq1wmWP3FPh0rdj24aKd9HR?key=lHnoW0dAPfGHmbfUih-TSQ)
 
-Настройка карточки аналогично [](https://wiki.sgnl.pro/books/32-dashboard/page/20-procent-osvoeniya-deneg)[_20\_Процент освоения денег_](https://wiki.sgnl.pro/app/page/13ssfE3jRht91MyNI-3K5lACwLEPTs0cnX6aA0AtHvLA)
+#### Настройка карточки
+  Администратора в режиме редактирования вписывает значения в определенные поля:
+  Название карточки, плановый объем, фактический объем, общая сумма всего объема и выбор единицы измерения.
+  
+  ![chrome_dpcyneqr8e.png](/chrome_dpcyneqr8e.png)
 
 ## 41_План-факт по объемам
 ###### 41_План-факт по объемам {#card-41}
   
 **41\_План-факт по объемам** карточка для отображения планового и фактического объема выполненных работ.
 
-Отображение карточки в режиме пользователя
+  #### Отображение карточки в режиме пользователя
 
 ![image-1704790207274.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc429MFDtbzLC5uXNrZOCKWma_9LQQfqwkg8wi_e4k6YoyHB1qNvpqqubUz2QU03l_7CXQbj_OuKXDKL6DgnrSQFYmQqgBgwO4jyodsfB0P_8zB_MhQzxRoM2DHta425Y2EeGZ9sE4U9XiIU647?key=RqfQWK10_HwYSXgS6w5wLg)
 
-### Настройка карточки
+#### Настройка карточки
 
-1\. Заполнение общих данных карточки
+### Заполнение общих данных карточки
 
 ![image-1704790225203.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdGQewcvC6hV8-yIyStdVLJ_zbiAovGXuf2L9ns38GLPt-ugAae9b8Q9mE-VPtiqHxWs8_cAzQFoQG8CQeAQWjaYpafVIgrqbS5J1iutYHcrKSusyBTmMkNCrUAC5b62oNbMkX2epXdhKeXLqdW-A?key=RqfQWK10_HwYSXgS6w5wLg)
 
@@ -71,13 +76,13 @@ dateCreated: 2025-09-18T13:37:28.921Z
 
 Данные о плановом и фактическом объеме на определенную дату можно добавить вручную либо с помощью таблиц Excel.
 
-2\. Заполнение карточки вручную
+### Заполнение карточки вручную
 
 Заполните поля “Дата”, “План”, “Факт” и нажмите “+” для добавления заполненной строки. Добавленную строку можно редактировать, нажав на нее.
 
 ![image-1704790248095.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdX8qcFM6B0ZbKm3pdDPfnSl20xjlRUcSImChtEKSj09CCfwq1d7-mmGdUyurg8id22A7VITOQ6X8DjPa61f6ICBQe-rLUKDINRq8rNQahB2UGDdXfY0_Ba6yJlYWkvHNEH20eCD18HkOQfdgzD?key=RqfQWK10_HwYSXgS6w5wLg)
 
-3\. Заполнение карточки с помощью Excel
+### Заполнение карточки с помощью Excel
 
 ![image-1704790277013.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXez6lfjgJcF1s3oYM7r8mwI1LEJGk-54wF7Hv4yJfyokDnbeKuao4wwKVfUwpeS8SUBP5H58D5_MyJ-z-LvXxwiG2vs28ME-yVmrQEh-T7A_-k2WLz3UZttzrZwr5BCLjS374923iyA0HlM7q8qSQ?key=RqfQWK10_HwYSXgS6w5wLg)
 
