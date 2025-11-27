@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2025-11-27T20:32:24.192Z
+date: 2025-11-27T20:41:20.674Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:41:20.629Z
@@ -21,6 +21,10 @@ dateCreated: 2025-09-18T13:41:20.629Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.37](/general/updates/2025-37)** ^27.11.2025^
+:sparkles: Вывели в [карточке 65](/dash/cards-60#card-65) общее количество замечаний в комплекте.
+  
 ----
 **[2025.35](/general/updates/2025-35)** ^13.11.2025^
 :sparkles: Доработали 67 карточку:
