@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-27T20:26:01.037Z
+date: 2025-11-27T20:39:46.688Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -12,7 +12,10 @@ dateCreated: 2025-11-06T14:53:09.140Z
 
 <details>
 <summary>Что нового</summary>
-
+  
+**[2025.37](/general/updates/2025-37)** ^27.11.2025^
+- Добавили методы назначения доступов на папки.
+  
 **[2025.36](/general/updates/2025-36)** ^20.11.2025^
 - Добавили методы получения дерева папок, раскраски папок и обработки моделей Forge.
   
