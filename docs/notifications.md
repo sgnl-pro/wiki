@@ -2,7 +2,7 @@
 title: DOCS. Уведомления
 description: 
 published: true
-date: 2025-11-06T15:10:32.791Z
+date: 2025-11-27T20:38:58.837Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:51:54.255Z
@@ -20,6 +20,10 @@ dateCreated: 2025-09-09T15:51:54.255Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+ 
+----
+**[2025.37](/general/updates/2025-37)** ^27.11.2025^
+:sparkles: Добавили в текст [уведомлений](/docs/notifications) о замечаниях и согласованиях информацию об ответственном.
   
 ----
 **[2025.29](/general/updates/2025-29)** ^03.10.2025^
