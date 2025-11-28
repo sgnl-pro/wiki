@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 50. 3D карточки
 description: 
 published: true
-date: 2025-11-14T09:52:41.242Z
+date: 2025-11-28T09:48:21.569Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:39:52.568Z
@@ -52,35 +52,14 @@ dateCreated: 2025-09-18T13:39:52.568Z
   
 # Вкладки{.tabset}
 ## 50_3D объемы в BIM по датам
-###### 50_3D объемы в BIM по датам {#card-50}
-  
-*позволяет посмотреть строительную 3D-модель, а также посчитать плановый/фактический объем опережение/отставание объемов выполненных работ на конкретную дату.*
+**50_3D объемы в BIM по датам** - *позволяет посмотреть строительную 3D-модель, а также посчитать плановый/фактический объем опережение/отставание объемов выполненных работ на конкретную дату.*
 
-Отображение карточки в режиме пользователя
+### Отображение карточки в режиме пользователя
 
 ![image-1719410224901.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMZzaczqqrDJKW79jH_xGMakDStpMzoUdsam5Sbh_qGwPAqVMxN7JvVp-yfi_JZjgWryUbAT-iVgDaJkm35PqlpDNqDIv6bxID-2oih1f5Cc4mHuku7dz76HSqgiL1QbG_r8a_QaGbPCvAZj4s?key=YsYWdNWdbJcfmRoINnnzwA)
 
-При открытии карточки:
 
-1-отображение графика по объемам выполненных и запланированных работ
-
-2-плановый объем работ на дату,указанную в 6
-
-3-отставание/опережение фактических и плановых объемов
-
-4-фактический объем на дату 6
-
-5-перечень видов работ
-
-6-отчетная дата
-
-7-инструменты работы с моделями
-
-8-отображение/скрытие подложки(если такова загружена)
-
-9-отображение модели Navisworks
-
-### График план-факт (цифра 1)
+### График план-факт
 
 ![image-1719471599913.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6B3getW6Oz7wsS4K74lt3qQICdg1glAHv9_yTy5wultr4I3BvRK4aBVPFZ6jzMlzCR_MXDK5ZqqlFKdcDsIa5IwWEH-7YQFXPxkslvANAcYvaDQOKPNtKu8HrMtPKIlCEjjqYjy9Px5UW6ajErg?key=YsYWdNWdbJcfmRoINnnzwA)
 
@@ -103,7 +82,7 @@ dateCreated: 2025-09-18T13:39:52.568Z
   
 *позволяет посмотреть строительную 3D-модель, а также посчитать плановый/фактический объем опережение/отставание объемов выполненных работ за указанный период.*
 
-Отображение карточки в режиме пользователя
+### Отображение карточки в режиме пользователя
 
 ![image-1719475867082.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdN9CMcXqwW8_qhsV2ruiAlvmLYZFWLYs334IvpqeaWkIKyb5WRILAa75NlB8yaQsCqhaWRNukUG3jCWxv9fQ7lOaRTLUNGVv7GbBb-wuH1IwoMzdrQRF6eBOXktbjkTr3yNbB6-Te9XH8t8ZKE?key=jGY6qOPVFanfIvvGDWzJ4A)
 
