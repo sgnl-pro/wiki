@@ -2,10 +2,14 @@
 title: DASHBOARD. Все карточки
 description: 
 published: true
-date: 2025-11-28T23:57:26.363Z
+date: 2025-11-28T23:58:50.796Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-28T23:57:26.362Z
+---
+
+<sub>**[<   DASHBOARD. Настройки проекта](/ru/dash/settings)     **|**     [DASHBOARD. Карточки 10. Общие    >](/ru/dash/cards-10)**</sub>
+  
 ---
 
 |     |     |     |     |     |     |     |     |     |
@@ -24,3 +28,6 @@ dateCreated: 2025-11-28T23:57:26.362Z
 |  |     |     | ![image-1719476340925.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWDwIzazFyLXhOx-q35JrXymRP1DL7_UgcMsczrNZTgKyK-R2ryFEgbfW-vwP65TXO9di1t3ji9UL48In2fhY5KIpMH9ducKlD0HrBwXky9fc9BVWfSSaSAmLrIu69ctU5Fzq_797Nsylv2FPM?key=zWLFPQEEpzp1Ggzbyo5HrQ =300x) | ![image-1719477582073.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqPn0JVvGjMo7go03x8h98jTvNItRgBTsXlLZ4IueDcQDX9KdA13cWZD164ZrdhLCFPV5SVe44fWNDhDXJUjA612B5bFYTEXE5mtfhV3fcEQzRSbTCyOTa4zSSf9WKEJD1m1vTXfZRtsT95rxX?key=T3VMVgFQwHWdBLA8YIIFQQ =300x) | ![image-1719485230460.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfp50EivqcLaKIj1u9sBpEaweRn5yzxjOkDYTvnUnVxbBXJ11d447MrAsMMtuW2tDQd6LZ1ubJoYSkacoG6WESh3Hbht2VUsAlwbjd1ADSqhiBPXiVHjt5iR-any3l45DN6eL8r4TT-sZ-pEqIwFw?key=5yZFZbqVJks6EKZ_GvgPNQ =300x) | ![image-1719553426798.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXchYq0vvyvCcitHxf2F2rasq2xWhUYJ9M56XFBF4bOU72ml5Bj5pFk2Eltdaef90Zv8c8SViI79F29fvvNFEG5SxCfEyLqMTkQquocgfQGl88eo3pGrXIEFGcWN1mwHr1ZRDGQMDIYHzKwZEj4Gsw?key=Tkc60ndt_rkteCuBgttFbg =300x) | ![chrome_ckahntpzvg.png](/chrome_ckahntpzvg.png =300x)<br> | ![](/chrome_zvjpwgtjjn.png =300x) |
 | **Карточки 90. Другие** |[90\_интеграция](/dash/cards-90#card-90)|[91\_Ссылка](/dash/cards-90#card-91)|[92\_Ссылка Youtube](/dash/cards-90#card-92)|     |     |     |     |     |
 |  | ![image-1719554025085.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe0YDGb1ebC4f7GBnaE75pDvs87Yzt6CrlxTh497byiKT50BGA2vYOV9aQIvLqU9KElMwDxupRnpSePQFPrwlq5ObnT6q3xXCqh86vXvulElMlRUW9p7nqJMfvscybBz9Ysje75b1L9w4V9eNam?key=8c0YXLpx6avetSwh7IusKA =300x) | ![image-1677491297478.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4ZS92b0Z7IgoT7GM6pPgfYmgTSY433tSAvnP7DIAbw5us-5ktM7XMjkfNWuztv0EFReca7D2t8hN5Rxh_7h6G-JzypacDX0K4RyzaiWOwv4jUmeRFvffYOup_sTv--0FEC_FuFLxh-OkyfJ8w8g?key=XUt61_RjhC5-hTr3F0VvrA =300x) | ![image-1676897437518.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaWYB8k6HNwzaHqQexRua4ToyL9mY11dXdx5fzEO0-WhSUbPavgbn9hdYHMaTViF2xEOVnPjH4t73GO11xvfCWLviMcaMqKU7fZxH5QoNd6GKvovYTVOPCc3rpSl-Rt6Pew3OzCCMgZsHqj_zh?key=iC3W1voxO311Wzy3rWDR3Q =300x) |     |     |     |     |     |
+  
+#
+<sub>**[<   DASHBOARD. Настройки проекта](/ru/dash/settings)     **|**     [DASHBOARD. Карточки 10. Общие    >](/ru/dash/cards-10)**</sub>
