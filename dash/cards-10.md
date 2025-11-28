@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-11-28T18:52:34.400Z
+date: 2025-11-28T18:59:19.745Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -62,13 +62,13 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ## 11_ТЭПы
 ###### 11_ТЭПы {#card-11}
 
-Технико-экономические показатели проекта:
+Карточка отображает технико-экономические показатели проекта:
   
 ![10_teps.png](/sgnl_dash/10_common/10_teps.png =300x)
 
-#### Настройка
-
-Администратор в режиме редактирования вписывает необходимы значения в строки.
+---
+  
+**Настройка**
 
 <details>
 <summary>Шаблон Excel</summary>
@@ -95,16 +95,14 @@ dateCreated: 2025-09-12T13:40:06.575Z
   
 </details>
   
+Администратор в режиме редактирования вписывает необходимые значения в строки:
+  
 ![10_teps_settings.png](/sgnl_dash/10_common/10_teps_settings.png)
 
 ## 12_Риски
 ###### 12_Риски {#card-12}
  
-Карточка отражает  информацию со степенью важности о всех возможных рисках связанных с объектом.
-
-#### Отображение карточки в режиме пользователя
-
-В режиме просмотра отчета:
+Карточка отражает информацию со степенью важности о всех возможных рисках связанных с объектом:
 
 ![image-1676897736159.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXccFI0jh2M9YqEqKSPxwrYiv97z89rBliQrsxsmcyj2hXL_0CuZqvtbjPBMiPl0gkB3_Dl3usledL2RDijXQ5l2ZZIU96JQmdQRvB5Qxzx_INEftZZN4RqTZGh6QqBgYesaq6Q0rHCgfsVMLBK0uQ?key=yHzuBDzMtozpM9mTIy5tXA =300x)
 
@@ -112,32 +110,40 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 ![image-1676898716729.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcelJ7tgscYqAkbT6vknQ3G_tfnKRAp0HPXOmNjvTGpM4Bh3xJ1BvS1jYBfGucIKSZGsZLclshVcmWCRLc2kMDPZhJ-HNlzi_kI_5CAMJO6A3n6XodPmm7UAqYRNt8dRgL8aa6mCKk0DXMLEgh5Bw?key=yHzuBDzMtozpM9mTIy5tXA)
 
-#### Настройка карточки
+---
+  
+**Настройка**
 
-1.  Основные настройки  
-     
-
--   ***В строку “Название”*** впишите название - заголовок.
--   Установите в каждой строчке информационного сообщения степень значимости: Низкая, Средняя, Высокая.
--   Оставьте необходимый комментарий.
--   Для добавления нового информационного сообщения нажмите **“+”**.
+1. В строку **Название** впишите заголовок.
+1. Установите в каждой строчке информационного сообщения степень значимости: Низкая, Средняя, Высокая.
+1. Оставьте необходимый комментарий.
+1. Для добавления нового информационного сообщения нажмите **“+”**.
 
 ![image-1676897777312.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2l7Ru519rt1pNMtCwk5aVbf7tnB4TVsqBzNzhB0cFc5pLuqajhFqCjik5zBs18SNy0TjG6zWS9vRHd1HAM8eGK6we6hIpWfQb83wyNSR5_grLsW4VAlCZwvv6wtBJLOjF_2qwAVdwSJxQeQK5?key=yHzuBDzMtozpM9mTIy5tXA)
   
 ## 13_Видеотрансляция
 ###### 13_Видеотрансляция {#card-13}
 
-Позволяет отслеживать в режиме реального времени производственные процессы на строительной площадке.
-
-#### Отображение карточки в режиме пользователя
+Карточка позволяет отслеживать в режиме реального времени производственные процессы на строительной площадке:
 
 ![image-1677495617796.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdf8LANtCkPjB0XqJ7OIEHADpAq8ZCnKpjtfdzkEjwNY3ODcK9fZWekaUF3tmuw5vWdH6Kyf60a-AB9MnxzIRlkO5nQJf71nPsVAJSUm_m3hDfb89SQS9DHFUCNX7ouJLLHSvkPqe8mKFpiPqynyg?key=s-dInLXl9pn3yd906GJSsQ =300x)
 
-#### Настройка
+При просмотре карточки с режима пользователя можно переключаться между двумя качествами видеотрансляции:
+
+1.   Режим просмотра в качестве HD ( высокий формат качества).
+2.   При отключении галочки качество просмотра становится низким.
+
+![26_Видеотрансляция_3.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-nelp4TuSVe_2PSiF5tEatVVg7N0aNH9sHGfuxaFu899_a0xfoCjYTvlj0kFUAhJ8a_rmgJeZSbKu3cY7QgNcDqEhxhrKdJCVM-UhHeXcZ7Qym0D5L8TPPM2Sw64gMlCRWpF_eJOq2Jz-rmlvJg?key=s-dInLXl9pn3yd906GJSsQ)
+
+![26_Видеотрансляция_2.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdD4Ag665H-lsdum1XCd-WfJz74qQJ92rtiITVELp_vQ2JUjas-K6DEpbGUsMun16KOBBezyFBH1C0fYeVTX2nuVHmHUieX5vDv-tbsm0kPNZhGa_7wldE8kqA1WprQ7ka-fgV0rQM_xr-oMwhQeg?key=s-dInLXl9pn3yd906GJSsQ)
+ 
+---
+  
+**Настройка**
 
 1\. Вкладка RTSP
 
-Укажите ссылку на видеотрансляцию в формате RTSP
+Укажите ссылку на видеотрансляцию в формате RTSP:
 
 ![image-1677495656688.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4zndHEj5kz4RvezHY2HMy9DRoT6jYAenFbKLkIpbI31HhypQ0zICgZvBAjOjbhBDHtpzArwkcDymqVSMdfeqMupEmTHNbT-Ttd0NbbJZbv6YvDK0T27nb0JO6Eiu6lXNgTVmXC-uIQEy2sdOIxg?key=s-dInLXl9pn3yd906GJSsQ)
 
@@ -156,17 +162,6 @@ dateCreated: 2025-09-12T13:40:06.575Z
 -   ***В строку “СТРИМ”*** вставьте ссылку на видеотрансляцию в формате RTSP.ME.
 -   ***В строке “Превью”*** поставьте изображение на превью карточки.
 -   ***Переключатель “Отображать трансляцию”*** позволяет выбрать с какой вкладки отображать трансляцию в карточке: с RTSP или RTSP.ME.
-
-#### Использование
-
-При просмотре карточки с режима пользователя можно переключаться между двумя качествами видеотрансляции:
-
-1.   Режим просмотра в качестве HD ( высокий формат качества).
-2.   При отключении галочки качество просмотра становится низким.
-
-![26_Видеотрансляция_3.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-nelp4TuSVe_2PSiF5tEatVVg7N0aNH9sHGfuxaFu899_a0xfoCjYTvlj0kFUAhJ8a_rmgJeZSbKu3cY7QgNcDqEhxhrKdJCVM-UhHeXcZ7Qym0D5L8TPPM2Sw64gMlCRWpF_eJOq2Jz-rmlvJg?key=s-dInLXl9pn3yd906GJSsQ)
-
-![26_Видеотрансляция_2.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdD4Ag665H-lsdum1XCd-WfJz74qQJ92rtiITVELp_vQ2JUjas-K6DEpbGUsMun16KOBBezyFBH1C0fYeVTX2nuVHmHUieX5vDv-tbsm0kPNZhGa_7wldE8kqA1WprQ7ka-fgV0rQM_xr-oMwhQeg?key=s-dInLXl9pn3yd906GJSsQ)
 
 ## 14_Динамика рабочих
 ###### 14_Динамика рабочих {#card-14}
