@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2025-11-28T22:11:22.545Z
+date: 2025-11-28T22:20:27.871Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-28T18:38:17.798Z
@@ -11,11 +11,69 @@ dateCreated: 2025-11-28T18:38:17.798Z
 |     |     |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ![image-1676895534452.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S3cjLhFx_ppEY6-KyVObW5V8FFlZ4Ys8pYJYuYOtFy2nJVO4pIWK2HwCbJfddBD4TSsCXJfxedUKA5d_LG2eJXIghsOnRliBmXixRHPpTDZ63b1Gk_sVAaPaLdgUCXc3Y1CUWHk1W2FGb4x0kQ?key=pbozojj_UeH4ZM-gQ0LuQA)<br><br>10\_Альбом | ![10_teps.png](/sgnl_dash/10_common/10_teps.png)<br><br>11\_ТЭПы | ![image-1676897736159.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXccFI0jh2M9YqEqKSPxwrYiv97z89rBliQrsxsmcyj2hXL_0CuZqvtbjPBMiPl0gkB3_Dl3usledL2RDijXQ5l2ZZIU96JQmdQRvB5Qxzx_INEftZZN4RqTZGh6QqBgYesaq6Q0rHCgfsVMLBK0uQ?key=yHzuBDzMtozpM9mTIy5tXA)<br><br>12\_Риски | ![image-1677495617796.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdf8LANtCkPjB0XqJ7OIEHADpAq8ZCnKpjtfdzkEjwNY3ODcK9fZWekaUF3tmuw5vWdH6Kyf60a-AB9MnxzIRlkO5nQJf71nPsVAJSUm_m3hDfb89SQS9DHFUCNX7ouJLLHSvkPqe8mKFpiPqynyg?key=s-dInLXl9pn3yd906GJSsQ)<br><br>13\_Видеотрансляция | ![42_Динамика рабочих.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNznMhJpjk5MUeoSePM-Qu73NBZURuOxKybDUCEssWtXKXWeOfZqgaAtGBH2pcQo8ZL-nkjJ-n2sqyPh_uQNTSTWTUaMtSD60Xa1L3eRCuGeDDJz34rLWtLzhUNiVziR4e6ngkNsUQrjbyNTPNog?key=fRbp-4QSI0yBB0UfzBD5EQ)<br><br>14\_Динамика рабочих | ![image-1681292468949.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbebUh1fTcSqUJN-1741NGU620IMgkvQb2EPpqC93vn7lUE5OhBpPM0NcjpkT0u4LvPDM852Ehk8P0kQpzWBYBME4WkN05lE8eXgyBrWePiwZpKrma4b8T5qYCJjzYCWH5fZ5UQMjeSLEUUe13qQ?key=myod8CZdaq8YP84STX-MiA)<br><br>15\_Динамика универсальная | ![image-1677655525000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch7WyfpPzGofJwPDTV-uW73UQaxqykUOi72EVsdCPEw3mfpadsvMBNs2jr8uKWNrqRVEMlIEe9b4Gey0fucdjbxem_EiweBeNihPy4z9xD71-z5OSoLbnI0F7fYIreSSORymEMmFosKgJYIRWtwQ?key=WCWKhvs0TBg0F0UgEM_5cQ)<br><br>16\_Процент готовности объекта | ![image-1677491513000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8aiFmihdEnbJS0tndaDB0-6WFSMUAjwzKpB_6K96CWNtsLptJxYzsAtAvsEEXSSrtbbOlwNWsWZ7HVNk7CIho1mMU2eRenHuW3xLc49NqWSC3vUYf-lzQjM9jifrKh6m3Xc95p6u0mjGmwjHjcA?key=4JGiycXz0KOTLWiJLf8rJQ)<br><br>17\_Отчет |     |     |
-|     |     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |     |
+
+2
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRVL6sATY9L3Dv66y7pFbQmVQVDaFVc3clBa737eov7lYWL1_zdo45Jo06tUOJHui0XM9i5ovzr-IO-KHqkYLQB1o3PMajsxaQi8sKH0Pt2tgIXD0JMQyWLk1Xc_mUPZmPj_G3GWx7DTWSYielVw?key=887Aaw5M9mjjgbnP7IUNLw)
+
+![image-1681298475900.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7gz_IHCi28nMd5tnUTmglZMFbu6b2ek9EBWk5kZWWAVpU45ZmFBQ3YkKlmQnwTgT9TQ1rFwbjR4M7CBeCXM1YheuvgZmxqzKqu4H4QTUFk3oODCcFGhL5_2UZ5JBMqFKWXd1Go4MdzNUxmIfFuA?key=MHvS0J4XLMea1KtJ_XIgQg)
+
+![43_Деньги по месяцам.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQkd9dbCFZ1ZPun4I9Q2GovH6ZsHBKMQeb7kue45jGgvOtAvLh1Wey04WcZNPRz1OBNnOSf1jjvm72IzTm4Hs9ymGsGUYK5KK04RYpAE9DRFb9vqFhf1HiH6g3eWF0QJ6Pm8y5MfyIJmEZl0yfHw?key=X_gNv6zfO4a7j-sEGl0Nxg)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLyc_XI0I4ZCqm5in6NExFFnj7Zp4AjT7JDU5wDV588xZyyZbvXbxSjyAFdLssf39QY-_KbLvORwDzgJ29ICdQmbbDmPYyB_z_wB8omzx4E3XJlFTHDSHAuQn4mXm1ySDp9neak0-dFEdQ4NXwYg?key=Y0-sORLm-ptITFI_ISE7qg)
+
+3
+
+![image-1677655872597.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXes_3bJPV9v4fuc6eh0ElXsgh-FS4RcKHlhd2500tyaZZ3wNG1kCW3gD_F7JUzVPHZKrC1nFqlpouwZJulUNWBcV6tUq1SgPNH-ai2zQhmaaqjk1jgkL_oSes35VU1db8nxh2TjkDBQQVSQ_N-G?key=TeVgs85e_U2enkb09y_tFw)
+
+![image-1712822549696.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd-SU5Mu6dQxAaQ5pD_b4a6eKcUqK4vs8A3s_tnfEgA2QoPFKMvqYi6vavjKALQAQvfZjehDlA7wnr8ixcOgtgMTLkKbOaY3ryhxx90YrDBeb0BpICpiY-D9oE_SHSkESoWf9zy8kNp6LSWhMq6lw?key=LXYQylv4P2g0uc__R72ZFg)
+
+![image-1712822221575.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdfSIR4_Py3Y19MEL-AX5TP_itlX_P75dqOFjaSIchs2UhBYFJB3LM_xYui6-6bcP0Ev0qflvEn40m9JjhbyL1G5FyPIEqSBW8mQ7YxqJsqYlDpPnnLDTPFQpv31ivxqqB7KZt4MFd5QFgmSs2u4g?key=uTpH5JX9Jn6touF5yEmV2w)
+
+![image-1712822019382.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXVYcH407nS7HGSBD59d-9JiUfRfbbmFFfEH9TOBX-R6HOlNHkcQbUXWus7-zmtAMrzFwsWotQ63pxQz65xbhd8IaPKS-tgH8oruPlXHSkFD6CyGBuQe9KbMLEozXwpcQQV-gcfOurVpejY0wX?key=mE51B4FZL-V610x-8QMFuA)
+
+![image-1712821263478.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf5ArGU_9FAgXlJWEvqBpLthEC12Is1iMeQwTmtp0mGT7sT5NVKhzjVz7dOJNTJpp-90V0ua6S8KUGOKK5mkXdKP9cH3Oy76DaAjk58eSg-c0DjZkf6vLcIBqSgQ4fKqgJYQJVLcKoWE2CqPky9iA?key=yxUxS-UIPIWstwBoHlElWw)
+
+![35_График.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLNKkqk5xYLbXyLi0rKlHi392wMh3xiG5R5KXD7wonk9CfRuJ1ZHUTyDH-CWEQmtOOOh7t3WY-p9AY3tcU7IrcFMm2sEV0Dt5glgjSP7e8od8Q9Kr6wnuNa2xnEGEnpiW-FK7zhjRUD6-MH5oK2Q?key=a1LP3kzGalnD3OKq76qSOQ)
+
+4
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7aLIW0D40UOIiFhIsJ1-ZXsRUgyJd16Q7DDKKHxRQihDb0IEDLuob51hb4e8fgowfPjpf6dFBA66jfkqKWFS6p4un2F89LnNh5p2h_EPDG4UEey-fZxMu5y7XWUq1wmWP3FPh0rdj24aKd9HR?key=lHnoW0dAPfGHmbfUih-TSQ)
+
+![image-1704790207274.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc429MFDtbzLC5uXNrZOCKWma_9LQQfqwkg8wi_e4k6YoyHB1qNvpqqubUz2QU03l_7CXQbj_OuKXDKL6DgnrSQFYmQqgBgwO4jyodsfB0P_8zB_MhQzxRoM2DHta425Y2EeGZ9sE4U9XiIU647?key=RqfQWK10_HwYSXgS6w5wLg)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcytmo9Kpbm_b32pzyFCsUl62AU-dgyRoPGnaXoh2fLWCwv2DQ5vTJJ_IWTK4YBZzdYN4UMO75VTqykfqAZG29aOKU0mD59bYSPLPwuHAuBoWz6B4hb2cUanAcb2UViTLX9Qe5zLJ0hCNcs-MoG?key=--lenFUjzpngsAmQ8qbESQ)
+
+![41 темпы.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfRYI2ALZoWRCeuzWSNAJCgdmsIEJoA_tSfqRsV9p3rC2bCRYyZ4KvIvmnUJ_kSs3bhRc3axO4401QkpUwJznzfXV9xyVA_oE0kIYxGjFWfpgLTIHp3umVye6-__4-7E7ZRR_qA36mKBJNuYjLrdQ?key=mXJoZ3jS89kJMnbi4k4C8A)
+
+![image-1719399254163.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfrp8BSr86NXCrfXavLN2FIJho17T1gECTbrMB7rtFa3uDU8kEnaCW1-54CU2KQUaFra73aeYJs66csQ81RrxH1dlD0a3FLesNrTZxAKuRBUdtQemJ7wKC4Wilal1HWapRqtxqOZPTnBT7KjNC-?key=qCR6R9-UtpRV85uO__8mew)
+
+![44_Прогноз.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-mZ_hxXOlQha1Dm38KapnvcASwmaDkSc1ojpem4FR4armZXKPt6heZYh2kFTL-JpDwCdsJLWAO82kzOPhR1cEAn9lS3jVmjaLQamSURKOZ0qGH5pXKcNupPWFD1DcofqMwqQ0I-ZAzFcw0D0TSA?key=4-CpLNzkq6GKwKubM8W0FQ)
+
+5
+
+![image-1719410224901.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMZzaczqqrDJKW79jH_xGMakDStpMzoUdsam5Sbh_qGwPAqVMxN7JvVp-yfi_JZjgWryUbAT-iVgDaJkm35PqlpDNqDIv6bxID-2oih1f5Cc4mHuku7dz76HSqgiL1QbG_r8a_QaGbPCvAZj4s?key=YsYWdNWdbJcfmRoINnnzwA)
+
+![image-1719475867082.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdN9CMcXqwW8_qhsV2ruiAlvmLYZFWLYs334IvpqeaWkIKyb5WRILAa75NlB8yaQsCqhaWRNukUG3jCWxv9fQ7lOaRTLUNGVv7GbBb-wuH1IwoMzdrQRF6eBOXktbjkTr3yNbB6-Te9XH8t8ZKE?key=jGY6qOPVFanfIvvGDWzJ4A)
+
+![chrome_xhf1r2mouw.png](/chrome_xhf1r2mouw.png)
+ 
+6
+
+![image-1719476340925.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWDwIzazFyLXhOx-q35JrXymRP1DL7_UgcMsczrNZTgKyK-R2ryFEgbfW-vwP65TXO9di1t3ji9UL48In2fhY5KIpMH9ducKlD0HrBwXky9fc9BVWfSSaSAmLrIu69ctU5Fzq_797Nsylv2FPM?key=zWLFPQEEpzp1Ggzbyo5HrQ)
+
+![image-1719477582073.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqPn0JVvGjMo7go03x8h98jTvNItRgBTsXlLZ4IueDcQDX9KdA13cWZD164ZrdhLCFPV5SVe44fWNDhDXJUjA612B5bFYTEXE5mtfhV3fcEQzRSbTCyOTa4zSSf9WKEJD1m1vTXfZRtsT95rxX?key=T3VMVgFQwHWdBLA8YIIFQQ)
+
+![image-1719485230460.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfp50EivqcLaKIj1u9sBpEaweRn5yzxjOkDYTvnUnVxbBXJ11d447MrAsMMtuW2tDQd6LZ1ubJoYSkacoG6WESh3Hbht2VUsAlwbjd1ADSqhiBPXiVHjt5iR-any3l45DN6eL8r4TT-sZ-pEqIwFw?key=5yZFZbqVJks6EKZ_GvgPNQ)
+
+![image-1719553426798.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXchYq0vvyvCcitHxf2F2rasq2xWhUYJ9M56XFBF4bOU72ml5Bj5pFk2Eltdaef90Zv8c8SViI79F29fvvNFEG5SxCfEyLqMTkQquocgfQGl88eo3pGrXIEFGcWN1mwHr1ZRDGQMDIYHzKwZEj4Gsw?key=Tkc60ndt_rkteCuBgttFbg)
+
+![chrome_ckahntpzvg.png](/chrome_ckahntpzvg.png)
+
+9
+
+![image-1719554025085.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe0YDGb1ebC4f7GBnaE75pDvs87Yzt6CrlxTh497byiKT50BGA2vYOV9aQIvLqU9KElMwDxupRnpSePQFPrwlq5ObnT6q3xXCqh86vXvulElMlRUW9p7nqJMfvscybBz9Ysje75b1L9w4V9eNam?key=8c0YXLpx6avetSwh7IusKA)
+
+![image-1677491297478.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4ZS92b0Z7IgoT7GM6pPgfYmgTSY433tSAvnP7DIAbw5us-5ktM7XMjkfNWuztv0EFReca7D2t8hN5Rxh_7h6G-JzypacDX0K4RyzaiWOwv4jUmeRFvffYOup_sTv--0FEC_FuFLxh-OkyfJ8w8g?key=XUt61_RjhC5-hTr3F0VvrA)
+
+![image-1676897437518.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaWYB8k6HNwzaHqQexRua4ToyL9mY11dXdx5fzEO0-WhSUbPavgbn9hdYHMaTViF2xEOVnPjH4t73GO11xvfCWLviMcaMqKU7fZxH5QoNd6GKvovYTVOPCc3rpSl-Rt6Pew3OzCCMgZsHqj_zh?key=iC3W1voxO311Wzy3rWDR3Q)
