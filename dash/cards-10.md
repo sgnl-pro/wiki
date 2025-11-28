@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-11-28T18:45:48.474Z
+date: 2025-11-28T18:52:34.400Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -40,11 +40,17 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ## 10_Альбом
 ###### 10_Альбом {#card-10}
   
-Карточка представляет собой фотоальбом, в который можно загрузить несколько фотографий. Например, это может быть фотоотчет со строительной площадки или фотографии для гео-маркетинга или рекламы.
+Карточка представляет собой фотоальбом, в который можно загрузить несколько фотографий. Например, это может быть фотоотчет со строительной площадки или фотографии для гео-маркетинга или рекламы:
 
 ![image-1676895534452.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S3cjLhFx_ppEY6-KyVObW5V8FFlZ4Ys8pYJYuYOtFy2nJVO4pIWK2HwCbJfddBD4TSsCXJfxedUKA5d_LG2eJXIghsOnRliBmXixRHPpTDZ63b1Gk_sVAaPaLdgUCXc3Y1CUWHk1W2FGb4x0kQ?key=pbozojj_UeH4ZM-gQ0LuQA =300x)
 
-#### Настройка
+Внутри карточки представлены загруженные фотографии, которые можно листать:
+
+![image-1676895655591.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnj4zCNei4QrhXWp2eTWBJ9utQRvB9HogI1WsnXX0A7b-OavTy2KBMiXX6KqSPdCy7t6a9WRNTCkvKYUxqmIcgknmrbfuwMmd3U_Yt-2VrRNqRbSGya7f8phwdOSJkSVkmNr-pdB9zhqqoCD5o?key=pbozojj_UeH4ZM-gQ0LuQA)
+
+---
+
+**Настройка**
   
 ![image-1676895564321.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHh5hLUaTRRactrMTjBrlHmps9NjWw_BVBQ_gAhULeDfxZXlxao2QtxgwX_ajyvGjS2zOqrP2wCkqY37-jmKL9d31j9OJ95eZFJNJBYPCoEd_0BQfbY_LtNCoJYun9B42pOCyvbSzje8QPh8ga?key=pbozojj_UeH4ZM-gQ0LuQA)
 
@@ -53,17 +59,17 @@ dateCreated: 2025-09-12T13:40:06.575Z
 3.  Обрезка изображения.
 4.  Удаление изображения.
 
-#### Использование
-
-Внутри карточки представлены загруженные фотографии, которые можно листать.
-
-![image-1676895655591.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnj4zCNei4QrhXWp2eTWBJ9utQRvB9HogI1WsnXX0A7b-OavTy2KBMiXX6KqSPdCy7t6a9WRNTCkvKYUxqmIcgknmrbfuwMmd3U_Yt-2VrRNqRbSGya7f8phwdOSJkSVkmNr-pdB9zhqqoCD5o?key=pbozojj_UeH4ZM-gQ0LuQA)
-
 ## 11_ТЭПы
 ###### 11_ТЭПы {#card-11}
 
-Технико-экономические показатели проекта.
+Технико-экономические показатели проекта:
   
+![10_teps.png](/sgnl_dash/10_common/10_teps.png =300x)
+
+#### Настройка
+
+Администратор в режиме редактирования вписывает необходимы значения в строки.
+
 <details>
 <summary>Шаблон Excel</summary>
   
@@ -88,15 +94,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 {.dense}
   
 </details>
-
-#### Отображение карточки в режиме пользователя.
-
-![10_teps.png](/sgnl_dash/10_common/10_teps.png)
-
-#### Настройка
-
-Администратор в режиме редактирования вписывает необходимы значения в строки.
-
+  
 ![10_teps_settings.png](/sgnl_dash/10_common/10_teps_settings.png)
 
 ## 12_Риски
@@ -108,7 +106,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 В режиме просмотра отчета:
 
-![image-1676897736159.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXccFI0jh2M9YqEqKSPxwrYiv97z89rBliQrsxsmcyj2hXL_0CuZqvtbjPBMiPl0gkB3_Dl3usledL2RDijXQ5l2ZZIU96JQmdQRvB5Qxzx_INEftZZN4RqTZGh6QqBgYesaq6Q0rHCgfsVMLBK0uQ?key=yHzuBDzMtozpM9mTIy5tXA)
+![image-1676897736159.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXccFI0jh2M9YqEqKSPxwrYiv97z89rBliQrsxsmcyj2hXL_0CuZqvtbjPBMiPl0gkB3_Dl3usledL2RDijXQ5l2ZZIU96JQmdQRvB5Qxzx_INEftZZN4RqTZGh6QqBgYesaq6Q0rHCgfsVMLBK0uQ?key=yHzuBDzMtozpM9mTIy5tXA =300x)
 
 При открытии карточки:
 
@@ -133,7 +131,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 #### Отображение карточки в режиме пользователя
 
-![image-1677495617796.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdf8LANtCkPjB0XqJ7OIEHADpAq8ZCnKpjtfdzkEjwNY3ODcK9fZWekaUF3tmuw5vWdH6Kyf60a-AB9MnxzIRlkO5nQJf71nPsVAJSUm_m3hDfb89SQS9DHFUCNX7ouJLLHSvkPqe8mKFpiPqynyg?key=s-dInLXl9pn3yd906GJSsQ)
+![image-1677495617796.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdf8LANtCkPjB0XqJ7OIEHADpAq8ZCnKpjtfdzkEjwNY3ODcK9fZWekaUF3tmuw5vWdH6Kyf60a-AB9MnxzIRlkO5nQJf71nPsVAJSUm_m3hDfb89SQS9DHFUCNX7ouJLLHSvkPqe8mKFpiPqynyg?key=s-dInLXl9pn3yd906GJSsQ =300x)
 
 #### Настройка
 
@@ -179,7 +177,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 В режиме просмотра отчета:
 
-![42_Динамика рабочих.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNznMhJpjk5MUeoSePM-Qu73NBZURuOxKybDUCEssWtXKXWeOfZqgaAtGBH2pcQo8ZL-nkjJ-n2sqyPh_uQNTSTWTUaMtSD60Xa1L3eRCuGeDDJz34rLWtLzhUNiVziR4e6ngkNsUQrjbyNTPNog?key=fRbp-4QSI0yBB0UfzBD5EQ)
+![42_Динамика рабочих.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNznMhJpjk5MUeoSePM-Qu73NBZURuOxKybDUCEssWtXKXWeOfZqgaAtGBH2pcQo8ZL-nkjJ-n2sqyPh_uQNTSTWTUaMtSD60Xa1L3eRCuGeDDJz34rLWtLzhUNiVziR4e6ngkNsUQrjbyNTPNog?key=fRbp-4QSI0yBB0UfzBD5EQ =300x)
 
 При открытии карточки:
 
@@ -208,7 +206,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 #### Отображение карточки в режиме пользователя
 
-![image-1681292468949.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbebUh1fTcSqUJN-1741NGU620IMgkvQb2EPpqC93vn7lUE5OhBpPM0NcjpkT0u4LvPDM852Ehk8P0kQpzWBYBME4WkN05lE8eXgyBrWePiwZpKrma4b8T5qYCJjzYCWH5fZ5UQMjeSLEUUe13qQ?key=myod8CZdaq8YP84STX-MiA)
+![image-1681292468949.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbebUh1fTcSqUJN-1741NGU620IMgkvQb2EPpqC93vn7lUE5OhBpPM0NcjpkT0u4LvPDM852Ehk8P0kQpzWBYBME4WkN05lE8eXgyBrWePiwZpKrma4b8T5qYCJjzYCWH5fZ5UQMjeSLEUUe13qQ?key=myod8CZdaq8YP84STX-MiA =300x)
 
 #### Настройка
 
@@ -239,7 +237,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 #### Отображение карточки в режиме пользователя
 
-![image-1677655525000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch7WyfpPzGofJwPDTV-uW73UQaxqykUOi72EVsdCPEw3mfpadsvMBNs2jr8uKWNrqRVEMlIEe9b4Gey0fucdjbxem_EiweBeNihPy4z9xD71-z5OSoLbnI0F7fYIreSSORymEMmFosKgJYIRWtwQ?key=WCWKhvs0TBg0F0UgEM_5cQ)
+![image-1677655525000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch7WyfpPzGofJwPDTV-uW73UQaxqykUOi72EVsdCPEw3mfpadsvMBNs2jr8uKWNrqRVEMlIEe9b4Gey0fucdjbxem_EiweBeNihPy4z9xD71-z5OSoLbnI0F7fYIreSSORymEMmFosKgJYIRWtwQ?key=WCWKhvs0TBg0F0UgEM_5cQ =450x)
 
 -   Куб целиком - весь объем (100%)
 -   Синее тело - фактический объем
@@ -266,7 +264,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 #### Отображение карточки в режиме пользователя
 
-![image-1677491513000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8aiFmihdEnbJS0tndaDB0-6WFSMUAjwzKpB_6K96CWNtsLptJxYzsAtAvsEEXSSrtbbOlwNWsWZ7HVNk7CIho1mMU2eRenHuW3xLc49NqWSC3vUYf-lzQjM9jifrKh6m3Xc95p6u0mjGmwjHjcA?key=4JGiycXz0KOTLWiJLf8rJQ)
+![image-1677491513000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8aiFmihdEnbJS0tndaDB0-6WFSMUAjwzKpB_6K96CWNtsLptJxYzsAtAvsEEXSSrtbbOlwNWsWZ7HVNk7CIho1mMU2eRenHuW3xLc49NqWSC3vUYf-lzQjM9jifrKh6m3Xc95p6u0mjGmwjHjcA?key=4JGiycXz0KOTLWiJLf8rJQ =300x)
 
 #### Настройка
 
