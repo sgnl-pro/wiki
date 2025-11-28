@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
+title: DASHBOARD. Все карточки
 description: 
 published: true
-date: 2025-11-28T23:45:53.742Z
+date: 2025-11-28T23:46:34.408Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-28T23:05:25.290Z
