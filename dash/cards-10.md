@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-11-28T18:23:10.702Z
+date: 2025-11-28T18:45:48.474Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -42,9 +42,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
   
 Карточка представляет собой фотоальбом, в который можно загрузить несколько фотографий. Например, это может быть фотоотчет со строительной площадки или фотографии для гео-маркетинга или рекламы.
 
-#### Отображение карточки в режиме пользователя
-
-![image-1676895534452.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S3cjLhFx_ppEY6-KyVObW5V8FFlZ4Ys8pYJYuYOtFy2nJVO4pIWK2HwCbJfddBD4TSsCXJfxedUKA5d_LG2eJXIghsOnRliBmXixRHPpTDZ63b1Gk_sVAaPaLdgUCXc3Y1CUWHk1W2FGb4x0kQ?key=pbozojj_UeH4ZM-gQ0LuQA)
+![image-1676895534452.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S3cjLhFx_ppEY6-KyVObW5V8FFlZ4Ys8pYJYuYOtFy2nJVO4pIWK2HwCbJfddBD4TSsCXJfxedUKA5d_LG2eJXIghsOnRliBmXixRHPpTDZ63b1Gk_sVAaPaLdgUCXc3Y1CUWHk1W2FGb4x0kQ?key=pbozojj_UeH4ZM-gQ0LuQA =300x)
 
 #### Настройка
   
