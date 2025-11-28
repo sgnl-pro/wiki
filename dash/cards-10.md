@@ -2,13 +2,13 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-11-28T18:59:19.745Z
+date: 2025-11-28T23:59:21.007Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
 ---
 
-<sub>**[<   DASHBOARD. Введение](/ru/dash/intro)     **|**     [DASHBOARD. Карточки 20. Деньги    >](/ru/dash/cards-20)**</sub>
+<sub>**[<   DASHBOARD. Все карточки](/ru/dash/cards)     **|**     [DASHBOARD. Карточки 20. Деньги    >](/ru/dash/cards-20)**</sub>
  
 <details>
 <summary>Что нового</summary>
@@ -279,4 +279,4 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ![image-1677491565991.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6UqM9omZswbIbKG9LYWK3efGvH9kRJPIgdrj29Np-UyWc7dgGb8vd4mmd7LhejWHsB25nRSoXMB3Ux13smRF77HeNKFjprCKN9Xz5de_2gesEPE3W0q8kpHWvxr3a7ZT6KlJ86GsKFyKWbe-4?key=4JGiycXz0KOTLWiJLf8rJQ)
 
 #
-<sub>**[<   DASHBOARD. Введение](/ru/dash/intro)     **|**     [DASHBOARD. Карточки 20. Деньги    >](/ru/dash/cards-20)**</sub>
+<sub>**[<   DASHBOARD. Все карточки](/ru/dash/cards)     **|**     [DASHBOARD. Карточки 20. Деньги    >](/ru/dash/cards-20)**</sub>
