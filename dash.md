@@ -2,13 +2,15 @@
 title: SIGNAL DASHBOARD
 description: 
 published: true
-date: 2025-09-19T16:40:16.741Z
+date: 2025-11-29T00:00:42.237Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-27T17:00:16.079Z
 ---
 
 - [Введение](/dash/intro)
+- [Настройки проекта](/dash/settings)
+- [Все карточки](/dash/cards)
 - [Карточки 10. Общие](/dash/cards-10)
 - [Карточки 20. Деньги](/dash/cards-20)
 - [Карточки 30. Сроки](/dash/cards-30)
