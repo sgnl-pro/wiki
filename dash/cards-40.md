@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 40. Объёмы
 description: 
 published: true
-date: 2025-11-28T09:42:23.979Z
+date: 2025-12-01T14:27:06.186Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
@@ -43,7 +43,7 @@ dateCreated: 2025-09-18T13:37:28.921Z
 **40\_Процент освоения объемов** \- карточка показывает степень освоения объема работ объекта в процентном соотношении: план/факт/осталось. 
   *Например, можно визуализировать общий процент освоения объема работ по всему объекту или процент освоения по отдельному виду работы.*
 
-#### Отображение карточки в режиме пользователя
+### Отображение карточки в режиме пользователя
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7aLIW0D40UOIiFhIsJ1-ZXsRUgyJd16Q7DDKKHxRQihDb0IEDLuob51hb4e8fgowfPjpf6dFBA66jfkqKWFS6p4un2F89LnNh5p2h_EPDG4UEey-fZxMu5y7XWUq1wmWP3FPh0rdj24aKd9HR?key=lHnoW0dAPfGHmbfUih-TSQ)
 
@@ -57,7 +57,7 @@ dateCreated: 2025-09-18T13:37:28.921Z
   
 **41\_План-факт по объемам** карточка для отображения планового и фактического объема выполненных работ.
 
-  #### Отображение карточки в режиме пользователя
+  ### Отображение карточки в режиме пользователя
 
 ![image-1704790207274.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc429MFDtbzLC5uXNrZOCKWma_9LQQfqwkg8wi_e4k6YoyHB1qNvpqqubUz2QU03l_7CXQbj_OuKXDKL6DgnrSQFYmQqgBgwO4jyodsfB0P_8zB_MhQzxRoM2DHta425Y2EeGZ9sE4U9XiIU647?key=RqfQWK10_HwYSXgS6w5wLg)
 
