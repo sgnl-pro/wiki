@@ -1,8 +1,8 @@
 ---
 title: SIGNAL. Частые вопросы - тест
 description: 
-published: false
-date: 2025-12-02T14:53:32.579Z
+published: true
+date: 2025-12-02T14:54:23.487Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-02T13:36:19.937Z
