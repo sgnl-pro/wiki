@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 40. Объёмы
 description: 
 published: true
-date: 2025-12-01T14:27:06.186Z
+date: 2025-12-02T08:31:50.815Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
@@ -48,7 +48,7 @@ dateCreated: 2025-09-18T13:37:28.921Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7aLIW0D40UOIiFhIsJ1-ZXsRUgyJd16Q7DDKKHxRQihDb0IEDLuob51hb4e8fgowfPjpf6dFBA66jfkqKWFS6p4un2F89LnNh5p2h_EPDG4UEey-fZxMu5y7XWUq1wmWP3FPh0rdj24aKd9HR?key=lHnoW0dAPfGHmbfUih-TSQ)
 
 #### Настройка карточки
-  Администратора в режиме редактирования вписывает значения в определенные поля:
+  Администратор в режиме редактирования вписывает значения в определенные поля:
   Название карточки, плановый объем, фактический объем, общая сумма всего объема и выбор единицы измерения.
   
   ![chrome_dpcyneqr8e.png](/chrome_dpcyneqr8e.png)
@@ -61,9 +61,7 @@ dateCreated: 2025-09-18T13:37:28.921Z
 
 ![image-1704790207274.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc429MFDtbzLC5uXNrZOCKWma_9LQQfqwkg8wi_e4k6YoyHB1qNvpqqubUz2QU03l_7CXQbj_OuKXDKL6DgnrSQFYmQqgBgwO4jyodsfB0P_8zB_MhQzxRoM2DHta425Y2EeGZ9sE4U9XiIU647?key=RqfQWK10_HwYSXgS6w5wLg)
 
-#### Настройка карточки
-
-### Заполнение общих данных карточки
+### Настройка карточки
 
 ![image-1704790225203.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdGQewcvC6hV8-yIyStdVLJ_zbiAovGXuf2L9ns38GLPt-ugAae9b8Q9mE-VPtiqHxWs8_cAzQFoQG8CQeAQWjaYpafVIgrqbS5J1iutYHcrKSusyBTmMkNCrUAC5b62oNbMkX2epXdhKeXLqdW-A?key=RqfQWK10_HwYSXgS6w5wLg)
 
@@ -75,19 +73,19 @@ dateCreated: 2025-09-18T13:37:28.921Z
 
 Данные о плановом и фактическом объеме на определенную дату можно добавить вручную либо с помощью таблиц Excel.
 
-### Заполнение карточки вручную
+#### Заполнение карточки вручную
 
 Заполните поля “Дата”, “План”, “Факт” и нажмите “+” для добавления заполненной строки. Добавленную строку можно редактировать, нажав на нее.
 
 ![image-1704790248095.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdX8qcFM6B0ZbKm3pdDPfnSl20xjlRUcSImChtEKSj09CCfwq1d7-mmGdUyurg8id22A7VITOQ6X8DjPa61f6ICBQe-rLUKDINRq8rNQahB2UGDdXfY0_Ba6yJlYWkvHNEH20eCD18HkOQfdgzD?key=RqfQWK10_HwYSXgS6w5wLg)
 
-### Заполнение карточки с помощью Excel
+#### Заполнение карточки с помощью Excel
 
 ![image-1704790277013.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXez6lfjgJcF1s3oYM7r8mwI1LEJGk-54wF7Hv4yJfyokDnbeKuao4wwKVfUwpeS8SUBP5H58D5_MyJ-z-LvXxwiG2vs28ME-yVmrQEh-T7A_-k2WLz3UZttzrZwr5BCLjS374923iyA0HlM7q8qSQ?key=RqfQWK10_HwYSXgS6w5wLg)
 
 -   Нажмите кнопку “Вставить данные” и скопируйте в карточку данные из Excel, используя комбинацию клавиш Ctrl+C и Ctrl+V
 
-### Использование карточки
+#### Использование карточки
 
 Внутри карточки находится график, отражающий введенную информацию.
 
