@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы - тест
 description: 
 published: true
-date: 2025-12-02T14:55:46.660Z
+date: 2025-12-02T15:44:55.052Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-02T13:36:19.937Z
@@ -30,7 +30,8 @@ dateCreated: 2025-12-02T13:36:19.937Z
         <span style="font-size: 24px;">01</span>
         <span style="flex-grow: 1;">Вход в систему</span>
     </summary>
-    Содержимое спойлера...
+Содержимое спойлера
+
 </details>
 
 ## Работа с документами
@@ -50,6 +51,33 @@ dateCreated: 2025-12-02T13:36:19.937Z
     ">
         <span style="font-size: 24px;">02</span>
         <span style="flex-grow: 1;">Загрузка файлов</span>
+    </summary>
+
+Для загрузки файлов в SIGNAL DOCS достаточно перетащить их из проводника, либо в нужной папке нажать **➕ → Файл** и в открывшемся окне выбрать нужные файлы.
+
+Чтобы загрузить новую версию уже существующего в DOCS файла:
+- если наименование файлов совпадает — просто перетащить файл, либо добавить через ➕, как описано выше
+- если наименование файлов различается — нажать ПКМ по файлу в СОД  → **Загрузить версию** и выбрать файл с любым именем в проводнике.
+  
+![загрузка_файлов.gif](/faq/загрузка_файлов.gif)
+  
+</details>
+
+<details>
+    <summary style="
+        font-size: 18px;
+        color: #5d4037;
+        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: 2px solid #ffb300;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Segoe UI', sans-serif;
+    ">
+        <span style="font-size: 24px;">03</span>
+        <span style="flex-grow: 1;">Версионность файлов</span>
     </summary>
     Содержимое спойлера...
 </details>
