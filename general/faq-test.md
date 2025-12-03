@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы - тест
 description: 
 published: true
-date: 2025-12-03T08:51:57.214Z
+date: 2025-12-03T09:01:31.360Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-02T13:36:19.937Z
@@ -31,10 +31,8 @@ dateCreated: 2025-12-02T13:36:19.937Z
         font-family: 'Segoe UI', sans-serif;
     ">
         <span style="font-size: 24px;">01</span>
-        <span style="flex-grow: 1;">Вход в систему и проект</span>
+        <span style="flex-grow: 1;">Вход в систему</span>
     </summary>
-  
-### Вход в систему
   
 Когда вас добавят в систему, на почту придёт письмо с логином и временным паролем. Перейдите по ссылке из него:
 
@@ -48,19 +46,36 @@ dateCreated: 2025-12-02T13:36:19.937Z
   
 ![обновление_пароля.png](/faq/обновление_пароля.png)
 
-### Вход в проект
+Теперь для входа в систему используйте новый пароль. Сохраните ссылку для входа в личный кабинет: https://hub.sgnl.pro/hub/profile 
+
+</details>
+
+<details>
+    <summary style="
+        font-size: 18px;
+        color: #5d4037;
+        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: 2px solid #ffb300;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Segoe UI', sans-serif;
+    ">
+        <span style="font-size: 24px;">02</span>
+        <span style="flex-grow: 1;">Вход в проект</span>
+    </summary>
   
-Когда вас добавят в проект, на почту также придёт письмо. Перейдите по ссылке из него:
+Когда вас добавят в проект, на почту придёт письмо. Перейдите по ссылке из него:
 
 ![письмо_о_добавлении_в_проект.png](/faq/письмо_о_добавлении_в_проект.png)
-  
-Теперь для входа в систему используйте новый пароль. Сохраните ссылки для входа в личный кабинет и проекты в DOCS:
-- https://hub.sgnl.pro/hub/profile
-- https://docs.sgnl.pro/projects
   
 Если вы добавлены в несколько проектов, то переключаться между ними можно вверху страницы:
 
 ![переключение_между_проектами.png](/faq/переключение_между_проектами.png)
+  
+Сохраните ссылку для входа в проекты в DOCS: https://docs.sgnl.pro/projects
 
 </details>
 
@@ -79,7 +94,7 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">02</span>
+        <span style="font-size: 24px;">03</span>
         <span style="flex-grow: 1;">Загрузка файлов</span>
     </summary>
 
@@ -107,7 +122,7 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">03</span>
+        <span style="font-size: 24px;">04</span>
         <span style="flex-grow: 1;">Версионность файлов</span>
     </summary>
 
@@ -133,8 +148,8 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">04</span>
-        <span style="flex-grow: 1;">Фильтрация документов</span>
+        <span style="font-size: 24px;">05</span>
+        <span style="flex-grow: 1;">Поиск документов</span>
     </summary>
   
 Чтобы быстро найти нужные файлы на проекте, воспользуйтесь поиском или быстрыми фильтрами:
@@ -161,7 +176,7 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">05</span>
+        <span style="font-size: 24px;">06</span>
         <span style="flex-grow: 1;">Просмотр и сравнение PDF</span>
     </summary>
 
@@ -213,7 +228,7 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">06</span>
+        <span style="font-size: 24px;">07</span>
         <span style="flex-grow: 1;">Просмотр и сравнение САПР форматов</span>
     </summary>
 
@@ -250,7 +265,7 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">07</span>
+        <span style="font-size: 24px;">08</span>
         <span style="flex-grow: 1;">Создание замечания</span>
     </summary>
 
@@ -283,7 +298,7 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">08</span>
+        <span style="font-size: 24px;">09</span>
         <span style="flex-grow: 1;">Отработка замечания</span>
     </summary>
 
@@ -310,8 +325,8 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">09</span>
-        <span style="flex-grow: 1;">Фильтрация замечаний</span>
+        <span style="font-size: 24px;">10</span>
+        <span style="flex-grow: 1;">Поиск замечаний</span>
     </summary>
 
 Для поиска замечаний перейдите в их реестр и в правом верхнем углу нажмите на кнопку фильтра. Откроется панель с фильтрами по статусу, ответственным, названию файла, датам и т.д.
@@ -343,8 +358,8 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">10</span>
-        <span style="flex-grow: 1;">Инициация комплекта согласования</span>
+        <span style="font-size: 24px;">11</span>
+        <span style="flex-grow: 1;">Инициация согласования</span>
     </summary>
 
 Есть два основных способа запустить процесс согласования.
@@ -375,8 +390,8 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">11</span>
-        <span style="flex-grow: 1;">Проверка комплекта согласования</span>
+        <span style="font-size: 24px;">12</span>
+        <span style="flex-grow: 1;">Проверка этапа согласования</span>
     </summary>
 
 Как только наступит ваш этап согласования, на почту придет уведомление. Нажмте по ссылке, чтобы открыть комплект:
@@ -388,8 +403,51 @@ dateCreated: 2025-12-02T13:36:19.937Z
 ![проверка_комплекта.gif](/faq/проверка_комплекта.gif)
   
 </details>
+
+<details>
+    <summary style="
+        font-size: 18px;
+        color: #5d4037;
+        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: 2px solid #ffb300;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Segoe UI', sans-serif;
+    ">
+        <span style="font-size: 24px;">13</span>
+        <span style="flex-grow: 1;">Поиск согласований</span>
+    </summary>
+  
+текст
+  
+</details>
   
 ## Устранение неполадок
+
+<details>
+    <summary style="
+        font-size: 18px;
+        color: #5d4037;
+        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: 2px solid #ffb300;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Segoe UI', sans-serif;
+    ">
+        <span style="font-size: 24px;">14</span>
+        <span style="flex-grow: 1;">Обращение в поддержку</span>
+    </summary>
+
+1. к админу
+2. в поддержку
+  
+</details>
   
 <details>
     <summary style="
@@ -404,7 +462,7 @@ dateCreated: 2025-12-02T13:36:19.937Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 24px;">12</span>
+        <span style="font-size: 24px;">15</span>
         <span style="flex-grow: 1;">Самостоятельная диагностика</span>
     </summary>
 
