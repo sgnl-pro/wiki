@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы - тест
 description: 
 published: true
-date: 2025-12-04T10:00:33.768Z
+date: 2025-12-04T10:03:54.120Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-02T13:36:19.937Z
@@ -330,6 +330,14 @@ dateCreated: 2025-12-02T13:36:19.937Z
     </summary>
 
 Для поиска замечаний воспользуйтесь быстрыми фильтрами: Выдано мной, На мне, Просрочено, 1, 3
+  
+| Обозначение | Результат фильтрации |
+|-------------|----------------------|
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">Выдано мной</span></div> | Замечания, автором которых вы являетесь |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">На мне</span></div> | Замечания, в которых вы указаны как ответственный |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">Просрочено</span></div> | Замечания, у которых прошла дата устранения |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">1</span></div> | Замечания, дата устранения которых заканчивается завтра
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">3</span></div> | Замечания, дата устранения которых заканчивается через 3 дня |
  
   перейдите в их реестр и в правом верхнем углу нажмите на кнопку фильтра. Откроется панель с фильтрами по статусу, ответственным, названию файла, датам и т.д.
 
