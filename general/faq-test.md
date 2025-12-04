@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы - тест
 description: 
 published: true
-date: 2025-12-04T09:48:19.887Z
+date: 2025-12-04T10:00:33.768Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-02T13:36:19.937Z
@@ -152,65 +152,15 @@ dateCreated: 2025-12-02T13:36:19.937Z
   
 Чтобы быстро найти нужные файлы на проекте, воспользуйтесь поиском или быстрыми фильтрами:
   
-| Обозначение | Результат фильтрации          |
-|-----------|--------------|
-| <td style="border: 1px solid #e0e0e0; padding: 12px; text-align: center; vertical-align: top;">
-<span style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 6px 14px; border-radius: 20px; font-weight: 600; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">1</span></td>         | Файлы, загруженные за предыдущий день  |
-| 7         | Файлы, загруженные за предыдущую неделю |
-| DOCX      | Файлы форматов `.docx`, `.doc`, `.xls`, `.xlsx`, `.txt`, `.pptx`, `.ppt` |
-| PDF       | Файлы форматов `.pdf`, `.xps` |
-| JPG       | Файлы форматов `.jpg`, `.jpeg`, `.png`, `.gif`, `.avif`, `.apng`, `.webp`, `.ai`, `.psd`, `.cdr`, `.svg`, `.avi`, `.mpeg`, `.mpg`, `.mp2`, `.m2v`, `.m4v`, `.mp4`, `.mpeg`, `.mpe`, `.mpv`, `.vob`, `.mkv`, `.webm` |
-| CAD       | Файлы форматов `.cad`, `.dwg`, `.rvt`, `.rfa`, `.rte`, `.nwc`, `.nwd`, `.dwf`, `.dxf`, `.dgn`, `.rvn`, `.fbx`, `.3ds`, `.3dm`, `.skp`, `.rng`, `.pln`, `.obj`, `.dae`, `.nwf`, `.dfx`, `.stl`, `.ifc` |
-  
-<table style="width: 100%; border-collapse: collapse; background: white;">
-<thead>
-<tr>
-<th style="border: 1px solid #e0e0e0; padding: 12px; text-align: left; background: #f8f9fa; color: #333;">Обозначение</th>
-<th style="border: 1px solid #e0e0e0; padding: 12px; text-align: left; background: #f8f9fa; color: #333;">Результат фильтрации</th>
-</tr>
-</thead>
-<tbody>
-<tr style="background: white;">
-<td style="border: 1px solid #e0e0e0; padding: 12px; text-align: center; vertical-align: top;">
-<span style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 6px 14px; border-radius: 20px; font-weight: 600; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">1</span>
-</td>
-<td style="border: 1px solid #e0e0e0; padding: 12px;">Файлы, загруженные за предыдущий день</td>
-</tr>
-<tr style="background: white;">
-<td style="border: 1px solid #e0e0e0; padding: 12px; text-align: center; vertical-align: top;">
-<span style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 6px 14px; border-radius: 20px; font-weight: 600; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">7</span>
-</td>
-<td style="border: 1px solid #e0e0e0; padding: 12px;">Файлы, загруженные за предыдущую неделю</td>
-</tr>
-<tr style="background: white;">
-<td style="border: 1px solid #e0e0e0; padding: 12px; text-align: center; vertical-align: top;">
-<span style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 6px 14px; border-radius: 20px; font-weight: 600; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">DOCX</span>
-</td>
-<td style="border: 1px solid #e0e0e0; padding: 12px;">Файлы форматов <code>.docx</code>, <code>.doc</code>, <code>.xls</code>, <code>.xlsx</code>, <code>.txt</code>, <code>.pptx</code>, <code>.ppt</code></td>
-</tr>
-<tr style="background: white;">
-<td style="border: 1px solid #e0e0e0; padding: 12px; text-align: center; vertical-align: top;">
-<span style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 6px 14px; border-radius: 20px; font-weight: 600; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">PDF</span>
-</td>
-<td style="border: 1px solid #e0e0e0; padding: 12px;">Файлы форматов <code>.pdf</code>, <code>.xps</code></td>
-</tr>
-<tr style="background: white;">
-<td style="border: 1px solid #e0e0e0; padding: 12px; text-align: center; vertical-align: top;">
-<span style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 6px 14px; border-radius: 20px; font-weight: 600; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">JPG</span>
-</td>
-<td style="border: 1px solid #e0e0e0; padding: 12px;">Файлы форматов <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, <code>.gif</code>, <code>.avif</code>, <code>.apng</code>, <code>.webp</code>, <code>.ai</code>, <code>.psd</code>, <code>.cdr</code>, <code>.svg</code>, <code>.avi</code>, <code>.mpeg</code>, <code>.mpg</code>, <code>.mp2</code>, <code>.m2v</code>, <code>.m4v</code>, <code>.mp4</code>, <code>.mpeg</code>, <code>.mpe</code>, <code>.mpv</code>, <code>.vob</code>, <code>.mkv</code>, <code>.webm</code></td>
-</tr>
-<tr style="background: white;">
-<td style="border: 1px solid #e0e0e0; padding: 12px; text-align: center; vertical-align: top;">
-<span style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 6px 14px; border-radius: 20px; font-weight: 600; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">CAD</span>
-</td>
-<td style="border: 1px solid #e0e0e0; padding: 12px;">Файлы форматов <code>.cad</code>, <code>.dwg</code>, <code>.rvt</code>, <code>.rfa</code>, <code>.rte</code>, <code>.nwc</code>, <code>.nwd</code>, <code>.dwf</code>, <code>.dxf</code>, <code>.dgn</code>, <code>.rvn</code>, <code>.fbx</code>, <code>.3ds</code>, <code>.3dm</code>, <code>.skp</code>, <code>.rng</code>, <code>.pln</code>, <code>.obj</code>, <code>.dae</code>, <code>.nwf</code>, <code>.dfx</code>, <code>.stl</code>, <code>.ifc</code></td>
-</tr>
-</tbody>
-</table>
+| Обозначение | Результат фильтрации |
+|-------------|----------------------|
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">1</span></div> | Файлы, загруженные за предыдущий день |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">7</span></div> | Файлы, загруженные за предыдущую неделю |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">DOCX</span></div> | Файлы форматов `.docx`, `.doc`, `.xls`, `.xlsx`, `.txt`, `.pptx`, `.ppt` |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">PDF</span></div> | Файлы форматов `.pdf`, `.xps` |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">JPG</span></div> | Файлы форматов `.jpg`, `.jpeg`, `.png`, `.gif`, `.avif`, `.apng`, `.webp`, `.ai`, `.psd`, `.cdr`, `.svg`, `.avi`, `.mpeg`, `.mpg`, `.mp2`, `.m2v`, `.m4v`, `.mp4`, `.mpeg`, `.mpe`, `.mpv`, `.vob`, `.mkv`, `.webm` |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">CAD</span></div> | Файлы форматов `.cad`, `.dwg`, `.rvt`, `.rfa`, `.rte`, `.nwc`, `.nwd`, `.dwf`, `.dxf`, `.dgn`, `.rvn`, `.fbx`, `.3ds`, `.3dm`, `.skp`, `.rng`, `.pln`, `.obj`, `.dae`, `.nwf`, `.dfx`, `.stl`, `.ifc` |
 
-![фильтрация_1.png](/faq/фильтрация_1.png)
-  
 У файлов будет указан путь до папки, чтобы сразу оказаться в нужном разделе:
   
 ![фильтрация_документов.gif](/faq/фильтрация_документов.gif)
