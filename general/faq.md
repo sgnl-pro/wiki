@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-12-04T10:25:33.030Z
+date: 2025-12-04T10:34:12.110Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -20,11 +20,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -53,11 +53,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -84,11 +84,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -111,11 +111,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -136,11 +136,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -173,11 +173,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -224,11 +224,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -260,11 +260,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -291,11 +291,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -318,11 +318,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -357,11 +357,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -388,11 +388,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -415,11 +415,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -449,11 +449,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -472,11 +472,11 @@ dateCreated: 2025-09-12T09:34:38.591Z
 <details>
     <summary style="
         font-size: 18px;
-        color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
