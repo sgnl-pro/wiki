@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы - тест
 description: 
 published: true
-date: 2025-12-04T10:25:10.716Z
+date: 2025-12-04T10:31:36.900Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-02T13:36:19.937Z
@@ -21,10 +21,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -54,10 +54,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -85,10 +85,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -112,10 +112,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -137,10 +137,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -174,10 +174,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -225,10 +225,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -261,10 +261,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -292,10 +292,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -319,10 +319,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -358,10 +358,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -389,10 +389,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -416,10 +416,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -450,10 +450,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -473,10 +473,10 @@ dateCreated: 2025-12-02T13:36:19.937Z
     <summary style="
         font-size: 18px;
         color: #5d4037;
-        background: linear-gradient(to right, #fff8e1, #ffecb3);
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
         padding: 12px 20px;
         border-radius: 8px;
-        border: 2px solid #ffb300;
+        border: 2px solid #0695D7;
         display: flex;
         align-items: center;
         gap: 10px;
