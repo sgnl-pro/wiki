@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы - тест
 description: 
 published: true
-date: 2025-12-04T10:10:54.127Z
+date: 2025-12-04T10:14:23.313Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-02T13:36:19.937Z
@@ -433,16 +433,14 @@ dateCreated: 2025-12-02T13:36:19.937Z
   
 | Обозначение | Результат фильтрации |
 |-------------|----------------------|
-| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">Роли проекта</span></div> | Замечания, автором которых вы являетесь |
-| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">На мне</span></div> | Замечания, в которых вы указаны как ответственный |
-| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">1</span></div> | Замечания, дата устранения которых заканчивается завтра
-| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">7</span></div> | Замечания, дата устранения которых заканчивается через 3 дня |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">Роли проекта</span></div> | Согласования, ответственными за которые являются пользователи с одной из выбранных ролей |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">На мне</span></div> | Согласования, в которых вы указаны как ответственный |
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">1</span></div> | Согласования, начатые сегодня или вчера
+| <div style="text-align: center;"><span style="background: #ECF0F3; color: #44AEDE; padding: 6px 20px; border-radius: 20px; font-weight: 800; display: inline-block;">7</span></div> | Согласования, начатые за последнюю неделю |
  
 Также вы можете воспользоваться расширенными фильтрами в правом верхнем углу. Откроется панель с фильтрами по статусу, ответственным, типам, датам и другим свойствам.
   
 Для сброса фильтрации нажмите на крестик рядом со значком фильтра.
-  
-Реестр согласований можно экспортировать в формате XLSX для дополнительной фильтрации или передачи пользователям, не работающим в СОД. Для этого в реестре замечаний в левом верхнем углу нажмите ![image8.png](/faq/image8.png =25x) и выберите тип экспорта (с перечислением файлов комплектов или без них).
   
 </details>
   
