@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2025-11-06T14:24:29.940Z
+date: 2025-12-05T08:09:21.769Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -14,7 +14,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 # Вкладки{.tabset}
 ## 1. DOCS Backup
-###### 1. DOCS Backup {#Backup}
+###### 1. DOCS Backup {#backup}
   
 В SIGNAL DOCS возможно настроить резервное копирование файлов проекта на сервер компании. Для этого необходимо скачать [_клиент резервного копирования_](https://docs.sgnl.pro/s/i/e2f95796-0278-462c-930d-614f2d472c2f) и заполнить файл настроек.
 
