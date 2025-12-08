@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-12-08T08:42:03.196Z
+date: 2025-12-08T08:42:39.182Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -527,7 +527,7 @@ dateCreated: 2025-09-12T09:34:38.591Z
         <span style="font-size: 24px;">16</span>
         <span style="flex-grow: 1;">Таблица известных ошибок</span>
     </summary>
-**Таблица известных ошибок SIGNAL DOCS**
+  
   | Действие пользователя | Код ошибки в консоли/в интерфейсе DOCS | Рекомендации по устранению
 |-------------|----------------------|----------------------|
   Открытие модели в Forge Viewer| downloadAndReplaced: failed to fetch| Включить проксирование просмотрщика Forge в правом верхнем углу|
