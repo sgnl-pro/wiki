@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-12-08T08:40:33.355Z
+date: 2025-12-08T08:42:03.196Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -509,7 +509,24 @@ dateCreated: 2025-09-12T09:34:38.591Z
 7. Обратитесь к таблице наиболее частых ошибок (см. чуть ниже), возможно там уже есть готовое решение. 
   
 8. Если не нашли решение вашей ошибки в таблице, обратитесь в [Telegram-бот технической поддержки SIGNAL](https://t.me/signal_helpdesk_bot). К обращению приложите скриншоты из вкладок **Консоль** и **Сеть,** а также опишите действия, которые пытаетесь выполнить.
-
+  </details>
+  
+<details>
+    <summary style="
+        font-size: 18px;
+        color: #102538;
+        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: 2px solid #0695D7;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Segoe UI', sans-serif;
+    ">
+        <span style="font-size: 24px;">16</span>
+        <span style="flex-grow: 1;">Таблица известных ошибок</span>
+    </summary>
 **Таблица известных ошибок SIGNAL DOCS**
   | Действие пользователя | Код ошибки в консоли/в интерфейсе DOCS | Рекомендации по устранению
 |-------------|----------------------|----------------------|
