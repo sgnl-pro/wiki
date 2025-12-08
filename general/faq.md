@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-12-08T08:39:22.566Z
+date: 2025-12-08T08:40:33.355Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -516,7 +516,7 @@ dateCreated: 2025-09-12T09:34:38.591Z
   Открытие модели в Forge Viewer| downloadAndReplaced: failed to fetch| Включить проксирование просмотрщика Forge в правом верхнем углу|
   Открытие модели в Forge Viewer| ERR_connection_reset| Блокируется соединение с просмотрщиком Проверьте файл Hosts <br>c:\windows\system32\diverts\etc\hosts и удалите из него записи: <br>https://developer.api.autodesk.com <br>https://cdn.derivative.autodesk.com <br>https://fonts.autodesk.com|
    Открытие модели в Forge Viewer| Cannot read properties of undefined(reading 'pivot')| Ошибка в опубликованном файле. Рекомендуем проверить настройки публикации в Revit и загрузить новую версию модели в DOCS|
-  Обработка в модели в Forge Viewer| ForgeModelNitOnErrorState| Модель уже находится в очереди на обработку, дождитесь ее обработки|
+  Обработка в модели в Forge Viewer| ForgeModelNotInErrorState| Модель уже находится в очереди на обработку, дождитесь ее обработки|
   Скачивание файла|Network Error| 1. Проверьте VPN/Прокси на вашей сети и отключите их <br> 2. Проверьте включенные в браузере расширения и попробуйте отключить их <br>3. Проверьте корректность названия файлов на предмет запрещенных символов Windows|
   Скачивание файла| <small>ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION</small>| Проверьте корректность названия фаайлов на предмет запрещенных символов Windows|
   Открытие файла .doc .xls| Файл не найден| Форматы .doc .xls не поддерживаются в DOCS, переведите их в более современные форматы .docx .xlsx|\
