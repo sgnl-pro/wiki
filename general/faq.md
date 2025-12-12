@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-12-12T06:29:57.826Z
+date: 2025-12-12T09:08:27.258Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -18,19 +18,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 ## С чего начать
 
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">01</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">01</span>
         <span style="flex-grow: 1;">Вход в систему</span>
     </summary>
   
@@ -51,19 +40,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
 
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">02</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">02</span>
         <span style="flex-grow: 1;">Вход в проект</span>
     </summary>
   
@@ -82,19 +60,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 ## Работа с документами
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">03</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">03</span>
         <span style="flex-grow: 1;">Загрузка файлов</span>
     </summary>
 
@@ -109,19 +76,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
 
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">04</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">04</span>
         <span style="flex-grow: 1;">Версионность файлов</span>
     </summary>
 
@@ -134,19 +90,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">05</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">05</span>
         <span style="flex-grow: 1;">Поиск документов</span>
     </summary>
   
@@ -171,19 +116,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">06</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">06</span>
         <span style="flex-grow: 1;">Просмотр и сравнение PDF</span>
     </summary>
 
@@ -222,19 +156,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">07</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">07</span>
         <span style="flex-grow: 1;">Просмотр и сравнение САПР форматов</span>
     </summary>
 
@@ -258,19 +181,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 ## Работа с замечаниями
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">08</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">08</span>
         <span style="flex-grow: 1;">Создание замечания</span>
     </summary>
 
@@ -289,19 +201,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">09</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">09</span>
         <span style="flex-grow: 1;">Отработка замечания</span>
     </summary>
 
@@ -316,19 +217,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">10</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">10</span>
         <span style="flex-grow: 1;">Поиск замечаний</span>
     </summary>
 
@@ -355,19 +245,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 ## Работа с согласованиями
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">11</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">11</span>
         <span style="flex-grow: 1;">Инициация согласования</span>
     </summary>
 
@@ -386,19 +265,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
    
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">12</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">12</span>
         <span style="flex-grow: 1;">Проверка этапа согласования</span>
     </summary>
 
@@ -413,19 +281,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
 
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">13</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">13</span>
         <span style="flex-grow: 1;">Поиск согласований</span>
     </summary>
   
@@ -447,19 +304,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 ## Устранение неполадок
 
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">14</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">14</span>
         <span style="flex-grow: 1;">Обращение в поддержку</span>
     </summary>
 
@@ -470,19 +316,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
 </details>
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">15</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">15</span>
         <span style="flex-grow: 1;">Самостоятельная диагностика</span>
     </summary>
   
@@ -512,19 +347,8 @@ dateCreated: 2025-09-12T09:34:38.591Z
   </details>
   
 <details>
-    <summary style="
-        font-size: 18px;
-        color: #102538;
-        background: linear-gradient(to right, #DAF4FF, #8EDDFF);
-        padding: 12px 20px;
-        border-radius: 8px;
-        border: 1px solid #0695D7;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: 'Segoe UI', sans-serif;
-    ">
-        <span style="font-size: 24px;">16</span>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">16</span>
         <span style="flex-grow: 1;">Таблица известных ошибок</span>
     </summary>
   
