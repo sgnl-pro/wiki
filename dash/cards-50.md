@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 50. 3D карточки
 description: 
 published: true
-date: 2025-12-12T08:41:04.021Z
+date: 2025-12-12T09:13:09.355Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:39:52.568Z
@@ -11,7 +11,10 @@ dateCreated: 2025-09-18T13:39:52.568Z
 <sub>**[<   DASHBOARD. Карточки 40. Объёмы](/ru/dash/cards-40)     **|**     [DASHBOARD. Карточки 60. DOCS    >](/ru/dash/cards-60)**</sub>
   
 <details>
-<summary>Что нового</summary>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">🔄</span>
+        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+</summary>
   
 > Здесь перечислены основные изменения. Для получения подробностей нажмите на номер версии.
 {.is-info}
