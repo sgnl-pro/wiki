@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2025-12-12T08:55:26.400Z
+date: 2025-12-12T08:58:26.568Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-12T06:16:25.580Z
@@ -23,7 +23,7 @@ dateCreated: 2025-12-12T06:16:25.580Z
         gap: 10px;
         font-family: 'Segoe UI', sans-serif;
     ">
-        <span style="font-size: 20px;">🔄</span>
+        <span style="font-size: 20px;">ℹ️</span>
         <span style="flex-grow: 1;">Что нового</span>
 </summary>
   
