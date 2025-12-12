@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 20. Деньги
 description: 
 published: true
-date: 2025-12-12T08:14:56.652Z
+date: 2025-12-12T08:15:31.558Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:21:31.877Z
@@ -51,6 +51,7 @@ dateCreated: 2025-09-18T13:21:31.877Z
 <details>
 <summary>Шаблон Excel</summary>  
 
+|        |                              |                               
 |-----------------------------------|------------|  
 | Заголовок                         |         21 |
 | Статус                            |    TRUE    |
