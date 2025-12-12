@@ -2,7 +2,7 @@
 title: DOCS Disk
 description: 
 published: true
-date: 2025-11-21T06:58:46.115Z
+date: 2025-12-12T09:11:13.460Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:34:10.627Z
@@ -11,7 +11,10 @@ dateCreated: 2025-09-09T12:34:10.627Z
 <sub>**[<   DOCS. Уведомления](/ru/docs/notifications)     **|**     [DOCS. Дополнительно   >](/ru/docs/more)**</sub>
 
 <details>
-<summary>Что нового</summary>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">🔄</span>
+        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+</summary>
 
 **[2025.0.15](/general/updates/2025-36)** ^20.11.2025^
   
