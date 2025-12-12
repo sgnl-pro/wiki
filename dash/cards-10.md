@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-12-12T07:42:33.127Z
+date: 2025-12-12T09:12:47.275Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -11,7 +11,10 @@ dateCreated: 2025-09-12T13:40:06.575Z
 <sub>**[<   DASHBOARD. Все карточки](/ru/dash/cards)     **|**     [DASHBOARD. Карточки 20. Деньги    >](/ru/dash/cards-20)**</sub>
  
 <details>
-<summary>Что нового</summary>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">🔄</span>
+        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+</summary>
   
 > Здесь перечислены основные изменения. Для получения подробностей нажмите на номер версии.
 {.is-info}
