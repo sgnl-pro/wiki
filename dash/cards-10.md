@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-12-05T08:48:20.489Z
+date: 2025-12-12T07:41:07.098Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -143,6 +143,9 @@ dateCreated: 2025-09-12T13:40:06.575Z
   
 **Настройка**
 
+> Для корректной работы карточки необходимо использовать кодек H.264. Использовать камеры с другим кодеком можно с помощью карточки [90_интеграция ](/dash/cards-90)
+{.is-warning}
+
 1\. Вкладка RTSP
 
 Укажите ссылку на видеотрансляцию в формате RTSP:
@@ -182,19 +185,31 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 #### Настройка
 
+  <details>
+<summary>Шаблон Excel</summary>
+  
+|        |                              |                               |
+|-----------------|------------------------------------|-------------------------------|
+| Заголовок       |         14 |     |     |
+| Статус          |    TRUE    |     |     |
+| Url изображения |            |     |     |
+| Тип             | dynamics2  |     |     |
+|                 |            |     |     |
+| Компания        |            |     |     |
+| Дата            | 12.12.2025 |     |     |
+| По месяцам      |    FALSE   |     |     |
+| Данные          |            |     |     |
+|                 | 02.11.2025 | 126 | 114 |
+|                 | 26.10.2025 | 134 | 148 |
+|                 | 19.10.2025 | 150 | 120 |
+|                 | 12.10.2025 | 100 | 150 | 
+  
+</details>
+
 1\. Заполнение вручную
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXffcIRL2BCiV2s-E4CSMz4JFUftgEpaqwSODHWLD_ufjSV5h9l8Ld0l0CnTRwcAcj5s9cCxjzGiqTEzivfOUTo_v9c8amgJg_xx6QxZ-VyefUfLYpf-zeQeZj9NXyUQF26SN0rAS3kEsGQKRw_TjA?key=fRbp-4QSI0yBB0UfzBD5EQ)
 
-2\. Обновление данных через Google таблицы
-
-Карточку быстрее и удобнее заполнять через Google таблицы.
-
-[*_Инструкция для заполнения_*](https://youneedawiki.com/app/page/1NmAD5nYWBapjHcxuLfcMTxfYEeEkufrZGpLzFw2k30Q?p=1q45phxXDh7rGLAjXkfEXgBABHArTZ7gs)
-
-3\. Копирование данных из таблицы
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGEXs9oWSMA3OtDPXuASEAJ8ZKXlT4FP5spBwWj4uABv_R0RVy_QcgESwMZCG9_5jP6w8lhXaI9xETGtwHoR__ax2HYm0o1E2RbK2V9cBNbGJsNnI_HQQgGuxFIYISg9CRlVzpLDzq-obfxANOPw?key=fRbp-4QSI0yBB0UfzBD5EQ)
 
 ## 15_Динамика универсальная
 ###### 15_Динамика универсальная {#card-15}
@@ -206,6 +221,29 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ![image-1681292468949.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbebUh1fTcSqUJN-1741NGU620IMgkvQb2EPpqC93vn7lUE5OhBpPM0NcjpkT0u4LvPDM852Ehk8P0kQpzWBYBME4WkN05lE8eXgyBrWePiwZpKrma4b8T5qYCJjzYCWH5fZ5UQMjeSLEUUe13qQ?key=myod8CZdaq8YP84STX-MiA =300x)
 
 #### Настройка
+  
+  <details>
+<summary>Шаблон Excel</summary>
+  
+|        |                              |                               |
+|-----------------|------------------------------------|-------------------------------|
+| Заголовок       |         15 |           |        |
+| Статус          |    TRUE    |           |        |
+| Url изображения |            |           |        |
+| Тип             | dynamics3  |           |        |
+|                 |            |           |        |
+| Название        |            |           |        |
+| Дата            | 12.12.2025 |           |        |
+| По месяцам      |    FALSE   |           |        |
+| Разница         |    FALSE   |           |        |
+| Ед. изм.        | шт         |           |        |
+| Данные          |            |           |        |
+|                 |            | Машинисты | Маляры |
+|                 | 05.12.2025 |         6 |     14 |
+|                 | 12.12.2025 |         8 |     12 |
+|                 |            |           |        |
+  
+</details>  
 
 1\. Заполнение карточки вручную
 
