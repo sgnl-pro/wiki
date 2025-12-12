@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 30. Сроки
 description: 
 published: true
-date: 2025-12-12T08:29:26.037Z
+date: 2025-12-12T08:30:08.431Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:35:13.037Z
@@ -114,7 +114,7 @@ dateCreated: 2025-09-18T13:35:13.037Z
 
 **Настройка карточки**
 
-Аналогично карточке [_33\_График МPP_](https://wiki.sgnl.pro/app/page/1EoBGk_faxI2tG6q8oGV67QfC6F_NwrPo7seIQw_ttG4)
+Аналогично карточке [33_График МPP](#card-33)
 
 ## 35_График
 ###### 35_График {#card-35}
