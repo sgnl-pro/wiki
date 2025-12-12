@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2025-12-05T08:45:26.972Z
+date: 2025-12-12T09:11:21.987Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -11,7 +11,10 @@ dateCreated: 2025-09-09T15:46:40.736Z
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
 
 <details>
-<summary>Что нового</summary>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">🔄</span>
+        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+</summary>
 
 **[2025.38](/general/updates/2025-38)** ^04.12.2025^
   
