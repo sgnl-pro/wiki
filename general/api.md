@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-11-27T20:39:46.688Z
+date: 2025-12-12T06:07:46.349Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -12,6 +12,9 @@ dateCreated: 2025-11-06T14:53:09.140Z
 
 <details>
 <summary>Что нового</summary>
+
+**[2025.39](/general/updates/2025-39)** ^11.12.2025^
+- Исправили ошибку в методе `public/v1/projects/{projectId}/users`.
   
 **[2025.37](/general/updates/2025-37)** ^27.11.2025^
 - Добавили методы назначения доступов на папки.
