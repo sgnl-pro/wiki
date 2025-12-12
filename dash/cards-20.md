@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 20. Деньги
 description: 
 published: true
-date: 2025-12-12T06:35:20.158Z
+date: 2025-12-12T08:14:56.652Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:21:31.877Z
@@ -47,7 +47,33 @@ dateCreated: 2025-09-18T13:21:31.877Z
 ![image-1681298475900.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7gz_IHCi28nMd5tnUTmglZMFbu6b2ek9EBWk5kZWWAVpU45ZmFBQ3YkKlmQnwTgT9TQ1rFwbjR4M7CBeCXM1YheuvgZmxqzKqu4H4QTUFk3oODCcFGhL5_2UZ5JBMqFKWXd1Go4MdzNUxmIfFuA?key=MHvS0J4XLMea1KtJ_XIgQg)
 
 **Настройка карточки**
+  
+<details>
+<summary>Шаблон Excel</summary>  
 
+|-----------------------------------|------------|  
+| Заголовок                         |         21 |
+| Статус                            |    TRUE    |
+| Url изображения                   |            |
+| Тип                               | money      |
+|                                   |            |
+| Название                          | Монолит    |
+| Дата                              | 12.12.2025 |
+| Ед. изм.                          | ₽          |
+| Закрыто в счет аванса             |      90000 |
+| К оплате за                       | Январь     |
+| Гарантийное удержание             |      10000 |
+| KS-2                              |      80000 |
+| Удержано по Предписаниям          |      15000 |
+| Предъявлено к закрытию            |      70000 |
+| Рекомендовано к удержанию         |      24000 |
+| Общая стоимость                   |     150000 |
+| Аванс всего                       |     150000 |
+| Скрыть "Удержано по предписаниям" |    FALSE   |
+{.dense}
+  
+</details>  
+  
 1\. Заполнение карточки вручную
 
 ![image-1681298506449.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcGqJ51PiwyGmxORdbRvhdbQQC8pVXs2ytSe49eyi4LIJhXDShOE4TW7g_tHhwmduApJajhvrrxA2Mvic8aMVIZ6pt95JpXzYNMdWUHoBjOn-uMytP6eEyHV92WEt7kUShKxIAhkGJgXmQx_Zoj?key=MHvS0J4XLMea1KtJ_XIgQg)
