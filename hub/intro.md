@@ -2,7 +2,7 @@
 title: HUB. Введение
 description: 
 published: true
-date: 2025-11-06T15:08:03.618Z
+date: 2025-12-12T09:09:27.115Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T16:50:10.735Z
@@ -11,7 +11,10 @@ dateCreated: 2025-06-24T16:50:10.735Z
 <sub>**[<   SIGNAL. Публичный API](/ru/general/api)     **|**     [HUB. Администратор   >](/ru/hub/admin)**</sub>
 
 <details>
-<summary>Что нового</summary>
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">🔄</span>
+        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+</summary>
   
 > Здесь перечислены только крупные улучшения. Для получения большей информации нажмите на номер версии или смотрите историю изменений на странице соответствующего функционала.
 {.is-info}
