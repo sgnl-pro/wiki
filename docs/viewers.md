@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2025-12-05T08:53:37.423Z
+date: 2025-12-12T06:03:49.735Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -21,6 +21,13 @@ dateCreated: 2025-10-16T13:16:45.534Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.39](/general/updates/2025-39)** ^11.12.2025^
+
+:hammer_and_wrench: Исправили перелистывание страниц в обозревателе при переключении страниц в PDF в Forge.
+
+:hammer_and_wrench: Исправили ошибку, при которой импортировались лишние строки в MPP.
+  
 ----
 **[2025.38](/general/updates/2025-38)** ^04.12.2025^
   
