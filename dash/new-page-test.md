@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2025-12-12T09:04:29.633Z
+date: 2025-12-12T09:05:52.198Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-12T06:16:25.580Z
@@ -11,15 +11,7 @@ dateCreated: 2025-12-12T06:16:25.580Z
 <sub>**[<   DASHBOARD. Карточки 50. 3D карточки](/ru/dash/cards-50)     **|**     [DASHBOARD. Карточки 90. Другие    >](/ru/dash/cards-90)**</sub>
 
 <details>
-    <summary style="
-        font-size: 16px;
-        color: #0D47A1;
-        background: #E3F2FD;
-        border-radius: 7px;
-        border: 1px solid #64B5F6;
-        display: flex;
-        gap: 10px
-    ">
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
         <span style="font-size: 20px;">🔄</span>
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
