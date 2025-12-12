@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 30. Сроки
 description: 
 published: true
-date: 2025-12-12T06:37:03.214Z
+date: 2025-12-12T08:29:26.037Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:35:13.037Z
@@ -43,8 +43,10 @@ dateCreated: 2025-09-18T13:35:13.037Z
 
 ![image-1712822699852.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrTv-vUC7bkH3P4cRk5azhwy0wLZ2fAAlKcxfSz5tm09L4rT3q9bw0KJD0OlCX9tzGzRf7Q877ZzV_wXWSlNyRQBcDB31P0L7Jd5u8enAXbiMcbrr4tnBAFfoVm8hLfZ_d3ANBRkQsWNqUEfmI8Q?key=LXYQylv4P2g0uc__R72ZFg)
 
-## 32. График Excel
-**32\_График Excel** показывает процент выполнения работ по вехам с возможностью просмотреть график вехи. В качестве исходных данных используется файл Excel или XML из MS Project.
+## 32_График Excel
+###### 32_График Excel  {#card-32}
+  
+Карточка показывает процент выполнения работ по вехам с возможностью просмотреть график вехи. В качестве исходных данных используется файл Excel или XML из MS Project.
 
 ![image-1712822221575.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdfSIR4_Py3Y19MEL-AX5TP_itlX_P75dqOFjaSIchs2UhBYFJB3LM_xYui6-6bcP0Ev0qflvEn40m9JjhbyL1G5FyPIEqSBW8mQ7YxqJsqYlDpPnnLDTPFQpv31ivxqqB7KZt4MFd5QFgmSs2u4g?key=uTpH5JX9Jn6touF5yEmV2w)
 
@@ -78,14 +80,16 @@ dateCreated: 2025-09-18T13:35:13.037Z
 
 ![image-1720705508423.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdBmwtC78lOz8XQXC8A_xuWHA2EzhSROm2Q2T9nLVGSSmes3kkEt_yHbuMUcxbVOGNmSWM_fEgt2S3AjXSZUNCWmim-SOyaqPXhmr_2hlZdWRMxPJljFbRGoTT3m_n3QioL2xd3kUeUOvphel8TRw?key=uTpH5JX9Jn6touF5yEmV2w)
 
-## 33. График MPP
-**33\_График MPP** показывает процент выполнения работ в виде графика. В качестве исходных данных используется файл формата MPP из MS Project, загруженный в систему SIGNAL DOCS.
+## 33_График MPP
+###### 33_График MPP {#card-33}
+  
+Карточка показывает процент выполнения работ в виде графика. В качестве исходных данных используется файл формата MPP из MS Project, загруженный в систему SIGNAL DOCS.
 
 ![image-1712822019382.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXVYcH407nS7HGSBD59d-9JiUfRfbbmFFfEH9TOBX-R6HOlNHkcQbUXWus7-zmtAMrzFwsWotQ63pxQz65xbhd8IaPKS-tgH8oruPlXHSkFD6CyGBuQe9KbMLEozXwpcQQV-gcfOurVpejY0wX?key=mE51B4FZL-V610x-8QMFuA)
 
 ![image-1712821870453.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcSenVeUGEVLtghq1AwBnHhsaUvstu-5fANYnEbOtce1T3nCl7RmtG2RuxYDROPrX1zWxFREbTdnkrYCOmp4_5zURmJUusgt2Ec2QN4tuSSftfyNaUIpQXKliwHhWkSKCGMcqRLvzyyCaKNx76v?key=mE51B4FZL-V610x-8QMFuA)
 
-### Настройка карточки
+**Настройка карточки**
 
 В режиме настроек карточки заполните поле ***"Название",*** затем выберите файл ***формата .mpp*** из SIGNAL DOCS и нажмите ***"Импортировать данные"***.
 
@@ -95,8 +99,10 @@ dateCreated: 2025-09-18T13:35:13.037Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeIaf4RkSiKXUZ8ewxauey3ynYEuyo3m1SFxw0yYUvYqJWoZaAWtGd3L_u9RFAn4vlpzjQqZHdbFzbKnUywnCJPAXRn3B0Mof0Y9_HtWxc2x2k-ZC-7xjB4nkjaor-z3fzLX-_SmNC95ZnVjBIQ?key=mE51B4FZL-V610x-8QMFuA)
 
-## 34. График MPP с вехами
-**34\_График MPP с вехами** показывает процент выполнения работ с возможностью провалиться до графика. В качестве исходных данных используется файл формата MPP из MS Project, загруженный в систему SIGNAL DOCS.
+## 34_График MPP с вехами
+###### 34_График MPP с вехами {#card-34}
+  
+Карточка показывает процент выполнения работ с возможностью провалиться до графика. В качестве исходных данных используется файл формата MPP из MS Project, загруженный в систему SIGNAL DOCS.
 
 ![image-1712821263478.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf5ArGU_9FAgXlJWEvqBpLthEC12Is1iMeQwTmtp0mGT7sT5NVKhzjVz7dOJNTJpp-90V0ua6S8KUGOKK5mkXdKP9cH3Oy76DaAjk58eSg-c0DjZkf6vLcIBqSgQ4fKqgJYQJVLcKoWE2CqPky9iA?key=yxUxS-UIPIWstwBoHlElWw)
 
@@ -106,12 +112,14 @@ dateCreated: 2025-09-18T13:35:13.037Z
 
 ![image-1712821319149.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJudD2dqZZ7CvbZm6siLeP4TOp4pph-HeWgTOl92ZXncTTr3PHyXdUM9Eq7Adb0S1nyJc6F1YGhxldJRvl7rHTYQVlwZgEbDkawx0lR7IiyVZtlfIO_TrjyJcvXFSvp2Q04k6OwsiwE3yrmeMdxg?key=yxUxS-UIPIWstwBoHlElWw)
 
-### Настройка карточки
+**Настройка карточки**
 
 Аналогично карточке [_33\_График МPP_](https://wiki.sgnl.pro/app/page/1EoBGk_faxI2tG6q8oGV67QfC6F_NwrPo7seIQw_ttG4)
 
-## 35. График
-35\_График - визуализация графика производства работ в карточке.
+## 35_График
+###### 35_График {#card-35}
+  
+Визуализация графика производства работ в карточке.
 
 1\. Данные с работами и датами начала и окончания из MS Project копируются в Excel. Пример Excel файла
 
