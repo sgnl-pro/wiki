@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2025-12-12T08:59:12.960Z
+date: 2025-12-12T09:00:28.808Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-12T06:16:25.580Z
@@ -13,7 +13,7 @@ dateCreated: 2025-12-12T06:16:25.580Z
 <details>
     <summary style="
         font-size: 16px;
-        color: #102538;
+        color: #0D47A1;
         background: #E3F2FD;
         padding: 4px 20px;
         border-radius: 7px;
