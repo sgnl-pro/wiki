@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-12-12T06:07:46.349Z
+date: 2025-12-12T09:09:15.140Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -11,8 +11,11 @@ dateCreated: 2025-11-06T14:53:09.140Z
 <sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Введение   >](/ru/hub/intro)**</sub>
 
 <details>
-<summary>Что нового</summary>
-
+    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
+        <span style="font-size: 20px;">🔄</span>
+        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+</summary>
+  
 **[2025.39](/general/updates/2025-39)** ^11.12.2025^
 - Исправили ошибку в методе `public/v1/projects/{projectId}/users`.
   
