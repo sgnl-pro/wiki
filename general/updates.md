@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2025-12-12T05:58:34.460Z
+date: 2025-12-16T06:51:51.760Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -13,8 +13,6 @@ dateCreated: 2025-09-25T13:55:16.192Z
 > См. также новости разработки в видеоформате: **[Telegram](https://t.me/signal_docs) [YouTube](https://youtube.com/playlist?list=PLtTaFDza_glCo_-5EBKg303YwiEXWG85K&si=mpVEam-DxdVom_dQ)	[Rutube](https://rutube.ru/plst/558794?r=wd) [VK](https://vkvideo.ru/playlist/-223002264_6)**
 {.is-info}
 
-> Для пользователей SIGNAL также доступен Telegam канал с основными обновлениями. В нём же вы найдёте информацию о более ранних обновлениях. Для добавления **[обращайтесь в поддержку](/general/support)**
-{.is-info}
 ---
 
 <span style="font-size: 20px; font-weight: bold;">Декабрь 2025</span>
@@ -47,6 +45,9 @@ dateCreated: 2025-09-25T13:55:16.192Z
 - [Релиз 2025.26 *11.09.2025*](/general/updates/2025-26)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 - [Релиз 2025.25 *04.09.2025*](/general/updates/2025-25)<span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 {.links-list}
+  
+> Для пользователей SIGNAL также доступен Telegam канал с основными обновлениями. В нём же вы найдёте информацию о более ранних обновлениях. Для добавления **[обращайтесь в поддержку](/general/support)**
+{.is-info}
   
 #
 <sub>**[<   SIGNAL. Поддержка](/ru/general/support)     **|**     [SIGNAL. Публичный API   >](/ru/general/api)**</sub>
