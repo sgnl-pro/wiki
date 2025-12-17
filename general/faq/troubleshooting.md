@@ -2,7 +2,7 @@
 title: Устранение неполадок
 description: 
 published: true
-date: 2025-10-03T07:08:34.113Z
+date: 2025-12-17T09:01:35.176Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-02T12:39:27.694Z
@@ -40,7 +40,18 @@ dateCreated: 2025-10-02T12:39:27.694Z
   
 8. Если не нашли решение вашей ошибки в таблице, то обратитесь в ТГ-бот технической поддержки SIGNAL https://t.me/signal_helpdesk_bot. К обращению приложите скриншоты из вкладок “Консоль” и “Сеть”, а также опишите действия, которые пытаетесь выполнить
 ## Таблица известных ошибок SIGNAL DOCS
-![chrome_yda7qi01wv.png](/chrome_yda7qi01wv.png)
-  **[Как добавить DOCS в список разрешенных сайтов](https://support.kaspersky.com/help/Kaspersky/Mac23/ru-RU/166599.htm)**
-#
+ | Действие пользователя | Код ошибки в консоли/в интерфейсе DOCS | Рекомендации по устранению
+|-------------|----------------------|----------------------|
+  Открытие модели в Forge Viewer| downloadAndReplaced: failed to fetch| Включить проксирование просмотрщика Forge в правом верхнем углу|
+  Открытие модели в Forge Viewer| ERR_connection_reset| Блокируется соединение с просмотрщиком Проверьте файл Hosts <br>c:\windows\system32\diverts\etc\hosts и удалите из него записи: <br>https://developer.api.autodesk.com <br>https://cdn.derivative.autodesk.com <br>https://fonts.autodesk.com|
+   Открытие модели в Forge Viewer| Cannot read properties of undefined(reading 'pivot')| Ошибка в опубликованном файле. Рекомендуем проверить настройки публикации в Revit и загрузить новую версию модели в DOCS|
+  Открытие модели в Forge Viewer| Failed to create a Viewer: WebGL not supported | Вставить в адресную строку chrome://flags и включить WebGL Draft Extensions |
+  Обработка в модели в Forge Viewer| ForgeModelNotInErrorState| Модель уже находится в очереди на обработку, дождитесь ее обработки|
+  Скачивание файла|Network Error| 1. Проверьте VPN/Прокси на вашей сети и отключите их <br> 2. Проверьте включенные в браузере расширения и попробуйте отключить их <br>3. Проверьте корректность названия файлов на предмет запрещенных символов Windows|
+  Скачивание файла| <small>ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION</small>| Проверьте корректность названия файлов на предмет запрещенных символов Windows|
+  Открытие файла .doc .xls| Файл не найден| Форматы .doc .xls не поддерживаются в DOCS, переведите их в более современные форматы .docx .xlsx|\
+  Открытие документов| Network Error| Проверьте VPN/Прокси на вашей сети и отключите их <br> Обновите браузер <br> Перезагрузите компьютер|
+  Открытие документов| Failed to load PDF file <br> ERR_UPLOAD_FILE_CHANGED| 1. Попробуйте открыть файл в режиме "Инкогнито" <br> 2. Проверьте журнал угроз вашего антивируса Kaspersky <br> **[Как добавить DOCS в список разрешенных сайтов](https://support.kaspersky.com/help/Kaspersky/Mac23/ru-RU/166599.htm)**
+
+
 <sub>**[<   SIGNAL. Лицензионное соглашение](/ru/general/license-agreement)     **|**     [SIGNAL. Поддержка   >](/ru/general/support)**</sub>
