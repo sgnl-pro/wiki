@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-12-17T08:51:59.411Z
+date: 2025-12-17T08:53:02.648Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -357,7 +357,7 @@ dateCreated: 2025-09-12T09:34:38.591Z
   Открытие модели в Forge Viewer| downloadAndReplaced: failed to fetch| Включить проксирование просмотрщика Forge в правом верхнем углу|
   Открытие модели в Forge Viewer| ERR_connection_reset| Блокируется соединение с просмотрщиком Проверьте файл Hosts <br>c:\windows\system32\diverts\etc\hosts и удалите из него записи: <br>https://developer.api.autodesk.com <br>https://cdn.derivative.autodesk.com <br>https://fonts.autodesk.com|
    Открытие модели в Forge Viewer| Cannot read properties of undefined(reading 'pivot')| Ошибка в опубликованном файле. Рекомендуем проверить настройки публикации в Revit и загрузить новую версию модели в DOCS|
-  Открытие модели в Forge Viewer| Failed to create viewer: WebGL not supported | Вставить в адресную строку chrome://flags и включить WebGL Draft Extensions |
+  Открытие модели в Forge Viewer| Failed to create a Viewer: WebGL not supported | Вставить в адресную строку chrome://flags и включить WebGL Draft Extensions |
   Обработка в модели в Forge Viewer| ForgeModelNotInErrorState| Модель уже находится в очереди на обработку, дождитесь ее обработки|
   Скачивание файла|Network Error| 1. Проверьте VPN/Прокси на вашей сети и отключите их <br> 2. Проверьте включенные в браузере расширения и попробуйте отключить их <br>3. Проверьте корректность названия файлов на предмет запрещенных символов Windows|
   Скачивание файла| <small>ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION</small>| Проверьте корректность названия файлов на предмет запрещенных символов Windows|
