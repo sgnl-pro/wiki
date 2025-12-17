@@ -2,7 +2,7 @@
 title: SIGNAL. Поддержка
 description: 
 published: true
-date: 2025-12-17T08:59:33.152Z
+date: 2025-12-17T09:00:25.552Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T14:46:59.376Z
@@ -18,7 +18,7 @@ dateCreated: 2025-09-09T14:46:59.376Z
 - [info@sgnl.pro *Электронная почта*](mailto:info@sgnl.pro)
 - [Telegram-канал *Новости и материалы*](https://t.me/signal_docs)
 - [Telegram-бот *Техническая поддержка*](https://t.me/signal_helpdesk_bot)
-- [Ошибки при работе с SIGNAL *Решение известных ошибок*]([troubleshooting](/general/faq/troubleshooting))
+- [Ошибки при работе с SIGNAL *Решение известных ошибок*](/general/faq/troubleshooting)
 {.links-list}
 
 
