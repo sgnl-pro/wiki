@@ -2,13 +2,13 @@
 title: Устранение неполадок
 description: 
 published: true
-date: 2025-12-17T09:01:35.176Z
+date: 2025-12-17T15:21:38.827Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-02T12:39:27.694Z
 ---
 
-<sub>**[<   SIGNAL. Лицензионное соглашение](/ru/general/license-agreement)     **|**     [SIGNAL. Поддержка   >](/ru/general/support)**</sub>
+<sub>**[<   SIGNAL. Частые вопросы](/ru/general/faq)     **|**     [SIGNAL. Что нового   >](/ru/general/updates)**</sub>
 
 ----
 # Возможные ошибки при работе с SIGNAL DOCS
@@ -54,4 +54,4 @@ dateCreated: 2025-10-02T12:39:27.694Z
   Открытие документов| Failed to load PDF file <br> ERR_UPLOAD_FILE_CHANGED| 1. Попробуйте открыть файл в режиме "Инкогнито" <br> 2. Проверьте журнал угроз вашего антивируса Kaspersky <br> **[Как добавить DOCS в список разрешенных сайтов](https://support.kaspersky.com/help/Kaspersky/Mac23/ru-RU/166599.htm)**
 
 
-<sub>**[<   SIGNAL. Лицензионное соглашение](/ru/general/license-agreement)     **|**     [SIGNAL. Поддержка   >](/ru/general/support)**</sub>
+<sub>**[<   SIGNAL. Частые вопросы](/ru/general/faq)     **|**     [SIGNAL. Что нового   >](/ru/general/updates)**</sub>
