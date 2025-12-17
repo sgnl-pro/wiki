@@ -2,7 +2,7 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2025-12-17T08:53:02.648Z
+date: 2025-12-17T09:02:44.066Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
@@ -301,71 +301,7 @@ dateCreated: 2025-09-12T09:34:38.591Z
   
 </details>
   
-## Устранение неполадок
 
-<details>
-    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
-        <span style="font-size: 20px;">14</span>
-        <span style="flex-grow: 1;">Обращение в поддержку</span>
-    </summary>
-
-Если у вас возникли проблемы с доступами, обратитесь к вашему администратору. По всем вопросам и предложениям также обращайтесь в поддержку: [support@sgnl.pro](mailto:support@sgnl.pro) или [Telegram-бот ](https://t.me/signal_helpdesk_bot).
-  
-Также вы можете попробовать решить проблему самостоятельно, в зависимости от ситуации: ознакомьтесь со справкой на этом сайте, посмотрите [видеоролики](/general/support), проведите диагностику (см. следующий блок 15).
-  
-</details>
-  
-<details>
-    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
-        <span style="font-size: 20px;">15</span>
-        <span style="flex-grow: 1;">Самостоятельная диагностика</span>
-    </summary>
-  
-1\. Для проведения самостоятельной диагностики ошибок при работе с SIGNAL DOCS воспользуйтесь консолью разработчика в вашем браузере. Чтобы открыть консоль, нажмите правой кнопкой мыши в шапке сайта и выберите **Исследовать элемент** или нажмите <kbd>F12</kbd>:
-  
-![chrome_66trsmiijw.png](/chrome_66trsmiijw.png)
-  
-2. В открывшейся консоли понадобятся вкладки **Сеть (Network)** и **Консоль (Console):**
-  
-![chrome_kjdh0rffms.png](/chrome_kjdh0rffms.png)
-  
-3. Обновите страницу в браузере (нажмите <kbd>F5</kbd>), чтобы консоль начала отслеживать вашу активность.
-  
-4. Попробуйте выполнить действие, вызвавшее ошибку.
-
-5. Во вкладке **Консоль** будет отображаться **Ошибка** — она помечена красным цветом:
-  
-![chrome_tomj4toguf.png](/chrome_tomj4toguf.png)
-  
-6. Во вкладке **Сеть** будет отображаться запрос, вызвавший ошибку. Он также будет отмечен красным цветом:
-  
-![chrome_ioufhiasul.png](/chrome_ioufhiasul.png)
-  
-7. Обратитесь к таблице наиболее частых ошибок (см. чуть ниже), возможно там уже есть готовое решение. 
-  
-8. Если не нашли решение вашей ошибки в таблице, обратитесь в [Telegram-бот технической поддержки SIGNAL](https://t.me/signal_helpdesk_bot). К обращению приложите скриншоты из вкладок **Консоль** и **Сеть,** а также опишите действия, которые пытаетесь выполнить.
-  </details>
-  
-<details>
-    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
-        <span style="font-size: 20px;">16</span>
-        <span style="flex-grow: 1;">Таблица известных ошибок</span>
-    </summary>
-  
-  | Действие пользователя | Код ошибки в консоли/в интерфейсе DOCS | Рекомендации по устранению
-|-------------|----------------------|----------------------|
-  Открытие модели в Forge Viewer| downloadAndReplaced: failed to fetch| Включить проксирование просмотрщика Forge в правом верхнем углу|
-  Открытие модели в Forge Viewer| ERR_connection_reset| Блокируется соединение с просмотрщиком Проверьте файл Hosts <br>c:\windows\system32\diverts\etc\hosts и удалите из него записи: <br>https://developer.api.autodesk.com <br>https://cdn.derivative.autodesk.com <br>https://fonts.autodesk.com|
-   Открытие модели в Forge Viewer| Cannot read properties of undefined(reading 'pivot')| Ошибка в опубликованном файле. Рекомендуем проверить настройки публикации в Revit и загрузить новую версию модели в DOCS|
-  Открытие модели в Forge Viewer| Failed to create a Viewer: WebGL not supported | Вставить в адресную строку chrome://flags и включить WebGL Draft Extensions |
-  Обработка в модели в Forge Viewer| ForgeModelNotInErrorState| Модель уже находится в очереди на обработку, дождитесь ее обработки|
-  Скачивание файла|Network Error| 1. Проверьте VPN/Прокси на вашей сети и отключите их <br> 2. Проверьте включенные в браузере расширения и попробуйте отключить их <br>3. Проверьте корректность названия файлов на предмет запрещенных символов Windows|
-  Скачивание файла| <small>ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION</small>| Проверьте корректность названия файлов на предмет запрещенных символов Windows|
-  Открытие файла .doc .xls| Файл не найден| Форматы .doc .xls не поддерживаются в DOCS, переведите их в более современные форматы .docx .xlsx|\
-  Открытие документов| Network Error| Проверьте VPN/Прокси на вашей сети и отключите их <br> Обновите браузер <br> Перезагрузите компьютер|
-  Открытие документов| Failed to load PDF file <br> ERR_UPLOAD_FILE_CHANGED| 1. Попробуйте открыть файл в режиме "Инкогнито" <br> 2. Проверьте журнал угроз вашего антивируса Kaspersky <br> **[Как добавить DOCS в список разрешенных сайтов](https://support.kaspersky.com/help/Kaspersky/Mac23/ru-RU/166599.htm)**
-  
-</details>
 
 #
 <sub>**[<   SIGNAL. Лицензионное соглашение](/ru/general/license-agreement)     **|**     [SIGNAL. Поддержка   >](/ru/general/support)**</sub>
