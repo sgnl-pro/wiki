@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-12-12T09:10:05.488Z
+date: 2025-12-18T06:39:25.508Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -29,6 +29,11 @@ dateCreated: 2025-09-09T08:02:36.643Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.40](/general/updates/2025-40)** ^17.12.2025^
+  
+:sparkles: Увеличили максимальную длину имени группы согласований до 50 символов.
+  
 ----
 **[2025.39](/general/updates/2025-39)** ^11.12.2025^
 
