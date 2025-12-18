@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 50. 3D карточки
 description: 
 published: true
-date: 2025-12-12T09:13:09.355Z
+date: 2025-12-18T06:40:08.726Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-18T13:39:52.568Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-18T13:39:52.568Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.40](/general/updates/2025-40)** ^17.12.2025^
+  
+:hammer_and_wrench: Исправили некорректное отображение цветов элементов по свойствам в карточке 50.
+  
 ----
 **[2025.35](/general/updates/2025-35)** ^13.11.2025^
   
