@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2025-12-23T08:28:26.608Z
+date: 2025-12-23T08:29:26.544Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -525,7 +525,7 @@ mkdir C:\\Users\\minio\\.minio\\certs
 
 1.  Готово. Теперь можно пользоваться сервисом
   
-  ## 5. Настройки AD(Active Directory) FS 
+  ## 6. Настройки AD(Active Directory) FS 
 > *Подключение Active Directory к SIGNAL HUB позволяет связать корпоративную структуру учетных записей с сервисом и обеспечить управляемый доступ пользователей к функциональности HUB. Это дает несколько практических преимуществ:*
   
   1. Создайте группу (Application Group → Add Application Group).
@@ -574,8 +574,7 @@ mkdir C:\\Users\\minio\\.minio\\certs
 Завершайте конфигурацию по нажатию на “Finish”.
   
   ![chrome_g84vxlrj0e.png](/chrome_g84vxlrj0e.png)
-##
-  **Этап 2. Настройка Hub в Signal**
+#### **Этап 2. Настройка Hub в Signal**
 Выбираем нужную компанию переходим во вкладку Авторизация и редактируем авторизацию из которой брали Redirect Url далее указываем в поля:
 1) **Discovery endpoint** - адрес вашего adfs + /.well-known/openid-configuration/ 
 2) **Client Id** - значение Client Identifier из ADFS
