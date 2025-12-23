@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2025-12-23T11:11:12.280Z
+date: 2025-12-23T13:46:50.852Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -530,9 +530,9 @@ mkdir C:\\Users\\minio\\.minio\\certs
   2.Укажите любое имя (Например “Signal”). Укажите тип “Server application” и нажмите “next”.
   
   ![chrome_rqes3si0dc.png](/chrome_rqes3si0dc.png)
-  3. Сохраните значение поля “Client Identifier”. Укажите Redirect URI который можно получить в signal hub во вкладке Авторизация.
+  3. Сохраните значение поля “Client Identifier”. Укажите Redirect URI который можно получить в SIGNAL HUB во вкладке Настройки - AD и SSO.
   
-  ![chrome_97y1ssmalk.png](/chrome_97y1ssmalk.png)
+![chrome_gz0xeviuyv.png](/chrome_gz0xeviuyv.png)
 ![chrome_miasscv5ho.png](/chrome_miasscv5ho.png)
   4. Включите опцию “Generate a shared secret” и скопируйте полученный 
   
