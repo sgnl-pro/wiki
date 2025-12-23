@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2025-12-12T09:11:21.987Z
+date: 2025-12-23T08:07:12.835Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -524,6 +524,9 @@ mkdir C:\\Users\\minio\\.minio\\certs
 -   **В строку “Region”**  впишите регион сервера
 
 1.  Готово. Теперь можно пользоваться сервисом
-
+  
+  #### 5.6. 
+В SIGNAL 
+  
 #
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
