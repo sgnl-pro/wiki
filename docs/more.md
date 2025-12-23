@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2025-12-23T08:30:37.348Z
+date: 2025-12-23T09:30:35.716Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -581,5 +581,7 @@ mkdir C:\\Users\\minio\\.minio\\certs
 3) **Client secret** - Shared secret который сгенерировали на предыдущем этапе
 4) **Scopes** - указываем значение openid
   ![chrome_dmvuscfzur.png](/chrome_dmvuscfzur.png)
+  >Для добавления Домена - обратитесь в тех.поддержку SIGNAL ([@signal_helpdesk_bot](https://t.me/signal_helpdesk_bot) в ТГ или на почту support@sgnl.pro
+  {.is-warning}
 #
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
