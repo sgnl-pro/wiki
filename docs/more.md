@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2025-12-23T08:07:12.835Z
+date: 2025-12-23T08:27:45.794Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -525,8 +525,62 @@ mkdir C:\\Users\\minio\\.minio\\certs
 
 1.  Готово. Теперь можно пользоваться сервисом
   
-  #### 5.6. 
-В SIGNAL 
+  #### 5.6. Настройки AD(Active Directory) FS 
+> *Подключение Active Directory к SIGNAL HUB позволяет связать корпоративную структуру учетных записей с сервисом и обеспечить управляемый доступ пользователей к функциональности HUB. Это дает несколько практических преимуществ:*
   
+  1. Создайте группу (Application Group → Add Application Group).
+  
+![chrome_ur7cd3vdvw.png](/chrome_ur7cd3vdvw.png)
+  2.Укажите любое имя (Например “Signal”). Укажите тип “Server application” и нажмите “next”.
+  
+  ![chrome_rqes3si0dc.png](/chrome_rqes3si0dc.png)
+  3. Сохраните значение поля “Client Identifier”. Укажите Redirect URI который можно получить в signal hub во вкладке Авторизация.
+  
+  ![chrome_97y1ssmalk.png](/chrome_97y1ssmalk.png)
+![chrome_miasscv5ho.png](/chrome_miasscv5ho.png)
+  4. Включите опцию “Generate a shared secret” и скопируйте полученный 
+  
+  ![chrome_miasscv5ho.png](/chrome_miasscv5ho.png)
+  5. Проверьте получившуюся конфигурацию и завершайте настройку по нажатию на “Next”.
+  
+  ![chrome_miasscv5ho.png](/chrome_miasscv5ho.png)
+  ![chrome_ppfc1vtlmb.png](/chrome_ppfc1vtlmb.png)
+  6. Выберите созданный объект и нажмите на “Properties”. В настройках объекта нажмите на “Add application”. Укажите тип “Web API”.
+  
+  ![chrome_qtg8ww1cgp.png](/chrome_qtg8ww1cgp.png)
+  7. В поле “Identifier” укажите ваш “Client Identifier” который сохранили на предыдущем этапе.
+  
+  ![chrome_niq1ll4veq.png](/chrome_niq1ll4veq.png)
+  8. Выберите на этапе “Access Control Policy” значение “Permit everyone”
+  
+  ![chrome_upxsrbcvin.png](/chrome_upxsrbcvin.png)
+  9. В разделе “Permitted scopes” выберите “allatclaims” и “openid”.
+  
+  ![chrome_r3jvrjlqpi.png](/chrome_r3jvrjlqpi.png)
+  10. Проверьте настройки и завершайте конфигурацию.
+  
+  11. Для работы авторизации нужны данные о пользователе, для чего необходимо настроить их передачу в токене OpenID.
+Выберите созданное “Web API” и нажмите “Edit”.
+Перейтиде в таб “Issuance Tranform Rules” и нажмите “Add Rule…”.
+Нажмите “Next”.
+  
+![chrome_qllzldi601.png](/chrome_qllzldi601.png)
+  12. В поле “Attribute store” укажите “Active Directory”.
+В таблице укажите следующие значения:
+- E-Mail-Addresses: email
+- Given-Name: given_name
+- Surname: family_name
+- middleName: middle_name
+Завершайте конфигурацию по нажатию на “Finish”.
+  
+  ![chrome_g84vxlrj0e.png](/chrome_g84vxlrj0e.png)
+##
+  **Этап 2. Настройка Hub в Signal**
+Выбираем нужную компанию переходим во вкладку Авторизация и редактируем авторизацию из которой брали Redirect Url далее указываем в поля:
+1) **Discovery endpoint** - адрес вашего adfs + /.well-known/openid-configuration/ 
+2) **Client Id** - значение Client Identifier из ADFS
+3) **Client secret** - Shared secret который сгенерировали на предыдущем этапе
+4) **Scopes** - указываем значение openid
+  ![chrome_dmvuscfzur.png](/chrome_dmvuscfzur.png)
 #
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
