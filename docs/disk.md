@@ -2,7 +2,7 @@
 title: DOCS Disk
 description: 
 published: true
-date: 2025-12-12T09:11:13.460Z
+date: 2025-12-26T06:56:07.438Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:34:10.627Z
@@ -16,6 +16,11 @@ dateCreated: 2025-09-09T12:34:10.627Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+**[2025.0.16](/general/updates/2025-41)** ^25.12.2025^
+  
+**:hammer_and_wrench: Исправление ошибок**
+- Исправили ошибку при отправке "блокированных" файлов (открытых в Excel и т. д.).
+  
 **[2025.0.15](/general/updates/2025-36)** ^20.11.2025^
   
 **:sparkles: Доработки функционала**
