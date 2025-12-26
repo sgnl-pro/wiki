@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2025-12-26T06:41:13.795Z
+date: 2025-12-26T06:41:28.198Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -16,7 +16,7 @@ dateCreated: 2025-09-25T13:55:16.192Z
 ---
 
 <span style="font-size: 20px; font-weight: bold;">Декабрь 2025</span>
-- [Релиз 2025.40 *26.12.2025*](/general/updates/2025-41)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS Disk</span>
+- [Релиз 2025.41 *26.12.2025*](/general/updates/2025-41)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS Disk</span>
 <span style="font-size: 20px; font-weight: bold;">Декабрь 2025</span>
 - [Релиз 2025.40 *17.12.2025*](/general/updates/2025-40)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 - [Релиз 2025.39 *11.12.2025*](/general/updates/2025-39)<span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span>
