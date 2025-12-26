@@ -2,7 +2,7 @@
 title: DOCS. Согласования
 description: 
 published: true
-date: 2025-12-12T09:10:39.697Z
+date: 2025-12-26T06:50:52.454Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-09T12:22:52.543Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.41](/general/updates/2025-41)** ^25.12.2025^
+
+:sparkles: Добавили оповещение всех участников при завершении согласования.
+  
 ----
 **[2025.39](/general/updates/2025-39)** ^11.12.2025^
 
