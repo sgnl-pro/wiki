@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2025-12-18T16:24:06.202Z
+date: 2025-12-26T06:53:24.952Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -29,6 +29,11 @@ dateCreated: 2025-09-09T08:02:36.643Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.41](/general/updates/2025-41)** ^25.12.2025^
+
+:sparkles: Во вкладке Сервисы добавилили возможность для каждого клиента Tangl указывать свои адреса серверов (если Tangl on-premise).
+  
 ----
 **[2025.40](/general/updates/2025-40)** ^17.12.2025^
   
