@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2025-12-12T09:10:47.626Z
+date: 2025-12-26T06:52:45.688Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-09T12:28:36.555Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2025.41](/general/updates/2025-41)** ^25.12.2025^
+
+:sparkles: Добавили просмотр файлов PDF для всех, у кого есть доступ к пакету.
+  
 ----
 **[2025.38](/general/updates/2025-38)** ^04.12.2025^
   
