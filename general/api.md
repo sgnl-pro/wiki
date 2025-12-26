@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-12-26T06:54:11.816Z
+date: 2025-12-26T06:54:24.739Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -17,7 +17,7 @@ dateCreated: 2025-11-06T14:53:09.140Z
 </summary>
 
 **[2025.41](/general/updates/2025-41)** ^25.12.2025^
--Добавили метод для получения событий по всем замечаниям проекта.
+- Добавили метод для получения событий по всем замечаниям проекта.
   
 **[2025.39](/general/updates/2025-39)** ^11.12.2025^
 - Исправили ошибку в методе `public/v1/projects/{projectId}/users`.
