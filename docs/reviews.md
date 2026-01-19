@@ -2,7 +2,7 @@
 title: DOCS. Согласования
 description: 
 published: true
-date: 2025-12-26T06:54:56.081Z
+date: 2026-01-19T07:55:14.967Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
@@ -124,6 +124,13 @@ dateCreated: 2025-09-09T12:22:52.543Z
  
 ----
 
+  
+  
+  
+  
+  
+  
+  
 # Вкладки{.tabset}
 ## 1. Создание согласования
 ###### 1. Создание согласования {#creating}
