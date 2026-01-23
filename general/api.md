@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2025-12-26T06:54:24.739Z
+date: 2026-01-23T06:41:55.993Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -16,6 +16,16 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+**[2026.1](/general/updates/2026-1)** ^22.01.2026^
+
+Добавили:
+- методы для получения журнала событий из HUB (см. контроллер `UserLog`)
+- возвращаемое поле `code` (код проекта) в методах `GET /public/v1/projects/{projectId}` и `GET /public/v1/projects`
+- метод `PATCH /public/v1/reviews` для обновления основных полей комплекта согласования
+- метод `POST /public/v1/reviews/versions` для получения итерации согласования, в т. ч. рекурсивного получения предыдущих версий
+- возвращаемое поле `topVersion.stages.completedBy` (кто завершил этап согласования) в методе `POST /public/v1/reviews`
+- методы для работы с пакетами передачи (получение сертификата для скачивания файлов, получение правил доступа к пакету, получение файлов) (см. контроллеры `AcceptanceCertificate`, `DocumentsTransferAccesses`, `DocumentsTransferItem`)
+  
 **[2025.41](/general/updates/2025-41)** ^25.12.2025^
 - Добавили метод для получения событий по всем замечаниям проекта.
   
