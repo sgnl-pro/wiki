@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: true
-date: 2025-12-26T06:49:38.840Z
+date: 2026-01-23T07:12:33.026Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -30,6 +30,11 @@ dateCreated: 2025-06-24T16:53:52.277Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.1](/general/updates/2026-1)** ^22.01.2026^
+  
+:sparkles: Добавили выделение пользователей в общей таблице через <kbd>Shift</kbd>.
+  
 ----
 **[2025.41](/general/updates/2025-41)** ^25.12.2025^
   
