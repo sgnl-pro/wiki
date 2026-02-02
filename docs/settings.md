@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-01-23T07:22:18.148Z
+date: 2026-02-02T11:57:55.705Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -162,8 +162,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 Автор при создании замечания имеет права на редактирование в конкретном замечании вне зависимости от прав доступа.
   
 Ответственный в замечании имеет права на редактирование некоторых полей (вложения, описание, статус) вне зависимости от прав доступа 
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_ZRf3qW1mz4RMSNokBNvsSngkO2XFE05EKKefWUmrSGkPZoWOhtMm3x5d4NgiTZ9Rlayur5JHwgpZWR208uOtM67X6ghXdYehubFMx7FeD8VlQIooTAwFyKvhr7NKpT9i6GQJCPPiy2MUtRU8EQ?key=DikC-fotJxKF9jvBMPQYCw)
+![доступы_таблица123.jpg](/sgnl_docs/docs_issues/доступы_таблица123.jpg)
 
 #### 2.2. Общие
 Для типа замечаний доступны следующие общие настройки:
