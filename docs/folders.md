@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-02-03T14:37:15.377Z
+date: 2026-02-03T14:37:57.919Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -280,7 +280,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhSwUMPiVcWkJcWpEdkky2Yx6j5pDWNlK1-gIiWQtjiLjE5N5bHlrTwweNxR0zzyQWdk0U2Bl8IGd_HFwDrsF1mJiqwx-725yCwWDFlC71NUj87UYQvLpNitdvr59TFJM?key=3A7uOwmP0D1pvIhJPefBkZc9 =70%x)
 
-## 8. Корзина {#trashbin}  
+## 7. Корзина {#trashbin}  
   
 Все удаленные файлы хранятся в корзине. Восстановить файлы может только администратор проекта.
 
