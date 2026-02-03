@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-03T14:06:55.007Z
+date: 2026-02-03T14:11:43.316Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -200,8 +200,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7pSmklginAsNNQKdIbweHOnxeO_sRDKM1bgMpoXk2YHMqrqCuxZZBYvNxsIFzyAEVBJI73XzXekS5t5-6nqR2O23fD4K6EkHv60DfMyPqBsQKEznCNG7rQNl2vpcUZvwlWkRK123kddh3I4Ee?key=PUlaMCJy-5A3womcIShAzw =50%x)
 
-## 2. Замечания
-###### 2. Замечания {#issues}
+## 2. Замечания {#issues}
 
 > См. также видеоинструкцию по настройке замечаний и атрибутов: [Telegram](https://t.me/signal_docs/198) [YouTube](https://youtu.be/0ki2I6Tl2KE)	[Rutube](https://rutube.ru/video/ff98be6edbe568e45ddec40a0ebce695/) [VK](https://vk.com/wall-223002264_14)
 {.is-info}
@@ -271,8 +270,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4bGFglUBagjMQDugWoNB93gjVQbGdIFwL1kvYZHaK20h7MEfc3yGHrYru75eFuXjTfG6Mecd_EV8tKiKV_G1xfZeHr5SXjpzi0ede4tIz10jFirl9BN7iQn_My6INJ9pgAk49rSFyAAqI3-FcgQ?key=DikC-fotJxKF9jvBMPQYCw)
 
-## 3. Согласования
-###### 3. Согласования {#reviews}
+## 3. Согласования {#reviews}
   
 > См. также видеоинструкцию по настройке маршрутов согласования: [Telegram](https://t.me/signal_docs/223) [YouTube](https://youtu.be/sJSfiUyzFkM)	[Rutube](https://rutube.ru/video/private/2a701de2947896e9640b16a4b3ee289b/?p=DZVhkcrU6mNHRJL7Cej3pQ) [VK](https://vk.com/video-223002264_456239043)
 {.is-info}
@@ -390,8 +388,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![reviews_notification.png](/sgnl_docs/docs_reviews/reviews_notification.png)
 
-## 4. Передача
-###### 4. Передача {#documentsTransfer}
+## 4. Передача {#documentsTransfer}
 
 > См. [инструкцию по работе с передачей для пользователя](/ru/docs/documentsTransfers)
 {.is-info}
@@ -438,8 +435,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 ![image-1703763310200.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFtI5aXO9fjGHTAi4wJo3UpiX51MxDqIm2GRgNa0F2r_k8P1a0NKG4pF-5osnDDpC-EH1s0qj3AeEW2frxWv0WX2kxrRC_QjgEEOO7l9tG_9Qu-T74rocjzNqgrOKn31MWD_I1NcYjdw_ZzNEA?key=DMy4N3yohGr1J0s7rFEk7w)
 
 
-## 6. Сервер
-###### 6. Сервер {#server}
+## 6. Сервер {#server}
   
 > См. [DOCS. Дополнительно → Установка MinIO на Linux / Windows](/ru/docs/more)
 {.is-info}
@@ -447,25 +443,24 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
 
-## 7. Сервисы
-###### 7. Сервисы {#services}
+## 7. Сервисы {#services}
     
 > См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
 
   В разделе **Сервисы** происходит настройка инструментов просмотра моделей а также дополнительные настройки проекта.
   ![services_main.png](/sgnl_docs/docs_services/services_main.png)
-  ### Вкладки{.tabset}
-
-  #### 7.1 Подписание PDF документов
+  
+### Вкладки{.tabset}
+#### 7.1 Подписание PDF документов
   
   Настройки подписания документов ЭЦП напрямую из раздела **Хранилище**. 
-
-  #### 7.2 Цвет пометок
+  
+#### 7.2 Цвет пометок
   
   **Цвет пометок**. Данная настройка отвечает за цвет пометок оставленных в PDF документах. При включенной настройке цвет пометки будет соответствовать статусу замечания. Например, если замечание имеет статус "В работе", то пометка будет синего цвета, а "Закрыто" зеленая
 
-  #### 7.3 BIM-вьювер
+#### 7.3 BIM-вьювер
 
   **BIM-вьвюер**. Для просмотра 3D моделей в сервисе SIGNAL DOCS используются **Forge Viewer** и/или **Tangl Viewer**. Администратор проекта может выбрать, каким вьювером просматривать модели для каждого проекта
   **Forge Viewer** позволяет просмотреть следующие форматы файлов:
@@ -473,11 +468,11 @@ dateCreated: 2025-09-09T08:02:36.643Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEPxyBT1yqLC3G6KS64ka2CneTJJDfysi6VXZwppvGZNM2k22YHOgXfhz-mdGsTnyCAo4b0KLuVgxlyruRwbnwvmo0VRFSqbja2kSVAfF7mao2GYZA1OpnVnKbrHlMZ1aGLKk-A-kbhHItcb__?key=mSlD0f1iO2mqCDbxSYrHzQ =70%x)
   **Tangl Viewer** позволяет просмотреть IFC формат и RVT 
   
-  #### 7.4 Клиент Tangl
+#### 7.4 Клиент Tangl
   
   **Клиент Tangl**. В данном разделе настраивается интеграции с личным кабинетом Tangl. По умолчанию подключен кабинет SIGNAL. Подробнее: [DOCS. Дополнительно → Интеграция с Tangl](/ru/docs/more)
   
-  #### 7.5 Простой просмотр
+#### 7.5 Простой просмотр
   
   **Простой просмотр**. Конфигуратор и предупреждение для простого просмотра моделей. Более подробно о функции простого просмотра [Нарезка квартир](/tools/tools-for-revit/flat-slice)
   
@@ -600,8 +595,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
   Также есть возможность выводить специальное сообщение при переходе в режим простого просмотра. Текст сообщения настраивается если включена функция **Выводить текст информационного сообщения**
   ![services_publicnote.png](/sgnl_docs/docs_services/services_publicnote.png)
 
-## 8. Уведомления
-###### 8. Уведомления {#notifications}
+## 8. Уведомления {#notifications}
   
 > См. [DOCS. Уведомления](/ru/docs/notifications)
 {.is-info}
@@ -609,8 +603,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
 
-## 9. Доверенности
-###### 9. Доверенности {#powerOfAttorney}
+## 9. Доверенности {#powerOfAttorney}
   
 > См. видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
