@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-03T14:13:20.794Z
+date: 2026-02-03T14:20:23.050Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -595,7 +595,15 @@ dateCreated: 2025-09-09T08:02:36.643Z
   Также есть возможность выводить специальное сообщение при переходе в режим простого просмотра. Текст сообщения настраивается если включена функция **Выводить текст информационного сообщения**
   ![services_publicnote.png](/sgnl_docs/docs_services/services_publicnote.png)
 
-## 8. Уведомления {#notifications}
+## 8. Функциональность {#functions}      
+      
+Управление доступом пользователей к некоторым функциям среды общих данных. 
+      
+На данный момент на этой вкладке регулируется возможность создания публичных ссылок пользователями проекта. Если переключатель в положение "Выключено", то на проекте невозможно создание публичных ссылок для всех участников     
+
+![settings_functionality.png](/sgnl_docs/settings_functionality.png)      
+      
+## 9. Уведомления {#notifications}
   
 > См. [DOCS. Уведомления](/ru/docs/notifications)
 {.is-info}
@@ -603,7 +611,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
 
-## 9. Доверенности {#powerOfAttorney}
+## 10. Доверенности {#powerOfAttorney}
   
 > См. видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
@@ -614,7 +622,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 1 — Добавить МЧД
 2 — Скачать МЧД
       
-## 10. Права доступа {#foldersPermissions}
+## 11. Права доступа {#foldersPermissions}
 
 > См. также видеоинструкцию по настройке прав доступа: [Telegram](https://t.me/sgnlpro/194) [YouTube](https://youtu.be/QwunTC_lYDo?si=KzwE04tc3VoZgmfk)	[Rutube](https://rutube.ru/video/328b9099b6b7bea60e0235993cab47ab/?r=wd) [VK](https://vk.com/wall-223002264_13)
 {.is-info}
