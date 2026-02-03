@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-03T14:11:43.316Z
+date: 2026-02-03T14:13:20.794Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -613,8 +613,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
   ![powerofattorney_main.png](/sgnl_docs/powerofattorney_main.png)
 1 — Добавить МЧД
 2 — Скачать МЧД
-## 10. Права доступа
-###### 10. Права доступа {#foldersPermissions}
+      
+## 10. Права доступа {#foldersPermissions}
 
 > См. также видеоинструкцию по настройке прав доступа: [Telegram](https://t.me/sgnlpro/194) [YouTube](https://youtu.be/QwunTC_lYDo?si=KzwE04tc3VoZgmfk)	[Rutube](https://rutube.ru/video/328b9099b6b7bea60e0235993cab47ab/?r=wd) [VK](https://vk.com/wall-223002264_13)
 {.is-info}
@@ -640,8 +640,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. [DOCS. Документы → Дерево проекта → Настройка прав доступа к папкам](/ru/docs/folders)
 {.is-info}
   
-## 11. XML документы
-###### 11. XML документы {#xml}
+## 11. XML документы {#xml}
+
       
 > См. также видео **[XML-документы по XSD-схемам в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239025)**
 {.is-info}
