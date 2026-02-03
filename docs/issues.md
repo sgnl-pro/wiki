@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-02-03T11:38:42.005Z
+date: 2026-02-03T11:41:50.100Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -277,7 +277,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqjzCT7pIOvIz2ViG_zAJRYbx94u3I9Af9JcucJfwwj8jGxUGKnN9X1OvVrSAvvfpdduVJrovpORRYqR5czu98I2pTK3dDqUQkdSUs9d0HIxEN0ckHWNY625wZFxV-c1XF7vqTzS7wL9pRHKak?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
-
+Поиск по созданным Типам замечаний можно использовать через поисковое окно с существующими в реестре типами замечаний.
+  ![chrome_nlkkdqf6mp.png](/chrome_nlkkdqf6mp.png)
 
 ## 4. Администрирование
 ###### 4. Администрирование {#admin}
