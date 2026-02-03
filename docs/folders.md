@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-01-23T07:15:18.560Z
+date: 2026-02-03T14:37:15.377Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -142,106 +142,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
 ----
 
 # Вкладки{.tabset}
-## 1. Дерево проекта
-###### 1. Дерево проекта {#tree}  
-  
-> См. также видеоинструкцию по авторизации и правам доступа: **[Telegram](https://t.me/signal_docs/255) [YouTube](https://youtu.be/m3YP_LYgpcM)	[Rutube](https://rutube.ru/video/e03d00bc13f1ec5f9a5349f4e0cf0c23/) [VK](https://vkvideo.ru/video-223002264_456239057)**
-{.is-info}
-### Вкладки{.tabset}
-#### 1.1. Создание структуры дерева
-###### 1.1. Создание структуры дерева {#structure}
-  
-Существует несколько способов для создания папок структуры в Вашем проекте:
-
-**Способ 1.** **Вы можете создать папки вручную.**
-
-Для этого нажмите ПКМ напротив папки → "Добавить папку"
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeLvKCJG8fgr99W8vEsdLyUcKboOe8BclnIRXCMuAxN_0AXs4H3bVvsc0_Cn9TQQ72hPpknyD5cMdakjwh9cr2UfD2AmFi8LdthSsGEyLlOwnnw6Z39Bs65zZMTDbwsA7MhhsFuJrQtQ3HUiS9I?key=zBqQ8BYDkcBgAmVqILTIKw)
-
-**Способ 2.** **Если у Вас есть структура проекта на компьютере, то Вы можете перенести ее в DOCS.**
-
-Для успешного переноса требуется, чтобы в каждой папке находились файлы, т.е папки не должны быть пусты, иначе они не будут перенесены.
-
-Перетащите вашу структуру из проводника в область DOCS
-
-![image-1686836379335.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeW16Kre_Po5jy_iXxPsoPmwts5KI5MNF_7-e7QTZ4bLpNWsUu_dxrWJlL5hzL-vqFdlz_H9wmH6SN_Yf5WJSaxSvctNqyWssBJxMlsVM5nuh-31WYDuuKct9dwg7ktaMB66qs0sgnnMOqaEbBK?key=zBqQ8BYDkcBgAmVqILTIKw =70%x)
-
-**Способ 3.** **Папочную структуру также можно перенести в новый проект из предыдущего или типового проекта.**
-
-Для этого удалите все папки в Вашем новом проекте. Далее нажмите ПКМ на папке "Файлы проекта" ➤ "Скопировать структуру папок".  
-
-![image-1711023286263.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmUk53Q2n-NEVBXFOXFwUP4EmZk9VStSZK5I36VdZ36GIhtLyM7SHdDVNwAoWXR9mBdl_m_GV_ccmYEUO-4Xemhz_1oQgEnQ6N_px1qwv1AI5KjYS_E_XGchLg0ybLjwknEh-r5kTl14FOZjSc?key=zBqQ8BYDkcBgAmVqILTIKw =40%x)
-
-В открывшемся окне выберите из списка типовой проект из которого будут скопированы папки и нажмите "Копировать". Таким образом, папочная структура будет скопирована из типового проекта в Ваш новый проект.
-
-![image-1711023558799.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUbiGIAy424PCvJXG0yZcUZkKwkTbOKiI8s_PepULBejV4tZv1ueMS_gT6gGT23PADUkHzWNFd9K4AlKkFEG-Awsz2762cutopz2k7K6KcO1ksTHYebu30GLmAXTtwrqDeBc68gLTd3Goeb6z6_g?key=zBqQ8BYDkcBgAmVqILTIKw =40%x)
-
-#### 1.2. Настройка прав доступа к папкам
-###### 1.2. Настройка прав доступа к папкам {#access}
-  
-В SIGNAL DOCS администраторы проекта могут давать различные права доступа пользователям и ролям на конкретные папки.
-
--   **Просмотр** \- пользователи могут только открывать и просматривать файлы в папках
--   **Скачивание** - пользователи получают возможность скачивать файлы из папок
--   **Загрузка** - пользователи получают возможность загружать свои файлы в папку
--   **Редактирование** - пользователи получают полный доступ на редактирование файлов в папке (удаление, переименование и т.д.)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcWQWZqiRxX7JS_D20YPLEFX7eV26pgTIHa7CeFRjB1lqkoocLLWfFkDwjHxHFt9suT83T5nc3DyxK7kv9WOPtZJPgEJ9JxOqgU8Ajc6ewir1BQCw9qH12RLgCGvhFvyJCXt1rHmbSD8C3skqHx?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
-
-##### Способ 1. Настройки прав доступа через папочную структуру
-
-1\. Чтобы зайти в настройки доступа, нажмите ПКМ напротив папки ➤ “Редактировать доступ”
-
-![image-1703239822471.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXevc6G-CtuEE30kxMvCVIAcJiV_gPmRKKCTSOofHU1nJmIv695-zqDs9xYgR0ztzhUmPFkjhB3bOSjm3B0dFEsWHryxJopA0zl9mJJar3XEVu0x5mux3WH2FJ6VWcd68PK0cpokaXN6yB3ytY-ecg?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
-
-2\. В открывшемся окне нажмите "Добавить". Далее из списка выберите пользователя или роль и нажмите "Добавить". В одной роли могут находится несколько пользователей, например, Проектировщики. ([_см. Создание ролей_]([admin](/hub/admin)))
-
-![image-1686836287860.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclZQjOwLGQftSZz0O6KeCN1LA_jFZ8T-krB-pxiWHQvGTIpXnsxyctgSIDr4Cc8LBGUR2gFH6sW4ya4fmuDwoIp1y-sBWyOeKkOJvwviPKYvsvE9qh7o7ZWgWwznDjUhriLKZsdRgoJM-3hMLJUA?key=H_gsEk68-7fVudPNDTx0iQ =30%x)
-
-3\. После добавления пользователей задайте им определенные права доступа на папку в столбце ПРАВА.  При этом, подпапки наследуют права доступа родительской папки.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcD46F-1o9ZxKQej8WEvypKwyQUYfpuR2OIWefzxVscUmwrFECYle5S8bK2Rt-SUlQvpKEcofMZMyRuJa7BJl9lfm8fIDn44ExB6caDRQeCrDldkCZLl3BIaDB4vGe4AuNdwqZORPWmCZWup7eMiA?key=H_gsEk68-7fVudPNDTx0iQ =30%x)
-
-##### Способ 2. Настройки прав доступа в настройках
-> См. [DOCS. Настройки проекта → Права доступа](/ru/docs/settings)
-{.is-info}
-
-#### 1.3. Подписка на папки
-###### 1.3. Подписка на папки {#subscribe}
-  
-Пользователь может подписаться на обновление папки в системе SIGNAL DOCS.
-
-Для этого необходимо нажать на точки рядом с папкой и выбрать “Подписаться на обновления”.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpcKamdv4nOnzaBLvffcUoJok_r4Yp-lHZosKjpm-0OsbHJJ9SzHjg5YQbmMPeTdshmSTHdf4guS6vKQSJCZqydZp69cBYqk9xY9M-KvJ7NwK7B_24DFCVQElHcM9OZED83Ah7vhZkWQjKgKCy6A?key=65JISIEEZuq7xiFiea2Chg =50%x)
-
-Пример оповещения на электронную почту.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAyERvnhUGTp_W-Zn5bKNTgz6X0mWtAi9WW5_mUU0Vup6rUCpt_feXQCDqKBi-pnCx0--gkUk5CaApUImJql4ACGzcLbckYIFH34ZH0N5wfaPL7QUO-r49QUwZCegu9_6HFgZzq8E4k76iqX60Bg?key=65JISIEEZuq7xiFiea2Chg =50%x)
-
-Отписаться от оповещений можно либо перейдя по ссылке из письма, либо через настройки.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegUi1J6uosjf-6CFIXbLJVi3HfsosFQTUXyOd6S4Mz3GN3_xEQ6tBSLzcQQKtZrHqHsNDyGd4sPLMxUzUEzNNxC-Xi6q4tYb8_Ig2oZlSUG2tPNEcT8oKXKJhjETUYS3y1J_rDZAFq4SHtZPSkjQ?key=65JISIEEZuq7xiFiea2Chg =50%x)
-
-Администратор проекта может подписать роль на папку для получения уведомлений об изменениях, которые произойдут в папке.
-
-Для этого нажмите три точки → Настроить подписки → Добавить роль.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdE1kn64fXTNFcBeNMBZBK9_fQLVjFg7Q3FTivUmWmh5X3NZE8ecDEzqJk8rvLZYcWkfebYUkC8E_iqdE-P9m2XO6dvgJPRF9Hz8c34CFLZcmbz_dwNti0OgzTazsQxW97sy0uKYmI4tQz5hh4nfA?key=PUlaMCJy-5A3womcIShAzw =50%x)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FOrh-haW5InO-zWnGBL-j8xQUoZVAI8di2z8tWzA_JKQBqhGV5-bLQsRML_ewhNZXfIq6GLPryvuWtg86izBQxWx3yLKwMr5eMBhFmScN3SZn7hD0CHJMauVn8vy-LxUzkbcccjElj3yhZauEQ?key=PUlaMCJy-5A3womcIShAzw =50%x)
-
-Выберите роль из списка:
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7pSmklginAsNNQKdIbweHOnxeO_sRDKM1bgMpoXk2YHMqrqCuxZZBYvNxsIFzyAEVBJI73XzXekS5t5-6nqR2O23fD4K6EkHv60DfMyPqBsQKEznCNG7rQNl2vpcUZvwlWkRK123kddh3I4Ee?key=PUlaMCJy-5A3womcIShAzw =50%x)
-
-## 2. Добавление файлов
-###### 2. Добавление файлов {#addingFiles}
+## 1. Добавление файлов {#addingFiles}
   
 ### Вкладки{.tabset}
-#### 2.1. Загрузка файлов
-###### 2.1. Загрузка файлов {#uploadings}
+#### 1.1. Загрузка файлов {#uploadings}
+
   
 **Способ 1.** Для загрузки файлов можно воспользоваться “Перетаскиванием” файлов из проводника в SIGNAL DOCS.
 
@@ -257,8 +162,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXezyz6BgmOBWw5JINshCPQaBOQ6ihoHPf9gge44Ur9JEA3n2s26X8Lw1zPktlSS0nobpym6OzCrdLE1gNXFIPGX7lvTW8NhoL6KHWZ5M4jQbvqGw4XrnuvdK2-rJwqd93S5l1eEqCk30_ak3qQ7FA?key=6Xw886XRITsgkPdRw22mAg)
 
-#### 2.2. Статусы файлов
-###### 2.2. Статусы файлов {#statuses}
+#### 1.2. Статусы файлов {#statuses}
+
   
 В зоне работы с документами напротив файлов проставляется статус в зависимости от согласований комплектов, в которых участвовал файл.
 
@@ -274,8 +179,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdz75f8gppb0d6zBPUsFUQjv6QLha_goCtuKBBjZckrsSDtjUaK4mirkbHPURi6IpF3eYbOiPodoD4by1LXlOnVrDLp6azYf3SI9zGlB-HwHBjFrRqQlA4QOB77RdJOdCkECwufiZKM9u1UDnDyKQ?key=Jk1iD7eu81nhSX4JQcW_nQ =70%x)
   
-#### 2.3. Версионность файлов
-###### 2.3. Версионность файлов {#versions}
+#### 1.3. Версионность файлов {#versions}
   
 В сервисе SIGNAL DOCS доступна работа с версиями файлов. Предыдущая версия файла сохраняется в истории, при загрузке нового файла с таким же именем. Таким образом, версионность позволяет отслеживать различные версии файла и возвращаться к предыдущим версиям при необходимости.
 
@@ -294,8 +198,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![image-1691669859628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjEhR1qqIsFdPu_osfcvkJZ5DO8uE1g0s1320xhdHdc2fxyO5WCQFmz_8SMYU1jYZJIs8qAMRscy9KlHP8zth22qXj9aK2flW8K4BXD8GJ8xHwhwtyP04P5bqQ06x0r2wqtiGDP7ZlrLGNDVOW?key=TFBRQnMDqnFewlQGqykJ7w )
 
-#### 2.4. Добавление ссылок на Google
-###### 2.4. Добавление ссылок на Google {#google}
+#### 1.4. Добавление ссылок на Google {#google}
   
 В сервисе SIGNAL DOCS возможно добавлять ссылки на Google Документы и Google Таблицы.
 
@@ -311,14 +214,14 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![image-1686836350076.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXca6jGXY8gBGst7BZ3A8G3rafwJBNBQPl52zm2nKQIHYRRFr0StATsvEA75xp3cisGZkEjkY5aca7nH6nCcVZBCObjdp2e1ZfKqE8h6yiZ8zQWkUIs6WTRu6E_nAIvZXGKLnItvrImDdXR_qvVdRA?key=IHgocgQF9khFrVYyYoKhDQ =70%x)  
 
-## 3. Просмотр и редактирование файлов
+## 2. Просмотр и редактирование файлов
 См. [DOCS. Работа в файлах](/docs/viewers)
 
-## 4. Публикация файлов
+## 3. Публикация файлов
 См. [DOCS. Публикация файлов](/docs/sharedSettings)
 
-## 5. Подписание документов
-###### 5. Подписание документов {#signing}
+## 4. Подписание документов {#signing}
+
 > Для подписания документов из раздела **Документы** применяются [Настройки → Сервисы → ЭЦП](/docs/settings#services)
 {.is-warning}
   
@@ -340,8 +243,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSfFTUDh0HkoWrULPbZqbi5U0ys1UV7pzXeeTvftsqJH-1y-tR5txr5HyMsaFawPzPsQKY_-EiPBktvhR5ZUhnCkarlwapMzF4DRi28E3owLI03WycxeXcBGaau5Ukyk72IArcQv_s1Q7OyGg64g?key=1VkSydAD1I0iXDEgmMtMRw =70%x)
   
-## 6. Фильтрация
-#### 6. Фильтры {#Filters}
+## 5. Фильтрация {#Filters}
+
   
 > См. также видеоинструкцию по работе с фильтрами, полям и атрибутам: [Telegram](https://t.me/signal_docs/259) [YouTube](https://youtu.be/FnXnPphpW18)	[Rutube](https://rutube.ru/video/711c787788f1e03131a05563ba28599c/) [VK](https://vkvideo.ru/video-223002264_456239058)
 {.is-info}
@@ -360,8 +263,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSvKFz2UUSpqY4Fse4Owgit-POdvXcBT_KL78IUV2BK44prCTCv0wcohxuj0UUbcdAYPX5jmVeBQ1yiWU8_9n88RLC8702pnf3h6PVpqp5aqiJcOpLqpwoqIdgN0dTLpJxhUBN-BDxezv_IU83TA?key=Vis5mNfFGhcjlsBry-oKGw =70%x)
 
-## 7. Экспорт данных о файлах
-###### 7. Экспорт данных о файлах {#export}
+## 6. Экспорт данных о файлах {#export}
+
   
 В SIGNAL DOCS можно экспортировать данные о всех файлах в проекте. Полученные данные можно использовать в аналитических целях.
 
@@ -377,8 +280,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhSwUMPiVcWkJcWpEdkky2Yx6j5pDWNlK1-gIiWQtjiLjE5N5bHlrTwweNxR0zzyQWdk0U2Bl8IGd_HFwDrsF1mJiqwx-725yCwWDFlC71NUj87UYQvLpNitdvr59TFJM?key=3A7uOwmP0D1pvIhJPefBkZc9 =70%x)
 
-## 8. Корзина
-###### 8. Корзина {#trash}  
+## 8. Корзина {#trashbin}  
   
 Все удаленные файлы хранятся в корзине. Восстановить файлы может только администратор проекта.
 
