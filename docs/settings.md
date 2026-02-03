@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-03T14:20:23.050Z
+date: 2026-02-03T14:34:06.275Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -109,7 +109,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 Чтобы зайти в **Настройки проекта** в интерфейсе SIGNAL DOCS, нажмите на свой **профиль** в правом верхнем углу → **Настройки.** Изменения сохраняются сразу. Все внесённые изменения влияют только на текущий проект (отображается в левом верхнем углу).
 
 # Вкладки{.tabset}
-## 1. Структура проекта {#structure}
+## 1. Структура {#structure}
   
 > См. также видеоинструкцию по авторизации и правам доступа: **[Telegram](https://t.me/signal_docs/255) [YouTube](https://youtu.be/m3YP_LYgpcM)	[Rutube](https://rutube.ru/video/e03d00bc13f1ec5f9a5349f4e0cf0c23/) [VK](https://vkvideo.ru/video-223002264_456239057)**
 {.is-info}
