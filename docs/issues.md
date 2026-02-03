@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-01-23T07:16:02.279Z
+date: 2026-02-03T11:37:54.592Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -216,6 +216,24 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcn0LRls873mkIdy7_pFZjnj4-PDZ2bQai5zrerTq7_BdITO1cemYOLOpqFvDNpka_vq8afqP6mlQD4y8ZJ_hsucIQ1ucb_ycDT_rJu1eKxhS-gVfnij2VBLhRzMVexJUH9pvz4XhrGmJ8FND9dow?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
+  ### Пакетный перенос пометок между листами PDF
+
+Иногда случается ситуация, когда в новой версии документации изменился порядок листов, из-за чего пометки, созданные ранее, оказываются не на изначальных листах. Чтобы была возможность быстро вернуть пометки на свои места в DOCS есть функция пакетного перемещения.
+
+Для того чтобы воспользоваться ей перейдите в файл и нажмите 
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S8PZGrlXpvLJq4xidE_PlWPXxQUGYIZz-x1REEWk-Cv3vE8qSllPxgG18zpWy_Jz2X4ZLe6a5LUHD4tWnZgAvPUOWmKYqw-vZnzXRlPNF9UQa06xtA5HyQjK-qmSWeA?key=cnL3kvpEZPujFMNQA9w79A )
+
+  в левой верхней части экрана. Откроется окно перемещения пометок:
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_fokjN9iWCaJINMK20qH_5gIgiVv_6JQN63Co0q6qNDUB3deb-FuytLt23z6ZCadW2seATk4tZvaAtqI-HzTgwDf7NGNLfoy1XcjMJ6aiqqhYRIltHZGgZRXLfntGPao?key=cnL3kvpEZPujFMNQA9w79A =70%x)
+
+1 - Выберите предыдущую версию файла, с корректным расположением пометок
+
+2 - Расположение пометок на предыдущей версии
+
+3 - Переместите пометки на нужные листы с помощью стрелок
+  
 ## 3. Реестр замечаний
 ###### 3. Реестр замечаний {#register}
   
@@ -260,23 +278,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqjzCT7pIOvIz2ViG_zAJRYbx94u3I9Af9JcucJfwwj8jGxUGKnN9X1OvVrSAvvfpdduVJrovpORRYqR5czu98I2pTK3dDqUQkdSUs9d0HIxEN0ckHWNY625wZFxV-c1XF7vqTzS7wL9pRHKak?key=cnL3kvpEZPujFMNQA9w79A =70%x)
 
-### Пакетный перенос пометок между листами PDF
 
-Иногда случается ситуация, когда в новой версии документации изменился порядок листов, из-за чего пометки, созданные ранее, оказываются не на изначальных листах. Чтобы была возможность быстро вернуть пометки на свои места в DOCS есть функция пакетного перемещения.
-
-Для того чтобы воспользоваться ей перейдите в файл и нажмите 
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S8PZGrlXpvLJq4xidE_PlWPXxQUGYIZz-x1REEWk-Cv3vE8qSllPxgG18zpWy_Jz2X4ZLe6a5LUHD4tWnZgAvPUOWmKYqw-vZnzXRlPNF9UQa06xtA5HyQjK-qmSWeA?key=cnL3kvpEZPujFMNQA9w79A )
-
-  в левой верхней части экрана. Откроется окно перемещения пометок:
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_fokjN9iWCaJINMK20qH_5gIgiVv_6JQN63Co0q6qNDUB3deb-FuytLt23z6ZCadW2seATk4tZvaAtqI-HzTgwDf7NGNLfoy1XcjMJ6aiqqhYRIltHZGgZRXLfntGPao?key=cnL3kvpEZPujFMNQA9w79A =70%x)
-
-1 - Выберите предыдущую версию файла, с корректным расположением пометок
-
-2 - Расположение пометок на предыдущей версии
-
-3 - Переместите пометки на нужные листы с помощью стрелок
 
 ## 4. Администрирование
 ###### 4. Администрирование {#admin}
