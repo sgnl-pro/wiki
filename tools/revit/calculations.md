@@ -2,8 +2,8 @@
 title: TOOLS. Расчеты 
 description: 
 published: true
-date: 2025-10-01T23:26:22.592Z
-tags: 
+date: 2026-02-04T14:18:01.528Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:27:10.059Z
 ---
