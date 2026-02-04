@@ -2,8 +2,8 @@
 title: TOOLS. Согласование
 description: 
 published: true
-date: 2025-10-01T23:15:45.344Z
-tags: 
+date: 2026-02-04T14:15:04.059Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:29:02.534Z
 ---
