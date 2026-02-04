@@ -2,8 +2,8 @@
 title: TOOLS. Копирование элементов
 description: 
 published: true
-date: 2026-02-02T11:16:56.485Z
-tags: 
+date: 2026-02-04T14:17:28.269Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:13:39.334Z
 ---
