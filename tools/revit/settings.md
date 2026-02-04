@@ -2,8 +2,8 @@
 title: TOOLS. Настройки
 description: 
 published: true
-date: 2025-10-01T23:22:19.593Z
-tags: 
+date: 2026-02-04T14:16:59.602Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:04:35.671Z
 ---
