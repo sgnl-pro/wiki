@@ -2,8 +2,8 @@
 title: INSPECTION. Настройки проекта
 description: 
 published: true
-date: 2025-09-19T16:27:25.415Z
-tags: 
+date: 2026-02-04T14:12:13.875Z
+tags: insp
 editor: markdown
 dateCreated: 2025-09-19T12:58:07.798Z
 ---
