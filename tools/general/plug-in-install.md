@@ -2,8 +2,8 @@
 title: TOOLS. Установка плагина
 description: 
 published: true
-date: 2025-10-01T23:12:43.906Z
-tags: 
+date: 2026-02-04T14:13:54.616Z
+tags: tools
 editor: markdown
 dateCreated: 2025-06-26T21:27:10.041Z
 ---
