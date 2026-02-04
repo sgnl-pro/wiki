@@ -2,8 +2,8 @@
 title: TOOLS. Методология работы
 description: 
 published: true
-date: 2025-10-01T23:13:11.819Z
-tags: 
+date: 2026-02-04T14:14:09.320Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-22T09:48:13.808Z
 ---
