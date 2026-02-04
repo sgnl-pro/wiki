@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T11:08:38.382Z
+date: 2026-02-04T11:10:51.827Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -112,20 +112,76 @@ dateCreated: 2025-10-16T13:16:45.534Z
   
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcN7AfZCZHrIbF6Y44rNPElBDCCuLAEEH561dAg5vzVVd3uRRmRf_wrEqA2kpqXxAfUDJvFWzz2SzB1ewQyEX_tmAkUmr6MuFKGbgx_E9ZQmWdQDDvu7eDCn-D6VsCruX-2q-kqy9mfJbMqWqXVNg?key=Nkmqc7jtUIqVAYqwrzKIWw)
   
-<div style="position: relative; display: inline-block; width: 1024px;">
-  <!-- Само изображение -->
-  <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="width: 100%; display: block;">
+<style>
+  /* Контейнер для скриншота */
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
 
-  <!-- Прозрачная зона с подсказкой -->
-  <!-- Подберите top, left, width и height в % чтобы точно накрыть кнопку -->
-  <div title="Постраничная навигация" 
-       style="position: absolute; 
-              top: 5%; 
-              left: 1%; 
-              width: 50px; 
-              height: 50px; 
-              cursor: help; 
-              border: 1px solid rgba(255,255,255,0.2);">
+  /* Сама интерактивная зона (хотспот) */
+  .hotspot {
+    position: absolute;
+    cursor: help;
+    /* Уберите границу ниже, когда закончите настройку */
+    border: 1px dashed rgba(255, 0, 0, 0.5); 
+    background: rgba(255, 255, 255, 0.01); /* Чтобы область была кликабельной */
+  }
+
+  /* Стили всплывающего окна (тултипа) */
+  .hotspot .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 100;
+    bottom: 125%; /* Показываем над точкой */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    pointer-events: none; /* Чтобы подсказка не мешала мышке */
+  }
+
+  /* Показываем текст при наведении */
+  .hotspot:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Маленький треугольник под подсказкой */
+  .hotspot .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+</style>
+
+<div class="image-container">
+  <!-- ВАШ СКРИНШОТ -->
+  <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="width: 1024px; display: block;">
+
+  <!-- ПЕРВАЯ ТОЧКА (Навигация) -->
+  <!-- Отрегулируйте top, left, width и height под вашу кнопку -->
+  <div class="hotspot" style="top: 39px; left: 1px; width: 47px; height: 49px;">
+    <span class="tooltip-text"><b>Постраничная навигация</b><br>Позволяет быстро переключаться между листами документа.</span>
+  </div>
+
+  <!-- ВТОРАЯ ТОЧКА (для примера) -->
+  <div class="hotspot" style="top: 39px; left: 60px; width: 47px; height: 49px;">
+    <span class="tooltip-text"><b>Режим выделения</b><br>Используйте для захвата текста.</span>
   </div>
 </div>
 
