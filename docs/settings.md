@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-04T09:49:15.158Z
+date: 2026-02-04T13:19:31.577Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -630,7 +630,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. [DOCS. Документы → Дерево проекта → Настройка прав доступа к папкам](/ru/docs/folders)
 {.is-info}
   
-## 11. XML документы {#xml}
+## 12. XML документы {#xml}
 
       
 > См. также видео **[XML-документы по XSD-схемам в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239025)**
