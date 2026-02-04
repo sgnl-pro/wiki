@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-03T14:46:40.493Z
+date: 2026-02-04T09:36:09.094Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -118,29 +118,28 @@ dateCreated: 2025-09-09T08:02:36.643Z
   
 Существует несколько способов для создания папок структуры в Вашем проекте:
 
-**Способ 1.** **Вы можете создать папки вручную.**
+**Способ 1. Вы можете создать папки вручную.**
 
-Для этого нажмите ПКМ напротив папки → "Добавить папку"
+Для этого нажмите ПКМ на папку → "Добавить папку"
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeLvKCJG8fgr99W8vEsdLyUcKboOe8BclnIRXCMuAxN_0AXs4H3bVvsc0_Cn9TQQ72hPpknyD5cMdakjwh9cr2UfD2AmFi8LdthSsGEyLlOwnnw6Z39Bs65zZMTDbwsA7MhhsFuJrQtQ3HUiS9I?key=zBqQ8BYDkcBgAmVqILTIKw)
+![add_structure1.gif](/sgnl_docs/docs_settings/add_structure1.gif =75%x)
 
-**Способ 2.** **Если у Вас есть структура проекта на компьютере, то Вы можете перенести ее в DOCS.**
+**Способ 2. Если у Вас есть структура проекта на компьютере, то Вы можете перенести ее в DOCS.**
 
 Для успешного переноса требуется, чтобы в каждой папке находились файлы, т.е папки не должны быть пусты, иначе они не будут перенесены.
 
 Перетащите вашу структуру из проводника в область DOCS
 
-![image-1686836379335.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeW16Kre_Po5jy_iXxPsoPmwts5KI5MNF_7-e7QTZ4bLpNWsUu_dxrWJlL5hzL-vqFdlz_H9wmH6SN_Yf5WJSaxSvctNqyWssBJxMlsVM5nuh-31WYDuuKct9dwg7ktaMB66qs0sgnnMOqaEbBK?key=zBqQ8BYDkcBgAmVqILTIKw =70%x)
+![add_structure_2.gif](/sgnl_docs/docs_settings/add_structure_2.gif =75%x)
 
-**Способ 3.** **Папочную структуру также можно перенести в новый проект из предыдущего или типового проекта.**
+**Способ 3. Папочную структуру также можно перенести в новый проект из предыдущего или типового проекта.**
 
-Для этого удалите все папки в Вашем новом проекте. Далее нажмите ПКМ на папке "Файлы проекта" ➤ "Скопировать структуру папок".  
+Для этого удалите все папки в Вашем новом проекте. 
+Далее нажмите ПКМ на папке "Файлы проекта" ➤ "Скопировать структуру папок".  
+В открывшемся окне выберите из списка типовой проект и нажмите "Копировать". 
+Таким образом, папочная структура будет скопирована из типового проекта в Ваш новый проект.
 
-![image-1711023286263.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmUk53Q2n-NEVBXFOXFwUP4EmZk9VStSZK5I36VdZ36GIhtLyM7SHdDVNwAoWXR9mBdl_m_GV_ccmYEUO-4Xemhz_1oQgEnQ6N_px1qwv1AI5KjYS_E_XGchLg0ybLjwknEh-r5kTl14FOZjSc?key=zBqQ8BYDkcBgAmVqILTIKw =40%x)
-
-В открывшемся окне выберите из списка типовой проект из которого будут скопированы папки и нажмите "Копировать". Таким образом, папочная структура будет скопирована из типового проекта в Ваш новый проект.
-
-![image-1711023558799.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUbiGIAy424PCvJXG0yZcUZkKwkTbOKiI8s_PepULBejV4tZv1ueMS_gT6gGT23PADUkHzWNFd9K4AlKkFEG-Awsz2762cutopz2k7K6KcO1ksTHYebu30GLmAXTtwrqDeBc68gLTd3Goeb6z6_g?key=zBqQ8BYDkcBgAmVqILTIKw =40%x)
+![add_structure3.gif](/sgnl_docs/docs_settings/add_structure3.gif =75%x)
 
 #### 1.2. Настройка прав доступа к папкам {#access}
 
