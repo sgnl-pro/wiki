@@ -2,8 +2,8 @@
 title: DASHBOARD. Карточки 40. Объёмы
 description: 
 published: true
-date: 2025-12-12T09:13:02.019Z
-tags: 
+date: 2026-02-04T14:11:06.097Z
+tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
 ---
