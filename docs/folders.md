@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-02-03T14:37:57.919Z
+date: 2026-02-04T10:41:46.924Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -198,21 +198,18 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![image-1691669859628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjEhR1qqIsFdPu_osfcvkJZ5DO8uE1g0s1320xhdHdc2fxyO5WCQFmz_8SMYU1jYZJIs8qAMRscy9KlHP8zth22qXj9aK2flW8K4BXD8GJ8xHwhwtyP04P5bqQ06x0r2wqtiGDP7ZlrLGNDVOW?key=TFBRQnMDqnFewlQGqykJ7w )
 
-#### 1.4. Добавление ссылок на Google {#google}
+#### 1.4. Добавление ссылок {#weblinks}
   
-В сервисе SIGNAL DOCS возможно добавлять ссылки на Google Документы и Google Таблицы.
+В сервисе SIGNAL DOCS возможно добавлять ссылки на Google Документы и Google Таблицы, а также любые другие ссылки на сторонние сервисы.
 
 1\. Нажмите + и выберите “Ссылка”
 
-![image-1703239854055.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXWC3lnkQneU2PD6Iq1psnhfFSP35PlKR3NvNo-TVg5dvn7ilFTM_-0yox8iLRmAkCOK9rgYMOXh39gdHFXkGYGuFal3kM7CjkV-pbNs_24dwsBSrYqEk9pjGo2CYK1ct6iIorTY4S2tU5aMOCZA?key=IHgocgQF9khFrVYyYoKhDQ =40%x)
-
 2\. В появившемся окне впишите название файла и вставьте скопированную ссылку на docs.google в поле “Ссылка на файл”. Нажмите “Загрузить”
 
-![image-1686836337357.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfDH3VMxbsVt8Z7ZLMjMtauKJn9AopqG5u0tNu1Q5UGoFesYHrQoX81bd6yYJ4a6vEP7QHEaS6yFZTNK0O6KRcD048Lz67hZocQs7DXFLXsMaMxa-ulG7D--RsOLGzIxOaaeHMT6F8vXIJfr_LkBg?key=IHgocgQF9khFrVYyYoKhDQ =70%x)
-
 3\. Будет создан файл, при нажатии на который Документы и Таблицы google будут открываться в сервисе DOCS, остальные ссылки будут открываться в новой вкладке браузера.
+  
+![add_weblink.gif](/sgnl_docs/docs_documents/add_weblink.gif =50%x)
 
-![image-1686836350076.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXca6jGXY8gBGst7BZ3A8G3rafwJBNBQPl52zm2nKQIHYRRFr0StATsvEA75xp3cisGZkEjkY5aca7nH6nCcVZBCObjdp2e1ZfKqE8h6yiZ8zQWkUIs6WTRu6E_nAIvZXGKLnItvrImDdXR_qvVdRA?key=IHgocgQF9khFrVYyYoKhDQ =70%x)  
 
 ## 2. Просмотр и редактирование файлов
 См. [DOCS. Работа в файлах](/docs/viewers)
@@ -229,19 +226,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 1\. Чтобы подписать несколько документов, поставьте галочки напротив файлов и нажмите “Подписать”. Для подписания одного документа нажмите ПКМ →  Подписать.
 
-![image-1703238031496.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCcD4Ab_jUomozW60mWLCS2XUybMWootcWmuIW6czjBk-2zoVH8gDvwm8XpM_uQQo5ZngV4KP3T7HGMOmIa5EuxQqv-N-Qkn2S0mXG3iNAXIPcLJuh1C56l2o7aRhBiThFPIRgbF-_UyJm9hAu?key=1VkSydAD1I0iXDEgmMtMRw =70%x)
-
 2\. Выберите нужный сертификат из списка, способ подписания (встроенная подпись доступна только для PDF файлов) и нажмите “Подписать”. Все выбранные файлы будут подписаны.
+  
+Чтобы посмотреть подписи файла, нажмите иконку в столбце “Подпись”. В открывшемся окне Вы можете скачать файл со всеми подписями или отдельную подпись каждого пользователя в формате SIG.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdNuK7k4Z4oAhrPFlDmPB-R3lB5Z7-WYmbRDvo8Vttr84D7oOswoBdiTB9H03w2DY_61jVciAqvRe6NtiZOhOo86C5WlofTwZIUer3XHlvyDYkhiVST1pBUH6b3ctxD71BxIkRnPUwM48ILIv2vQ?key=1VkSydAD1I0iXDEgmMtMRw =70%x)
-
-3\. Чтобы посмотреть подписи файла, нажмите иконку 
-
-![image-1703765550632.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0wEJitTYN_RFfWqdd0RlkcRqMNbmoTITXPmVDUvCI_lwoKSALOGUQZtGhEdnZ1hXhwBXN9_L3_ZDJFgyQQG-ysXmu6P8LkyoSBSoKfZWNc1GQh6NP4cVFlyLCRVFO-DcT1vUAVJSu1sssbMTe?key=1VkSydAD1I0iXDEgmMtMRw )
-
- в столбце “Подпись”. В открывшемся окне Вы можете скачать файл со всеми подписями или отдельную подпись каждого пользователя в формате SIG.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSfFTUDh0HkoWrULPbZqbi5U0ys1UV7pzXeeTvftsqJH-1y-tR5txr5HyMsaFawPzPsQKY_-EiPBktvhR5ZUhnCkarlwapMzF4DRi28E3owLI03WycxeXcBGaau5Ukyk72IArcQv_s1Q7OyGg64g?key=1VkSydAD1I0iXDEgmMtMRw =70%x)
+![files_signing.gif](/sgnl_docs/docs_documents/files_signing.gif =50%x)
   
 ## 5. Фильтрация {#Filters}
 
