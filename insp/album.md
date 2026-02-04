@@ -2,8 +2,8 @@
 title: INSPECTION. Альбом
 description: 
 published: true
-date: 2025-09-19T16:27:50.585Z
-tags: 
+date: 2026-02-04T14:12:40.279Z
+tags: insp
 editor: markdown
 dateCreated: 2025-09-19T12:07:26.805Z
 ---
