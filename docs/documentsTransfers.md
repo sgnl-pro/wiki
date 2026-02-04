@@ -2,8 +2,8 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2026-01-23T07:21:16.298Z
-tags: 
+date: 2026-02-04T13:35:39.915Z
+tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
 ---
