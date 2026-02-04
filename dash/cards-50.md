@@ -2,8 +2,8 @@
 title: DASHBOARD. Карточки 50. 3D карточки
 description: 
 published: true
-date: 2025-12-18T06:40:08.726Z
-tags: 
+date: 2026-02-04T14:11:17.974Z
+tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:39:52.568Z
 ---
