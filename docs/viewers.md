@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T11:02:52.430Z
+date: 2026-02-04T11:05:07.759Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -112,10 +112,11 @@ dateCreated: 2025-10-16T13:16:45.534Z
   
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcN7AfZCZHrIbF6Y44rNPElBDCCuLAEEH561dAg5vzVVd3uRRmRf_wrEqA2kpqXxAfUDJvFWzz2SzB1ewQyEX_tmAkUmr6MuFKGbgx_E9ZQmWdQDDvu7eDCn-D6VsCruX-2q-kqy9mfJbMqWqXVNg?key=Nkmqc7jtUIqVAYqwrzKIWw)
   
-  <img src="![pdf_viewer_main.png](/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png)" usemap="#image-map">
+ <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" usemap="#image-map">
 
 <map name="image-map">
-    <area target="" alt="Постраничная навигация" title="Постраничная навигация" href="" coords="1,39,48,88" shape="rect">
+    <!-- href лучше оставить # или javascript:void(0), чтобы при клике страница не перезагружалась -->
+    <area target="" alt="Постраничная навигация" title="Постраничная навигация" href="javascript:void(0);" coords="1,39,48,88" shape="rect">
 </map>
 
 1.  Постраничная навигация
