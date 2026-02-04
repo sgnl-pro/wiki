@@ -2,8 +2,8 @@
 title: DASHBOARD. Все карточки
 description: 
 published: true
-date: 2025-11-28T23:58:50.796Z
-tags: 
+date: 2026-02-04T14:09:44.866Z
+tags: dash
 editor: markdown
 dateCreated: 2025-11-28T23:57:26.362Z
 ---
