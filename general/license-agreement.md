@@ -2,8 +2,8 @@
 title: SIGNAL. Лицензионное соглашение
 description: 
 published: true
-date: 2025-09-15T09:03:33.729Z
-tags: 
+date: 2026-02-04T13:31:58.402Z
+tags: general
 editor: markdown
 dateCreated: 2025-06-24T16:04:17.195Z
 ---
