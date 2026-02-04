@@ -2,8 +2,8 @@
 title: DASHBOARD. Введение
 description: 
 published: true
-date: 2025-12-12T09:11:30.810Z
-tags: 
+date: 2026-02-04T14:09:09.693Z
+tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
 ---
