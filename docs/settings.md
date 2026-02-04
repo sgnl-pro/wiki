@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-04T09:36:09.094Z
+date: 2026-02-04T09:36:39.049Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -122,7 +122,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 Для этого нажмите ПКМ на папку → "Добавить папку"
 
-![add_structure1.gif](/sgnl_docs/docs_settings/add_structure1.gif =75%x)
+![add_structure1.gif](/sgnl_docs/docs_settings/add_structure1.gif =50%x)
 
 **Способ 2. Если у Вас есть структура проекта на компьютере, то Вы можете перенести ее в DOCS.**
 
@@ -130,7 +130,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 Перетащите вашу структуру из проводника в область DOCS
 
-![add_structure_2.gif](/sgnl_docs/docs_settings/add_structure_2.gif =75%x)
+![add_structure_2.gif](/sgnl_docs/docs_settings/add_structure_2.gif =50%x)
 
 **Способ 3. Папочную структуру также можно перенести в новый проект из предыдущего или типового проекта.**
 
@@ -139,7 +139,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 В открывшемся окне выберите из списка типовой проект и нажмите "Копировать". 
 Таким образом, папочная структура будет скопирована из типового проекта в Ваш новый проект.
 
-![add_structure3.gif](/sgnl_docs/docs_settings/add_structure3.gif =75%x)
+![add_structure3.gif](/sgnl_docs/docs_settings/add_structure3.gif =50%x)
 
 #### 1.2. Настройка прав доступа к папкам {#access}
 
