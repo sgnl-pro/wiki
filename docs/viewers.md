@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T12:04:25.563Z
+date: 2026-02-04T12:06:41.624Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -104,13 +104,13 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 # Вкладки{.tabset}
   
-## 1. Просмотр PDF
-###### 1. Просмотр PDF {#pdf}
+## 1. Просмотр PDF {#pdf}
   
 > См. также видеоинструкцию по работе с PDF: [Telegram](https://t.me/signal_docs/284) [YouTube](https://youtu.be/APrrvpOYETM)	[Rutube](https://rutube.ru/video/6c121c69bdea591e00e8cee06e5cbdc1/) [VK](https://vkvideo.ru/video-223002264_456239070)
 {.is-info}
-  
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcN7AfZCZHrIbF6Y44rNPElBDCCuLAEEH561dAg5vzVVd3uRRmRf_wrEqA2kpqXxAfUDJvFWzz2SzB1ewQyEX_tmAkUmr6MuFKGbgx_E9ZQmWdQDDvu7eDCn-D6VsCruX-2q-kqy9mfJbMqWqXVNg?key=Nkmqc7jtUIqVAYqwrzKIWw)
+
+> Наведитесь на инструмент, чтобы увидеть подсказку
+{.is-info}
   
 <div style="position: relative; display: inline-block;">
   
@@ -159,24 +159,6 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 </div>
 
-1.  Постраничная навигация
-2.  Масштабирование по размеру экрана
-3.  Список замечаний по документу
-4.  Подписать документ ЭЦП
-5.  Скрыть пометки аудитора
-6.  Навигация по номеру листа
-7.  Масштаб листа 
-8.  Поворот листа против часовой стрелки
-9.  Поворот листа по часовой стрелке
-10.  Сохранить ориентацию листа
-11.  Скачать файл
-12.  Скачать файл с пометками
-13.  Во весь экран
-14.  Сравнение версий
-15.  Выдача замечаний к документу
-16.  Зумирование
-17.  Переключение между страницами
-18.  Переключение между файлами одной папки
 
 ## 2. Просмотр BIM-моделей
 ###### 2. Просмотр BIM-моделей {#bim}
