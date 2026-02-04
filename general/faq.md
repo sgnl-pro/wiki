@@ -2,8 +2,8 @@
 title: SIGNAL. Частые вопросы
 description: 
 published: true
-date: 2026-01-14T08:25:30.133Z
-tags: 
+date: 2026-02-04T13:32:12.394Z
+tags: general
 editor: markdown
 dateCreated: 2025-09-12T09:34:38.591Z
 ---
