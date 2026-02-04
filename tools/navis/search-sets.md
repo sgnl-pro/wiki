@@ -2,8 +2,8 @@
 title: TOOLS. Создание ПН
 description: 
 published: true
-date: 2025-10-01T23:21:16.910Z
-tags: 
+date: 2026-02-04T14:16:38.529Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:26:39.914Z
 ---
