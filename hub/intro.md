@@ -2,8 +2,8 @@
 title: HUB. Введение
 description: 
 published: true
-date: 2025-12-18T06:36:46.980Z
-tags: 
+date: 2026-02-04T13:33:31.101Z
+tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:50:10.735Z
 ---
