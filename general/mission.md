@@ -2,8 +2,8 @@
 title: SIGNAL. Миссия компании
 description: 
 published: true
-date: 2025-09-15T08:44:25.853Z
-tags: 
+date: 2026-02-04T13:31:29.369Z
+tags: general
 editor: markdown
 dateCreated: 2025-06-24T15:21:17.544Z
 ---
