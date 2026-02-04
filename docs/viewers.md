@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T12:55:33.272Z
+date: 2026-02-04T12:56:26.459Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -181,15 +181,15 @@ dateCreated: 2025-10-16T13:16:45.534Z
     <span class="tooltip-orange">Создать замечание</span>
   </div>
   
-  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 220px; width: 60px; height: 130px;">
+  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 230px; width: 60px; height: 120px;">
     <span class="tooltip-orange">Приблизить/отдалить</span>
   </div>
   
-  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 360px; width: 60px; height: 130px;">
+  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 360px; width: 60px; height: 120px;">
     <span class="tooltip-orange">Перелистывание документа</span>
   </div>
   
-  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 490px; width: 60px; height: 130px;">
+  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 490px; width: 60px; height: 120px;">
     <span class="tooltip-orange">Переключение между документами</span>
   </div>
 
