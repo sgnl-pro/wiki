@@ -2,8 +2,8 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2025-12-12T09:13:17.372Z
-tags: 
+date: 2026-02-04T14:11:27.865Z
+tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:41:20.629Z
 ---
