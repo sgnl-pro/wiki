@@ -2,8 +2,8 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-04T13:19:31.577Z
-tags: 
+date: 2026-02-04T13:34:27.848Z
+tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
 ---
