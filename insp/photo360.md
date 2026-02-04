@@ -2,8 +2,8 @@
 title: INSPECTION. Фото360
 description: 
 published: true
-date: 2025-09-23T07:01:14.943Z
-tags: 
+date: 2026-02-04T14:12:25.887Z
+tags: insp
 editor: markdown
 dateCreated: 2025-09-19T11:49:12.639Z
 ---
