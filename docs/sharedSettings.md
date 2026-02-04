@@ -2,8 +2,8 @@
 title: DOCS. Публикация файлов
 description: 
 published: true
-date: 2026-01-23T07:22:01.961Z
-tags: 
+date: 2026-02-04T13:35:55.317Z
+tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:32:31.629Z
 ---
