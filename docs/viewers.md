@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T12:18:34.069Z
+date: 2026-02-04T12:53:48.022Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -118,44 +118,80 @@ dateCreated: 2025-10-16T13:16:45.534Z
   <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="display: block; width: 1024px; height: auto;">
 
   <!-- Группа 1: Верхняя панель (левая часть) -->
-  <div title="Постраничная навигация" style="position: absolute; left: 1px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 1px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Постраничная навигация</span>
+  </div>
   
-  <div title="Масштабирование по размеру экрана" style="position: absolute; left: 50px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 50px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Масштабирование по размеру экрана</span>
+  </div>
   
-  <div title="Список замечаний по документу" style="position: absolute; left: 100px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 100px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Список замечаний по документу</span>
+  </div>
   
-  <div title="Подписать документ ЭЦП" style="position: absolute; left: 150px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 150px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Подписать документ ЭЦП</span>
+  </div>
   
-  <div title="Скрыть пометки аудитора" style="position: absolute; left: 200px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 200px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Скрыть пометки аудитора</span>
+  </div>
   
-  <div title="Переместить пометки между листами" style="position: absolute; left: 250px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 250px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Переместить пометки между листами</span>
+  </div>
 
   <!-- Группа 2: Верхняя панель (центральные инструменты) -->
-  <div title="Навигация по листам" style="position: absolute; left: 340px; top: 40px; width: 100px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 340px; top: 40px; width: 100px; height: 50px;">
+    <span class="tooltip-orange">Навигация по листам</span>
+  </div>
   
-  <div title="Масштаб листа" style="position: absolute; left: 460px; top: 40px; width: 140px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 460px; top: 40px; width: 140px; height: 50px;">
+    <span class="tooltip-orange">Масштаб листа</span>
+  </div>
   
-  <div title="Поворот листа" style="position: absolute; left: 600px; top: 40px; width: 120px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 600px; top: 40px; width: 120px; height: 50px;">
+    <span class="tooltip-orange">Поворот листа</span>
+  </div>
 
   <!-- Группа 3: Верхняя панель (правая часть) -->
-  <div title="Серверная генерация листа" style="position: absolute; left: 770px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 770px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Серверная генерация листа</span>
+  </div>
   
-  <div title="Открыть в Autodesk Forge" style="position: absolute; left: 820px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 820px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Открыть в Autodesk Forge</span>
+  </div>
   
-  <div title="Скачать файл" style="position: absolute; left: 870px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 870px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Скачать файл</span>
+  </div>
   
-  <div title="Сравнение версий" style="position: absolute; left: 920px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 920px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Сравнение версий</span>
+  </div>
   
-  <div title="Печать документа" style="position: absolute; left: 970px; top: 40px; width: 50px; height: 50px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 970px; top: 40px; width: 50px; height: 50px;">
+    <span class="tooltip-orange">Печать документа</span>
+  </div>
 
   <!-- Группа 4: Правая плавающая панель -->
-  <div title="Создать замечание" style="position: absolute; left: 950px; top: 160px; width: 60px; height: 60px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 160px; width: 60px; height: 60px;">
+    <span class="tooltip-orange">Создать замечание</span>
+  </div>
   
-  <div title="Приблизить/отдалить" style="position: absolute; left: 950px; top: 220px; width: 60px; height: 140px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 220px; width: 60px; height: 140px;">
+    <span class="tooltip-orange">Приблизить/отдалить</span>
+  </div>
   
-  <div title="Перелистывание документа" style="position: absolute; left: 950px; top: 360px; width: 60px; height: 130px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 360px; width: 60px; height: 130px;">
+    <span class="tooltip-orange">Перелистывание документа</span>
+  </div>
   
-  <div title="Переключение между документами" style="position: absolute; left: 950px; top: 490px; width: 60px; height: 140px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div class="hotspot-zone" style="position: absolute; left: 950px; top: 490px; width: 60px; height: 140px;">
+    <span class="tooltip-orange">Переключение между документами</span>
+  </div>
 
 </div>
 
