@@ -2,8 +2,8 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2025-10-01T23:24:47.349Z
-tags: 
+date: 2026-02-04T14:17:09.166Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:06:43.878Z
 ---
