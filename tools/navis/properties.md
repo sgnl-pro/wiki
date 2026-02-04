@@ -2,8 +2,8 @@
 title: TOOLS. Свойства
 description: 
 published: true
-date: 2025-10-01T23:19:39.956Z
-tags: 
+date: 2026-02-04T14:15:49.041Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:57:03.438Z
 ---
