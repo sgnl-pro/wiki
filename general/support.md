@@ -2,8 +2,8 @@
 title: SIGNAL. Поддержка
 description: 
 published: true
-date: 2025-12-17T09:00:25.552Z
-tags: 
+date: 2026-02-04T13:32:32.046Z
+tags: general
 editor: markdown
 dateCreated: 2025-09-09T14:46:59.376Z
 ---
