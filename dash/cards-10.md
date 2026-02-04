@@ -2,8 +2,8 @@
 title: DASHBOARD. Карточки 10. Общие
 description: 
 published: true
-date: 2025-12-12T09:12:47.275Z
-tags: 
+date: 2026-02-04T14:10:06.259Z
+tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
 ---
