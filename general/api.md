@@ -2,8 +2,8 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-01-23T06:41:55.993Z
-tags: 
+date: 2026-02-04T13:33:11.862Z
+tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
 ---
