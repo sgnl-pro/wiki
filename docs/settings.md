@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-02-04T09:36:39.049Z
+date: 2026-02-04T09:49:15.158Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -153,51 +153,25 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcWQWZqiRxX7JS_D20YPLEFX7eV26pgTIHa7CeFRjB1lqkoocLLWfFkDwjHxHFt9suT83T5nc3DyxK7kv9WOPtZJPgEJ9JxOqgU8Ajc6ewir1BQCw9qH12RLgCGvhFvyJCXt1rHmbSD8C3skqHx?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
 
-##### Способ 1. Настройки прав доступа через папочную структуру
+**Способ 1. Настройки прав доступа через папочную структуру**
 
-1\. Чтобы зайти в настройки доступа, нажмите ПКМ напротив папки ➤ “Редактировать доступ”
+1. Чтобы зайти в настройки доступа, нажмите ПКМ напротив папки ➤ “Редактировать доступ”
+2. В открывшемся окне нажмите "Добавить". Далее из списка выберите пользователя или роль и нажмите "Добавить". В одной роли могут находится несколько пользователей, например, Проектировщики. ([_см. Создание ролей_]([admin](/hub/admin)))
+3. После добавления пользователей задайте им определенные права доступа на папку в столбце ПРАВА.  При этом, подпапки наследуют права доступа родительской папки.
 
-![image-1703239822471.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXevc6G-CtuEE30kxMvCVIAcJiV_gPmRKKCTSOofHU1nJmIv695-zqDs9xYgR0ztzhUmPFkjhB3bOSjm3B0dFEsWHryxJopA0zl9mJJar3XEVu0x5mux3WH2FJ6VWcd68PK0cpokaXN6yB3ytY-ecg?key=H_gsEk68-7fVudPNDTx0iQ =70%x)
-
-2\. В открывшемся окне нажмите "Добавить". Далее из списка выберите пользователя или роль и нажмите "Добавить". В одной роли могут находится несколько пользователей, например, Проектировщики. ([_см. Создание ролей_]([admin](/hub/admin)))
-
-![image-1686836287860.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclZQjOwLGQftSZz0O6KeCN1LA_jFZ8T-krB-pxiWHQvGTIpXnsxyctgSIDr4Cc8LBGUR2gFH6sW4ya4fmuDwoIp1y-sBWyOeKkOJvwviPKYvsvE9qh7o7ZWgWwznDjUhriLKZsdRgoJM-3hMLJUA?key=H_gsEk68-7fVudPNDTx0iQ =30%x)
-
-3\. После добавления пользователей задайте им определенные права доступа на папку в столбце ПРАВА.  При этом, подпапки наследуют права доступа родительской папки.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcD46F-1o9ZxKQej8WEvypKwyQUYfpuR2OIWefzxVscUmwrFECYle5S8bK2Rt-SUlQvpKEcofMZMyRuJa7BJl9lfm8fIDn44ExB6caDRQeCrDldkCZLl3BIaDB4vGe4AuNdwqZORPWmCZWup7eMiA?key=H_gsEk68-7fVudPNDTx0iQ =30%x)
-
-##### Способ 2. Настройки прав доступа в настройках
-> См. [DOCS. Настройки проекта → Права доступа](/ru/docs/settings)
+![folder_permissions1.gif](/sgnl_docs/docs_settings/folder_permissions1.gif =50%x)
+  
+**Способ 2. Настройки прав доступа в настройках**
+> См. [DOCS. Настройки проекта → Права доступа](/ru/docs/settings#foldersPermissions)
 {.is-info}
 
-#### 1.3. Подписка на папки {#subscribe}
-  
-Пользователь может подписаться на обновление папки в системе SIGNAL DOCS.
-
-Для этого необходимо нажать на точки рядом с папкой и выбрать “Подписаться на обновления”.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpcKamdv4nOnzaBLvffcUoJok_r4Yp-lHZosKjpm-0OsbHJJ9SzHjg5YQbmMPeTdshmSTHdf4guS6vKQSJCZqydZp69cBYqk9xY9M-KvJ7NwK7B_24DFCVQElHcM9OZED83Ah7vhZkWQjKgKCy6A?key=65JISIEEZuq7xiFiea2Chg =50%x)
-
-Пример оповещения на электронную почту.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAyERvnhUGTp_W-Zn5bKNTgz6X0mWtAi9WW5_mUU0Vup6rUCpt_feXQCDqKBi-pnCx0--gkUk5CaApUImJql4ACGzcLbckYIFH34ZH0N5wfaPL7QUO-r49QUwZCegu9_6HFgZzq8E4k76iqX60Bg?key=65JISIEEZuq7xiFiea2Chg =50%x)
-
-Отписаться от оповещений можно либо перейдя по ссылке из письма, либо через настройки.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegUi1J6uosjf-6CFIXbLJVi3HfsosFQTUXyOd6S4Mz3GN3_xEQ6tBSLzcQQKtZrHqHsNDyGd4sPLMxUzUEzNNxC-Xi6q4tYb8_Ig2oZlSUG2tPNEcT8oKXKJhjETUYS3y1J_rDZAFq4SHtZPSkjQ?key=65JISIEEZuq7xiFiea2Chg =50%x)
+#### 1.3. Подписка на папки {#subscribe}  
 
 Администратор проекта может подписать роль на папку для получения уведомлений об изменениях, которые произойдут в папке.
 
 Для этого нажмите три точки → Настроить подписки → Добавить роль.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdE1kn64fXTNFcBeNMBZBK9_fQLVjFg7Q3FTivUmWmh5X3NZE8ecDEzqJk8rvLZYcWkfebYUkC8E_iqdE-P9m2XO6dvgJPRF9Hz8c34CFLZcmbz_dwNti0OgzTazsQxW97sy0uKYmI4tQz5hh4nfA?key=PUlaMCJy-5A3womcIShAzw =50%x)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2FOrh-haW5InO-zWnGBL-j8xQUoZVAI8di2z8tWzA_JKQBqhGV5-bLQsRML_ewhNZXfIq6GLPryvuWtg86izBQxWx3yLKwMr5eMBhFmScN3SZn7hD0CHJMauVn8vy-LxUzkbcccjElj3yhZauEQ?key=PUlaMCJy-5A3womcIShAzw =50%x)
-
-Выберите роль из списка:
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7pSmklginAsNNQKdIbweHOnxeO_sRDKM1bgMpoXk2YHMqrqCuxZZBYvNxsIFzyAEVBJI73XzXekS5t5-6nqR2O23fD4K6EkHv60DfMyPqBsQKEznCNG7rQNl2vpcUZvwlWkRK123kddh3I4Ee?key=PUlaMCJy-5A3womcIShAzw =50%x)
+![add_subscribe1.gif](/sgnl_docs/docs_settings/add_subscribe1.gif =50%x)
 
 ## 2. Замечания {#issues}
 
