@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T11:52:00.725Z
+date: 2026-02-04T12:02:41.469Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -117,37 +117,45 @@ dateCreated: 2025-10-16T13:16:45.534Z
   <!-- Изображение -->
   <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="display: block; width: 1024px; height: auto;">
 
-  <!-- Зона 1: Постраничная навигация -->
-  <div title="Постраничная навигация: позволяет быстро переключаться между листами документа" 
-       style="
-    position: absolute; 
-    top: 39px; 
-    left: 1px; 
-    width: 47px; 
-    height: 49px; 
-    cursor: help; 
-    /* Стили выделения области */
-    border: 1px solid rgba(0, 122, 255, 0.5); /* Синяя полупрозрачная рамка */
-    background: rgba(0, 122, 255, 0.1);       /* Легкая синяя заливка */
-    border-radius: 4px;                       /* Слегка скругленные углы */
-  ">
-  </div>
+  <!-- СТИЛЬ ДЛЯ ВСЕХ ОБЛАСТЕЙ (прописываем один раз здесь для краткости кода ниже) -->
+  <style>
+    .hotspot-zone {
+      position: absolute;
+      cursor: help;
+      border: 1px solid rgba(0, 122, 255, 0.4);
+      background: rgba(0, 122, 255, 0.05);
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+    .hotspot-zone:hover {
+      background: rgba(0, 122, 255, 0.2);
+      border: 1px solid rgba(0, 122, 255, 0.8);
+    }
+  </style>
 
-  <!-- Зона 2: Режим выделения -->
-  <div title="Режим выделения: используйте для захвата текста" 
-       style="
-    position: absolute; 
-    top: 39px; 
-    left: 55px; 
-    width: 47px; 
-    height: 49px; 
-    cursor: help; 
-    /* Стили выделения области */
-    border: 1px solid rgba(0, 122, 255, 0.5); 
-    background: rgba(0, 122, 255, 0.1);
-    border-radius: 4px;
-  ">
-  </div>
+  <!-- ВЕРХНЯЯ ПАНЕЛЬ -->
+  <div class="hotspot-zone" title="Постраничная навигация" style="left: 1px; top: 39px; width: 47px; height: 49px;"></div>
+  <div class="hotspot-zone" title="Масштабирование по размеру экрана" style="left: 52px; top: 40px; width: 50px; height: 49px;"></div>
+  <div class="hotspot-zone" title="Список замечаний по документу" style="left: 106px; top: 40px; width: 45px; height: 49px;"></div>
+  <div class="hotspot-zone" title="Подписать документ ЭЦП" style="left: 154px; top: 42px; width: 48px; height: 44px;"></div>
+  <div class="hotspot-zone" title="Скрыть пометки аудитора" style="left: 208px; top: 42px; width: 45px; height: 44px;"></div>
+  <div class="hotspot-zone" title="Переместить пометки между листами" style="left: 258px; top: 42px; width: 43px; height: 44px;"></div>
+  
+  <div class="hotspot-zone" title="Навигация по листам" style="left: 340px; top: 39px; width: 104px; height: 45px;"></div>
+  <div class="hotspot-zone" title="Масштаб листа" style="left: 460px; top: 39px; width: 137px; height: 43px;"></div>
+  <div class="hotspot-zone" title="Поворот листа" style="left: 604px; top: 39px; width: 124px; height: 45px;"></div>
+  
+  <div class="hotspot-zone" title="Серверная генерация листа" style="left: 771px; top: 39px; width: 47px; height: 44px;"></div>
+  <div class="hotspot-zone" title="Открыть в Autodesk Forge" style="left: 822px; top: 39px; width: 49px; height: 43px;"></div>
+  <div class="hotspot-zone" title="Скачать файл" style="left: 877px; top: 40px; width: 43px; height: 43px;"></div>
+  <div class="hotspot-zone" title="Сравнение версий" style="left: 926px; top: 39px; width: 44px; height: 46px;"></div>
+  <div class="hotspot-zone" title="Печать документа" style="left: 976px; top: 40px; width: 47px; height: 44px;"></div>
+
+  <!-- ПРАВАЯ ПАНЕЛЬ -->
+  <div class="hotspot-zone" title="Создать замечание" style="left: 956px; top: 164px; width: 54px; height: 53px;"></div>
+  <div class="hotspot-zone" title="Приблизить/отдалить" style="left: 952px; top: 229px; width: 62px; height: 120px;"></div>
+  <div class="hotspot-zone" title="Перелистывание документа" style="left: 953px; top: 360px; width: 59px; height: 117px;"></div>
+  <div class="hotspot-zone" title="Переключение между документами" style="left: 955px; top: 487px; width: 55px; height: 121px;"></div>
 
 </div>
 
