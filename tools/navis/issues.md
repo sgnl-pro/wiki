@@ -2,8 +2,8 @@
 title: TOOLS. Замечания
 description: 
 published: true
-date: 2025-10-01T23:20:59.809Z
-tags: 
+date: 2026-02-04T14:16:24.181Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:21:15.211Z
 ---
