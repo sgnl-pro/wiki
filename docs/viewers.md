@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T11:12:04.871Z
+date: 2026-02-04T11:13:36.166Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -114,54 +114,37 @@ dateCreated: 2025-10-16T13:16:45.534Z
   
 <div style="position: relative; display: inline-block;">
   
-  <!-- 1. ВАШ СКРИНШОТ -->
+  <!-- Изображение -->
   <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="display: block; width: 1024px; height: auto;">
 
-  <!-- 2. ИНТЕРАКТИВНАЯ ЗОНА (ХОТСПOT) -->
-  <div class="my-hotspot" style="
+  <!-- Активная зона (просто добавьте текст в title) -->
+  <div title="Постраничная навигация: позволяет быстро переключаться между листами документа" 
+       style="
     position: absolute; 
     top: 39px; 
     left: 1px; 
     width: 47px; 
     height: 49px; 
     cursor: help; 
-    border: 1px dashed red; /* Удалите эту строку, когда закончите настройку */
+    background: rgba(0,0,0,0); /* Полностью прозрачно */
+    border: 1px dashed rgba(255,0,0,0.5); /* Можно оставить для отладки, потом уберите */
   ">
-    <!-- ТЕКСТ ПОДСКАЗКИ -->
-    <span class="my-tooltip" style="
-      visibility: hidden;
-      width: 200px;
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      border-radius: 6px;
-      padding: 10px;
-      position: absolute;
-      z-index: 1000;
-      bottom: 110%;
-      left: 50%;
-      transform: translateX(-50%);
-      opacity: 0;
-      transition: opacity 0.3s;
-      font-family: sans-serif;
-      font-size: 13px;
-      pointer-events: none;
-      box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
-    ">
-      <b>Постраничная навигация</b><br>
-      Позволяет быстро переключаться между листами документа.
-    </span>
+  </div>
+
+  <!-- Вторая зона -->
+  <div title="Режим выделения: используйте для захвата текста" 
+       style="
+    position: absolute; 
+    top: 39px; 
+    left: 55px; 
+    width: 47px; 
+    height: 49px; 
+    cursor: help; 
+    background: rgba(0,0,0,0);
+  ">
   </div>
 
 </div>
-
-<!-- 3. МИНИМАЛЬНЫЙ CSS ТОЛЬКО ДЛЯ ЭФФЕКТА НАВЕДЕНИЯ -->
-<style>
-  .my-hotspot:hover .my-tooltip {
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-</style>
 
 1.  Постраничная навигация
 2.  Масштабирование по размеру экрана
