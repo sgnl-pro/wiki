@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T11:06:58.164Z
+date: 2026-02-04T11:08:38.382Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -112,12 +112,22 @@ dateCreated: 2025-10-16T13:16:45.534Z
   
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcN7AfZCZHrIbF6Y44rNPElBDCCuLAEEH561dAg5vzVVd3uRRmRf_wrEqA2kpqXxAfUDJvFWzz2SzB1ewQyEX_tmAkUmr6MuFKGbgx_E9ZQmWdQDDvu7eDCn-D6VsCruX-2q-kqy9mfJbMqWqXVNg?key=Nkmqc7jtUIqVAYqwrzKIWw)
   
-<img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" usemap="#image-map" style="width: 1024px;">
+<div style="position: relative; display: inline-block; width: 1024px;">
+  <!-- Само изображение -->
+  <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="width: 100%; display: block;">
 
-<map name="image-map">
-    <!-- href лучше оставить # или javascript:void(0), чтобы при клике страница не перезагружалась -->
-    <area target="" alt="Постраничная навигация" title="Постраничная навигация" href="javascript:void(0);" coords="1,39,48,88" shape="rect">
-</map>
+  <!-- Прозрачная зона с подсказкой -->
+  <!-- Подберите top, left, width и height в % чтобы точно накрыть кнопку -->
+  <div title="Постраничная навигация" 
+       style="position: absolute; 
+              top: 5%; 
+              left: 1%; 
+              width: 50px; 
+              height: 50px; 
+              cursor: help; 
+              border: 1px solid rgba(255,255,255,0.2);">
+  </div>
+</div>
 
 1.  Постраничная навигация
 2.  Масштабирование по размеру экрана
