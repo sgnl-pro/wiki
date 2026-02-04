@@ -2,8 +2,8 @@
 title: TOOLS. Вид
 description: 
 published: true
-date: 2025-10-01T23:27:21.165Z
-tags: 
+date: 2026-02-04T14:18:21.113Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:31:29.537Z
 ---
