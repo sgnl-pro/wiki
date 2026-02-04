@@ -2,8 +2,8 @@
 title: DASHBOARD. Настройка проекта
 description: 
 published: true
-date: 2025-12-12T09:11:40.007Z
-tags: 
+date: 2026-02-04T14:09:24.350Z
+tags: dash
 editor: markdown
 dateCreated: 2025-11-14T11:33:22.397Z
 ---
