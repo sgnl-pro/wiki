@@ -2,8 +2,8 @@
 title: INSPECTION. Приложение Photomaker
 description: 
 published: true
-date: 2025-09-23T07:02:19.843Z
-tags: 
+date: 2026-02-04T14:12:53.649Z
+tags: insp
 editor: markdown
 dateCreated: 2025-09-19T13:05:45.034Z
 ---
