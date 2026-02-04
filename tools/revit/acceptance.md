@@ -2,8 +2,8 @@
 title: TOOLS. Приемка
 description: 
 published: true
-date: 2025-10-01T23:26:06.548Z
-tags: 
+date: 2026-02-04T14:17:52.176Z
+tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:25:49.821Z
 ---
