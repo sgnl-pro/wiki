@@ -2,8 +2,8 @@
 title: INSPECTION. Введение
 description: 
 published: true
-date: 2025-09-19T16:26:44.766Z
-tags: 
+date: 2026-02-04T14:11:58.166Z
+tags: insp
 editor: markdown
 dateCreated: 2025-09-19T13:31:12.321Z
 ---
