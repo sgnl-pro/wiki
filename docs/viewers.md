@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T12:02:41.469Z
+date: 2026-02-04T12:04:25.563Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -117,45 +117,45 @@ dateCreated: 2025-10-16T13:16:45.534Z
   <!-- Изображение -->
   <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="display: block; width: 1024px; height: auto;">
 
-  <!-- СТИЛЬ ДЛЯ ВСЕХ ОБЛАСТЕЙ (прописываем один раз здесь для краткости кода ниже) -->
-  <style>
-    .hotspot-zone {
-      position: absolute;
-      cursor: help;
-      border: 1px solid rgba(0, 122, 255, 0.4);
-      background: rgba(0, 122, 255, 0.05);
-      border-radius: 4px;
-      transition: background 0.2s;
-    }
-    .hotspot-zone:hover {
-      background: rgba(0, 122, 255, 0.2);
-      border: 1px solid rgba(0, 122, 255, 0.8);
-    }
-  </style>
-
-  <!-- ВЕРХНЯЯ ПАНЕЛЬ -->
-  <div class="hotspot-zone" title="Постраничная навигация" style="left: 1px; top: 39px; width: 47px; height: 49px;"></div>
-  <div class="hotspot-zone" title="Масштабирование по размеру экрана" style="left: 52px; top: 40px; width: 50px; height: 49px;"></div>
-  <div class="hotspot-zone" title="Список замечаний по документу" style="left: 106px; top: 40px; width: 45px; height: 49px;"></div>
-  <div class="hotspot-zone" title="Подписать документ ЭЦП" style="left: 154px; top: 42px; width: 48px; height: 44px;"></div>
-  <div class="hotspot-zone" title="Скрыть пометки аудитора" style="left: 208px; top: 42px; width: 45px; height: 44px;"></div>
-  <div class="hotspot-zone" title="Переместить пометки между листами" style="left: 258px; top: 42px; width: 43px; height: 44px;"></div>
+  <!-- Группа 1: Верхняя панель (левая часть) -->
+  <div title="Постраничная навигация" style="position: absolute; left: 1px; top: 39px; width: 47px; height: 49px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
   
-  <div class="hotspot-zone" title="Навигация по листам" style="left: 340px; top: 39px; width: 104px; height: 45px;"></div>
-  <div class="hotspot-zone" title="Масштаб листа" style="left: 460px; top: 39px; width: 137px; height: 43px;"></div>
-  <div class="hotspot-zone" title="Поворот листа" style="left: 604px; top: 39px; width: 124px; height: 45px;"></div>
+  <div title="Масштабирование по размеру экрана" style="position: absolute; left: 52px; top: 40px; width: 50px; height: 49px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
   
-  <div class="hotspot-zone" title="Серверная генерация листа" style="left: 771px; top: 39px; width: 47px; height: 44px;"></div>
-  <div class="hotspot-zone" title="Открыть в Autodesk Forge" style="left: 822px; top: 39px; width: 49px; height: 43px;"></div>
-  <div class="hotspot-zone" title="Скачать файл" style="left: 877px; top: 40px; width: 43px; height: 43px;"></div>
-  <div class="hotspot-zone" title="Сравнение версий" style="left: 926px; top: 39px; width: 44px; height: 46px;"></div>
-  <div class="hotspot-zone" title="Печать документа" style="left: 976px; top: 40px; width: 47px; height: 44px;"></div>
+  <div title="Список замечаний по документу" style="position: absolute; left: 106px; top: 40px; width: 45px; height: 49px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Подписать документ ЭЦП" style="position: absolute; left: 154px; top: 42px; width: 48px; height: 44px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Скрыть пометки аудитора" style="position: absolute; left: 208px; top: 42px; width: 45px; height: 44px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Переместить пометки между листами" style="position: absolute; left: 258px; top: 42px; width: 43px; height: 44px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
 
-  <!-- ПРАВАЯ ПАНЕЛЬ -->
-  <div class="hotspot-zone" title="Создать замечание" style="left: 956px; top: 164px; width: 54px; height: 53px;"></div>
-  <div class="hotspot-zone" title="Приблизить/отдалить" style="left: 952px; top: 229px; width: 62px; height: 120px;"></div>
-  <div class="hotspot-zone" title="Перелистывание документа" style="left: 953px; top: 360px; width: 59px; height: 117px;"></div>
-  <div class="hotspot-zone" title="Переключение между документами" style="left: 955px; top: 487px; width: 55px; height: 121px;"></div>
+  <!-- Группа 2: Верхняя панель (центральные инструменты) -->
+  <div title="Навигация по листам" style="position: absolute; left: 340px; top: 39px; width: 104px; height: 45px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Масштаб листа" style="position: absolute; left: 460px; top: 39px; width: 137px; height: 43px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Поворот листа" style="position: absolute; left: 604px; top: 39px; width: 124px; height: 45px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+
+  <!-- Группа 3: Верхняя панель (правая часть) -->
+  <div title="Серверная генерация листа" style="position: absolute; left: 771px; top: 39px; width: 47px; height: 44px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Открыть в Autodesk Forge" style="position: absolute; left: 822px; top: 39px; width: 49px; height: 43px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Скачать файл" style="position: absolute; left: 877px; top: 40px; width: 43px; height: 43px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Сравнение версий" style="position: absolute; left: 926px; top: 39px; width: 44px; height: 46px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Печать документа" style="position: absolute; left: 976px; top: 40px; width: 47px; height: 44px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+
+  <!-- Группа 4: Правая плавающая панель -->
+  <div title="Создать замечание" style="position: absolute; left: 956px; top: 164px; width: 54px; height: 53px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Приблизить/отдалить" style="position: absolute; left: 952px; top: 229px; width: 62px; height: 120px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Перелистывание документа" style="position: absolute; left: 953px; top: 360px; width: 59px; height: 117px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  
+  <div title="Переключение между документами" style="position: absolute; left: 955px; top: 487px; width: 55px; height: 121px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
 
 </div>
 
