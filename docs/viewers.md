@@ -2,8 +2,8 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T12:56:26.459Z
-tags: 
+date: 2026-02-04T13:34:56.979Z
+tags: docs
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
 ---
