@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T11:13:36.166Z
+date: 2026-02-04T11:52:00.725Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -117,7 +117,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
   <!-- Изображение -->
   <img src="/sgnl_docs/docs_workwithfiles/pdf_viewer_main.png" style="display: block; width: 1024px; height: auto;">
 
-  <!-- Активная зона (просто добавьте текст в title) -->
+  <!-- Зона 1: Постраничная навигация -->
   <div title="Постраничная навигация: позволяет быстро переключаться между листами документа" 
        style="
     position: absolute; 
@@ -126,12 +126,14 @@ dateCreated: 2025-10-16T13:16:45.534Z
     width: 47px; 
     height: 49px; 
     cursor: help; 
-    background: rgba(0,0,0,0); /* Полностью прозрачно */
-    border: 1px dashed rgba(255,0,0,0.5); /* Можно оставить для отладки, потом уберите */
+    /* Стили выделения области */
+    border: 1px solid rgba(0, 122, 255, 0.5); /* Синяя полупрозрачная рамка */
+    background: rgba(0, 122, 255, 0.1);       /* Легкая синяя заливка */
+    border-radius: 4px;                       /* Слегка скругленные углы */
   ">
   </div>
 
-  <!-- Вторая зона -->
+  <!-- Зона 2: Режим выделения -->
   <div title="Режим выделения: используйте для захвата текста" 
        style="
     position: absolute; 
@@ -140,7 +142,10 @@ dateCreated: 2025-10-16T13:16:45.534Z
     width: 47px; 
     height: 49px; 
     cursor: help; 
-    background: rgba(0,0,0,0);
+    /* Стили выделения области */
+    border: 1px solid rgba(0, 122, 255, 0.5); 
+    background: rgba(0, 122, 255, 0.1);
+    border-radius: 4px;
   ">
   </div>
 
