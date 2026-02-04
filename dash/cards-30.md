@@ -2,8 +2,8 @@
 title: DASHBOARD. Карточки 30. Сроки
 description: 
 published: true
-date: 2025-12-12T08:30:08.431Z
-tags: 
+date: 2026-02-04T14:10:30.513Z
+tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:35:13.037Z
 ---
