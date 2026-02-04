@@ -2,8 +2,8 @@
 title: DASHBOARD. Карточки 90. Другие
 description: 
 published: true
-date: 2025-12-12T08:52:28.466Z
-tags: 
+date: 2026-02-04T14:11:40.266Z
+tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:42:30.202Z
 ---
