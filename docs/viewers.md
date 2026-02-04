@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-02-04T12:17:43.649Z
+date: 2026-02-04T12:18:34.069Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -153,9 +153,9 @@ dateCreated: 2025-10-16T13:16:45.534Z
   
   <div title="Приблизить/отдалить" style="position: absolute; left: 950px; top: 220px; width: 60px; height: 140px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
   
-  <div title="Перелистывание документа" style="position: absolute; left: 950px; top: 360px; width: 60px; height: 140px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div title="Перелистывание документа" style="position: absolute; left: 950px; top: 360px; width: 60px; height: 130px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
   
-  <div title="Переключение между документами" style="position: absolute; left: 950px; top: 480px; width: 60px; height: 140px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
+  <div title="Переключение между документами" style="position: absolute; left: 950px; top: 490px; width: 60px; height: 140px; cursor: help; border: 1px solid rgba(0, 122, 255, 0.5); background: rgba(0, 122, 255, 0.1); border-radius: 4px;"></div>
 
 </div>
 
