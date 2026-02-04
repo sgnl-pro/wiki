@@ -2,8 +2,8 @@
 title: DOCS. Введение
 description: 
 published: true
-date: 2026-01-23T07:23:36.792Z
-tags: 
+date: 2026-02-04T13:34:15.562Z
+tags: docs
 editor: markdown
 dateCreated: 2025-09-09T07:18:56.688Z
 ---
