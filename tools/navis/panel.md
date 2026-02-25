@@ -2,7 +2,7 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-02-25T06:39:35.560Z
+date: 2026-02-25T06:42:13.883Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
@@ -90,7 +90,6 @@ W2.1.1 - означает, что вид работ должен быть соз
 
 
 ![image-1683286673654.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe2pJKpSlK9M35q5AUavk1ICLo3oX7824fkQ7pMTpWrq4Q3Xg_03sQ56sCqWxBj8-4XTz37fhXg2V431AZ2FaFq-o-4E33-HCN3BD5WtrmRejfeI7mAJCShiRXvT4FWHPxQAVuujbOKD7R907JEOg?key=jUT98gLp1Q8zkf4jZozAlA)
-  #
 
 ## Избранные свойства
 
