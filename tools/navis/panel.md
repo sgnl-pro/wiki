@@ -2,7 +2,7 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-02-25T06:42:13.883Z
+date: 2026-02-25T06:42:57.475Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
@@ -56,7 +56,7 @@ dateCreated: 2025-09-21T11:09:12.445Z
 
 С помощью инструмента [_“Работы”_](https://wiki.sgnl.pro/app/page/1-B8HMIqIDN4CnwWo3yZXYVBYlf7Lq4anPwmk5eLtGXw) можно создать поисковые наборы видов работ, но для этого необходимо указать условия создания ПН (см. [_“Создание Условий”_](https://wiki.sgnl.pro/app/page/1dGtbOpYGviEU75IoqM3rgmuKhx30Z7S5wyhGoTXeLX0)):
   
-## Импорт из Excel
+### Импорт из Excel
 
 ![image-1683286603846.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeU6jReyLVlI7mQMfIoxv0_viQJ2sgFg1PY7SNiKUH0VGVAmJidmnBOe7mV1TZUUqruVy_NMFkjNBqv0_h8hgjAr3f3R0eM1SgZvIjlmOj6WUmvHpO81xUSCopVMVnPeBFEqyk0z1nKYjaG6OBpxw?key=jUT98gLp1Q8zkf4jZozAlA)
 
