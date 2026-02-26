@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-02-04T13:33:11.862Z
+date: 2026-02-26T07:47:04.128Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -16,6 +16,18 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+----
+**[2026.2](/general/updates/2026-2)** ^12.02.2026^
+
+Добавили:
+- фильтр по `ItemVersionId` в `POST /public/v1/issues`
+- поле `completedBy` в `ReviewStage` и `ReviewSigning`
+- метод `POST /public/v1/reviews/versions/item-versions` для получения всех версий файлов согласований
+- поле `topVersion.reviewType.reviewGroupId` в `/public/v1/reviews` и метод `/public/v1/reviews/groups` для получения групп согласований
+- поля `contractDate` и `contractDaysDiff` в `/public/v1/reviews` для получения договорной даты комплекта согласования
+- поле `startedAt` в `POST /public/v1/reviews (topVersion)` и `POST /public/v1/reviews/versions` для получения даты начала итерации согласования
+
+  
 **[2026.1](/general/updates/2026-1)** ^22.01.2026^
 
 Добавили:
