@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-02-26T07:39:08.773Z
+date: 2026-02-26T07:39:52.643Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -25,7 +25,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 :hammer_and_wrench: — исправление ошибок
 
 ----
-**[2026.1](/general/updates/2026-1)** ^22.01.2026^
+**[2026.2](/general/updates/2026-2)** ^12.02.2026^
   
 :sparkles: В управление видимостью и положением столбцов в таблицах добавили пользовательские атрибуты.
   
