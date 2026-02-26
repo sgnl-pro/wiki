@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2026-02-04T14:11:27.865Z
+date: 2026-02-26T07:58:59.568Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:41:20.629Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-18T13:41:20.629Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.2](/general/updates/2026-2)** ^12.02.2026^
+  
+:sparkles: В карточке 67 теперь отображаем жёлтый статус вместо зелёного, если комплект согласован с замечаниями.
+  
 ----
 **[2025.37](/general/updates/2025-37)** ^27.11.2025^
   
