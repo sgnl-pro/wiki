@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 40. Объёмы
 description: 
 published: true
-date: 2026-02-26T07:52:41.682Z
+date: 2026-02-26T07:57:46.444Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-18T13:37:28.921Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.2](/general/updates/2026-2)** ^12.02.2026^
+  
+:hammer_and_wrench: Поправили отображение дат в 41 карточке.
+  
 ----
 **[2025.38](/general/updates/2025-38)** ^04.12.2025^
   
