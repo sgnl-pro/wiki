@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-02-27T07:57:17.100Z
+date: 2026-02-27T08:16:20.068Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -281,15 +281,17 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 Кнопка | Условия | Описание
 :----- | :----- | :-----
-**Отправить**  | описание  | описание
-**Оповестить**  | описание  | описание
-**Отменить процесс**  | описание  | описание
-**Переназначить**  | описание  | описание
-**Завершить этап**  | описание  | описание
-**Отменить согласование**  | описание  | описание
-**Запустить повторно**  | описание  | описание
-**Открыть папку**  | описание  | описание
-**Создать пакет передачи**  | описание  | описание
+<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТПРАВИТЬ</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОПОВЕСТИТЬ</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ ПРОЦЕСС</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ВЕРНУТЬ</span> ???  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ПЕРЕНАЗНАЧИТЬ</span>  | описание  | описание
+<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>  | описание  | описание
+<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>  | описание  | описание
+<span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ СОГЛАСОВАНИЕ</span>  | описание  | описание
+<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАПУСТИТЬ ПОВТОРНО</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТКРЫТЬ ПАПКУ</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">СОЗДАТЬ ПАКЕТ ПЕРЕДАЧИ</span>  | описание  | описание
   
 ### Файлы комплекта
   
