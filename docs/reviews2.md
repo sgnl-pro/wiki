@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-02-28T11:31:56.361Z
+date: 2026-02-28T11:40:24.830Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -306,6 +306,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ПЕРЕНАЗНАЧИТЬ</span>  | описание  | описание
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ВЕРНУТЬ</span> ???  | описание  | описание
 <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span>  | описание  | описание
 <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>  | описание  | описание
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТКРЫТЬ ПАПКУ</span>  | описание  | описание
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">СОЗДАТЬ ПАКЕТ ПЕРЕДАЧИ</span>  | описание  | описание
@@ -434,23 +435,23 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![смена_ответственного.png](/смена_ответственного.png =450x)
   
-  
+Также вы можете нажать <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОПОВЕСТИТЬ</span>, чтобы отправить ответственному за текущий этап повторное уведомление.
 
-### Этап штампования и QR
+### Последний основной этап, нанесение штампа и QR и копирование файлов
   
-  ...
+![завершить_согласование.png](/завершить_согласование.png)
+  
+![завершение_согласования.png](/завершение_согласования.png =450x)
+  
+![обновить_состояние.png](/обновить_состояние.png)
   
 ### Этапы подписания
   
-  ...
+![подписание.png](/подписание.png)
   
-### Копирование файлов
+![подписание_документов.png](/подписание_документов.png =600x)
   
-  ...
-  
-### Оповещение участников
-  
-  ...
+![завершение_без_подписания.png](/завершение_без_подписания.png =450x)
   
 ### Перезапуск и отмена
   
