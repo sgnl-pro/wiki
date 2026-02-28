@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-02-28T12:19:03.635Z
+date: 2026-02-28T12:20:45.708Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -298,18 +298,17 @@ dateCreated: 2026-02-26T13:47:01.467Z
 :----- | :----- | :-----
 <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТПРАВИТЬ</span>  | описание  | описание
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОПОВЕСТИТЬ</span>  | описание  | описание
-<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ ПРОЦЕСС</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ ПРОЦЕСС</span>  | описание  | описание
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ПЕРЕНАЗНАЧИТЬ</span>  | описание  | описание
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ВЕРНУТЬ</span> ???  | описание  | описание
-<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>  | описание  | описание
-<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span>  | описание  | описание
-<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>  | описание  | описание
-<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТКРЫТЬ ПАПКУ</span>  | описание  | описание
-<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">СОЗДАТЬ ПАКЕТ ПЕРЕДАЧИ</span>  | описание  | описание
-<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАПУСТИТЬ ПОВТОРНО</span>  | описание  | описание
-<span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ СОГЛАСОВАНИЕ</span>  | описание  | описание
-  
-  
+<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span>  | описание  | описание
+<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТКРЫТЬ ПАПКУ</span>  | описание  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">СОЗДАТЬ ПАКЕТ ПЕРЕДАЧИ</span>  | описание  | описание
+<span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАПУСТИТЬ ПОВТОРНО</span>  | описание  | описание
+<span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ СОГЛАСОВАНИЕ</span>  | описание  | описание
+   
 #### Файлы комплекта
   
 Для каждого файла в таблице отображются его тип и название, номер версии, количество незакрытых замечаний, статусы каждого этапа итерации согласования и финальный статус. При наведении на статус появляется подсказка с его описанием.
@@ -415,7 +414,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![согласование_из_файла.png](/согласование_из_файла.png =900x)
   
-Когда все статусы назначены, вы можете нажать <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>, при необходимости добавить комментарий и нажать <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ПОДТВЕРДИТЬ</span>. Согласование перейдёт на следующий этап:
+Когда все статусы назначены, вы можете нажать <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>, при необходимости добавить комментарий и нажать <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ПОДТВЕРДИТЬ</span>. Согласование перейдёт на следующий этап:
   
 ![завершение_этапа.png](/завершение_этапа.png =450x)
   
@@ -423,7 +422,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![этап_с_отклоненным_файлом.png](/этап_с_отклоненным_файлом.png)
   
-Если в комплекте файлов есть грубые нарушения, то вы можете отменить итерацию согласования (если это не запрещено настройками этапа). Для этого нажмите <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ ПРОЦЕСС</span>, при необходимости оставьте комментарий и выберите, кого дополнительно вы хотите оповесстить, после чего подтвердите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДА, ОТМЕНИТЬ</span>. Итерация согласовани завершится на вашем этапе:
+Если в комплекте файлов есть грубые нарушения, то вы можете отменить итерацию согласования (если это не запрещено настройками этапа). Для этого нажмите <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ ПРОЦЕСС</span>, при необходимости оставьте комментарий и выберите, кого дополнительно вы хотите оповесстить, после чего подтвердите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДА, ОТМЕНИТЬ</span>. Итерация согласовани завершится на вашем этапе:
   
 ![отменить_процесс.png](/отменить_процесс.png =450x)
   
@@ -435,7 +434,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
 
 #### Финальный этап, штамп и QR
   
-Если вы отвечаете за финальный (т.е. последний основной) этап, то после назначения статусов файлов вам доступна кнопка <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>:
+Если вы отвечаете за финальный (т.е. последний основной) этап, то после назначения статусов файлов вам доступна кнопка <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>:
   
 ![завершить_согласование.png](/завершить_согласование.png)
   
@@ -443,7 +442,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![завершение_согласования.png](/завершение_согласования.png =450x)
  
-Если для данного типа согласования предусмотрен этап нанесения штампа и/или QR, то в зависимости от настроек эти процессы начнутся автоматически, либо будут ждать вашего запуска. До завершения процессов в качестве статусов файлов будут отображаться жёлтые штампики. Вы можете нажимать <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span> для отслеживания статусов, пока они не станут зелёными:
+Если для данного типа согласования предусмотрен этап нанесения штампа и/или QR, то в зависимости от настроек эти процессы начнутся автоматически, либо будут ждать вашего запуска. До завершения процессов в качестве статусов файлов будут отображаться жёлтые штампики. Вы можете нажимать <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span> для отслеживания статусов, пока они не станут зелёными:
   
 ![обновить_состояние.png](/обновить_состояние.png)
 
@@ -464,7 +463,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![подписание_документов.png](/подписание_документов.png =600x)
 
-Затем нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>:
+Затем нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>:
   
 ![подписание.png](/подписание.png)
   
