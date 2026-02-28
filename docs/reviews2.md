@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-02-28T11:16:48.809Z
+date: 2026-02-28T11:31:56.361Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -418,9 +418,15 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![согласование_из_файла.png](/согласование_из_файла.png =900x)
   
-Когда все статусы назначены, вы можете нажать <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>, чтобы согласование перешло на следующий этап.
+Когда все статусы назначены, вы можете нажать <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>, при необходимости добавить комментарий и нажать <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ПОДТВЕРДИТЬ</span>. Согласование перейдёт на следующий этап:
   
-Если в файлах есть грубые нарушения, то вы можете отменить итерацию согласования (если это не запрещено настройками этапа). Для этого нажмите <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ ПРОЦЕСС</span>, при необходимости оставьте комментарий и выберите, кого дополнительно вы хотите оповесстить, после чего подтвердите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДА, ОТМЕНИТЬ</span>. Итерация согласовани завершится на вашем этапе:
+![завершение_этапа.png](/завершение_этапа.png =450x)
+  
+Если вы хотите исключить из согласования отдельные файлы, то выберите для них статус <span style="color: #FF4758; font-weight: bold">Отклонено</span> — эти файлы не попадут на следующие этапы согласования, не будут проштампованы, скопированы и подписаны. Сам этап при этом будет отмечен жёлтым кружочком:
+  
+![этап_с_отклоненным_файлом.png](/этап_с_отклоненным_файлом.png)
+  
+Если в комплекте файлов есть грубые нарушения, то вы можете отменить итерацию согласования (если это не запрещено настройками этапа). Для этого нажмите <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ ПРОЦЕСС</span>, при необходимости оставьте комментарий и выберите, кого дополнительно вы хотите оповесстить, после чего подтвердите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДА, ОТМЕНИТЬ</span>. Итерация согласовани завершится на вашем этапе:
   
 ![отменить_процесс.png](/отменить_процесс.png =450x)
   
