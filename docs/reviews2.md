@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-03-02T10:00:25.904Z
+date: 2026-03-02T10:01:58.117Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -302,8 +302,8 @@ dateCreated: 2026-02-26T13:47:01.467Z
 <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>  | Идёт процесс согласования, статусы всех файлов на текущем этапе проставлены. Пользовватель ответственный за текущий этап, либо у пользователя есть доступ на редактирование согласования | Завершение текущего этапа и переход к следующему
 <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span>  | Идёт процесс нанесения штампа и/или QR. У пользователя есть доступ на просмотр согласования  | Обновление отображаемого состояния процесса
 <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>  | Идёт финальный этап согласования. Пользовватель ответственный за текущий этап, либо у пользователя есть доступ на редактирование согласования  | Завершение согласования
-<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТКРЫТЬ ПАПКУ</span>  | Согласование завершено. У пользователя есть доступ на просмотр согласования  | описание
-<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">СОЗДАТЬ ПАКЕТ ПЕРЕДАЧИ</span>  | Согласование завершено. У пользователя есть доступы на просмотр согласования и создание пакетов передач  | описание
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТКРЫТЬ ПАПКУ</span>  | Согласование завершено. У пользователя есть доступ на просмотр согласования  | Открытие папки с исходными файлами, либо папки, куда были скопированы файлы по результату согласования
+<span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">СОЗДАТЬ ПАКЕТ ПЕРЕДАЧИ</span>  | Согласование завершено. У пользователя есть доступы на просмотр согласования и создание пакетов передач  | Открытие окна создания пакета передачи, в которое подставляются согласованные файлы
 <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАПУСТИТЬ ПОВТОРНО</span>  | Согласование завершено. У пользователя есть доступ на создание согласования  | Запуск новой итерации согласования
 <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ СОГЛАСОВАНИЕ</span>  | Согласование завершено. У пользователя есть доступ на редактирование согласования  | Отмена завершённого согласования и аннулирование всех версий файлов в комплекте
    
