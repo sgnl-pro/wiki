@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-03-02T10:10:27.276Z
+date: 2026-03-02T12:27:04.056Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -397,6 +397,10 @@ dateCreated: 2026-02-26T13:47:01.467Z
 В открывшемся окне при необходимости введите комментарий и нажите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ПОДТВЕРДИТЬ</span>:
   
 ![начать_процесс_согласования.png](/начать_процесс_согласования.png =450x)
+  
+Ответственному за первый этап придёт оповещение на Email и/или Telegram о том, что ему назначен комплект на согласование с указанием сроков проверки и ссылкой на комплект:
+
+![image-1705928927291.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3aY3ZJjidvcGC-BWlg_yKz2rnq2GM17NGNJrEDyv4-2Vu41Zn9bb39Dn6YSLc-rX4SnDvr69EUg4I9A5aDD1nDJzmSA101toKKZzf9FRRPU7qUrw3Ql2eEAeZI1vUjJAKC5gM3NvqCZklooJmhA?key=kHkyNYzGl_KhR1C7-5sbTA)
   
 > Если возникала ошибка **Для данного типа согласования не найден пользователь в проекте. Обратитесь к администратору**, значит на одном из этапов в настройках типа согласования указана роль, которой нет ни у одного участника проекта. Администратор сможет помочь, изменив настройки типа согласования, либо назначив нужную роль одному из участников.
 >
