@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-03-02T09:43:24.037Z
+date: 2026-03-02T09:43:54.663Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -534,7 +534,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 **Отмена согласования**
   
-Согласованную итерацию можно отменить, для этого нажмите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ СОГЛАСОВАНИЕ</span>, при необходимости оставьте комментарий и выберите, кого хотите оповестить, и нажмите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДА, ОТМЕНИТЬ</span>:
+Согласованную итерацию можно отменить, для этого нажмите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ СОГЛАСОВАНИЕ</span>, при необходимости оставьте комментарий и выберите, кого хотите оповестить, и нажмите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДА, ОТМЕНИТЬ</span>:
   
 ![отменить_согласование.png](/отменить_согласование.png)
   
