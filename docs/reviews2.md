@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-03-02T07:54:54.985Z
+date: 2026-03-02T08:27:55.911Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -436,7 +436,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
 
 #### 4.3. Финальный этап, штамп и QR
   
-Если вы отвечаете за финальный (т.е. последний основной) этап, то после назначения статусов файлов вам доступна кнопка <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>:
+Если вы отвечаете за финальный (т.е. последний основной) этап, то после назначения статусов файлов вам доступна кнопка <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ СОГЛАСОВАНИЕ</span>:
   
 ![завершить_согласование.png](/завершить_согласование.png)
   
@@ -444,7 +444,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![завершение_согласования.png](/завершение_согласования.png =450x)
  
-Если для данного типа согласования предусмотрен этап нанесения штампа и/или QR, то в зависимости от настроек эти процессы начнутся автоматически, либо будут ждать вашего запуска. До завершения процессов в качестве статусов файлов будут отображаться жёлтые штампики. Вы можете нажимать <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span> для отслеживания статусов, пока они не станут зелёными:
+Если для данного типа согласования предусмотрен этап нанесения штампа и/или QR, то в зависимости от настроек эти процессы начнутся автоматически, либо будут ждать вашего запуска. До завершения процессов в качестве статусов файлов будут отображаться жёлтые штампики. Вы можете нажимать <span style="background: #ECF0F3; color: black; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОБНОВИТЬ СОСТОЯНИЕ</span> для отслеживания статусов, пока они не станут зелёными:
   
 ![обновить_состояние.png](/обновить_состояние.png)
 
@@ -465,7 +465,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![подписание_документов.png](/подписание_документов.png =600x)
 
-Затем нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>:
+Затем нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>:
   
 ![подписание.png](/подписание.png)
   
@@ -505,21 +505,33 @@ dateCreated: 2026-02-26T13:47:01.467Z
 **Запуск изменений**   | <span style="color: #FF4758; font-weight: bold">Аннулируются</span>   | <span style="color: #4FCDA6; font-weight: bold">Продолжают действовать</span>   | <span style="color: #4FCDA6; font-weight: bold">Продолжает действовать</span>
 **Дополнительное согласование**   | <span style="color: #4FCDA6; font-weight: bold">Продолжают действовать</span>   | <span style="color: #4FCDA6; font-weight: bold">Продолжают действовать</span>   | <span style="color: #4FCDA6; font-weight: bold">Продолжает действовать</span>
 
+Для перезапуска согласованного комплекта нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАПУСТИТЬ ПОВТОРНО</span>, выберите один из трёх сценариев и тип согласования. По умолчанию выбирается тип предыдущей итерации, но его можно изменить, например выбрав более короткий маршрут. Нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДАЛЕЕ</span>:
+  
 ![перезапуск_1.png](/перезапуск_1.png)
+  
+При необходимости измените шифр, название, договорную и плановую дату. Нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДАЛЕЕ</span>:
 
 ![перезапуск_2.png](/перезапуск_2.png)
   
+Выберите файлы, которые хотите пересогласовать. Можно добавить в новую итерацию новые файлы, убрать отдельные файлы или все файлы из предыдущей итерации. Можно нажать **С новой версией,** тогда в списке останутся только те файлы, у которых после согласования предыдущей итерации появилась новая версия. Нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДАЛЕЕ</span>:
+  
 ![перезапуск_3.1.png](/перезапуск_3.1.png)
- 
-![перезапуск_3.2.png](/перезапуск_3.2.png)
+
+На последнем шаге проверьте все поля. При необходимости вернитесь на предыдущие шаги и измените. Нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">СОЗДАТЬ</span>:
   
 ![перезапуск_4.png](/перезапуск_4.png)
   
+Так как в примере был выбран сценарий **Запуск изменений,** предыдущая итерация осталась согласованной, а в новую итерацию вошли только файлы с новыми версиями:
+  
 ![новая_итерация_после_перезапуска.png](/новая_итерация_после_перезапуска.png)
   
-**Отмена согласования**  
+**Отмена согласования**
+  
+Согласованную итерацию можно отменить, для этого нажмите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ОТМЕНИТЬ СОГЛАСОВАНИЕ</span>, при необходимости оставьте комментарий и выберите, кого хотите оповестить, и нажмите <span style="background: #FF4758; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ДА, ОТМЕНИТЬ</span>:
   
 ![отменить_согласование.png](/отменить_согласование.png)
+  
+Все файлы отменённой итерации будут аннулированы:
   
 ![отмененное_согласование.png](/отмененное_согласование.png)
   
