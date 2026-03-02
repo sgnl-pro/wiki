@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-03-02T09:43:54.663Z
+date: 2026-03-02T09:44:23.164Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -552,7 +552,8 @@ dateCreated: 2026-02-26T13:47:01.467Z
 
 ## 5. Настройки типов согласований
 
-...
+> См. [Настройки проекта → Согласования](/docs/settings)
+{.is-info}
   
 #
 <sub>**[<   DOCS. Замечания](/ru/docs/issues)     **|**     [DOCS. Передача   >](/ru/docs/documentsTransfers)**</sub>
