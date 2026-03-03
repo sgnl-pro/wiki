@@ -2,7 +2,7 @@
 title: DOCS. Согласования 2 (черновик)
 description: 
 published: true
-date: 2026-03-02T16:26:14.691Z
+date: 2026-03-03T06:39:46.779Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
@@ -548,7 +548,7 @@ dateCreated: 2026-02-26T13:47:01.467Z
   
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe_9CGNmKPWK7copUHwR-cjkqHCG-Gp5gcuRexdojG6WvMaJk8F0eidjEJRMMu79V-e4aHdZgWZq88ge791SZ_ovP7L6-30YHJBFZIyuB0JD4EgrJ2Sp8iQcoqVj_GQGyRXVsIqQGXpr1KPwd0t?key=G9iO9SIlYFRrOTHZMZ_KDQ =300x)
   
-##### Перезапуск согласования
+##### Перезапуск согласования {#restart}
   
 Начиная с версии 2026.3 доступны три сценария перезапуска согласования:
 1. **Полный перезапуск** — когда нужно аннулировать все файлы из предыдущей итерации согласования, независимо от наличия в них новых версий
