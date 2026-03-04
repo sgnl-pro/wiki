@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-03-04T10:41:07.087Z
+date: 2026-03-04T10:44:51.983Z
 tags: docs
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -104,8 +104,8 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 # Вкладки{.tabset}
   
-## 1. Просмотр PDF {#pdf}
-  
+## 1. Просмотр PDF
+###### 1. Просмотр PDF {#pdf}
 > См. также видеоинструкцию по работе с PDF: [Telegram](https://t.me/signal_docs/284) [YouTube](https://youtu.be/APrrvpOYETM)	[Rutube](https://rutube.ru/video/6c121c69bdea591e00e8cee06e5cbdc1/) [VK](https://vkvideo.ru/video-223002264_456239070)
 {.is-info}
 
