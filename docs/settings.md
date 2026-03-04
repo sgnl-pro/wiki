@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-03-04T06:17:22.716Z
+date: 2026-03-04T10:46:36.569Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -183,8 +183,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![add_subscribe1.gif](/sgnl_docs/docs_settings/add_subscribe1.gif =50%x)
 
-## 2. Замечания {#issues}
-
+## 2. Замечания
+###### 2. Замечания {#issues}
 > См. также видеоинструкцию по настройке замечаний и атрибутов: [Telegram](https://t.me/signal_docs/198) [YouTube](https://youtu.be/0ki2I6Tl2KE)	[Rutube](https://rutube.ru/video/ff98be6edbe568e45ddec40a0ebce695/) [VK](https://vk.com/wall-223002264_14)
 {.is-info}
 
@@ -206,6 +206,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 ### Вкладки{.tabset}
 
 #### 2.1. Доступы
+  ###### 2.1. Доступы {#access}
 
 > См. также видеоинструкцию по ролевым доступам замечаний: [Telegram](https://t.me/signal_docs/208) [YouTube](https://youtu.be/X0aCckILkgc)	[Rutube](https://rutube.ru/video/df489d86a1ea6129a017b0d04bba640a/) [VK](https://vk.com/wall-223002264_19)
 {.is-info}
