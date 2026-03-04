@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-02-26T07:41:59.583Z
+date: 2026-03-04T10:59:50.155Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -213,7 +213,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
   
 ### Вкладки{.tabset}
 #### 2.1. Forge Viewer
-
+###### 2.1. Forge Viewer {#forge_viewer}
 Для создания замечаний откройте файл модели через **Forge Viewer** и в правой части экрана нажмите
 
 ![image-1703763431065.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbbmj5wK332QSQFScqdVVZcKKDgiZoEnZkOVtj30Owl625o8xdi90rbdyYOH-g2DKD3KQAqQIuxWXv-5nfHmJvnLsttqTiF3iyYnUyOHXhF1bDi3y8RS2LLeMOANb7DWLWshTfGwNTXI8t6DZ42Q?key=cnL3kvpEZPujFMNQA9w79A )
@@ -233,7 +233,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
  на преднастроенном виде и сделайте пометки. Пометка с изображением вида появится во вложенных файлах к замечанию.
 
 #### 2.2. Tangl Viewer
-
+###### 2.2. Tangl Viewer {#tangl_viewer}
 Для создания замечаний откройте файл модели через **Tangl Viewer**  и в правой части экрана нажмите
 
 ![image-1703763431065.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnfw1os8wo_h0Ufd9esJajUVpP3V5w-VneOS4ZgxqCCQlFx5e9kvyu4stppiCrEKk8TcYS9YDtaE0xN6KscFycZv0TTV3UxhexT6FRR0XdGnAlnzYHplI8oAzReyayDbjHsh6qx4tT7cBIa1FGoA?key=cnL3kvpEZPujFMNQA9w79A)
