@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-02-26T07:39:52.643Z
+date: 2026-03-04T10:57:30.197Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -161,11 +161,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
 ----
 
 # Вкладки{.tabset}
-## 1. Добавление файлов {#addingFiles}
-  
+## 1. Добавление файлов
+###### 1. Добавление файлов {#addingFiles}  
 ### Вкладки{.tabset}
-#### 1.1. Загрузка файлов {#uploadings}
-
+#### 1.1. Загрузка файлов
+###### 1.1. Загрузка файлов {#uploadings}
   
 **Способ 1.** Для загрузки файлов можно воспользоваться “Перетаскиванием” файлов из проводника в SIGNAL DOCS.
 
@@ -181,8 +181,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXezyz6BgmOBWw5JINshCPQaBOQ6ihoHPf9gge44Ur9JEA3n2s26X8Lw1zPktlSS0nobpym6OzCrdLE1gNXFIPGX7lvTW8NhoL6KHWZ5M4jQbvqGw4XrnuvdK2-rJwqd93S5l1eEqCk30_ak3qQ7FA?key=6Xw886XRITsgkPdRw22mAg)
 
-#### 1.2. Статусы файлов {#statuses}
-
+#### 1.2. Статусы файлов
+###### 1.2. Статусы файлов {#statuses}
   
 В зоне работы с документами напротив файлов проставляется статус в зависимости от согласований комплектов, в которых участвовал файл.
 
@@ -198,8 +198,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdz75f8gppb0d6zBPUsFUQjv6QLha_goCtuKBBjZckrsSDtjUaK4mirkbHPURi6IpF3eYbOiPodoD4by1LXlOnVrDLp6azYf3SI9zGlB-HwHBjFrRqQlA4QOB77RdJOdCkECwufiZKM9u1UDnDyKQ?key=Jk1iD7eu81nhSX4JQcW_nQ =70%x)
   
-#### 1.3. Версионность файлов {#versions}
-  
+#### 1.3. Версионность файлов
+###### 1.3. Версионность файлов {#versions}  
 В сервисе SIGNAL DOCS доступна работа с версиями файлов. Предыдущая версия файла сохраняется в истории, при загрузке нового файла с таким же именем. Таким образом, версионность позволяет отслеживать различные версии файла и возвращаться к предыдущим версиям при необходимости.
 
 1\. Чтобы открыть историю файла, нажмите на номер версии файла в колонке “Версия”
@@ -217,8 +217,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![image-1691669859628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjEhR1qqIsFdPu_osfcvkJZ5DO8uE1g0s1320xhdHdc2fxyO5WCQFmz_8SMYU1jYZJIs8qAMRscy9KlHP8zth22qXj9aK2flW8K4BXD8GJ8xHwhwtyP04P5bqQ06x0r2wqtiGDP7ZlrLGNDVOW?key=TFBRQnMDqnFewlQGqykJ7w )
 
-#### 1.4. Добавление ссылок {#weblinks}
-  
+#### 1.4. Добавление ссылок
+###### 1.4. Добавление ссылок {#weblinks}  
 В сервисе SIGNAL DOCS возможно добавлять ссылки на Google Документы и Google Таблицы, а также любые другие ссылки на сторонние сервисы.
 
 1\. Нажмите + и выберите “Ссылка”
@@ -236,8 +236,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 ## 3. Публикация файлов
 См. [DOCS. Публикация файлов](/docs/sharedSettings)
 
-## 4. Подписание документов {#signing}
-
+## 4. Подписание документов
+###### 4. Подписание документов {#signing}
 > Для подписания документов из раздела **Документы** применяются [Настройки → Сервисы → ЭЦП](/docs/settings#services)
 {.is-warning}
   
@@ -251,8 +251,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![files_signing.gif](/sgnl_docs/docs_documents/files_signing.gif =50%x)
   
-## 5. Фильтрация {#Filters}
-
+## 5. Фильтрация
+###### 5. Фильтрация {#filters}
   
 > См. также видеоинструкцию по работе с фильтрами, полям и атрибутам: [Telegram](https://t.me/signal_docs/259) [YouTube](https://youtu.be/FnXnPphpW18)	[Rutube](https://rutube.ru/video/711c787788f1e03131a05563ba28599c/) [VK](https://vkvideo.ru/video-223002264_456239058)
 {.is-info}
@@ -271,8 +271,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSvKFz2UUSpqY4Fse4Owgit-POdvXcBT_KL78IUV2BK44prCTCv0wcohxuj0UUbcdAYPX5jmVeBQ1yiWU8_9n88RLC8702pnf3h6PVpqp5aqiJcOpLqpwoqIdgN0dTLpJxhUBN-BDxezv_IU83TA?key=Vis5mNfFGhcjlsBry-oKGw =70%x)
 
-## 6. Экспорт данных о файлах {#export}
-
+## 6. Экспорт данных о файлах
+###### 6. Экспорт данных о файлах {#export}
   
 В SIGNAL DOCS можно экспортировать данные о всех файлах в проекте. Полученные данные можно использовать в аналитических целях.
 
@@ -288,8 +288,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhSwUMPiVcWkJcWpEdkky2Yx6j5pDWNlK1-gIiWQtjiLjE5N5bHlrTwweNxR0zzyQWdk0U2Bl8IGd_HFwDrsF1mJiqwx-725yCwWDFlC71NUj87UYQvLpNitdvr59TFJM?key=3A7uOwmP0D1pvIhJPefBkZc9 =70%x)
 
-## 7. Корзина {#trashbin}  
-  
+## 7. Корзина
+###### 7. Корзина {#trashbin}
 Все удаленные файлы хранятся в корзине. Восстановить файлы может только администратор проекта.
 
 1\. Перейдите в папку, где был удален файл, и в нижнем левом углу нажмите “КОРЗИНА”
