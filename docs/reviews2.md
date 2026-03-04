@@ -1,8 +1,8 @@
 ---
 title: DOCS. Согласования 2 (черновик)
 description: 
-published: true
-date: 2026-03-03T14:28:00.325Z
+published: false
+date: 2026-03-04T16:30:19.698Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-26T13:47:01.467Z
