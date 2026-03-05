@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-03-04T10:57:30.197Z
+date: 2026-03-05T13:11:00.203Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -231,9 +231,11 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 
 ## 2. Просмотр и редактирование файлов
+  ###### 2. Просмотр и редактирование файлов {#view_file}
 См. [DOCS. Работа в файлах](/docs/viewers)
 
 ## 3. Публикация файлов
+  ###### 3. Публикация файлов {#publish_file}
 См. [DOCS. Публикация файлов](/docs/sharedSettings)
 
 ## 4. Подписание документов
