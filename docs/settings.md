@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-03-04T10:53:59.599Z
+date: 2026-03-05T13:07:25.960Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -256,14 +256,14 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4bGFglUBagjMQDugWoNB93gjVQbGdIFwL1kvYZHaK20h7MEfc3yGHrYru75eFuXjTfG6Mecd_EV8tKiKV_G1xfZeHr5SXjpzi0ede4tIz10jFirl9BN7iQn_My6INJ9pgAk49rSFyAAqI3-FcgQ?key=DikC-fotJxKF9jvBMPQYCw)
 
-## 3. Согласования {#reviews}
-  
+## 3. Согласования
+###### 3. Согласования {#reviews}
 > См. [Согласования → Настройки типов согласований](/docs/reviews)
 {.is-info}
 
 
-## 4. Передача {#documentsTransfer}
-
+## 4. Передача
+###### 4. Передача {#documentsTransfer}
 > См. [инструкцию по работе с передачей для пользователя](/ru/docs/documentsTransfers)
 {.is-info}
 
@@ -478,7 +478,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
   Также есть возможность выводить специальное сообщение при переходе в режим простого просмотра. Текст сообщения настраивается если включена функция **Выводить текст информационного сообщения**
   ![services_publicnote.png](/sgnl_docs/docs_services/services_publicnote.png)
 
-## 8. Функциональность {#functions}      
+## 8. Функциональность
+###### 8. Функциональность {#functions}      
       
 Управление доступом пользователей к некоторым функциям среды общих данных. 
       
@@ -486,16 +487,16 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![settings_functionality.png](/sgnl_docs/settings_functionality.png)      
       
-## 9. Уведомления {#notifications}
-  
+## 9. Уведомления
+ ###### 9. Уведомления {#notifications} 
 > См. [DOCS. Уведомления](/ru/docs/notifications)
 {.is-info}
  
 > См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
 
-## 10. Доверенности {#powerOfAttorney}
-  
+## 10. Доверенности
+###### 10. Доверенности {#powerOfAttorney}  
 > См. видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
   
@@ -505,8 +506,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
 1 — Добавить МЧД
 2 — Скачать МЧД
       
-## 11. Права доступа {#foldersPermissions}
-
+## 11. Права доступа
+###### 11. Права доступа {#foldersPermissions}
 > См. также видеоинструкцию по настройке прав доступа: [Telegram](https://t.me/sgnlpro/194) [YouTube](https://youtu.be/QwunTC_lYDo?si=KzwE04tc3VoZgmfk)	[Rutube](https://rutube.ru/video/328b9099b6b7bea60e0235993cab47ab/?r=wd) [VK](https://vk.com/wall-223002264_13)
 {.is-info}
 
@@ -531,8 +532,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > См. [DOCS. Документы → Дерево проекта → Настройка прав доступа к папкам](/ru/docs/folders)
 {.is-info}
   
-## 12. XML документы {#xml}
-
+## 12. XML документы
+###### 12. XML документы {#xml}
       
 > См. также видео **[XML-документы по XSD-схемам в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239025)**
 {.is-info}
