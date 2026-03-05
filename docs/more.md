@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2026-02-04T13:36:41.213Z
+date: 2026-03-05T13:46:19.962Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -86,7 +86,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 ### Вкладки{.tabset}
 #### 3.1. Настройка Tangl вьювера в DOCS
-
+###### 3.1. Настройка Tangl вьювера в DOCS {#settings_tangl_viewer}
 На каждом проекте отдельно администратор может включать или выключать вьюверы для просмотра BIM-моделей. Это делается в Настройках на вкладке Сервисы > BIM-вьювер
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctVAQIVYbXdeC_C7ucKZ2EZC2hMFkF2oDV9OK5zRU6IKBbrsDZUA4xkudvucgkHnLKEfIL0fBNUdGfAl1Nce19kVc1G0GPoC9zL4Tq0p-c3rdXqiunii5PyRN0LgamHZg?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
@@ -94,7 +94,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 Там же раскрыв Клиенты Tangl API можно добавить свой клиент Tangl, чтобы сконвертированные модели в Tangl хранились не на аккаунте SIGNAL, а на своем. Это также позволит пользоваться интеграцией SIGNAL DOCS с Tangl Value и Tangl Control.
 
 #### 3.2. Работа с IFC
-
+###### 3.2. Работа с IFC {#IFC_about}
 Если вы загрузили файл с расширением ifc в DOCS, то по умолчанию перед файлом иконка серого кубика. Вы можете нажать ПКМ по имени файла и нажать Обработать в Tangl
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrTwd-SteW80KUxtn3j47AuT__dwtWSqD4P1kGBpsW_jakFieVe69fC2f04Vd35BwoNM70U5P6qHVn3nq1IHvc2Rpp-ciNQRaaa9Xp_T6kk0rkSo4UATLGia8XFTtLmQ0?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
@@ -126,7 +126,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 Если выбрать один из модулей, то откроется встроенный в DOCS интерфейс Tangl где потребуется ввести учетные данные от данного сервиса для проверки наличия лицензии и если она есть, то будет доступен интерфейс Tangl для работы с моделями напрямую из SIGNAL DOCS.
 
 #### 3.3. Работа с RVT
-
+###### 3.3. Работа с RVT {#Revit_about}
 Для открытия модели в RVT формате из SIGNAL DOCS, надо её загружать из Revit с автоматической конвертацией с помощью серверной обработки в SIGNAL TOOLS.
 
 Для этого запустите на сервере компании Revit с установленным плагином Signal For Revit из модуля TOOLS. На вкладке SIGNAL PRO выберите команду Настройки и Войдите в учетную запись с лицензией TOOLS.
@@ -156,7 +156,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 Затем после публикации
 
 #### 3.4. Публикация только в Tangl через серверную обработку
-
+###### 3.4. Публикация только в Tangl через серверную обработку {#publish_only_tangl}
 При публикации только в Tangl требуется заполнить поля доступов для Tangl клиента. Их можно взять со страницы [_https://auth.tangl.cloud/client\_api_](https://auth.tangl.cloud/client_api) или перейдя в шестеренке вверху в API.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfb4Lgf7EicLemR-tyXyjPWDc9wPCG2G6FMxSmc9bspVrsp4HQdTCK39eA172Y75t_L6o22-tUofyDowevnUKNWvsTJdhnK0PYZWSNU3XP5hZ2saVMk5qjHQLml_Qd0ng?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
@@ -188,7 +188,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
   
 ### Вкладки{.tabset}
 #### 4.1. Загрузка и установка Minio
-
+###### 4.1. Загрузка и установка Minio {#MinIO_download}
 Первым шагом является загрузка Minio. Мы будем использовать Ubuntu Server 22.04.
 
 1.1. Скачайте и установите пакет MinIO с сайта **https://min.io/docs/minio/linux/index.html**
@@ -196,7 +196,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUeVOm7e1YJItqH3Q3KiAYMYU0DflJ7fclJMyHwqwqT9GIbuDKPflfO2xJq_WN0PHr-ODS-0qr65zMeVcZ_Oc6DnPeRD4tNpqtfaKBB9iUF_lwfpLBtzxqQgbZJ0Z6HlgRGUdrJm6JLRp3f2Dkmg?key=tGiWAnAfYwulDbckjXpJUQ =70%x)
 
 #### 4.2. Создание службы и запуск MinIO
-
+###### 4.2. Создание службы и запуск MinIO {#start_create_minIO}
 2.1. Создадим пользователя, от имени которого будет запускать службу приложения:
 
 **sudo groupadd -r minio-user**
@@ -278,7 +278,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 2.12. Приложение запущено, можно переходить к настройке MinIO
 
 #### 4.3. Подключение SSL сертификата
-
+###### 4.3. Подключение SSL сертификата {#SSL}
 Вам необходимо заранее приобрести в специализированных центрах (например, [_https://www.reg.ru/_](https://www.reg.ru/))  коммерческий сертификат для доменного имени Вашего хранилища. Например, если адрес хранилища будет s3.YOURDOMAIN.RU, тогда сертификат необходим или непосредственно для адреса s3.YOURDOMAIN.RU, или сертификат домена типа WIldcard (\*.YOURDOMAIN.RU).
 
 Полученные данные необходимо сохранить в двух файлах:
@@ -289,7 +289,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 Оба файла необходимо поместить в папку certs в профиле пользователя на сервере, где будет работать приложение MinIO. Например, /home/administrator/.minio/certs/
 
 #### 4.4. Настройка MinIO
-
+###### 4.4. Настройка MinIO {#settings_MinIO}
 После запуска Minio вы можете перейти в веб-интерфейс хранилища. Для этого откройте браузер и перейдите по адресу: [_https://localhost:9090_](https://localhost:9090/)
 
 Введите логин и пароль суперпользователя. В предыдущих шагах (шаг 2.3.) инструкции мы указали их как minioadmin и miniopassword.  
@@ -329,7 +329,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNx_Fgjcjwu6OvMvbrDq1dOLFcS1Cb1q3p3EVtQVPsNmHkSojBKlqhBStTbGhPUmfHqBnpBv4Qe63CXlAscsF5GUIcQPMgDTGQKQei5vLBw2v8UWOettDFe1_zqHBkfshAtzwdt5JkD5NTDJfdqA?key=tGiWAnAfYwulDbckjXpJUQ =70%x)
 
 #### 4.5. Подключение хранилища к сервису DOCS
-
+###### 4.5. Подключение хранилища к сервису DOCS {#connection_storage}
 > Для подключения к сервису DOCS данный сервер должен быть опубликован в сеть Интернет по портам 9000 и 9090. И во внешней DNS-зоне Вашего домена необходимо создать A-запись с указанием IP-адреса, на котором опубликован сервер с приложением MinIO.
 {.is-warning}
 
@@ -375,7 +375,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 ### Вкладки{.tabset}
 #### 5.1. Скачивание Minio
-
+###### 5.1. Скачивание Minio {#minIO_download}
 Создайте пользователя Windows (или Active Directory) от имени которого будете запускать приложение MinIO. Например, CONTOSO\\minio.
 
 Добавьте созданную учетную запись (пользователя) в локальную группу “Администраторы” на сервере, где будет работать приложение MinIO.
@@ -389,7 +389,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 Рекомендуется поместить файл minio.exe на диск C:. Поэтому создайте на диске C:\\ папку MinIO.
 
 #### 5.2. Запуск MinIO
-
+###### 5.2. Запуск MinIO {#start_minIO}
 2.1. Запустите командную строку Windows (cmd).
 
 Чтобы перейти в директорию, где находится файл minio.exe, введите команду cd ПРОБЕЛ ПУТЬ К ПАПКЕ. Например, cd C:\\MinIO  
@@ -423,7 +423,7 @@ minio.exe server C:\\MinIO\\data --console-address :9090
 2.6. Приложение запущено, можно приступить к его настройке.
 
 #### 5.3. Подключение SSL сертификата
-
+###### 5.3. Подключение SSL сертификата {#connect_SSL}
 Вам необходимо заранее приобрести в специализированных центрах (например, [_https://www.reg.ru/_](https://www.reg.ru/))  коммерческий сертификат для доменного имени Вашего хранилища. Например, если адрес хранилища будет s3.YOURDOMAIN.RU, тогда сертификат необходим или непосредственно для адреса s3.YOURDOMAIN.RU, или сертификат домена типа WIldcard (\*.YOURDOMAIN.RU).
 
 Полученные данные необходимо сохранить в двух файлах:
@@ -445,7 +445,7 @@ mkdir C:\\Users\\minio\\.minio\\certs
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd3zelKnRp6F8pS7GviosM20bwsNw-SdIVgZaSGXEBQYhTztqdFFBZtzXaZa70o_Yp9naXMYQTak1K1215ToHST7cpvb7EP9Zmcjh7SBtiPu4W1b43FNsA9PyXCc4bkTLPcgZO9TKoh3RZQ3eofMw?key=EY_Ajf-Vc1Arr0LG5cmV9g =40%x)
 
 #### 5.4. Настройка MinIO
-
+###### 5.4. Настройка MinIO {#tuning_minIO}
 После запуска Minio вы можете перейти в веб-интерфейс хранилища. Для этого откройте браузер и перейдите по адресу: [_https://localhost:9090_](https://localhost:9090/)
 
 Введите логин и пароль суперпользователя. В предыдущих шагах (шаг 2.3.) инструкции мы указали их как minioadmin и miniopassword.  
@@ -485,7 +485,7 @@ mkdir C:\\Users\\minio\\.minio\\certs
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfmmOikuCdVx_3xMafj2SYwoyNxpNAVznDzwDcNobGDmb0vlNKuDrsKdkpSDmTho-6Ih_-CK5XF1vWZf6brqHXYh_aTAVgvttGdqpXOXoMzu_FMJyVi0Iy6EuCWgJbkV-kWcICTSkQzirC4yoJZQw?key=EY_Ajf-Vc1Arr0LG5cmV9g =70%x)
 
 #### 5.5. Подключение хранилища к сервису DOCS
-
+###### 5.5. Подключение хранилища к сервису DOCS {#storage_connection}
 > Для подключения к сервису DOCS данный сервер должен быть опубликован в сеть Интернет по портам 9000 и 9090. И во внешней DNS-зоне Вашего домена необходимо создать A-запись с указанием IP-адреса, на котором опубликован сервер с приложением MinIO.
 {.is-warning}
 
@@ -522,6 +522,7 @@ mkdir C:\\Users\\minio\\.minio\\certs
 1.  Готово. Теперь можно пользоваться сервисом
   
   ## 6. Настройки AD(Active Directory) FS 
+  ###### 6. Настройки AD(Active Directory) FS {#Settings_AD_FS}
 > *Подключение Active Directory к SIGNAL HUB позволяет связать корпоративную структуру учетных записей с сервисом и обеспечить управляемый доступ пользователей к функциональности HUB. Это дает несколько практических преимуществ. Например пользователи могут входить в SIGNAL HUB под корпоративными учетными данными, без создания отдельных логинов и паролей.*
   
   1. Создайте группу (Application Group → Add Application Group).
