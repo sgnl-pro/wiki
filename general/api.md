@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-02-26T07:47:04.128Z
+date: 2026-03-06T15:05:06.805Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -16,6 +16,10 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+----
+**[2026.3](/general/updates/2026-3)** ^02.03.2026^
+- Добавили контроллер `Share` и метод `/public/v1/permissions/tree` для публикации папок и файлов.
+  
 ----
 **[2026.2](/general/updates/2026-2)** ^12.02.2026^
 
