@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-03-06T15:05:06.805Z
+date: 2026-03-06T15:07:24.618Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -20,7 +20,6 @@ dateCreated: 2025-11-06T14:53:09.140Z
 **[2026.3](/general/updates/2026-3)** ^02.03.2026^
 - Добавили контроллер `Share` и метод `/public/v1/permissions/tree` для публикации папок и файлов.
   
-----
 **[2026.2](/general/updates/2026-2)** ^12.02.2026^
 
 Добавили:
@@ -31,7 +30,6 @@ dateCreated: 2025-11-06T14:53:09.140Z
 - поля `contractDate` и `contractDaysDiff` в `/public/v1/reviews` для получения договорной даты комплекта согласования
 - поле `startedAt` в `POST /public/v1/reviews (topVersion)` и `POST /public/v1/reviews/versions` для получения даты начала итерации согласования
 
-  
 **[2026.1](/general/updates/2026-1)** ^22.01.2026^
 
 Добавили:
