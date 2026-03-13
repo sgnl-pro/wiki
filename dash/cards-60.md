@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2026-02-26T07:58:59.568Z
+date: 2026-03-13T15:44:43.879Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:41:20.629Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-18T13:41:20.629Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.3](/general/updates/2026-3)** ^03.03.2026^
+
+:sparkles: Добавили всплывающую подсказку при наведении на точку на графике в карточках 61 и 62.
+  
 ----
 **[2026.2](/general/updates/2026-2)** ^12.02.2026^
   
