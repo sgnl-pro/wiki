@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 50. 3D карточки
 description: 
 published: true
-date: 2026-02-04T14:11:17.974Z
+date: 2026-03-13T15:44:08.899Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:39:52.568Z
@@ -24,6 +24,13 @@ dateCreated: 2025-09-18T13:39:52.568Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.3](/general/updates/2026-3)** ^03.03.2026^
+
+:sparkles: Добавили возможность выбрать дополнительные статусы для отображения в карточках 50 и 51.
+  
+:hammer_and_wrench: Поправили расчет в карточках 50 и 51.
+  
 ----
 **[2025.40](/general/updates/2025-40)** ^17.12.2025^
   
