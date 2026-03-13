@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-03-06T15:07:24.618Z
+date: 2026-03-13T15:40:37.331Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -16,6 +16,12 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+----
+**[2026.3](/general/updates/2026-3)** ^02.03.2026^
+Добавили:
+- методы `/public/v1/attributes` и `/public/v1/attributes/values/set` для получения атрибутов проекта и назначения их на папки и файлы
+- метод `/public/v1/reviews/items` для получения информации о файлах, входящих в комплект согласования
+  
 ----
 **[2026.3](/general/updates/2026-3)** ^02.03.2026^
 - Добавили контроллер `Share` и метод `/public/v1/permissions/tree` для публикации папок и файлов.
