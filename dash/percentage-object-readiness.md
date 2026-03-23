@@ -1,8 +1,8 @@
 ---
 title: 16_Процент готовности объекта
 description: 
-published: true
-date: 2025-09-16T15:23:16.721Z
+published: false
+date: 2026-03-23T10:27:14.776Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-26T17:42:38.289Z
