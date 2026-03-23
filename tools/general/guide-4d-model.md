@@ -1,8 +1,8 @@
 ---
 title: Инструкция по работе с 4D моделью
 description: 
-published: true
-date: 2025-09-18T14:04:53.655Z
+published: false
+date: 2026-03-23T13:02:18.473Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-26T21:33:49.223Z
