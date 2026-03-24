@@ -2,13 +2,13 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-02-25T06:42:57.475Z
+date: 2026-03-24T08:39:35.682Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Виды работ   >](/ru/tools/navis/works)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Согласование   >](/ru/tools/navis/approval)**</sub>
 
 ---
 
@@ -222,4 +222,4 @@ W2.1.1 - означает, что вид работ должен быть соз
 
 ![image-1684403750663.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEDPFnNW9r2rHpjSgCWDbhMLP40Iy6q3FshySZhqAo9uM7VYX7-ZLMthDJvccBvmi8YyuElrtVWV207yCa6WQnr3mFbVQqSbwuoFY2Fa9R-qWbjy-s2oA09F-A1ATeRcYfcvp8ZKl50AX_qIffuQ?key=dtY1kvnFechnFCTGfw8Gnw)
  #
-  <sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Виды работ   >](/ru/tools/navis/works)**</sub>
+  <sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Согласование   >](/ru/tools/navis/approval)**</sub>
