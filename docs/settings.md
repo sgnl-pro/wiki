@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-03-05T13:07:25.960Z
+date: 2026-03-24T13:44:04.635Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -258,7 +258,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ## 3. Согласования
 ###### 3. Согласования {#reviews}
-> См. [Согласования → Настройки типов согласований](/docs/reviews)
+> См. [Согласования → Настройки типов согласований](/docs/reviews#types_setting)
 {.is-info}
 
 
