@@ -2,13 +2,13 @@
 title: TOOLS. Согласование
 description: 
 published: true
-date: 2026-02-04T14:15:04.059Z
+date: 2026-03-24T08:39:58.488Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:29:02.534Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Виды работ](/ru/tools/navis/works)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
 
 ---
 
@@ -88,4 +88,4 @@ dateCreated: 2025-09-21T11:29:02.534Z
 
 ![image-1683289905105.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZpnoNRIzJc1aMt6ACEobZoRGg5bdR3RGMRKI6-TSG3WkCIzK7iMOAHTiaXxDgnj64jfrYcljtZexOWFnRxEKmrCO_c2V6TSH13UZYPEixsiItfqqVWxYOWgH4Oop3Y3-vR0BjUElmvbLm-sCE?key=Hmk684qvnczX_w97ZRPBTg)
   #
-  <sub>**[<   TOOLS FOR NAVIS. Виды работ](/ru/tools/navis/works)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
