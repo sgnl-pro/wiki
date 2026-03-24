@@ -2,7 +2,7 @@
 title: TOOLS FOR NAVIS
 description: 
 published: true
-date: 2025-09-22T11:06:03.244Z
+date: 2026-03-24T08:40:31.916Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-22T11:06:01.446Z
@@ -10,7 +10,6 @@ dateCreated: 2025-09-22T11:06:01.446Z
 
 - [Настройки](/tools/navis/settings)
 - [Панель](/tools/navis/panel)
-- [Виды работ](/tools/navis/works)
 - [Согласование](/tools/navis/approval)
 - [Расчет](/tools/navis/calculation)
 - [Раскраска](/tools/navis/coloring)
