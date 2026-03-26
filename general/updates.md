@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2026-03-26T13:45:54.403Z
+date: 2026-03-26T13:46:32.257Z
 tags: general
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -59,8 +59,9 @@ dateCreated: 2025-09-25T13:55:16.192Z
 - [Релиз 2025.25 *04.09.2025*](/general/updates/2025-25)<span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 {.links-list}
   
+#
+  
 > Для пользователей SIGNAL также доступен Telegam канал с основными обновлениями. В нём же вы найдёте информацию о более ранних обновлениях. Для добавления **[обращайтесь в поддержку](/general/support)**
 {.is-info}
   
-#
 <sub>**[<   SIGNAL. Поддержка](/ru/general/support)     **|**     [SIGNAL. Публичный API   >](/ru/general/api)**</sub>
