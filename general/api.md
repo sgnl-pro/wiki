@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-03-13T15:40:37.331Z
+date: 2026-03-27T06:59:01.278Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -16,8 +16,15 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+**[2026.5](/general/updates/2026-5)** ^26.03.2026^
+Добавили:  
+- метод `/public/v1/items/versions/update` для добавления комментария к версии файла
+- метод `/public/v1/items/item-version`, который по `itemVersionId` возвращает `itemId` и `versionId`
+- метод `/public/v1/issues/comments` для создания комментариев в журналах замечаний
+- возвращаемое поле `ItemVersion` в замечаниях с информацией о версии файла
+  
 ----
-**[2026.3](/general/updates/2026-3)** ^02.03.2026^
+**[2026.4](/general/updates/2026-4)** ^12.03.2026^
 Добавили:
 - методы `/public/v1/attributes` и `/public/v1/attributes/values/set` для получения атрибутов проекта и назначения их на папки и файлы
 - метод `/public/v1/reviews/items` для получения информации о файлах, входящих в комплект согласования
