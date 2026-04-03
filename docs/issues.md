@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-03-13T15:34:24.334Z
+date: 2026-04-03T06:32:35.108Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -27,6 +27,11 @@ dateCreated: 2025-09-09T12:10:08.827Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.5](/general/updates/2026-5)** ^26.03.2026^
+  
+:sparkles: В замечаниях в сборках теперь доступны функции прикрепления элементов и пометки.
+   
 ----
 **[2026.3](/general/updates/2026-3)** ^03.03.2026^
   
