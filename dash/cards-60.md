@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: 
 published: true
-date: 2026-03-13T15:44:43.879Z
+date: 2026-04-03T06:39:06.166Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:41:20.629Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-18T13:41:20.629Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.5](/general/updates/2026-5)** ^26.03.2026^
+
+:sparkles: Добавили открытие реестра замечаний DOCS при нажатии на дату в карточках 61 и 62.
+  
 ----
 **[2026.3](/general/updates/2026-3)** ^03.03.2026^
 
