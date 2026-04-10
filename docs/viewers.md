@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-04-03T06:30:44.567Z
+date: 2026-04-10T10:31:06.174Z
 tags: docs
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -258,7 +258,20 @@ dateCreated: 2025-10-16T13:16:45.534Z
 При открытии файла IFC система спросит каким способом его открыть.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJBCHkoqio1sXt7kT6jNmIrdny4HZXU114lKVbSIbchgPlcDaWNur2USrbfShaMEQnruyequ8-P8toaBXb4Mx5-ar0VVnHogWS7Wuv24yNA1AsZY13XwDMZkPo81rYGkiO3BV3CzY7OQQ1iNXD?key=i8J0tGtIeCmYFt7QxAzbTw =50%x)
-
+  
+  ## 3. Просмотр облаков точек
+###### 3. Просмотр облаков точек {#potree_viewer}
+SIGNAL DOCS имеет возможность работы с облаками точек. Файл облака точек загружается и запускает в формате .las через конвертер и вьювер Potree.  На данный момент максимальный объем файла - 5 гб.
+  ![облако_в_доксе.jpg](/облако_в_доксе.jpg)
+    В просмотрщике доступна панель инструментов:
+1. Точка координат
+2. Измерение расстояния в плоскости между точками
+3. Измерение высоты между точками
+4. Измерение площади
+5. Очистка
+  
+  ![облака_точек.jpg](/облака_точек.jpg)
+ 
 ## 3. Сборки BIM-моделей
 ###### 3. Сборки BIM-моделей {#assemblies}
   
