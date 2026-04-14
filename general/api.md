@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-03-27T06:59:01.278Z
+date: 2026-04-14T09:03:47.830Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -16,6 +16,13 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+----
+**[2026.6](/general/updates/2026-6)** ^09.04.2026^
+:sparkles: Добавили возвращаемые поля `stage.completedPlanDate` (плановая дата этапа) и `scenario` (сценарий запуска) в `ReviewVersion` (итерация согласования), а также `customRoleIds` в `/public/v1/projects/{projectId}/users`.
+
+:hammer_and_wrench: Исправили ошибку вызова `Review.List`, а также убрали кэширование добавленных в интеграцию проектов, когда интеграция не работала для вновь добавленных проектов 12 часов.
+
+  
 **[2026.5](/general/updates/2026-5)** ^26.03.2026^
 Добавили:  
 - метод `/public/v1/items/versions/update` для добавления комментария к версии файла
