@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-04-14T09:03:47.830Z
+date: 2026-04-27T13:22:28.155Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -16,6 +16,13 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
 
+**[2026.7](/general/updates/2026-7)** ^23.04.2026^
+Добавили: 
+- параметр `urlTtlSecOverride` в `GET /v1/items/download` для указания времени жизни URL в секундах (можно установить только для получения объектов из пользовательских хранилищ)
+- возвращаемое поле `urn` (URN-токен) в метод `POST /public/v1/forge/item-versions/viewer`
+- методы для редактирования замечаний
+- возвращаемые поля `added` и `addedBy` в `POST /public/v1/documents-transfers`
+  
 ----
 **[2026.6](/general/updates/2026-6)** ^09.04.2026^
 :sparkles: Добавили возвращаемые поля `stage.completedPlanDate` (плановая дата этапа) и `scenario` (сценарий запуска) в `ReviewVersion` (итерация согласования), а также `customRoleIds` в `/public/v1/projects/{projectId}/users`.
