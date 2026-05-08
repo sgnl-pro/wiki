@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-05-08T12:01:25.685Z
+date: 2026-05-08T12:29:22.542Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -31,6 +31,8 @@ dateCreated: 2025-09-09T09:17:01.781Z
   
 ----
 **[2026.7](/general/updates/2026-7)** ^23.04.2026^
+  
+:fire: Реализовали скачивание присоединенной ЭЦП.
   
 :hammer_and_wrench: Вернули работоспособность кнопки `Обработать в Autodesk` при повторной отправке в обработку.
 
