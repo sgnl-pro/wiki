@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2026-04-14T09:16:08.394Z
+date: 2026-05-08T12:45:55.959Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-09T12:28:36.555Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.7](/general/updates/2026-7)** ^23.04.2026^
+  
+:sparkles: В реестр передач добавили столбцы `Дата создания` и `Автор`.
+  
 ----
 **[2026.6](/general/updates/2026-6)** ^09.04.2026^
   
