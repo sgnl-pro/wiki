@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-05-14T12:15:08.048Z
+date: 2026-05-14T12:16:50.121Z
 tags: docs
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -180,7 +180,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
   
   
-## 1. Просмотр PDF
+## 1.PDF
 ###### 1.1. Просмотр PDF {#pdf}
 > См. также видеоинструкцию по работе с PDF: [Telegram](https://t.me/signal_docs/284) [YouTube](https://youtu.be/APrrvpOYETM)	[Rutube](https://rutube.ru/video/6c121c69bdea591e00e8cee06e5cbdc1/) [VK](https://vkvideo.ru/video-223002264_456239070)
 {.is-info}
@@ -334,7 +334,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 ![image-1719396933792.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3eBd9XxWlu7UuJZ94beyhYRf2DnvfvcemqCACflV0dBXY_5G9NqDHGMmYeVHcKu1GCEKXpOIrCeLXmrQf6qKRQln9aZ-o07oWUVN0J-VxUjVZfCXqIHTWSBeV-tpwv_GNm2Uv7NGWLH7_gAo?key=G5mC2kC-3FTUbBlnmOZq9Q =70%x)
 
   
-## 2. Просмотр BIM-моделей
+## 2. CAD
 ###### 2.1. Просмотр 3D-моделей {#bim}
 
 > См. также видеоинструкцию по работе с BIM моделями: [Telegram](https://t.me/signal_docs/316)
