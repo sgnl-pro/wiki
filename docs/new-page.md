@@ -2,7 +2,7 @@
 title: Работа в DOCX, XLSX
 description: 
 published: false
-date: 2026-05-14T08:01:23.649Z
+date: 2026-05-14T08:04:32.922Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-14T08:01:23.649Z
@@ -13,14 +13,14 @@ dateCreated: 2026-05-14T08:01:23.649Z
 
 В SIGNAL DOCS существует возможность совместного редактирования, а также просмотра файлов DOCX, XLSX. По умолчанию документы данных форматов открываются в режиме просмотра.
 
-![collabora_main.png](/sgnl_docs/docs_workwithfiles/collabora_main.png)
+![collabora_main.png](/sgnl_docs/docs_workwithfiles/collabora_main.png =60%x)
 
 Для перехода в режим редактирования выберите инструмент "Редактировать" в верхней панели просмотрщика.
-![collabora_edit_mode.png](/sgnl_docs/docs_workwithfiles/collabora_edit_mode.png)
+![collabora_edit_mode.png](/sgnl_docs/docs_workwithfiles/collabora_edit_mode.png =60%x)
 
 Вы подключитесь к сессии редактирования, а файл заблокируется для операций в файловой системе SIGNAL DOCS. К сессии редактирования одновременон может подключаться несколько участников, при этом в режиме реального времени можно отслеживать где работают ваши коллеги	
 
-![collabora_session.png](/sgnl_docs/docs_workwithfiles/collabora_session.png)
+![collabora_session.png](/sgnl_docs/docs_workwithfiles/collabora_session.png =60%x)
 
 После внесения изменений в файл сохраните изменения в верхней панели SIGNAL. У файла появится новая версия. Через 20 документ разблокируется в файловой системе. 
 
