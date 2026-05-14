@@ -2,7 +2,7 @@
 title: Работа в DOCX, XLSX
 description: 
 published: false
-date: 2026-05-14T08:08:57.800Z
+date: 2026-05-14T08:10:33.480Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-14T08:01:23.649Z
