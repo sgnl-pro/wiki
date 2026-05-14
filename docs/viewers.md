@@ -2,8 +2,8 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-05-14T12:16:50.121Z
-tags: docs
+date: 2026-05-14T18:20:15.441Z
+tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
 ---
@@ -180,8 +180,8 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
   
   
-## 1.PDF
-###### 1.1. Просмотр PDF {#pdf}
+## 1. Просмотр PDF
+###### 1. Просмотр PDF {#pdf}
 > См. также видеоинструкцию по работе с PDF: [Telegram](https://t.me/signal_docs/284) [YouTube](https://youtu.be/APrrvpOYETM)	[Rutube](https://rutube.ru/video/6c121c69bdea591e00e8cee06e5cbdc1/) [VK](https://vkvideo.ru/video-223002264_456239070)
 {.is-info}
 
@@ -272,7 +272,82 @@ dateCreated: 2025-10-16T13:16:45.534Z
 </div>
 
 
-###### 1.2. Сравнение чертежей {#drawingCompare}
+  
+## 2. Просмотр BIM-моделей
+###### 2. Просмотр BIM-моделей {#bim}
+
+> См. также видеоинструкцию по работе с BIM моделями: [Telegram](https://t.me/signal_docs/316)
+{.is-info}
+  
+Для открытия модели необходимо один раз обработать ее в **Forge Viewer** и/или **Tangl Viewer**. Для этого нажмите ПКМ на файле → “Обработать в Autodesk” и/или “Обработать в Tangl”. Для обработки несколько моделей воспользуйтесь соответствующими кнопками на панели инструментов.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaGpEX-ZoaHsyYBhqCGFC64bsCbFTUhYKlsH4WMucWC_XzOZLNefvJ1PVNGxC7-Pe9jCReMQwxRdNJ3daiW9IkrBYcK0hcw114NAPg1SON9ESyEaX54m0LGuXYgNYBVz9Zs8uYhWd80EW2mFRqjA?key=i8J0tGtIeCmYFt7QxAzbTw =70%x)
+
+Просмотр RVT,NWC,NWD осуществляется через **Forge Viewer** .
+
+В **Forge Viewer** доступен стандартный набор инструментов для просмотра моделей.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeiL0vxXYVsOLFp8EZdtfqp5ilqY6CRW6yWM_umrcBY1PJ20g7H4Gj_2ecV28U53bNnqvnuu7M8x5Zv3JQBfxNeDeYdxTMnB2El17U5ixHEVzs8oO6kPJUQQCKLEo-eDyOjzg03dCTJWQeprYzTg?key=i8J0tGtIeCmYFt7QxAzbTw =70%x)
+
+1.  Обход от первого лица
+2.  Линейка для измерений
+3.  Сечение
+4.  Обозреватель документов
+5.  Уровни
+6.  Состав модели
+7.  Свойства элементов
+8.  Настройки
+9.  Избранные свойства
+
+Просмотр IFC возможен через **Forge Viewer** и/или **Tangl Viewer** (предварительно настраивается администратором проекта).\\
+
+При открытии файла IFC система спросит каким способом его открыть.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJBCHkoqio1sXt7kT6jNmIrdny4HZXU114lKVbSIbchgPlcDaWNur2USrbfShaMEQnruyequ8-P8toaBXb4Mx5-ar0VVnHogWS7Wuv24yNA1AsZY13XwDMZkPo81rYGkiO3BV3CzY7OQQ1iNXD?key=i8J0tGtIeCmYFt7QxAzbTw =50%x)
+
+  
+  
+  ## 3. Просмотр облаков точек
+###### 3. Просмотр облаков точек {#potree_viewer}
+SIGNAL DOCS имеет возможность работы с облаками точек. Файл облака точек загружается и запускает в формате .las через конвертер и вьювер Potree.  На данный момент максимальный объем файла - 5 гб.
+  ![облако_в_доксе.jpg](/облако_в_доксе.jpg)
+    В просмотрщике доступна панель инструментов:
+1. Точка координат
+2. Измерение расстояния в плоскости между точками
+3. Измерение высоты между точками
+4. Измерение площади
+5. Очистка
+  
+  ![облака_точек.jpg](/облака_точек.jpg)
+
+  
+  
+## 4. Сборки BIM-моделей
+###### 4. Сборки BIM-моделей {#assemblies}
+  
+> См. также видеоинструкцию по работе с BIM моделями: [Telegram](https://t.me/signal_docs/316)
+{.is-info}
+  
+В SIGNAL DOCS есть возможность собрать сводную модель проекта. Со сводной моделью также доступны инструменты замечаний и все стандартные инструменты просмотра BIM моделей.
+
+Для создания сборки нажмите “+” и выберите “Сборка”
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcxWLQfbRDIlcxqqAtTF8C4yL9knpfDfP8u5hvBVP7k3O_iVOTeM1KXwe9GaETv4QgUqq6Ii8NacDCCXu-De2nOxIOEZd5O0b6kcudRTgqrPeQwAw9k4MG9GfTNCksXwuE?key=Sq65MbBALlfgU7uhYqZ_IW0t =70%x)
+
+В окне создания сборки введите “Название”, выберите исходную папку, в которой хранятся модели и выберите модели, которые необходимо включить в сборку.
+
+По умолчанию модели совмещаются по внутреннему началу, однако есть возможность дополнительно настроить координаты для каждой модели. Нажмите “Создать”
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemr0Ypqu73EotRJrlMzvGD8ah5XfP1HfBfGAH3t4TIWPJENUCgEZvOsYjmFIOauk7cNBguY8IvbN_NQNIZgkAfNvfHF-pTd9s4NeuJrv2bE2zgWpOypvh7D9S9wp42_A?key=Sq65MbBALlfgU7uhYqZ_IW0t =50%x)
+
+В просмотрщике будут доступны все функции выбранного вьювера.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfE3dXlLbbxT3sUjWUrNVY5uInQYtS0sBFU_tbdJvJs419RP1VYN3JnKfbpflluF8s6v0aRFxSGQ1yR0PmAM7T0zodaN6x16jYpnfr3XOpkxG3ko16czKyik3Ulz7ePtp4?key=Sq65MbBALlfgU7uhYqZ_IW0t =70%x)
+
+  
+  
+## 5. Сравнение чертежей
+###### 5. Сравнение чертежей {#drawingCompare}
 
 > См. также видеоинструкцию по работе с PDF: [Telegram](https://t.me/signal_docs/284) [YouTube](https://youtu.be/APrrvpOYETM)	[Rutube](https://rutube.ru/video/6c121c69bdea591e00e8cee06e5cbdc1/) [VK](https://vkvideo.ru/video-223002264_456239070)
 {.is-info}
@@ -334,60 +409,9 @@ dateCreated: 2025-10-16T13:16:45.534Z
 ![image-1719396933792.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3eBd9XxWlu7UuJZ94beyhYRf2DnvfvcemqCACflV0dBXY_5G9NqDHGMmYeVHcKu1GCEKXpOIrCeLXmrQf6qKRQln9aZ-o07oWUVN0J-VxUjVZfCXqIHTWSBeV-tpwv_GNm2Uv7NGWLH7_gAo?key=G5mC2kC-3FTUbBlnmOZq9Q =70%x)
 
   
-## 2. CAD
-###### 2.1. Просмотр 3D-моделей {#bim}
-
-> См. также видеоинструкцию по работе с BIM моделями: [Telegram](https://t.me/signal_docs/316)
-{.is-info}
   
-Для открытия модели необходимо один раз обработать ее в **Forge Viewer** и/или **Tangl Viewer**. Для этого нажмите ПКМ на файле → “Обработать в Autodesk” и/или “Обработать в Tangl”. Для обработки несколько моделей воспользуйтесь соответствующими кнопками на панели инструментов.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaGpEX-ZoaHsyYBhqCGFC64bsCbFTUhYKlsH4WMucWC_XzOZLNefvJ1PVNGxC7-Pe9jCReMQwxRdNJ3daiW9IkrBYcK0hcw114NAPg1SON9ESyEaX54m0LGuXYgNYBVz9Zs8uYhWd80EW2mFRqjA?key=i8J0tGtIeCmYFt7QxAzbTw =70%x)
-
-Просмотр RVT,NWC,NWD осуществляется через **Forge Viewer** .
-
-В **Forge Viewer** доступен стандартный набор инструментов для просмотра моделей.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeiL0vxXYVsOLFp8EZdtfqp5ilqY6CRW6yWM_umrcBY1PJ20g7H4Gj_2ecV28U53bNnqvnuu7M8x5Zv3JQBfxNeDeYdxTMnB2El17U5ixHEVzs8oO6kPJUQQCKLEo-eDyOjzg03dCTJWQeprYzTg?key=i8J0tGtIeCmYFt7QxAzbTw =70%x)
-
-1.  Обход от первого лица
-2.  Линейка для измерений
-3.  Сечение
-4.  Обозреватель документов
-5.  Уровни
-6.  Состав модели
-7.  Свойства элементов
-8.  Настройки
-9.  Избранные свойства
-
-Просмотр IFC возможен через **Forge Viewer** и/или **Tangl Viewer** (предварительно настраивается администратором проекта).\\
-
-При открытии файла IFC система спросит каким способом его открыть.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJBCHkoqio1sXt7kT6jNmIrdny4HZXU114lKVbSIbchgPlcDaWNur2USrbfShaMEQnruyequ8-P8toaBXb4Mx5-ar0VVnHogWS7Wuv24yNA1AsZY13XwDMZkPo81rYGkiO3BV3CzY7OQQ1iNXD?key=i8J0tGtIeCmYFt7QxAzbTw =50%x)
-###### 2.2. Сборки 3D-моделей {#assemblies}
-  
-> См. также видеоинструкцию по работе с BIM моделями: [Telegram](https://t.me/signal_docs/316)
-{.is-info}
-  
-В SIGNAL DOCS есть возможность собрать сводную модель проекта. Со сводной моделью также доступны инструменты замечаний и все стандартные инструменты просмотра BIM моделей.
-
-Для создания сборки нажмите “+” и выберите “Сборка”
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcxWLQfbRDIlcxqqAtTF8C4yL9knpfDfP8u5hvBVP7k3O_iVOTeM1KXwe9GaETv4QgUqq6Ii8NacDCCXu-De2nOxIOEZd5O0b6kcudRTgqrPeQwAw9k4MG9GfTNCksXwuE?key=Sq65MbBALlfgU7uhYqZ_IW0t =70%x)
-
-В окне создания сборки введите “Название”, выберите исходную папку, в которой хранятся модели и выберите модели, которые необходимо включить в сборку.
-
-По умолчанию модели совмещаются по внутреннему началу, однако есть возможность дополнительно настроить координаты для каждой модели. Нажмите “Создать”
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemr0Ypqu73EotRJrlMzvGD8ah5XfP1HfBfGAH3t4TIWPJENUCgEZvOsYjmFIOauk7cNBguY8IvbN_NQNIZgkAfNvfHF-pTd9s4NeuJrv2bE2zgWpOypvh7D9S9wp42_A?key=Sq65MbBALlfgU7uhYqZ_IW0t =50%x)
-
-В просмотрщике будут доступны все функции выбранного вьювера.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfE3dXlLbbxT3sUjWUrNVY5uInQYtS0sBFU_tbdJvJs419RP1VYN3JnKfbpflluF8s6v0aRFxSGQ1yR0PmAM7T0zodaN6x16jYpnfr3XOpkxG3ko16czKyik3Ulz7ePtp4?key=Sq65MbBALlfgU7uhYqZ_IW0t =70%x)
-  
-  
-###### 2.3. Сравнение 3D-моделей {#modelCompare}
+## 6. Сравнение BIM-моделей
+###### 6. Сравнение BIM-моделей {#modelCompare}
   
 > См. также видеоинструкцию по работе с BIM моделями: [Telegram](https://t.me/signal_docs/316)
 {.is-info}
@@ -421,24 +445,11 @@ dateCreated: 2025-10-16T13:16:45.534Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdy-lD-Oo57ks00w49q3K5-eXjSirwNaxpahuDOr8TvlC9gUWBPtAdKqF46cAN6nrMdFwnrLGMtl7P6hiuORA-AX3z0housywj61gaPxVHu47-u5hZk9QZagaXXe9P_90zfMOmWQvReDENIhywwMQ?key=KHpy2DnF1z7IiMGX0Lup-A =30%x)
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXev51gwxTGU4UMZEZ9cAlu3knqLoCUnv70pQSv5Cc86vRCT19ErJMHD1EdLiL9C5za6JaxU-knfSXErkA5i2bsNAVu_rAQ_BEyNxTClPbZKTMKenaeaHoSGFpUAnph5UP_0IG_K_eNaASUBgftR?key=KHpy2DnF1z7IiMGX0Lup-A =50%x)
-  
-###### 2.4. Просмотр облаков точек {#potree_viewer}
-SIGNAL DOCS имеет возможность работы с облаками точек. Файл облака точек загружается и запускает в формате .las через конвертер и вьювер Potree.  На данный момент максимальный объем файла - 5 гб.
-  ![облако_в_доксе.jpg](/облако_в_доксе.jpg)
-    В просмотрщике доступна панель инструментов:
-1. Точка координат
-2. Измерение расстояния в плоскости между точками
-3. Измерение высоты между точками
-4. Измерение площади
-5. Очистка
-  
-  ![облака_точек.jpg](/облака_точек.jpg)
-
 
   
   
-## 4. Прочее
-###### 4.1. Создание документов XML {#xml}
+## 7. Создание документов XML
+###### 7. Создание документов XML {#xml}
   
 > См. также видео **[XML-документы по XSD-схемам в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239025)**
 {.is-info}
