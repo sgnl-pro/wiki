@@ -2,7 +2,7 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-05-15T09:01:24.572Z
+date: 2026-05-15T09:02:18.054Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
@@ -198,7 +198,7 @@ W2.1.1 - означает, что вид работ должен быть соз
 
 **_Количество с коэффициентом_**
 
-Данное свойство позволяет в панель суммарное значение одного из [_количественных свойств_](https://wiki.sgnl.pro/app/page/1YnwX-iUsD6azYduNIQ1QEgL4d7WcJoifse5kbTRY1DI) (Объем/Площадь/Длина/Вес) с указанным коэффициентом.
+Данное свойство позволяет в панель суммарное значение одного из [_количественных свойств_](https://wiki.sgnl.pro/ru/tools/navis/settings#calculation) (Объем/Площадь/Длина/Вес) с указанным коэффициентом.
 
 ![image-1684403939638.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXduWBZrAmb6HU64c1nSyn4xdODXWvc2NqT-I1Wfpyj0g3tpqkg8gv1Mr0PXokSo3XjX5VvkXXTbJZywzYz-2gKwYdD9OqdC2meeZ9chsF8GngMQXSYPIF7rvLhL-rvkpqlWz-2hQ8yJBMNzuD_P1g?key=dtY1kvnFechnFCTGfw8Gnw)
 
