@@ -2,7 +2,7 @@
 title: TOOLS. Раскраска
 description: 
 published: true
-date: 2026-05-15T11:50:48.622Z
+date: 2026-05-15T12:15:21.784Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:37:48.157Z
@@ -11,7 +11,14 @@ dateCreated: 2025-09-21T11:37:48.157Z
 <sub>**[<   TOOLS FOR NAVIS. Расчет](/ru/tools/navis/calculation)     **|**     [TOOLS FOR NAVIS. Экспорт | Импорт   >](/ru/tools/navis/export-import)**</sub>
 
 ---
-
+>Во вкладке "Раскраска" располагаются инструменты позволяющие изменять визуальное представление элементов информационной модели. Цвет элементов можно определять как в ручную, так и с использованием различных свойств заложенных в них. В отличие от раскраски элементов встроенным функционалом Navisworks, данные о цвете элементов записываются в специальное свойство, и могут быть экспортированы в другие форматы (например: IFC)
+{.is-info}  
+  
+![roamer_vmejjtgnp4.png](/sgnl_tools_navis/coloring/roamer_vmejjtgnp4.png)
+  
+  
+  
+  
 # Вкладки{.tabset}
 
   
@@ -25,7 +32,6 @@ dateCreated: 2025-09-21T11:37:48.157Z
 
 1\. Выберите элемент/элементы и нажмите на вкладке SIGNAL на панели Раскраска ➤ Цвет
 
-![image-1683703231611.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXftZVSYsbzTv4JavvtdVmAwYtUTPkfqbCv9lx_YpcR0dBkfEwKVQ_kjg5K0idMbF09idEiGZDMBTnjs69OZp8MS4PgiHe5RWoJ1QK-rjGeC1MBIoAMv6G_Nn-YsG0GrJew8V_xYjwrCuqEoS5LKMw?key=9lhHUWOQlf7pAmMpb993XQ)
 
 2\. Выберите цвет из списка и нажмите “ОК”
 
@@ -104,7 +110,7 @@ dateCreated: 2025-09-21T11:37:48.157Z
 
 ![image-1684480283631.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNriafGW9tL_OIS-XP8kUoVLcFMjLSvGv-F3djSukKxoGs-mVcs_n8VQfIQy0K4zdV-HPh9xPJqUCqlv9rofUbpMjbhhfUNFq35Xd4gqkQMifjX84mHHqIGjPoFBStQAqqcv8Hjv-ClY5Oionu?key=gYDv60j7wn26JtHz0aSLHA)
 
-3\. Элементы будут раскрашены в соответствии со статусом их замечания в BIM 360 (ACC Docs). Соотношения цветов и статусов задается в настройках [_“Раскраска”_](https://wiki.sgnl.pro/app/page/165fGF2LyUPst6ZWaw12UnxbiSHVFcoz_XI6Nh9hozdA).
+3\. Элементы будут раскрашены в соответствии со статусом их замечания в BIM 360 (ACC Docs). Соотношения цветов и статусов задается в настройках [_“Раскраска”_](https://wiki.sgnl.pro/ru/tools/navis/settings#painting).
 
   
   
@@ -116,8 +122,6 @@ dateCreated: 2025-09-21T11:37:48.157Z
 
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Раскраска  ➤ По параметрам
-
-![image-1683727168417.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd1x6Rhckp0LvSpbrn_jX1VYHLeQRY4_PpWSqsxl8F_XSUBWmJH8vMmiY1dFWAuwDhLfYVR_FFLRxz0z2Ny-OIKE0lEfI7Fv0xXuWTwwEjJlIXN_JC_NOlg95SdIo5CsFLBuXbnZv2wVFwif_6s?key=-YzvzEBSIhsCzI_kuEgzRg)
 
 2\. Откроется окно с настройками раскраски. Добавьте свойства вручную или импортируйте файл Excel, и нажмите “ОК”
 
@@ -150,13 +154,7 @@ dateCreated: 2025-09-21T11:37:48.157Z
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Раскраска  ➤ По наборам
 
-![image-1683727632468.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdldMw21JV3WKftBwFvTddQ4Wr5rkOVE7DrA1J20ZSymy2nBuF-EaTF4GfLTLKHo6pYRCgYHDyW6Ax0Jq27-tdPinto67rDsZjVMRJ4Wi9KwQ7h_uBdJoz-nkPSpE4CUA-oqXjCN6cY_AGgCiIO?key=XMH0iYHEflHj_Yg5tgZfCQ)
-
-2\. Откроется окно с настройками раскраски. Нажмите 
-
-![image-1683727641942.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeaRYW-phfPb3zur7xLGDJ0CtkWGpsHEajd0IlTWyBD6VBKYidysJi9dBROmr1xGeC6o1zsqZtirlayK1Xrw7DV4lm_XqZeCpSjLNBUTvs3OocixfqFLPYad0IWf4JoM-yIRsgl_gC91wAVe3pCXw?key=XMH0iYHEflHj_Yg5tgZfCQ)
-
- , чтобы добавить поисковой набор.
+2\. Откроется окно с настройками раскраски. Нажмите "+", чтобы добавить поисковой набор.
 
 ![image-1683727656487.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeH67qNdKRgrLQjL-iHbzh-pCyUy98hS2BHRQdOhY97ITzv-SqWPkSlBYhE4fksauh6gf7Y9kPVkoA6TB-sDmE9FRPo0Qtm_HeHG6Llukcrbcrsk7-qR2J6hz1TJf26Ydek_FE_sBuV6irGG9pc?key=XMH0iYHEflHj_Yg5tgZfCQ)
 
@@ -171,5 +169,7 @@ dateCreated: 2025-09-21T11:37:48.157Z
 5\. Элементы раскрасятся в указанные цвета
 
 ![image-1683727741068.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdu8f25f7kGSPzjhJv2vFhna81ypRX8_cv5oI0hc4051lB6n6rv0o3n8tw-7Ph0_7faxSKJbSls5rs-Nz4ztsTBFBgHOyN7ke-rf4npjcxscjRsetrAsdtitzXeHvAkQl5L1zrdcinyH9rA0SGdKg?key=XMH0iYHEflHj_Yg5tgZfCQ)
+  
+  
   #
   <sub>**[<   TOOLS FOR NAVIS. Расчет](/ru/tools/navis/calculation)     **|**     [TOOLS FOR NAVIS. Экспорт | Импорт   >](/ru/tools/navis/export-import)**</sub>
