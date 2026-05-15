@@ -2,7 +2,7 @@
 title: TOOLS. Согласование
 description: 
 published: true
-date: 2026-05-15T14:11:35.718Z
+date: 2026-05-15T14:29:02.334Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:29:02.534Z
@@ -14,8 +14,7 @@ dateCreated: 2025-09-21T11:29:02.534Z
 >Во вкладке "Согласования" располагаются инструменты для проставления текущего статуса элементам модели. Данные функции нужны для создания строительной модели и ее дальнейшей [визуализации в модуле DASHBOARD](https://wiki.sgnl.pro/ru/dash/cards-50)
 {.is-info}  
   
-  
-![roamer_3hyzsqq4u3.png](/sgnl_tools_navis/approval/roamer_3hyzsqq4u3.png)
+![approval_main2.png](/sgnl_tools_navis/approval/approval_main2.png)
   
   
 # Вкладки{.tabset}
