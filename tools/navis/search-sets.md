@@ -2,13 +2,13 @@
 title: TOOLS. Создание ПН
 description: 
 published: true
-date: 2026-05-15T13:52:19.039Z
+date: 2026-05-15T14:14:44.454Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:26:39.914Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Замечания](/ru/tools/navis/issues)     **|**     [TOOLS FOR NAVIS. Утилиты   >](/ru/tools/navis/attachments)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Расчет](/ru/tools/navis/calculation)     **|**     [TOOLS FOR NAVIS. Экспорт/Импорт   >](/ru/tools/navis/export-import)**</sub>
 
 
 ---
@@ -263,4 +263,4 @@ W2.1.1 - означает, что ПН должен быть создан вну
   
   
 #
-<sub>**[<   TOOLS FOR NAVIS. Замечания](/ru/tools/navis/issues)     **|**     [TOOLS FOR NAVIS. Утилиты   >](/ru/tools/navis/attachments)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Расчет](/ru/tools/navis/calculation)     **|**     [TOOLS FOR NAVIS. Экспорт/Импорт   >](/ru/tools/navis/export-import)**</sub>
