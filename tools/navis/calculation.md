@@ -2,7 +2,7 @@
 title: TOOLS. Расчет
 description: 
 published: true
-date: 2026-02-04T14:15:14.983Z
+date: 2026-05-15T07:40:31.451Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:31:53.959Z
@@ -13,7 +13,7 @@ dateCreated: 2025-09-21T11:31:53.959Z
 ---
 
 # Вкладки{.tabset}
-## Объем/Площадь/Длина/Кол-во/Вес
+## Объем/Площадь/Длина/Кол-во/Вес {#common}
 
 > Используя команды Объем, Площадь, Длина, Кол-во и Вес можно получить значения соответствующих параметров у элементов. Названия параметров, с которых требуется собирать значения, задаются в Настройках SIGNAL в разделе [_Количественное свойство_](https://wiki.sgnl.pro/ru/tools/tools-work/quantitative-property)
 {.is-info}
@@ -27,7 +27,7 @@ dateCreated: 2025-09-21T11:31:53.959Z
 
 ![image-1683295435662.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvKee2EnSBbC3KT18rEEVAJJCl-PtbuGaGnE-1dwSkOz3RWkZZYMDMNHIVL3JjfknNaoJ5dMf4nDYgTjnTta63rMsar7YXHkOAz9_3DXU-oAozs7E5ysooSSe-KUVGCRDFdp7fYzKNm2LnEAZsgA?key=V-vloVcvu-n1OxyRBn_LVg)
 
-## Польз.
+## Польз. {#custom}
 
 > Данный инструмент позволяет получить значения параметров у элементов, указанных в дополнительных количественных свойствах. Например, можно получить длину опалубки в км, указав коэффициент для перевода из метров в километры. Названия параметров, с которых требуется собирать значения, задаются в Настройках SIGNAL в разделе [_Количественное свойство_](https://wiki.sgnl.pro/ru/tools/tools-work/quantitative-property)
 {.is-info}
