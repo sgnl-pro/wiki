@@ -2,7 +2,7 @@
 title: TOOLS. Создание ПН
 description: 
 published: true
-date: 2026-02-04T14:16:38.529Z
+date: 2026-05-15T07:51:17.567Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:26:39.914Z
@@ -14,7 +14,10 @@ dateCreated: 2025-09-21T12:26:39.914Z
 ---
 
 # Вкладки{.tabset}
-## Стандартные
+  
+  
+  
+## Стандартные {#standart}
 
 > Инструмент позволяет создавать поисковые наборы (ПН) по предварительно настроенным правилам, указанным в [_"настройках Стандартные ПН”_](https://wiki.sgnl.pro/ru/tools/tools-work/settings-search-sets)
 {.is-info}
@@ -36,13 +39,12 @@ dateCreated: 2025-09-21T12:26:39.914Z
 
 ![image-1683704585424.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNI4X8jFqbDjFPapHmsIvQtNIiFFguQ03dX_w0596R36X1F2g5oJzlL3eEvlJBppW1Cw5EY0aqAd17r3eGcRLsj2JJNIc1pVX6qn9PfhLb3UMvtFs1A4ooMKbVhMvR6vZNz3HsqCETp-2r7uNS3g?key=0FOvWB_zpHgdV8W7GcFEcw)
 
-![image-1683704554450.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc6IglQfa3bIsVMskO9YtIKYbqa8zFjNnMkfvlQkeohHQ08GeilCckJSJ5gAhryp53LO22QVj8zGQVJDHncx7DANTFvGF-HeJLKM8L5SAl2j3NtPLXbQAfj8s4wCmJ-c-7LPR6USpmZrYcSFex8xg?key=0FOvWB_zpHgdV8W7GcFEcw)
 
-![image-1683704542282.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeH-5dCWcM4UAM6I9uDTfGKHLTlI7f-vs4IxSfNttpyaTkq04ytfdNCFXfKX5WkySY9XlUGOGIg0yMKTAj6R1j5N9EGt6aBPKZPdUQQsNhb0wYy-Df8w5bLcsM13xZn-HtfJ6etW8o1NxT7C5tDw?key=0FOvWB_zpHgdV8W7GcFEcw)
-
-![image-1683704527364.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdb3dCx1xZGMZun9nakT12hXjE0fBOrQp-Ko-zA5P9Om897dS7VNu4rv68Z42rh6T-KyCwDSE5Q1ggsiu-HqXlwmeUZRXvB_RMrgzhHSOqQvM57PkRcFfo_n8eVEt5FmmWmCQbNyWcpStQNANaCOg?key=0FOvWB_zpHgdV8W7GcFEcw)
-
-## Наборы из Excel
+  
+  
+  
+  
+## Наборы из Excel {#excel}
 
 > Инструмент позволяет создавать поисковые наборы (ПН) по определенным правилам, указанным в Excel файле.
 {.is-info}
@@ -176,7 +178,12 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 ![image-1701156432824.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfOSxy0pzO4XoTH7ePVdaO1sdLMXx0cu10JttsCaOlg8w1-tqXETTml8_xMxjJ59rnTMXjIik853eiVxeUzbPbhW2u-lBd4aqFNlrn203aVgl4M5HfFczDi5wFH_YEbqBB0jLE-fvGpibybUGe3Ww?key=QmJxTI8etnagPturaVkHuw)
 
-## Работы
+  
+  
+  
+  
+  
+## Работы {#jobs}
 
 > Инструмент позволяет создавать поисковые наборы (ПН) по [_условиям видов работ_](https://wiki.sgnl.pro/app/page/1dhz_RYu3DczaEesG4yRQP9sK60FLyuz8SEMJI7nmX-w)
 {.is-info}
@@ -189,7 +196,11 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 ![image-1683727023056.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEdRfspsuQ66lJsH4KCRtcO2aPKmjLfRHskro0zL6N9cx_j2jy2l2-y7epyIeehHdxfBgaaxWEaEl2JGhpwg29DRKU6nmBYfdH2VBNUyS9E8w_ekBkQI_JGTGboAK4qZPpSDObDVnXMFoVXeaAsA?key=VAMl3-zqeA14UoJh-MbZXg)
 
-## TimeLiner
+  
+  
+  
+  
+## TimeLiner {#timeliner}
 
 > Инструмент по данным из стандартного TimeLiner Navisworks разбивает модель на элементы до и после выбранной даты, создавая поисковые наборы Before, After и Null. Благодаря этому можно посмотреть, какие элементы должны быть уже выполнены по плану на выбранную дату, и какие элементы по плану предстоит выполнить. Также инструмент создает поисковые наборы Planned по данным вкладки “Планируемое завершение” из стандартного TimeLiner Navisworks, благодаря чему данную модель можно подгрузить в карточки “План-Факт” модуля DASHBOARD как модель с плановыми работами.
 {.is-info}
@@ -208,7 +219,12 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 Также в элементах во вкладке “SIGNAL” будет создано свойство Planned. По этому свойству в панели “Наборы” будут созданы соответствующие поисковые наборы с плановыми датами. Данную модель можно будет использовать как плановую модель для карточек [_“План-Факт”_](https://wiki.sgnl.pro/app/page/1ErP71qjy4Y9wAoVm4zRSbJFNPTNxMfsCQDs24KN-kWw) модуля DASHBOARD.
 
-## Классификатор
+  
+  
+  
+  
+  
+## Классификатор {#clasification}
 
 > Инструмент позволяет создавать поисковые наборы (ПН) по классификатору.
 {.is-info}
@@ -236,5 +252,7 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 ![image-1683727106307.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXexlhjZCAAXshcWzAYPM5lCtoYondstmlNW_5F1Yvne4Xcnj5faMQ6mB1RhVS8DI6byYXBelIRpD5XxExI3dndk6m1h3LHvNG-hb0EoQ6Gzf--XgW_DTGIfrGVFEqTxE43dPASfs_opYreRz75x?key=2j5kwhMc0yyoVWDffyq5cA)
 
+  
+  
 #
 <sub>**[<   TOOLS FOR NAVIS. Замечания](/ru/tools/navis/issues)     **|**     [TOOLS FOR NAVIS. Утилиты   >](/ru/tools/navis/attachments)**</sub>
