@@ -2,7 +2,7 @@
 title: FORMS. Заполнение формы
 description: 
 published: true
-date: 2026-05-15T19:53:23.220Z
+date: 2026-05-15T19:53:29.066Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T19:45:47.214Z
