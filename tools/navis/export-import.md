@@ -2,7 +2,7 @@
 title: TOOLS. Экспорт | Импорт
 description: 
 published: true
-date: 2026-05-15T08:29:20.986Z
+date: 2026-05-15T12:35:46.439Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:51:01.935Z
@@ -11,7 +11,12 @@ dateCreated: 2025-09-21T11:51:01.935Z
 <sub>**[<   TOOLS FOR NAVIS. Раскраска](/ru/tools/navis/coloring)     **|**     [TOOLS FOR NAVIS. Свойства   >](/ru/tools/navis/properties)**</sub>
 
 ---
-
+>Инструменты, расположенные во вкладке Экспорт/Импорт, позволяют извлекать данные из информационные модели в самых разнообразных форматах, а также импортировать атрибутивную информацию из сторонних систем и/или других версий данной информационной модели. Инструменты заточены под реальные практики из жизненного цикла информационной модели
+{.is-info}
+  
+![export_import_main.png](/sgnl_tools_navis/export_import/export_import_main.png)  
+  
+  
 # Вкладки{.tabset}
 
   
@@ -29,7 +34,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683279591986.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeubpsIHUemONJj-EIwysRTS7g3iryHOR-QimMIuOyqH91dBDoPg_SAr7Unt_BmzQNaCgYCR-HuLpdD7C7T6cCLoUC27XfQz6ajoTTpNYf82BbWjoav41MQZFE9UWFySdzlockADx8ColvwHXY1NQ?key=-KzkGDDT81BdFYGDwCfMVA)
 
--   В верхней части окна выберите предварительно созданные [_“Условные свойства”_](https://wiki.sgnl.pro/app/page/1dGtbOpYGviEU75IoqM3rgmuKhx30Z7S5wyhGoTXeLX0), которые требуется экспортировать
+-   В верхней части окна выберите предварительно созданные [_“Условные свойства”_](https://wiki.sgnl.pro/ru/tools/navis/settings#conditional), которые требуется экспортировать
 -   В нижней части окна добавьте дополнительные свойства в виде пары “Категория-Свойство”
 -   Для импорта дополнительных свойств нажмите кнопку  и выберите файл Excel со следующей структурой: В столбце А записывается “Категория”, в столбце В записывается “Свойство”
 
@@ -38,8 +43,6 @@ dateCreated: 2025-09-21T11:51:01.935Z
 3\. Выгрузится Excel файл со всеми элементами и указанными свойствами. По необходимости можно собрать сводную таблицу по свойствам и отфильтровать ее как вам необходимо, чтобы просмотреть объемы
 
 ![image-1683279670358.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWo2czsyA1lLXDnvvbrJO9H8Aht8J7EoMZ2KO54U0S5oV1VsKT99ibwGlkeGpcJzeeJCOXwLGi08KeFlFUGYA5d55iUmYsK76tVASdOwj3Qf4KADZyAKl81jRVfNqXz5Q3-H638igmcoG09HkA?key=-KzkGDDT81BdFYGDwCfMVA)
-
-![image-1684140032200.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXea6LC9tq85J7_xifo1gEwTza616q_ZLc0SzoBvPxLX-i9WWYZhh7N8gHqdCFUJEKtjtMNA-A_0-cXPVJoW1Q4-vL5kY_Xh1n1ftiWa6CaWyMb5NT2oFIbpfVuVdv_-Vg3itEoVyhvebMBGXIX6?key=-KzkGDDT81BdFYGDwCfMVA)
 
 ![image-1683279624333.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1U_l6YKcuALNkP1L1tF_VGnOeNyzgq3-MEyaoFbg0fEIPNMgO9IMzo0KUO6EdtVsY_0J3RF54d8eBeZgq7LidfZZBlqNWRtDqPTdxXroeRQeui39B7IGGtiR217sb8u1Upj2zBNwggHbCBMh8MA?key=-KzkGDDT81BdFYGDwCfMVA)
 
@@ -66,7 +69,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
 ## Импорт S {#import_s}
 
-> Инструмент позволяет загрузить в модель все свойства из вкладки “SIGNAL” с их значениями из файла Excel. Например, можно экспортировать свойства SIGNAL через команду [_“Экспорт S”_](https://wiki.sgnl.pro/app/page/1YFeraHy8IOenKQm3vgIc46RfTmS1rlkYKSmR-fVPaMs), подкорректировать заполненные виды работ и загрузить обратно в модель.
+> Инструмент позволяет загрузить в модель все свойства из вкладки “SIGNAL” с их значениями из файла Excel. Например, можно экспортировать свойства SIGNAL через команду [_“Экспорт S”_](https://wiki.sgnl.pro/ru/tools/navis/export-import#export_s), подкорректировать заполненные виды работ и загрузить обратно в модель.
 {.is-info}
 
 
@@ -89,6 +92,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 > Инструмент позволяет выгрузить в Excel объемы (м3, м2, м, кг, шт) по поисковым наборам. Например, можно выгрузить поисковый набор “Completed” и посмотреть объем завершенных элементов
 {.is-info}
+  
+> Для корректного экспорта количественных показателей требуется, чтобы в конце наименования ПН была указана единица измерения. Например: _4.1.1.1 Устройство стен -1 этажа **[м³]**_
+  ![image-1683284919110.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaT4kJhQISuA9mpCGsyk6D6bJu2iolSo9GCNj-O0EjnwYAS8J6ksqNpwMKJUzffPQhJkpnk933HXeXE7pEj-CoVS0IRXj2gJoG_HjX_p-Ead3MDBS5LAxYHVOUQXaV_uRO60BKvLRG6UgK9tnXuw?key=cFPg5WmNNNH9gozh3mLdew =40%x)
+{.is-warning}  
 
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Объемы по ПН
@@ -99,20 +106,12 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683284883767.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXccLNzRLTugZp6MUa5l9-psXR_I9Vh6A7mle5cgZiwV4iWELjji8M8OZhS71VpH2ok4uRPZbAqYLheN3Vs-U1h19izqYgSrsrU3Cx5fO_effsjBZPe-WoP_iYizI10xOKp5yZ9LoUFVYRipI8qdeA?key=cFPg5WmNNNH9gozh3mLdew)
 
--   Для выгрузки объемов в названии поискового набора должны быть указаны единицы измерения в квадратных скобках, например, \[м3,м2\]. Несколько ед. измерения указываются через запятую.  
-     
--   В нижней части окна можете добавить дополнительные свойства в виде пары “Категория-Свойство”  
-      
-      
-    **Примечание:** Поисковые наборы можно создать с помощью инструмента [_“Стандартные”_](https://wiki.sgnl.pro/app/page/1TeixpZM_MDT9NRCwhePfMF83tnNJ5UYsHEFLyEFy19Y)
-
 3\. Выгрузится Excel файл с поисковыми наборами и объемами.
 
 ![image-1683284964072.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdj2MuLUXbJhWyMuWo1gRd91M8KO_8blHjzEK_DB7cHJ4W5R1XgGVTVFMi1vlj4cCPtnjOczuLItCwseEDR5KTTGVgnITyyJHrf9EOhI-TV-u8YvK7TpxHot9-awhidttnAjDH8ouHWxnE3KLnb?key=cFPg5WmNNNH9gozh3mLdew)
 
-![image-1683284935628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfYnFUtjfG-N2yMzex2v2WR-uLtnez-KiehEsBg2zzxz-chScL3Cr1VS9qgCYXdqwdG8jiK7t5WLDyBtYSl9886T5j0rECzRHRwVoSAIQ3s03i1FGpHkijRGFZTT4AQQWD-dPpdjt4IuEBl6YR1?key=cFPg5WmNNNH9gozh3mLdew)
 
-![image-1683284919110.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaT4kJhQISuA9mpCGsyk6D6bJu2iolSo9GCNj-O0EjnwYAS8J6ksqNpwMKJUzffPQhJkpnk933HXeXE7pEj-CoVS0IRXj2gJoG_HjX_p-Ead3MDBS5LAxYHVOUQXaV_uRO60BKvLRG6UgK9tnXuw?key=cFPg5WmNNNH9gozh3mLdew)
+
 
   
   
@@ -166,14 +165,13 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683285388773.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1LL0UL863U9OwV4ke9gL1QX3rPNPMdHde79YiZOYh_qqrD3s5Tf_F_3J7IT-scECSAuLwVm9cWY9FGpib5Hecxw2sY3bMweOSqGsj_-2F1aLZyf3pQBkyKpi7MiK3_o8tXr9g7IUyoFkq-tbp?key=wV8BOgO_ZhjQUUapWSdqAQ)
 
--   Требуется, чтобы в панели “Наборы” был создан поисковый набор “Работы” с правильно заполненными условиями. Создать ПН можно с помощью инструмента [_“Работы”_](https://wiki.sgnl.pro/app/page/1-B8HMIqIDN4CnwWo3yZXYVBYlf7Lq4anPwmk5eLtGXw)
--   Выполненные работы отмечаются инструментом [_“Завершить или Принять”_](https://wiki.sgnl.pro/app/page/1zKM2m_O8NPfp5ETOf5NXd1MkKZfEhWvHyyJyEXGYUaM)
+-   Требуется, чтобы в панели “Наборы” был создан поисковый набор “Работы” с правильно заполненными условиями. Создать ПН можно с помощью инструмента [_“Работы”_](https://wiki.sgnl.pro/ru/tools/navis/search-sets#jobs)
+-   Выполненные работы отмечаются инструментом [_“Завершить или Принять”_](https://wiki.sgnl.pro/ru/tools/navis/approval)
 
 3\. Выгрузится Excel файл, содержащий объем видов работ, фактический объем и процент выполнения работ.
 
 ![image-1683285426253.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0f5Nk5q2SuqkS14OWpeUnEf-xPIiU0Nnoa_Rn3kgeUxDTWddOl4KXPOlAVCAHJdlHCHAyGuClJA7YODEfcP_iq2dcP57jkrmt8eSD7wpZlGj4NTxYDwR9TjuuKconnVOupaDCF-4n2dELby9kFg?key=wV8BOgO_ZhjQUUapWSdqAQ)
 
-![image-1683285405785.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLaTi2Ceh8WPWPwQXX_IsBZucWfEtYDnPlwo85bc53sOwOAzVEbp-askDqZ9qjN4EENQHqazUfbPG67lJcofoG25e4iAwnNv3vmQ3BNiCKxhsZdQnHBzYpgNhpWk_UH0TXJIwy8HnswL2EfTWOfA?key=wV8BOgO_ZhjQUUapWSdqAQ)
 
   
   
@@ -185,7 +183,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
 {.is-info}
 
 
-***Алгоритм использования:*** экспортировав виды работ из Primavera в формате XML импортируете их в Tools for Navisworks командой “Импорт из Primavera” (см. [_Виды работ_](https://wiki.sgnl.pro/app/page/1dhz_RYu3DczaEesG4yRQP9sK60FLyuz8SEMJI7nmX-w)). Далее отмечаете через команды [_“Завершить/Принять”_](https://wiki.sgnl.pro/app/page/1zKM2m_O8NPfp5ETOf5NXd1MkKZfEhWvHyyJyEXGYUaM) даты выполнения работ. Теперь процент выполнения работ можно загрузить в тот же самый XML с помощью данной команды "Процент Primavera". И наконец, импортировать XML файл обратно в Primavera, чтобы наблюдать процент выполнения.
+***Алгоритм использования:*** экспортировав виды работ из Primavera в формате XML импортируете их в Tools for Navisworks командой “Импорт из Primavera” (см. [_Виды работ_](https://wiki.sgnl.pro/ru/tools/navis/panel#jobs)). Далее отмечаете через команды [_“Завершить/Принять”_](https://wiki.sgnl.pro/ru/tools/navis/approval) даты выполнения работ. Теперь процент выполнения работ можно загрузить в тот же самый XML с помощью данной команды "Процент Primavera". И наконец, импортировать XML файл обратно в Primavera, чтобы наблюдать процент выполнения.
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Процент Primavera
 
@@ -195,7 +193,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683285550586.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXKjkeBwxQYcaIs-KYXcGg4YM-sz9zyqS3sucA3sLdCPx7Ie2vJ9GlaW6QeiIrZuKRYD9EKrEG-sn75wsudj3uNNcx7gVsdjBHRQWFxlUVsOAsHfeWfAQXW72RamkuwNqQK-RBl_enT09eBapGBQ?key=LTk-Q5Atb8KI51pphss9TQ)
 
--   Требуется, чтобы в панели “Наборы” был создан поисковый набор “Работы” с правильно заполненными условиями. Создать ПН можно с помощью инструмента [_“Работы”_](https://wiki.sgnl.pro/app/page/1-B8HMIqIDN4CnwWo3yZXYVBYlf7Lq4anPwmk5eLtGXw)
+-   Требуется, чтобы в панели “Наборы” был создан поисковый набор “Работы” с правильно заполненными условиями. Создать ПН можно с помощью инструмента [_“Работы”_](https://wiki.sgnl.pro/ru/tools/navis/search-sets#jobs)
 
 3\. Выберите файл формата XML, ранее выгруженный из Primavera и нажмите “Открыть”
 
@@ -252,13 +250,11 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 После этого нужно сохранить точку обзора, дав ей соответствующее название. Рекомендуется соблюдать структуру дерева БЛОК-ЭТАЖ-ТОЧКА для автоматического сопоставления точек обзора с точками INSPECTION (см. пункт 4).
 
-2\. В [_настройках SIGNAL_](https://wiki.sgnl.pro/app/page/1rYs0nTXdkVo7J-uYAYiR6-gLxBC2KsXN6JO_mkrwQvY) выберите проект, в который необходимо выгрузить панорамы 360
+2\. В [_настройках SIGNAL_](https://wiki.sgnl.pro/ru/tools/navis/settings#general) выберите проект, в который необходимо выгрузить панорамы 360
 
 ![image-1697611332210.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfjyXVFRlwO6XZvfvbk4wTiKUkIN0UHIqmtFxNgO7Bk4C3v29DTwMpNJ2f67y1jdGY7GllUBQSIjS2zfSL_HnB6XOa7Yn1T7gjE7QXs7bVxwi4EK83OQG1d6LiEMEc9ohDdqTYs1LUTIqNRSoTSbQ?key=KyV5yw2WEWnh8F9TlW6UOw)
 
 3\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Публикация Фото360
-
-![image-1697611345318.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf_eqUW_XRnXpHE0_xsb8T3_AXvDZzY76TezNqqaGIENGtBertDjkoh3fVd8p5ugLkkiNFgFOd-qtCZ_0sNFYoWdkbt8gy_aZSDsDnnAf6LjLUSJIXlV-0r3S0TXwrrOAaUjTXcWvndfLJgY8Zusg?key=KyV5yw2WEWnh8F9TlW6UOw)
 
 4\. В открывшемся окне в левой части раскройте нужный план, а в правой части сопоставьте точку из INSPECTION с точкой обзора из Navisworks, выбрав последнюю из списка в столбце "Точка обзора".
 
@@ -328,7 +324,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
 {.is-info}
 
 
-Требуется, чтобы в панели “Наборы” были созданы поисковые наборы по видам работ. Это можно сделать с помощью команды [_“Работы”_](https://wiki.sgnl.pro/app/page/1-B8HMIqIDN4CnwWo3yZXYVBYlf7Lq4anPwmk5eLtGXw) В самих видах работ должна быть заполнена “Расценка” по видам работ. ([_см. Виды работ_](https://wiki.sgnl.pro/app/page/1dhz_RYu3DczaEesG4yRQP9sK60FLyuz8SEMJI7nmX-w))
+Требуется, чтобы в панели “Наборы” были созданы поисковые наборы по видам работ. Это можно сделать с помощью команды [_“Работы”_](https://wiki.sgnl.pro/ru/tools/navis/search-sets#jobs) В самих видах работ должна быть заполнена “Расценка” по видам работ. ([_см. Виды работ_](https://wiki.sgnl.pro/ru/tools/navis/panel#jobs))
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Бюджет
 
@@ -370,7 +366,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1688029773683.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXexk-syYlThmDK8ZJXLDUXLRa91MGrbdYpatTD5dJ8O2h9v8GrQrXsJ5SDFq-K6G0MP6m6MsnlKp7Hwk-JbOA6m8aLt_1PjG8cQnEPHGC6YWHwtnU1PiOs-vd8zDr3kuTWKVVl8BST5c8LogGwQyA?key=HN--DieFzm94qLpYmm381Q)
 
-4\. Для того чтобы раскрасить элементы по проценту воспользуйтесь инструментом [_“Раскрасить”_](https://wiki.sgnl.pro/app/page/1sKveQeB11oVjviyFR_BPtaX1OzUCGXkbAwkLJ_8uMJ8)
+4\. Для того чтобы раскрасить элементы по проценту воспользуйтесь инструментом [_“Раскрасить”_](https://wiki.sgnl.pro/ru/tools/navis/coloring#painting)
 
 ![image-1688029788328.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbMj8BMK1d6LFnZ8BVbvnJYhKmLtFRTfqLuEI8AGaxqQxR3t3vgFLI0W8TUHxqsdqz1bFViVqMrs8-Ga2fegJP9QjsZkoH32vk4qMw4WjPeApLpvUJQU1JG3dlPg2nU7huikb04mRzVkEQ7-PUCg?key=HN--DieFzm94qLpYmm381Q)
 
@@ -387,11 +383,8 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1684412432686.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOS0SLp8slQdvquw2tsD2P4MtW7dHstNlQiucu_clso6fG7QYRyp4OkKqmTgVOcyKbzNVLXIHJOmPFaWNR4nD_gN_7Vv6wPVdUvUa_qDOPcbGK8nHUNWuPhnxPKDfowgN4ThPLHX2auTiDdelq?key=8JcA12ShPt774T8o6GOrbw)
 
-2\. Откроется окно настройки отчета. Добавьте отчет, нажав 
-
-![image-1683296015309.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXekhMeK69f3ETC77E9UIhyO1hivFRThMtPQxd7uo60HgkoANwJd7oKJ0GOj4zbPy1uECoBSWpYK0_AV2QVFXxqz2_QSbKOy7LtUw5ILlcC2fx6HOvloApwuDAQxot1ObemaSKtGX3bhMG0p3loC9w?key=8JcA12ShPt774T8o6GOrbw)
-
-[.](https://wiki.sgnl.pro/uploads/images/gallery/2023-05/image-1683296015309.png) Заполните необходимые данные и нажмите “ЭКСПОРТ В PDF” и “ЭКСПОРТ В EXCEL”.
+2\. Откроется окно настройки отчета. Добавьте отчет, нажав "+"
+Заполните необходимые данные и нажмите “ЭКСПОРТ В PDF” и “ЭКСПОРТ В EXCEL”.
 
 ![image-1684412451395.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc2ht_O_30HGHv-ycZvNrT7GTVIydjJttaYVmQcnjQvz9jIu3w3K3JIyQpHUO8wCHHJ7Dg4pFB58Dl9M8WtrqJsop4tnph0qWWNkiGiFtpEkmNpSp2fTeTbHUjjR5uW0w7W5NdsRGZHPegG0d1n?key=8JcA12ShPt774T8o6GOrbw)
 
@@ -407,6 +400,6 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1684412485987.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfizS6J99_b5QL0RDJGJja-QdS3q4hK0KlQnWiq4xtTTnBbu365vTagI-ZEQ4fAREuvnNiPAVHHuNSgMgkMkdS8yrhPDoDSjzZYqmujqkYqhsJxj9zAtlU_McPj8VL-o-hbvRy9bSjP51EWrH-zQw?key=8JcA12ShPt774T8o6GOrbw)
 
-![image-1684412463775.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6iaOnZ2rQONBwYXtkq9GxiUY1YmQUi7nh-3An86vc1thAtSUzDiUGfE0Ar0MU3Mkk16b1P7V-86S8GNZBo5jDGjUd4yrZLWmXARdOwqqU_plRzPCw4R4ZJYkFXH1PIe6Ie2YUbtt5JpU68dcC?key=8JcA12ShPt774T8o6GOrbw)
+
   #
   <sub>**[<   TOOLS FOR NAVIS. Раскраска](/ru/tools/navis/coloring)     **|**     [TOOLS FOR NAVIS. Свойства   >](/ru/tools/navis/properties)**</sub>
