@@ -2,7 +2,7 @@
 title: TOOLS. Раскраска
 description: 
 published: true
-date: 2026-02-04T14:15:26.570Z
+date: 2026-05-15T11:50:48.622Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:37:48.157Z
@@ -13,8 +13,12 @@ dateCreated: 2025-09-21T11:37:48.157Z
 ---
 
 # Вкладки{.tabset}
-## Цвет
 
+  
+  
+  
+## Цвет {#colour}
+### Цвет {#colour}
 > Инструмент присваивает элементу пользовательский цвет. Например, можно отмечать выполнение модели определенными цветами.
 {.is-info}
 
@@ -35,8 +39,11 @@ dateCreated: 2025-09-21T11:37:48.157Z
 -   В свойствах элементов во вкладке *“SIGNAL”* создается параметр *“UserColor”* (Пользовательский цвет).
 -   Создается поисковый набор “*UserColor”* соответствующий пользовательскому цвету.
 
-## Раскрасить
-
+  
+  
+  
+## Раскрасить {#painting}
+### Раскрасить {#painting}
 > Инструмент раскрашивает элементы согласно значению свойств SIGNAL.
 {.is-info}
 
@@ -63,8 +70,11 @@ dateCreated: 2025-09-21T11:37:48.157Z
 
 ![image-1688029338144.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSHqXbQDLSfMW6928f6NOu559npKWFPx0ObrsftlQV_2m03JzfpguB7-AZh95noJznHSz0mAiB1-MByaBxbW7GuXBfS287BzwJ-mFNDfKyZaaLbKi-r27GLL_Eu9yzrohkfpxFQ-EPU1FeOnqfCw?key=frSD_mu7b1S_59XbZcG8EA)
 
+  
+  
+  
 ## Сбросить Цвет
-
+### Сбросить Цвет {#reset}
 > Инструмент сбрасывает цвет элемента до значения по умолчанию. Значения параметров “UserColor”,  “Color” и “IssueColor” при этом не меняются. 
 {.is-info}
 
@@ -76,7 +86,11 @@ dateCreated: 2025-09-21T11:37:48.157Z
 
 ![image-1683703455706.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXezVR_kHh_T3lE1ebfjo4JFYZHg9helWQApItaRDEvC1kseRZJ2-7PcXgk9ayFLP1yFyT6PyZhVhMJ_pdpiqIbEnhEiqa0nSqAxa1aeTqGKWFG2g5XapsBG3nC43kR3k71WpEgG9t3g9He-83iOEg?key=AN5uMck6SoiwAH06V6D7zQ)
 
-## Статус B360
+  
+  
+  
+## Статус DOCS
+### Статус DOCS {#DOCS}  
 
 > Инструмент обновляет цвет элемента согласно его статусу в среде BIM 360 (ACC Docs), полученного по ссылке, указанной в свойстве “S URL”. Используется, когда в модели пропали цвета замечаний, но остались заполненные свойства “S URL”, по которым возможно восстановить цвета.
 {.is-info}
@@ -92,8 +106,11 @@ dateCreated: 2025-09-21T11:37:48.157Z
 
 3\. Элементы будут раскрашены в соответствии со статусом их замечания в BIM 360 (ACC Docs). Соотношения цветов и статусов задается в настройках [_“Раскраска”_](https://wiki.sgnl.pro/app/page/165fGF2LyUPst6ZWaw12UnxbiSHVFcoz_XI6Nh9hozdA).
 
+  
+  
+  
 ## По параметрам
-
+### По параметрам {#by_param}
 > Инструмент позволяет раскрасить элементы модели по указанным свойствам
 {.is-info}
 
@@ -122,8 +139,11 @@ dateCreated: 2025-09-21T11:37:48.157Z
 -   Элементы окрасятся в цвета, указанные в настройках
 -   В панели “Наборы” будет создан ПН по указанным свойствам
 
+  
+  
 ## По наборам
-
+### По наборам {by_searchsets}
+  
 > Инструмент позволяет раскрасить элементы модели по предварительно созданным поисковым наборам
 {.is-info}
 
