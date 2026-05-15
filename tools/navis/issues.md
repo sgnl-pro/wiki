@@ -2,7 +2,7 @@
 title: TOOLS. Замечания
 description: 
 published: true
-date: 2026-05-15T08:35:43.982Z
+date: 2026-05-15T13:41:24.922Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:21:15.211Z
@@ -11,7 +11,11 @@ dateCreated: 2025-09-21T12:21:15.211Z
 <sub>**[<   TOOLS FOR NAVIS. Проекты](/ru/tools/navis/projects)     **|**     [TOOLS FOR NAVIS. Создание ПН   >](/ru/tools/navis/search-sets)**</sub>
 
 ---
-
+> Группа инструметов отвечающая за прикрепление замечаний к элементам информационной модели. Инженеры могут выставлять замечания как в самом TOOLS, так и в браузере, используя функционал модуля DOCS
+{.is-info}
+  
+![roamer_xspgc5f7ja.png](/sgnl_tools_navis/issues/roamer_xspgc5f7ja.png)  
+  
 # Вкладки{.tabset}
   
   
@@ -24,8 +28,6 @@ dateCreated: 2025-09-21T12:21:15.211Z
 
 1\. Выберите элементы и нажмите на вкладке SIGNAL PRO на панели Замечания ➤ Комментарий
 
-![image-1683704046213.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcWjw76LAruBXI__JHm5dwl2JmQvVyhFJgfNrJhIYoqi-JBZysg2pn_eK2F1CsyLp4Rcadjz5RgGCIRnIl81GLlfxedkqtd0CEHYyvZpqHD7ArLibWIT2X7Nr9yjWQ9mAA3hnJuf_lwMt_Pcqmg0g?key=MV_rTRc50nEUH7sVyTB2wA)
-
 2\. Введите текст комментария и нажмите “ОК”.
 
 ![image-1683704058436.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkTc94Q6-k_F7DJATgjdDdKLpz_bD_WjJ2y3i-vfGK3N3se27_jTKO4wdmAxnYf74Sfpy4Q9F1BPi11xluXH8a1qcDRQj_ZSgszJqycncqokwCVhPBtoJlyXoYxtuXd2es_V34BweQFNvgnTK59Q?key=MV_rTRc50nEUH7sVyTB2wA)
@@ -35,32 +37,13 @@ dateCreated: 2025-09-21T12:21:15.211Z
 ![image-1683704072183.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcQTa-dM7-hv0M5XG166gNzAsZnuGZBHg0hTeS8xIOwomHdCbvySmA4lOZG-2dTCUBcR7HGW5wXsUGnTWpyIQWArNVoucQD2wzeWlebhxkXDhTzbO13K1ia7QkIrBRThBCKUm4Mm-Ni4EZsxAynhg?key=MV_rTRc50nEUH7sVyTB2wA)
 
 -   В выбранный элемент во вкладку SIGNAL добавляются свойства “Comment” с значением комментария и “IssueColor” с цветом замечания.
--   Элемент окрасится в цвет указанный для комментариев в настройках [_“Раскраски”_](https://wiki.sgnl.pro/app/page/165fGF2LyUPst6ZWaw12UnxbiSHVFcoz_XI6Nh9hozdA). По умолчанию оранжевый.
+-   Элемент окрасится в цвет указанный для комментариев в настройках [_“Раскраски”_](https://wiki.sgnl.pro/ru/tools/navis/settings#painting). По умолчанию оранжевый.
 -   Создаются поисковые наборы “Comments” с значением комментария и “IssueColor” с цветом замечания.
 
   
   
   
-## S URL {s_url}
-### S URL {s_url}
-  
-> Инструмент позволяет вносить в элемент ссылки, например, на замечания в BIM 360 (ACC Docs) или на сайт производителя оборудования
-{.is-info}
 
-
-1\. Выберите элементы и нажмите на вкладке SIGNAL PRO на панели Замечания ➤ S Url
-
-![image-1683704121999.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfVTt8-mMmDGL378W5hATy_R6R13i9AsB4zINUbuouIxQL0kqkiKZ92xsFiM46PKk0njeLm0OC_g7XdvPotUegzxislckQr8t0zVlm_mlWoZT9g68lyK7NuRG47cQC51MnxyLOkke_Tzxj47EpU?key=jKxsJ0xmS_f160lKJXYv4A)
-
-2\. Вставьте ссылку в поле и нажмите “ОК”
-
-![image-1683704132628.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXexNxiq6YLCUCdd_mNS0apiu6WAIMctB9LvnbTxu612MGManwoptgde7VNbyA8ygBE3zRHilofjTkobtu8IDjne4-5G0aFKSvOIKgdU14haoxGDSURdfjdedhlXx5SWfoubb4zZtCZFMKr_eyZD?key=jKxsJ0xmS_f160lKJXYv4A)
-
-3\. После добавления ссылки в выбранном элементе во вкладке SIGNAL добавится свойство “S URL” с значением введенной ссылки
-
-![image-1683704146242.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPOE86VYk2ZT0Q5cVEIQ--pNF8SVKOCNw1lTNZkd2GOuqYcLSFGpBjjTKA5BXM_mJJi-HafxqoBD2cjXO_pU_dvuBKrvPM304wMixefj4pbEuT40qKjHqQ3TPoPD3xB0HvUtT1xQE-P_8rY8Z_ew?key=jKxsJ0xmS_f160lKJXYv4A)
-
-  
   
   
 ## Из DOCS {#from_docs_link}
