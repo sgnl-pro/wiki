@@ -2,7 +2,7 @@
 title: TOOLS. Утилиты
 description: 
 published: true
-date: 2026-05-15T13:55:48.878Z
+date: 2026-05-15T13:56:31.084Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:32:52.422Z
@@ -252,24 +252,12 @@ _Способ 2. - Импорт укрупненных работ_
 
 ![image-1690894475789.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiy2iNgTXxZ7TaSauRFM7KL51QLg5DCMKHXUqeJ32OvOJNo0io4R9_QABvqlcRHr4kl6j6rx3nR4adG8kcTR1HVKfdATXKu4SQQw95A1nxajHtY9VmewXPPzjrbn_5yw0jLLLmtNXZaPi2zrrH4Q?key=cARGhuBZ11N3r9azo6cjFA)
 
-![image-1689000621217.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfvLOKuBxsc4dPsquovWtoweGrvsAE8p_BI6dmANxF2R3G-sBq4f0pZlrJseneEsG0ofnK9LWGgPOIdm1bHd8-7eNipS-cTcVHYK43Wm61q7bfezfT20dIWSPMyUZc5yN-XyzZKgJ3trmmQMomjrg?key=cARGhuBZ11N3r9azo6cjFA)
 
-![image-1689000616051.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdl7RP6OGocIa6Tk4xDcQpOxsnl8iGxQZIDL4FuK1QkePnFoa9TLUcZt8s4GsoM4B3l_PHyTLAy57-DQZzdXHzURRxdRrmGzXMvT92U2N1ucJCSLykmJpuDPd4iK7lWPanRF0DI2YwokqjYP_2pVg?key=cARGhuBZ11N3r9azo6cjFA)
 
-![image-1689000610153.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctj5K0PIM53OGCTP5jXgdgJIGb2buKH9SKDoWieeTsfFIj7tlSePGE2jSSkq54Q7zTR0vj-2AcYkJzhvu6p-ckahdDJoc_p7chzzo1moSXalTO1Y9X2jIjyvq_5DH0mwssDkDzt1qvwjTvcc6peQ?key=cARGhuBZ11N3r9azo6cjFA)
 
-![image-1689000605262.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe5iPzBnbEsJd9VYqyTg8B7ip_Ez5g3giFru6hJ-YNXHVCssbEEuFlpMb7acawkmZ46IcQVuXI5jTQA7-10iVJZ2aoGtrPAuBYhLpNweKayvLQ4SmJkUw3UFp1z0l2zOy99xvHyywfBxpdm5_y7jw?key=cARGhuBZ11N3r9azo6cjFA)
-
-![image-1689000536383.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdz6dRuSI7OyUe8dw8m0JNhIl-rstpQ-ZvPoHEVzlgensifFTF98Xy77xYlCEHTcSCfoE-N0-cWcdK46Ee1nxXbHANAJ8UQZn6GNWx3By2BhfTQti3Rq6Vgc64B8ubs4qSp9HKFYIR5IAZztKuw2Q?key=cARGhuBZ11N3r9azo6cjFA)
-
-![image-1689000524338.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxifmpJxXZT2XFlTOU71R0RsouPQTYfMRF_rbZ8trqA8Fv6YQWUtbgmq0KpjEyL5MYQpfMZHdXFaYbbNCwrWAtAJQbx0kPrPZm36gB6CLhmzTMjCBWRRhEsk0IINJCbsrI-gKAU1xuSEg4eLUseg?key=cARGhuBZ11N3r9azo6cjFA)
-
-![image-1689000452549.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDlTAXHR_EsDtbtIfDfzGJm0Qk5CdGB4Ezy8YZHvDiYZ_XxUwqIKnOlcAbsnbGLvPl2OrDE9Sif2dXIGxcr3HgWjvlKCd5gAS44rHJl41-cpZS5AvO0Sp2xoqvS0OuReOH5HVmIVC2c-CPQ_jC-A?key=cARGhuBZ11N3r9azo6cjFA)
-
-![image-1689000445919.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfto2KE3IE3stuukx5sFpIPWTbE3tR8wgQvryA2dHOK6Vst2Lt-keq6Ij0ip0-ENgendai6KNtaNDeMi7w4yV7onWmj_Gj2NdsnPVJ5ttXhumfskvA4nGLcbqHp_4b29JF-JrPyL5l1gBVgAGzU9Q?key=cARGhuBZ11N3r9azo6cjFA)
-
-![image-1689000437859.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeE7jBdb_Wj9MQ39MaEEbJA9h8Q2mHSQd6Mr7DJMstNKcU4JqFuAoY4tCE6f7pzzIZD5u-0Hl5AeZfRcxiEUViW-gcwrRudkSP0j8NUEhENR1_gnqYCX6hMk8rTBw5TWFWnob1JBpCItICWVCdH?key=cARGhuBZ11N3r9azo6cjFA)
-
+  
+  
+  
 ## Вложения
 
 > Инструмент позволяет прикрепить документы к элементам по реестру в Excel.
