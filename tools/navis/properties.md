@@ -2,7 +2,7 @@
 title: TOOLS. Свойства
 description: 
 published: true
-date: 2026-05-15T11:52:41.454Z
+date: 2026-05-15T11:53:32.636Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:57:03.438Z
@@ -70,11 +70,9 @@ dateCreated: 2025-09-21T11:57:03.438Z
 ## Копировать из R {#copy_from_revit}
 ### Копировать из R {#copy_from_revit}
   
-Инструмент используется для копирования S параметров согласования из вкладки “Объект” в вкладку “SIGNAL”, если присвоение статусов ([_закрытие работ_](https://wiki.sgnl.pro/app/page/1zKM2m_O8NPfp5ETOf5NXd1MkKZfEhWvHyyJyEXGYUaM)) производилось в Revit.
+Инструмент используется для копирования S параметров согласования из вкладки “Объект” в вкладку “SIGNAL”, если присвоение статусов ([_закрытие работ_](https://wiki.sgnl.pro/ru/tools/revit/acceptance)) производилось в Revit.
 
-1\. Нажмите на вкладке SIGNAL на панели Согласование ➤ Копировать из R
-
-![image-1688029273985.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXefWhm00NdiHrR1P8i8HzuMTFD_sW9DfJ1rFfDCM9IeWQJoOaBE25KnAHP1xbkF3itVIomZVniTHD0fO73GEMelD12LoPjNyILwaeNzQLGT-5WGKsIm6Iy6i4OKX8ewLYvWZwC7Uz8qIlSImxP0Qw?key=Hmk684qvnczX_w97ZRPBTg)
+1\. Нажмите на вкладке SIGNAL на панели Свойства ➤ Копировать из R
 
 2\. В элементах, которым присвоены статусы, свойства*“S Completed”, “S Accepted” и “S Planned”, а также “S Work”, “S Unit”, “S Color”, “S Contractor”* из вкладки “Объект” скопируются в вкладку “SIGNAL”
 
