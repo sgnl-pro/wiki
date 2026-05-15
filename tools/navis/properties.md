@@ -2,7 +2,7 @@
 title: TOOLS. Свойства
 description: 
 published: true
-date: 2026-02-04T14:15:49.041Z
+date: 2026-05-15T11:52:41.454Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:57:03.438Z
@@ -13,8 +13,11 @@ dateCreated: 2025-09-21T11:57:03.438Z
 ---
 
 # Вкладки{.tabset}
+  
+  
 ## Копировать
-
+### Копировать {#copy}
+  
 > Инструмент позволяет скопировать значения свойств из одной вкладки в другую
 {.is-info}
 
@@ -38,8 +41,14 @@ dateCreated: 2025-09-21T11:57:03.438Z
 -   Будут созданы поисковые наборы с значениями скопированных свойств
 -   Значение выбранного свойства копируется в новое указанное свойство
 
+  
+  
+  
+  
+  
 ## Удалить
-
+### Удалить {#delete}
+  
 > Инструмент позволяет удалить свойства SIGNAL у выбранных элементов.
 {.is-info}
 
@@ -51,5 +60,24 @@ dateCreated: 2025-09-21T11:57:03.438Z
 2\. Выберите параметры SIGNAL, которые требуется удалить и нажмите “ОК”. Плагин удалит значения свойств и сами свойства.
 
 ![image-1683703773937.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNwLiOxDb2LHLcXopdTKMDmAx19S09AJIuFlO-ycYjeNffJSiPZIZVnqeS8BS5SuXkzLfx7coX2uD3MrmYLD3eSUOyx1b4TehpsAALz2JY737GTRbLItqtuKvKo2hPFMF-hkIfYzlp15L7-qONHQ?key=bf5wcfC5ZPUq7JWSSAFMKQ)
+  
+  
+  
+  
+  
+  
+  
+## Копировать из R {#copy_from_revit}
+### Копировать из R {#copy_from_revit}
+  
+Инструмент используется для копирования S параметров согласования из вкладки “Объект” в вкладку “SIGNAL”, если присвоение статусов ([_закрытие работ_](https://wiki.sgnl.pro/app/page/1zKM2m_O8NPfp5ETOf5NXd1MkKZfEhWvHyyJyEXGYUaM)) производилось в Revit.
+
+1\. Нажмите на вкладке SIGNAL на панели Согласование ➤ Копировать из R
+
+![image-1688029273985.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXefWhm00NdiHrR1P8i8HzuMTFD_sW9DfJ1rFfDCM9IeWQJoOaBE25KnAHP1xbkF3itVIomZVniTHD0fO73GEMelD12LoPjNyILwaeNzQLGT-5WGKsIm6Iy6i4OKX8ewLYvWZwC7Uz8qIlSImxP0Qw?key=Hmk684qvnczX_w97ZRPBTg)
+
+2\. В элементах, которым присвоены статусы, свойства*“S Completed”, “S Accepted” и “S Planned”, а также “S Work”, “S Unit”, “S Color”, “S Contractor”* из вкладки “Объект” скопируются в вкладку “SIGNAL”
+
+![image-1683289905105.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZpnoNRIzJc1aMt6ACEobZoRGg5bdR3RGMRKI6-TSG3WkCIzK7iMOAHTiaXxDgnj64jfrYcljtZexOWFnRxEKmrCO_c2V6TSH13UZYPEixsiItfqqVWxYOWgH4Oop3Y3-vR0BjUElmvbLm-sCE?key=Hmk684qvnczX_w97ZRPBTg)  
   #
   <sub>**[<   TOOLS FOR NAVIS. Экспорт | Импорт](/ru/tools/navis/export-import)     **|**     [TOOLS FOR NAVIS. Checker   >](/ru/tools/navis/checker)**</sub>
