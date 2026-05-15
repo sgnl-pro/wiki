@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-05-15T11:48:47.586Z
+date: 2026-05-15T12:02:11.708Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -299,9 +299,16 @@ dateCreated: 2025-10-16T13:16:45.534Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXev51gwxTGU4UMZEZ9cAlu3knqLoCUnv70pQSv5Cc86vRCT19ErJMHD1EdLiL9C5za6JaxU-knfSXErkA5i2bsNAVu_rAQ_BEyNxTClPbZKTMKenaeaHoSGFpUAnph5UP_0IG_K_eNaASUBgftR?key=KHpy2DnF1z7IiMGX0Lup-A =50%x)
   
   
-
-  #### 2.4. Просмотр облаков точек
-  ##### 2.4. Просмотр облаков точек {#potree_viewer}
+  
+  #### 2.4. DWG
+  ##### 2.4. DWG {#dwg}
+Просмотрщик Autodesk Forge также работает с AutoCAD, чертежи можно загружать в формате .dwg .dwf и других. Также поддерживается возможность открытия чертежа из pdf формата во все том же просмотрщике Forge, через кнопку "А" в верхней панели интерфейса PDF-просмотрщика **[См.здесь](https://wiki.sgnl.pro/e/ru/docs/viewers#pdf)**
+  ![снимок_экрана_2026-05-15_150136.png](/снимок_экрана_2026-05-15_150136.png)
+  
+  
+  
+  #### 2.5. Просмотр облаков точек
+  ##### 2.5. Просмотр облаков точек {#potree_viewer}
 SIGNAL DOCS имеет возможность работы с облаками точек. Файл облака точек загружается и запускает в формате .las через конвертер и вьювер Potree.  На данный момент максимальный объем файла - 5 гб.
   ![облако_в_доксе.jpg](/облако_в_доксе.jpg)
     В просмотрщике доступна панель инструментов:
