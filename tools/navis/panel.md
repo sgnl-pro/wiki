@@ -2,7 +2,7 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-05-15T14:10:26.833Z
+date: 2026-05-15T14:23:59.472Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
@@ -11,7 +11,6 @@ dateCreated: 2025-09-21T11:09:12.445Z
 <sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Checker   >](/ru/tools/navis/checker)**</sub>
 
 ---
-# Панель SIGNAL
 
 >Панель SIGNAL позволяет собрать в одном месте информацию об элементе или наборах элементов, содержит различный вспомогательный функционал для удобной работы со свойствами SIGNAL, прикрепления к элементам модели различных документов, взаимодействия с видами работ и быстрой настройки оптимального вида
 {.is-info}
