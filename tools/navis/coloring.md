@@ -2,13 +2,13 @@
 title: TOOLS. Раскраска
 description: 
 published: true
-date: 2026-05-15T12:15:21.784Z
+date: 2026-05-15T14:17:03.244Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:37:48.157Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Расчет](/ru/tools/navis/calculation)     **|**     [TOOLS FOR NAVIS. Экспорт | Импорт   >](/ru/tools/navis/export-import)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Экспорт-Импорт](/ru/tools/navis/export-import)     **|**     [TOOLS FOR NAVIS. Свойства   >](/ru/tools/navis/properties)**</sub>
 
 ---
 >Во вкладке "Раскраска" располагаются инструменты позволяющие изменять визуальное представление элементов информационной модели. Цвет элементов можно определять как в ручную, так и с использованием различных свойств заложенных в них. В отличие от раскраски элементов встроенным функционалом Navisworks, данные о цвете элементов записываются в специальное свойство, и могут быть экспортированы в другие форматы (например: IFC)
@@ -172,4 +172,4 @@ dateCreated: 2025-09-21T11:37:48.157Z
   
   
   #
-  <sub>**[<   TOOLS FOR NAVIS. Расчет](/ru/tools/navis/calculation)     **|**     [TOOLS FOR NAVIS. Экспорт | Импорт   >](/ru/tools/navis/export-import)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Экспорт-Импорт](/ru/tools/navis/export-import)     **|**     [TOOLS FOR NAVIS. Свойства   >](/ru/tools/navis/properties)**</sub>
