@@ -2,7 +2,7 @@
 title: TOOLS. Создание ПН
 description: 
 published: true
-date: 2026-05-15T08:33:16.743Z
+date: 2026-05-15T13:51:49.144Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:26:39.914Z
@@ -12,7 +12,12 @@ dateCreated: 2025-09-21T12:26:39.914Z
 
 
 ---
-
+>Группа инструментов для работы с поисковыми наборами в Navisworks. Создавайте поисковые наборы в 1 клик, используя настройки плагина, excel таблицы или классификаторы компании.
+{.is-info}
+  
+![roamer_oahozdridz.png](/sgnl_tools_navis/search_sets/roamer_oahozdridz.png)  
+  
+  
 # Вкладки{.tabset}
   
   
@@ -20,21 +25,15 @@ dateCreated: 2025-09-21T12:26:39.914Z
 ## Стандартные {#standart}
 ### Стандартные {#standart}
   
-> Инструмент позволяет создавать поисковые наборы (ПН) по предварительно настроенным правилам, указанным в [_"настройках Стандартные ПН”_](https://wiki.sgnl.pro/ru/tools/tools-work/settings-search-sets)
+> Инструмент позволяет создавать поисковые наборы (ПН) по предварительно настроенным правилам, указанным в [_"настройках Стандартные ПН”_](https://wiki.sgnl.pro/ru/tools/navis/settings#standart_searchsets)
 {.is-info}
 
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Создание ПН ➤ Стандартные
 
-![image-1683704486645.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc00epybJMtNYBaQ9MCSYm4JKDKDjL6tBvGSNIl6L5_9NRIacX6SxHJba_EW_f4Q2NlmlgcLhmN7yr9ZZpoDwQ8rISBzwHZL5kH-oBZdoCyT6rzNz3IvomZFpZ0fdoUHbUcYE6cMl0voMoIJdGq?key=0FOvWB_zpHgdV8W7GcFEcw)
-
 2\. Откроется окно с названиями правил, которые были добавлены в настройках [_“Стандартных ПН”_](https://wiki.sgnl.pro/ru/tools/tools-work/settings-search-sets). Выберите нужные правила для создания поисковых наборов и нажмите “ОК”
 
 ![image-1683704496177.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSSDpdr4e0ySteGY96NTQWM4hhEUZjsEkYHYdKcJskD5TzXUMp-b6UfT-9k7-WcmqMn5HNVqoHJGwRx3TKzbtdG2xV-ZXTkF9gnDSbQyN4-bLlfrjgfH59B0MafTpsoQEyawZSD-mhAlrBKDyZDw?key=0FOvWB_zpHgdV8W7GcFEcw)
-
--   Для выбора всех правил в списке нажмите .
--   Для сброса выделения всех правил нажмите .
--   Для быстрого перехода к настройкам [_“Стандартных ПН”_](https://wiki.sgnl.pro/ru/tools/tools-work/settings-search-sets) нажмите .
 
 3\. В панели “Наборы” будут созданы выбранные поисковые наборы
 
@@ -53,14 +52,16 @@ dateCreated: 2025-09-21T12:26:39.914Z
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Создание ПН ➤ Наборы из Excel
 
-![image-1683710542440.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpPnJ0HtrnrvUo8WZcl_9lQg1lJJkyrFSteGoGlX3l7FFsHfUdHEUkXOERxU4ALvkLm6R_OhjctqCBdhgXsPWW5VcSB1pJdnrVnOjLDzbw1BBvbf9IOTm6DKw2mJycvwWhj_BDZY5Uj0jQuxcPgg?key=QmJxTI8etnagPturaVkHuw)
 
 2\. Откроется окно создания ПН в котором нужно указать вариант загрузки Excel.
 
 ![image-1701154479099.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcwynuoAK__9UnX8rtKcwhWSqPDZYyY4uiH8N7YcRbXaqGCLpxtT_mGUeNmJ0AZAlXCT8fhGzLW7L6Mbe_aKfWrzlQ7rUYRyxKBGNjW_qXwpdvHhO5MTDYLgkmo-SHz1PirJEUBCX-4qO7CNeD?key=QmJxTI8etnagPturaVkHuw)
 
-3\. Варианты создания поисковых наборов:
+<details>  
+<summary> 3. Варианты создания поисковых наборов: </summary>
 
+### Вкладки{.tabset} 
+#### Вариант 1  
 Данный вариант используется для создания структуры по видам работ или реализации структуры классификатора элементов компании.
 
 Скачать файл шаблона можно [по ссылке](https://docs.sgnl.pro/s/f/4d8f615a-27fd-4b1a-a631-c7529eb99f03/i/7897696f-6bfd-4175-9877-74b737ddf563?f=663dec15-0db0-4e70-b152-ceb803fe6ea6)
@@ -100,7 +101,7 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 ![image-1683710700448.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfrFcCSRb0eOydoiX1HGDVC3pmKt7PhmunLiimBisTD-8P8QL6ZnkZPhaJBg8F4UZo0c8XAwtCl-fhVEpubgZh_R6J5lPKbtZdCIzbCBLm1dNMvsnUVVqXN1_gVQaJnYgBtl_FbYWBFgaP9iyfZig?key=QmJxTI8etnagPturaVkHuw)
 
-**Вариант 2**
+#### **Вариант 2**
 
 Данный вариант отличается от первого варианта тем, что Код и Описание записаны в одном столбце через дефис.
 
@@ -116,7 +117,7 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 ![image-1683710792431.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf-1y2BuQVkJuA72Uy_xAWvzFccywZR6LKMxfQQYrEzwpzajEkNNfTbNsTGeebpc3bB3lDgJsGee_SyuT9sH8O3EGnRQiDZ2RWoRHc4Zs8nVSnv4V3D-QUCSHCd4c7ShMd3few9RnPQ6TZ5Egwo-Q?key=QmJxTI8etnagPturaVkHuw)
 
-**Вариант 3**
+#### **Вариант 3**
 
 Данный вариант используется для группировки известных имен типоразмеров в группы или для других группировок значений в один ПН.
 
@@ -148,6 +149,8 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 ![image-1683710877659.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJ00TIPyPGem7nq9jeTv08HgWfJW3NodkTr2qc6vdZiZwDzX8UT8jjHhCivAx7xGg0HO1rU1V5oZEFyH6P9Ey9wj1SVRQBNSTF6eF0Y6nLzb3CeI59ZrCEspnqyx-KDKxGF4MLjE3rIVRK5Z560g?key=QmJxTI8etnagPturaVkHuw)
 
+</details>  
+  
 4\. "Создавать только не пустые наборы" - Пустые поисковые наборы не будут созданы
 
 5\. "Выполнить разбивку ПН по структуре объекта" - позволяет дополнительно сделать разбивку ПН с помощью условных свойств.
@@ -188,14 +191,14 @@ W2.1.1 - означает, что ПН должен быть создан вну
 ## Работы {#jobs}
 ### Работы {#jobs}
   
-> Инструмент позволяет создавать поисковые наборы (ПН) по [_условиям видов работ_](https://wiki.sgnl.pro/app/page/1dhz_RYu3DczaEesG4yRQP9sK60FLyuz8SEMJI7nmX-w)
+> Инструмент позволяет создавать поисковые наборы (ПН) по [_условиям видов работ_](https://wiki.sgnl.pro/ru/tools/navis/panel#jobs)
 {.is-info}
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Создание ПН ➤ Работы
 
 ![image-1683727012986.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkq1ql9Uty5uS4v-Ymk-G5M9S2oEGhRXszbuQQQUiBWFruueN-pXgCsadgvLJJnum1gPKHLlig6a1XWBNnXijbuKswT-ubrP96buDzeAZlfavrzjZhr7Fu5fl5NRjidW7ymOl9ZyMlBA9JKvwgew?key=VAMl3-zqeA14UoJh-MbZXg)
 
-2\. В панель “Наборы” будут созданы поисковые наборы по условиям, указанным в видах работ. (см. [_Виды работ_](https://wiki.sgnl.pro/app/page/1dhz_RYu3DczaEesG4yRQP9sK60FLyuz8SEMJI7nmX-w))
+2\. В панель “Наборы” будут созданы поисковые наборы по условиям, указанным в видах работ. (см. [_Виды работ_](https://wiki.sgnl.pro/ru/tools/navis/panel#jobs))
 
 ![image-1683727023056.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEdRfspsuQ66lJsH4KCRtcO2aPKmjLfRHskro0zL6N9cx_j2jy2l2-y7epyIeehHdxfBgaaxWEaEl2JGhpwg29DRKU6nmBYfdH2VBNUyS9E8w_ekBkQI_JGTGboAK4qZPpSDObDVnXMFoVXeaAsA?key=VAMl3-zqeA14UoJh-MbZXg)
 
@@ -221,7 +224,7 @@ W2.1.1 - означает, что ПН должен быть создан вну
 
 ![image-1689239072260.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEIsKLudyojJUchRVlwMzh-unSTzWvppV_8plzmPZeFVpAdp7tnc1NJqkb5I7UJTDAce183aQ_3SYNdVirfhfgwiA-NjJ4qlCRAp53JXFlCwBYnTY5blhUSRoL_3f5DD1ZzBcvUURGPgsqVOdx9w?key=mI66xCFlfAM6WWW1dluW4A)
 
-Также в элементах во вкладке “SIGNAL” будет создано свойство Planned. По этому свойству в панели “Наборы” будут созданы соответствующие поисковые наборы с плановыми датами. Данную модель можно будет использовать как плановую модель для карточек [_“План-Факт”_](https://wiki.sgnl.pro/app/page/1ErP71qjy4Y9wAoVm4zRSbJFNPTNxMfsCQDs24KN-kWw) модуля DASHBOARD.
+Также в элементах во вкладке “SIGNAL” будет создано свойство Planned. По этому свойству в панели “Наборы” будут созданы соответствующие поисковые наборы с плановыми датами. Данную модель можно будет использовать как плановую модель для карточек [_“План-Факт”_](https://wiki.sgnl.pro/ru/dash/cards-50) модуля DASHBOARD.
 
   
   
