@@ -2,7 +2,7 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-05-15T14:09:30.468Z
+date: 2026-05-15T14:29:26.595Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
@@ -14,9 +14,6 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 > Комплексный инструмент, позволяющий проверять модель на наличие свойств, заполненность значений свойств, на пересечения (Clash Detective), наличие элементов и т.д.
 {.is-info}
-
-
-Нажмите на вкладке SIGNAL PRO на панели Проект → Checker
 
 ![image-1684131979882.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemH-0zmYNVCEGsCH9nD9dUvZPMypTpfCEzww2n9lmrQ1q5mKANSUYS8Yr5CcvTbh8oqEP9Hg41Jper5kvUmsDILT8lPhg6McpWkAOncLn2ijnJuC1cusVoHlrhF4htJVIzxDAYC5MRbmnEYpm7uQ?key=kvd51ahbWRxAG7mrOPv7NQ)
 
