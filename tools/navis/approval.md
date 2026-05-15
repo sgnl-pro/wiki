@@ -2,7 +2,7 @@
 title: TOOLS. Согласование
 description: 
 published: true
-date: 2026-05-15T08:04:50.323Z
+date: 2026-05-15T08:34:48.665Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:29:02.534Z
@@ -17,6 +17,7 @@ dateCreated: 2025-09-21T11:29:02.534Z
   
   
 ## Завершить/Принять/Запланировать {#statuses}
+### Завершить/Принять/Запланировать {#statuses}  
 
 Используя команды Завершить (Completed), Принять (Accepted) и Запланировать (Planned) можно присвоить соответствующий статус элементам.
 
@@ -49,8 +50,12 @@ dateCreated: 2025-09-21T11:29:02.534Z
 
 ![image-1683289638537.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqCC2cYOEKdjr3ssSSahmQ2HE_jxtoY2N4dC38XDT4raslZ85fTryuA8rOSWb4qR-AXPeebgTm1KqAh_ui0_m4rlCatIC1JJIKqbbxLRjiYSOKzViNlpdTY9WQcPNFfSOqmHR32GYPWKM-9j_MuA?key=y84hG1tGSPT0ueaXfEQOLw)
 
-## Процент
-
+  
+  
+  
+  
+## Процент {#procent}
+### Процент {#procent}
 > Инструмент предоставляет возможность записать процент выполненных работ для каждого элемента модели. Например, его можно использовать для оценки прогресса выполнения инженерных сетей с разбивкой по этажам, квартирам или по помещениям. Это позволяет более точно контролировать прогресс работ и оценить степень завершенности проекта.{.is-info}
 
 1\. Выберите элемент/элементы и нажмите на вкладке SIGNAL на панели Согласование ➤ Процент
@@ -79,8 +84,13 @@ dateCreated: 2025-09-21T11:29:02.534Z
 
 ![image-1688029176622.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePDZ1Tny4EMlNEplNCRUYL31ntE9G0pZDcX9iUt_rjpPT8SsYW2eGQlaz10C5G0caVLP3hBtLbGLzctuAx5m9BkAh56I5vmgYaDXZVpVhKQ6unGVvkMv5puCrwt_70O8r7tCtuPvFQ0avnfXWCsQ?key=i-4zDvsgwTb3ZQgDXeB9kw)
 
-## Копировать из R
-
+  
+  
+  
+  
+## Копировать из R {#copy_from_revit}
+### Копировать из R {#copy_from_revit}
+  
 Инструмент используется для копирования S параметров согласования из вкладки “Объект” в вкладку “SIGNAL”, если присвоение статусов ([_закрытие работ_](https://wiki.sgnl.pro/app/page/1zKM2m_O8NPfp5ETOf5NXd1MkKZfEhWvHyyJyEXGYUaM)) производилось в Revit.
 
 1\. Нажмите на вкладке SIGNAL на панели Согласование ➤ Копировать из R
