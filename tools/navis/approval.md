@@ -2,7 +2,7 @@
 title: TOOLS. Согласование
 description: 
 published: true
-date: 2026-05-15T08:34:48.665Z
+date: 2026-05-15T11:51:35.613Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:29:02.534Z
@@ -11,38 +11,42 @@ dateCreated: 2025-09-21T11:29:02.534Z
 <sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
 
 ---
-
-# Вкладки{.tabset}
+Во вкладке "Согласования" располагаются инструменты для проставления текущего статуса элементам модели. Данные функции нужны для создания строительной модели и ее дальнейшей [визуализации в модуле DASHBOARD](https://wiki.sgnl.pro/ru/dash/cards-50)
   
+![roamer_3hyzsqq4u3.png](/sgnl_tools_navis/approval/roamer_3hyzsqq4u3.png)
+  
+  
+# Вкладки{.tabset}
+ 
   
   
 ## Завершить/Принять/Запланировать {#statuses}
 ### Завершить/Принять/Запланировать {#statuses}  
 
-Используя команды Завершить (Completed), Принять (Accepted) и Запланировать (Planned) можно присвоить соответствующий статус элементам.
+Используя команды Завершить (Completed), Принять (Accepted), Запланировать (Planned), Закрыть (Closed) можно присвоить соответствующий статус элементам.
 
-1\. Выберите элемент/элементы и нажмите на вкладке SIGNAL на панели Согласование ➤ Завершить/Принят/Запланировать
+1\. Выберите элемент/элементы и нажмите на вкладке SIGNAL на панели Согласование ➤ Завершить/Принять/Запланировать/Закрыть
 
-![image-1688029260966.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdm-oFoQDxht-fAf87hsKCPdD4Hd7LirBXh6AJkCq_5cU7lmKMVLMQQJQY1QN8iK5R9yVW-VUlSU5Fqr66-J7SkAYEit_gBg9tRZEb08lB0w6IApUZhXgvlj8fPjEsgpSvLwZATMjlyoRR-QRJUow?key=y84hG1tGSPT0ueaXfEQOLw)
 
 -   **Завершить** - дата фактического выполнения.
--   **Принять** - дата согласования/оплаты по КС-2,3.
+-   **Принять** - дата согласования и приема строительным контролем
 -   **Запланировать** - плановая дата с назначением исполнителя.
+-   **Закрыть** - дата фактического закрытия работ и оплаты по КС2,3
 
 Окна настроек команд Завершить/Принять/Запланировать выглядят одинаково
 
 ![image-1683289600307.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeQEjsWQJkyub8aMkdBWhFy78Dq_sUApm4DqgJtfrSCUmEzBx3jKaAwVc5SGo4aXt-C38eO2LA_ngg5pqFGMNqF77MN628EORA_hv5rC74l8Ij-Xbfmbm0SHA0TZAepfkiKv9Fcu0Xg58U-wRUi?key=y84hG1tGSPT0ueaXfEQOLw)
 
 -   ***В строке “Дата”*** укажите дату завершения работы
--   ***В строке “Вид работ”*** выберите из списка вид работы, связанный с элементом. Работы можно добавлять двумя способами - ручной ввод или импорт таблицы Excel (см. подробнее [_“Настройка видов работ”_](https://youneedawiki.com/app/page/1dhz_RYu3DczaEesG4yRQP9sK60FLyuz8SEMJI7nmX-w))
--   ***В строке “Исполнитель”*** выберите из списка компанию, которая выполняет заданный вид работ. Компанию можно добавить в Настройках плагина Сигнал (см. подробнее [_“Настройка компаний”_](https://youneedawiki.com/app/page/1byu2jCgStsBBE-1zBEfPIjNFxIvRgIgLO45Z09pW2XI))
+-   ***В строке “Вид работ”*** выберите из списка вид работы, связанный с элементом. Работы можно добавлять двумя способами - ручной ввод или импорт таблицы Excel (см. подробнее [_“Настройка видов работ”_](https://wiki.sgnl.pro/ru/tools/navis/panel#jobs))
+-   ***В строке “Исполнитель”*** выберите из списка компанию, которая выполняет заданный вид работ. Компанию можно добавить в Настройках плагина Сигнал (см. подробнее [_“Настройка компаний”_](https://wiki.sgnl.pro/ru/tools/navis/settings#companies))
 -   ***Кнопка “Очистить свойства”*** удаляет значения S параметров у выбранных элементов
 
 2\. После присвоения статуса происходит следующее:
 
--   В свойствах выбранных элементов во вкладке “SIGNAL” появляются соответствующие свойства *“Completed”, “Accepted” и “Planned”*. Так же появляются свойства *“Work”, “Unit”, “Color”, “Contractor”.*
--   Создаются поисковые наборы *“Completed”, “Accepted” ,“Planned” и “Color”*
--   Выбранные элементы окрашиваются в соответствующие статусу цвета. По умолчанию Completed - Зеленый, Accepted - Фиолетовый, Planned - голубой. По желанию цвета можно поменять в настройках плагина (см. [_Раскраска_](https://youneedawiki.com/app/page/165fGF2LyUPst6ZWaw12UnxbiSHVFcoz_XI6Nh9hozdA))
+-   В свойствах выбранных элементов во вкладке “SIGNAL” появляются соответствующие свойства *“Completed”, “Accepted” и “Planned”, "Closed"*. Так же появляются свойства *“Work”, “Unit”, “Color”, “Contractor”.*
+-   Создаются поисковые наборы *“Completed”, “Accepted” ,“Planned”, "Closed" и “Color”*
+-   Выбранные элементы окрашиваются в соответствующие статусу цвета. По умолчанию Completed - Зеленый, Accepted - Фиолетовый, Closed - жёлтый, Planned - голубой. По желанию цвета можно поменять в настройках плагина (см. [_Раскраска_](https://wiki.sgnl.pro/ru/tools/navis/settings#painting))
 
 ![image-1683289668766.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6rB8l-q5WYrT1z3Og75_T2HPCzyxrPgMpUCGUACoio_Z_SwddcC6eiMlBrcucgqQ5gPHyI4EUmhq9k65noNcguCEeWzCgapgmMX6kC9UkBD-yxACkI0pTqpIkDOv1KLHKo78LvyabVzH4FNOw?key=y84hG1tGSPT0ueaXfEQOLw)
 
@@ -60,7 +64,6 @@ dateCreated: 2025-09-21T11:29:02.534Z
 
 1\. Выберите элемент/элементы и нажмите на вкладке SIGNAL на панели Согласование ➤ Процент
 
-![image-1688029077358.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkPWkMaq0lEIbZGPYD5FClRYi-peCOR9iu0cT_w7ljC9ISsPV3Yk_yIexYtski4bAt_91aMflojjfkHFaExN4JcLTQdQiQXLRO4CeXHrDIODqK2RJmKhm3-vrYdtDt5XJIKMSz78LFUJ-RfpYkzw?key=i-4zDvsgwTb3ZQgDXeB9kw)
 
 2\. В открывшемся окне укажите процент выполнения работы и из выпадающего списка выберите вид работы. Нажмите “ОК“
 
@@ -80,25 +83,10 @@ dateCreated: 2025-09-21T11:29:02.534Z
 
 ![image-1688029159255.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7OmdXcmWUUMnfK39bANvOuP-qduJSK6f7xcEY7LSHUkbAN_4mSFKmU_0ORAqVZgbNMY8F4rWFzX-Dyjnff7J9DlNoYmQ9k-8ZmEFzTD4q4in4hRxE7jNZv5qJo-9JFubg9LeX83HxZNI2CAWA?key=i-4zDvsgwTb3ZQgDXeB9kw)
 
-4\. Для того чтобы раскрасить элементы по проценту воспользуйтесь инструментом [_“Раскрасить”_](https://wiki.sgnl.pro/app/page/1sKveQeB11oVjviyFR_BPtaX1OzUCGXkbAwkLJ_8uMJ8)
+4\. Для того чтобы раскрасить элементы по проценту воспользуйтесь инструментом [_“Раскрасить”_](https://wiki.sgnl.pro/ru/tools/navis/coloring#painting)
 
 ![image-1688029176622.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePDZ1Tny4EMlNEplNCRUYL31ntE9G0pZDcX9iUt_rjpPT8SsYW2eGQlaz10C5G0caVLP3hBtLbGLzctuAx5m9BkAh56I5vmgYaDXZVpVhKQ6unGVvkMv5puCrwt_70O8r7tCtuPvFQ0avnfXWCsQ?key=i-4zDvsgwTb3ZQgDXeB9kw)
 
-  
-  
-  
-  
-## Копировать из R {#copy_from_revit}
-### Копировать из R {#copy_from_revit}
-  
-Инструмент используется для копирования S параметров согласования из вкладки “Объект” в вкладку “SIGNAL”, если присвоение статусов ([_закрытие работ_](https://wiki.sgnl.pro/app/page/1zKM2m_O8NPfp5ETOf5NXd1MkKZfEhWvHyyJyEXGYUaM)) производилось в Revit.
 
-1\. Нажмите на вкладке SIGNAL на панели Согласование ➤ Копировать из R
-
-![image-1688029273985.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXefWhm00NdiHrR1P8i8HzuMTFD_sW9DfJ1rFfDCM9IeWQJoOaBE25KnAHP1xbkF3itVIomZVniTHD0fO73GEMelD12LoPjNyILwaeNzQLGT-5WGKsIm6Iy6i4OKX8ewLYvWZwC7Uz8qIlSImxP0Qw?key=Hmk684qvnczX_w97ZRPBTg)
-
-2\. В элементах, которым присвоены статусы, свойства*“S Completed”, “S Accepted” и “S Planned”, а также “S Work”, “S Unit”, “S Color”, “S Contractor”* из вкладки “Объект” скопируются в вкладку “SIGNAL”
-
-![image-1683289905105.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZpnoNRIzJc1aMt6ACEobZoRGg5bdR3RGMRKI6-TSG3WkCIzK7iMOAHTiaXxDgnj64jfrYcljtZexOWFnRxEKmrCO_c2V6TSH13UZYPEixsiItfqqVWxYOWgH4Oop3Y3-vR0BjUElmvbLm-sCE?key=Hmk684qvnczX_w97ZRPBTg)
   #
 <sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
