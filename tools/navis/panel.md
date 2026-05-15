@@ -2,7 +2,7 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-03-24T08:39:35.682Z
+date: 2026-05-15T08:30:09.462Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
@@ -11,34 +11,45 @@ dateCreated: 2025-09-21T11:09:12.445Z
 <sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Согласование   >](/ru/tools/navis/approval)**</sub>
 
 ---
-
-# Вкладки{.tabset}
-## Панель SIGNAL
+# Панель SIGNAL
 
 Панель SIGNAL позволяет собрать в одном месте информацию об элементе или наборах элементов, содержит различный вспомогательный функционал для удобной работы со свойствами SIGNAL, прикрепления к элементам модели различных документов, взаимодействия с видами работ и быстрой настройки оптимального вида
 
 Нажмите на вкладке SIGNAL на панели Настройки ➤ Панель
 
 ![image-1684403221122.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdV1bmw49Rk9Wn_iW-KBxRm9JV2lma4p8tBEp3_WoiWHhbMFjr55Mk6PWuaX2O61ariQz_ALzRC6zTGyWnna19s3Qlim_eFmCvNw2cyhLZH_FL6v0J0ALoNuwq7S3caHas0KdNFM9KXY_ZFAYgkUg?key=tRlsOkJXozCsU1RvreZA6g)
+  
+  
+# Вкладки{.tabset}
 
-### Свойства SIGNAL
+  
+## Свойства SIGNAL {#attributes}
+### Свойства SIGNAL {#attributes}
 
-На данной вкладке отображаются все свойства SIGNAL и их значения, а также [_количественные величины_](https://wiki.sgnl.pro/app/page/1YnwX-iUsD6azYduNIQ1QEgL4d7WcJoifse5kbTRY1DI) (Объем/Площадь/Длина/Вес) выбранных элементов.
+На данной вкладке отображаются все свойства SIGNAL и их значения, а также [_количественные величины_](https://wiki.sgnl.pro/ru/tools/navis/calculation#common) (Объем/Площадь/Длина/Вес) выбранных элементов.
 
 ![image-1684403253959.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqBrn8Ui5_5dPgHLOaEGVZldtU1agB9bUU4U8U02LFNpzWiavOewKZ_2yIQVZpMIZG3P93bVVyZd2YG2hWvARzEVQGONTRVucYnvGusdTvpI_MCWkiZj1RbGrWtpQRg2pL2O7MNNvfvvzCI9Atyw?key=tRlsOkJXozCsU1RvreZA6g)
 
 -   ***Кнопка “ПРИМЕНИТЬ СТАНДАРТНЫЙ ВИД”*** изменяет настройки видового экрана для более комфортной работы с моделью.
 -   ***Кнопка “Редактировать”***  позволяет отредактировать значение свойства у элемента/элементов.
 
-![image-1684403275262.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeMbZOHKtgQbHgjqSzvVpHT22hmfDBPVBOGPiAIsxAivfiQSw1ZpKvsH57TIde5dgZLL3YSbOZwGJb4QLrPDzzcv9thmdXfZy9IqrIs-3x8WnZihWgNqFBHd-XJBoKvvO_vxf89yk-iNe_ZBdRvrA?key=tRlsOkJXozCsU1RvreZA6g)
+  
+  
 
-## Работы
-
+## Работы {#jobs}
+### Работы {#jobs}
+  
 На данной вкладке отображается настройка видов работ и избранных свойств.
 
 ### Виды работ
 
-Настройка позволяет добавить Виды работ, которые будут указываться при использовании инструментов [_Завершить/Принять/Запланировать_](https://wiki.sgnl.pro/app/page/1zKM2m_O8NPfp5ETOf5NXd1MkKZfEhWvHyyJyEXGYUaM), [_КС-2_](https://wiki.sgnl.pro/app/page/14bG4-KwLWWuxoYhc41NnsN0og35BPMUjGSIQtA1UmMU), [_Отчет_](https://wiki.sgnl.pro/app/page/1OglFwAkJ3Hm5ABVYgUaBps70hIWcxi_IzQ3BSOwao8Y), [_Бюджет_](https://wiki.sgnl.pro/app/page/1FeNm01-R_mnKIDgArLMskdFZuktHHsLGGpWYZohuFM4). Подготовьте свою структуру по видам работ, используемую на объекте. Виды работ находятся на панели SIGNAL в вкладке “Работы”
+Настройка позволяет добавить Виды работ, которые будут указываться при использовании инструментов
+* [_Завершить/Принять/Запланировать_](https://wiki.sgnl.pro/ru/tools/navis/approval), 
+* [_КС-2_](https://wiki.sgnl.pro/ru/tools/navis/export-import#ks2), 
+* [_Отчет_](https://wiki.sgnl.pro/ru/tools/navis/export-import#log), 
+* [_Бюджет_](https://wiki.sgnl.pro/ru/tools/navis/export-import#budget). 
+
+Подготовьте свою структуру по видам работ, используемую на объекте. Виды работ находятся на панели SIGNAL в вкладке “Работы”
 
 Нажмите на панели Настройки ➤ “Панель” ➤ Вкладка “Работы”
 
