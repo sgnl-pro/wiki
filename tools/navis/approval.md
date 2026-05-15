@@ -2,13 +2,13 @@
 title: TOOLS. Согласование
 description: 
 published: true
-date: 2026-05-15T12:03:31.173Z
+date: 2026-05-15T14:11:35.718Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:29:02.534Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Checker](/ru/tools/navis/checker)     **|**     [TOOLS FOR NAVIS. Замечания   >](/ru/tools/navis/issues)**</sub>
 
 ---
 >Во вкладке "Согласования" располагаются инструменты для проставления текущего статуса элементам модели. Данные функции нужны для создания строительной модели и ее дальнейшей [визуализации в модуле DASHBOARD](https://wiki.sgnl.pro/ru/dash/cards-50)
@@ -91,4 +91,4 @@ dateCreated: 2025-09-21T11:29:02.534Z
 
 
   #
-<sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Checker](/ru/tools/navis/checker)     **|**     [TOOLS FOR NAVIS. Замечания   >](/ru/tools/navis/issues)**</sub>
