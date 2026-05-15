@@ -2,13 +2,13 @@
 title: TOOLS. Свойства
 description: 
 published: true
-date: 2026-05-15T12:36:40.567Z
+date: 2026-05-15T14:18:16.966Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:57:03.438Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Экспорт | Импорт](/ru/tools/navis/export-import)     **|**     [TOOLS FOR NAVIS. Checker   >](/ru/tools/navis/checker)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Раскраска](/ru/tools/navis/coloring)     **|**     [TOOLS FOR NAVIS. Утилиты   >](/ru/tools/navis/attachments)**</sub>
 
 ---
 
@@ -79,4 +79,4 @@ dateCreated: 2025-09-21T11:57:03.438Z
 
 ![image-1683289905105.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZpnoNRIzJc1aMt6ACEobZoRGg5bdR3RGMRKI6-TSG3WkCIzK7iMOAHTiaXxDgnj64jfrYcljtZexOWFnRxEKmrCO_c2V6TSH13UZYPEixsiItfqqVWxYOWgH4Oop3Y3-vR0BjUElmvbLm-sCE?key=Hmk684qvnczX_w97ZRPBTg)  
   #
-  <sub>**[<   TOOLS FOR NAVIS. Экспорт | Импорт](/ru/tools/navis/export-import)     **|**     [TOOLS FOR NAVIS. Checker   >](/ru/tools/navis/checker)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Раскраска](/ru/tools/navis/coloring)     **|**     [TOOLS FOR NAVIS. Утилиты   >](/ru/tools/navis/attachments)**</sub>
