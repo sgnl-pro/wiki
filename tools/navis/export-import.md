@@ -2,13 +2,13 @@
 title: TOOLS. Экспорт | Импорт
 description: 
 published: true
-date: 2026-05-15T12:35:46.439Z
+date: 2026-05-15T14:15:46.155Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:51:01.935Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Раскраска](/ru/tools/navis/coloring)     **|**     [TOOLS FOR NAVIS. Свойства   >](/ru/tools/navis/properties)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Создание ПН](/ru/tools/navis/search-sets)     **|**     [TOOLS FOR NAVIS. Раскраска   >](/ru/tools/navis/coloring)**</sub>
 
 ---
 >Инструменты, расположенные во вкладке Экспорт/Импорт, позволяют извлекать данные из информационные модели в самых разнообразных форматах, а также импортировать атрибутивную информацию из сторонних систем и/или других версий данной информационной модели. Инструменты заточены под реальные практики из жизненного цикла информационной модели
@@ -402,4 +402,4 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 
   #
-  <sub>**[<   TOOLS FOR NAVIS. Раскраска](/ru/tools/navis/coloring)     **|**     [TOOLS FOR NAVIS. Свойства   >](/ru/tools/navis/properties)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Создание ПН](/ru/tools/navis/search-sets)     **|**     [TOOLS FOR NAVIS. Раскраска   >](/ru/tools/navis/coloring)**</sub>
