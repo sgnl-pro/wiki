@@ -2,13 +2,13 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-05-15T12:39:04.820Z
+date: 2026-05-15T14:09:30.468Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Свойства](/ru/tools/navis/properties)     **|**     [TOOLS FOR NAVIS. Проекты   >](/ru/tools/navis/projects)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Согласования   >](/ru/tools/navis/approval)**</sub>
 
 ---
 
@@ -192,4 +192,4 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 
 #
-<sub>**[<   TOOLS FOR NAVIS. Свойства](/ru/tools/navis/properties)     **|**     [TOOLS FOR NAVIS. Проекты   >](/ru/tools/navis/projects)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Панель](/ru/tools/navis/panel)     **|**     [TOOLS FOR NAVIS. Согласования   >](/ru/tools/navis/approval)**</sub>
