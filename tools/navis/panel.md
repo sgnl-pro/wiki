@@ -2,7 +2,7 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-05-15T08:30:09.462Z
+date: 2026-05-15T09:01:24.572Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
@@ -53,21 +53,19 @@ dateCreated: 2025-09-21T11:09:12.445Z
 
 Нажмите на панели Настройки ➤ “Панель” ➤ Вкладка “Работы”
 
-Папки и виды работ можно [_добавить вручную_](https://wiki.sgnl.pro/app/page/15TseITdEo6zT0WlV17duMqUmMyIyTt0TEgm11ZIIJQI), или [_импортировать готовый Excel файл_](https://wiki.sgnl.pro/app/page/1nbYwwA9s-NXg1BHv1BtM68TIXSnB-11sGD7BWEyz1eg).
+Папки и виды работ можно [_добавить вручную_](https://wiki.sgnl.pro/ru/tools/navis/settings#standart_searchsets), или _импортировать готовый Excel файл_.
 
+![t4n_panel_main.png](/sgnl_tools_navis/panel/t4n_panel_main.png)  
 1.  Добавление новой папки.
 2.  Добавления нового вида работ.
-3.  Кнопка “Дублировать” позволяет дублировать выбранную папку или вид работ с сохранением значений и условий внутри видов работ
-4.  Импорт видов работ из таблицы Excel.
-5.  Импорт видов работ из файла XML, выгруженного из Primavera. Импортируйте виды работ из Primavera, отмечайте выполнение работ и выгружайте процент выполнения с помощью _"_[_Процент Primavera_](https://wiki.sgnl.pro/app/page/1p_cJWuFpFAI1kYUFbIz5sED4WByNK_pYElKda09ZOB8)_"_.
-6.  Экспорт видов работ в таблицу Excel.
-7.  Очистить список видов работ.
-8.  Условия создания поисковых наборов. (См. подробнее [_"Создание Условий"_](https://wiki.sgnl.pro/app/page/1dGtbOpYGviEU75IoqM3rgmuKhx30Z7S5wyhGoTXeLX0))
-9.  Если переключатель “Создавать только непустые наборы” активен, то будут созданы только те поисковые наборы, которые удовлетворяют условиям создания ПН. Если переключатель не активен, то буду созданы поисковые наборы по всем видам работ, даже те, у которых условия создания заполнены некорректно. Если условия создания не заполнены, то не зависимо от положения переключателя ПН создан не будет.
+3.  Импорт/экспорт видов работ в разные форматы. Доступен импорт из Excel, DOCS, MPP, Primavera
+4.  Очистить список видов работ.
+5.  Если переключатель “Создавать только непустые наборы” активен, то будут созданы только те поисковые наборы, которые удовлетворяют условиям создания ПН. Если переключатель не активен, то буду созданы поисковые наборы по всем видам работ, даже те, у которых условия создания заполнены некорректно. Если условия создания не заполнены, то не зависимо от положения переключателя ПН создан не будет.
 
-С помощью инструмента [_“Работы”_](https://wiki.sgnl.pro/app/page/1-B8HMIqIDN4CnwWo3yZXYVBYlf7Lq4anPwmk5eLtGXw) можно создать поисковые наборы видов работ, но для этого необходимо указать условия создания ПН (см. [_“Создание Условий”_](https://wiki.sgnl.pro/app/page/1dGtbOpYGviEU75IoqM3rgmuKhx30Z7S5wyhGoTXeLX0)):
-  
-### Импорт из Excel
+С помощью инструмента [_“Работы”_](https://wiki.sgnl.pro/ru/tools/navis/search-sets#jobs) можно создать поисковые наборы видов работ
+
+<details>  
+<summary> Импорт из Excel </summary>
 
 ![image-1683286603846.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeU6jReyLVlI7mQMfIoxv0_viQJ2sgFg1PY7SNiKUH0VGVAmJidmnBOe7mV1TZUUqruVy_NMFkjNBqv0_h8hgjAr3f3R0eM1SgZvIjlmOj6WUmvHpO81xUSCopVMVnPeBFEqyk0z1nKYjaG6OBpxw?key=jUT98gLp1Q8zkf4jZozAlA)
 
@@ -102,58 +100,64 @@ W2.1.1 - означает, что вид работ должен быть соз
 
 ![image-1683286673654.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe2pJKpSlK9M35q5AUavk1ICLo3oX7824fkQ7pMTpWrq4Q3Xg_03sQ56sCqWxBj8-4XTz37fhXg2V431AZ2FaFq-o-4E33-HCN3BD5WtrmRejfeI7mAJCShiRXvT4FWHPxQAVuujbOKD7R907JEOg?key=jUT98gLp1Q8zkf4jZozAlA)
 
-## Избранные свойства
+</details>
 
-Данная настройка собирает в одном месте избранные свойства, которые помогают в создании условий для видов работ и могут быть выгружены в BIM-Link для упрощения поиска только необходимых свойств.
+  
+  
+  
+  
+## Избранные свойства {#fav_attributes}
+### Избранные свойства {#fav_attributes}
+  
+Данная настройка собирает в одном месте избранные свойства, которые помогают в создании условий для видов работ и могут быть выгружены в [BIM-Link]() для упрощения поиска только необходимых свойств.
 
 ![image-1684403381860.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeG5XgAlqrvemXV7wOhoSTkE2KRezYBv-7AyajHhAtNIFBHhlPhT2x9PzN_fciGgbZTiJSfEgfIcNwGAFH0fpqRoA1BrWh9xT3J9YLNH--Pb7m0QzbkN_CB2UFgnsf6YJ-hO8zzWkzJRxadJyh6?key=TD6yNyO8q0mQqb8xM9spyA)
 
-1\. Нажмите 
-
-![image-1684403401111.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfU4quiXD8kmox0ICdGWVbgcwDtA30jE2hB_BBdB55p1jKAJ04vQcs8cDa1M2Kd0HxNYstrUmNj7Gk3Ce0rzVs0Alg2T8sXl4LkQjCoqCmkzwjucPGEuufAP5jgnk4kcWs9yLFwNuxcTI6KYeD_BA?key=TD6yNyO8q0mQqb8xM9spyA)
-
-, чтобы добавить избранное свойство.
+1\. Нажмите "+" чтобы добавить избранное свойство.
 
 2\. Откроется окно с свойствами проекта. Выберите необходимые свойства и нажмите “ОК”
 
 ![image-1684403415494.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe3RNRL7NHypnkDiQ_MO0Fk4CnyeAvUvv-XadRaFCzLUklWEB9glj9rbEdS0dKLgsR3xi4WrJp6b7ZhUjOdExyOgRvcwmpSvFyNnuErIQanWAa_zNejGEJSa_ourYZcbtou_wzg_4F9D94b4Lzp?key=TD6yNyO8q0mQqb8xM9spyA)
 
--   Начните вводить значение в поле “ПОИСК” ➤ список покажет свойства, содержащие введенное значение. Левый столбец - “Категория”, правый - “Свойство”.
+Начните вводить значение в поле “ПОИСК” ➤ список покажет свойства, содержащие введенное значение. Левый столбец - “Категория”, правый - “Свойство”.
 
 ![image-1684403448843.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcCJayqgZWCHKcXTQG_GeICbwbTYUh2n7AropXemc71Mx_kZ2E67r0rIl1l-Thp2EhBhomKZh6f3WZ-yurjO3YnlHbMGOAdOmoSgO3BieQKh1jH_vrzj37XLUvrG9Ef0nJI6ugMUgwGJAfSlliV?key=TD6yNyO8q0mQqb8xM9spyA)
 
-3\. Выбранные свойства добавятся в список избранных свойств. При выборе какого-либо элемента в столбце “Значение” будет появляться значение свойства выбранного элемента. С помощью избранных свойств можно создать условия для видов работ (См. [_Создание условий)_](https://wiki.sgnl.pro/ru/tools/tools-work/creating-work-manually)
+3\. Выбранные свойства добавятся в список избранных свойств. При выборе какого-либо элемента в столбце “Значение” будет появляться значение свойства выбранного элемента. С помощью избранных свойств можно создать условия для видов работ (См. [_Создание условий)_](https://wiki.sgnl.pro/ru/tools/navis/settings#standart_searchsets)
 
-## Вложения
+  
+  
+  
+## Вложения {#attachments}
+### Вложения {#attachments}
 
 На данной вкладке отображаются прикрепленные папки и файлы к элементам.
 
-Для прикрепления локальных файлов и папок с Вашего компьютера в настройках [_“Документы”_](https://wiki.sgnl.pro/app/page/1ZiqzZQDduXanSaQ7i9MH_mfoefjEa6NqJw1AJyZ3DtY) укажите путь к корневой папке с документами.
+Для прикрепления локальных файлов и папок с Вашего компьютера в настройках [_“Документы”_](https://wiki.sgnl.pro/ru/tools/navis/settings#documents) укажите путь к корневой папке с документами.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXepsh8iEaqwHoHKMHpdBkHJM9NPbNNVTDGXvM6gliPfwVujt3QhTH7_N-sp2qpvtEICJzUTKNYGDvmvV0aULrqhll_CX9p0GQG82bySXhrZ4Qd-eTIyI6IsZQVcypJCCLKZZ8wJJ_qRvPePJTR7rw?key=aqcxwRFcmRWJMTA192jxog)
 
--   ***Кнопка “Перейти к Web документу”***  [](https://wiki.sgnl.pro/uploads/images/gallery/2023-05/image-1684403492751.png)позволяет открыть прикрепленную к элементу ссылку на web-страницу.
+-   ***Кнопка “Перейти к Web документу”***  позволяет открыть прикрепленную к элементу ссылку на web-страницу.
 -   ***Кнопка “Открыть файл”***  позволяет открыть прикрепленный локальный файл или папку
 -   ***Кнопка “Открыть папку”***  позволяет открыть прикрепленную локальную папку.
--   ***Выберите элемент и нажмите*** , чтобы прикрепить локальный файл. Откроется окно с папками и файлами. Поставьте галочку напротив файла или нескольких файлов, и нажмите “ОК”. Файлы прикрепятся к выбранным элементам.
+  
+-   ***Выберите элемент и нажмите "Файл"*** , чтобы прикрепить локальный файл. Откроется окно с папками и файлами. Поставьте галочку напротив файла или нескольких файлов, и нажмите “ОК”. Файлы прикрепятся к выбранным элементам.
 
 ![image-1684403547301.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfkancxCnXbOR2c5V3OKR22csKK90eVfeStPmRNrwOXgtxzydCWmgDioIroODnDCSMaVGzI24ufl4ju2PG-valuTTSij7bgUSm61lzlMFkY100tTSGFakZeJWdP8puKxfEMygugm1ITgnskfmr5vg?key=aqcxwRFcmRWJMTA192jxog)
 
--   ***Выберите элемент и нажмите*** , чтобы прикрепить локальную папку. Откроется окно с папками. Поставьте галочку напротив папки или нескольких папок, и нажмите “ОК”. Папки прикрепятся к выбранным элементам
+-   ***Выберите элемент и нажмите "Папка"*** , чтобы прикрепить локальную папку. Откроется окно с папками. Поставьте галочку напротив папки или нескольких папок, и нажмите “ОК”. Папки прикрепятся к выбранным элементам
 
 ![image-1684403618907.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUg45UC4WFlFwrjfltSd49U6UqB54ZsCYMYxm9NGL5AZQiW2-cikMNyXH3EO7kMaO98amfKyohyN12rTrtDFbjnIkwq0E1pJ921Rd-x8UYnScHt-wRazlVtnx6vXwUeuulvjtt15TXpnbtNIWUAg?key=aqcxwRFcmRWJMTA192jxog)
 
-.
-
--   **Выберите элемент и нажмите** , чтобы прикрепить ссылку на web-страницу. Введите ссылку и нажмите ОК.
+-   **Выберите элемент и нажмите "Ссылка"** , чтобы прикрепить ссылку на web-страницу. Введите ссылку и нажмите ОК.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdTChBa-hbxIyxZREA1i0sYkis5WTSmdeimUO9uAgxT7RFpnBxody1nvj9oikuozTwxYGbwGvcOXXklfWgB1SoBXwoYctqn2xtbLeSSVXhoaU8JwPpJjm8qPI0-VCIQVKAfrDEDcr-NNQqChzxO0w?key=aqcxwRFcmRWJMTA192jxog)
 
--   **Выберите элемент и нажмите** , чтобы прикрепить замечание из DOCS. Откроется реестр замечаний, выбранного проекта во вкладке [_“Основные”_](https://wiki.sgnl.pro/app/page/1VZKa5VY-eaElXKzpwmKikcohhV8KuNG6iiBaAzT5Lc4). Выберите замечание и нажмите “Продолжить”. Замечание прикрепится к элементу, цвет элемента изменится в соответствии с настройкой [_“Раскраска”_](https://wiki.sgnl.pro/app/page/165fGF2LyUPst6ZWaw12UnxbiSHVFcoz_XI6Nh9hozdA)
+-   **Выберите элемент и нажмите "ISSUE"** , чтобы прикрепить замечание из DOCS. Откроется реестр замечаний, выбранного проекта во вкладке [_“Основные”_](https://wiki.sgnl.pro/ru/tools/navis/settings#general). Выберите замечание и нажмите “Продолжить”. Замечание прикрепится к элементу, цвет элемента изменится в соответствии с настройкой [_“Раскраска”_](https://wiki.sgnl.pro/ru/tools/navis/coloring)
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4e-zJw-Sf00AuUr8KQbWSwGim6qGDZ5FYsexEi0m9opiraE6TE6xztkvNpr6BivLJ9ibrhAYdHNBTT-UXYxXDSmTJjpvbfGSY0NJo_JE59Boep2A4quDNQd3jfXkiXZ-X9jci0YTJcUsf1Nmm?key=aqcxwRFcmRWJMTA192jxog)
 
--   **Выберите элемент и нажмите** , чтобы прикрепить папку или документ из DOCS. Откроется папочная структура, выбранного проекта во вкладке [_“Основные”_](https://wiki.sgnl.pro/app/page/1VZKa5VY-eaElXKzpwmKikcohhV8KuNG6iiBaAzT5Lc4). Выберите папку или файл и нажмите “Продолжить”
+-   **Выберите элемент и нажмите "DOCS"** , чтобы прикрепить папку или документ из DOCS. Откроется папочная структура, выбранного проекта во вкладке [_“Основные”_](https://wiki.sgnl.pro/ru/tools/navis/settings#general). Выберите папку или файл и нажмите “Продолжить”
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNLOdqWq9CWle8h5gZW8AKKg3TfpnroRmyAjoLQzkRKLcVMGsg8XbR3xW4R-31kBln90jGx3lnnGRor3rs1uBuA3PoDZLXLPohHsT3XTHZw5XHJNGxfyJEZPr-ed_CbfRqBBEq1U6SfR-wpAuhKQ?key=aqcxwRFcmRWJMTA192jxog)
 
@@ -161,21 +165,7 @@ W2.1.1 - означает, что вид работ должен быть соз
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd-kFM7TTYVFVTd8KpD9BeC9YEHbpKI7-Tp2whsZGc6m1lq1GPP4CFDHYDstUzDaZH5gAS13Uqcwd-ILci15mRojJgUMPkgWisFKYY5XwVbyBD8ZLugGHcO3o_qIXfUAuHJs1YWHzvCd84ts29nIQ?key=aqcxwRFcmRWJMTA192jxog)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf5DJEVxOIcy4LKnNpvSTJrBmDOLB-grxWOHfuD7Epkcc-2TVBK5MjruKt65J_Tht5I6f7KUbmCmv5fJz1gH_8PBAG0qo_95Ho4vktnaFmG3zP42zju1mUIUOpswXVspZyEhk_hQtzKGClEkc87Dg?key=aqcxwRFcmRWJMTA192jxog)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdcz6nL7o0lMG9AzmrCc9fAbWoKjrZ1v18voxvpVcdAHZFM3XZ9gD6-cvXovT2QGGrehQdY2C5qhpX0wi1FE9e3wOtbQEoJj-IMVBvpmKceUuTZSJHvYQqtil1VdVUTfLlRuzSa-otyAXCWzkERGQ?key=aqcxwRFcmRWJMTA192jxog)
-
-![image-1684403640485.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd5HK9wRdtwT--TIdDKj5V3xqdvlToEixJjvq0nYtK-lV10C4psJtL_xeh7hPsyD2up5Uxm7GZkIcaStRajQCeX7ZlYL2V98Hb-AYdxcdeDI6Ut_OZBxWHQ2ORl6AYbPftADlK_9C8LyVP8z9TVnA?key=aqcxwRFcmRWJMTA192jxog)
-
-![image-1684403579826.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZWuJOj4ZyxofjAg9PTI94mx1rdUU801uK1OhFTRlqoOxgVo8-XKCoUuWx_xw54Ojbr6dbo9trSERYw__SJaLG1STJw03PICJYlcncDWzDCHwwpzr1rq3doFFX5B1tyUF8raTTfehQbA3mqpxRFQ?key=aqcxwRFcmRWJMTA192jxog)
-
-![image-1684403534824.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfYxCgO44oPHKGYpvZtto0g-fFNm6iPIGQdsJYO9w7EZ66Bp9_mT2RJvmzV9YMPzVcPK0DiSqyEMW3mMnuaXTHBbwtNqfYaOEcfg80ZicynTmddcRsHEvqFO52FWM0wjY75wx5yOeWpfRCOqW_fHw?key=aqcxwRFcmRWJMTA192jxog)
-
-![image-1684403522989.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdN2-qkLYDzmAi6WJUl3tSU3uiglX-jzzdYrGnhVoHm2h7kw1q8_6hszjGDPQzjqBdI68eGMqUTmOyzQrekp-9mU2EtVgvxB4Z0EI1o8evn9UBsRnEh1lYAIIRJcCpPGHlBNnDQ9nwzpERUr1Q0Sw?key=aqcxwRFcmRWJMTA192jxog)
-
-![image-1684403509436.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfL8j3zbzSqZiCPuqETsrpAPduXxFQ06iQGZtT1qt0_3HcaE1su8XCmggsN3eYUrG86bObgPJBq2oSxdmrzDxoFGE8FatoWiLxjFZVTE2af6axC3Mp0zNOP8XHspYkw5dMzyRF8dSb_HrjeIBhiPw?key=aqcxwRFcmRWJMTA192jxog)
-
-![image-1684403492751.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcnzMX8FHB31B9_Ci0AdF0uekBA4JtvElWMnpct3UN9s38Ph0M9D5Q3R0sv2Ke9DIeDd5TLF-aB8lIQgHiz5h8BC4ehHt0Dw5FR5Z8qUp1vbdxQ-GtB2K7Vf6H_1esydGut4Bt3DITRigIwX1vu?key=aqcxwRFcmRWJMTA192jxog)
 
 ## Пользовательские свойства
 
@@ -227,10 +217,5 @@ W2.1.1 - означает, что вид работ должен быть соз
 
 -   ***В строке “Разделитель”*** укажите значение для разделителя между свойствами, например, дефис “-”
 
-![image-1684403978271.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_sMA-eGgES7dNTTTNDJN857Kw-qtUDGjnZjusOM51tdwXaJ3khOWij7dp9L_wP17Y_LDJLQ5VEZEd3LtnG9vLHK2bsUDbknT6tvWF5534HwbT9NeekJodX8KWgsQcNiqUTg0SkjIth0eE0PuD?key=dtY1kvnFechnFCTGfw8Gnw)
 
-![image-1684403910177.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdAfvoONzWsFUI0zDYJWgYs-is5mqwt2uVkfxsZcNGSKagbj0RR4gWuAGcBjvMO9tbTUHj9xIvwDaWm0rUzKKs3BBJkNODT_IRxgJL4L6qMMB5E4X8B5aNcue-_ZifoGB3QBW43I4RiUjxdyr2WLA?key=dtY1kvnFechnFCTGfw8Gnw)
-
-![image-1684403750663.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEDPFnNW9r2rHpjSgCWDbhMLP40Iy6q3FshySZhqAo9uM7VYX7-ZLMthDJvccBvmi8YyuElrtVWV207yCa6WQnr3mFbVQqSbwuoFY2Fa9R-qWbjy-s2oA09F-A1ATeRcYfcvp8ZKl50AX_qIffuQ?key=dtY1kvnFechnFCTGfw8Gnw)
- #
   <sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Согласование   >](/ru/tools/navis/approval)**</sub>
