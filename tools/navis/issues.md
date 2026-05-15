@@ -2,7 +2,7 @@
 title: TOOLS. Замечания
 description: 
 published: true
-date: 2026-02-04T14:16:24.181Z
+date: 2026-05-15T08:11:12.309Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:21:15.211Z
@@ -13,7 +13,10 @@ dateCreated: 2025-09-21T12:21:15.211Z
 ---
 
 # Вкладки{.tabset}
-## Комментарий
+  
+  
+  
+## Комментарий {#comment}
 
 > Инструмент позволяет вносить комментарии в элемент
 {.is-info}
@@ -34,7 +37,10 @@ dateCreated: 2025-09-21T12:21:15.211Z
 -   Элемент окрасится в цвет указанный для комментариев в настройках [_“Раскраски”_](https://wiki.sgnl.pro/app/page/165fGF2LyUPst6ZWaw12UnxbiSHVFcoz_XI6Nh9hozdA). По умолчанию оранжевый.
 -   Создаются поисковые наборы “Comments” с значением комментария и “IssueColor” с цветом замечания.
 
-## S URL
+  
+  
+  
+## S URL {s_url}
 
 > Инструмент позволяет вносить в элемент ссылки, например, на замечания в BIM 360 (ACC Docs) или на сайт производителя оборудования
 {.is-info}
@@ -52,7 +58,10 @@ dateCreated: 2025-09-21T12:21:15.211Z
 
 ![image-1683704146242.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPOE86VYk2ZT0Q5cVEIQ--pNF8SVKOCNw1lTNZkd2GOuqYcLSFGpBjjTKA5BXM_mJJi-HafxqoBD2cjXO_pU_dvuBKrvPM304wMixefj4pbEuT40qKjHqQ3TPoPD3xB0HvUtT1xQE-P_8rY8Z_ew?key=jKxsJ0xmS_f160lKJXYv4A)
 
-## Из DOCS
+  
+  
+  
+## Из DOCS {#from_docs_link}
 
 > *Инструмент для переноса и назначения замечаний из DOCS, на определенные элементы в модели, с ссылкой и комментариями полученными из веб-приложения.*
 {.is-info}
@@ -80,7 +89,11 @@ dateCreated: 2025-09-21T12:21:15.211Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8DJIqMP0oC5ZrKbCkQub9V7QsutStLCZlgAmCtlRRt54_sYITPYUtsipBwTVfhIp7xQNXEq7s7NtXJW8f3u3oH6PPFumOJVKAAfXSmVX3Es76nlyfZeOfMgA7zMaTUUyK2NVWhw?key=IbnQ9QC0ZrgOH91pJKt7uA)
 
-## Импорт замечаний
+  
+  
+  
+  
+## Импорт замечаний {#from_docs}
 
 > *Инструмент позволяет импортировать и закреплять замечания с привязкой по элементам, из модели SIGNAL DOCS в ту же модель Navisworks, по коду элементов.*
 {.is-info}
