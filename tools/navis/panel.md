@@ -2,7 +2,7 @@
 title: TOOLS. Панель
 description: 
 published: true
-date: 2026-05-15T14:10:18.722Z
+date: 2026-05-15T14:10:26.833Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:09:12.445Z
@@ -216,5 +216,5 @@ W2.1.1 - означает, что вид работ должен быть соз
 
 -   ***В строке “Разделитель”*** укажите значение для разделителя между свойствами, например, дефис “-”
 
-
+#
 <sub>**[<   TOOLS FOR NAVIS. Настройки](/ru/tools/navis/settings)     **|**     [TOOLS FOR NAVIS. Checker   >](/ru/tools/navis/checker)**</sub>
