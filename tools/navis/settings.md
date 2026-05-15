@@ -2,7 +2,7 @@
 title: TOOLS. Настройки
 description: 
 published: true
-date: 2026-05-15T08:31:33.319Z
+date: 2026-05-15T12:46:13.084Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:03:08.040Z
@@ -280,6 +280,20 @@ C помощью команды [_“Стандартные”_](https://wiki.sg
 2\. Нажмите “Добавить компанию по ИНН/ОГРН”, укажите ОГРН или ИНН компании и нажмите Поиск. Выберите компанию и нажмите “ОК”.
 
 ![image-1684131676778.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXes8SEG-cB9f800MhM0X1S8gmSQxBxZYEDQIMKcD-AB3rZyVz4zNKtfneZXbjjRuA4D_gy6LEmk7A-QWPKmpDkuVd7Bj7I3U09kNa-lczzOjoHfjxEIOXwN-kKhsDUekhoxmEhQSu05MMfG9YGS?key=umRQDo5b3Kb2-QphTMtzbQ)
+
+  
+## Проекты
+### Проекты {#projects}    
+> Инструмент позволяет создать проект и внести всю необходимую информацию по данному проекту. Используется для выгрузки [_КС-2_](https://wiki.sgnl.pro/ru/tools/navis/export-import#ks2).
+{.is-info}
+
+1\. Нажмите на вкладке SIGNAL PRO на панели Проект ➤ Проекты
+
+![image-1683790110368.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3dVEkFBlqy4zRzcHMAeKB4Ao6hezwBdxuO4i3WY51vY9nrO-embbQ5hfEa3VPPNtLzmWjnVgiwpaXwrx7j6-GcrESBPaiND_orWJsM5ZJYGQj3F2q3T73wRPEvKqWUndfnfYYH6a9Yj6zT4jSjA?key=ZswrB95vAK-WTdbpiZVA9g)
+
+2\. Откроется окно настройки проектов. Заполните необходимую информацию по проекту, техническому заказчику, генподрядчику и т.д. Данные проекта можно выгружать в форме КС-2.
+
+![image-1683790122205.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfm_1xoDgdE3oxUikvW6VZdpuzpSDMsyFK0pQQujOZnBVsqaeONbOZMQq3VVuPS7JO8NbSw9zsUlzCInqvDrZgZWPI2coVf8tVFjGj7OwtDofUFrNL6WbxBaUySPPn-5dTfADFUS2KFmeGpACyA8g?key=ZswrB95vAK-WTdbpiZVA9g)  
 
 #
 <sub>**[<   TOOLS. Методология работы](/ru/tools/general/methodology)     **|**     [TOOLS FOR NAVIS. Панель    >](/ru/tools/navis/panel)**</sub>
