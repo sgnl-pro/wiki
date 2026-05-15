@@ -2,14 +2,13 @@
 title: FORMS. Заполнение формы
 description: 
 published: true
-date: 2026-05-15T19:55:01.722Z
+date: 2026-05-15T19:55:08.065Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T19:45:47.214Z
 ---
 
 <sub>**[<   FORMS. Настройки проекта](/ru/forms/settings)**</sub>
-  
 #
 
 Пользователи с соответствующими правами создают и заполняют экземпляры форм (ProjectForm). Экземпляр всегда привязан к конкретному проекту и к одному ProjectFormType.
