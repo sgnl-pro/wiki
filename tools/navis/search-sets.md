@@ -2,7 +2,7 @@
 title: TOOLS. Создание ПН
 description: 
 published: true
-date: 2026-05-15T13:51:49.144Z
+date: 2026-05-15T13:52:19.039Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:26:39.914Z
@@ -31,7 +31,7 @@ dateCreated: 2025-09-21T12:26:39.914Z
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Создание ПН ➤ Стандартные
 
-2\. Откроется окно с названиями правил, которые были добавлены в настройках [_“Стандартных ПН”_](https://wiki.sgnl.pro/ru/tools/tools-work/settings-search-sets). Выберите нужные правила для создания поисковых наборов и нажмите “ОК”
+2\. Откроется окно с названиями правил, которые были добавлены в настройках [_“Стандартных ПН”_](https://wiki.sgnl.pro/ru/tools/navis/settings#standart_searchsets). Выберите нужные правила для создания поисковых наборов и нажмите “ОК”
 
 ![image-1683704496177.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSSDpdr4e0ySteGY96NTQWM4hhEUZjsEkYHYdKcJskD5TzXUMp-b6UfT-9k7-WcmqMn5HNVqoHJGwRx3TKzbtdG2xV-ZXTkF9gnDSbQyN4-bLlfrjgfH59B0MafTpsoQEyawZSD-mhAlrBKDyZDw?key=0FOvWB_zpHgdV8W7GcFEcw)
 
