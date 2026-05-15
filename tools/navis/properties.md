@@ -2,7 +2,7 @@
 title: TOOLS. Свойства
 description: 
 published: true
-date: 2026-05-15T14:18:16.966Z
+date: 2026-05-15T14:27:03.680Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:57:03.438Z
@@ -11,9 +11,13 @@ dateCreated: 2025-09-21T11:57:03.438Z
 <sub>**[<   TOOLS FOR NAVIS. Раскраска](/ru/tools/navis/coloring)     **|**     [TOOLS FOR NAVIS. Утилиты   >](/ru/tools/navis/attachments)**</sub>
 
 ---
+>Набор инструментов для работы с атрибутивной информацией модели. Копируйте свойства во вкладку SIGNAL, очищайте значения и синхронизируйте их с Revit.
+{.is-info}
 
-# Вкладки{.tabset}
+![roamer_w0np5xunca.png](/sgnl_tools_navis/prop/roamer_w0np5xunca.png)  
   
+# Вкладки{.tabset}
+
   
 ## Копировать
 ### Копировать {#copy}
@@ -24,7 +28,6 @@ dateCreated: 2025-09-21T11:57:03.438Z
 
 1\. Нажмите на вкладке SIGNAL на панели Свойства ➤ Копировать
 
-![image-1683703629121.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNA9tbEYn5IUi7Jtpe7BmtlLB_FZPwox8VmwKa_cwp8PBEf3lvK2ekj-VGXo_-IxdsbyaqEpTQ1QDFSoiEchl5WeTjbQV0DeOTWcoIXgRqy29pWgewOfEv_GZpbZ_iSccQKGNzrz1cRMFLdQZDtg?key=FunggUEiEdLck2XnZpDGBQ)
 
 2\. Выберите слева из списка пару “Категория-Свойство” откуда будет копироваться значение свойства. Впишите справа пару “Категория-Свойство” куда будет копироваться значение свойства. Нажмите “ОК”.
 
@@ -54,8 +57,6 @@ dateCreated: 2025-09-21T11:57:03.438Z
 
 
 1\. Выберите элементы и нажмите на вкладке SIGNAL на панели Свойства ➤ Удалить
-
-![image-1683703758981.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeBhoWeao-3LtApFOL9SmKBapcnLrFlbKbzcLopNe-8E47mRrFNo0MXC_iKtOOd92ilxkC7qEaeHku18YXK1zb4hI6wxHgyKjLBJAznxjuhHAhcD9P-DwfqHVMu_k3A3nQSc9mcLIr06Ylr0bLdZw?key=bf5wcfC5ZPUq7JWSSAFMKQ)
 
 2\. Выберите параметры SIGNAL, которые требуется удалить и нажмите “ОК”. Плагин удалит значения свойств и сами свойства.
 
