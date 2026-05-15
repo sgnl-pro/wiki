@@ -2,7 +2,7 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-02-04T14:16:00.513Z
+date: 2026-05-15T12:39:04.820Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
@@ -119,11 +119,9 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 ![image-1684132887998.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfogA82mee4glJjx70R5QV54wVP6nYoL2HWhift0Ixea7-e4reW1DgUEYHV6GRvMvTShSDcFHvMWZT2ZHW6J08oLtHjY4xgX_TRFsYpX92cJ77kWHz2U5q_jzQjFfe_GMzhxIQwt_74qN12yGdMKg?key=kvd51ahbWRxAG7mrOPv7NQ)
 
-Шаблоны можно скачать по следующим ссылкам:
+Шаблоны можно скачать по следующей ссылке:
 
-[_Checker\_Template1.xlsx_](https://wiki.sgnl.pro/app/page/18CaGLQx_pwteleJBblnEP4OxQD4592Cd/view)
-
-[_Checker\_Template2.xlsx_](https://wiki.sgnl.pro/app/page/1YO38qsLTx3pybIGwhqkzlFwEkDIUKHQL/view)
+[_Checker\_Template1.xlsx_](https://docs.sgnl.pro/s/f/4d8f615a-27fd-4b1a-a631-c7529eb99f03)
 
 #### Наличие одного из свойств
 
@@ -189,21 +187,9 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   **В столбце “Описание”** можете добавить описание к свойству.
 -   **В столбце “Кол-во”** запишите количество элементов, которое должно быть в модели.
 
-![image-1684133099740.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfTwtvfFO4S0Z-5ce-UUuhyav2gHsgDRVIwekbf6b533JZ2rXlcKvlHyRHYfq35ER4x8BcICM0iFOGLcMe_QIzdUzXC1ZQakeTCjDLRaZS56qClRjO4G6EDk-KQpDX4nko6hMJYb-l7Cb8u3o80hA?key=kvd51ahbWRxAG7mrOPv7NQ)
 
-![image-1684132647623.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXczpSkfWWen4HXnpFCYfcYeBFNJo58cA47gmlprNef9OaxZvU2K_3rBj7dpp-PB-Slu7Yo05jEmCFSvKfcsVuDbtV21OWFVg3ojMlwjHAaCjeKPfaK8hVia-nZ5GmEC4polQBY-NIURduMMx4Gmeg?key=kvd51ahbWRxAG7mrOPv7NQ)
 
-![image-1684132638045.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0_pDGlXzt2_PsVB72cmwBBHxSM0WWZkG_-eJu3C4AAu4rpz_6nOSM6H7qxcHRlr2iXP3x66Fd0VZvg_QloZh62jMT54GF4d0HygIy76nv9UvwUPMnaxjGrdMRLO3nCKZLLXq539oMWIQPY_xP?key=kvd51ahbWRxAG7mrOPv7NQ)
 
-![image-1684132628317.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeaS8uYYf0luWy0ZeVpzfG3uiBowMln3P5gSZxUPYFJXxYywdYeg1-7HzcfioFkeNnu9W3NBzzYhCjmQ1tkrIHIvgg2cFR9aN19wsmH6iDjFeyJXzY4INEPtkEAC4hkFBRYjqj3R5wNv9DVf71pVw?key=kvd51ahbWRxAG7mrOPv7NQ)
-
-![image-1684132619714.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQYMme4Q5xdgXimPBYImSga1ZV9N6dYnCGzobE-VvklOTE6JrLUwPYmry0SUyTL0HMBJGSxuP9RuL-X6SvA4a6CCA2eI36aRaDclJuU08jQxHDj3gsQs1hv48JS7ogPDJI6Ne0hrW5xQp7lR-R2Q?key=kvd51ahbWRxAG7mrOPv7NQ)
-
-![image-1684132609516.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4A-f2hZlsnoGGtKzXAaTPAYqYvNtWVEHPTtmD17Rq6vrcyMJSGWjEKmRfLRTLsm64fRrPUd_R2jbtxbRd2Sc2BtZyVIFRyViCLH6xuXopUhU4W73SZJ4sieIBdQExo-PxRU7Zt1eRdBf9uXHLPQ?key=kvd51ahbWRxAG7mrOPv7NQ)
-
-![image-1684132146482.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdGSgY_3Nr_xRv342Br82046Y_QQJXpk3jSIlRpIAzvdh34C92HfYVh2RaWq0JWnGpNB3yPTI1RwbNIY_EoFdXt4BzJUBn2SqzO10O1zlWC9JNAy0wt8sjciTQnnCudAXrdiAVTXmz3HrYhV0QRQQ?key=kvd51ahbWRxAG7mrOPv7NQ)
-
-![image-1684132146482.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdxLA7WVQjA4f3fKZJdlYhslAxkn0yc2KXokzDvm8CGPlOiUB4RTk2gorR76ohp2pPs4YQuH7HlLEqNexDjOc7k3It_YbEUtST0vjirf2Uqza_Is-KHzdPMYUAnzUUHd18jDLBqnSmf5WFTdi1KmA?key=kvd51ahbWRxAG7mrOPv7NQ)
 
 #
 <sub>**[<   TOOLS FOR NAVIS. Свойства](/ru/tools/navis/properties)     **|**     [TOOLS FOR NAVIS. Проекты   >](/ru/tools/navis/projects)**</sub>
