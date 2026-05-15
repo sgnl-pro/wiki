@@ -2,7 +2,7 @@
 title: TOOLS. Настройки
 description: 
 published: true
-date: 2026-05-15T08:11:50.168Z
+date: 2026-05-15T08:16:29.635Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:03:08.040Z
@@ -11,19 +11,18 @@ dateCreated: 2025-09-21T11:03:08.040Z
 <sub>**[<   TOOLS. Методология работы](/ru/tools/general/methodology)     **|**     [TOOLS FOR NAVIS. Панель    >](/ru/tools/navis/panel)**</sub>
 
 ---
-
-# Вкладки{.tabset}
-  
-  
-  
-  
-## Основные {#general}
 Настройки плагина SIGNAL TOOLS for Navisworks находятся на панели Настройки ➤ Настройки
 
 ![image-1683797920357.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf8UlPG6Lb0z7W1pfkQUxpq2UrJ1kcn6wbcABLWx6JX1aN1mDM3iVANWROUv5-0Vb3W2RyGNIH0PhXBIE_SFD_rdFW-qfMlSbcHWuNy8IDIiNNrSaeX1kMvQLYQRcvFMXX85WaQGum4E5uo-oVx8A?key=RyU3QcfxdhVsnxrCcipjXw)
 
 Проверка лицензии выполняется при начале использования функционала плагина. Модуль TOOLS делится на TOOLS Free и TOOLS PRO. 
+  
+# Вкладки{.tabset}
 
+  
+
+## Основные {#general}
+  
 Нажмите на панели Настройки ➤ Настройки ➤ Количественное свойство
 
 ![image-1683295534994.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfguj6hjaZrnye_htTmbw5lWMzbS_9Sx_oJ9HTJhN4KgyuZ-PBum_6Wko89Zt7RO92-wspLEDd-RMsX9VCdJNEjd1WGJ41I_uUh94EgEWqkdNO483n91mLl2v3Ih6okChNOBiYw7SVB4AxgZL4Ufw?key=RyU3QcfxdhVsnxrCcipjXw)
