@@ -2,7 +2,7 @@
 title: FORMS. Конструктор
 description: 
 published: true
-date: 2026-05-15T19:51:08.760Z
+date: 2026-05-15T19:51:14.027Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T14:05:05.223Z
