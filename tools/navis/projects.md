@@ -2,7 +2,7 @@
 title: TOOLS. Проекты
 description: 
 published: true
-date: 2026-02-04T14:16:13.103Z
+date: 2026-05-15T12:40:56.342Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:19:46.839Z
@@ -13,7 +13,7 @@ dateCreated: 2025-09-21T12:19:46.839Z
 
 ---
 
-> Инструмент позволяет создать проект и внести всю необходимую информацию по данному проекту. Используется для выгрузки [_КС-2_](https://wiki.sgnl.pro/app/page/14bG4-KwLWWuxoYhc41NnsN0og35BPMUjGSIQtA1UmMU).
+> Инструмент позволяет создать проект и внести всю необходимую информацию по данному проекту. Используется для выгрузки [_КС-2_](https://wiki.sgnl.pro/ru/tools/navis/export-import#ks2).
 {.is-info}
 
 1\. Нажмите на вкладке SIGNAL PRO на панели Проект ➤ Проекты
