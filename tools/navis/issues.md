@@ -2,13 +2,13 @@
 title: TOOLS. Замечания
 description: 
 published: true
-date: 2026-05-15T14:12:34.057Z
+date: 2026-05-15T14:19:22.204Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:21:15.211Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Согласование](ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Согласование](/ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
 
 ---
 > Группа инструметов отвечающая за прикрепление замечаний к элементам информационной модели. Инженеры могут выставлять замечания как в самом TOOLS, так и в браузере, используя функционал модуля DOCS
