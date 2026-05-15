@@ -2,13 +2,13 @@
 title: TOOLS. Расчет
 description: 
 published: true
-date: 2026-05-15T12:02:21.038Z
+date: 2026-05-15T14:13:40.329Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:31:53.959Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Согласование](/ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Раскраска   >](/ru/tools/navis/coloring)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Замечания](/ru/tools/navis/issues)     **|**     [TOOLS FOR NAVIS. Создание ПН   >](/ru/tools/navis/search-sets)**</sub>
 
 ---
 > Используя команды из вкладки "Расчет" можно получить значения соответствующих параметров у элементов. Названия параметров, с которых требуется собирать значения, задаются в Настройках SIGNAL в разделе [_Количественное свойство_](https://wiki.sgnl.pro/e/ru/tools/navis/settings#calculation)
@@ -50,5 +50,5 @@ dateCreated: 2025-09-21T11:31:53.959Z
 ![image-1683703193442.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJQZ4n61g5Ullbo_ADZKg5AHrdVik-LKcfgXqB56eunhhnqTD1Wgx5uNAnFvaXHeVzg4NHasgySgHFNHhcd_LpjciLiLmhS5ILi96B2vslDFNmYka0SLfVmPMB21ja_KGdj7EYWtEW7cqv3eucHg?key=7TFGbgSUMH6N7AenQ2dcfA)
 
   
-  
-  <sub>**[<   TOOLS FOR NAVIS. Согласование](/ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Раскраска   >](/ru/tools/navis/coloring)**</sub>
+#  
+<sub>**[<   TOOLS FOR NAVIS. Замечания](/ru/tools/navis/issues)     **|**     [TOOLS FOR NAVIS. Создание ПН   >](/ru/tools/navis/search-sets)**</sub>
