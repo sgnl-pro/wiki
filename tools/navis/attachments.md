@@ -2,13 +2,13 @@
 title: TOOLS. Утилиты
 description: 
 published: true
-date: 2026-05-15T13:56:31.084Z
+date: 2026-05-15T14:18:52.368Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:32:52.422Z
 ---
 
-<sub>**[<   TOOLS FOR NAVIS. Создание ПН ](/ru/tools/navis/search-sets)     **|**     [TOOLS FOR REVIT. Настройки    >](/ru/tools/revit/settings)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Свойства ](/ru/tools/navis/properties)     **|**     [TOOLS FOR REVIT. Настройки    >](/ru/tools/revit/settings)**</sub>
 
 ---
 
@@ -290,4 +290,4 @@ _Способ 2. - Импорт укрупненных работ_
 ![image-1684853414649.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeaVkNEnYn21614Tk5PW4Oj4PCz_S2ZzgONorWyZDhMzJb9uCwRPgnSzRELx6k-lehRNInymt3_tuUH1oZ98b0X3BFAnfXv8DhR_ZFny7Z2qg49owTRRYEsl-TKJM0k8DmFHAphPfevtJLP6_92?key=WNZdJUhNIG01jsxJqayPXg)
   
 #
-<sub>**[<   TOOLS FOR NAVIS. Создание ПН ](/ru/tools/navis/search-sets)     **|**     [TOOLS FOR REVIT. Настройки    >](/ru/tools/revit/settings)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Свойства ](/ru/tools/navis/properties)     **|**     [TOOLS FOR REVIT. Настройки    >](/ru/tools/revit/settings)**</sub>
