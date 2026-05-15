@@ -2,7 +2,7 @@
 title: TOOLS. Расчет
 description: 
 published: true
-date: 2026-05-15T08:32:19.621Z
+date: 2026-05-15T12:01:42.490Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:31:53.959Z
@@ -11,7 +11,12 @@ dateCreated: 2025-09-21T11:31:53.959Z
 <sub>**[<   TOOLS FOR NAVIS. Согласование](/ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Раскраска   >](/ru/tools/navis/coloring)**</sub>
 
 ---
+> Используя команды из вкладки "Расчет" можно получить значения соответствующих параметров у элементов. Названия параметров, с которых требуется собирать значения, задаются в Настройках SIGNAL в разделе [_Количественное свойство_](https://wiki.sgnl.pro/e/ru/tools/navis/settings#calculation)
+{.is-info}
 
+![roamer_tv5wrkj2h3.png](/sgnl_tools_navis/calc/roamer_tv5wrkj2h3.png)    
+  
+  
 # Вкладки{.tabset}
   
   
@@ -20,13 +25,9 @@ dateCreated: 2025-09-21T11:31:53.959Z
 ## Объем/Площадь/Длина/Кол-во/Вес {#common}
 ### Объем/Площадь/Длина/Кол-во/Вес {#common} 
   
-> Используя команды Объем, Площадь, Длина, Кол-во и Вес можно получить значения соответствующих параметров у элементов. Названия параметров, с которых требуется собирать значения, задаются в Настройках SIGNAL в разделе [_Количественное свойство_](https://wiki.sgnl.pro/e/ru/tools/navis/settings#calculation)
-{.is-info}
-
 
 1\. Выберите элемент/элементы и нажмите на вкладке SIGNAL на панели Расчеты ➤ Объем/Площадь/Длина/Кол-во/Вес
 
-![image-1683295420624.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctr9jFQ2dbOU4SU8O_lEvXNix_wr7qAVqEKPSE4uR6yo7XAIvSr5gMajpIT5jWtBNkvdGgiGstQEkEh1qPhb1-Tyhm2fq1hZojrB42ghIqIiAcw2ElUqyDOUkio8Zd-z_OTlTqTLZKWLXwvLnaZA?key=V-vloVcvu-n1OxyRBn_LVg)
 
 2\. Получите соответствующее значение
 
