@@ -2,7 +2,7 @@
 title: TOOLS. Свойства
 description: 
 published: true
-date: 2026-05-15T11:53:32.636Z
+date: 2026-05-15T12:36:40.567Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:57:03.438Z
@@ -70,7 +70,8 @@ dateCreated: 2025-09-21T11:57:03.438Z
 ## Копировать из R {#copy_from_revit}
 ### Копировать из R {#copy_from_revit}
   
-Инструмент используется для копирования S параметров согласования из вкладки “Объект” в вкладку “SIGNAL”, если присвоение статусов ([_закрытие работ_](https://wiki.sgnl.pro/ru/tools/revit/acceptance)) производилось в Revit.
+> Инструмент используется для копирования S параметров согласования из вкладки “Объект” в вкладку “SIGNAL”, если присвоение статусов ([_закрытие работ_](https://wiki.sgnl.pro/ru/tools/revit/acceptance)) производилось в Revit.
+{.is-info}
 
 1\. Нажмите на вкладке SIGNAL на панели Свойства ➤ Копировать из R
 
