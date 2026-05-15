@@ -2,7 +2,7 @@
 title: TOOLS. Замечания
 description: 
 published: true
-date: 2026-05-15T14:19:22.204Z
+date: 2026-05-15T14:19:31.420Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:21:15.211Z
@@ -122,4 +122,4 @@ dateCreated: 2025-09-21T12:21:15.211Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc9vNcQiE-yzQfZ4lxzYhp1CGcgrdNpKuFZYaFnKBQ3Yf0inmw_5pjG5HTjjiP1KV30Mj_MfcaJq6y_2ENnAKTLp_CCiKfITFCTjJRZj9pbyoiORTz9brsKjFoxHTDyZMqj1pE0?key=IbnQ9QC0ZrgOH91pJKt7uA)
 
 #
-<sub>**[<   TOOLS FOR NAVIS. Согласование](ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
+<sub>**[<   TOOLS FOR NAVIS. Согласование](/ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
