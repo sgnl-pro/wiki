@@ -2,7 +2,7 @@
 title: TOOLS. Утилиты
 description: 
 published: true
-date: 2026-05-15T14:18:52.368Z
+date: 2026-05-15T14:32:05.441Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:32:52.422Z
@@ -11,7 +11,12 @@ dateCreated: 2025-09-21T12:32:52.422Z
 <sub>**[<   TOOLS FOR NAVIS. Свойства ](/ru/tools/navis/properties)     **|**     [TOOLS FOR REVIT. Настройки    >](/ru/tools/revit/settings)**</sub>
 
 ---
+>Дополнительные инструменты входящие в состав модуля SIGNAL TOOLS. Создавайте график работ и синхронизируйте его между TOOLS и Power Project, Добавляйте вложения сравнивайте модели и переносите изменения
+{.is-info}
 
+![roamer_cym60edzzo.png](/sgnl_tools_navis/utilities/roamer_cym60edzzo.png)  
+  
+  
 # Вкладки{.tabset}
 ## График работ
 
