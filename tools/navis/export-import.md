@@ -2,7 +2,7 @@
 title: TOOLS. Экспорт | Импорт
 description: 
 published: true
-date: 2026-02-04T14:15:37.542Z
+date: 2026-05-15T08:25:59.852Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:51:01.935Z
@@ -13,7 +13,9 @@ dateCreated: 2025-09-21T11:51:01.935Z
 ---
 
 # Вкладки{.tabset}
-## Экспорт
+
+  
+## Экспорт {#export}
 
 > Инструмент позволяет выгрузить в Excel свойства всех элементов.
 {.is-info}
@@ -41,7 +43,11 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683279624333.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1U_l6YKcuALNkP1L1tF_VGnOeNyzgq3-MEyaoFbg0fEIPNMgO9IMzo0KUO6EdtVsY_0J3RF54d8eBeZgq7LidfZZBlqNWRtDqPTdxXroeRQeui39B7IGGtiR217sb8u1Upj2zBNwggHbCBMh8MA?key=-KzkGDDT81BdFYGDwCfMVA)
 
-## Экспорт S
+  
+  
+  
+  
+## Экспорт S {#export_s}
 
 > Инструмент позволяет выгрузить в Excel все свойства из вкладки “SIGNAL” с их значениями для всех или выбранных элементов.  Например, можно экспортировать свойства SIGNAL, подкорректировать их и загрузить обратно в модель.
 {.is-info}
@@ -55,7 +61,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683730343464.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXGc2uEdhZGPqOQQKInf8WDymLjQ-G0R79FzWRA1AwSoOnlT5FJYWg4yAYNwnQlvuBYkhZY3lnK__tY4w0nJl2njqZqQ-wN8dCBq0qL3KyjDMfa2yxM5fK5SIxKq8Up0-V3RGppwQykJCIqYF7?key=dTJjJFsG32zncwAjgIeraw)
 
-## Импорт S
+  
+  
+  
+## Импорт S {#import_s}
 
 > Инструмент позволяет загрузить в модель все свойства из вкладки “SIGNAL” с их значениями из файла Excel. Например, можно экспортировать свойства SIGNAL через команду [_“Экспорт S”_](https://wiki.sgnl.pro/app/page/1YFeraHy8IOenKQm3vgIc46RfTmS1rlkYKSmR-fVPaMs), подкорректировать заполненные виды работ и загрузить обратно в модель.
 {.is-info}
@@ -73,7 +82,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683730416161.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk1blngtT4ZeAfVAkGjbCX-zOdA3lY1BrpUzjfxle-j_2cbkPPVZdw951iYIcySzVBxM7m1ytgt-hdHrVU2-RpzI-8ezkesXK04hctKelFw9pz6EGB6I9jUyLq8kFoKaG7tqSJaZHfGddd2Y77?key=KD2AFX1X_Roj_sSOrILGEA)
 
-## Объемы по ПН
+  
+  
+  
+## Объемы по ПН {#by_searchsets}
 
 > Инструмент позволяет выгрузить в Excel объемы (м3, м2, м, кг, шт) по поисковым наборам. Например, можно выгрузить поисковый набор “Completed” и посмотреть объем завершенных элементов
 {.is-info}
@@ -102,7 +114,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683284919110.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaT4kJhQISuA9mpCGsyk6D6bJu2iolSo9GCNj-O0EjnwYAS8J6ksqNpwMKJUzffPQhJkpnk933HXeXE7pEj-CoVS0IRXj2gJoG_HjX_p-Ead3MDBS5LAxYHVOUQXaV_uRO60BKvLRG6UgK9tnXuw?key=cFPg5WmNNNH9gozh3mLdew)
 
-## КС-2
+  
+  
+  
+## КС-2 {#ks2}
 
 > Инструмент позволяет выгрузить КС-2 с привязкой к внесенным в элементы работам и объемам из BIM модели.
 {.is-info}
@@ -134,7 +149,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683285197280.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1kZLAnHdR5YWlDT_axEFXUglFZRHztaCQxc8kgdGj6jNIz4D3OfqRajMJXcoNeLAmaxWGeSqOHr2wWYc-Ql8qF_jYemm7_uX8BeQ18znbyGcTezL8jsNUSuD-eez6rG1q6_Pl62-klQ5ili9PAg?key=I28DQ3jlUDdY_hHHRkh90Q)
 
-## Экспорт процента
+  
+  
+  
+## Экспорт процента {#procent}
 
 > Инструмент позволяет выгрузить в Excel объем видов работ, с расчетом процента по выполненным работам
 {.is-info}
@@ -157,7 +175,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683285405785.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLaTi2Ceh8WPWPwQXX_IsBZucWfEtYDnPlwo85bc53sOwOAzVEbp-askDqZ9qjN4EENQHqazUfbPG67lJcofoG25e4iAwnNv3vmQ3BNiCKxhsZdQnHBzYpgNhpWk_UH0TXJIwy8HnswL2EfTWOfA?key=wV8BOgO_ZhjQUUapWSdqAQ)
 
-## Процент Primavera
+  
+  
+  
+## Процент Primavera {#primavera}
 
 > Инструмент позволяет выгрузить процент выполнения работ в файл XML, изначально выгруженный из Primavera.
 {.is-info}
@@ -183,7 +204,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683285562868.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdpMQ43D_aCGvICcX1N8K4OWmuyTjqbDUV-IwxcZ2bZQuTD-Nm6mUy8-QqMhZ6L9xT52SAZYVHvrOrRN2cBwpcPCLeZXviIlvextn_hPSjx8EgJp2yxGOysEp97jeQ5jEHY7gKfYx4-_hz8RX3Eow?key=LTk-Q5Atb8KI51pphss9TQ)
 
-## Журнал работ
+  
+  
+  
+## Журнал работ {#jobs_log}
 
 > Инструмент позволяет выгрузить в Excel виды работ с разбивкой на объемы и даты их выполнения. Например, производитель работ на стройплощадке может сверять свой общий журнал работ, который он ведет ежедневно в бумажном виде, с выгруженными данными из BIM модели
 {.is-info}
@@ -206,7 +230,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683286182169.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfzDkHUhecVzd80_bhG3-Kgi7kLJ0uLoc8y_z12zf4CtBqCbTSYeehS0BEWmpzLY66lU7i1vgCYFr1dG68Qcbue3wGs8KkTPCBGciiCUZRMb-1NR1ZjdvIwKF-64QNTHWTH8Db54oTu9aMd45ag1Q?key=62pCUWyo5iGQFN3Lbl_jdA)
 
-## Публикация Фото360 в INSPECTION
+  
+  
+  
+## Публикация Фото360 в INSPECTION {#360_insp}
 
 > Инструмент позволяет загрузить в сервис INSPECTION точки обзора, сделанные в модели Navisworks, для сравнения модели с фактическим состоянием объекта строительства. Для загрузки фото необходимы права администратора в сервисе INSPECTION.
 {.is-info}
@@ -248,7 +275,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 8\. Нажмите “Опубликовать” и дождитесь окончания загрузки фотографий в сервис INSPECTION
 
-## Экспорт Фото360
+  
+  
+  
+## Экспорт Фото360 {#360_export}
 
 > Инструмент позволяет экспортировать выбранные точки обзора как панорамное изображение, чтобы в последующем вставить его в модуль INSPECTION.
 {.is-info}
@@ -284,7 +314,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683703576495.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJEEj3VziMDqvywCvv1YiQU_-TA-_mJ0iJ0jiD4QvugyzSC01ijQ-TH2ujKS4HT8lY07reRXDF7aSJwQnUTU62Agtry39GYaCw-M5lqJLF4DC6Gydq1rGchvBeNcMYKDFXzp9woNawBa1tn1ww?key=3tbzJ1qi-ZaW-pOGnn24Bg)
 
-## Бюджет
+  
+  
+  
+## Бюджет {#budget}
 
 > Инструмент позволяет выгрузить в Excel стоимость объемов по видам работ.
 {.is-info}
@@ -300,7 +333,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1683726934991.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnYHSM0Ci5JfHp4THLO2Y-rr4CmEBTsJl5eCc8f6mzRApGb5PRR-pck5Ux9e33ZOkx1mUpeQYz4G9NDzjzDqxe7p8to1510NueGiH-loQWBJNQzBnso1NxEdB4V0Mu5jGifQ8_AgGUd31vvA79vg?key=B43oNwrpJT1qIY8l9Fipkg)
 
-## Импорт процента
+  
+  
+  
+## Импорт процента {#procent_import}
 
 > Инструмент позволяет импортировать в элементы модели процент выполнения работ из Excel. Например, его можно использовать для оценки прогресса выполнения инженерных сетей с разбивкой по этажам, квартирам или по помещениям. Это позволяет более точно контролировать прогресс работ и оценить степень завершенности проекта.
 {.is-info}
@@ -332,7 +368,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
 
 ![image-1688029788328.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbMj8BMK1d6LFnZ8BVbvnJYhKmLtFRTfqLuEI8AGaxqQxR3t3vgFLI0W8TUHxqsdqz1bFViVqMrs8-Ga2fegJP9QjsZkoH32vk4qMw4WjPeApLpvUJQU1JG3dlPg2nU7huikb04mRzVkEQ7-PUCg?key=HN--DieFzm94qLpYmm381Q)
 
-## Отчет
+  
+  
+  
+## Отчет {#log}
 
 > Инструмент позволяет сформировать отчет по выполненным видам работ с таблицей Excel и Графиком.
 {.is-info}
