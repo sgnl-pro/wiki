@@ -2,7 +2,7 @@
 title: FORMS. Конструктор
 description: 
 published: true
-date: 2026-05-18T07:03:42.539Z
+date: 2026-05-18T07:04:52.702Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T14:05:05.223Z
@@ -75,7 +75,7 @@ dateCreated: 2026-05-15T14:05:05.223Z
 {.is-info}
 
 
-![редактирование_поля.png](/forms/редактирование_поля.png)
+![редактирование_поля.png](/forms/редактирование_поля.png =450x)
 
 ---
 <sub>**[<   FORMS. Введение](/ru/forms/intro)     **|**     [FORMS. Настройки проекта   >](/ru/forms/settings)**</sub>
