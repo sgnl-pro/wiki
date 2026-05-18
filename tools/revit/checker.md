@@ -2,7 +2,7 @@
 title: TOOLS. Проверка
 description: 
 published: true
-date: 2026-02-04T14:17:19.087Z
+date: 2026-05-18T09:23:06.019Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:10:00.060Z
@@ -34,6 +34,9 @@ dateCreated: 2025-09-21T13:10:00.060Z
 
 4\. Просматривайте в модели элементы с ошибками, чтобы составить замечания и исправить ошибки. Выгружайте результаты проверок в Excel или XML. Сравнивайте результаты с результатами предыдущей проверки, чтобы увидеть, какие замечания были исправлены.
 
+  
+  
+  
 ### Зона проверок:
 > в этой зоне отображается процент выполненных проверок, количество элементов прошедших и не прошедших проверку
 {.is-info}
@@ -45,6 +48,8 @@ dateCreated: 2025-09-21T13:10:00.060Z
 -   ***Переключатель “Проверить только выделенные элементы”*** позволяет проверить только выделенные в модели элементы
 -   ***“ЭКСПОРТ ВСЕХ РЕЗУЛЬТАТОВ”*** позволяет выгрузить результаты всех проверок в один Excel файл, который можно передать коллегам для исправления элементов, которые не прошли проверку
 
+  
+  
 ### ***Зона правил:*** 
 > в этой зоне создаются правила, по которым будет происходить проверка. Правила созданные в Navisworks совместимы с правилами в Revit.
 {.is-info}
@@ -54,6 +59,9 @@ dateCreated: 2025-09-21T13:10:00.060Z
 -   ***“ЭКСПОРТ”*** позволяет выгрузить правила проверки в Excel файл. Данный файл можно дополнить правилами и загрузить обратно в Checker или отправить его коллегам.
 -   ***“ИМПОРТ”*** позволяет загрузить Excel файл с правилами проверки. Если у Вас уже есть созданные правила в Navisworks, то вы можете импортировать их в Checker в Revit
 
+  
+  
+  
 ### ***Зона результатов:*** 
 > в этой зоне отображаются результаты проверки в виде названия элементов и описания причины, почему элементы не прошли проверку
 {.is-info}
@@ -64,11 +72,16 @@ dateCreated: 2025-09-21T13:10:00.060Z
 -   ***Нажмите “Экспорт результатов*****”** , чтобы выгрузить результаты проверки в формате Excel или XML. После исправления замечаний данный XML можно сравнить с новыми результатами через команду “Сравнить”
 -   ***Нажмите “Сравнить”***  и загрузите XML файл с результатами предыдущей проверки, чтобы посмотреть какие замечания были устранены
 
-### Проверки Checker
+  
+  
+  
+  
+### Проверки Checker {.tabset} 
 
 ![image-1684154905217.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNNb3hP2ZqmKlNAxY03aoAJa2bGxmGCl78UbXGoA2W0pNfHcmCD2KLPl6IlNvBCEj4CViFQDzykneBCM7NWXkVtmVaQk7-dS9HGWF60rXmjovEGcWeBYCtz-etBu4HLjyq8IgCLtpn5pSDxhxsbA?key=C5uBO1kflcqHmUaUGJoOYw)
 
-**_1.Наличие свойств_**
+ 
+#### Наличие свойст
 
 Проверяет заполненность значения проверочного параметра. Подходит для проверки параметров, которые должны быть заполнены у всех элементов модели.
 
@@ -81,7 +94,7 @@ dateCreated: 2025-09-21T13:10:00.060Z
 -   Введите название параметра, например, Код по классификатору, или выберите параметр из списка, нажав .
 -   Запустите проверку ➤ в зоне результатов будут показаны элементы, которые не прошли проверку.
 
-**_2.Наличие свойств для групп элементов_**
+#### Наличие свойств для групп элементов
 
 Проверяет, что у всех элементов модели, содержащих условный параметр с определенным значением, заполнены проверочные параметры. (В данном контексте условный параметр - это параметр, который задает начальное условие: Если свойство “Категория” имеет значение “Стены”. Проверочные параметры - это параметры, которые проверяются на наличие заполненного значения)
 
@@ -105,13 +118,11 @@ dateCreated: 2025-09-21T13:10:00.060Z
 
 ![image-1684154979157.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXds356qSwr-cF1jxMYsfN-659rK2LoraFqI66R6x5n5zt6SdRsZk3G7CBQWfk5aKN83b70YOFEjx9a459uXX4qv-m59h_CxKPwwYGM56TOHYaMe5YiraxokhkPZZXKOkHtXd6zVpHgVNXv75o7O?key=C5uBO1kflcqHmUaUGJoOYw)
 
-Шаблоны можно скачать по следующим ссылкам:
+Шаблоны можно скачать по следующей ссылке:
 
-[_Checker\_Template1.xlsx_](https://wiki.sgnl.pro/app/page/18CaGLQx_pwteleJBblnEP4OxQD4592Cd/view)
+[_Checker\_Template1.xlsx_](https://docs.sgnl.pro/s/f/4d8f615a-27fd-4b1a-a631-c7529eb99f03)
 
-[_Checker\_Template2.xlsx_](https://wiki.sgnl.pro/app/page/1YO38qsLTx3pybIGwhqkzlFwEkDIUKHQL/view)
-
-**_4.Заполненность значений свойств для групп элементов_**
+#### Заполненность значений свойств для групп элементов
 
 Проверяет, что у всех элементов модели, содержащих условный параметр с определенным значением, проверочные параметры имеют заданное значение.
 
@@ -138,39 +149,13 @@ dateCreated: 2025-09-21T13:10:00.060Z
 -   **"Содержит из списка" и "Не содержит из списка"** - Проверка считается пройденной, если в значении проверяемого свойства содержится или не содержится хотя бы одно из указанных строковых значений. Перечислите несколько значений, разделив их запятыми без пробела. В Excel значение записывается следующим образом: **?\[значение1,значение2\]** или **!?\[значение1,значение2\]**  
      
 
-![image-1702559387405.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMpnwbjx69tkniUnsXTJ3skmV6bivyrkwJirNEKebqZWbsj0dhmDqQdocLEbLfwg47CVCMEIegc2m7zZKW5Ypg3_8JgfnehEVgEVun_Y96h_gJ53NmXJ912e5dmRPjEaO1o7UJYlf0Wr3ZIp6Q?key=C5uBO1kflcqHmUaUGJoOYw)
 
-![image-1702559383639.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdd1BjKVi1umE9xJtZC8wkXqhN-hMH2TLU_8eiSDwAJ3oXVYG-6_V9ojM-7ADZGfT0Z-56IPtAqgDdm0n5bYhQQHnR_ynLSz1R1OmMtkbQ-0fUUfHtKqE-bljiU5cHau-9cEBKERo5Vv1qv9f-Syw?key=C5uBO1kflcqHmUaUGJoOYw)
 
-![image-1702559377352.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfDurZ97G8yNm5MKIXIdUdGCS2G3f_QWXmPG0jt3QR2oVxP4LCkQQ1EMKw01xaiD6g_DS_EaMB072DClfHRhSD4ChL45cedpIOobpyPEG31933eiINV26rTE_asJ1xDNTZUXseMq493Nz46_wFMxw?key=C5uBO1kflcqHmUaUGJoOYw)
 
-![image-1702559365714.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiiqiNc_bfQjwxS-arlL7rrtoEWx2iAdgYd1rawjFn-1J-UhfZoW2NY4Nh8YFlxeNkhehUn3_bLyoQqx_n3ksOrvu07xbGfQx4yInaQJRca5J6_PRT2EaQYL7SW_lZZhymKpAKsiNFhuzTmoVOPQ?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1702559351056.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe_XkPh-hhzArWKXKnTDVUp4m7-nTwAAsPjK5uznf1t8TGVMZQeNWdOaH_89eKNJJ7B4GUu50pczmDXcAYk-salqKMhv9RyiJObZODMayNGdHAYES7dFbKrnjesITKFWOclIJrWlfvwrA1HpaFx4A?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1702559336188.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_kO8asHXKMSiH4rpDjeMZmqIvi4O1NuGtL-MXDTXHdhEdhelG4yGiJvlONWcYIuB1bKlzroCZZ_E6reChBGzA7CHpffuach2FGjD-kC_hQV-nLII19AxwQL9nkkDy8RMEkuO-Jjw3R7uYTvgdjw?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1702559324937.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNT6b_iLgMdZYD78ukC1GSwduWVXqk-uMKNETmMcwZet15xtjupFnmJX0iwnPhuSNPFt9knJZd_8H6rXuUMTZ8x9ZERMmxaRLhykQyGxHjhDnplN12V7ZRWLH3GF2_2-SmowbQ-xazpqDJzJxmyg?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154822788.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXddt4CbQ2HsabA2f7CPHyZMhfBcTl4qfJQ6I9sn3DoJ2FY3LsqvIYby6-KjiGy4Xjbf2N-DMwenM8om5vvbjJK1rUZB52atpf-2ren8sI_mH_WVi43jHEt3z6QJUoUJgH1FFv3ncGbq-8pmyOaSvw?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154876665.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcEh-kgnFW8oU7qwu-N9NfjzDV7DohRutO6D_od2BdRR3m5SJUSqXqdLpaW-_ZUOkjGAvByfEd06TneJcq0X2crm5wSPsXaJaSnr7B2jf_cHH0ETLXT1Wyc-dK9Q4OedNi75K0X0PBjFDlOxK3v?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154867867.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXILEOdi0wzgMovMkXDYixb-8_RMAgIw4Dt3RuXYJ_iXzLAfEPodZ8r4pXFInHR1wBjh2fGJUSfnhGPrFuwbbqkuxjnOz3JZYeBCtPzRtp2u40_0c6raWSsw9oTpl7dzisrp5Aikxm7xHAILFWfw?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154860341.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXempT1NgTJMMPOKy2l6j4G9omtbGGXsmRj2R4G8sB7E1nULQ7vr0JbS_xHwkOGIrDVppdmziwiIjvHomK7BTexKpXQwTo0DNL9drqjANXToV5KjkWs-8141Du6NZegUAvERS9Ea-rj517M-647w?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154849028.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclurTLyNuAOK0NaHr4H2T99E44ov-1hpaT3ZpXOZofN25ZQHoPp97rtKgoRmNGupcXaB1rdUAPATdTYe2L64Jl9F9Pc_cYT2Yf4Eh7-fgxdCGbAIWyQMGPk6Ni8pYc8LVPvCFvcsUw1jrnODEuJg?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154841748.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYfTt95gz9NOf-ZExvxseNjTiDceBlOAVrgUbis1FP2y1i6FVc_PUkTw4TQzySBp_BRNRTIgz--f6yMSZ5Zb13I0P5Df_vHZLUNHaIQVdqgqb2mHzHuTHXzuacncxAaSncLVIiOZFpGhY2OpQMjA?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154822788.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXea8jFQqaZ6MNT46-ClKKLBCyA0XALIqLErUGMTNHuFfTFUbmTkgiRcqgRzCJsS3VtUdKPUEZOb9QlVRWwOlgrq-FVDm8dVAd4B3DU40i9O9_x4bq1GJGNhACikdDUQLqiX0HaPFp1L_aeCRx8a?key=C5uBO1kflcqHmUaUGJoOYw)
-
-![image-1684154800280.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXedTihpmwF9ZEzi8OFhmpAvhPVH3OzO4IqiLvKYiT2W6Phrgnp4Z7I-pHoRVQ58lF5ETEWZZ4cNWw6XeuSEY1LM6wn5PQ8-8zeg-z8uCGa0rwz2PvjSM9FMt6ESEIyrHAJOdpP958Y0yrTU2sLKLg?key=C5uBO1kflcqHmUaUGJoOYw)
 
 ## Результат проверки
 
-> Инструмент позволяет показать элементы в текущей модели по результатам проверки командой [_Checker из Navisworks_](https://wiki.sgnl.pro/app/page/1aFruelKZ3uZ_se-FEomcoyXEbmm8cPH9JzYlL0LqlLQ)
+> Инструмент позволяет показать элементы в текущей модели по результатам проверки командой [_Checker из Navisworks_](https://wiki.sgnl.pro/tools/navis/checker)
 {.is-info}
 
 1\. Нажмите на панели Проверка ➤ Результат проверки
