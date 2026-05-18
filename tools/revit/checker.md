@@ -2,7 +2,7 @@
 title: TOOLS. Проверка
 description: 
 published: true
-date: 2026-05-18T09:23:06.019Z
+date: 2026-05-18T09:25:22.358Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:10:00.060Z
@@ -11,24 +11,29 @@ dateCreated: 2025-09-21T13:10:00.060Z
 <sub>**[<   TOOLS FOR REVIT. Панель  ](/ru/tools/revit/panel)     **|**     [TOOLS FOR REVIT. Копирование элементов    >](/ru/tools/revit/copying)**</sub>
 
 ---
-
-# Вкладки{.tabset}
-## Checker
-
 > Комплексный инструмент, позволяющий проверять модель на наличие параметров в элементах и заполненность значений этих параметров. Например, перед выгрузкой модели в Navisworks проектировщик может проверить модель на заполненность важных параметров
 {.is-info}
 
+![image-1684154725931.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1B-kCvo1x7bBGWzeDG8Qp7c_oontdWyL0lUBPSa9yCPOEfM7bWYPEpVuHQOt8m6_JU8eR2PqETrcrcu1oE7CrMbQ1YWtxZlUdyQ8jEn-rR3aOVcxpHI_YrUqIxKy0bkgZ6BvY0JO6hijafzZV?key=C5uBO1kflcqHmUaUGJoOYw)
+
+  
+  
+# Вкладки{.tabset}
+## Checker
+
+
+
 1\. Нажмите на на панели Проверка ➤ Checker
 
-![image-1684154725931.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1B-kCvo1x7bBGWzeDG8Qp7c_oontdWyL0lUBPSa9yCPOEfM7bWYPEpVuHQOt8m6_JU8eR2PqETrcrcu1oE7CrMbQ1YWtxZlUdyQ8jEn-rR3aOVcxpHI_YrUqIxKy0bkgZ6BvY0JO6hijafzZV?key=C5uBO1kflcqHmUaUGJoOYw)
+
 
 Окно Checker разделено на 3 зоны: проверки, правила и результаты
 
 ![image-1684154736078.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf-ULh2vEzk1rHIyFJue8urWQT2SEo5aNYxjndo9i--Uucvp7Bx49-P5TP3G0cFq3VelYxC1DgO003TdfFjePlC7glulhMn2QrkgZDxyJcoPDj-9rjMJXMJXrj6wG1ZK6JtYLaFJPqPU85o_XX0?key=C5uBO1kflcqHmUaUGJoOYw)
 
-2\. Добавьте одну из трех проверок, нажав 
+2\. Добавьте одну из трех проверок, нажав "+"
 
-![image-1684154757280.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcrQn537mklRRsC8mFzAZphAC-LuQvEj85lRfD-SE0WWxV6UCO5a3WeyKRUBspTxAGQQSXRfzVRJ1Jk9L1WjYtDiFfJEUWRzOqveMlKLu_KLV2upPe39U6RhHK1d-AkXrJoxJUpFKnFnMkdYNXBSg?key=C5uBO1kflcqHmUaUGJoOYw)
+
 
 3\. Добавьте правила и запустите проверку, нажав “ЗАПУСТИТЬ ВЫБРАННЫЕ ПРОВЕРКИ”.
 
