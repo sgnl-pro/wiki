@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 20. Деньги
 description: 
 published: true
-date: 2026-02-26T07:58:18.996Z
+date: 2026-05-21T12:22:32.694Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:21:31.877Z
@@ -24,6 +24,11 @@ dateCreated: 2025-09-18T13:21:31.877Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.8](/general/updates/2026-8)** ^07.05.2026^
+  
+:fire: Реализовали импорт данных из JSON 1С в карточке "22_Освоение денег по месяцам".
+  
 ----
 **[2026.2](/general/updates/2026-2)** ^12.02.2026^
   
