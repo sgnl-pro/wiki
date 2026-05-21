@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 50. 3D карточки
 description: 
 published: true
-date: 2026-03-13T15:44:08.899Z
+date: 2026-05-21T12:34:35.791Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:39:52.568Z
@@ -24,6 +24,13 @@ dateCreated: 2025-09-18T13:39:52.568Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
 
+----
+**[2026.8](/general/updates/2026-8)** ^07.05.2026^
+  
+:hammer_and_wrench: Исправили сброс дат при изменений фильтро в карточках 50 и 51.
+  
+:hammer_and_wrench: Поправили привязку в карточках 50 и 51, чтобы учитывался тип.
+  
 ----
 **[2026.3](/general/updates/2026-3)** ^03.03.2026^
 
