@@ -2,7 +2,7 @@
 title: HUB. Пользователь
 description: 
 published: true
-date: 2026-02-04T13:34:00.174Z
+date: 2026-05-21T14:45:34.473Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T17:30:45.102Z
@@ -60,13 +60,12 @@ dateCreated: 2025-06-24T17:30:45.102Z
 ----
 
 # Вкладки{.tabset}
-## 1. Создание аккаунта
-###### 1. Создание аккаунта {#account}
+## 1. Регистрация
+### 1. Регистрация {#account}
 
-Пользователь может создать аккаунт, зарегистрировавшись самостоятельно в системе SIGNAL, или по приглашению Администратора.
-
-### Вкладки{.tabset}
-#### 1.1. Приглашение Администратором
+> Пользователь может создать аккаунт, зарегистрировавшись самостоятельно в системе SIGNAL, или по приглашению Администратора.
+{.is-info}
+  
 
 Если Пользователь ранее не регистрировался в системе SIGNAL, то после того как Администратор пригласит его в компанию, автоматически будет создан аккаунт для Пользователя.
 
@@ -76,85 +75,103 @@ dateCreated: 2025-06-24T17:30:45.102Z
 
 1\. Перейдите на [hub.sgnl.pro](https://wiki.sgnl.pro/hub.sgnl.pro) и нажмите “ВОЙТИ”
 
-![image-1705039642417.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXckpUCeHCtJ2aVOIzK4PYTMOPfZoSapLJ8ECqO-LKUq-I65OZ642WETBmkcT4fz3tHV54ccadS5y-017C-wMEKsxtAQ0rmfSZqHNY2Tf49Pzhgr0PvvRLEG5FYdBdrYHAQL3fFGCKxgM5BoRj9mODbvf8M?key=ubZo3XErWi31X8qif_cz5w)
+![browser_opgyx6kkms.png](/hub/browser_opgyx6kkms.png)
 
 2\. На открывшейся странице авторизации введите Ваши логин и пароль из полученного письма.
 
-![image-1705039656922.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc2ROvrFyXu3TfuXaNSIV_tpKJc7SSQCK37t_hHesb3ZRCJnBhYDc5bVIxsCtq7q1YMOvieZACU4EyAI4N63Jg6adLt74o5D8Sr86KQST4qTrPdkaquP0Ima3Z7i-aGjsJaZZNskrK5zJcn9cayOXk1QvGO?key=ubZo3XErWi31X8qif_cz5w)
+![browser_rrnhcqh10k.png](/hub/browser_rrnhcqh10k.png)
 
 3\. Вы окажетесь в личном кабинете Вашего аккаунта
 
-![image-1705039671986.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfRwQWlqtfjrjpLYDMnmNDQFORhz6VVFrLoEMRqyuAElTF5WlDBOJrWZ7zvW40_dl386Ncc-gphAB-83D4d1sMjZ_XDl7-C4UOsEaJVSMxRNwH-8DUfkHkCX4jTfKYi4jgIZzTsKYmpPicrgpJbf2A6XAc?key=ubZo3XErWi31X8qif_cz5w)
+![browser_7odwix6epz.png](/hub/browser_7odwix6epz.png)
 
-В разделе ПРОФИЛЬ можно заполнить свои данные, сменить пароль и привязать учетную запись к google или yandex авторизации.
+В разделе [ПРОФИЛЬ](https://wiki.sgnl.pro/ru/hub/user#profile) можно заполнить свои данные, сменить пароль и привязать учетную запись к google или yandex авторизации.
 
-#### 1.2. Самостоятельная регистрация
-
-1\. Для самостоятельной регистрации в сервисе SIGNAL на странице авторизации нажмите “Создать аккаунт” или перейдите по [_ссылке_](https://hub.sgnl.pro/account/registration)
-
-![image-1705039694142.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdyiMkFl5toJatF7g8PqbHtpM7r2wA6zlWXKXD9Inn0Pi1hemimlkyUfQdN4asJ2MFRQEDdT8yfTUV9eMGbkuyIsqm-YjLpgRZ3K380yryuO_KnsMlHJglQU-8pAGXMMUqDZMCfjO93FLtoz6Oq4SauOLDd?key=ubZo3XErWi31X8qif_cz5w)
-
-2\. Введите адрес электронной почты и нажмите "Далее".
-
-![image-1705039714105.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMzyo2eDxTgLL7M1l80pDd_31mNGs_mLtS0__3c6cx8ZG2eyY_-1JCIh-CuEJUvUlMhbr3_a5cSgF-EiCHoH--QanjShBwFEWpDeZHRfIB5qcNCKUyogvnmWFiK93h-vl4yfGyiTBi9f3T20fkTtk1J1Cq?key=ubZo3XErWi31X8qif_cz5w)
-
-3\. В течении нескольких минут на электронную почту придет письмо с кодом подтверждения, который необходимо вписать в поле "Код".
-
-![image-1705039740274.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe9CjmTSU_6pdUAt1TMu2-knRd5i6hvBWvW6y2PtTzn_yPg6efN4yfeBAcxYbRtjLmGDCJryM31KIu2rpA6M4lP2GZ8KOOwF0gpDBGZKqNNAtnvV_b3Sm-1__oYR_CIeQ2-4dWZToOQfxjLOkAVZtLrhyns?key=ubZo3XErWi31X8qif_cz5w)
-
-![image-1705039745239.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcK5W_wtZU2TUa5rG60vCD5EeJkeH2HvxC1IczrSe8Synd8NQ1GbdNHq8-tIJoQn1bOrDVufqGpOzdCOH5YgvobAHqUzbNsOr_Yho-q7cm1aejvIiV2oLjEXGoifrCLoqts-K-rugiOEk-5QQZeABFihfRY?key=ubZo3XErWi31X8qif_cz5w)
-
-4\. Затем придумайте пароль длиннее 8 символов, содержащий заглавную букву и цифру. При необходимости можно заполнить свои ФИО.
-
-![image-1705039763814.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdo5FbYlcn-DxmtVA3YTzwe8CdT5Pww6HQATvuLgAeAxbJVRkniTeqyApE0jAV2McjVmBE_-itXBT2ujX_jTUZ9SKxkjj8S8YbgaJAhI5a-SkBX8tlnZm6VUyqwzJGFGxV8LISdG6Q4CVsJ0XCfgAEtr8Kn?key=ubZo3XErWi31X8qif_cz5w)
-
-5\. Завершите регистрацию.
-
-![image-1705039777828.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcaHQoAQtgdoKx3D5swuJsRDQbPSDrZOuExr0WozxpFJoTveJ76h-cQJ5_Ro1eOS_rd7dRgIvoZEEHE8R50nicL0aUJyyWcbFdL1E5p2A56BruB2x52zmwOIT10jS8iW5BlUcT7WM40g_CDmvHjA_yQIYOj?key=ubZo3XErWi31X8qif_cz5w)
-
-6\. После завершения регистрации Вы будете перенаправлены на главную страницу [https://hub.sgnl.pro/](https://hub.sgnl.pro/). Нажмите “ВОЙТИ” и укажите свои регистрационные данные.
-
-![image-1705039803554.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8xXvC4wt9duA22PuU9SZbaCkbNTFu-kuZ7k6x6f6_ccQzVuTUO6-O748WJv9gVppcZCD4bDIvROYHFIYweGZaiuCHXGYQcJ0eyVnSLGzd-Ta7yUAhyWoWBowla0wkJIJDeuDMH9UezygaUKmUIRm99WxN?key=ubZo3XErWi31X8qif_cz5w)
-
-![image-1705039811924.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpUobA2yjIOikR4patMHt1MUju_NfvfFuK0wsnGiC8vzWUMheKFjmxN8LolMUiqtWpsZQF4KhJ3rQCIddoqiwHbDNsxYhtMj0Zm-MIGRLg1IQGe_4oCRAj52e1Xi0jKxUM0OWpUicy_ca7Y99k7BpLBCs?key=ubZo3XErWi31X8qif_cz5w)
-
-7\. Вы окажетесь в личном кабинете созданного вами аккаунта.
-
-![image-1705039826548.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeISLQOg4jrd7x3hE3HQl8BKr1ec7-lrluhkSMwMye3jjGj9rfoAso4P4afIh5eJKjgSwgW-tSJeyhl6-xSCQspsvSYkSRYz9SnvdR7hnsaXjN2k72f7GqlgQDVAdipTG2e_rBxs2KL5HJl9bhCs85Rb2X8?key=ubZo3XErWi31X8qif_cz5w)
-
-8\. Попросите Вашего Администратора назначить Вам Лицензию.
-
-В разделе ПРОФИЛЬ можно заполнить свои данные, сменить пароль и привязать учетную запись к google или yandex авторизации.
+  
+  
 
 ## 2. Профиль
-###### 2. Профиль {#profile}
+### 2. Профиль {#profile}
 
-В [_профиле_](https://hub.sgnl.pro/hub/profile) собрана информация о вашем аккаунте с возможностью ее отредактировать
+> В [_профиле_](https://hub.sgnl.pro/hub/profile) собрана информация о вашем аккаунте с возможностью ее отредактировать
+{.is-info}
 
 ### Вкладки{.tabset}
 #### 2.1. Мои компании
 
-Вы можете посмотреть компании, в которых Вы состоите, а также свои права доступа в этой компании
+В данном разделе отображаются все компании, в которых состоит ваша учетная запись, а также указана роль в этой компании
 
-![image-1688388977446.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7ZdrAaxdsXxzs5bUlF9cSajdNkaQXHc_x3oD2mvaTOAzF2VDX3PbFQquDtZxZUURlfGwA2a7DYcVyMaCN63UBDBeAGL8oSSfUfa4NPrmwvDGFAu0OIJfo_Me-VPcxtFXG3Mh9WOZCpSPtzUX1dlIOJF1U?key=ubZo3XErWi31X8qif_cz5w)
+![browser_sae86tbptf.png](/hub/browser_sae86tbptf.png)
 
 #### 2.2. О себе
 
 Вы можете поменять свои учетные данные. Для этого введите новые данные и нажмите “Сохранить”
 
-![image-1688389007094.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvQOndOzDCyAeLPDwkV-wVnw0r6sBEI3s2Es_xt3JvVSuAsSkrt8J-sRpl3_rOpIwgFZw9hlESEIZTRPuX3YWc8Qtw1pct0lpTlrUyysOAI662U4-enLHZNZ40GgILUzooaccjUkEfS97NRjNa5-N4DuY?key=ubZo3XErWi31X8qif_cz5w)
+![browser_pyjszrs2x1.png](/hub/browser_pyjszrs2x1.png)
 
 #### 2.3. Альтернативный вход
 
 Вы можете привязать свою учетную запись к Google, Apple или Yandex авторизации
+![browser_yqvpsku780.png](/hub/browser_yqvpsku780.png)
 
-![image-1688389026435.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdDzjI8W1PHMieTtwKKRsewVtZ8AwQHKjcRYPng8bIJANTvudY02XfJmjYIJ91fT1Kus3ZFCOoNLchi7xO4B7L63apnzG5Piv7BGA-ACx10RN5hUmL19t7CjWGLouHplDc0p7yVzvp5GjEDS1nUmigOk9RV?key=ubZo3XErWi31X8qif_cz5w)
 
 #### 2.4. Безопасность
 
 Вы можете поменять свой пароль. Для этого введите старый пароль и новый. Нажмите "Сохранить".
 
-![image-1688389044693.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaBeRVQUwvUWEocUkdaNeoXItgBH1RC_RojJ7HacLWUMf_JOcfOl3mZunuEoEE6ZMLwEuRxQseFrZ-ZFATIh80wmREAkz_oUDXTeFDJi9o3JJDo-U4XdqD5_AAT8K2MRE_Vy9d_YH_E7qJEi07dim8YS5y?key=ubZo3XErWi31X8qif_cz5w)
+![browser_jpynsupyqk.png](/hub/browser_jpynsupyqk.png)
 
-#
+  
+#### 2.5 Уведомления
+##### 2.5 Уведомления {#notifications} 
+
+>**Менеджер уведомлений** - это инструмент гибкой настройки оповещений, который позволяет пользователю определить, о каких событиях в системе он хочет получать информацию, с какой частотой и по каким каналам связи
+{.is-info}  
+ 
+##### Модули{.tabset}
+
+###### Общие настройки  
+В этом разделе задаются глобальные правила для всех модулей системы.
+  
+![browser_bhepgcreil.png](/hub/browser_bhepgcreil.png)    
+
+*   **Уведомлять по почте:** главный переключатель почтовых рассылок. Если выключен, система не будет отправлять письма.
+*   **Объединение уведомлений (Дайджест):** позволяет сгруппировать несколько событий в одно письмо, чтобы не перегружать почтовый ящик.
+*   **Периодичность (Как часто):** вы можете выбрать интервал, за который будут собираться события в одно письмо:
+    *   События за 1 минуту (практически мгновенно);
+    *   События за день (ежедневный отчет, приходит каждый день в 9 утра по часовому поясу проекта);
+    *   События за неделю (еженедельный дайджест, приходит в 9 утра по часовому поясу проекта в выбранный день недели).  
+  
+###### DOCS
+  
+Настройки разделены на категории в соответсвии с функциями модуля (Документы, Согласование, Замечания, Передача)
+  
+*   **Включение/выключение категорий:** можно одной кнопкой отключить все уведомления по замечаниям или документам.
+*   **Выбор конкретных событий:** с помощью чекбоксов можно выбрать только важные для вас типы событий:
+    *   Назначение ответственным/наблюдателем;
+    *   Приближение дедлайна;
+    *   Упоминание в комментариях;
+    *   Изменение статуса, типа или даты устранения и т.д.
+  
+![browser_rfwn8nrrlr.png](/hub/browser_rfwn8nrrlr.png)  
+  
+Рядом с каждым типом события находится иконка **шестеренки**, которая открывает модальное окно для индивидуальной настройки данного действия.
+  
+  
+Это позволяет переопределить общие настройки для конкретного случая. Например:
+*   Вы можете выключить общее объединение уведомлений, но **оставить его включенным** только для «Назначения ответственным», чтобы получать такие оповещения пачками.
+*   Или наоборот — настроить моментальное получение уведомлений о «Дедлайнах», игнорируя общие правила дайджеста.
+  ![browser_okxqdoex5r.png](/hub/browser_okxqdoex5r.png)
+  
+###### DASHBOARD
+  
+![browser_aqr3ck2bpy.png](/hub/browser_aqr3ck2bpy.png)
+*   **Опубликован отчёт:** Вы получите уведомление, как только в системе появится новый актуальный отчет. Это удобно для руководителей и аналитиков, чтобы всегда работать с актуальными данными.  
+  
+  
+###### INSPECTION
+
+![browser_howlhfm5oc.png](/hub/browser_howlhfm5oc.png)
+*   **Добавлено фото360:** Уведомление о загрузке новых панорамных снимков. Позволяет специалистам технического надзора или заказчикам вовремя узнавать о проведении фотофиксации на объекте и приступать к удаленной проверке.  
+  
 <sub>**[<   HUB. Администратор](/ru/hub/admin)     **|**     [DOCS. Введение   >](/ru/docs/intro)**</sub>
