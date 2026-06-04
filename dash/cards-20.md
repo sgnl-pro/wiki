@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 20. Деньги
 description: 
 published: true
-date: 2026-05-21T12:22:32.694Z
+date: 2026-06-04T12:54:50.659Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:21:31.877Z
@@ -73,7 +73,8 @@ dateCreated: 2025-09-18T13:21:31.877Z
 
 Отображение карточки в режиме пользователя
 
-![image-1681298475900.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7gz_IHCi28nMd5tnUTmglZMFbu6b2ek9EBWk5kZWWAVpU45ZmFBQ3YkKlmQnwTgT9TQ1rFwbjR4M7CBeCXM1YheuvgZmxqzKqu4H4QTUFk3oODCcFGhL5_2UZ5JBMqFKWXd1Go4MdzNUxmIfFuA?key=MHvS0J4XLMea1KtJ_XIgQg)
+![image-1681298475900.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7gz_IHCi28nMd5tnUTmglZMFbu6b2ek9EBWk5kZWWAVpU45ZmFBQ3YkKlmQnwTgT9TQ1rFwbjR4M7CBeCXM1YheuvgZmxqzKqu4H4QTUFk3oODCcFGhL5_2UZ5JBMqFKWXd1Go4MdzNUxmIfFuA?key=MHvS0J4XLMea1KtJ_XIgQg =300x)
+![21_2.png](/sgnl_dash/20_money/21_2.png =300x)
 
 **Настройка карточки**
   
