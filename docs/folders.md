@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-05-08T12:29:22.542Z
+date: 2026-06-04T12:29:37.403Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -223,7 +223,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 # Вкладки{.tabset}
 ## 1. Добавление файлов
-###### 1. Добавление файлов {#addingFiles}  
+### 1. Добавление файлов {#addingFiles}  
 ### Вкладки{.tabset}
 #### 1.1. Загрузка файлов
 ###### 1.1. Загрузка файлов {#uploadings}
@@ -242,6 +242,10 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXezyz6BgmOBWw5JINshCPQaBOQ6ihoHPf9gge44Ur9JEA3n2s26X8Lw1zPktlSS0nobpym6OzCrdLE1gNXFIPGX7lvTW8NhoL6KHWZ5M4jQbvqGw4XrnuvdK2-rJwqd93S5l1eEqCk30_ak3qQ7FA?key=6Xw886XRITsgkPdRw22mAg)
 
+  
+  
+  
+  
 #### 1.2. Статусы файлов
 ###### 1.2. Статусы файлов {#statuses}
   
@@ -258,6 +262,9 @@ dateCreated: 2025-09-09T09:17:01.781Z
 Доступные статусы:
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdz75f8gppb0d6zBPUsFUQjv6QLha_goCtuKBBjZckrsSDtjUaK4mirkbHPURi6IpF3eYbOiPodoD4by1LXlOnVrDLp6azYf3SI9zGlB-HwHBjFrRqQlA4QOB77RdJOdCkECwufiZKM9u1UDnDyKQ?key=Jk1iD7eu81nhSX4JQcW_nQ =70%x)
+
+  
+  
   
 #### 1.3. Версионность файлов
 ###### 1.3. Версионность файлов {#versions}  
@@ -290,17 +297,38 @@ dateCreated: 2025-09-09T09:17:01.781Z
   
 ![add_weblink.gif](/sgnl_docs/docs_documents/add_weblink.gif =50%x)
 
+  
+  
+  
+  
+  
 
 ## 2. Просмотр и редактирование файлов
   ###### 2. Просмотр и редактирование файлов {#view_file}
 См. [DOCS. Работа в файлах](/docs/viewers)
 
+  
+  
+  
+  
+  
+  
 ## 3. Публикация файлов
   ###### 3. Публикация файлов {#publish_file}
 См. [DOCS. Публикация файлов](/docs/sharedSettings)
 
+  
+  
+  
+  
+  
+  
 ## 4. Подписание документов
-###### 4. Подписание документов {#signing}
+### 4. Подписание документов {#signing}
+#### Вкладки{.tabset}  
+##### 1. Подписание ЭЦП
+###### 1. Подписание ЭЦП  {#crypto_pro}
+
 > Для подписания документов из раздела **Документы** применяются [Настройки → Сервисы → ЭЦП](/docs/settings#services)
 {.is-warning}
   
@@ -313,6 +341,35 @@ dateCreated: 2025-09-09T09:17:01.781Z
 Чтобы посмотреть подписи файла, нажмите иконку в столбце “Подпись”. В открывшемся окне Вы можете скачать файл со всеми подписями или отдельную подпись каждого пользователя в формате SIG.
 
 ![files_signing.gif](/sgnl_docs/docs_documents/files_signing.gif =50%x)
+
+##### 2. Подписание ручное
+###### 2. Подписание ручное  {#faximile}  
+
+> В SIGNAL DOCS доступно подписание документов с помощью ручной подписи, которую можно вставить из png файла или нарисовать прямо в сервисе
+{.is-info}
+
+Откройте файл, который планируете подписать и в верхнем углу выберите инструмент "Подписать" - "Ручная подпись"
+>Ручная подпись доступна только с PDF файлами
+{.is-warning}
+  
+![faximile_start.png](/sgnl_docs/docs_documents/faximile_start.png)  
+  
+В открывшемся меню будут доступны все ранее созданные подписи, а также 2 инструмента:
+  1. Загрузить подпись как файл с компьютера
+  2. Создать подпись в SIGNAL DOCS
+  
+![faximile_mpdal.png](/sgnl_docs/docs_documents/faximile_mpdal.png)  
+![faximile_drawing.png](/sgnl_docs/docs_documents/faximile_drawing.png)  
+  
+После выбора файла подписи нажмите подтвердить и выберите место размещения подписи на листе. Также будет открыто окно со всеми подписями в документе. Вы можете располагать одну или несколько подписей на разных листах, управляя ими через это окно.
+  
+![faximile_position.png](/sgnl_docs/docs_documents/faximile_position.png)  
+  
+После того как все подписи размещены нажмите "Завершить" в окне создания подписей. Будет создана новая версия файла, а в колонке "Подпись" появится запись о вашей факсимиле  
+  
+![faximile_finish.png](/sgnl_docs/docs_documents/faximile_finish.png)  
+  
+  
   
 ## 5. Фильтрация
 ###### 5. Фильтрация {#filters}
@@ -334,6 +391,13 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSvKFz2UUSpqY4Fse4Owgit-POdvXcBT_KL78IUV2BK44prCTCv0wcohxuj0UUbcdAYPX5jmVeBQ1yiWU8_9n88RLC8702pnf3h6PVpqp5aqiJcOpLqpwoqIdgN0dTLpJxhUBN-BDxezv_IU83TA?key=Vis5mNfFGhcjlsBry-oKGw =70%x)
 
+  
+  
+  
+  
+  
+  
+  
 ## 6. Экспорт данных о файлах
 ###### 6. Экспорт данных о файлах {#export}
   
@@ -351,6 +415,17 @@ dateCreated: 2025-09-09T09:17:01.781Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhSwUMPiVcWkJcWpEdkky2Yx6j5pDWNlK1-gIiWQtjiLjE5N5bHlrTwweNxR0zzyQWdk0U2Bl8IGd_HFwDrsF1mJiqwx-725yCwWDFlC71NUj87UYQvLpNitdvr59TFJM?key=3A7uOwmP0D1pvIhJPefBkZc9 =70%x)
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 ## 7. Корзина
 ###### 7. Корзина {#trashbin}
 Все удаленные файлы хранятся в корзине. Восстановить файлы может только администратор проекта.
