@@ -2,7 +2,7 @@
 title: DOCS. Согласования
 description: 
 published: true
-date: 2026-06-04T12:43:09.305Z
+date: 2026-06-04T12:52:31.824Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
@@ -606,6 +606,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
 Если вы отвечаете за этап подписания файлов, выберите файлы и нажмите **Подписать**:
   
 ![подписание_документов.png](/подписание_документов.png =600x)
+![reviews_signing.png](/sgnl_docs/docs_reviews/reviews_signing.png =600x)  
 
 Затем нажмите <span style="background: #0695D7; color: white; padding: 5px 16px; border-radius: 5px; font-size: 12px; font-weight: bold; letter-spacing: 1.2px">ЗАВЕРШИТЬ ЭТАП</span>:
   
