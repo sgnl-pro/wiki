@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-05-20T12:35:53.789Z
+date: 2026-06-04T14:00:09.784Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -187,8 +187,8 @@ dateCreated: 2025-10-16T13:16:45.534Z
 ### Вкладки{.tabset}
   
   
-#### 1.1. Работа с DOCX, XLSX
-##### 1.1. Работа с DOCX, XLSX {#office}
+#### 1.1. Работа с DOCX, XLSX, PPTX
+##### 1.1. Работа с DOCX, XLSX, PPTX {#office}
   
 > См. также [пользовательскую справку](https://help.collaboraoffice.com/latest/en-US/text/shared/05/new_help.html) от разработчика офисного редактора.
 {.is-info}
