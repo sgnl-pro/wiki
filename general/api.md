@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-04-27T13:22:28.155Z
+date: 2026-06-09T14:37:42.021Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -15,6 +15,15 @@ dateCreated: 2025-11-06T14:53:09.140Z
         <span style="font-size: 20px;">🔄</span>
         <span style="flex-grow: 1;">Что нового в этом разделе</span>
 </summary>
+  
+**[2026.10](/general/updates/2026-10)** ^04.06.2026^
+  
+Добавили:
+- методы для добавления и редактирования пользователей и их ролей в компании и проектах (контроллеры `ApplicationUser`, `CompanyUser`, `CompanyUserCustomRole`, `ProjectUser`, `ProjectUserCustomRole`)
+- метод `/public/v1/attributes/values/items` для получения значений атрибутов файлов
+- метод `/public/v1/naming-patterns/folder-items/find` для получения масок у папки
+  
+----
 
 **[2026.7](/general/updates/2026-7)** ^23.04.2026^
 Добавили: 
