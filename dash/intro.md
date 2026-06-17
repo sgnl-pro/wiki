@@ -2,7 +2,7 @@
 title: DASHBOARD. Введение
 description: 
 published: true
-date: 2026-04-03T06:38:04.020Z
+date: 2026-06-17T10:19:30.960Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
@@ -87,6 +87,9 @@ dateCreated: 2025-09-12T13:32:58.722Z
   
   ![chrome_c0pkgk0e7y.png](/chrome_c0pkgk0e7y.png)
   
+  В отчете пользователя можно прикрепить 4 вида карточки: **10_Альбом**, **11_ТЭПы**, **62_Замечания в DOCS**, **91_Ссылка**
+  
+  ![chrome_lxmtnjrsgs.png](/chrome_lxmtnjrsgs.png)
   
 #
 <sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
