@@ -2,13 +2,13 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-07-01T16:01:47.624Z
+date: 2026-07-01T16:18:49.253Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
 ---
 
-<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)**</sub>
+<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
 
 ---
 
@@ -43,4 +43,4 @@ dateCreated: 2026-07-01T15:50:50.506Z
 - Доступен только формат DOCX.
   
 #
-<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)**</sub>
+<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
