@@ -2,13 +2,13 @@
 title: FORMS. Настройки проекта
 description: 
 published: true
-date: 2026-07-01T15:22:13.607Z
+date: 2026-07-01T15:22:49.716Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T19:44:31.248Z
 ---
 
-<sub>**[<   FORMS. Конструктор](/ru/forms/builder)     **|**     [FORMS. Заполнение форм   >](/ru/forms/create)**</sub>
+<sub>**[<   FORMS. Конструктор](/ru/forms/builder)     **|**     [FORMS. Заполнение формы   >](/ru/forms/create)**</sub>
   
 ---
 
