@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-05-08T12:41:59.484Z
+date: 2026-07-01T14:55:13.960Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -313,17 +313,6 @@ dateCreated: 2025-09-09T12:10:08.827Z
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 ## 3. Создание замечаний к моделям
 ###### 3. Создание замечаний к моделям {#models}
   
@@ -360,8 +349,57 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcn0LRls873mkIdy7_pFZjnj4-PDZ2bQai5zrerTq7_BdITO1cemYOLOpqFvDNpka_vq8afqP6mlQD4y8ZJ_hsucIQ1ucb_ycDT_rJu1eKxhS-gVfnij2VBLhRzMVexJUH9pvz4XhrGmJ8FND9dow?key=cnL3kvpEZPujFMNQA9w79A =70%x)
   
-## 3. Реестр замечаний
-###### 3. Реестр замечаний {#register}
+  
+  
+  
+  
+  
+  ## 4. Экспорт замечаний
+###### 4. Экспорт замечаний {#export_issue}
+  > Реестр замечания так и отдельные карточки замечаний можно экспортировать в различные форматы. Например реестр замечания можно экспортировать в отдельный PDF-отчет или же таблицу Excel, а отдельные карточки замечания можно по пользовательскому шаблону перенести в Word-файл предписания
+  {.is-info}
+  ### Вкладки{.tabset}
+  #### Экспорт PDF
+  Замечания находящиеся в реестре, можно экспортировать в формате PDF. 
+  ![chrome_zxcvf4tzdk.png](/chrome_zxcvf4tzdk.png)
+  В появившемся окне, настройте кнопки полей которые хотите видеть в отчете.
+  
+  ![chrome_6fdlytiqcs.png](/chrome_6fdlytiqcs.png)
+  **Титульная страница** - создает отдельную страницу с датой выгрузки, автором и количестве выгруженных замечаний
+  **Содержание** - дополнительная страница с гиперссылками на конкретные разделы замечаний.
+  **Атрибуты** - выгружает пользовательские атрибуты если те, есть в карточке замечания.
+  **Комментарии** - выгружает комментарии пользователей оставленные в журнале событий.
+  **Пометки** - выгружает пометки из PDF-файлов и BIM-моделей, если те есть в карточке замечания.
+  **Вложения** - выгружает гиперссылки на вложения оставленные пользователем в карточке замечания.
+  ***Поле "Замечания в одном файле"*** настраивает количество замечаний, которые загрузятся в один PDF-документ, остальные замечания будут загруженны в следующий файл, а сам отчет будет выгружет архивом.
+  
+  
+  В конечном итоге лист замечания в отчете будет выглядеть таким образом:
+  ![chrome_hlqhsalju2.png](/chrome_hlqhsalju2.png)
+  #### Экспорт XLSX
+  Замечания находящиеся в реестре, можно экспортировать в формате Excel .xlsx
+  ![chrome_ksfhstxrla.png](/chrome_ksfhstxrla.png)
+  
+  Файл сразу загружается после нажатия на экспорт. В нем будет копия реестра с теми же столбцами что и в оригинальной таблице: **Номер**, **Название**, **Тип**, **Статус**, **Описание**, **Кем выдано**, **Кем изменено**, **Ответственный**, **Дата получания**, **Дата выдачи**, **Пометки**, **Путь файла**, **Файл**, **Версия**, **Дата устранения**.
+  
+  Из реестра Excel есть возможность перейти к документу, в котором выдано замечание, нажав на файл.
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqjzCT7pIOvIz2ViG_zAJRYbx94u3I9Af9JcucJfwwj8jGxUGKnN9X1OvVrSAvvfpdduVJrovpORRYqR5czu98I2pTK3dDqUQkdSUs9d0HIxEN0ckHWNY625wZFxV-c1XF7vqTzS7wL9pRHKak?key=cnL3kvpEZPujFMNQA9w79A =70%x)
+  
+  #### Генерация предписания
+  В настройках типов замечаний, в графе Шаблон документа, загрузите ваш файл предписания в котором хотите видеть информацию по замечанию. Информация в документе записывается через ключи **(более подробно см. Настройка шаблона)**.
+  ![chrome_uf03oloitk.png](/chrome_uf03oloitk.png)
+  После загрузки шаблона, можете проверить его на правильность заполнения через появившуюся кнопку **"Проверить шаблон"**.
+  Теперь, в реестре замечаний, в карточках того типа в который был загружен шаблон появиться кнопка **"Сгенерировать файл предписания"** 
+  ![chrome_evztkrz5ni.png](/chrome_evztkrz5ni.png)
+  После чего начнется загрузка файла, где ключи примут вид соответствующий полям замечания.
+  
+  В конечном итоге получится вот такой документ:
+  ![winword_prmq7yw9y9.png](/winword_prmq7yw9y9.png)
+  
+  
+  
+## 5. Реестр замечаний
+###### 5. Реестр замечаний {#register}
   
 > См. также видеоинструкцию по работе с реестром замечаний: [Telegram](https://t.me/signal_docs/303) [YouTube](https://youtu.be/x99hg1513T0)	[Rutube](https://rutube.ru/video/fd149dcd26349dbe0b3f6243bea8bba4/) [VK](https://vkvideo.ru/video-223002264_456239083)
 {.is-info}
@@ -392,18 +430,6 @@ dateCreated: 2025-09-09T12:10:08.827Z
 
 ![image-1711090062404.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhFjtMp8d7K_wwF7Wx4ikD6X100ESIFPMRoJEy6v7YNPp-6seV0m4OD5xO2sSo4LMCH3IhBTSfOYcZEnN8GfxwXcdY6A4AgHT2KMs-b0vykC3yGnIfS5xa6s3D3k3g9kqQiVmgPAvEd0AH_grp?key=cnL3kvpEZPujFMNQA9w79A)
 
-Все замечания/отфильтрованные замечания можно экспортировать в форматах Excel и PDF
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrDghDJoES8s-C-_-CbRAeg_NoOYuh21JDvpLey1xGZ5lYhDznkfsuY2wQUTOKCld8zjG_jYaV4rH_ypYP4hpHLWGJrmUTQlBIrMEx930Jos-cYJPLBX_t_JwdJ52wMFg?key=cnL3kvpEZPujFMNQA9w79A)
-
-При экспорте в PDF открывается окно с настройками экспортируемых полей. Максимальное количество замечаний в одном файле ограничено 100 единицами.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpbx2Ujeo-wfM5Cfo888FKPHJ5cPtSrhf7sHWO0kkQA9pEQyDsWubPqMZbUjCcM_gStq8up5IkeZ2W4hGSGpL74A0ht_TivZoicXTrTrXsKk7FBjbefUh-x7FwfvMDaA?key=cnL3kvpEZPujFMNQA9w79A )
-
-Из реестра Excel есть возможность перейти к документу, в котором выдано замечание, нажав на файл.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqjzCT7pIOvIz2ViG_zAJRYbx94u3I9Af9JcucJfwwj8jGxUGKnN9X1OvVrSAvvfpdduVJrovpORRYqR5czu98I2pTK3dDqUQkdSUs9d0HIxEN0ckHWNY625wZFxV-c1XF7vqTzS7wL9pRHKak?key=cnL3kvpEZPujFMNQA9w79A =70%x)
-
 Поиск по созданным Типам замечаний можно использовать через поисковое окно с существующими в реестре типами замечаний.
   ![chrome_nlkkdqf6mp.png](/chrome_nlkkdqf6mp.png)
 
@@ -417,8 +443,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
   
   
   
-## 5. Администрирование
-###### 5. Администрирование {#admin}
+## 6. Администрирование
+###### 6. Администрирование {#admin}
   
 > См. [Настройки проекта → Замечания](/ru/docs/settings)
 {.is-info}
