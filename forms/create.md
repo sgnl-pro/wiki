@@ -2,13 +2,13 @@
 title: FORMS. Заполнение формы
 description: 
 published: true
-date: 2026-07-01T15:20:31.489Z
+date: 2026-07-01T16:03:03.989Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T19:45:47.214Z
 ---
 
-<sub>**[<   FORMS. Настройки проекта](/ru/forms/settings)**</sub>
+<sub>**[<   FORMS. Настройки проекта](/ru/forms/settings)     **|**     [FORMS. Генерация документов   >](/ru/forms/generate)**</sub>
 
 ---
 
@@ -131,4 +131,4 @@ dateCreated: 2026-05-15T19:45:47.214Z
 Настройка уведомлений выполняется в [профиле пользователя](/hub/user#notifications).
   
 #
-<sub>**[<   FORMS. Настройки проекта](/ru/forms/settings)**</sub>
+<sub>**[<   FORMS. Настройки проекта](/ru/forms/settings)     **|**     [FORMS. Генерация документов   >](/ru/forms/generate)**</sub>
