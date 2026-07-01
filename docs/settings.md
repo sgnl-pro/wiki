@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-06-22T06:42:43.721Z
+date: 2026-07-01T13:44:29.896Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -280,8 +280,10 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4bGFglUBagjMQDugWoNB93gjVQbGdIFwL1kvYZHaK20h7MEfc3yGHrYru75eFuXjTfG6Mecd_EV8tKiKV_G1xfZeHr5SXjpzi0ede4tIz10jFirl9BN7iQn_My6INJ9pgAk49rSFyAAqI3-FcgQ?key=DikC-fotJxKF9jvBMPQYCw)
 
-  
-  
+  #### 2.4. Шаблон документа
+  ###### 2.4. Шаблон документа {#temp_doc}
+  Для того чтобы программа сгенерировала файл предписания необходим ее шаблон. Он заполняется в формате документа Word, который имеет определенну форму. 
+  Шаблон пользователь может загружать любой, нужно только указать те поля которые есть в привязанном типе замечания, в шаблоне документа они называются **ключи**.
   
   
   
