@@ -2,13 +2,13 @@
 title: DASHBOARD. Введение
 description: 
 published: true
-date: 2026-06-17T10:24:55.287Z
+date: 2026-07-01T16:15:59.324Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
 ---
 
-<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
+<sub>**[<   FORMS. Генерация документов](/ru/forms/generate)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
 
 <details>
     <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
@@ -101,4 +101,4 @@ dateCreated: 2025-09-12T13:32:58.722Z
   ![chrome_lxmtnjrsgs.png](/chrome_lxmtnjrsgs.png)
   
 #
-<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
+<sub>**[<   FORMS. Генерация документов](/ru/forms/generate)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
