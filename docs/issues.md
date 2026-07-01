@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-07-01T14:55:13.960Z
+date: 2026-07-01T15:04:17.346Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -360,6 +360,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
   {.is-info}
   ### Вкладки{.tabset}
   #### Экспорт PDF
+  ##### Экспорт PDF {#issue_pdf}
   Замечания находящиеся в реестре, можно экспортировать в формате PDF. 
   ![chrome_zxcvf4tzdk.png](/chrome_zxcvf4tzdk.png)
   В появившемся окне, настройте кнопки полей которые хотите видеть в отчете.
@@ -377,6 +378,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
   В конечном итоге лист замечания в отчете будет выглядеть таким образом:
   ![chrome_hlqhsalju2.png](/chrome_hlqhsalju2.png)
   #### Экспорт XLSX
+  ##### Экспорт XLSX {#issue_excel}
   Замечания находящиеся в реестре, можно экспортировать в формате Excel .xlsx
   ![chrome_ksfhstxrla.png](/chrome_ksfhstxrla.png)
   
@@ -386,6 +388,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqjzCT7pIOvIz2ViG_zAJRYbx94u3I9Af9JcucJfwwj8jGxUGKnN9X1OvVrSAvvfpdduVJrovpORRYqR5czu98I2pTK3dDqUQkdSUs9d0HIxEN0ckHWNY625wZFxV-c1XF7vqTzS7wL9pRHKak?key=cnL3kvpEZPujFMNQA9w79A =70%x)
   
   #### Генерация предписания
+  ##### Генерация предписания {#issue_template}
   В настройках типов замечаний, в графе Шаблон документа, загрузите ваш файл предписания в котором хотите видеть информацию по замечанию. Информация в документе записывается через ключи **(более подробно см. Настройка шаблона)**.
   ![chrome_uf03oloitk.png](/chrome_uf03oloitk.png)
   После загрузки шаблона, можете проверить его на правильность заполнения через появившуюся кнопку **"Проверить шаблон"**.
