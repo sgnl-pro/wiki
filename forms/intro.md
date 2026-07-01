@@ -2,13 +2,13 @@
 title: FORMS. Введение
 description: 
 published: true
-date: 2026-07-01T15:12:41.094Z
+date: 2026-07-01T16:17:46.663Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T13:50:24.040Z
 ---
 
-<sub>**[FORMS. Конструктор   >](/ru/forms/builder)**</sub>
+<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [FORMS. Конструктор   >](/ru/forms/builder)**</sub>
 
 ---
 
@@ -63,4 +63,4 @@ dateCreated: 2026-05-15T13:50:24.040Z
 > Конструктор форм будет вынесен из суперадминки на уровень компании. Администратор каждой компании сможет самостоятельно создавать и редактировать типы форм и полей.
 
 ---
-<sub>**[FORMS. Конструктор   >](/ru/forms/builder)**</sub>
+<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [FORMS. Конструктор   >](/ru/forms/builder)**</sub>
