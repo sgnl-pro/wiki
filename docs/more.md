@@ -2,13 +2,13 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2026-05-08T12:47:56.503Z
+date: 2026-07-01T16:15:15.635Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
 ---
 
-<sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+<sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [FORMS. Введение   >](/ru/forms/intro)**</sub>
 
 <details>
     <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
@@ -611,4 +611,4 @@ mkdir C:\\Users\\minio\\.minio\\certs
   >Для добавления Домена - обратитесь в тех.поддержку SIGNAL ([@signal_helpdesk_bot](https://t.me/signal_helpdesk_bot) в ТГ или на почту support@sgnl.pro
   {.is-warning}
 #
-<sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+<sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [FORMS. Введение   >](/ru/forms/intro)**</sub>
