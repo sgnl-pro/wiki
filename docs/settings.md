@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-07-01T15:00:19.752Z
+date: 2026-07-02T07:53:28.778Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -222,7 +222,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 ![main.png](/sgnl_docs/docs_issues/main.png)
   
   
-  1 — Обновление настроек замечаний из другого проекта [Обновление настроек](https://wiki.sgnl.pro/ru/docs/settings#types-update) **(нажать колесиком мыши)**
+  1 — Обновление настроек замечаний из другого проекта **[Обновление настроек](https://wiki.sgnl.pro/ru/docs/settings#types-update)**.
   2 — Создание нового типа замечаний
   3 — Переименовывание, копирование, удаление типов замечаний
   
