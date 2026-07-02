@@ -2,14 +2,14 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-07-02T07:53:28.778Z
+date: 2026-07-02T10:32:19.602Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
 ---
 
 <sub>**[<   DOCS. Введение](/ru/docs/intro)     **|**     [DOCS. Документы   >](/ru/docs/folders)**</sub>
-> Описанные здесь функции доступны только **Администратору** компании
+> Описанные здесь функции доступны только **Администратору организации**
 > {.is-warning}
 
 > См. также **[настройки компании в SIGNAL HUB](/ru/hub/admin)**
