@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2026-07-01T16:15:15.635Z
+date: 2026-07-10T06:49:41.626Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -73,32 +73,53 @@ dateCreated: 2025-09-09T15:46:40.736Z
 >Папка резервной копии должна располагаться на диске с достаточным объемом свободной памяти
   {.is-warning}
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdk8RvSgX6nPVlkO0urcIGP9B1EW-jCPj5thvyL4JrwH3juZZ9VO97imLTiXLAhZNgl-vBWAuXom3bmwZBa0W54N6-y21iDAiPGscdh6aS8u_a2u6bg7_guPl8EaT7CBhE?key=VGXN1rdtEeDWgfm-RwOoQ0kd =70%x)
+![explorer_bnqgz6yngw.png](/explorer_bnqgz6yngw.png)
 
 2.  Заполнить файл настроек **appsettings.json.** Открыть его можно с помощью стандартного блокнота
 
-![backup_appset.png](/sgnl_docs/docs_backup/backup_appset.png)
+![applicationframehost_fwqktqgqtn.png](/applicationframehost_fwqktqgqtn.png)
 
-- “SIGNAL SAMPLE” необходимо заменить на ID проекта из DOCS
-- "OnlyLatest" отвечает за бэкапирование версий. Если установлено значение true, клиент будет выгружать только крайнюю версию документов. В случае повторного запуска и обновления файлов, документы будут перезаписываться. При значении "False" клиент будет бэкапировать все версии файлов.
-- "GetAllProjects" отвечает за бэкапирование всех проектов. Если установлено значение "true" клиент по умолчанию будет выгружать все проекты компании. В таком случае поле "Projects" можно не заполнять
+Выделенные по этапно строки вам нужно изменить под свою компанию:
+  
+  **1. ClientID и ClientSecret**
+ Эти данные нужно получить в HUB во вкладке Настройки в графе Интеграции.
+ Нужно нажать на кнопку "Добавить" и в окне заполнить поля Названия интеграции, выбрать scopes (проще выбрать все), указать проекты на которые будет распространена данная интеграция и ее срок.
+  
+  ![chrome_0k2vfh3idp.png](/chrome_0k2vfh3idp.png)
 
-- Данные для полей “YOUR\_CLIENT\_ID” и “YOUR\_CLIENT\_SECRET” нужно получить  на [_SIGNAL HUB_](https://hub.sgnl.pro/) в разеделе “Интеграции”
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe3At_LFUt-KTSqA-dsNtEerlxulmTuXNpTzCcVZhii2lhSeFYhoE674DP650HsAnhaDYZ2YNHak-TI05mbgBc5f2qSZvf0JwyAtg1ma0v0rxWMZpDak_rwqIpzneEeaNo?key=VGXN1rdtEeDWgfm-RwOoQ0kd =70%x)
-
-Нажмите “Добавить”, напишите название и выберите все методы в строке “Scopes”. После создания интеграции появится “YOUR\_CLIENT\_SECRET”, скопируйте его в файл настроек
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcGE4Av_06-6XM2DaBLTpcz29kC7DCp4oipEUoqSaIocVK8r3lbVzp-H3I0kH8ltted-XJPflgduV4BIVIu2SiHRJZO1VZqJ0An-06rvWM9aJgi509M6pG75C-rUG-NOcY?key=VGXN1rdtEeDWgfm-RwOoQ0kd =40%x)
-
-Выберите созданную интеграцию и нажмите   В открывшемся окне будет “YOUR\_CLIENT\_ID”, скопируйте его в файл настроек.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSjTTfUvIIoWFlO8mIxqm9Xz-h5pjVpytJB_pYx9ESOE3TO2tEYCWrS02wDxudVvhewurTUKgWU52gjN4o6tMVBPkKn6Bf1rM07mTnWI8rRFFWnhRu44tUAk97xZZ1ahM?key=VGXN1rdtEeDWgfm-RwOoQ0kd =40%x)
-
-3.  Сохраните заполненный файл настроек и запустите клиент резервного копирования, файлы начнут скачиваться в созданную ранее папку.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbktgfHZBtBb2FBpwLCBDeHB7xN2Ht9H2z12ZhvAyzHCtV9F8VdydYQODBM5yWp3DSV4f4mngmo9TVsKz1WaQv2DCZKgG0GySu_Kx9OO8HHEJT3BtqN1ZFrhytkrOHw4Q?key=VGXN1rdtEeDWgfm-RwOoQ0kd =70%x)
-
+  Сразу после добавления, появиться окно с **Secret Key** - обязательно скопируйте и запомните его, он нужен для appsettings, этот код нужно вставить в графу ClientSecret (см. выше 1)
+  
+  ![chrome_spukuzpebi.png](/chrome_spukuzpebi.png)
+  
+  После того как скопировали и вставили ClientSecret, остается вставить ClientID. Он хранится в открытом виде в деталях интеграции, нужно нажать на иконку "глаза" и в графе **clientId** скопировать код.
+  ![chrome_aofchpizrr.png](/chrome_aofchpizrr.png)
+  
+  **2. Projects**
+  
+  Код проекта нужен для указания программе какие проекты нужно скачивать. Если опцию отключить - то скачаются все проекты компании.
+  Сам код можно скопировать в адресной строке браузера при открытии необходимого проекта.
+  ![chrome_dn4xcdikna.png](/chrome_dn4xcdikna.png)
+  
+  Вставить код нужно вставить между скобками в графе "Projects":
+  
+![applicationframehost_sehcmyjhtu.png](/applicationframehost_sehcmyjhtu.png)
+  
+  **3. OnlyLatest**
+  У опции OnlyLatest есть три режима 
+если **true** - скачиваются только последние версии файлов в структуру папок идентичную структуре в DOCS для данного проекта
+если **false** - скачиваются все версии файлов и раскладываются по папкам v1, v2 и т.д. В папке v1 содержится вся структура папок из DOCS для данного проекта.
+  
+>В папках v2..vN представлены только те папки, в которых содержатся файлы
+  
+если данная **опция отключена** (закомментирована) - последние версии файлов скачиваются в структуру папок идентичную структуре в DOCS для данного проекта, а предыдущие версии файлов скачиваются в папки v1, v2 и т.д. в соответствии с прошлыми версиями файлов.
+  
+ **4. GetIssues**
+  У опции GetIssues имеет две опции:
+  **true** - скачивает вместе с проектом весь реестр замечаний в виде текстового файла.
+  **false** - не скачивает замечания, убирая папку Issues.
+  
+  После заполнения `appsettings.json` запустите `DOCSDownloader.exe` файл в той же папке. Скрипт начнет загружать в эту же папку все записанные проекты.
+  ![chrome_cjsiqwwlnf.png](/chrome_cjsiqwwlnf.png)
 
 ## 2. DOCS Android
 ###### 2. DOCS Android {#Android}
