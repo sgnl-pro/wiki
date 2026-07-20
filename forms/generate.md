@@ -2,13 +2,13 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-07-16T15:00:11.234Z
+date: 2026-07-20T08:41:27.452Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
 ---
 
-<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [FORMS. Атрибуты для генерации документов   >](/ru/forms/attributes-for-generation)**</sub>
 
 ---
 
