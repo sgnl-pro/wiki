@@ -2,7 +2,7 @@
 title: INSPECTION. Альбом
 description: 
 published: true
-date: 2026-02-04T14:12:40.279Z
+date: 2026-07-21T09:22:49.261Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T12:07:26.805Z
@@ -28,7 +28,7 @@ dateCreated: 2025-09-19T12:07:26.805Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcWlTtiXO41HJjUqfNPFg9mP4BCl88xSTjvDFRez1i5MBg1QASZ_mTvvQ5Ykre9dF6cE8WU6jZ4YjE4XW_YxqbBjKhwjF8ROEK9Leqtl8WoI3i8MR8Sha4--KCKfwEEni0?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
-Нажмите на три точки рядом с названием альбома и выберите форму публикации. Это может быть ссылка или <iframe> код
+Нажмите на три точки рядом с названием альбома и выберите форму публикации. Это может быть ссылка или код
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd28Qw9QSSw_isOoV1g0JtOAcAntwJiT62DtLWAJ58Fb_1kn5z-RSVvc661rK6nkNpkXczDP9vrR7IHG8edukLgNUu5D6A9PGNSrFeVox9gnJPOhG9cxZM7rPg3aDdYLzM?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
