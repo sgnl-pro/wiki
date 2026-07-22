@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-07-22T12:41:07.872Z
+date: 2026-07-22T12:46:19.154Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -20,11 +20,13 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > {.is-warning}
 
 > Здесь описаны только общие настройки проекта. См. также:
-> • **[настройки компании в SIGNAL HUB](/ru/hub/admin)**
-> • **[настройки замечаний](/docs/issues#admin), [согласований](/docs/reviews#types_setting), [передачи](/docs/documentsTransfers#admin)**
-> • **[настройки форм](/forms/settings)**
-> • **[настройки уведомлений в DOCS](/ru/docs/notifications)** и **[в HUB](/ru/hub/user#notifications)**
-> • **[установка MinIO на Linux / Windows](/ru/docs/more)**
+> • **[HUB. Администратор → Организация](/ru/hub/admin#company)**
+> • **[DOCS. Замечания → Настройки типов](/docs/issues#admin)**
+> • **[DOCS. Согласования → Настройки типов](/docs/reviews#types_setting)**
+> • **[DOCS. Передача → Настройки типов](/docs/documentsTransfers#admin)**
+> • **[FORMS. Настройки проекта](/forms/settings)**
+> • **[HUB. Пользователь → Профиль → Уведомления](/ru/hub/user#notifications)**
+> • **[DOCS. Дополнительно → Установка MinIO на Linux / Windows](/ru/docs/more)**
 {.is-info}
   
   
