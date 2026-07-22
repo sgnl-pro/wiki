@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта — История изменений
 description: 
 published: true
-date: 2026-07-22T11:37:07.637Z
+date: 2026-07-22T11:39:46.925Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-22T11:21:51.243Z
@@ -19,6 +19,8 @@ dateCreated: 2026-07-22T11:21:51.243Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+
 
 ----
 **[2026.10](/general/updates/2026-10)** ^04.06.2026^
