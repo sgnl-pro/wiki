@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-07-22T12:46:19.154Z
+date: 2026-07-22T12:47:02.262Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -21,6 +21,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 > Здесь описаны только общие настройки проекта. См. также:
 > • **[HUB. Администратор → Организация](/ru/hub/admin#company)**
+> • **[DOCS. Документы → Администрирование](/docs/folders#admin)**
 > • **[DOCS. Замечания → Настройки типов](/docs/issues#admin)**
 > • **[DOCS. Согласования → Настройки типов](/docs/reviews#types_setting)**
 > • **[DOCS. Передача → Настройки типов](/docs/documentsTransfers#admin)**
