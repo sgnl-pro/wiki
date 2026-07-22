@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-07-22T12:07:22.724Z
+date: 2026-07-22T12:25:03.996Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -452,6 +452,9 @@ dateCreated: 2025-09-09T12:10:08.827Z
   
 ## 6. Администрирование
 ###### 6. Администрирование {#admin}
+  
+> Описанные здесь функции доступны только **Администратору проекта**
+> {.is-warning}
   
 > См. также видеоинструкцию по настройке замечаний и атрибутов: [Telegram](https://t.me/signal_docs/198) [YouTube](https://youtu.be/0ki2I6Tl2KE)	[Rutube](https://rutube.ru/video/ff98be6edbe568e45ddec40a0ebce695/) [VK](https://vk.com/wall-223002264_14)
 {.is-info}
