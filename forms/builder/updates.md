@@ -1,8 +1,8 @@
 ---
-title: FORMS. Конструктор
-description: 🔄 История изменений
+title: FORMS. Конструктор — История изменений
+description: 
 published: true
-date: 2026-07-22T11:07:37.576Z
+date: 2026-07-22T11:08:19.250Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-22T10:54:24.436Z
