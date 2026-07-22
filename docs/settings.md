@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-07-22T11:56:49.092Z
+date: 2026-07-22T12:01:29.752Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -22,7 +22,9 @@ dateCreated: 2025-09-09T08:02:36.643Z
 > Здесь описаны только общие настройки проекта. См. также:
 > • **[настройки компании в SIGNAL HUB](/ru/hub/admin)**
 > • **[настройки замечаний](/docs/issues#admin), [согласований](/docs/reviews#types_setting), [передачи](/docs/documentsTransfers#admin)**
+> • **[настройки форм](/forms/settings)**
 > • **[настройки уведомлений в DOCS](/ru/docs/notifications)** и **[в HUB](/ru/hub/user#notifications)**
+> • **[установка MinIO на Linux / Windows](/ru/docs/more)**
 {.is-info}
   
   
@@ -125,27 +127,6 @@ dateCreated: 2025-09-09T08:02:36.643Z
 
 ![image-1703763310200.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFtI5aXO9fjGHTAi4wJo3UpiX51MxDqIm2GRgNa0F2r_k8P1a0NKG4pF-5osnDDpC-EH1s0qj3AeEW2frxWv0WX2kxrRC_QjgEEOO7l9tG_9Qu-T74rocjzNqgrOKn31MWD_I1NcYjdw_ZzNEA?key=DMy4N3yohGr1J0s7rFEk7w)
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-## 3. Сервер
-  ###### 3. Сервер {#server}
-> См. [DOCS. Дополнительно → Установка MinIO на Linux / Windows](/ru/docs/more)
-{.is-info}
-  
-> См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
-{.is-info}
 
   
   
@@ -159,8 +140,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
   
   
   
-## 4. Сервисы
-###### 4. Сервисы {#services}
+## 3. Сервисы
+###### 3. Сервисы {#services}
 > См. также видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
 
@@ -168,28 +149,28 @@ dateCreated: 2025-09-09T08:02:36.643Z
   ![services_main.png](/sgnl_docs/docs_services/services_main.png)
   
 ### Вкладки{.tabset}
-#### 4.1 Подписание PDF документов
-###### 4.1 Подписание PDF документов {#sign_pdf} 
+#### 3.1 Подписание PDF документов
+###### 3.1 Подписание PDF документов {#sign_pdf} 
   Настройки подписания документов ЭЦП напрямую из раздела **Хранилище**. 
   
-#### 4.2 Цвет пометок
-###### 4.2 Цвет пометок {#color_issue}
+#### 3.2 Цвет пометок
+###### 3.2 Цвет пометок {#color_issue}
   **Цвет пометок**. Данная настройка отвечает за цвет пометок оставленных в PDF документах. При включенной настройке цвет пометки будет соответствовать статусу замечания. Например, если замечание имеет статус "В работе", то пометка будет синего цвета, а "Закрыто" зеленая
 
-#### 4.3 BIM-вьювер
-###### 4.3 BIM-вьювер {#bim_viewer}
+#### 3.3 BIM-вьювер
+###### 3.3 BIM-вьювер {#bim_viewer}
   **BIM-вьвюер**. Для просмотра 3D моделей в сервисе SIGNAL DOCS используются **Forge Viewer** и/или **Tangl Viewer**. Администратор проекта может выбрать, каким вьювером просматривать модели для каждого проекта
   **Forge Viewer** позволяет просмотреть следующие форматы файлов:
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEPxyBT1yqLC3G6KS64ka2CneTJJDfysi6VXZwppvGZNM2k22YHOgXfhz-mdGsTnyCAo4b0KLuVgxlyruRwbnwvmo0VRFSqbja2kSVAfF7mao2GYZA1OpnVnKbrHlMZ1aGLKk-A-kbhHItcb__?key=mSlD0f1iO2mqCDbxSYrHzQ =70%x)
   **Tangl Viewer** позволяет просмотреть IFC формат и RVT 
   
-#### 4.4 Клиент Tangl
-###### 4.4 Клиент Tangl {#tangl_client}
+#### 3.4 Клиент Tangl
+###### 3.4 Клиент Tangl {#tangl_client}
   **Клиент Tangl**. В данном разделе настраивается интеграции с личным кабинетом Tangl. По умолчанию подключен кабинет SIGNAL. Подробнее: [DOCS. Дополнительно → Интеграция с Tangl](/ru/docs/more)
   
-#### 4.5 Простой просмотр
-###### 4.5 Простой просмотр {#simple_view}
+#### 3.5 Простой просмотр
+###### 3.5 Простой просмотр {#simple_view}
   **Простой просмотр**. Конфигуратор и предупреждение для простого просмотра моделей. Более подробно о функции простого просмотра [Нарезка квартир](/tools/tools-for-revit/flat-slice)
   
   Для настройки конфигуратора необходимо создать json файл, описывающий соотношений элементов и групп, а также набор свойств, отображаемых у элементов. JSON схема представлена ниже: 
@@ -323,8 +304,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
       
       
       
-## 5. Функциональность
-###### 5. Функциональность {#functions}      
+## 4. Функциональность
+###### 4. Функциональность {#functions}      
       
 Управление доступом пользователей к некоторым функциям среды общих данных. 
       
@@ -346,8 +327,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
       
       
       
-## 6. Доверенности
-###### 6. Доверенности {#powerOfAttorney}  
+## 5. Доверенности
+###### 5. Доверенности {#powerOfAttorney}  
 > См. видеоинструкцию по прочим настройкам: [Telegram](https://t.me/sgnlpro/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 {.is-info}
   
@@ -370,8 +351,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
       
       
       
-## 7. Права доступа
-###### 7. Права доступа {#foldersPermissions}
+## 6. Права доступа
+###### 6. Права доступа {#foldersPermissions}
 > См. также видеоинструкцию по настройке прав доступа: [Telegram](https://t.me/sgnlpro/194) [YouTube](https://youtu.be/QwunTC_lYDo?si=KzwE04tc3VoZgmfk)	[Rutube](https://rutube.ru/video/328b9099b6b7bea60e0235993cab47ab/?r=wd) [VK](https://vk.com/wall-223002264_13)
 {.is-info}
 
@@ -411,8 +392,8 @@ dateCreated: 2025-09-09T08:02:36.643Z
       
       
       
-## 8. XML документы
-###### 8. XML документы {#xml}
+## 7. XML документы
+###### 7. XML документы {#xml}
       
 > См. также видео **[XML-документы по XSD-схемам в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239025)**
 {.is-info}
@@ -433,7 +414,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
       
       
       
-## 9. Обновление типов
+## 8. Обновление типов
 ###### Обновление типов замечаний и согласований {#types-update}
 
 > При работе в SIGNAL DOCS администратор может обновить параметры замечаний и согласований текущего проекта из шаблонного проекта.
