@@ -2,13 +2,17 @@
 title: FORMS. Заполнение формы
 description: 
 published: true
-date: 2026-07-02T10:34:22.202Z
+date: 2026-07-22T11:13:24.343Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T19:45:47.214Z
 ---
 
 <sub>**[<   FORMS. Настройки проекта](/ru/forms/settings)     **|**     [FORMS. Генерация документов   >](/ru/forms/generate)**</sub>
+  
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"> <a href="/forms/settings/create" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 ---
 
