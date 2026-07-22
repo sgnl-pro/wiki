@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2026-07-22T12:24:28.689Z
+date: 2026-07-22T12:39:59.139Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -258,8 +258,8 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbgsmvdvensFoiI__T5-jGU-sPjNDpvQ5-rKG6CIlCk4j_S2lJBTWyGaTWVpH5scOyAORM4IvCmAzJu6GUc95BrZSEO9SC0B7eKwgbXsd1SNvGBbL8De-7Tw7HaGn4hS4?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-## 7. Администрирование
-###### 7. Администрирование {#admin}
+## 7. Настройки типов передачи
+###### 7. Настройки типов передачи {#admin}
   
 > Описанные здесь функции доступны только **Администратору проекта**
 > {.is-warning}
