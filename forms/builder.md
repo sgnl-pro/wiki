@@ -2,13 +2,17 @@
 title: FORMS. Конструктор
 description: 
 published: true
-date: 2026-07-16T11:14:37.201Z
+date: 2026-07-22T10:52:17.619Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T14:05:05.223Z
 ---
 
-<sub>**[<   FORMS. Введение](/ru/forms/intro)     **|**     [FORMS. Настройки проекта   >](/ru/forms/settings)**</sub>
+<sub style="display: block; margin-bottom: 20px;">**[<   FORMS. Введение](/ru/forms/intro)     **|**     [FORMS. Настройки проекта   >](/ru/forms/settings)**</sub>
+
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px;">
+<span style="flex-grow: 1;">🔄 Что нового (история изменений этого функционала)</span>
+</summary>
   
 ---
 
