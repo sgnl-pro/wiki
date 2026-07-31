@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2026-07-31T07:55:08.523Z
+date: 2026-07-31T07:56:03.253Z
 tags: general
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -23,7 +23,7 @@ dateCreated: 2025-09-25T13:55:16.192Z
 
 <span style="font-size: 20px; font-weight: bold;">Август 2026</span>
 
-- [Релиз 2026.14 *03.08.2026*](/general/updates/2026-14)<span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #FF5867, #88383F); color: white; padding: 2px 6px; border-radius: 4px;">FORMS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
+- [Релиз 2026.14 (готовится) *03.08.2026*](/general/updates/2026-14)<span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #FF5867, #88383F); color: white; padding: 2px 6px; border-radius: 4px;">FORMS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>
 {.links-list}
   
 <span style="font-size: 20px; font-weight: bold;">Июнь–июль 2026</span>
