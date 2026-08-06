@@ -2,7 +2,7 @@
 title: DOCS. Согласования
 description: 
 published: true
-date: 2026-07-22T12:16:41.097Z
+date: 2026-08-06T10:58:56.621Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
@@ -241,7 +241,67 @@ dateCreated: 2025-09-09T12:22:52.543Z
 </details>
  
 ----
+<div class="toc-grid">
+  <!-- 1. Основные понятия (Синий) -->
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#main_info">1. Основные понятия</a></h4>
+    <ul class="toc-list">
+      <li><a href="#main_info"><span class="toc-badge">1.1</span> Комплекты, итерации и статусы</a></li>
+      <li><a href="#main_info"><span class="toc-badge">1.2</span> Участники и роли процесса</a></li>
+    </ul>
+  </div>
 
+  <!-- 2. Реестр согласований (Зеленый) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#register_reviews">2. Реестр согласований</a></h4>
+    <ul class="toc-list">
+      <li><a href="#columns_reviews"><span class="toc-badge">2.1</span> Колонки реестра</a></li>
+      <li><a href="#calendar_reviews"><span class="toc-badge">2.2</span> Календарь согласований</a></li>
+      <li><a href="#actions_reviews"><span class="toc-badge">2.3</span> Действия с реестром</a></li>
+    </ul>
+  </div>
+
+  <!-- 3. Карточка комплекта (Зеленый) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#set_card">3. Карточка комплекта</a></h4>
+    <ul class="toc-list">
+      <li><a href="#iterations"><span class="toc-badge">3.1</span> Итерации согласования</a></li>
+      <li><a href="#action_buttons"><span class="toc-badge">3.2</span> Кнопки действий</a></li>
+      <li><a href="#set_files"><span class="toc-badge">3.3</span> Файлы комплекта</a></li>
+      <li><a href="#reviews_issues"><span class="toc-badge">3.4</span> Связанные замечания</a></li>
+    </ul>
+  </div>
+
+  <!-- 4. Процесс согласования (Зеленый) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#process_reviews">4. Процесс согласования</a></h4>
+    <ul class="toc-list">
+      <li><a href="#start_reviews"><span class="toc-badge">4.1</span> Создание и запуск итерации</a></li>
+      <li><a href="#main_stages"><span class="toc-badge">4.2</span> Основные этапы проверки</a></li>
+      <li><a href="#final_stamps_qr"><span class="toc-badge">4.3</span> Финальный этап, штамп и QR</a></li>
+      <li><a href="#signing"><span class="toc-badge">4.4</span> Этапы подписания ЭЦП</a></li>
+      <li><a href="#cancellation"><span class="toc-badge">4.5</span> Аннулирование, перезапуск, отмена</a></li>
+    </ul>
+  </div>
+
+  <!-- 5. Настройки типов согласований (Фиолетовый) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#types_setting">5. Настройки типов (Админ)</a></h4>
+    <ul class="toc-list">
+      <li><a href="#types"><span class="toc-badge">5.1</span> Управление типами</a></li>
+      <li><a href="#access_user"><span class="toc-badge">5.2</span> Права доступа</a></li>
+      <li><a href="#main_settings"><span class="toc-badge">5.3</span> Общие настройки</a></li>
+      <li><a href="#stages_reviews"><span class="toc-badge">5.4</span> Маршруты и этапы</a></li>
+      <li><a href="#stamps"><span class="toc-badge">5.5</span> Штампование и QR</a></li>
+      <li><a href="#copying"><span class="toc-badge">5.6</span> Копирование и оповещения</a></li>
+    </ul>
+  </div>
+</div>
+  
+  
+  
+----
+  
 **Согласования** — инструмент для сборки, проверки и подписания комплектов проектной документации.
 
 
@@ -253,7 +313,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
 
 
 
-# Вкладки{.tabset}
+# Вкладки {.tabset}
 ## 1. Основные понятия
 ###### 1. Основные понятия {#main_info}
 > **Комплект согласования** — набор версий файлов проекта, которые нужно утвердить в ходе маршрута согласования. В реестре согласований комплект отображается одной строкой и имеет отдельную карточку. Комплект может проходить маршрут несколько раз, так называемыми **итерациями.** Все итерации комплекта отображаются в хронологическом порядке и могут отличаться типами, набором этапов, ответственными лицами, составом файлов и другими параметрами.
@@ -275,6 +335,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
 > - <span style="color: #F2C94C; font-weight: bold">Согласован с замечаниями</span> — согласование завершено, файл принят с замечаниями
 > - <span style="color: #FF4758; font-weight: bold">Аннулирован</span> — файл аннулирован после завершения согласования (например, при перезапуске или отмене)
 > - <span style="color: #B6BEC7; font-weight: bold">Удален</span> — версию файла удалили из комплекта
+  
   
 > **Состояние итерации** — итоговый результат конкретной итерации согласования:
 > - **На проверке** — итерация в процессе, активен указанный этап
@@ -307,7 +368,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
   
 ![реестр_согласований.png](/реестр_согласований.png)
 
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 #### 2.1. Колонки реестра
 ###### 2.1. Колонки реестра {#columns_reviews}
 Колонка | Описание
@@ -384,7 +445,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
   
 ![карточка_комплекта.png](/карточка_комплекта.png)
 
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 #### 3.1. Итерации
 ###### 3.1. Итерации {#iterations}
 Под строкой реестра отображается тип последней итерации и затем цепочки всех итераций по порядку. Этапы обозначены кружочками. Последний этап выбранной итерации обозначается прямоугольником со статусом итерации. Серым цветом выделены будущие этапы, до которых ещё не дошёл процесс. Также используются следующие обозначения этапов:
@@ -477,7 +538,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
 > Одни и те же версии файлов могут входить в несколько комплектов согласования (хотя это не рекомендуется), в этом случае у версии файла отображается статус последней итерации.
 {.is-info}
   
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 #### 4.1. Создание комплекта и запуск итерации согласования
 ###### 4.1. Создание комплекта и запуск итерации согласования {#start_reviews}
 Создать комплект можно двумя способами: из реестра согласований и из документов с заранее выбранными файлами.
@@ -728,7 +789,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
   
 ![настройки_согласований.png](/настройки_согласований.png)
 
-### Вкладки{.tabset} 
+### Вкладки {.tabset} 
 #### 5.1. Типы согласований
 ###### 5.1. Типы согласований {#types}
 Действие | Описание
