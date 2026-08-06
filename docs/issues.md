@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-08-06T09:41:45.989Z
+date: 2026-08-06T10:45:32.236Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -167,8 +167,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
   
 ----
 <div class="toc-grid">
-  <!-- 1. Основные понятия -->
-  <div class="toc-card">
+  <!-- 1. Основные понятия (Синий) -->
+  <div class="toc-card info">
     <h4 class="toc-card-title"><a href="#main_info">1. Основные понятия</a></h4>
     <ul class="toc-list">
       <li><a href="#main_info"><span class="toc-badge">1.1</span> Терминология и статусы</a></li>
@@ -176,8 +176,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
     </ul>
   </div>
 
-  <!-- 2. Создание замечаний к документам -->
-  <div class="toc-card">
+  <!-- 2. Создание замечаний к документам (Зеленый) -->
+  <div class="toc-card user">
     <h4 class="toc-card-title"><a href="#documents">2. Замечания к документам</a></h4>
     <ul class="toc-list">
       <li><a href="#documents"><span class="toc-badge">2.1</span> Создание и заполнение формы</a></li>
@@ -185,8 +185,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
     </ul>
   </div>
 
-  <!-- 3. Создание замечаний к моделям -->
-  <div class="toc-card cad">
+  <!-- 3. Создание замечаний к моделям (Зеленый) -->
+  <div class="toc-card user">
     <h4 class="toc-card-title"><a href="#models">3. Замечания к моделям</a></h4>
     <ul class="toc-list">
       <li><a href="#forge_viewer"><span class="toc-badge">3.1</span> Forge Viewer</a></li>
@@ -194,8 +194,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
     </ul>
   </div>
 
-  <!-- 4. Экспорт замечаний -->
-  <div class="toc-card pdf">
+  <!-- 4. Экспорт замечаний (Зеленый) -->
+  <div class="toc-card user">
     <h4 class="toc-card-title"><a href="#export_issue">4. Экспорт замечаний</a></h4>
     <ul class="toc-list">
       <li><a href="#issue_pdf"><span class="toc-badge">4.1</span> Экспорт в PDF-отчёт</a></li>
@@ -204,8 +204,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
     </ul>
   </div>
 
-  <!-- 5. Реестр замечаний -->
-  <div class="toc-card other">
+  <!-- 5. Реестр замечаний (Зеленый) -->
+  <div class="toc-card user">
     <h4 class="toc-card-title"><a href="#register">5. Реестр замечаний</a></h4>
     <ul class="toc-list">
       <li><a href="#register"><span class="toc-badge">5.1</span> Таблица замечаний проекта</a></li>
@@ -213,8 +213,8 @@ dateCreated: 2025-09-09T12:10:08.827Z
     </ul>
   </div>
 
-  <!-- 6. Настройки типов замечаний -->
-  <div class="toc-card other">
+  <!-- 6. Настройки типов замечаний (Фиолетовый) -->
+  <div class="toc-card admin">
     <h4 class="toc-card-title"><a href="#admin">6. Настройки типов (Админ)</a></h4>
     <ul class="toc-list">
       <li><a href="#access"><span class="toc-badge">6.1</span> Ролевые доступы</a></li>
@@ -224,7 +224,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
       <li><a href="#types-update"><span class="toc-badge">6.5</span> Обновление типов из проектов</a></li>
     </ul>
   </div>
-</div>  
+</div>
   
 ----  
 
