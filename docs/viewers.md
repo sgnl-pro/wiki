@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-08-06T09:30:22.884Z
+date: 2026-08-06T09:35:09.867Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -175,96 +175,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
 </details>
 
 ----
-----
-<style>
-.toc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
-  margin: 20px 0 35px 0;
-  font-family: inherit;
-}
-
-.toc-card {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 18px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border-top: 4px solid #3b82f6; /* Синий акцент */
-}
-
-.toc-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-
-/* Разные цвета верхних полосок для разных категорий */
-.toc-card.cad { border-top-color: #6366f1; }  /* Фиолетовый */
-.toc-card.pdf { border-top-color: #ef4444; }  /* Красный */
-.toc-card.other { border-top-color: #10b981; }/* Зеленый */
-
-.toc-card-title {
-  margin: 0 0 12px 0 !important;
-  font-size: 16px !important;
-  font-weight: 700 !important;
-  color: #0f172a !important;
-  border: none !important;
-  padding: 0 !important;
-}
-
-.toc-card-title a {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
-.toc-card-title a:hover {
-  color: #2563eb !important;
-}
-
-.toc-list {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.toc-list li {
-  margin-bottom: 8px !important;
-  padding: 0 !important;
-}
-
-.toc-list li:last-child {
-  margin-bottom: 0 !important;
-}
-
-.toc-list a {
-  color: #475569 !important;
-  text-decoration: none !important;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13.5px;
-  transition: color 0.15s ease, transform 0.15s ease;
-}
-
-.toc-list a:hover {
-  color: #2563eb !important;
-  transform: translateX(3px);
-}
-
-.toc-badge {
-  font-size: 11px;
-  font-weight: 600;
-  color: #64748b;
-  background: #f1f5f9;
-  padding: 2px 6px;
-  border-radius: 4px;
-  min-width: 28px;
-  text-align: center;
-}
-</style>
-
+  
 <div class="toc-grid">
   <!-- 1. Офисные документы -->
   <div class="toc-card">
