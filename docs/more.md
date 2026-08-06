@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2026-07-10T06:49:41.626Z
+date: 2026-08-06T11:22:18.184Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -61,8 +61,75 @@ dateCreated: 2025-09-09T15:46:40.736Z
 </details>
   
 ----
+  
+<!-- Оглавление в виде карточек -->
+<div class="toc-grid">
+  <!-- 1. DOCS Backup (Админ / Сервер) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#backup">1. DOCS Backup</a></h4>
+    <ul class="toc-list">
+      <li><a href="#backup"><span class="toc-badge">1.1</span> Установка клиента бэкапа</a></li>
+      <li><a href="#backup"><span class="toc-badge">1.2</span> Конфигурация appsettings.json</a></li>
+    </ul>
+  </div>
 
-# Вкладки{.tabset}
+  <!-- 2. DOCS Android (Пользователь) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#Android">2. DOCS Android</a></h4>
+    <ul class="toc-list">
+      <li><a href="#Android"><span class="toc-badge">2.1</span> Мобильное приложение и офлайн-доступ</a></li>
+    </ul>
+  </div>
+
+  <!-- 3. Интеграция с Tangl (Пользователь / BIM) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#Tangl">3. Интеграция с Tangl</a></h4>
+    <ul class="toc-list">
+      <li><a href="#settings_tangl_viewer"><span class="toc-badge">3.1</span> Настройка вьювера</a></li>
+      <li><a href="#IFC_about"><span class="toc-badge">3.2</span> Работа с IFC</a></li>
+      <li><a href="#Revit_about"><span class="toc-badge">3.3</span> Работа с RVT</a></li>
+      <li><a href="#publish_only_tangl"><span class="toc-badge">3.4</span> Серверная публикация</a></li>
+    </ul>
+  </div>
+
+  <!-- 4. Установка MinIO на Linux (Админ / Сервер) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#MinIOLinux">4. MinIO на Linux</a></h4>
+    <ul class="toc-list">
+      <li><a href="#MinIO_download"><span class="toc-badge">4.1</span> Загрузка и установка</a></li>
+      <li><a href="#start_create_minIO"><span class="toc-badge">4.2</span> Создание службы и запуск</a></li>
+      <li><a href="#SSL"><span class="toc-badge">4.3</span> SSL сертификат</a></li>
+      <li><a href="#settings_MinIO"><span class="toc-badge">4.4</span> Настройка ключей и бакетов</a></li>
+      <li><a href="#connection_storage"><span class="toc-badge">4.5</span> Подключение к DOCS</a></li>
+    </ul>
+  </div>
+
+  <!-- 5. Установка MinIO на Windows (Админ / Сервер) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#MinIOWindows">5. MinIO на Windows</a></h4>
+    <ul class="toc-list">
+      <li><a href="#minIO_download"><span class="toc-badge">5.1</span> Скачивание minio.exe</a></li>
+      <li><a href="#start_minIO"><span class="toc-badge">5.2</span> Запуск и папка данных</a></li>
+      <li><a href="#connect_SSL"><span class="toc-badge">5.3</span> SSL сертификат</a></li>
+      <li><a href="#tuning_minIO"><span class="toc-badge">5.4</span> Настройка ключей и бакетов</a></li>
+      <li><a href="#storage_connection"><span class="toc-badge">5.5</span> Подключение к DOCS</a></li>
+    </ul>
+  </div>
+
+  <!-- 6. Настройки AD FS (Админ / Авторизация) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#Settings_AD_FS">6. Настройки AD FS</a></h4>
+    <ul class="toc-list">
+      <li><a href="#Settings_AD_FS"><span class="toc-badge">6.1</span> Настройка группы в ADFS</a></li>
+      <li><a href="#Settings_AD_FS"><span class="toc-badge">6.2</span> Настройка Hub в SIGNAL</a></li>
+    </ul>
+  </div>
+</div>
+  
+  
+----
+  
+# Вкладки {.tabset}
 ## 1. DOCS Backup
 ###### 1. DOCS Backup {#backup}
   
@@ -135,7 +202,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
   
 В SIGNAL есть модули DOCS, TOOLS, DASHBOARD, INSPECTION. Решения Tangl содержат BIM-вьювер аналогичный Forge вьюверу Autodesk, а также модули Value и Control для работы с объемами из модели и проверке моделей соответственно. Модуль SIGNAL DOCS - это среда общих данных, в которую можно загружать документацию и отправлять на согласование, в том числе и BIM-модели. При работе с BIM-моделями можно использовать Forge-вьювер и Tangl-вьювер. Forge-вьювер - это решение от Autodesk, которое конвертирует и хранит сконвертированные версии моделей на иностранных серверах (AWS в Америке и Европе). Tangl-вьювер имеет преимущество перед Forge в том, что он размещен на Российских серверах в Москве на Yandex-cloud. Некоторым компаниям в РФ запрещено использовать иностранные сервера, в связи с чем, если они хотят применять BIM-технологии в проектировании и строительстве, то Tangl - лучший выбор. В настоящий момент Tangle-вьювер работает с IFC и RVT форматами. Для конвертации IFC формата имеется серверная конвертация, для которой не требуется запущенного приложения Revit. Для работы с RVT моделями требуется либо плагин Tangl, либо SIGNAL TOOLS, чтобы из запущенного приложения Revit сконвертировать в тэнгловский формат модель и опубликовать в SIGNAL DOCS.
 
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 #### 3.1. Настройка Tangl вьювера в DOCS
 ###### 3.1. Настройка Tangl вьювера в DOCS {#settings_tangl_viewer}
 На каждом проекте отдельно администратор может включать или выключать вьюверы для просмотра BIM-моделей. Это делается в Настройках на вкладке Сервисы > BIM-вьювер
@@ -237,7 +304,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 ## 4. Установка MinIO на Linux
 ###### 4. Установка MinIO на Linux {#MinIOLinux}
   
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 #### 4.1. Загрузка и установка Minio
 ###### 4.1. Загрузка и установка Minio {#MinIO_download}
 Первым шагом является загрузка Minio. Мы будем использовать Ubuntu Server 22.04.
@@ -424,7 +491,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 В этой инструкции мы рассмотрим, как установить MinIO на Windows и Linux, и подключить его к сервису DOCS
 
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 #### 5.1. Скачивание Minio
 ###### 5.1. Скачивание Minio {#minIO_download}
 Создайте пользователя Windows (или Active Directory) от имени которого будете запускать приложение MinIO. Например, CONTOSO\\minio.
@@ -631,5 +698,6 @@ mkdir C:\\Users\\minio\\.minio\\certs
   ![chrome_dmvuscfzur.png](/chrome_dmvuscfzur.png)
   >Для добавления Домена - обратитесь в тех.поддержку SIGNAL ([@signal_helpdesk_bot](https://t.me/signal_helpdesk_bot) в ТГ или на почту support@sgnl.pro
   {.is-warning}
+  
 #
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [FORMS. Введение   >](/ru/forms/intro)**</sub>
