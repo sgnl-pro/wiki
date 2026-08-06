@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2026-08-06T11:22:18.184Z
+date: 2026-08-06T16:27:37.506Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -167,7 +167,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
   Сам код можно скопировать в адресной строке браузера при открытии необходимого проекта.
   ![chrome_dn4xcdikna.png](/chrome_dn4xcdikna.png)
   
-  Вставить код нужно вставить между скобками в графе "Projects":
+  Код нужно вставить между скобками в графе "Projects":
   
 ![applicationframehost_sehcmyjhtu.png](/applicationframehost_sehcmyjhtu.png)
   
