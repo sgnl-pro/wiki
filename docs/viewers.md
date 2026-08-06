@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-07-22T13:38:50.019Z
+date: 2026-08-06T08:57:41.252Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -175,7 +175,25 @@ dateCreated: 2025-10-16T13:16:45.534Z
 </details>
 
 ----
-
+----
+  ### Оглавление 
+ 1. [Офисные документы](https://wiki.sgnl.pro/ru/docs/viewers#office) 
+  1.1. [Работа с DOCX, XLSX, PPTX](https://wiki.sgnl.pro/ru/docs/viewers#office)
+  1.2. [Создание графиков MPP](https://wiki.sgnl.pro/ru/docs/viewers#mpp)
+ 2. [CAD](https://wiki.sgnl.pro/ru/docs/viewers#bim)
+ 	2.1. [Просмотр BIM-моделей](https://wiki.sgnl.pro/ru/docs/viewers#bim)
+ 	2.2. [Сборки BIM-моделей](https://wiki.sgnl.pro/ru/docs/viewers#assemblies)
+  2.3. [Сравнение BIM-моделей](https://wiki.sgnl.pro/ru/docs/viewers#modelCompare)
+  2.4. [Просмотр облаков точек](https://wiki.sgnl.pro/ru/docs/viewers#potree_viewer)
+  2.5 [Просмотр DWG](https://wiki.sgnl.pro/ru/docs/viewers#dwg_viewer)
+  2.6 [Сравнение DWG](https://wiki.sgnl.pro/ru/docs/viewers#dwg_compare)
+ 3. [PDF](https://wiki.sgnl.pro/ru/docs/viewers#pdf) 
+  3.1. [Просмотр PDF](https://wiki.sgnl.pro/ru/docs/viewers#pdf) 
+  3.2. [Сравнение PDF](https://wiki.sgnl.pro/ru/docs/viewers#drawingCompare)
+ 4. [Прочее](https://wiki.sgnl.pro/ru/docs/viewers#bim#xml)
+  4.1. [Создание документов XML](https://wiki.sgnl.pro/ru/docs/viewers#bim#xml)
+  4.2. [Создание интерактивных справок](https://wiki.sgnl.pro/ru/docs/viewers#bim#markdown)
+----
 # Вкладки{.tabset}
 
   
@@ -361,8 +379,8 @@ SIGNAL поддерживает форматы файлов Microsoft Office в 
   
   
   
-#### 2.5. Просмотр облаков точек
-##### 2.5. Просмотр облаков точек {#potree_viewer}
+#### 2.4. Просмотр облаков точек
+##### 2.4. Просмотр облаков точек {#potree_viewer}
 SIGNAL DOCS имеет возможность работы с облаками точек. Файл облака точек загружается и запускает в формате .las через конвертер и вьювер Potree.  На данный момент максимальный объем файла - 5 гб.
   ![облако_в_доксе.jpg](/облако_в_доксе.jpg)
     В просмотрщике доступна панель инструментов:
@@ -380,8 +398,8 @@ SIGNAL DOCS имеет возможность работы с облаками �
   
   
   
-#### 2.6 Просмотр DWG
-##### 2.6 Просмотр DWG {#dwg_viewer}
+#### 2.5 Просмотр DWG
+##### 2.5 Просмотр DWG {#dwg_viewer}
   
 Просмотрщик Autodesk Forge также работает с AutoCAD, чертежи можно загружать в формате .dwg .dwf и других. Также поддерживается возможность открытия чертежа из pdf формата во все том же просмотрщике Forge, через кнопку "А" в верхней панели интерфейса [PDF-просмотрщика](https://wiki.sgnl.pro/ru/docs/viewers#pdf)
   
@@ -407,6 +425,11 @@ SIGNAL DOCS имеет возможность работы с облаками �
   3. **Select Text** - позволяет выделить текстовые форматы на чертеже.
   4. **Параметры** - дополнительные пользовательские параметры отображения.
   5. **Показать превью файлов** - показывает изображения соседних файлов находящихся в папке и позволяет перемещать к ним (**ВАЖНО**: просмотрщик меняется на стандартный PDF)
+
+  
+  
+  
+  
   
 #### 2.6 Сравнение DWG
 ##### 2.6 Сравнение DWG {#dwg_compare}
