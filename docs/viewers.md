@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-08-06T09:17:44.801Z
+date: 2026-08-06T09:23:29.617Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -257,7 +257,7 @@ SIGNAL поддерживает форматы файлов Microsoft Office в 
   
 |              | Autodesk Forge                | Tangl Viewer | SIGNAL Viewer |
 |-----------------------|-------------------------------|--------------|---------------|
-| **Форматы файлов**        | .rvt .nwd .nwc .fbx .skp .ifc | .rvt .ifc    | .glb          |
+| **Форматы файлов**        | .rvt .nwd .nwc .fbx .skp .ifc | .rvt .ifc    | .glb .ifc .rvt .nwd .nwc          |
 | **Инструменты измерения** | +                             | +            | +             |
 | **Инструменты сечение**   | +                             | +            | +             |
 | **Свойства элементов**    | +                             | +            | +             |
