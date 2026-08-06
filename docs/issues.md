@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-07-22T12:50:48.435Z
+date: 2026-08-06T09:41:45.989Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -166,8 +166,69 @@ dateCreated: 2025-09-09T12:10:08.827Z
 </details>
   
 ----
+<div class="toc-grid">
+  <!-- 1. Основные понятия -->
+  <div class="toc-card">
+    <h4 class="toc-card-title"><a href="#main_info">1. Основные понятия</a></h4>
+    <ul class="toc-list">
+      <li><a href="#main_info"><span class="toc-badge">1.1</span> Терминология и статусы</a></li>
+      <li><a href="#main_info"><span class="toc-badge">1.2</span> Участники, пометки, атрибуты</a></li>
+    </ul>
+  </div>
 
-**Замечания** — инструмент для фиксации несоответствий, ошибок и задач по файлам проекта (документам, моделям, изображениям) с помощью атрибутов и пометок, а также для организации процесса их устранения с назначением ответственных, контролем статусов и обсуждением.
+  <!-- 2. Создание замечаний к документам -->
+  <div class="toc-card">
+    <h4 class="toc-card-title"><a href="#documents">2. Замечания к документам</a></h4>
+    <ul class="toc-list">
+      <li><a href="#documents"><span class="toc-badge">2.1</span> Создание и заполнение формы</a></li>
+      <li><a href="#documents"><span class="toc-badge">2.2</span> Перенос пометок между листами PDF</a></li>
+    </ul>
+  </div>
+
+  <!-- 3. Создание замечаний к моделям -->
+  <div class="toc-card cad">
+    <h4 class="toc-card-title"><a href="#models">3. Замечания к моделям</a></h4>
+    <ul class="toc-list">
+      <li><a href="#forge_viewer"><span class="toc-badge">3.1</span> Forge Viewer</a></li>
+      <li><a href="#tangl_viewer"><span class="toc-badge">3.2</span> Tangl Viewer</a></li>
+    </ul>
+  </div>
+
+  <!-- 4. Экспорт замечаний -->
+  <div class="toc-card pdf">
+    <h4 class="toc-card-title"><a href="#export_issue">4. Экспорт замечаний</a></h4>
+    <ul class="toc-list">
+      <li><a href="#issue_pdf"><span class="toc-badge">4.1</span> Экспорт в PDF-отчёт</a></li>
+      <li><a href="#issue_excel"><span class="toc-badge">4.2</span> Экспорт в таблицы XLSX</a></li>
+      <li><a href="#issue_template"><span class="toc-badge">4.3</span> Генерация файла предписания</a></li>
+    </ul>
+  </div>
+
+  <!-- 5. Реестр замечаний -->
+  <div class="toc-card other">
+    <h4 class="toc-card-title"><a href="#register">5. Реестр замечаний</a></h4>
+    <ul class="toc-list">
+      <li><a href="#register"><span class="toc-badge">5.1</span> Таблица замечаний проекта</a></li>
+      <li><a href="#register"><span class="toc-badge">5.2</span> Поиск и фильтрация</a></li>
+    </ul>
+  </div>
+
+  <!-- 6. Настройки типов замечаний -->
+  <div class="toc-card other">
+    <h4 class="toc-card-title"><a href="#admin">6. Настройки типов (Админ)</a></h4>
+    <ul class="toc-list">
+      <li><a href="#access"><span class="toc-badge">6.1</span> Ролевые доступы</a></li>
+      <li><a href="#general"><span class="toc-badge">6.2</span> Общие настройки типа</a></li>
+      <li><a href="#properties_docs"><span class="toc-badge">6.3</span> Пользовательские атрибуты</a></li>
+      <li><a href="#temp_doc"><span class="toc-badge">6.4</span> Шаблон предписания</a></li>
+      <li><a href="#types-update"><span class="toc-badge">6.5</span> Обновление типов из проектов</a></li>
+    </ul>
+  </div>
+</div>  
+  
+----  
+
+>**Замечания** — инструмент для фиксации несоответствий, ошибок и задач по файлам проекта (документам, моделям, изображениям) с помощью атрибутов и пометок, а также для организации процесса их устранения с назначением ответственных, контролем статусов и обсуждением. {.is-info}
 
   
   
@@ -180,8 +241,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
   
   
   
-  
-# Вкладки{.tabset}
+# Вкладки {.tabset}
 ## 1. Основные понятия
 ###### 1. Основные понятия {#main_info}
 > **Замечание** — запись о проблеме или задаче, привязанная к файлу (или созданная без привязки). Имеет тип, статус, ответственного, автора, наблюдателей, описание, дату устранения, вложения и пользовательские атрибуты. Жизненный цикл замечания включает этапы от создания до закрытия.
@@ -474,7 +534,7 @@ dateCreated: 2025-09-09T12:10:08.827Z
   3 — Переименовывание, копирование, удаление типов замечаний
   
   
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 
 #### 6.1. Доступы
 ###### 6.1. Доступы {#access}
