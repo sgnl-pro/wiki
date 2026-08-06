@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-08-06T08:57:41.252Z
+date: 2026-08-06T09:03:19.109Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -176,23 +176,23 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 ----
 ----
-  ### Оглавление 
- 1. [Офисные документы](https://wiki.sgnl.pro/ru/docs/viewers#office) 
-  1.1. [Работа с DOCX, XLSX, PPTX](https://wiki.sgnl.pro/ru/docs/viewers#office)
-  1.2. [Создание графиков MPP](https://wiki.sgnl.pro/ru/docs/viewers#mpp)
- 2. [CAD](https://wiki.sgnl.pro/ru/docs/viewers#bim)
- 	2.1. [Просмотр BIM-моделей](https://wiki.sgnl.pro/ru/docs/viewers#bim)
- 	2.2. [Сборки BIM-моделей](https://wiki.sgnl.pro/ru/docs/viewers#assemblies)
-  2.3. [Сравнение BIM-моделей](https://wiki.sgnl.pro/ru/docs/viewers#modelCompare)
-  2.4. [Просмотр облаков точек](https://wiki.sgnl.pro/ru/docs/viewers#potree_viewer)
-  2.5 [Просмотр DWG](https://wiki.sgnl.pro/ru/docs/viewers#dwg_viewer)
-  2.6 [Сравнение DWG](https://wiki.sgnl.pro/ru/docs/viewers#dwg_compare)
- 3. [PDF](https://wiki.sgnl.pro/ru/docs/viewers#pdf) 
-  3.1. [Просмотр PDF](https://wiki.sgnl.pro/ru/docs/viewers#pdf) 
-  3.2. [Сравнение PDF](https://wiki.sgnl.pro/ru/docs/viewers#drawingCompare)
- 4. [Прочее](https://wiki.sgnl.pro/ru/docs/viewers#bim#xml)
-  4.1. [Создание документов XML](https://wiki.sgnl.pro/ru/docs/viewers#bim#xml)
-  4.2. [Создание интерактивных справок](https://wiki.sgnl.pro/ru/docs/viewers#bim#markdown)
+  ### Оглавление
+1. [Офисные документы](#office)
+   1.1. [Работа с DOCX, XLSX, PPTX](#office)
+   1.2. [Создание графиков MPP](#mpp)
+2. [CAD](#bim)
+   2.1. [Просмотр BIM-моделей](#bim)
+   2.2. [Сборки BIM-моделей](#assemblies)
+   2.3. [Сравнение BIM-моделей](#modelCompare)
+   2.4. [Просмотр облаков точек](#potree_viewer)
+   2.5. [Просмотр DWG](#dwg_viewer)
+   2.6. [Сравнение DWG](#dwg_compare)
+3. [PDF](#pdf)
+   3.1. [Просмотр PDF](#pdf)
+   3.2. [Сравнение PDF](#drawingCompare)
+4. [Прочее](#xml)
+   4.1. [Создание документов XML](#xml)
+   4.2. [Создание интерактивных справок](#markdown)
 ----
 # Вкладки{.tabset}
 
