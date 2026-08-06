@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-08-06T09:35:09.867Z
+date: 2026-08-06T10:52:15.571Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -178,7 +178,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
   
 <div class="toc-grid">
   <!-- 1. Офисные документы -->
-  <div class="toc-card">
+  <div class="toc-card toc-green">
     <h4 class="toc-card-title"><a href="#1-офисные-документы">1. Офисные документы</a></h4>
     <ul class="toc-list">
       <li><a href="#office"><span class="toc-badge">1.1</span> Работа с DOCX, XLSX, PPTX</a></li>
@@ -187,7 +187,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
   </div>
 
   <!-- 2. CAD -->
-  <div class="toc-card cad">
+  <div class="toc-card toc-green">
     <h4 class="toc-card-title"><a href="#2-cad">2. CAD</a></h4>
     <ul class="toc-list">
       <li><a href="#bim"><span class="toc-badge">2.1</span> Просмотр BIM-моделей</a></li>
@@ -200,7 +200,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
   </div>
 
   <!-- 3. PDF -->
-  <div class="toc-card pdf">
+  <div class="toc-card toc-green">
     <h4 class="toc-card-title"><a href="#3-pdf">3. PDF</a></h4>
     <ul class="toc-list">
       <li><a href="#pdf"><span class="toc-badge">3.1</span> Просмотр PDF</a></li>
@@ -209,7 +209,7 @@ dateCreated: 2025-10-16T13:16:45.534Z
   </div>
 
   <!-- 4. Прочее -->
-  <div class="toc-card other">
+  <div class="toc-card toc-green">
     <h4 class="toc-card-title"><a href="#4-прочее">4. Прочее</a></h4>
     <ul class="toc-list">
       <li><a href="#xml"><span class="toc-badge">4.1</span> Создание документов XML</a></li>
