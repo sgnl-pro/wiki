@@ -2,7 +2,7 @@
 title: DOCS. Документы
 description: 
 published: true
-date: 2026-07-22T12:37:47.753Z
+date: 2026-08-06T10:55:41.951Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T09:17:01.781Z
@@ -21,10 +21,67 @@ dateCreated: 2025-09-09T09:17:01.781Z
 > • **[DOCS. Публикация файлов](/docs/sharedSettings)**
 {.is-info}
 
-# Вкладки{.tabset}
+  
+  
+----
+<!-- Оглавление в виде карточек -->
+<div class="toc-grid">
+  <!-- 1. Добавление файлов (Зеленый) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#addingFiles">1. Добавление файлов</a></h4>
+    <ul class="toc-list">
+      <li><a href="#uploadings"><span class="toc-badge">1.1</span> Загрузка файлов</a></li>
+      <li><a href="#statuses"><span class="toc-badge">1.2</span> Статусы файлов</a></li>
+      <li><a href="#versions"><span class="toc-badge">1.3</span> Версионность файлов</a></li>
+      <li><a href="#weblinks"><span class="toc-badge">1.4</span> Добавление ссылок</a></li>
+    </ul>
+  </div>
+
+  <!-- 2. Подписание документов (Зеленый) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#signing">2. Подписание документов</a></h4>
+    <ul class="toc-list">
+      <li><a href="#crypto_pro"><span class="toc-badge">2.1</span> Подписание ЭЦП</a></li>
+      <li><a href="#faximile"><span class="toc-badge">2.2</span> Ручное подписание (факсимиле)</a></li>
+    </ul>
+  </div>
+
+  <!-- 3. Фильтрация (Зеленый) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#filters">3. Фильтрация</a></h4>
+    <ul class="toc-list">
+      <li><a href="#filters"><span class="toc-badge">3.1</span> Быстрые фильтры и поиск</a></li>
+    </ul>
+  </div>
+
+  <!-- 4. Экспорт данных о файлах (Зеленый) -->
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#export">4. Экспорт данных о файлах</a></h4>
+    <ul class="toc-list">
+      <li><a href="#export"><span class="toc-badge">4.1</span> Выгрузка реестра файлов</a></li>
+    </ul>
+  </div>
+
+  <!-- 5. Администрирование (Фиолетовый) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#admin">5. Администрирование (Админ)</a></h4>
+    <ul class="toc-list">
+      <li><a href="#structure_tree"><span class="toc-badge">5.1</span> Создание структуры дерева</a></li>
+      <li><a href="#access_folders"><span class="toc-badge">5.2</span> Настройка прав доступа</a></li>
+      <li><a href="#subscribe"><span class="toc-badge">5.3</span> Подписка на папки</a></li>
+      <li><a href="#trashbin"><span class="toc-badge">5.4</span> Корзина удаленных файлов</a></li>
+    </ul>
+  </div>
+</div>  
+  
+----
+  
+  
+# Вкладки {.tabset}
 ## 1. Добавление файлов
 ### 1. Добавление файлов {#addingFiles}  
-### Вкладки{.tabset}
+### Вкладки {.tabset}
+  
 #### 1.1. Загрузка файлов
 ###### 1.1. Загрузка файлов {#uploadings}
   
@@ -107,7 +164,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
   
 ## 2. Подписание документов
 ### 2. Подписание документов {#signing}
-#### Вкладки{.tabset}  
+#### Вкладки {.tabset}  
 ##### 2.1. Подписание ЭЦП
 ###### 2.1. Подписание ЭЦП  {#crypto_pro}
 
@@ -210,7 +267,7 @@ dateCreated: 2025-09-09T09:17:01.781Z
 > См. также видеоинструкцию по авторизации и правам доступа: **[Telegram](https://t.me/signal_docs/255) [YouTube](https://youtu.be/m3YP_LYgpcM)	[Rutube](https://rutube.ru/video/e03d00bc13f1ec5f9a5349f4e0cf0c23/) [VK](https://vkvideo.ru/video-223002264_456239057)**
 {.is-info}
   
-### Вкладки{.tabset}
+### Вкладки {.tabset}
 #### 5.1. Создание структуры дерева
 ###### 5.1. Создание структуры дерева {#structure_tree}
 Существует несколько способов для создания папок структуры в Вашем проекте:
