@@ -2,7 +2,7 @@
 title: DOCS. Работа в файлах
 description: 
 published: true
-date: 2026-08-06T09:23:29.617Z
+date: 2026-08-06T09:30:22.884Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-16T13:16:45.534Z
@@ -176,24 +176,139 @@ dateCreated: 2025-10-16T13:16:45.534Z
 
 ----
 ----
-### Оглавление 
-1. [Офисные документы](#1-офисные-документы) 
-   1.1. [Работа с DOCX, XLSX, PPTX](#office)
-   1.2. [Создание графиков MPP](#mpp)
-2. [CAD](#2-cad)
-   2.1. [Просмотр BIM-моделей](#bim)
-   2.2. [Сборки BIM-моделей](#assemblies)
-   2.3. [Сравнение BIM-моделей](#modelCompare)
-   2.4. [Просмотр облаков точек](#potree_viewer)
-   2.5. [Просмотр DWG](#dwg_viewer)
-   2.6. [Сравнение DWG](#dwg_compare)
-3. [PDF](#3-pdf) 
-   3.1. [Просмотр PDF](#pdf) 
-   3.2. [Сравнение PDF](#drawingCompare)
-4. [Прочее](#4-прочее)
-   4.1. [Создание документов XML](#xml)
-   4.2. [Создание интерактивных справок](#markdown)
+<style>
+.toc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 20px 0 35px 0;
+  font-family: inherit;
+}
+
+.toc-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-top: 4px solid #3b82f6; /* Синий акцент */
+}
+
+.toc-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Разные цвета верхних полосок для разных категорий */
+.toc-card.cad { border-top-color: #6366f1; }  /* Фиолетовый */
+.toc-card.pdf { border-top-color: #ef4444; }  /* Красный */
+.toc-card.other { border-top-color: #10b981; }/* Зеленый */
+
+.toc-card-title {
+  margin: 0 0 12px 0 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.toc-card-title a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.toc-card-title a:hover {
+  color: #2563eb !important;
+}
+
+.toc-list {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.toc-list li {
+  margin-bottom: 8px !important;
+  padding: 0 !important;
+}
+
+.toc-list li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.toc-list a {
+  color: #475569 !important;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.toc-list a:hover {
+  color: #2563eb !important;
+  transform: translateX(3px);
+}
+
+.toc-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  min-width: 28px;
+  text-align: center;
+}
+</style>
+
+<div class="toc-grid">
+  <!-- 1. Офисные документы -->
+  <div class="toc-card">
+    <h4 class="toc-card-title"><a href="#1-офисные-документы">1. Офисные документы</a></h4>
+    <ul class="toc-list">
+      <li><a href="#office"><span class="toc-badge">1.1</span> Работа с DOCX, XLSX, PPTX</a></li>
+      <li><a href="#mpp"><span class="toc-badge">1.2</span> Создание графиков MPP</a></li>
+    </ul>
+  </div>
+
+  <!-- 2. CAD -->
+  <div class="toc-card cad">
+    <h4 class="toc-card-title"><a href="#2-cad">2. CAD</a></h4>
+    <ul class="toc-list">
+      <li><a href="#bim"><span class="toc-badge">2.1</span> Просмотр BIM-моделей</a></li>
+      <li><a href="#assemblies"><span class="toc-badge">2.2</span> Сборки BIM-моделей</a></li>
+      <li><a href="#modelCompare"><span class="toc-badge">2.3</span> Сравнение BIM-моделей</a></li>
+      <li><a href="#potree_viewer"><span class="toc-badge">2.4</span> Просмотр облаков точек</a></li>
+      <li><a href="#dwg_viewer"><span class="toc-badge">2.5</span> Просмотр DWG</a></li>
+      <li><a href="#dwg_compare"><span class="toc-badge">2.6</span> Сравнение DWG</a></li>
+    </ul>
+  </div>
+
+  <!-- 3. PDF -->
+  <div class="toc-card pdf">
+    <h4 class="toc-card-title"><a href="#3-pdf">3. PDF</a></h4>
+    <ul class="toc-list">
+      <li><a href="#pdf"><span class="toc-badge">3.1</span> Просмотр PDF</a></li>
+      <li><a href="#drawingCompare"><span class="toc-badge">3.2</span> Сравнение PDF</a></li>
+    </ul>
+  </div>
+
+  <!-- 4. Прочее -->
+  <div class="toc-card other">
+    <h4 class="toc-card-title"><a href="#4-прочее">4. Прочее</a></h4>
+    <ul class="toc-list">
+      <li><a href="#xml"><span class="toc-badge">4.1</span> Создание документов XML</a></li>
+      <li><a href="#markdown"><span class="toc-badge">4.2</span> Создание интерактивных справок</a></li>
+    </ul>
+  </div>
+</div>
+  
 ----
+  
 # Вкладки {.tabset}
 
   
