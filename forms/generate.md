@@ -2,13 +2,13 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-08-15T12:11:27.774Z
+date: 2026-08-15T12:12:32.041Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
 ---
 
-<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [FORMS. Атрибуты для генерации документов   >](/ru/forms/attributes-for-generation)**</sub>
+<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
 
 ---
 
@@ -1368,4 +1368,4 @@ https://docs.sgnl.pro/s/f/019f6b6f-cdc7-71b0-920c-17b588e772d4
 
   
 #
-<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [FORMS. Атрибуты для генерации документов   >](/ru/forms/attributes-for-generation)**</sub>
+<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
