@@ -2,7 +2,7 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-08-15T12:12:32.041Z
+date: 2026-08-15T12:14:58.850Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
@@ -70,7 +70,7 @@ https://docs.sgnl.pro/s/f/019f6b6f-cdc7-71b0-920c-17b588e772d4
   
   
   
-## 3. Системные имена полей форм
+## 3. Перечень форм и их полей
   
 <details>
 
