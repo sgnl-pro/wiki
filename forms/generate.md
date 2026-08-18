@@ -2,7 +2,7 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-08-18T13:54:45.971Z
+date: 2026-08-18T14:16:23.180Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
