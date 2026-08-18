@@ -2,7 +2,7 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-08-17T14:30:08.177Z
+date: 2026-08-18T13:40:37.101Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
@@ -1048,6 +1048,7 @@ Email автора | `{{_form.createdBy.email}}` | `i.ivanov@example.com`
 | Продолжительность контакта с реагентом | `Число` | {{duration}} |
 | Представитель подрядчика | `Значение из источника` | {{subcontractorRepresentative}} |
 | Представитель СЭС | `Значение из источника` | {{SESRepresentative}} |
+| Город | `Строка` | {{city}} |
 | Проектная документация | `Значение из источника` | {{drawings}} |
 | Приложения | `Файл` | {{files}} |
 
@@ -1090,7 +1091,6 @@ Email автора | `{{_form.createdBy.email}}` | `i.ivanov@example.com`
 | Номер акта | `Строка` | {{number}} |
 | Дата акта | `Дата и время` | {{date}} |
 | Представитель подрядчика | `Значение из источника` | {{subcontractorRepresentative}} |
-| Проектная документация | `Значение из источника` | {{drawings}} |
 
 
 </details>
