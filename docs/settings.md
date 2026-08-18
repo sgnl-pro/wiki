@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: 
 published: true
-date: 2026-08-18T08:10:14.382Z
+date: 2026-08-18T08:47:21.133Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
@@ -33,7 +33,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
   <!-- Оглавление в виде карточек -->
 <div class="toc-grid">
   <!-- 1. Атрибуты (Зеленый) -->
-  <div class="toc-card toc-green">
+  <div class="toc-card toc-purple">
     <h4 class="toc-card-title"><a href="#attributes">1. Атрибуты</a></h4>
     <ul class="toc-list">
       Дополнительные пользовательские поля для папок, файлов и замечаний
@@ -41,7 +41,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
   </div>
 
   <!-- 2. Сервисы (Зеленый) -->
-  <div class="toc-card toc-green">
+  <div class="toc-card toc-purple">
     <h4 class="toc-card-title"><a href="#services">2. Сервисы</a></h4>
     <ul class="toc-list">
       <li><a href="#sign_pdf"><span class="toc-badge">2.1</span> Подписание PDF документов</a></li>
@@ -53,7 +53,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
   </div>
 
   <!-- 3. Функциональность (Зеленый) -->
-  <div class="toc-card toc-green">
+  <div class="toc-card toc-purple">
     <h4 class="toc-card-title"><a href="#functions">3. Функциональность</a></h4>
     <ul class="toc-list">
       Регулирование публичных ссылок
@@ -61,7 +61,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
   </div>
 
   <!-- 4. Доверенности (Зеленый) -->
-  <div class="toc-card toc-green">
+  <div class="toc-card toc-purple">
     <h4 class="toc-card-title"><a href="#powerOfAttorney">4. Доверенности</a></h4>
     <ul class="toc-list">
      Добавление и прикрепление (XML) МЧД
@@ -69,7 +69,7 @@ dateCreated: 2025-09-09T08:02:36.643Z
   </div>
 
   <!-- 5. XML документы (Зеленый) -->
-  <div class="toc-card toc-green">
+  <div class="toc-card toc-purple">
     <h4 class="toc-card-title"><a href="#xml">5. XML документы</a></h4>
     <ul class="toc-list">
       Редактирование и создание XML-схем
