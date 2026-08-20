@@ -2,13 +2,17 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-08-18T14:16:23.180Z
+date: 2026-08-20T16:17:48.173Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
 ---
 
 <sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+  
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"> <a href="/forms/generate/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 ---
 
