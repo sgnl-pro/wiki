@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: true
-date: 2026-05-08T11:55:08.685Z
+date: 2026-08-20T08:05:10.549Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -132,7 +132,52 @@ dateCreated: 2025-06-24T16:53:52.277Z
 </details>
   
 ----
+<!-- Оглавление в виде карточек -->
+<div class="toc-grid">
+  <!-- 0. Сервисы и ссылки (Фиолетовый) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#services">0. Сервисы и ссылки</a></h4>
+    <ul class="toc-list">
+      <li><a href="#services"><span class="toc-badge">0.1</span> Информационные материалы и поддержка</a></li>
+    </ul>
+  </div>
 
+  <!-- 1. Учетная запись (Фиолетовый) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#account">1. Учетная запись</a></h4>
+    <ul class="toc-list">
+      <li><a href="#account"><span class="toc-badge">1.1</span> Регистрация аккаунта Администратора</a></li>
+      <li><a href="#account"><span class="toc-badge">1.2</span> Настройки профиля и безопасность</a></li>
+    </ul>
+  </div>
+
+  <!-- 2. Организация (Фиолетовый) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#company">2. Организация</a></h4>
+    <ul class="toc-list">
+      <li><a href="#company"><span class="toc-badge">2.1</span> Создание компании</a></li>
+      <li><a href="#company"><span class="toc-badge">2.2</span> Добавление пользователей (поштучно / Excel)</a></li>
+      <li><a href="#company"><span class="toc-badge">2.3</span> Запрос и назначение лицензий</a></li>
+      <li><a href="#projects"><span class="toc-badge">2.4</span> Создание и управление проектами</a></li>
+      <li><a href="#roles"><span class="toc-badge">2.5</span> Создание и назначение ролей</a></li>
+      <li><a href="#log"><span class="toc-badge">2.6</span> Мониторинг действий (Логи)</a></li>
+    </ul>
+  </div>
+
+  <!-- 3. Настройки (Фиолетовый) -->
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#settings">3. Настройки</a></h4>
+    <ul class="toc-list">
+      <li><a href="#settings"><span class="toc-badge">3.1</span> S3 Сервер хранилища</a></li>
+      <li><a href="#settings"><span class="toc-badge">3.2</span> Настройка производственного календаря</a></li>
+      <li><a href="#settings"><span class="toc-badge">3.3</span> Интеграции, AD и SSO</a></li>
+    </ul>
+  </div>
+</div>
+  
+  
+----  
+  
 # Вкладки{.tabset}
 ## 0. Сервисы и ссылки
 ###### 0. Сервисы и ссылки {#services}
