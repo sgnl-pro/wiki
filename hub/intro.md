@@ -2,7 +2,7 @@
 title: HUB. Введение
 description: 
 published: true
-date: 2026-08-20T16:30:07.074Z
+date: 2026-08-20T16:30:21.015Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:50:10.735Z
@@ -32,7 +32,6 @@ dateCreated: 2025-06-24T16:50:10.735Z
 > Один аккаунт может создать не более двух Компаний.
 {.is-warning}
 
-#
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfTY75oKWEB7SrkuuZXe8fSoFfF8QQReiZoqOGB7yLJa9e2tl1BSatRAjBI_t4sNBZcvVqwTUlGbBqyiQSvb941orzC2Ie-NDqY2NdJfmyESSS9kFc4CeyTTnMGv4_jhqea47vZwFJ_y1X4G3lFW6tS-5s?key=qA_rPwevXHo6Xnot-JrtBg)
 
 #
