@@ -2,7 +2,7 @@
 title: HUB. Введение
 description: 
 published: true
-date: 2026-02-04T13:33:31.101Z
+date: 2026-08-20T16:29:01.890Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:50:10.735Z
@@ -10,27 +10,6 @@ dateCreated: 2025-06-24T16:50:10.735Z
 
 <sub>**[<   SIGNAL. Публичный API](/ru/general/api)     **|**     [HUB. Администратор   >](/ru/hub/admin)**</sub>
 
-<details>
-    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
-        <span style="font-size: 20px;">🔄</span>
-        <span style="flex-grow: 1;">Что нового в этом разделе</span>
-</summary>
-  
-> Здесь перечислены только крупные улучшения. Для получения большей информации нажмите на номер версии или смотрите историю изменений на странице соответствующего функционала.
-{.is-info}
-
-**[2025.40](/general/updates/2025-40)** ^17.12.2025^
-- Пакетное редакирование пользователей.
-  
-**[2025.27](/general/updates/2025-27)** ^18.09.2025^
-- Новый дизайн интерфейса.
-- Контрагенты и Справочники.
-
-> Информация о более ранних обновлениях доступна в закрытом Telegam канале для пользователей SIGNAL. Для добавления **[обращайтесь в поддержку](/general/support)**.
-{.is-info}
-
-</details>  
-  
 ----
 
 Существует два основных статуса: **Пользователь** и **Администратор.**
