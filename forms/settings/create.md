@@ -2,7 +2,7 @@
 title: FORMS. Заполнение формы — История изменений
 description: 
 published: true
-date: 2026-08-20T16:14:06.407Z
+date: 2026-08-20T16:18:26.700Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-22T11:16:31.167Z
