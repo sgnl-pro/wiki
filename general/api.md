@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-06-09T14:37:42.021Z
+date: 2026-08-26T12:31:23.384Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -142,7 +142,7 @@ dateCreated: 2025-11-06T14:53:09.140Z
 3. Нажмите на глазик :eye: у добавленной интеграции, скопируйте **clientId** и названия выбранных **scopes:**
 ![auth_swagger_4.png](/api/auth_swagger_4.png)
   
-4. Зайдите в [Swagger](https://api.sgnl.dev/openapi/swagger/index.html) и при наличии авторизации (закрытого замочка) выполните **Logout:**
+4. Зайдите в [Swagger](https://api.sgnl.pro/openapi/swagger/index.html) и при наличии авторизации (закрытого замочка) выполните **Logout:**
 ![auth_swagger_3.png](/api/auth_swagger_3.png)
 
 5. Раскройте метод **/public/v1/auth/token**, нажмите **Try it out** и вставьте в поле **Edit Value** скопированные ранее **clientId, clientSecret** и список **scopes** (обратите внимание, что каждый **scope** в списке нужно брать в кавычки). Нажмите **Execute:**
