@@ -10,97 +10,9 @@ dateCreated: 2025-11-06T14:53:09.140Z
 
 <sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Введение   >](/ru/hub/intro)**</sub>
 
-<details>
-    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
-        <span style="font-size: 20px;">🔄</span>
-        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"> <a href="/general/api/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
-  
-**[2026.10](/general/updates/2026-10)** ^04.06.2026^
-  
-Добавили:
-- методы для добавления и редактирования пользователей и их ролей в компании и проектах (контроллеры `ApplicationUser`, `CompanyUser`, `CompanyUserCustomRole`, `ProjectUser`, `ProjectUserCustomRole`)
-- метод `/public/v1/attributes/values/items` для получения значений атрибутов файлов
-- метод `/public/v1/naming-patterns/folder-items/find` для получения масок у папки
-  
-----
-
-**[2026.7](/general/updates/2026-7)** ^23.04.2026^
-Добавили: 
-- параметр `urlTtlSecOverride` в `GET /v1/items/download` для указания времени жизни URL в секундах (можно установить только для получения объектов из пользовательских хранилищ)
-- возвращаемое поле `urn` (URN-токен) в метод `POST /public/v1/forge/item-versions/viewer`
-- методы для редактирования замечаний
-- возвращаемые поля `added` и `addedBy` в `POST /public/v1/documents-transfers`
-  
-----
-**[2026.6](/general/updates/2026-6)** ^09.04.2026^
-:sparkles: Добавили возвращаемые поля `stage.completedPlanDate` (плановая дата этапа) и `scenario` (сценарий запуска) в `ReviewVersion` (итерация согласования), а также `customRoleIds` в `/public/v1/projects/{projectId}/users`.
-
-:hammer_and_wrench: Исправили ошибку вызова `Review.List`, а также убрали кэширование добавленных в интеграцию проектов, когда интеграция не работала для вновь добавленных проектов 12 часов.
-
-  
-**[2026.5](/general/updates/2026-5)** ^26.03.2026^
-Добавили:  
-- метод `/public/v1/items/versions/update` для добавления комментария к версии файла
-- метод `/public/v1/items/item-version`, который по `itemVersionId` возвращает `itemId` и `versionId`
-- метод `/public/v1/issues/comments` для создания комментариев в журналах замечаний
-- возвращаемое поле `ItemVersion` в замечаниях с информацией о версии файла
-  
-----
-**[2026.4](/general/updates/2026-4)** ^12.03.2026^
-Добавили:
-- методы `/public/v1/attributes` и `/public/v1/attributes/values/set` для получения атрибутов проекта и назначения их на папки и файлы
-- метод `/public/v1/reviews/items` для получения информации о файлах, входящих в комплект согласования
-  
-----
-**[2026.3](/general/updates/2026-3)** ^02.03.2026^
-- Добавили контроллер `Share` и метод `/public/v1/permissions/tree` для публикации папок и файлов.
-  
-**[2026.2](/general/updates/2026-2)** ^12.02.2026^
-
-Добавили:
-- фильтр по `ItemVersionId` в `POST /public/v1/issues`
-- поле `completedBy` в `ReviewStage` и `ReviewSigning`
-- метод `POST /public/v1/reviews/versions/item-versions` для получения всех версий файлов согласований
-- поле `topVersion.reviewType.reviewGroupId` в `/public/v1/reviews` и метод `/public/v1/reviews/groups` для получения групп согласований
-- поля `contractDate` и `contractDaysDiff` в `/public/v1/reviews` для получения договорной даты комплекта согласования
-- поле `startedAt` в `POST /public/v1/reviews (topVersion)` и `POST /public/v1/reviews/versions` для получения даты начала итерации согласования
-
-**[2026.1](/general/updates/2026-1)** ^22.01.2026^
-
-Добавили:
-- методы для получения журнала событий из HUB (см. контроллер `UserLog`)
-- возвращаемое поле `code` (код проекта) в методах `GET /public/v1/projects/{projectId}` и `GET /public/v1/projects`
-- метод `PATCH /public/v1/reviews` для обновления основных полей комплекта согласования
-- метод `POST /public/v1/reviews/versions` для получения итерации согласования, в т. ч. рекурсивного получения предыдущих версий
-- возвращаемое поле `topVersion.stages.completedBy` (кто завершил этап согласования) в методе `POST /public/v1/reviews`
-- методы для работы с пакетами передачи (получение сертификата для скачивания файлов, получение правил доступа к пакету, получение файлов) (см. контроллеры `AcceptanceCertificate`, `DocumentsTransferAccesses`, `DocumentsTransferItem`)
-  
-**[2025.41](/general/updates/2025-41)** ^25.12.2025^
-- Добавили метод для получения событий по всем замечаниям проекта.
-  
-**[2025.39](/general/updates/2025-39)** ^11.12.2025^
-- Исправили ошибку в методе `public/v1/projects/{projectId}/users`.
-  
-**[2025.37](/general/updates/2025-37)** ^27.11.2025^
-- Добавили методы назначения доступов на папки.
-  
-**[2025.36](/general/updates/2025-36)** ^20.11.2025^
-- Добавили методы получения дерева папок, раскраски папок и обработки моделей Forge.
-  
-**[2025.35](/general/updates/2025-35)** ^13.11.2025^
-- Добавили методы получения атрибутов и их значений у замечаний.
-  
-**[2025.34](/general/updates/2025-34)** ^06.11.2025^
-- Добавили методы получения согласований проекта.
-  
-**[2025.33](/general/updates/2025-33)** ^30.10.2025^
-- Добавили методы для работы с замечаниями, деревом папок (в том числе назначение доступов) и получения списка сотрудников и ролей.
-
-> Информация о более ранних обновлениях доступна в закрытом Telegam канале для пользователей SIGNAL. Для добавления **[обращайтесь в поддержку](/general/support)**.
-{.is-info}
-
-</details>  
   
 ----
 
@@ -110,7 +22,7 @@ dateCreated: 2025-11-06T14:53:09.140Z
   
 - Swagger: https://api.sgnl.pro/openapi/swagger/index.html
 - ReDoc: https://api.sgnl.pro/openapi/redoc-v1/index.html
-  
+
 ## Примеры
 ###### Примеры {#examples}
   
@@ -124,36 +36,35 @@ dateCreated: 2025-11-06T14:53:09.140Z
 [VBA Excel](https://vkvideo.ru/video-230401166_456239018)
 [Python](https://vkvideo.ru/video-230401166_456239019)
 
-- Кейсы с применением n8n
+- Кейсы с применением n8n:
 [Интеграция SIGNAL DOCS с n8n](https://vkvideo.ru/video-230401166_456239022)
 [Сбор аналитики в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239023)
 [Ежедневный отчет в Telegram по событиям в SIGNAL DOCS](https://vkvideo.ru/video-230401166_456239026)
 
-  
 ## Авторизация в Swagger
 ###### Авторизация в Swagger {#swagger}
 
-1. Добавьте интеграцию в [настройках компании в HUB](/hub/admin#settings). Выберите **scopes,** к которым хотите иметь доступ через API в рамках этой интеграции. При необходимости ограничьте срок действия интеграции. Нажмите **Сохранить:**
+1. Добавьте интеграцию в [настройках компании в HUB](/hub/admin#settings). Выберите **scopes**, к которым хотите предоставить доступ через API в рамках этой интеграции. При необходимости ограничьте срок действия интеграции. Нажмите **Сохранить**:
 ![auth_swagger_1.png](/api/auth_swagger_1.png)
   
-2. Скопируйте **Secret key** (при утрате его можно будет сбросить):
+2. Скопируйте **Secret key**. При утрате его можно сбросить:
 ![auth_swagger_2.png](/api/auth_swagger_2.png)
 
-3. Нажмите на глазик :eye: у добавленной интеграции, скопируйте **clientId** и названия выбранных **scopes:**
+3. Нажмите на значок :eye: у добавленной интеграции и скопируйте **clientId** и названия выбранных **scopes**:
 ![auth_swagger_4.png](/api/auth_swagger_4.png)
   
-4. Зайдите в [Swagger](https://api.sgnl.pro/openapi/swagger/index.html) и при наличии авторизации (закрытого замочка) выполните **Logout:**
+4. Откройте [Swagger](https://api.sgnl.pro/openapi/swagger/index.html). Если вы уже авторизованы — отображается закрытый замок — выполните **Logout**:
 ![auth_swagger_3.png](/api/auth_swagger_3.png)
 
-5. Раскройте метод **/public/v1/auth/token**, нажмите **Try it out** и вставьте в поле **Edit Value** скопированные ранее **clientId, clientSecret** и список **scopes** (обратите внимание, что каждый **scope** в списке нужно брать в кавычки). Нажмите **Execute:**
+5. Раскройте метод **`/public/v1/auth/token`**, нажмите **Try it out** и вставьте в поле **Edit Value** скопированные **clientId**, **clientSecret** и список **scopes**. Каждый scope в списке нужно заключить в кавычки. Нажмите **Execute**:
 ![auth_swagger_5.png](/api/auth_swagger_5.png)
 
-6. При успешном выполнении запроса (Code 200) скопируйте значение поля **token** из ответа (обратите внимание, что токен сбрасывается через час, затем нужно будет повторно нажать **Execute** и получить новый токен):
+6. При успешном выполнении запроса — код `200` — скопируйте значение поля **token** из ответа. Токен действует один час; затем снова выполните запрос и получите новый токен:
 ![auth_swagger_6.png](/api/auth_swagger_6.png)
 
-7. Нажмите **Authorize,** вставьте скопированный токен и затем снова **Authorize:**
+7. Нажмите **Authorize**, вставьте скопированный токен и ещё раз нажмите **Authorize**:
 ![auth_swagger_7.png](/api/auth_swagger_7.png)
   
-Поздравляем, вы авторизованы! Теперь можете использовать методы, соответствующие выбранным в рамках этой интеграции скоупам.
+Поздравляем, вы авторизованы. Теперь можно использовать методы, соответствующие выбранным для интеграции scopes.
 
 <sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Введение   >](/ru/hub/intro)**</sub>
