@@ -2,7 +2,7 @@
 title: DOCS. Уведомления
 description: 
 published: true
-date: 2026-02-04T13:36:13.305Z
+date: 2026-09-01T08:04:10.399Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:51:54.255Z
@@ -24,6 +24,13 @@ dateCreated: 2025-09-09T15:51:54.255Z
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
  
+  
+----
+**[2026.16](/general/updates/2026-16)** ^31.08.2026^
+  
+:sparkles: В [профиле пользователя](/hub/user#notifications) можно выбрать получение уведомлений SIGNAL не только по электронной почте, но и в мессенджере MAX. Настройка в общих параметрах уведомлений применяется и к отдельным разделам по умолчанию
+  
+----  
 ----
 **[2025.37](/general/updates/2025-37)** ^27.11.2025^
   
@@ -46,23 +53,25 @@ dateCreated: 2025-09-09T15:51:54.255Z
   
 ----
 
-**Привязка Telegram-аккаунта**
+**Привязка MAX-аккаунта**
 
-Пользователи SIGNAL DOCS могут получать уведомления по почте или в мессенджер Telegram, а также настроить периодичность уведомлений.  
+Пользователи SIGNAL DOCS могут получать уведомления по почте или в мессенджер MAX, а также настроить периодичность уведомлений.  
 
 Уведомления по почте будут приходить на e-mail, который зарегистрирован в SIGNAL.
 
-Для того, чтобы получать уведомления в Telegram необходимо привязать свой аккаунт TG к SIGNAL. Перейдите на [_hub.sgnl.pro_](http://hub.sgnl.pro/) во вкладке “Профиль”. Перейдите в раздел “О себе” и нажмите “Привязать”.
+Для того, чтобы получать уведомления в MAX необходимо привязать свой аккаунт MAX к SIGNAL. Перейдите на [_hub.sgnl.pro_](http://hub.sgnl.pro/) во вкладке **“Профиль”**. Перейдите в раздел **“О себе”** или **"Уведомления"** и нажмите **“Привязать”**.
 
-Для того, чтобы привязать свой аккаунт Telegram у Вашего аккаунта должен быть Nickname. Проверьте его наличие в TG: Настройки - Мой аккаунт - Имя пользователя.                                    . 
+Для того, чтобы привязать свой аккаунт MAX у Вашего аккаунта должен быть Nickname. Проверьте его наличие в MAX. 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcgZqpjnLmd8lv3f_rbP7HtguvdQZzswnMY2IZ6xlLTp_jnZhuHamVuiSSts7JZWcZH9zTAOJd5vN4a2yuHCM6-T7HSPJa5ye9LcQvlrJFa_TIKMyZ0KC2c5EBjwd7t81g?key=8pMmC9C3OpQbRi7NAC_JblsV)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfXfkFuA89IMabMaPWx49oJUaIKNeewBpfwuD4xrCviL0IOv3m3Y-Ze23JyM0ulVtzQjUroUgwU3LRneJSPzHoxIA2glVpPSCd7bEqPvc1UHI6taN79E658DUfrnb_s204?key=8pMmC9C3OpQbRi7NAC_JblsV)
+![chrome_kbu1xm5nkg.png](/chrome_kbu1xm5nkg.png)
+  
+  После чего вы начнете получать письма по подписанным на вас папкам, замечаниям, согласованиям и др.
+  
+  ![db0faf45-812b-4fe8-9905-0eead7e9a03d.png](/db0faf45-812b-4fe8-9905-0eead7e9a03d.png)
 
 В разделе “Уведомления” выберите, где вы хотите получать оповещения:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcPYmOhqX1XkzFWTscWhanp1d2Bt0Pe45-mRyEfgrRjvbmEEXkFBKPd8hM2-IKzhiPQMzVOCC3pAIP0FY3DfF1jLZEW15A4o08WxbrlGd4VAxSsFy-F_62NFmrgZaJWHLw?key=8pMmC9C3OpQbRi7NAC_JblsV)
+![2026.16_-_макс.png](/release_notes/2026.16_-_макс.png =900x)
 
 #
 <sub>**[<   DOCS. Публикация файлов](/ru/docs/sharedSettings)     **|**     [DOCS Disk   >](/ru/docs/disk)**</sub>
