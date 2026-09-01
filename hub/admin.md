@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: true
-date: 2026-09-01T07:52:05.350Z
+date: 2026-09-01T07:53:23.134Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -170,7 +170,8 @@ dateCreated: 2025-06-24T16:53:52.277Z
     <ul class="toc-list">
       <li><a href="#s3server"><span class="toc-badge">3.1</span> S3 Сервер хранилища</a></li>
       <li><a href="#calendar"><span class="toc-badge">3.2</span> Настройка производственного календаря</a></li>
-      <li><a href="#adsso"><span class="toc-badge">3.3</span> Интеграции, AD и SSO</a></li>
+      <li><a href="#integrations"><span class="toc-badge">3.3</span> Интеграции</a></li>
+      <li><a href="#adsso"><span class="toc-badge">3.3</span>AD и SSO</a></li>
     </ul>
   </div>
 </div>
