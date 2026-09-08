@@ -2,7 +2,7 @@
 title: DOCS. Согласования
 description: 
 published: true
-date: 2026-08-06T10:58:56.621Z
+date: 2026-09-08T08:38:58.634Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
@@ -822,6 +822,9 @@ dateCreated: 2025-09-09T12:22:52.543Z
 > Пользователь может полностью редактировать следующие комплекты:
 > • доступные для его роли (редактирование)
 {.is-warning}
+
+Полная таблица прав доступа к тем или иным действиям в согласованиях:
+![reviews_accesses.png](/sgnl_docs/docs_reviews/reviews_accesses.png)
   
 #### 5.3. Общие настройки
 ###### 5.3. Общие настройки {#main_settings}
