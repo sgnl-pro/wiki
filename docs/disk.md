@@ -2,13 +2,13 @@
 title: DOCS Disk
 description: 
 published: true
-date: 2026-02-04T13:36:28.477Z
+date: 2026-09-09T17:46:27.891Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:34:10.627Z
 ---
 
-<sub>**[<   DOCS. Уведомления](/ru/docs/notifications)     **|**     [DOCS. Дополнительно   >](/ru/docs/more)**</sub>
+<sub>**[<   DOCS. ИИ-ассистент](/ru/docs/notifications)     **|**     [DOCS. Дополнительно   >](/ru/docs/more)**</sub>
 
 <details>
     <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
@@ -142,4 +142,4 @@ dateCreated: 2025-09-09T12:34:10.627Z
 Эти функции нужны для дополнительной защиты от потери данных и наложению работ друг на друга.
 
 #
-<sub>**[<   DOCS. Уведомления](/ru/docs/notifications)     **|**     [DOCS. Дополнительно   >](/ru/docs/more)**</sub>
+<sub>**[<   DOCS. ИИ-ассистент](/ru/docs/notifications)     **|**     [DOCS. Дополнительно   >](/ru/docs/more)**</sub>
