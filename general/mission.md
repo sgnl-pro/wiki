@@ -2,13 +2,13 @@
 title: SIGNAL. Миссия компании
 description: 
 published: true
-date: 2026-02-04T13:31:29.369Z
+date: 2026-09-14T19:45:04.715Z
 tags: general
 editor: markdown
 dateCreated: 2025-06-24T15:21:17.544Z
 ---
 
-[**~SIGNAL. Лицензионное соглашение   >~**](/general/license-agreement)
+<sub>**[SIGNAL. Лицензионное соглашение   >](/general/license-agreement)**</sub>
 
 ---
 
@@ -20,4 +20,5 @@ dateCreated: 2025-06-24T15:21:17.544Z
 
 Мы уверены, что наша миссия и ценности помогут нам стать надёжным партнёром для наших клиентов и обеспечить им успех в строительной отрасли.
 
-[**~SIGNAL. Лицензионное соглашение   >~**](/general/license-agreement)
+#
+<sub>**[SIGNAL. Лицензионное соглашение   >](/general/license-agreement)**</sub>
