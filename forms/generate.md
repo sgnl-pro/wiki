@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
 ---
 
-<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+<sub>**[<   FORMS. Заполнение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
   
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"> <a href="/forms/generate/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
@@ -94,6 +94,22 @@ dateCreated: 2026-07-01T15:50:50.506Z
 **Циклы, ссылки и изображения**
 
 В цикле содержимое между `{{#поле}}` и `{{/поле}}` повторяется для каждого элемента массива. Внутри цикла доступны текущий элемент (`{{.}}`), его индекс (`$index`) и поля внешней формы.
+
+Чтобы исключить повторяющиеся значения при обходе связанных форм, примените фильтр `uniqueBy` к массиву во вложенном цикле:
+
+```text
+{{#journalEntries}}
+{{#materials | uniqueBy:'name'}}
+{{name}}
+{{/}}
+{{/journalEntries}}
+```
+
+Фильтр оставляет только первый элемент с каждым уникальным значением указанного свойства. В этом примере материалы с одинаковым наименованием не будут повторяться, даже если они выбраны в разных записях журнала.
+
+Для секции с фильтром используйте универсальный закрывающий тег `{{/}}`.
+
+Названия `journalEntries`, `materials` и `name` здесь условные: в шаблоне нужно использовать системные имена полей конкретной формы.
 
 Для ссылок используйте `{{%link параметр}}`. У вложений доступны параметры:
 - `hyperlinkName` — имя файла;
@@ -1485,4 +1501,4 @@ Email последнего редактора | `{{_form.modifiedBy.email}}` | `
 
   
 #
-<sub>**[<   FORMS. Заполненение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+<sub>**[<   FORMS. Заполнение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
