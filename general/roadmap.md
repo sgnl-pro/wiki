@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T13:49:01.000Z
+date: 2026-09-21T14:02:00.000Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -22,6 +22,16 @@ dateCreated: 2026-09-21T07:32:13.388Z
 .roadmap-status-grid .roadmap-status-planned{grid-column:1}.roadmap-status-grid .roadmap-status-progress{grid-column:2}.roadmap-status-grid .roadmap-status-ready{grid-column:3}
 @media(max-width:900px){.roadmap-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.roadmap-card{grid-column:auto!important}}
 @media(max-width:600px){.roadmap-grid{grid-template-columns:1fr!important}}
+.roadmap-state-tabs{position:relative;margin-top:24px}
+.roadmap-state-anchor{position:absolute;top:-90px}
+.roadmap-state-nav{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}
+.roadmap-state-tab{display:inline-block;padding:7px 12px;border-radius:8px;background:#eef2f6;color:#5d6878!important;font-weight:700;text-decoration:none!important}
+.roadmap-state-tab-plan{background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff!important}
+.roadmap-state-release-panel{display:none}
+.roadmap-state-release-anchor:target~.roadmap-state-nav .roadmap-state-tab-plan{background:#eef2f6;color:#5d6878!important}
+.roadmap-state-release-anchor:target~.roadmap-state-nav .roadmap-state-tab-release{background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff!important}
+.roadmap-state-release-anchor:target~.roadmap-state-panels>.roadmap-state-plan-panel{display:none}
+.roadmap-state-release-anchor:target~.roadmap-state-panels>.roadmap-state-release-panel{display:block}
 
 </style>
 
@@ -30,10 +40,15 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#2d4e67,#112538);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">HUB</span>
 
-<tabset>
-<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
-<template v-slot:content="">
-<div class="tabset-panel">
+<div class="roadmap-state-tabs">
+<span id="roadmap-state-hub-plan" class="roadmap-state-anchor roadmap-state-plan-anchor"></span>
+<span id="roadmap-state-hub-release" class="roadmap-state-anchor roadmap-state-release-anchor"></span>
+<nav class="roadmap-state-nav" aria-label="Состояние дорожной карты">
+<a class="roadmap-state-tab roadmap-state-tab-plan" href="#roadmap-state-hub-plan">Планы</a>
+<a class="roadmap-state-tab roadmap-state-tab-release" href="#roadmap-state-hub-release">Выпущено</a>
+</nav>
+<div class="roadmap-state-panels">
+<section class="roadmap-state-panel roadmap-state-plan-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -67,8 +82,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Объединение проектов в группы и портфели для навигации и управления.</p>
   </div>
 </div>
-</div>
-<div class="tabset-panel">
+</section>
+<section class="roadmap-state-panel roadmap-state-release-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -102,16 +117,21 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-1">2026.1</a> · <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</section>
 </div>
-</template>
-</tabset>
+</div>
 
 ## <span style="background:linear-gradient(45deg,#00d1ff,#0695d7);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DOCS</span>
 
-<tabset>
-<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
-<template v-slot:content="">
-<div class="tabset-panel">
+<div class="roadmap-state-tabs">
+<span id="roadmap-state-docs-plan" class="roadmap-state-anchor roadmap-state-plan-anchor"></span>
+<span id="roadmap-state-docs-release" class="roadmap-state-anchor roadmap-state-release-anchor"></span>
+<nav class="roadmap-state-nav" aria-label="Состояние дорожной карты">
+<a class="roadmap-state-tab roadmap-state-tab-plan" href="#roadmap-state-docs-plan">Планы</a>
+<a class="roadmap-state-tab roadmap-state-tab-release" href="#roadmap-state-docs-release">Выпущено</a>
+</nav>
+<div class="roadmap-state-panels">
+<section class="roadmap-state-panel roadmap-state-plan-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -217,8 +237,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Отдельные пользовательские комментарии и ответы в журнале событий замечания.</p>
   </div>
 </div>
-</div>
-<div class="tabset-panel">
+</section>
+<section class="roadmap-state-panel roadmap-state-release-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -318,16 +338,21 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</section>
 </div>
-</template>
-</tabset>
+</div>
 
 ## <span style="background:linear-gradient(45deg,#ff5867,#88383f);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">FORMS</span>
 
-<tabset>
-<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
-<template v-slot:content="">
-<div class="tabset-panel">
+<div class="roadmap-state-tabs">
+<span id="roadmap-state-forms-plan" class="roadmap-state-anchor roadmap-state-plan-anchor"></span>
+<span id="roadmap-state-forms-release" class="roadmap-state-anchor roadmap-state-release-anchor"></span>
+<nav class="roadmap-state-nav" aria-label="Состояние дорожной карты">
+<a class="roadmap-state-tab roadmap-state-tab-plan" href="#roadmap-state-forms-plan">Планы</a>
+<a class="roadmap-state-tab roadmap-state-tab-release" href="#roadmap-state-forms-release">Выпущено</a>
+</nav>
+<div class="roadmap-state-panels">
+<section class="roadmap-state-panel roadmap-state-plan-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -409,19 +434,24 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Заполнение по документу или изображению и голосовой ввод данных.</p>
   </div>
 </div>
-</div>
-<div class="tabset-panel">
+</section>
+<section class="roadmap-state-panel roadmap-state-release-panel">
 <p><em>В I–II кварталах 2026 крупных публичных обновлений модуля не было.</em></p>
+</section>
 </div>
-</template>
-</tabset>
+</div>
 
 ## <span style="background:linear-gradient(45deg,#a09eff,#4b47ff);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DASHBOARD</span>
 
-<tabset>
-<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
-<template v-slot:content="">
-<div class="tabset-panel">
+<div class="roadmap-state-tabs">
+<span id="roadmap-state-dashboard-plan" class="roadmap-state-anchor roadmap-state-plan-anchor"></span>
+<span id="roadmap-state-dashboard-release" class="roadmap-state-anchor roadmap-state-release-anchor"></span>
+<nav class="roadmap-state-nav" aria-label="Состояние дорожной карты">
+<a class="roadmap-state-tab roadmap-state-tab-plan" href="#roadmap-state-dashboard-plan">Планы</a>
+<a class="roadmap-state-tab roadmap-state-tab-release" href="#roadmap-state-dashboard-release">Выпущено</a>
+</nav>
+<div class="roadmap-state-panels">
+<section class="roadmap-state-panel roadmap-state-plan-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -455,8 +485,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Карточки по типам согласований, дополнительные поля рисков и экспорт отдельной карточки в XLSX.</p>
   </div>
 </div>
-</div>
-<div class="tabset-panel">
+</section>
+<section class="roadmap-state-panel roadmap-state-release-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -514,19 +544,24 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</section>
 </div>
-</template>
-</tabset>
+</div>
 
 ## <span style="background:linear-gradient(45deg,#83e6c7,#00cd8d);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">INSPECTION</span>
 
-<tabset>
-<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
-<template v-slot:content="">
-<div class="tabset-panel">
+<div class="roadmap-state-tabs">
+<span id="roadmap-state-inspection-plan" class="roadmap-state-anchor roadmap-state-plan-anchor"></span>
+<span id="roadmap-state-inspection-release" class="roadmap-state-anchor roadmap-state-release-anchor"></span>
+<nav class="roadmap-state-nav" aria-label="Состояние дорожной карты">
+<a class="roadmap-state-tab roadmap-state-tab-plan" href="#roadmap-state-inspection-plan">Планы</a>
+<a class="roadmap-state-tab roadmap-state-tab-release" href="#roadmap-state-inspection-release">Выпущено</a>
+</nav>
+<div class="roadmap-state-panels">
+<section class="roadmap-state-panel roadmap-state-plan-panel">
 <p><em>Публичные планы модуля пока не подтверждены в Tracker.</em></p>
-</div>
-<div class="tabset-panel">
+</section>
+<section class="roadmap-state-panel roadmap-state-release-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">I квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -537,19 +572,24 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-4">2026.4</a></p>
   </div>
 </div>
+</section>
 </div>
-</template>
-</tabset>
+</div>
 
 ## <span style="background:linear-gradient(45deg,#7aa6cf,#7d96ad);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">TOOLS</span>
 
-<tabset>
-<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
-<template v-slot:content="">
-<div class="tabset-panel">
+<div class="roadmap-state-tabs">
+<span id="roadmap-state-tools-plan" class="roadmap-state-anchor roadmap-state-plan-anchor"></span>
+<span id="roadmap-state-tools-release" class="roadmap-state-anchor roadmap-state-release-anchor"></span>
+<nav class="roadmap-state-nav" aria-label="Состояние дорожной карты">
+<a class="roadmap-state-tab roadmap-state-tab-plan" href="#roadmap-state-tools-plan">Планы</a>
+<a class="roadmap-state-tab roadmap-state-tab-release" href="#roadmap-state-tools-release">Выпущено</a>
+</nav>
+<div class="roadmap-state-panels">
+<section class="roadmap-state-panel roadmap-state-plan-panel">
 <p><em>Публичные планы модуля пока не подтверждены в Tracker.</em></p>
-</div>
-<div class="tabset-panel">
+</section>
+<section class="roadmap-state-panel roadmap-state-release-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -566,16 +606,21 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-8">2026.8</a></p>
   </div>
 </div>
+</section>
 </div>
-</template>
-</tabset>
+</div>
 
 ## <span style="background:linear-gradient(45deg,#7aa6cf,#7d96ad);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">API</span>
 
-<tabset>
-<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
-<template v-slot:content="">
-<div class="tabset-panel">
+<div class="roadmap-state-tabs">
+<span id="roadmap-state-api-plan" class="roadmap-state-anchor roadmap-state-plan-anchor"></span>
+<span id="roadmap-state-api-release" class="roadmap-state-anchor roadmap-state-release-anchor"></span>
+<nav class="roadmap-state-nav" aria-label="Состояние дорожной карты">
+<a class="roadmap-state-tab roadmap-state-tab-plan" href="#roadmap-state-api-plan">Планы</a>
+<a class="roadmap-state-tab roadmap-state-tab-release" href="#roadmap-state-api-release">Выпущено</a>
+</nav>
+<div class="roadmap-state-panels">
+<section class="roadmap-state-panel roadmap-state-plan-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -603,8 +648,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Копирование и перенос папок, а также создание замечаний через публичный API.</p>
   </div>
 </div>
-</div>
-<div class="tabset-panel">
+</section>
+<section class="roadmap-state-panel roadmap-state-release-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -626,9 +671,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-1">2026.1</a> · <a href="/ru/general/updates/2026-2">2026.2</a> · <a href="/ru/general/updates/2026-3">2026.3</a> · <a href="/ru/general/updates/2026-4">2026.4</a> · <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</section>
 </div>
-</template>
-</tabset>
+</div>
 
 ---
 
