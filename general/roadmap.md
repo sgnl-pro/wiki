@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T14:02:00.000Z
+date: 2026-09-21T14:34:00.000Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -57,6 +57,34 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
     <strong>Управление сотрудниками</strong>
     <p style="color:#64748b;margin:8px 0 0;">Мягкое удаление сотрудников организации без потери связанной истории и данных.</p>
+  </div>
+<!-- Tracker: HUB-12, HUB-45, HUB-52, HUB-54, HUB-121, HUB-163 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Управление проектами и пользователями</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Проект по умолчанию, редактирование пользователей, восстановление лицензий, удобный выбор ролей и пагинация.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-13">2026.13</a></p>
+  </div>
+<!-- Tracker: HUB-58 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Контрагенты компании</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Добавили компании-контрагенты и возможность назначать контрагента пользователю.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-15">2026.15</a></p>
+  </div>
+<!-- Tracker: HUB-178 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Уведомления в MAX</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Подключили уведомления SIGNAL в мессенджере MAX через профиль пользователя.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-16">2026.16</a></p>
+  </div>
+<!-- Tracker: HUB-88 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Новые поля и таблица проектов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Добавили статус, сроки, стоимость и описание проекта и переработали таблицу проектов.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-17">2026.17</a></p>
   </div>
 </div>
 
@@ -182,6 +210,55 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В работе</span></div>
     <strong>Автозаполнение замечаний</strong>
     <p style="color:#64748b;margin:8px 0 0;">Подсказки и предложения значений при заполнении полей замечания.</p>
+  </div>
+<!-- Tracker: DOCS-1134, DOCS-1178, DOCS-1449, DOCS-1529, DOCS-1878, DOCS-1879, DOCS-1897, DOCS-1929, DOCS-1973, DOCS-2076 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Развитие SIGNAL Viewer</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Новый BIM-вьювер, публичные ссылки, замечания к элементам, облака точек PLY, сечения и улучшенная обработка моделей.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-14">2026.14</a> · <a href="/ru/general/updates/2026-15">2026.15</a> · <a href="/ru/general/updates/2026-16">2026.16</a> · <a href="/ru/general/updates/2026-17">2026.17</a></p>
+  </div>
+<!-- Tracker: DOCS-195, DOCS-984, DOCS-1277, DOCS-1389, DOCS-1392 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>ИИ-ассистент: чат, инструкции и скиллы</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Добавили чат и генерацию документов, инструкции проекта, скиллы и расширенный ввод текста.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-15">2026.15</a> · <a href="/ru/general/updates/2026-17">2026.17</a></p>
+  </div>
+<!-- Tracker: DOCS-1238, DOCS-1683, DOCS-648 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Загрузка и обновление файлов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Получатели и комментарии при загрузке, обновление неактуальных файлов в комплекте и пакетное обновление версий.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-13">2026.13</a> · <a href="/ru/general/updates/2026-17">2026.17</a></p>
+  </div>
+<!-- Tracker: DOCS-385, DOCS-738, DOCS-647, DOCS-1315, DOCS-1531, DOCS-1993 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Согласования и передачи</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Гибкое управление типом и отменой согласования, значения по умолчанию, перезапуск и копирование передач.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-14">2026.14</a> · <a href="/ru/general/updates/2026-15">2026.15</a></p>
+  </div>
+<!-- Tracker: DOCS-1691 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Атрибуты в масках наименований</strong>
+    <p style="color:#64748b;margin:8px 0 0;">В масках наименований файлов можно использовать значения атрибутов.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-15">2026.15</a></p>
+  </div>
+<!-- Tracker: DOCS-1247, DOCS-1742, DOCS-1818 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Копирование и обмен структурами папок</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Копирование папок вместе с файлами и версиями, импорт и экспорт пустых папок.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-16">2026.16</a></p>
+  </div>
+<!-- Tracker: DOCS-910, DOCS-937, DOCS-1873 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>График Ганта и прямые ссылки</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Доработали редактор графика и добавили ссылки на файлы, которые сохраняются после перемещения.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-17">2026.17</a></p>
   </div>
 </div>
 
@@ -380,6 +457,48 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Улучшения конструктора и реестра</strong>
     <p style="color:#64748b;margin:8px 0 0;">Описания полей, единое отображение заголовков, поиск типов форм и настройка видимости.</p>
   </div>
+<!-- Tracker: ID-16, ID-150, ID-319 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Генерация DOCX по данным форм</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Шаблоны, условия, циклы, изображения, системные поля и работа со связанными формами.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-15">2026.15</a> · <a href="/ru/general/updates/2026-17">2026.17</a></p>
+  </div>
+<!-- Tracker: ID-115, ID-129, ID-146, ID-153 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Реестр и конструктор форм</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Логи изменений, редактирование завершённых форм, уникальные значения и корзина типов форм.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-13">2026.13</a> · <a href="/ru/general/updates/2026-15">2026.15</a></p>
+  </div>
+<!-- Tracker: ID-64, ID-159 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Связь полей с HUB и DOCS</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Поля форм можно связывать с пользователями, контрагентами, справочниками, замечаниями, согласованиями и передачами.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-15">2026.15</a></p>
+  </div>
+<!-- Tracker: ID-65, ID-140 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Импорт и экспорт форм в XLSX</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Добавили массовую выгрузку форм и импорт простых форм из таблиц XLSX.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-15">2026.15</a></p>
+  </div>
+<!-- Tracker: ID-176, ID-207 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Связанные формы и видимость полей</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Создание связанной формы из поля-источника и автоматическое скрытие недоступных столбцов реестра.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-16">2026.16</a></p>
+  </div>
+<!-- Tracker: ID-175, ID-178, ID-185, ID-293, ID-324, ID-325, ID-350, ID-355 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Настройки полей, этапов и замечаний</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Значения по умолчанию, выпадающие списки, уникальность, названия этапов и работа с замечаниями без выхода из формы.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-17">2026.17</a></p>
+  </div>
 </div>
 
 <div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">IV квартал 2026</span></div>
@@ -460,6 +579,20 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
     <strong>Состояние 3D-карточек</strong>
     <p style="color:#64748b;margin:8px 0 0;">Сохранение выбранного состояния карточек при изменениях модели на вкладке управления.</p>
+  </div>
+<!-- Tracker: DASH-29, DASH-99, DASH-101 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Экспорт и навигация по карточкам</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Экспорт отчёта в PPTX, переключение карточек в группе и предупреждения о разных единицах измерения.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-13">2026.13</a></p>
+  </div>
+<!-- Tracker: DASH-103, DASH-69 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Новые карточки и фильтры</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Интеграции со СКУД и Техзор, фильтрация 3D-карточек по подрядчику и общий SLA по ролям.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-14">2026.14</a> · <a href="/ru/general/updates/2026-15">2026.15</a></p>
   </div>
 </div>
 
@@ -587,7 +720,17 @@ dateCreated: 2026-09-21T07:32:13.388Z
 </nav>
 <div class="roadmap-state-panels">
 <section class="roadmap-state-panel roadmap-state-plan-panel">
-<p><em>Публичные планы модуля пока не подтверждены в Tracker.</em></p>
+<div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
+
+<div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
+<!-- Источник: Что нового 2026.16 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>SIGNAL Basic для Revit и Navisworks</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Бесплатные плагины для просмотра свойств, поиска элементов и базовой работы с моделями.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-16">2026.16</a></p>
+  </div>
+</div>
 </section>
 <section class="roadmap-state-panel roadmap-state-release-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
@@ -635,6 +778,20 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
     <strong>Комментарий версии в согласованиях</strong>
     <p style="color:#64748b;margin:8px 0 0;">Работа с редактируемым комментарием версии согласования через реестр и публичный API.</p>
+  </div>
+<!-- Tracker: DOCS-1734, DOCS-566, DOCS-1822, DOCS-1908, DOCS-1914, HUB-249 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Новые методы HUB и DOCS</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Переименование файлов, изменение проектов и атрибутов, управление правами и создание согласований.</p>
+    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-14">2026.14</a> · <a href="/ru/general/updates/2026-15">2026.15</a> · <a href="/ru/general/updates/2026-16">2026.16</a></p>
+  </div>
+<!-- Tracker: ID-181 -->
+  <div class="roadmap-card roadmap-status-ready" style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:14px;padding:18px;background:#fff;">
+    <div style="display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <strong>Публичный API FORMS</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Чтение структуры форм, поиск, создание, изменение и завершение заполненных форм.</p>
+    <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-16">2026.16</a></p>
   </div>
 </div>
 
