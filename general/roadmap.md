@@ -2,15 +2,15 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T07:30:00.000Z
+date: 2026-09-21T12:17:54.818Z
 tags: general
 editor: markdown
-dateCreated: 2026-09-21T07:30:00.000Z
+dateCreated: 2026-09-21T07:32:13.388Z
 ---
 
-<sub>**[<   SIGNAL. Что нового](/ru/general/updates)**</sub>
-
-# Дорожная карта
+<sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [SIGNAL. Публичный API   >](/ru/general/api)**</sub>
+  
+---
 
 Показываем, над чем работаем сейчас и что планируем дальше. Направления и сроки могут меняться по мере развития продукта.
 
@@ -528,4 +528,5 @@ dateCreated: 2026-09-21T07:30:00.000Z
 
 Кварталы в «Планах» отражают текущие ориентиры команды и не являются обязательством выпустить возможности в указанные сроки.
 
-<sub>**[<   SIGNAL. Что нового](/ru/general/updates)**</sub>
+#
+<sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [SIGNAL. Публичный API   >](/ru/general/api)**</sub>
