@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T15:34:33.181Z
+date: 2026-09-21T15:34:58.439Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -24,7 +24,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 ## <span style="background:linear-gradient(45deg,#2d4e67,#112538);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">HUB</span>
 
 ### Вкладки{.tabset}
-#### <span style="cursor:pointer;display:inline-block;background:#2f6fed;color:#fff;padding:7px 12px;border-radius:8px;font-weight:700;;">Планы</span>
+#### <span style="cursor:pointer;display:inline-block;background:#2f6fed;color:#fff;padding:7px 12px;border-radius:8px;font-weight:700;">Планы</span>
 
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
