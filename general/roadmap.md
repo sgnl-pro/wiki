@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T15:36:51.896Z
+date: 2026-09-21T16:08:38.432Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -23,8 +23,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#2d4e67,#112538);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">HUB</span>
 
-### Вкладки{.tabset}
-#### <span style="background:#2f6fed;color:#fff;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
+<span style="background:#2f6fed;color:#fff;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
@@ -88,7 +87,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
   
-#### <span style="background:#17865f;color:#fff;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
+<span style="background:#17865f;color:#fff;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
   
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
@@ -171,8 +170,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#00d1ff,#0695d7);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DOCS</span>
 
-### Вкладки{.tabset}
-#### <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
+<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -328,7 +326,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
-#### <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
+<span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -561,8 +559,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#ff5867,#88383f);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">FORMS</span>
 
-### Вкладки{.tabset}
-#### <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
+<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -693,8 +690,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#a09eff,#4b47ff);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DASHBOARD</span>
 
-### Вкладки{.tabset}
-#### <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
+<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -743,7 +739,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
-#### <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
+<span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -857,11 +853,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#83e6c7,#00cd8d);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">INSPECTION</span>
 
-### Вкладки{.tabset}
-#### <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
+<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 <p><em>Публичные планы модуля пока не подтверждены в Tracker.</em></p>
 
-#### <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
+<span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">I квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -876,8 +871,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#7aa6cf,#7d96ad);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">TOOLS</span>
 
-### Вкладки{.tabset}
-#### <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
+<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -890,7 +884,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
-#### <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
+<span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -923,8 +917,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#7aa6cf,#7d96ad);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">API</span>
 
-### Вкладки{.tabset}
-#### <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
+<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -967,7 +960,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
-#### <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
+<span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
