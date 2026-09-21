@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T13:40:00.000Z
+date: 2026-09-21T13:49:01.000Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -30,10 +30,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#2d4e67,#112538);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">HUB</span>
 
-### Состояние{.tabset}
-
-#### <span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span>
-
+<tabset>
+<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
+<template v-slot:content="">
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -67,9 +67,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Объединение проектов в группы и портфели для навигации и управления.</p>
   </div>
 </div>
-
-#### <span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span>
-
+</div>
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -103,13 +102,16 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-1">2026.1</a> · <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</div>
+</template>
+</tabset>
 
 ## <span style="background:linear-gradient(45deg,#00d1ff,#0695d7);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DOCS</span>
 
-### Состояние{.tabset}
-
-#### <span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span>
-
+<tabset>
+<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
+<template v-slot:content="">
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -215,9 +217,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Отдельные пользовательские комментарии и ответы в журнале событий замечания.</p>
   </div>
 </div>
-
-#### <span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span>
-
+</div>
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -317,13 +318,16 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</div>
+</template>
+</tabset>
 
 ## <span style="background:linear-gradient(45deg,#ff5867,#88383f);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">FORMS</span>
 
-### Состояние{.tabset}
-
-#### <span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span>
-
+<tabset>
+<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
+<template v-slot:content="">
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -405,17 +409,19 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Заполнение по документу или изображению и голосовой ввод данных.</p>
   </div>
 </div>
-
-#### <span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span>
-
+</div>
+<div class="tabset-panel">
 <p><em>В I–II кварталах 2026 крупных публичных обновлений модуля не было.</em></p>
+</div>
+</template>
+</tabset>
 
 ## <span style="background:linear-gradient(45deg,#a09eff,#4b47ff);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DASHBOARD</span>
 
-### Состояние{.tabset}
-
-#### <span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span>
-
+<tabset>
+<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
+<template v-slot:content="">
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -449,9 +455,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Карточки по типам согласований, дополнительные поля рисков и экспорт отдельной карточки в XLSX.</p>
   </div>
 </div>
-
-#### <span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span>
-
+</div>
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -509,17 +514,19 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</div>
+</template>
+</tabset>
 
 ## <span style="background:linear-gradient(45deg,#83e6c7,#00cd8d);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">INSPECTION</span>
 
-### Состояние{.tabset}
-
-#### <span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span>
-
+<tabset>
+<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
+<template v-slot:content="">
+<div class="tabset-panel">
 <p><em>Публичные планы модуля пока не подтверждены в Tracker.</em></p>
-
-#### <span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span>
-
+</div>
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">I квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -530,17 +537,19 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-4">2026.4</a></p>
   </div>
 </div>
+</div>
+</template>
+</tabset>
 
 ## <span style="background:linear-gradient(45deg,#7aa6cf,#7d96ad);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">TOOLS</span>
 
-### Состояние{.tabset}
-
-#### <span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span>
-
+<tabset>
+<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
+<template v-slot:content="">
+<div class="tabset-panel">
 <p><em>Публичные планы модуля пока не подтверждены в Tracker.</em></p>
-
-#### <span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span>
-
+</div>
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -557,13 +566,16 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-8">2026.8</a></p>
   </div>
 </div>
+</div>
+</template>
+</tabset>
 
 ## <span style="background:linear-gradient(45deg,#7aa6cf,#7d96ad);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">API</span>
 
-### Состояние{.tabset}
-
-#### <span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span>
-
+<tabset>
+<template v-slot:tabs=""><li><span style="background:linear-gradient(45deg,#5b8cff,#2f6fed);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Планы</span></li><li><span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span></li></template>
+<template v-slot:content="">
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div class="roadmap-grid roadmap-status-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -591,9 +603,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Копирование и перенос папок, а также создание замечаний через публичный API.</p>
   </div>
 </div>
-
-#### <span style="background:linear-gradient(45deg,#42cfa2,#17865f);color:#fff;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">Выпущено</span>
-
+</div>
+<div class="tabset-panel">
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div class="roadmap-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:14px 0 24px;">
@@ -615,6 +626,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-1">2026.1</a> · <a href="/ru/general/updates/2026-2">2026.2</a> · <a href="/ru/general/updates/2026-3">2026.3</a> · <a href="/ru/general/updates/2026-4">2026.4</a> · <a href="/ru/general/updates/2026-5">2026.5</a></p>
   </div>
 </div>
+</div>
+</template>
+</tabset>
 
 ---
 
