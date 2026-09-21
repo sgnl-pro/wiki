@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T14:58:02.000Z
+date: 2026-09-21T15:34:33.181Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -23,9 +23,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#2d4e67,#112538);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">HUB</span>
 
-<details name="roadmap-hub" open style="margin:22px 0;">
-<summary style="cursor:pointer;display:inline-block;background:#2f6fed;color:#fff;padding:7px 12px;border-radius:8px;font-weight:700;">Планы</summary>
-<div style="margin-top:18px;">
+### Вкладки{.tabset}
+#### <span style="cursor:pointer;display:inline-block;background:#2f6fed;color:#fff;padding:7px 12px;border-radius:8px;font-weight:700;;">Планы</span>
+
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">III квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:14px 0 24px;">
@@ -87,12 +87,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Объединение проектов в группы и портфели для навигации и управления.</p>
   </div>
 </div>
-</div>
-</details>
-
-<details name="roadmap-hub" style="margin:22px 0;">
-<summary style="cursor:pointer;display:inline-block;background:#17865f;color:#fff;padding:7px 12px;border-radius:8px;font-weight:700;">Выпущено</summary>
-<div style="margin-top:18px;">
+  
+#### <span style="cursor:pointer;display:inline-block;background:#17865f;color:#fff;padding:7px 12px;border-radius:8px;font-weight:700;">Выпущено</span>
+  
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">II квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:14px 0 24px;">
@@ -171,8 +168,6 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2025-26">2025.26</a></p>
   </div>
 </div>
-</div>
-</details>
 
 ## <span style="background:linear-gradient(45deg,#00d1ff,#0695d7);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DOCS</span>
 
