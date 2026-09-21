@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-21T16:09:27.646Z
+date: 2026-09-21T16:12:25.085Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -682,10 +682,6 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
-#### <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
-<p><em>В I–II кварталах 2026 крупных публичных обновлений модуля не было.</em></p>
-</div>
-
 ## <span style="background:linear-gradient(45deg,#a09eff,#4b47ff);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DASHBOARD</span>
 
 <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
@@ -850,9 +846,6 @@ dateCreated: 2026-09-21T07:32:13.388Z
 </div>
 
 ## <span style="background:linear-gradient(45deg,#83e6c7,#00cd8d);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">INSPECTION</span>
-
-<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
-<p><em>Публичные планы модуля пока не подтверждены в Tracker.</em></p>
 
 <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none;">I квартал 2026</span></div>
