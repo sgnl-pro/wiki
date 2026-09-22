@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2026-09-22T18:15:29.000Z
+date: 2026-09-22T18:47:45.234Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -69,8 +69,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 ## 1. Основные понятия
 ###### 1. Основные понятия {#main_info}
 
-#### 1.1. Термины и участники
-
 > **Пакет передачи** — набор зафиксированных версий файлов, объединённых для отправки одному получателю. Пакет имеет номер, шифр, название, тип и статус.
 
 > **Тип передачи** — набор правил, определяющий права пользователей и маршрут пакета: нужен ли акт и его подписание ЭЦП, когда можно скачивать файлы, используется ли публичная ссылка, куда копировать акт и какие значения подставлять при создании.
@@ -81,21 +79,18 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 > **Получатель** принимает или отклоняет пакет. Получателем может быть пользователь проекта, роль проекта или внешнее лицо, которому отправлена публичная ссылка по электронной почте.
 
-#### 1.2. Статусы пакета
-###### 1.2. Статусы пакета {#statuses}
-
-Последовательность успешной передачи:
-
-`Черновик` → `Сформирован` → `Согласован` или `Подписан` → `Отправлен` → `Просмотрен` → `Получен`
-
-- <span style="color: #B6BEC7; font-weight: bold">Черновик</span> — пакет создан; состав файлов и свойства можно менять.
-- <span style="color: #F2C94C; font-weight: bold">Сформирован</span> — акт создан и ожидает подтверждения или подписи отправителя.
-- <span style="color: #F2C94C; font-weight: bold">Согласован</span> — отправитель подтвердил пакет без ЭЦП или акт не требуется; пакет можно отправлять.
-- <span style="color: #F2C94C; font-weight: bold">Подписан</span> — отправитель подписал акт ЭЦП; пакет можно отправлять.
-- <span style="color: #FF76E0; font-weight: bold">Отправлен</span> — пакет отправлен выбранному получателю.
-- <span style="color: #0695D7; font-weight: bold">Просмотрен</span> — получатель открыл пакет.
-- <span style="color: #4FCDA6; font-weight: bold">Получен</span> — получатель подтвердил или подписал пакет; файлы доступны по правилам типа передачи.
-- <span style="color: #FF4758; font-weight: bold">Отклонён</span> — получатель отклонил пакет и оставил комментарий. Пакет снова можно отредактировать и сформировать.
+> **Статусы передачи**
+> 
+> Последовательность успешной передачи: `Черновик` → `Сформирован` → `Согласован` или `Подписан` → `Отправлен` → `Просмотрен` → `Получен`
+> 
+> - <span style="color: #B6BEC7; font-weight: bold">Черновик</span> — пакет создан; состав файлов и свойства можно менять.
+> - <span style="color: #F2C94C; font-weight: bold">Сформирован</span> — акт создан и ожидает подтверждения или подписи отправителя.
+> - <span style="color: #F2C94C; font-weight: bold">Согласован</span> — отправитель подтвердил пакет без ЭЦП или акт не требуется; пакет можно отправлять.
+> - <span style="color: #F2C94C; font-weight: bold">Подписан</span> — отправитель подписал акт ЭЦП; пакет можно отправлять.
+> - <span style="color: #FF76E0; font-weight: bold">Отправлен</span> — пакет отправлен выбранному получателю.
+> - <span style="color: #0695D7; font-weight: bold">Просмотрен</span> — получатель открыл пакет.
+> - <span style="color: #4FCDA6; font-weight: bold">Получен</span> — получатель подтвердил или подписал пакет; файлы доступны по правилам типа передачи.
+> - <span style="color: #FF4758; font-weight: bold">Отклонён</span> — получатель отклонил пакет и оставил комментарий. Пакет снова можно отредактировать и сформировать.
 
 ## 2. Реестр передач
 ###### 2. Реестр передач {#registry}
@@ -110,8 +105,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 В таблице доступны номер, шифр, название, тип, статус, номер договора, дата создания, автор, отправитель, компания-отправитель, дата отправки, получатель, компания-получатель и дата получения. Отображаемые столбцы зависят от сохранённой настройки таблицы.
 
 Набор, порядок и ширину столбцов можно сохранить как пользовательскую настройку. В реестре также доступны поиск, фильтры, сортировка и постраничный просмотр.
-
-<span style="color: #FF4758; font-weight: 600;">Скриншот ниже сделан в предыдущей версии интерфейса.</span>
 
 ![Вкладка «Передача»](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdBimHypOWwQJDMNl8rkAFULK5wOgqWWCGvdlTRr8rUYI9Yr6m0ExA1fKxzEbzuHCSV7-nZ57fkXwQaAuCn-vrTHHfdYmu44I7zoaDd7IqvHW001J92t2I7r78VQgXiwYg?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
@@ -187,8 +180,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 4. Добавьте файлы. В пакет попадут выбранные на этот момент версии.
 5. Если нужно сразу перейти к формированию акта, включите **«Сформировать акт»** и нажмите **«Далее»**. Иначе нажмите **«Создать»** — пакет сохранится как черновик.
 
-<span style="color: #FF4758; font-weight: 600;">Скриншоты ниже сделаны в предыдущей версии интерфейса.</span>
-
 ![Создание пакета передачи](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXmKGWo5d8IIWJ2auxxL3b_3AsVeFx4A-G_PKFBrvI-6OMH4yFLvK0Rc7igWOryNtGw5qM9ptF6Gb3wPtmug2cGHnH6-xDItrlxocrotTALL_Z-nPS9hoPzOkPfCG-J9w?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 ![Добавление файлов в пакет](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd8OzzzOntjWu5PFmZhPC2O-g2kNlvN7Bh8GQ2bf-jhC8nlbthgAzSIJHxq2Xcbm0qyVJVcv5pulj1smIcT9PzfC8TU2nIBY21jOKO7VOq6Kgi-Uf-NWptGNGxDe-8o5-Y?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
@@ -206,8 +197,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 Администратор может задать эти значения по умолчанию в типе передачи. Если название проекта не задано, подставляется название текущего проекта. Перед формированием акт можно открыть в предпросмотре.
 
-<span style="color: #FF4758; font-weight: 600;">Скриншот ниже сделан в предыдущей версии интерфейса.</span>
-
 ![Параметры акта приёма-передачи](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5GGcN93VHb2YEmjo-pdeeYj19omPEouhZs3nODQd6YUAViL9rjFGENJRklHy0vhGYjTET4CLapirQUEkMKEj8nfJsMA7o1gbW1Qob-O2lQHBrWaf_VGXNtL9tWTlUI0g?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
 
 Если для типа акт не требуется, отдельный PDF не создаётся, а пакет сразу переходит к подтверждению и отправке.
@@ -222,8 +211,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 Для подписания ЭЦП нужны установленный CryptoPro, доступный сертификат и носитель с закрытым ключом, если он хранится на токене.
 
-<span style="color: #FF4758; font-weight: 600;">Скриншоты ниже сделаны в предыдущей версии интерфейса.</span>
-
 ![Подписание акта отправителем](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe9wYqdtzmAuXvnq1pkwedPjzvUVAm5HBgNv-Xi-zZ3-gU0BtwBW7k2KG3VldSpS6fOG8VZe4af7PnWZofI5fMYzOZh82wXbHRW2OLzXxuggfZba_bgwmKFXmdrXgNE3qE?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
 ![Выбор сертификата](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxl_Qp67zJMU-tlqhTNdYYszFPYw7AiT9Fuij2ha33xUSlg1trEgdkVthFNlsq1R5mo3I3VPFdeAKHq-aDTbIqWmKZHoyxTE78dMXTLtSWZG6Vn1f4EoS8fKcfRQQ8EA?key=0w72pDhc1Q-bjFjEPHaI_2Sz =30%x)
@@ -236,8 +223,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 Нажмите **«Отправить»** и выберите получателя. В обычном типе передачи это пользователь или роль проекта. Если в типе включена **«Публичная ссылка»**, укажите адрес электронной почты внешнего получателя.
 
 Получателя можно заранее задать в настройках типа. Перед отправкой его можно изменить.
-
-<span style="color: #FF4758; font-weight: 600;">Скриншоты ниже сделаны в предыдущей версии интерфейса.</span>
 
 ![Отправка пакета](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZ0G480s-wNKpN4XSzQqDjpSOoPu5980ceP86klJvMNTa1YSu7ice1pfy1lcrw3KpqsE8DiBk3-Q9aNrRg3LMXkhYGHRbZpL_IE0XlhyaMchhjpm4Y_3wWGI9msUKtUg?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
@@ -256,8 +241,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 Для публичной передачи учётная запись и доступ к проекту не требуются. Внешний получатель переходит по публичной ссылке, указывает имя и выполняет доступное для типа действие.
 
-<span style="color: #FF4758; font-weight: 600;">Скриншоты ниже сделаны в предыдущей версии интерфейса.</span>
-
 ![Просмотр пакета получателем](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdWFYqRMl8VzgylrNzBJliU7fzbza-IzZIpHSVXhnwKa5C5uD6STQJlbopekVm7V8mPw0ejZGyoL9vIKAcJarQEZCA5KU7Ir-lGnCh92NejlrzLKUigxN3OFrwcITjCP1E?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
 ![Подписание акта получателем](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcW37XRbTqAyOl_F1vHX3yoW1N2zsVUPlIBPLfGR2p-sr2KGdFNJzEUsp7Fzbkhf-BDIPytcnAI0j1mo_R5as7lCqh42Nr1DNI2nF32OXBiyxBKlBqp3qSbU8Z2gqYx4CM?key=0w72pDhc1Q-bjFjEPHaI_2Sz =50%x)
@@ -271,8 +254,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 - если настройка включена, скачивание открывается после получения пакета;
 - если выключена, файлы доступны раньше пользователям, у которых есть доступ к пакету.
-
-<span style="color: #FF4758; font-weight: 600;">Скриншот ниже сделан в предыдущей версии интерфейса.</span>
 
 ![Скачивание документации](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbgsmvdvensFoiI__T5-jGU-sPjNDpvQ5-rKG6CIlCk4j_S2lJBTWyGaTWVpH5scOyAORM4IvCmAzJu6GUc95BrZSEO9SC0B7eKwgbXsd1SNvGBbL8De-7Tw7HaGn4hS4?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
@@ -290,8 +271,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 ###### 5.1. Управление типами {#transfer_types}
 
 Тип передачи можно создать, переименовать, удалить или восстановить. Удалённый тип нельзя выбрать для нового пакета, но созданные ранее передачи сохраняются.
-
-<span style="color: #FF4758; font-weight: 600;">Скриншот ниже сделан в предыдущей версии интерфейса.</span>
 
 ![Настройки типов передачи](/sgnl_docs/transmittal_main.png)
 
