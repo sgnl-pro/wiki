@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: true
-date: 2026-09-22T14:37:18.296Z
+date: 2026-09-22T14:39:15.593Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -331,7 +331,7 @@ dateCreated: 2025-06-24T16:53:52.277Z
 
 ![excel_co1rkpshao.png](/excel_co1rkpshao.png)
   
-#### 2.8 Компании {#counterparties}
+#### 2.8. Компании {#counterparties}
 >  Данный функционал будет использоваться в модулях FORMS и PM. На данный момент функционал не используется.
   {.is-info}
   
