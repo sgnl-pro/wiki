@@ -2,7 +2,7 @@
 title: HUB. Пользователь
 description: 
 published: true
-date: 2026-05-21T14:49:25.156Z
+date: 2026-09-22T13:10:46.644Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T17:30:45.102Z
@@ -216,5 +216,7 @@ dateCreated: 2025-06-24T17:30:45.102Z
 Включите событие **«Добавлено фото360»**, чтобы получать уведомления о загрузке новых панорамных снимков.
 
 ![browser_howlhfm5oc.png](/hub/browser_howlhfm5oc.png)
+  
+#
 
 <sub>**[<   HUB. Администратор](/ru/hub/admin)     **|**     [DOCS. Введение   >](/ru/docs/intro)**</sub>
