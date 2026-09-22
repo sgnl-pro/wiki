@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2026-09-22T17:35:49.994Z
+date: 2026-09-22T17:37:25.282Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -186,8 +186,8 @@ dateCreated: 2025-09-09T12:28:36.555Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbgsmvdvensFoiI__T5-jGU-sPjNDpvQ5-rKG6CIlCk4j_S2lJBTWyGaTWVpH5scOyAORM4IvCmAzJu6GUc95BrZSEO9SC0B7eKwgbXsd1SNvGBbL8De-7Tw7HaGn4hS4?key=0w72pDhc1Q-bjFjEPHaI_2Sz =70%x)
 
-## 10. Настройки типов передачи
-###### 10. Настройки типов передачи {#admin}
+## 4. Настройки типов передачи
+### 4. Настройки типов передачи {#admin}
 
 > Раздел доступен администратору проекта в **«Настройки проекта» → «Передача»**.
 {.is-warning}
