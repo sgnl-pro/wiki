@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: false
-date: 2026-09-22T14:46:02.595Z
+date: 2026-09-22T14:47:17.655Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-22T14:33:27.683Z
@@ -46,11 +46,11 @@ dateCreated: 2026-09-22T14:33:27.683Z
     <ul class="toc-list">
       <li><a href="#company"><span class="toc-badge">2.1</span> Создание компании</a></li>
       <li><a href="#company"><span class="toc-badge">2.2</span> Добавление пользователей (поштучно / Excel)</a></li>
-      <li><a href="#company"><span class="toc-badge">2.3</span> Запрос и назначение лицензий</a></li>
-      <li><a href="#projects"><span class="toc-badge">2.5</span> Создание и управление проектами</a></li>
-      <li><a href="#roles"><span class="toc-badge">2.6</span> Создание и назначение ролей</a></li>
-      <li><a href="#log"><span class="toc-badge">2.7</span> Мониторинг действий (Логи)</a></li>
-      <li><a href="#counterparties"><span class="toc-badge">2.8</span> Компании</a></li>
+      <li><a href="#company"><span class="toc-badge">2.7</span> Запрос и назначение лицензий</a></li>
+      <li><a href="#projects"><span class="toc-badge">2.3</span> Создание и управление проектами</a></li>
+      <li><a href="#roles"><span class="toc-badge">2.4</span> Создание и назначение ролей</a></li>
+      <li><a href="#log"><span class="toc-badge">2.5</span> Мониторинг действий (Логи)</a></li>
+      <li><a href="#counterparties"><span class="toc-badge">2.6</span> Компании</a></li>
     </ul>
   </div>
 
