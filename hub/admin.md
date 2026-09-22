@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: true
-date: 2026-09-22T14:35:25.991Z
+date: 2026-09-22T14:36:38.442Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -50,7 +50,7 @@ dateCreated: 2025-06-24T16:53:52.277Z
       <li><a href="#projects"><span class="toc-badge">2.5</span> Создание и управление проектами</a></li>
       <li><a href="#roles"><span class="toc-badge">2.6</span> Создание и назначение ролей</a></li>
       <li><a href="#log"><span class="toc-badge">2.7</span> Мониторинг действий (Логи)</a></li>
-      <li><a href="#counterparties"><span class="toc-badge">2.8</span> Контрагенты</a></li>
+      <li><a href="#counterparties"><span class="toc-badge">2.8</span> Компании</a></li>
     </ul>
   </div>
 
