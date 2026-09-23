@@ -1,11 +1,11 @@
 ---
 title: DOCS. ИИ-ассистент — История изменений
-description:
+description: 
 published: true
-date: 2026-09-23T08:09:23.000Z
+date: 2026-09-23T08:28:18.472Z
 tags: docs
 editor: markdown
-dateCreated: 2026-09-23T08:09:23.000Z
+dateCreated: 2026-09-23T08:16:10.468Z
 ---
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
@@ -34,8 +34,3 @@ dateCreated: 2026-09-23T08:09:23.000Z
 **[2026.12](/general/updates/2026-12)** ^02.07.2026^
 
 :fire: Реализовали ИИ-ассистента SIGNAL DOCS для работы с проектом и ответов по функционалу системы.
-
-----
-
-> Информация о более ранних обновлениях доступна в закрытом Telegram-канале для пользователей SIGNAL. Для добавления [обращайтесь в поддержку](/general/support).
-{.is-info}
