@@ -1,11 +1,11 @@
 ---
 title: DOCS. Уведомления — История изменений
-description:
+description: 
 published: true
-date: 2026-09-23T07:34:49.000Z
+date: 2026-09-23T08:00:00.891Z
 tags: docs
 editor: markdown
-dateCreated: 2026-09-23T07:34:49.000Z
+dateCreated: 2026-09-23T07:50:42.999Z
 ---
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
@@ -24,12 +24,6 @@ dateCreated: 2026-09-23T07:34:49.000Z
 **[2026.16](/general/updates/2026-16)** ^31.08.2026^
 
 :fire: В [профиле пользователя](/hub/user#notifications) добавили получение уведомлений SIGNAL в MAX. Общие настройки каналов применяются к отдельным событиям по умолчанию.
-
-![chrome_kbu1xm5nkg.png](/chrome_kbu1xm5nkg.png)
-
-![6f24d872-8bc1-4aee-a349-e709326c146c.png](/6f24d872-8bc1-4aee-a349-e709326c146c.png)
-
-![2026.16_-_макс.png](/release_notes/2026.16_-_макс.png =900x)
 
 ----
 **[2026.13](/general/updates/2026-13)** ^20.07.2026^
