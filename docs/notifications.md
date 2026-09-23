@@ -1,8 +1,8 @@
 ---
 title: DOCS. Уведомления
-description:
+description: 
 published: true
-date: 2026-09-23T07:34:49.000Z
+date: 2026-09-23T08:01:05.735Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:51:54.255Z
@@ -48,6 +48,7 @@ dateCreated: 2025-09-09T15:51:54.255Z
 
 ----
 
+# Вкладки{.tabset}  
 ## 1. Настройки текущего проекта
 ### 1. Настройки текущего проекта {#project-settings}
 
