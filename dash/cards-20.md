@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 20. Деньги
 description:
 published: true
-date: 2026-09-23T12:05:22.000Z
+date: 2026-09-23T12:16:26.000Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:21:31.877Z
@@ -10,7 +10,9 @@ dateCreated: 2025-09-18T13:21:31.877Z
 
 <sub>**[<   DASHBOARD. Карточки 10. Общие](/ru/dash/cards-10)     **|**     [DASHBOARD. Карточки 30. Сроки    >](/ru/dash/cards-30)**</sub>
 
-[Что нового в карточках «Деньги»](/dash/cards-20/updates)
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"> <a href="/dash/cards-20/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 ---
 
@@ -153,4 +155,5 @@ dateCreated: 2025-09-18T13:21:31.877Z
 
 В настройках задайте начальный и конечный месяцы, текущий месяц, общую сумму и единицу измерения. Затем заполните месяцы в таблице. Данные также можно вставить из буфера обмена; пример формата доступен в настройках карточки.
 
+#
 <sub>**[<   DASHBOARD. Карточки 10. Общие](/ru/dash/cards-10)     **|**     [DASHBOARD. Карточки 30. Сроки    >](/ru/dash/cards-30)**</sub>
