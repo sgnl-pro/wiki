@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: false
-date: 2026-09-23T08:16:35.502Z
+date: 2026-09-23T08:24:06.825Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-22T14:33:27.683Z
