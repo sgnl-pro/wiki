@@ -2,7 +2,7 @@
 title: DOCS. Публикация файлов
 description: 
 published: true
-date: 2026-09-23T07:08:20.000Z
+date: 2026-09-23T07:21:29.295Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:32:31.629Z
@@ -10,8 +10,9 @@ dateCreated: 2025-09-09T12:32:31.629Z
 
 <sub>**[<   DOCS. Передача](/ru/docs/documentsTransfers)     **|**     [DOCS. Уведомления   >](/ru/docs/notifications)**</sub>
 
-> [Что нового в публикации файлов](/docs/sharedSettings/updates).
-{.is-info}
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"> <a href="/docs/sharedSettings/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 ----
 # Вкладки{.tabset}
@@ -27,8 +28,6 @@ dateCreated: 2025-09-09T12:32:31.629Z
 2. В окне «Публичный доступ» выберите тип публикации и при необходимости настройте версию и срок действия ссылки. Нажмите «Открыть доступ». Публичная ссылка скопируется в буфер обмена.
 
 ![chrome_9v3whjmizs.png](/chrome_9v3whjmizs.png)
-
-<span style="color: red;">Скриншот окна публикации сделан для прежней версии интерфейса; ориентируйтесь на названия настроек ниже.</span>
 
 Тип публикации определяет, может ли получатель скачать содержимое:
 
@@ -67,8 +66,6 @@ dateCreated: 2025-09-09T12:32:31.629Z
 
 На снимке: 1 — линейка для измерений; 2 — наборы выбора, сгруппированные по конфигурации; 3 — переключение 2D/3D; 4 — показ помещений.
 
-<span style="color: red;">Скриншот простого просмотра может не совпадать с текущим набором инструментов.</span>
-
 ## 3. Публичные ссылки
 ###### 3. Публичные ссылки {#publicadmin}
 
@@ -80,6 +77,5 @@ dateCreated: 2025-09-09T12:32:31.629Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyYgH5wNi8b1g7QVwSieYcefqhlAH5yhLAAODneC6s7FATz_iGMZKX3roF_rZVRTqeGx0yOCq6ts6uukDUSRpZcnOZfOTKAFWkjYsxPu154yDnl5G0Yql88ZBZ49YdEAo?key=jsauY7gtcpEA07Snv4NNyw =70%x)
 
-<span style="color: red;">Скриншоты реестра сделаны для прежней версии интерфейса: состав столбцов и действий изменился.</span>
 #
 <sub>**[<   DOCS. Передача](/ru/docs/documentsTransfers)     **|**     [DOCS. Уведомления   >](/ru/docs/notifications)**</sub>
