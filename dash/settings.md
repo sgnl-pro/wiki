@@ -2,7 +2,7 @@
 title: DASHBOARD. Настройка проекта
 description:
 published: true
-date: 2026-09-23T10:47:30.000Z
+date: 2026-09-23T11:31:43.000Z
 tags: dash
 editor: markdown
 dateCreated: 2025-11-14T11:33:22.397Z
@@ -10,7 +10,9 @@ dateCreated: 2025-11-14T11:33:22.397Z
 
 <sub>**[<   DASHBOARD. Введение](/ru/dash/intro)     **|**     [DASHBOARD. Все карточки    >](/ru/dash/cards)**</sub>
 
-[Что нового в настройке проекта](/dash/settings/updates)
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"> <a href="/dash/settings/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 ----
 
