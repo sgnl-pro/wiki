@@ -2,7 +2,7 @@
 title: DOCS. Введение
 description: Возможности SIGNAL DOCS и ссылки на инструкции
 published: true
-date: 2026-09-23T09:48:35.000Z
+date: 2026-09-23T10:27:42.134Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T07:18:56.688Z
@@ -52,5 +52,5 @@ dateCreated: 2025-09-09T07:18:56.688Z
 - Часть IV. Маршруты согласований: [Telegram](https://t.me/signal_docs/223) [YouTube](https://youtu.be/sJSfiUyzFkM)	[Rutube](https://rutube.ru/video/private/2a701de2947896e9640b16a4b3ee289b/?p=DZVhkcrU6mNHRJL7Cej3pQ) [VK](https://vk.com/video-223002264_456239043)
 - Часть V. Прочие настройки: [Telegram](https://t.me/signal_docs/231) [YouTube](https://youtu.be/sisd758B0tM)	[Rutube](https://rutube.ru/video/private/da44a5f3ead58f1d37c4e7bba841833b/?p=_mjhTQOP2yHqHrhM15zYdA) [VK](https://vk.com/video-223002264_456239046)
 
-----
+#
 <sub>**[<   HUB. Пользователь](/ru/hub/user)     **|**     [DOCS. Настройки проекта   >](/ru/docs/settings)**</sub>
