@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: false
-date: 2026-09-23T08:24:06.825Z
+date: 2026-09-23T08:26:58.139Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-22T14:33:27.683Z
@@ -44,12 +44,12 @@ dateCreated: 2026-09-22T14:33:27.683Z
   <div class="toc-card toc-purple">
     <h4 class="toc-card-title"><a href="#company">2. Организация</a></h4>
     <ul class="toc-list">
-      <li><a href="#company"><span class="toc-badge">2.1</span> Добавление пользователей (поштучно / Excel)</a></li>
+      <li><a href="#users"><span class="toc-badge">2.1</span> Добавление пользователей (поштучно / Excel)</a></li>
       <li><a href="#projects"><span class="toc-badge">2.2</span> Создание и управление проектами</a></li>
       <li><a href="#roles"><span class="toc-badge">2.3</span> Создание и назначение ролей</a></li>
       <li><a href="#log"><span class="toc-badge">2.4</span> Мониторинг действий (Логи)</a></li>
       <li><a href="#counterparties"><span class="toc-badge">2.5</span> Компании</a></li>
-      <li><a href="#company"><span class="toc-badge">2.6</span> Дополнительно</a></li>
+      <li><a href="#additional"><span class="toc-badge">2.6</span> Дополнительно</a></li>
     </ul>
   </div>
 
@@ -126,7 +126,7 @@ dateCreated: 2026-09-22T14:33:27.683Z
   
 ### Вкладки {.tabset}
 
-#### 2.1. Добавление Пользователей в Компанию
+#### 2.1. Добавление Пользователей в Компанию {#users}
 
 Добавьте в созданную компанию всех необходимых Пользователей. Это можно сделать двумя способами: по одному или пакетно.
 
@@ -346,7 +346,7 @@ dateCreated: 2026-09-22T14:33:27.683Z
 При экспорте таблицы пользователей контрагент каждого пользователя указывается в выгруженном файле.
   
   
-  #### 2.6. Дополнительно
+  #### 2.6. Дополнительно {#additional}
   ***Статистика***
   
 Раздел **«Статистика»** предназначен для просмотра сводной информации о пользователях организации и использовании лицензий приложений SIGNAL.
