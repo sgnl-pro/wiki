@@ -2,7 +2,7 @@
 title: TOOLS. Экспорт | Импорт
 description: 
 published: true
-date: 2026-05-15T14:15:46.155Z
+date: 2026-09-23T09:52:06.156Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:51:01.935Z
@@ -17,10 +17,64 @@ dateCreated: 2025-09-21T11:51:01.935Z
 ![export_import_main.png](/sgnl_tools_navis/export_import/export_import_main.png)  
   
   
-# Вкладки{.tabset}
 
-  
-## Экспорт {#export}
+<div class="toc-grid">
+
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#export_section">1. Экспорт</a></h4>
+    <ul class="toc-list">
+      <li><a href="#export"><span class="toc-badge">1.1</span> Экспорт</a></li>
+      <li><a href="#export_s"><span class="toc-badge">1.2</span> Экспорт S</a></li>
+      <li><a href="#by_searchsets"><span class="toc-badge">1.3</span> Объемы по ПН</a></li>
+      <li><a href="#ks2"><span class="toc-badge">1.4</span> КС-2</a></li>
+      <li><a href="#procent"><span class="toc-badge">1.5</span> Экспорт процента</a></li>
+      <li><a href="#primavera"><span class="toc-badge">1.6</span> Процент Primavera</a></li>
+      <li><a href="#jobs_log"><span class="toc-badge">1.7</span> Журнал работ</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#import_section">2. Импорт</a></h4>
+    <ul class="toc-list">
+      <li><a href="#import_s"><span class="toc-badge">2.1</span> Импорт S</a></li>
+      <li><a href="#procent_import"><span class="toc-badge">2.2</span> Импорт процента</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#photo360_section">3. Фото360</a></h4>
+    <ul class="toc-list">
+      <li><a href="#360_insp"><span class="toc-badge">3.1</span> Публикация Фото360 в INSPECTION</a></li>
+      <li><a href="#360_export"><span class="toc-badge">3.2</span> Экспорт Фото360</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#budget_section">4. Бюджет</a></h4>
+    <ul class="toc-list">
+      <li><a href="#budget"><span class="toc-badge">4.1</span> Бюджет</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-green">
+    <h4 class="toc-card-title"><a href="#report_section">5. Отчет</a></h4>
+    <ul class="toc-list">
+      <li><a href="#log"><span class="toc-badge">5.1</span> Отчет</a></li>
+    </ul>
+  </div>
+
+</div>
+
+# Вкладки {.tabset}
+
+## 1. Экспорт
+###### 1. Экспорт {#export_section}
+
+### Вкладки {.tabset}
+
+#### 1.1. Экспорт
+###### 1.1. Экспорт {#export}
+
 
 > Инструмент позволяет выгрузить в Excel свойства всех элементов.
 {.is-info}
@@ -50,7 +104,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Экспорт S {#export_s}
+
+#### 1.2. Экспорт S
+###### 1.2. Экспорт S {#export_s}
+
 
 > Инструмент позволяет выгрузить в Excel все свойства из вкладки “SIGNAL” с их значениями для всех или выбранных элементов.  Например, можно экспортировать свойства SIGNAL, подкорректировать их и загрузить обратно в модель.
 {.is-info}
@@ -67,28 +124,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Импорт S {#import_s}
 
-> Инструмент позволяет загрузить в модель все свойства из вкладки “SIGNAL” с их значениями из файла Excel. Например, можно экспортировать свойства SIGNAL через команду [_“Экспорт S”_](https://wiki.sgnl.pro/ru/tools/navis/export-import#export_s), подкорректировать заполненные виды работ и загрузить обратно в модель.
-{.is-info}
+#### 1.3. Объемы по ПН
+###### 1.3. Объемы по ПН {#by_searchsets}
 
-
-1\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Импорт S
-
-![image-1688032357143.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf99PB3Pet8NZiyzJBQvtzwazJ1xGktp5QCMkkvNONpyjrlGW26hDxiFtTXJdCGsPs5eP8kxJjKJbdtjcFZpsnFi8kQxoZGxB75TDq9LGTD_iKmM0pzeLWNLrOcThEeW8AVM4FIQWbGOroDKEEOuw?key=KD2AFX1X_Roj_sSOrILGEA)
-
-2\. Выберите Excel файл и нажмите “Открыть”
-
-![image-1683730399526.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdVbYlIzlGXMRHROGqeGkgpEa8_gzIiR-JUV2zbyqvsvRxhd3Ms1mG8BHvT6NOHIlQqJIL8wMUnkLpeobrCI4925BuS2NAz0ArYhH9kH8WJjPvPBBeJrgwSVzPkpdutycuDG7kxZr9DdTrc-laKQ?key=KD2AFX1X_Roj_sSOrILGEA)
-
-3\. Будут добавлены или обновлены значения свойств элементов во вкладке “SIGNAL”
-
-![image-1683730416161.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk1blngtT4ZeAfVAkGjbCX-zOdA3lY1BrpUzjfxle-j_2cbkPPVZdw951iYIcySzVBxM7m1ytgt-hdHrVU2-RpzI-8ezkesXK04hctKelFw9pz6EGB6I9jUyLq8kFoKaG7tqSJaZHfGddd2Y77?key=KD2AFX1X_Roj_sSOrILGEA)
-
-  
-  
-  
-## Объемы по ПН {#by_searchsets}
 
 > Инструмент позволяет выгрузить в Excel объемы (м3, м2, м, кг, шт) по поисковым наборам. Например, можно выгрузить поисковый набор “Completed” и посмотреть объем завершенных элементов
 {.is-info}
@@ -116,8 +155,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## КС-2 {#ks2}
-### КС-2 {#ks2}
+
+#### 1.4. КС-2
+###### 1.4. КС-2 {#ks2}
+
 > Инструмент позволяет выгрузить КС-2 с привязкой к внесенным в элементы работам и объемам из BIM модели.
 {.is-info}
 
@@ -151,8 +192,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Экспорт процента {#procent}
-### Экспорт процента {#procent}
+
+#### 1.5. Экспорт процента
+###### 1.5. Экспорт процента {#procent}
+
 > Инструмент позволяет выгрузить в Excel объем видов работ, с расчетом процента по выполненным работам
 {.is-info}
 
@@ -176,8 +219,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Процент Primavera {#primavera}
-### Процент Primavera {#primavera}
+
+#### 1.6. Процент Primavera
+###### 1.6. Процент Primavera {#primavera}
+
   
 > Инструмент позволяет выгрузить процент выполнения работ в файл XML, изначально выгруженный из Primavera.
 {.is-info}
@@ -206,8 +251,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Журнал работ {#jobs_log}
-### Журнал работ {#jobs_log}
+
+#### 1.7. Журнал работ
+###### 1.7. Журнал работ {#jobs_log}
+
   
 > Инструмент позволяет выгрузить в Excel виды работ с разбивкой на объемы и даты их выполнения. Например, производитель работ на стройплощадке может сверять свой общий журнал работ, который он ведет ежедневно в бумажном виде, с выгруженными данными из BIM модели
 {.is-info}
@@ -233,8 +280,82 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Публикация Фото360 в INSPECTION {#360_insp}
-### Публикация Фото360 в INSPECTION {#360_insp}
+
+## 2. Импорт
+###### 2. Импорт {#import_section}
+
+### Вкладки {.tabset}
+
+#### 2.1. Импорт S
+###### 2.1. Импорт S {#import_s}
+
+
+> Инструмент позволяет загрузить в модель все свойства из вкладки “SIGNAL” с их значениями из файла Excel. Например, можно экспортировать свойства SIGNAL через команду [_“Экспорт S”_](https://wiki.sgnl.pro/ru/tools/navis/export-import#export_s), подкорректировать заполненные виды работ и загрузить обратно в модель.
+{.is-info}
+
+
+1\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Импорт S
+
+![image-1688032357143.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf99PB3Pet8NZiyzJBQvtzwazJ1xGktp5QCMkkvNONpyjrlGW26hDxiFtTXJdCGsPs5eP8kxJjKJbdtjcFZpsnFi8kQxoZGxB75TDq9LGTD_iKmM0pzeLWNLrOcThEeW8AVM4FIQWbGOroDKEEOuw?key=KD2AFX1X_Roj_sSOrILGEA)
+
+2\. Выберите Excel файл и нажмите “Открыть”
+
+![image-1683730399526.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdVbYlIzlGXMRHROGqeGkgpEa8_gzIiR-JUV2zbyqvsvRxhd3Ms1mG8BHvT6NOHIlQqJIL8wMUnkLpeobrCI4925BuS2NAz0ArYhH9kH8WJjPvPBBeJrgwSVzPkpdutycuDG7kxZr9DdTrc-laKQ?key=KD2AFX1X_Roj_sSOrILGEA)
+
+3\. Будут добавлены или обновлены значения свойств элементов во вкладке “SIGNAL”
+
+![image-1683730416161.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk1blngtT4ZeAfVAkGjbCX-zOdA3lY1BrpUzjfxle-j_2cbkPPVZdw951iYIcySzVBxM7m1ytgt-hdHrVU2-RpzI-8ezkesXK04hctKelFw9pz6EGB6I9jUyLq8kFoKaG7tqSJaZHfGddd2Y77?key=KD2AFX1X_Roj_sSOrILGEA)
+
+  
+  
+  
+
+#### 2.2. Импорт процента
+###### 2.2. Импорт процента {#procent_import}
+
+  
+> Инструмент позволяет импортировать в элементы модели процент выполнения работ из Excel. Например, его можно использовать для оценки прогресса выполнения инженерных сетей с разбивкой по этажам, квартирам или по помещениям. Это позволяет более точно контролировать прогресс работ и оценить степень завершенности проекта.
+{.is-info}
+
+
+1\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Импорт процента
+
+![image-1688029692605.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSboCvSDWJsRPpyD8DfLylK8E9mfKnVj1bs4ATHO2lynbPB7czKUaBZsveySW14b_VuJ7vuQUmIQkN76D-I8FQm-vDTshsSs0am4MuF0-1694IwzTk-mo4rqTP6YkBdJOZHNTyqtNxwzwO_lSV?key=HN--DieFzm94qLpYmm381Q)
+
+2\. В открывшемся окне выберите файл формата Excel и нажмите “Открыть”
+
+![image-1688029717377.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyw2-IX1hKqJOiSXh8zf7wPgZD_8SXPjXgHRqJfR4DE-v5ZWshW9vuQpZu-rngwl62Zd2HNK_WYgmeSoo2xCh2gnnL_HdXyBfkJuIaH2nF3SIjj2NXUS-xJ8vsgaYjXcMWVI9OIzD5Rax_51IBeQ?key=HN--DieFzm94qLpYmm381Q)
+
+Структура Excel выглядит следующим образом:
+
+![image-1688029735806.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKxMtEODfg1cZ2U1qZ9FOjI0fxqfobBQ3y2xHtKrPqG7JIo3TBr7fFO6Wbx41LkOIR6DyMYpaEPyYKgGraA7YrgIwU1FQBDdUiT5kaCGr4lhQlxU7VYf9_ZusAtshLNBCYte51Zja029JTfJuZ4A?key=HN--DieFzm94qLpYmm381Q)
+
+-   Первые три столбца (A,B,C) отвечают за свойства и их значения, по которым плагин будет искать элементы, в которые требуется вписать процент. Свойства записываются в виде “Категория-Свойство”. Не обязательно все три столбца могут быть заполнены.
+
+![image-1688029749243.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc11dseJn0Bl2xScET6Oqvj8ZJhf8hTl6Ub8r2JD31f6UZsyKbYAFz5xFTdnMqaqjsmR77FMb5xxwZzTX2k98ieR2F-2XK093uj6ythcWPSnuveaWFf9OWmeRGTiQt1yxFsrebVaX4uUIZvY8MF?key=HN--DieFzm94qLpYmm381Q)
+
+-   В последующих столбцах указываются виды работ и процент выполнения. Данные значения плагин запишет в элементы. Если у вида работ отсутствует КОД , то указывается только наименование работы, например, Розеточная сеть. Если у работы присутствует КОД, то указывается так: КОД “пробел” - “пробел” НАИМЕНОВАНИЕ. (Например, 4.1.1 - Монтаж ОВ1).
+
+3\. После импорта в свойствах элементов во вкладке “SIGNAL” появляется соответствующее свойство “P\_{Вид работы}”, а также значение процента выполненной работы
+
+![image-1688029773683.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXexk-syYlThmDK8ZJXLDUXLRa91MGrbdYpatTD5dJ8O2h9v8GrQrXsJ5SDFq-K6G0MP6m6MsnlKp7Hwk-JbOA6m8aLt_1PjG8cQnEPHGC6YWHwtnU1PiOs-vd8zDr3kuTWKVVl8BST5c8LogGwQyA?key=HN--DieFzm94qLpYmm381Q)
+
+4\. Для того чтобы раскрасить элементы по проценту воспользуйтесь инструментом [_“Раскрасить”_](https://wiki.sgnl.pro/ru/tools/navis/coloring#painting)
+
+![image-1688029788328.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbMj8BMK1d6LFnZ8BVbvnJYhKmLtFRTfqLuEI8AGaxqQxR3t3vgFLI0W8TUHxqsdqz1bFViVqMrs8-Ga2fegJP9QjsZkoH32vk4qMw4WjPeApLpvUJQU1JG3dlPg2nU7huikb04mRzVkEQ7-PUCg?key=HN--DieFzm94qLpYmm381Q)
+
+  
+  
+  
+
+## 3. Фото360
+###### 3. Фото360 {#photo360_section}
+
+### Вкладки {.tabset}
+
+#### 3.1. Публикация Фото360 в INSPECTION
+###### 3.1. Публикация Фото360 в INSPECTION {#360_insp}
+
   
 > Инструмент позволяет загрузить в сервис INSPECTION точки обзора, сделанные в модели Navisworks, для сравнения модели с фактическим состоянием объекта строительства. Для загрузки фото необходимы права администратора в сервисе INSPECTION.
 {.is-info}
@@ -277,8 +398,10 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Экспорт Фото360 {#360_export}
-### Экспорт Фото360 {#360_export}
+
+#### 3.2. Экспорт Фото360
+###### 3.2. Экспорт Фото360 {#360_export}
+
 
 > Инструмент позволяет экспортировать выбранные точки обзора как панорамное изображение, чтобы в последующем вставить его в модуль INSPECTION.
 {.is-info}
@@ -317,8 +440,13 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Бюджет {#budget}
-### Бюджет {#budget}
+
+## 4. Бюджет
+###### 4. Бюджет {#budget_section}
+
+#### 4.1. Бюджет
+###### 4.1. Бюджет {#budget}
+
 
 > Инструмент позволяет выгрузить в Excel стоимость объемов по видам работ.
 {.is-info}
@@ -337,44 +465,13 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
   
   
-## Импорт процента {#procent_import}
-### Импорт процента {#procent_import}
-  
-> Инструмент позволяет импортировать в элементы модели процент выполнения работ из Excel. Например, его можно использовать для оценки прогресса выполнения инженерных сетей с разбивкой по этажам, квартирам или по помещениям. Это позволяет более точно контролировать прогресс работ и оценить степень завершенности проекта.
-{.is-info}
 
+## 5. Отчет
+###### 5. Отчет {#report_section}
 
-1\. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Импорт процента
+#### 5.1. Отчет
+###### 5.1. Отчет {#log}
 
-![image-1688029692605.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSboCvSDWJsRPpyD8DfLylK8E9mfKnVj1bs4ATHO2lynbPB7czKUaBZsveySW14b_VuJ7vuQUmIQkN76D-I8FQm-vDTshsSs0am4MuF0-1694IwzTk-mo4rqTP6YkBdJOZHNTyqtNxwzwO_lSV?key=HN--DieFzm94qLpYmm381Q)
-
-2\. В открывшемся окне выберите файл формата Excel и нажмите “Открыть”
-
-![image-1688029717377.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeyw2-IX1hKqJOiSXh8zf7wPgZD_8SXPjXgHRqJfR4DE-v5ZWshW9vuQpZu-rngwl62Zd2HNK_WYgmeSoo2xCh2gnnL_HdXyBfkJuIaH2nF3SIjj2NXUS-xJ8vsgaYjXcMWVI9OIzD5Rax_51IBeQ?key=HN--DieFzm94qLpYmm381Q)
-
-Структура Excel выглядит следующим образом:
-
-![image-1688029735806.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKxMtEODfg1cZ2U1qZ9FOjI0fxqfobBQ3y2xHtKrPqG7JIo3TBr7fFO6Wbx41LkOIR6DyMYpaEPyYKgGraA7YrgIwU1FQBDdUiT5kaCGr4lhQlxU7VYf9_ZusAtshLNBCYte51Zja029JTfJuZ4A?key=HN--DieFzm94qLpYmm381Q)
-
--   Первые три столбца (A,B,C) отвечают за свойства и их значения, по которым плагин будет искать элементы, в которые требуется вписать процент. Свойства записываются в виде “Категория-Свойство”. Не обязательно все три столбца могут быть заполнены.
-
-![image-1688029749243.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc11dseJn0Bl2xScET6Oqvj8ZJhf8hTl6Ub8r2JD31f6UZsyKbYAFz5xFTdnMqaqjsmR77FMb5xxwZzTX2k98ieR2F-2XK093uj6ythcWPSnuveaWFf9OWmeRGTiQt1yxFsrebVaX4uUIZvY8MF?key=HN--DieFzm94qLpYmm381Q)
-
--   В последующих столбцах указываются виды работ и процент выполнения. Данные значения плагин запишет в элементы. Если у вида работ отсутствует КОД , то указывается только наименование работы, например, Розеточная сеть. Если у работы присутствует КОД, то указывается так: КОД “пробел” - “пробел” НАИМЕНОВАНИЕ. (Например, 4.1.1 - Монтаж ОВ1).
-
-3\. После импорта в свойствах элементов во вкладке “SIGNAL” появляется соответствующее свойство “P\_{Вид работы}”, а также значение процента выполненной работы
-
-![image-1688029773683.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXexk-syYlThmDK8ZJXLDUXLRa91MGrbdYpatTD5dJ8O2h9v8GrQrXsJ5SDFq-K6G0MP6m6MsnlKp7Hwk-JbOA6m8aLt_1PjG8cQnEPHGC6YWHwtnU1PiOs-vd8zDr3kuTWKVVl8BST5c8LogGwQyA?key=HN--DieFzm94qLpYmm381Q)
-
-4\. Для того чтобы раскрасить элементы по проценту воспользуйтесь инструментом [_“Раскрасить”_](https://wiki.sgnl.pro/ru/tools/navis/coloring#painting)
-
-![image-1688029788328.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbMj8BMK1d6LFnZ8BVbvnJYhKmLtFRTfqLuEI8AGaxqQxR3t3vgFLI0W8TUHxqsdqz1bFViVqMrs8-Ga2fegJP9QjsZkoH32vk4qMw4WjPeApLpvUJQU1JG3dlPg2nU7huikb04mRzVkEQ7-PUCg?key=HN--DieFzm94qLpYmm381Q)
-
-  
-  
-  
-## Отчет {#log}
-### Отчет {#log}
 
 > Инструмент позволяет сформировать отчет по выполненным видам работ с таблицей Excel и Графиком.
 {.is-info}
