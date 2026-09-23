@@ -1,8 +1,8 @@
 ---
 title: DASHBOARD. Карточки 40. Объёмы
-description:
+description: 
 published: true
-date: 2026-05-21T12:33:38.184Z
+date: 2026-09-23T15:03:51.463Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
@@ -11,7 +11,7 @@ dateCreated: 2025-09-18T13:37:28.921Z
 <sub>**[<   DASHBOARD. Карточки 30. Сроки](/ru/dash/cards-30)     **|**     [DASHBOARD. Карточки 50. 3D карточки    >](/ru/dash/cards-50)**</sub>
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
-<span style="flex-grow: 1;"> <a href="/dash/cards-40/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">Что нового в этом разделе</a></span>
+<span style="flex-grow: 1;"> <a href="/dash/cards-40/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
 
 ---
