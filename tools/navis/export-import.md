@@ -2,7 +2,7 @@
 title: TOOLS. Экспорт | Импорт
 description: 
 published: true
-date: 2026-09-23T09:52:06.156Z
+date: 2026-09-23T10:03:04.364Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T11:51:01.935Z
@@ -44,8 +44,8 @@ dateCreated: 2025-09-21T11:51:01.935Z
   <div class="toc-card toc-green">
     <h4 class="toc-card-title"><a href="#photo360_section">3. Фото360</a></h4>
     <ul class="toc-list">
-      <li><a href="#360_insp"><span class="toc-badge">3.1</span> Публикация Фото360 в INSPECTION</a></li>
-      <li><a href="#360_export"><span class="toc-badge">3.2</span> Экспорт Фото360</a></li>
+      <li><a href="#photo360_publish"><span class="toc-badge">3.1</span> Публикация Фото360 в INSPECTION</a></li>
+      <li><a href="#photo360_export"><span class="toc-badge">3.2</span> Экспорт Фото360</a></li>
     </ul>
   </div>
 
@@ -354,7 +354,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
 ### Вкладки {.tabset}
 
 #### 3.1. Публикация Фото360 в INSPECTION
-###### 3.1. Публикация Фото360 в INSPECTION {#360_insp}
+###### 3.1. Публикация Фото360 в INSPECTION {#photo360_publish}
 
   
 > Инструмент позволяет загрузить в сервис INSPECTION точки обзора, сделанные в модели Navisworks, для сравнения модели с фактическим состоянием объекта строительства. Для загрузки фото необходимы права администратора в сервисе INSPECTION.
@@ -400,7 +400,7 @@ dateCreated: 2025-09-21T11:51:01.935Z
   
 
 #### 3.2. Экспорт Фото360
-###### 3.2. Экспорт Фото360 {#360_export}
+###### 3.2. Экспорт Фото360 {#photo360_export}
 
 
 > Инструмент позволяет экспортировать выбранные точки обзора как панорамное изображение, чтобы в последующем вставить его в модуль INSPECTION.
