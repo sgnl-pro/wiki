@@ -2,7 +2,7 @@
 title: DOCS. Дополнительно
 description: 
 published: true
-date: 2026-08-06T16:27:37.506Z
+date: 2026-09-23T09:36:33.000Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -10,55 +10,9 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [FORMS. Введение   >](/ru/forms/intro)**</sub>
 
-<details>
-    <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px">
-        <span style="font-size: 20px;">🔄</span>
-        <span style="flex-grow: 1;">Что нового в этом разделе</span>
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; padding: 5px 16px; display: block; margin-top: 10px;">
+<a href="/docs/more/updates" style="color: inherit; text-decoration: none;">🔄 Что нового в этом разделе</a>
 </summary>
-
-
-**Обозначения**
-:fire: — новые возможности
-:sparkles: — доработки функционала
-:hammer_and_wrench: — исправление ошибок
-
-----
-**[2026.7](/general/updates/2026-7)** ^23.04.2026^
-  
-:sparkles: Реализовали третий вариант бэкапирования, когда в основную структуру скачиваются актуальные версии файлов, а в структуры по версиям — все остальные. Добавили описание работы опций в конфигурационный файл.
-  
-----
-**[2026.6](/general/updates/2026-6)** ^09.04.2026^
-  
-:sparkles: Оптимизировали создание бэкапов проектов, увеличив скорость скачивания в несколько раз.
-
-:hammer_and_wrench: Исправили ошибку, при которой процесс бэкапирования прерывался на проекте, в который ни разу не заходили. Теперь такие проекты пропускаются и записываются в лог.
-  
-----
-**[2026.4](/general/updates/2026-4)** ^12.03.2026^
-  
-:fire: Реализовали просмотр и редактирование сборок теперь доступны в мобильном приложении.
-  
-----
-**[2026.3](/general/updates/2026-3)** ^03.03.2026^
-  
-:sparkles: Добавили отчёт по завершению бэкапа в лог.
-
-:hammer_and_wrench: Исправили ошибку, при которой проекты с пробелом на конце создавали лишнюю копию.
- 
-----
-**[2025.38](/general/updates/2025-38)** ^04.12.2025^
-  
-:sparkles: Добавили возможность [бэкапировать](/docs/more#backup) только актуальную версию файлов. При обновлении версии файл будет перезаписываться.
-  
-:sparkles: Добавили возможность бэкапировать сразу все проекты компании, которые есть в системе.
-
-:hammer_and_wrench: Исправили ошибку с Windows Server 2019.
-
-> Информация о более ранних обновлениях доступна в закрытом Telegam канале для пользователей SIGNAL. Для добавления **[обращайтесь в поддержку](/general/support)**.
-{.is-info}
-
-</details>
   
 ----
   
@@ -138,7 +92,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 1.  Скачать [_клиент резервного копирования_](https://docs.sgnl.pro/s/i/e2f95796-0278-462c-930d-614f2d472c2f) и распаковать его в папку резервной копии.
 
 >Папка резервной копии должна располагаться на диске с достаточным объемом свободной памяти
-  {.is-warning}
+{.is-warning}
 
 ![explorer_bnqgz6yngw.png](/explorer_bnqgz6yngw.png)
 
@@ -150,20 +104,20 @@ dateCreated: 2025-09-09T15:46:40.736Z
   
   **1. ClientID и ClientSecret**
  Эти данные нужно получить в HUB во вкладке Настройки в графе Интеграции.
- Нужно нажать на кнопку "Добавить" и в окне заполнить поля Названия интеграции, выбрать scopes (проще выбрать все), указать проекты на которые будет распространена данная интеграция и ее срок.
+ Нажмите «Добавить», укажите название интеграции, необходимые права доступа (`scopes`), проекты и, при необходимости, срок действия. Выдавайте интеграции только те права и проекты, которые нужны для резервного копирования.
   
   ![chrome_0k2vfh3idp.png](/chrome_0k2vfh3idp.png)
 
-  Сразу после добавления, появиться окно с **Secret Key** - обязательно скопируйте и запомните его, он нужен для appsettings, этот код нужно вставить в графу ClientSecret (см. выше 1)
+  После добавления скопируйте **Secret Key**: он понадобится для `Auth:ClientSecret` в `appsettings.json`.
   
   ![chrome_spukuzpebi.png](/chrome_spukuzpebi.png)
   
-  После того как скопировали и вставили ClientSecret, остается вставить ClientID. Он хранится в открытом виде в деталях интеграции, нужно нажать на иконку "глаза" и в графе **clientId** скопировать код.
+  Затем откройте сведения об интеграции и скопируйте **clientId** в `Auth:ClientId`.
   ![chrome_aofchpizrr.png](/chrome_aofchpizrr.png)
   
   **2. Projects**
   
-  Код проекта нужен для указания программе какие проекты нужно скачивать. Если опцию отключить - то скачаются все проекты компании.
+  В `Projects` перечислите идентификаторы нужных проектов. Если оставить список пустым или закомментировать параметр, клиент скачает все проекты компании, к которым у интеграции есть доступ.
   Сам код можно скопировать в адресной строке браузера при открытии необходимого проекта.
   ![chrome_dn4xcdikna.png](/chrome_dn4xcdikna.png)
   
@@ -172,20 +126,16 @@ dateCreated: 2025-09-09T15:46:40.736Z
 ![applicationframehost_sehcmyjhtu.png](/applicationframehost_sehcmyjhtu.png)
   
   **3. OnlyLatest**
-  У опции OnlyLatest есть три режима 
-если **true** - скачиваются только последние версии файлов в структуру папок идентичную структуре в DOCS для данного проекта
-если **false** - скачиваются все версии файлов и раскладываются по папкам v1, v2 и т.д. В папке v1 содержится вся структура папок из DOCS для данного проекта.
-  
->В папках v2..vN представлены только те папки, в которых содержатся файлы
-  
-если данная **опция отключена** (закомментирована) - последние версии файлов скачиваются в структуру папок идентичную структуре в DOCS для данного проекта, а предыдущие версии файлов скачиваются в папки v1, v2 и т.д. в соответствии с прошлыми версиями файлов.
+  У параметра `OnlyLatest` три режима:
+
+- `true` — только актуальные версии в структуре папок проекта.
+- `false` — все версии по папкам `v1`, `v2` и далее. В `v1` сохраняется полная структура проекта; в следующих папках — только папки с файлами соответствующих версий.
+- Параметр закомментирован — актуальные версии в основной структуре проекта, предыдущие — в папках `v1`, `v2` и далее.
   
  **4. GetIssues**
-  У опции GetIssues имеет две опции:
-  **true** - скачивает вместе с проектом весь реестр замечаний в виде текстового файла.
-  **false** - не скачивает замечания, убирая папку Issues.
+  `GetIssues: true` выгружает реестр замечаний в файлы JSON в папке `Issues`; `false` не выгружает его. Если замечаний много, размер одной части задаётся параметром `IssueChunkSize` (в примере — 400 записей).
   
-  После заполнения `appsettings.json` запустите `DOCSDownloader.exe` файл в той же папке. Скрипт начнет загружать в эту же папку все записанные проекты.
+  После заполнения `appsettings.json` запустите `DOCSDownloader.exe` в той же папке. Клиент сохранит файлы проектов в папку `Backup` рядом с программой, доверенности — в `MCHD`, а журнал работы — в `Logs`. Если проект ещё ни разу не открывали в DOCS или интеграция не имеет к нему доступа, ошибка попадёт в журнал, и обработка продолжится со следующим проектом.
   ![chrome_cjsiqwwlnf.png](/chrome_cjsiqwwlnf.png)
 
 ## 2. DOCS Android
@@ -200,7 +150,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 ## 3. Интеграция с Tangl
 ###### 3. Интеграция с Tangl {#Tangl}
   
-В SIGNAL есть модули DOCS, TOOLS, DASHBOARD, INSPECTION. Решения Tangl содержат BIM-вьювер аналогичный Forge вьюверу Autodesk, а также модули Value и Control для работы с объемами из модели и проверке моделей соответственно. Модуль SIGNAL DOCS - это среда общих данных, в которую можно загружать документацию и отправлять на согласование, в том числе и BIM-модели. При работе с BIM-моделями можно использовать Forge-вьювер и Tangl-вьювер. Forge-вьювер - это решение от Autodesk, которое конвертирует и хранит сконвертированные версии моделей на иностранных серверах (AWS в Америке и Европе). Tangl-вьювер имеет преимущество перед Forge в том, что он размещен на Российских серверах в Москве на Yandex-cloud. Некоторым компаниям в РФ запрещено использовать иностранные сервера, в связи с чем, если они хотят применять BIM-технологии в проектировании и строительстве, то Tangl - лучший выбор. В настоящий момент Tangle-вьювер работает с IFC и RVT форматами. Для конвертации IFC формата имеется серверная конвертация, для которой не требуется запущенного приложения Revit. Для работы с RVT моделями требуется либо плагин Tangl, либо SIGNAL TOOLS, чтобы из запущенного приложения Revit сконвертировать в тэнгловский формат модель и опубликовать в SIGNAL DOCS.
+В DOCS модели IFC и RVT можно просматривать через Tangl Viewer. Для IFC доступна обработка загруженного файла в DOCS. Для публикации RVT используйте серверную обработку в SIGNAL TOOLS с Revit. Если у проекта подключён собственный клиент Tangl API и есть необходимые лицензии, из DOCS также можно открыть Tangl Value и Tangl Control. Другие доступные просмотрщики и форматы описаны в статье [«Работа в файлах»](/docs/viewers#bim).
 
 ### Вкладки {.tabset}
 #### 3.1. Настройка Tangl вьювера в DOCS
@@ -221,7 +171,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfE6yHsqueBvRFi_GC4U3Orw-lCxyO-dL4FzLygnkw4JnYIuaSCn2E5AX1lT-I3NlkdPIjmAJCrw0yyd4QIpsFVSzKsrOy_D0lri6fxKREOg9AQFK7JjkKbS3WZXoA5mI8?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
 
-При наведении на файл курсора мыши будет писаться лог событий по конвертации. Она может занимать от 3 до 10 минут в зависимости от размера файла.
+Наведите курсор на значок обработки модели, чтобы увидеть статус, дату и время обработки отдельно для доступных просмотрщиков. Время конвертации зависит от размера модели.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdExa_DQh8piFADbyH0ujhX-PkVCiQB_XFY0DKdeoBSYihOLR52YqpbyQUaj8zuj6hlf3WZTCtZaGMR3gKESxHHNeJe_4tOkKLm-zETGccfFQhmjmKFRoDioenNVBrYzQ?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
 
@@ -229,9 +179,9 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIePsCJa1xyxVf-vvsFT1TExMCwhU86s22xSPoFFw5oNh2pd-fY2g8eT1NwXPUFSTsWlZctQ7hfPsXBBLEizOJVZoprDrUOyEf6a0bUPm5o8Ca_uZuBLHpvtZ1s9_YWnc?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
 
-Это означает, что файл можно открывать.
+Это означает, что модель обработана и её можно открыть в Tangl.
 
-При нажатии по нему появится окно выбора вьювера, в котором требуется выбрать Tangl и откроется модель.
+Откройте файл и выберите Tangl Viewer в списке доступных просмотрщиков. При отправке файла в Tangl передаётся его текущее имя. Если после обработки переименовать файл в DOCS, имя модели в Tangl не изменится. Чтобы передать новое имя, загрузите новую версию файла и отправьте её в обработку: повторно отправить уже обработанную версию сейчас нельзя.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfirlrno11hmsBoycbf5f340hzgLqhTaDJgRs39I-xSRSB7MB0FBF6CWKjqSyoLGLdZDmLCB_sTgClk8QBmi07jX4ScWhRecEW3Im4PsP5HsnneUmzRGZ4e3vCknVnTXKw?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
 
@@ -271,7 +221,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdxp7iF-b60TojjGdFllT_a6A1MeyNrmWVlvY9vu6ydCEbun5SMD2tN-RubjqutdyKXp-LsbCoZ-aRKVUPIA8T_5cHmNDri8OrxvzqJTEvJvNAn7azXuZLByxi1GJScJcU?key=XUWJ4SKiaeLKMYM5NHZ2KA =70%x)
 
-Затем после публикации
+После публикации откройте модель в DOCS и выберите Tangl Viewer.
 
 #### 3.4. Публикация только в Tangl через серверную обработку
 ###### 3.4. Публикация только в Tangl через серверную обработку {#publish_only_tangl}
@@ -363,7 +313,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 **MINIO\_CONFIG\_ENV\_FILE=/etc/default/minio**
 
-2.7. **ВАЖНО!** Требуется установить сертификат. См. подробнее ниже раздел **“ 2. Подключение SSL сертификата”**. После этого переходите к шагу 2.8.
+2.7. **ВАЖНО!** Требуется установить сертификат. См. раздел **«4.3. Подключение SSL сертификата»**. После этого переходите к шагу 2.8.
 
 2.8. Запустим службу:
 
@@ -399,7 +349,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 ###### 4.3. Подключение SSL сертификата {#SSL}
 Вам необходимо заранее приобрести в специализированных центрах (например, [_https://www.reg.ru/_](https://www.reg.ru/))  коммерческий сертификат для доменного имени Вашего хранилища. Например, если адрес хранилища будет s3.YOURDOMAIN.RU, тогда сертификат необходим или непосредственно для адреса s3.YOURDOMAIN.RU, или сертификат домена типа WIldcard (\*.YOURDOMAIN.RU).
 
-Полученные данные необходимо сохранить в двух файлах:
+Сохраните сертификат и закрытый ключ в двух файлах:
 
 -   сертификат в файле **public.crt**
 -   закрытый ключ в файле **private.key**
@@ -410,7 +360,7 @@ dateCreated: 2025-09-09T15:46:40.736Z
 ###### 4.4. Настройка MinIO {#settings_MinIO}
 После запуска Minio вы можете перейти в веб-интерфейс хранилища. Для этого откройте браузер и перейдите по адресу: [_https://localhost:9090_](https://localhost:9090/)
 
-Введите логин и пароль суперпользователя. В предыдущих шагах (шаг 2.3.) инструкции мы указали их как minioadmin и miniopassword.  
+Введите имя и пароль суперпользователя, которые указали при настройке MinIO.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdhMTVMbpW-9MDdp9DsYtToP-_-ULQ55rSqf7PHkrAuPycJiT_MhPuTRm5npWaYT-yfd4HPfeqEHYCFbxDZRpCgaqtPee-GUawuuxLjnNUeu01Cx6wai4_RjOj8BIBWsqzfmMs3h9N5xJuTJ2octw?key=tGiWAnAfYwulDbckjXpJUQ =70%x)
 
@@ -448,39 +398,18 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 #### 4.5. Подключение хранилища к сервису DOCS
 ###### 4.5. Подключение хранилища к сервису DOCS {#connection_storage}
-> Для подключения к сервису DOCS данный сервер должен быть опубликован в сеть Интернет по портам 9000 и 9090. И во внешней DNS-зоне Вашего домена необходимо создать A-запись с указанием IP-адреса, на котором опубликован сервер с приложением MinIO.
-{.is-warning}
 
-Откройте сервис docs.sgnl.pro. Перейдите в настройки сервиса: для этого нажмите на профиль ➤ Настройки
+Для подключения к DOCS опубликуйте S3 API MinIO по HTTPS и создайте DNS-запись для домена хранилища. В этой конфигурации S3 API работает на порту `9000`, а консоль администратора — на `9090`. В `Endpoint` укажите адрес **S3 API**, например `https://s3.YOURDOMAIN.RU:9000`; адрес консоли `:9090` для этого поля не подходит. Доступ к консоли из Интернета для работы DOCS не требуется.
+
+1. Откройте HUB и перейдите в **«Настройки» → «S3 Сервер»**. Добавьте хранилище компании.
+2. Укажите название, `Endpoint`, `Access Key`, `Secret Key` и `Bucket Name` созданного бакета. Сохраните хранилище. При необходимости включите опцию **«Удаление объектов на S3»**. Поля `Region` в текущей форме нет.
+3. В таблице назначений выберите проект, это хранилище и сервисы, которые должны его использовать. Сохраните назначение. Подробнее см. [настройки S3 в HUB](/hub/admin#s3server).
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcaqOuZiGQx_ReaCBFormpAzGNv9yhNnIs0_c6flqSDi7R_TpNpWzVzUwQPitGGpYJG3VwWJzIGmKIEtEamshiDSH0-MPerw9L1NC1efzrZMB1gXKL1rTFfWOexxoGj2hrf4TRzD0lOUFFkdUn2Ng?key=tGiWAnAfYwulDbckjXpJUQ =40%x)
-
-1.  Нажмите Добавить новое хранилище
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePdy4AZ8DeDq5r2PeOagBUSZsfjAY-1Phzm7blqBOHr_oKJakP8KAQg4gE5RfAamepIbIEq3V6dXMcy3ILS72-UjWU9NOAyP1ofYBLzDwtRW9kyEkbev7p4N--drb2gZFVq8F3_0kM8NW3a5scGQ?key=tGiWAnAfYwulDbckjXpJUQ =70%x)
-
-1.  Заполните данные в появившемся окне и нажмите Сохранить:
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdu46sxReIUjmjFhEC8dc-zx6xoY4OiI7wru-Yy4uAQptOmcD2ozfEWyuKXHfG3p-znrrrqbIVBudr41omaFHp_HN9cs08LW0B0zSDb3SPMA2ItXJ-NoX7alW5CJazzOWrub1Qwdk9Z7F3HR9KAaw?key=tGiWAnAfYwulDbckjXpJUQ =30%x)
-
-Обязательные поля:
-
--   **В строке “Название”** впишите название хранилища для сервиса DOCS
--   **В строку “EndPoint”** вставьте ссылку на сервер с портом 9000, например https://s3.YOURDOMAIN.RU:9090
--   **В строку “Access Key”** вставьте ключ доступа
--   **В строку “Secret Key”** вставьте секретный ключ
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmxIcwFtAUNB1ifVXsjiT3G5VUXRqg9E3N8cS-m58qVA4zMgA_TckRWpIyW5WXkHVSxLzUhubZKkaFXJZNUyMOh2zWT8YvFM5yegB3TWI54LJ89E0z1bPvYro7SMucDTVn-Ae8SkP2hymkOQR0?key=tGiWAnAfYwulDbckjXpJUQ =70%x)
-
--   **В строку “Bucket Name”** впишите название бакета
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNx_Fgjcjwu6OvMvbrDq1dOLFcS1Cb1q3p3EVtQVPsNmHkSojBKlqhBStTbGhPUmfHqBnpBv4Qe63CXlAscsF5GUIcQPMgDTGQKQei5vLBw2v8UWOettDFe1_zqHBkfshAtzwdt5JkD5NTDJfdqA?key=tGiWAnAfYwulDbckjXpJUQ =70%x)
-
-Не обязательные поля
-
--   **В строку “Region”**  впишите регион сервера
-
-1.  Готово. Теперь можно пользоваться сервисом
 
 ## 5. Установка MinIO на Windows
 ###### 5. Установка MinIO на Windows {#MinIOWindows}
@@ -530,7 +459,7 @@ setx MINIO\_ROOT\_PASSWORD miniopassword
  
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLdZpGN1OrHcKCDjN4IW8eVnMG1yk_0_W1z69lm94rvQNg9JHiwEoCv2Xr1U5fm3Z65eMDhxp3qyobIM20V-bu_2OTBmgE5ECzEsat_pmX-OMGk8S4_OlCIiebl8IwVaB4Fw2kIR8t1oApAklh1Q?key=EY_Ajf-Vc1Arr0LG5cmV9g =40%x)
 
-2.4. Важным аспектом в подключении сервера к сервису DOCS является протокол HTTPS. Он обеспечивает безопасность передачи данных между клиентом и сервером, защищая их от перехвата и изменения. Поэтому необходимо установить SSL сертификат на сервере, где размещено приложение. Посмотрите как это сделать в разделе **3\. Подключение SSL сертификата**, а затем переходите к шагу 2.5.  
+2.4. Важным аспектом в подключении сервера к сервису DOCS является протокол HTTPS. Он обеспечивает безопасность передачи данных между клиентом и сервером, защищая их от перехвата и изменения. Поэтому необходимо установить SSL сертификат на сервере, где размещено приложение. Посмотрите, как это сделать в разделе **«5.3. Подключение SSL сертификата»**, а затем переходите к шагу 2.5.
 
 2.5. Запустите приложение MinIO, используя команду:
 
@@ -544,7 +473,7 @@ minio.exe server C:\\MinIO\\data --console-address :9090
 ###### 5.3. Подключение SSL сертификата {#connect_SSL}
 Вам необходимо заранее приобрести в специализированных центрах (например, [_https://www.reg.ru/_](https://www.reg.ru/))  коммерческий сертификат для доменного имени Вашего хранилища. Например, если адрес хранилища будет s3.YOURDOMAIN.RU, тогда сертификат необходим или непосредственно для адреса s3.YOURDOMAIN.RU, или сертификат домена типа WIldcard (\*.YOURDOMAIN.RU).
 
-Полученные данные необходимо сохранить в двух файлах:
+Сохраните сертификат и закрытый ключ в двух файлах:
 
 -   сертификат в файле **public.crt**
 -   закрытый ключ в файле **private.key**
@@ -566,7 +495,7 @@ mkdir C:\\Users\\minio\\.minio\\certs
 ###### 5.4. Настройка MinIO {#tuning_minIO}
 После запуска Minio вы можете перейти в веб-интерфейс хранилища. Для этого откройте браузер и перейдите по адресу: [_https://localhost:9090_](https://localhost:9090/)
 
-Введите логин и пароль суперпользователя. В предыдущих шагах (шаг 2.3.) инструкции мы указали их как minioadmin и miniopassword.  
+Введите имя и пароль суперпользователя, которые указали при настройке MinIO.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcmOGEG6Ut3awlRp9dpMa1nUHTWRkffdflhsbeWZAx0wS5G5FhMbf9psSSWNAFpZrPJ4U0QU5easAslWYuksgSkpf-WomBYlGXex87L2veJYkZT75iW9PJ1rvFVyxyahQRW1VVK4gQxoDvsLpwR_A?key=EY_Ajf-Vc1Arr0LG5cmV9g =70%x)
 
@@ -604,100 +533,77 @@ mkdir C:\\Users\\minio\\.minio\\certs
 
 #### 5.5. Подключение хранилища к сервису DOCS
 ###### 5.5. Подключение хранилища к сервису DOCS {#storage_connection}
-> Для подключения к сервису DOCS данный сервер должен быть опубликован в сеть Интернет по портам 9000 и 9090. И во внешней DNS-зоне Вашего домена необходимо создать A-запись с указанием IP-адреса, на котором опубликован сервер с приложением MinIO.
-{.is-warning}
 
+Для подключения к DOCS опубликуйте S3 API MinIO по HTTPS и создайте DNS-запись для домена хранилища. В этой конфигурации S3 API работает на порту `9000`, а консоль администратора — на `9090`. В `Endpoint` укажите адрес **S3 API**, например `https://s3.YOURDOMAIN.RU:9000`; адрес консоли `:9090` для этого поля не подходит. Доступ к консоли из Интернета для работы DOCS не требуется.
 
-1.  Откройте сервис docs.sgnl.pro. Перейдите в настройки сервиса: для этого нажмите на профиль ➤ Настройки
+1. Откройте HUB и перейдите в **«Настройки» → «S3 Сервер»**. Добавьте хранилище компании.
+2. Укажите название, `Endpoint`, `Access Key`, `Secret Key` и `Bucket Name` созданного бакета. Сохраните хранилище. При необходимости включите опцию **«Удаление объектов на S3»**. Поля `Region` в текущей форме нет.
+3. В таблице назначений выберите проект, это хранилище и сервисы, которые должны его использовать. Сохраните назначение. Подробнее см. [настройки S3 в HUB](/hub/admin#s3server).
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfr51WyWLppnax6jSe0IUGgy6rGAdnFva7iMoUPX87FksTb2F-qMz3EqJBPyHkbT5pTiFs1dj11Toz7qxHGULhwhtW1-BItkZUeSwltNcZiu1CihSiqkLBGq2EsgTZkM9ZJHR2t0zX4zHrJjMqcWQ?key=EY_Ajf-Vc1Arr0LG5cmV9g =40%x)
-
-1.  Нажмите Добавить новое хранилище
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdIF1pQMG2lsnzdPSWyjtMSeEB6KmcDN-kAuw1T63IH_JDqgT73fbe7OhajcmB5AxJPZCqaulk4ZgHKycGy4lg_Ez7IXmfyth2Hj_FkR8KvraBpQkcyC2Nhp3Qbh16F_TmS9XP5Eo9fTaNKzDgD1g?key=EY_Ajf-Vc1Arr0LG5cmV9g =70%x)
-
-1.  Заполните данные в появившемся окне и нажмите Сохранить:
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdTG_ghAfhx9vG_1Mg-UjTk4WX3Shglc_jkE3e9HZ5dqjU0P1gL8QmFZScRPkeUYsiJVogslzZ4PkFcMOazEBhTbqOZH5ImrakqIhhBGyYbhW8FYjdr_-4jFntLGkxRiRkmbdg_DFERe0fcruVQ5g?key=EY_Ajf-Vc1Arr0LG5cmV9g =40%x)
-
-Обязательные поля:
-
--   **В строке “Название”** впишите название хранилища для сервиса DOCS
--   **В строку “EndPoint”** вставьте ссылку на сервер с портом 9000, например https://s3.YOURDOMAIN.RU:9090
--   **В строку “Access Key”** вставьте ключ доступа
--   **В строку “Secret Key”** вставьте секретный ключ
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcr4qfJrRg7exERBYKQqa7pSgOAn_zZoIxD99fQ3jLtjGkUOch3rVuEgOjwP5eVY7iaBLgSeKZLvlUrMADwj_fgqqHK3kYosMT4_R83DoWeMY6v1CKsNzjXb3fT-9XlAq2-YEJbDJp0VdKQK7qhGw?key=EY_Ajf-Vc1Arr0LG5cmV9g =70%x)
-
--   **В строку “Bucket Name”** впишите название бакета
-
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfmmOikuCdVx_3xMafj2SYwoyNxpNAVznDzwDcNobGDmb0vlNKuDrsKdkpSDmTho-6Ih_-CK5XF1vWZf6brqHXYh_aTAVgvttGdqpXOXoMzu_FMJyVi0Iy6EuCWgJbkV-kWcICTSkQzirC4yoJZQw?key=EY_Ajf-Vc1Arr0LG5cmV9g =70%x)
 
-Не обязательные поля
-
--   **В строку “Region”**  впишите регион сервера
-
-1.  Готово. Теперь можно пользоваться сервисом
-  
-  ## 6. Настройки AD(Active Directory) FS 
-  ###### 6. Настройки AD(Active Directory) FS {#Settings_AD_FS}
+## 6. Настройка AD FS
+###### 6. Настройка AD FS {#Settings_AD_FS}
 > *Подключение Active Directory к SIGNAL HUB позволяет связать корпоративную структуру учетных записей с сервисом и обеспечить управляемый доступ пользователей к функциональности HUB. Это дает несколько практических преимуществ. Например пользователи могут входить в SIGNAL HUB под корпоративными учетными данными, без создания отдельных логинов и паролей.*
   
   1. Создайте группу (Application Group → Add Application Group).
   
 ![chrome_ur7cd3vdvw.png](/chrome_ur7cd3vdvw.png)
-  2.Укажите любое имя (Например “Signal”). Укажите тип “Server application” и нажмите “next”.
+  2. Укажите имя, например «Signal», выберите тип «Server application» и нажмите «Next».
   
   ![chrome_rqes3si0dc.png](/chrome_rqes3si0dc.png)
-  3. Сохраните значение поля “Client Identifier”. Укажите Redirect URI который можно получить в SIGNAL HUB во вкладке Настройки - AD и SSO.
+  3. Сохраните значение «Client Identifier». В поле «Redirect URI» укажите адрес возврата (`Return URL`) из **«Настройки» → «AD и SSO»** в HUB.
   
 ![chrome_gz0xeviuyv.png](/chrome_gz0xeviuyv.png)
 ![chrome_miasscv5ho.png](/chrome_miasscv5ho.png)
-  4. Включите опцию “Generate a shared secret” и скопируйте полученный 
+  4. Включите «Generate a shared secret» и сохраните полученное значение.
   
   ![chrome_miasscv5ho.png](/chrome_miasscv5ho.png)
-  5. Проверьте получившуюся конфигурацию и завершайте настройку по нажатию на “Next”.
+  5. Проверьте конфигурацию и нажмите «Next».
   
   ![chrome_miasscv5ho.png](/chrome_miasscv5ho.png)
   ![chrome_ppfc1vtlmb.png](/chrome_ppfc1vtlmb.png)
-  6. Выберите созданный объект и нажмите на “Properties”. В настройках объекта нажмите на “Add application”. Укажите тип “Web API”.
+  6. Выберите созданный объект и откройте «Properties» → «Add application». Укажите тип «Web API».
   
   ![chrome_qtg8ww1cgp.png](/chrome_qtg8ww1cgp.png)
-  7. В поле “Identifier” укажите ваш “Client Identifier” который сохранили на предыдущем этапе.
+  7. В поле «Identifier» укажите сохранённый «Client Identifier».
   
   ![chrome_niq1ll4veq.png](/chrome_niq1ll4veq.png)
-  8. Выберите на этапе “Access Control Policy” значение “Permit everyone”
+  8. На этапе «Access Control Policy» выберите «Permit everyone».
   
   ![chrome_upxsrbcvin.png](/chrome_upxsrbcvin.png)
-  9. В разделе “Permitted scopes” выберите “allatclaims” и “openid”.
+  9. В разделе «Permitted scopes» выберите «allatclaims» и «openid».
   
   ![chrome_r3jvrjlqpi.png](/chrome_r3jvrjlqpi.png)
-  10. Проверьте настройки и завершайте конфигурацию.
+  10. Проверьте настройки и завершите конфигурацию.
   
   11. Для работы авторизации нужны данные о пользователе, для чего необходимо настроить их передачу в токене OpenID.
-Выберите созданное “Web API” и нажмите “Edit”.
-Перейтиде в таб “Issuance Tranform Rules” и нажмите “Add Rule…”.
-Нажмите “Next”.
+Выберите созданное «Web API», нажмите «Edit» и перейдите на вкладку «Issuance Transform Rules». Нажмите «Add Rule…», затем «Next».
   
 ![chrome_qllzldi601.png](/chrome_qllzldi601.png)
-  12. В поле “Attribute store” укажите “Active Directory”.
+  12. В поле «Attribute store» укажите «Active Directory».
 В таблице укажите следующие значения:
 - E-Mail-Addresses: email
 - Given-Name: given_name
 - Surname: family_name
 - middleName: middle_name
-Завершайте конфигурацию по нажатию на “Finish”.
+Завершите конфигурацию кнопкой «Finish».
   
   ![chrome_g84vxlrj0e.png](/chrome_g84vxlrj0e.png)
-#### **Этап 2. Настройка Hub в Signal**
-Выбираем нужную компанию переходим во вкладку Авторизация и редактируем авторизацию из которой брали Redirect Url далее указываем в поля:
-1) **Discovery endpoint** - адрес вашего adfs + /.well-known/openid-configuration/ 
-2) **Client Id** - значение Client Identifier из ADFS
-3) **Client secret** - Shared secret который сгенерировали на предыдущем этапе
-4) **Scopes** - указываем значение openid
-  ![chrome_dmvuscfzur.png](/chrome_dmvuscfzur.png)
-  >Для добавления Домена - обратитесь в тех.поддержку SIGNAL ([@signal_helpdesk_bot](https://t.me/signal_helpdesk_bot) в ТГ или на почту support@sgnl.pro
-  {.is-warning}
-  
-#
+#### Этап 2. Настройка HUB в SIGNAL
+В HUB откройте нужную компанию и перейдите в **«Настройки» → «AD и SSO»**. Откройте OIDC-подключение, из которого скопировали `Return URL`, и заполните поля:
+
+1. **Discovery endpoint** — адрес конфигурации OIDC вашего AD FS (`/.well-known/openid-configuration`).
+2. **Client ID** — значение «Client Identifier» из AD FS.
+3. **Client secret** — секрет, созданный на предыдущем этапе.
+4. **Scopes** — `openid`.
+
+![chrome_dmvuscfzur.png](/chrome_dmvuscfzur.png)
+> Если для подключения нужен домен, добавьте его в настройках подключения. При вопросах обратитесь в [поддержку SIGNAL](/general/support).
+{.is-warning}
+
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [FORMS. Введение   >](/ru/forms/intro)**</sub>
