@@ -2,7 +2,7 @@
 title: HUB. Пользователь
 description: 
 published: true
-date: 2026-09-24T07:37:14.686Z
+date: 2026-09-24T07:38:27.872Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T17:30:45.102Z
@@ -58,7 +58,7 @@ dateCreated: 2025-06-24T17:30:45.102Z
 
 На странице входа также могут отображаться внешние способы авторизации. Их набор зависит от настроек среды и компании.
 #### 1.3. Вход по SSO
-1. На [странице авторизации](https://auth.sgnl.pro/account/login) нажмите на кнопку входа по SSO
+1. На [странице авторизации](https://auth.sgnl.pro/account/login) нажмите на кнопку входа по SSO.
   
   ![вход_по_sso.png](/hub/вход_по_sso.png)
   
