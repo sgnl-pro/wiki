@@ -2,7 +2,7 @@
 title: HUB. Пользователь
 description: 
 published: true
-date: 2026-09-24T07:44:30.786Z
+date: 2026-09-24T07:49:07.110Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T17:30:45.102Z
@@ -18,6 +18,26 @@ dateCreated: 2025-06-24T17:30:45.102Z
 </summary>
   
 ----
+
+<div class="toc-card toc-green">
+  <h4 class="toc-card-title"><a href="#account">1. Регистрация и вход</a></h4>
+  <ul class="toc-list">
+    <li><a href="#invitation_login"><span class="toc-badge">1.1</span> Вход по приглашению</a></li>
+    <li><a href="#self_registration"><span class="toc-badge">1.2</span> Самостоятельная регистрация</a></li>
+    <li><a href="#sso_login"><span class="toc-badge">1.3</span> Вход по SSO</a></li>
+  </ul>
+</div>
+
+<div class="toc-card toc-green">
+  <h4 class="toc-card-title"><a href="#profile">2. Профиль</a></h4>
+  <ul class="toc-list">
+    <li><a href="#my_companies"><span class="toc-badge">2.1</span> Мои компании</a></li>
+    <li><a href="#about_me"><span class="toc-badge">2.2</span> О себе</a></li>
+    <li><a href="#alternative_login"><span class="toc-badge">2.3</span> Альтернативный вход</a></li>
+    <li><a href="#security"><span class="toc-badge">2.4</span> Безопасность</a></li>
+    <li><a href="#notifications"><span class="toc-badge">2.5</span> Уведомления</a></li>
+  </ul>
+</div>
 
 # Вкладки {.tabset}
 ## 1. Регистрация и вход
