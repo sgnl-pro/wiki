@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: 
 published: true
-date: 2026-09-23T09:21:06.579Z
+date: 2026-09-24T04:08:15.387Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -100,7 +100,7 @@ dateCreated: 2025-06-24T16:53:52.277Z
 
 ![image-1705042284764.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdfoS7ffeyVcErKRVtNWCfGuA4qT-fpbgjafGOKHoG1UpJ5S2Gp151UQi5lF33WF5i1hSoxJqLlFyttLmNxAFW2mXoy8PkxN3WxN4pWT_9PZHz47amX51b6tKC4J2XYvhGeMx62u_nhqyGrZNrlQ6sk4yU6?key=gkFw4J24l1s_S-bu7nSMug)
 
-1.1.3. В течении нескольких минут на электронную почту придет письмо с кодом подтверждения, который необходимо вписать в поле **Код:**
+1.1.3. В течение нескольких минут на электронную почту придет письмо с кодом подтверждения, который необходимо вписать в поле **Код:**
 
 ![image-1705042295497.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeih7FB7dvyNk4NFSNBI6lkIQG9xmwYmEVvDvfcdAx_EwzQqTgre7iCNJh5Vn5fM37eCbJlAJpvBye43FoOlfk3_UK3KYSigJbufv4q_YtFxLjEOp1tu1aNXoogn2kZq1L9ukV9J_b1tm51TrD-G8d-S_iG?key=gkFw4J24l1s_S-bu7nSMug)
 
