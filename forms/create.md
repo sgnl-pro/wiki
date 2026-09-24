@@ -1,8 +1,8 @@
 ---
-title: FORMS. Заполнение формы
+title: FORMS. Заполнение форм
 description: 
 published: true
-date: 2026-08-28T10:11:52.573Z
+date: 2026-09-24T04:04:17.705Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T19:45:47.214Z
