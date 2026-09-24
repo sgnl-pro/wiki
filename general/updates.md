@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2026-09-24T04:59:56.469Z
+date: 2026-09-24T05:01:34.783Z
 tags: general
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -11,7 +11,6 @@ dateCreated: 2025-09-25T13:55:16.192Z
 <sub>**[<   SIGNAL. Поддержка](/ru/general/support)     **|**     [SIGNAL. Публичный API   >](/ru/general/api)**</sub>
 
 > См. также новости разработки в видеоформате: **[Telegram](https://t.me/signal_docs) [YouTube](https://youtube.com/playlist?list=PLtTaFDza_glCo_-5EBKg303YwiEXWG85K&si=mpVEam-DxdVom_dQ)	[Rutube](https://rutube.ru/plst/558794?r=wd) [VK](https://vkvideo.ru/playlist/-223002264_6)**
->
 > Для пользователей SIGNAL также доступен **[Telegram канал](https://t.me/+3JUq6QQyHkUyYzMy)** с информацией об этих и о более ранних обновлениях.
 {.is-info}
 
@@ -23,7 +22,7 @@ dateCreated: 2025-09-25T13:55:16.192Z
 
 {.links-list}
   
-<span style="font-size: 20px; font-weight: bold;">Июль–сентябрь 2026</span>
+<span style="font-size: 20px; font-weight: bold;">III квартал 2026</span>
 - [Релиз 2026.17 *14.09.2026*](/general/updates/2026-17)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #FF5867, #88383F); color: white; padding: 2px 6px; border-radius: 4px;">FORMS</span>
 - [Релиз 2026.16 *31.08.2026*](/general/updates/2026-16)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #FF5867, #88383F); color: white; padding: 2px 6px; border-radius: 4px;">FORMS</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">TOOLS</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">API</span>
 - [Релиз 2026.15 *17.08.2026*](/general/updates/2026-15)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #FF5867, #88383F); color: white; padding: 2px 6px; border-radius: 4px;">FORMS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">API</span>
@@ -33,7 +32,7 @@ dateCreated: 2025-09-25T13:55:16.192Z
 
 {.links-list}
 
-<span style="font-size: 20px; font-weight: bold;">Апрель–июнь 2026</span>
+<span style="font-size: 20px; font-weight: bold;">II квартал 2026</span>
 
 - [Релиз 2026.11 *18.06.2026*](/general/updates/2026-11)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">API</span> 
 - [Релиз 2026.10 *04.06.2026*](/general/updates/2026-10)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">API</span>
@@ -43,7 +42,7 @@ dateCreated: 2025-09-25T13:55:16.192Z
 - [Релиз 2026.6 *09.04.2026*](/general/updates/2026-6)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS Backup</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">API</span>
 {.links-list}
   
-<span style="font-size: 20px; font-weight: bold;">Январь–март 2026</span>
+<span style="font-size: 20px; font-weight: bold;">I квартал 2026</span>
 
 - [Релиз 2026.5 *26.03.2026*](/general/updates/2026-5)<span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">API</span>
 - [Релиз 2026.4 *12.03.2026*](/general/updates/2026-4)<span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS</span> <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS Mobile</span> <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span> <span style="background: linear-gradient(45deg, #83E6C7, #00CD8D); color: white; padding: 2px 6px; border-radius: 4px;">INSPECTION</span> <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">API</span>
