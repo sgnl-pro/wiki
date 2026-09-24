@@ -2,7 +2,7 @@
 title: DOCS. Замечания
 description: 
 published: true
-date: 2026-09-24T04:49:57.680Z
+date: 2026-09-24T05:08:54.293Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
@@ -22,10 +22,6 @@ dateCreated: 2025-09-09T12:10:08.827Z
   <!-- 1. Основные понятия (Синий) -->
   <div class="toc-card toc-blue">
     <h4 class="toc-card-title"><a href="#main_info">1. Основные понятия</a></h4>
-    <ul class="toc-list">
-      <li><a href="#main_info"><span class="toc-badge">1.1</span> Терминология и статусы</a></li>
-      <li><a href="#main_info"><span class="toc-badge">1.2</span> Участники, пометки, атрибуты</a></li>
-    </ul>
   </div>
 
   <!-- 2. Замечания к документам (Зеленый) -->
