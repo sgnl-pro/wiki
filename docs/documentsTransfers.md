@@ -2,7 +2,7 @@
 title: DOCS. Передача
 description: 
 published: true
-date: 2026-09-22T18:48:18.178Z
+date: 2026-09-24T05:09:13.548Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:28:36.555Z
@@ -18,10 +18,6 @@ dateCreated: 2025-09-09T12:28:36.555Z
 <div class="toc-grid">
   <div class="toc-card toc-blue">
     <h4 class="toc-card-title"><a href="#main_info">1. Основные понятия</a></h4>
-    <ul class="toc-list">
-      <li><a href="#main_info"><span class="toc-badge">1.1</span> Пакет, акт и тип передачи</a></li>
-      <li><a href="#statuses"><span class="toc-badge">1.2</span> Статусы пакета</a></li>
-    </ul>
   </div>
   <div class="toc-card toc-green">
     <h4 class="toc-card-title"><a href="#registry">2. Реестр передач</a></h4>
