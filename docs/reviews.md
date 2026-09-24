@@ -2,14 +2,14 @@
 title: DOCS. Согласования
 description: 
 published: true
-date: 2026-09-24T04:25:02.000Z
+date: 2026-09-24T04:36:02.377Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
 ---
 
 > **Актуальность статьи:** описание актуализировано для релиза SIGNAL 2026.17 от 14.09.2026.
-{.is-info}
+{.is-success}
 
 <sub>**[<   DOCS. Замечания](/ru/docs/issues)     **|**     [DOCS. Передача   >](/ru/docs/documentsTransfers)**</sub>
  
