@@ -2,13 +2,13 @@
 title: СПРАВКА ПО ПРОДУКТАМ SIGNAL
 description: Текущая версия: 2026.17 от 14.09.2026
 published: true
-date: 2026-09-14T18:44:35.324Z
+date: 2026-09-24T04:06:30.040Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T16:23:47.235Z
 ---
 
-Добро пожаловать справку по сервисам SIGNAL! Вы можете выбрать нужный раздел слева или воспользоваться поиском вверху страницы.
+Добро пожаловать в справку по сервисам SIGNAL! Вы можете выбрать нужный раздел слева или воспользоваться поиском вверху страницы.
 
 - [ОБЩИЕ СВЕДЕНИЯ](/general)
 - [SIGNAL <span style="background: linear-gradient(45deg, #2D4E67, #112538); color: white; padding: 2px 6px; border-radius: 4px;">HUB</span>](/hub)
