@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: 
 published: true
-date: 2026-08-26T12:31:23.384Z
+date: 2026-09-24T04:59:02.633Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -67,4 +67,5 @@ dateCreated: 2025-11-06T14:53:09.140Z
   
 Поздравляем, вы авторизованы. Теперь можно использовать методы, соответствующие выбранным для интеграции scopes.
 
+#
 <sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Введение   >](/ru/hub/intro)**</sub>
