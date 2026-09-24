@@ -2,16 +2,13 @@
 title: DOCS. Согласования
 description: ✅ Статья проверена после релиза 2026.17
 published: true
-date: 2026-09-24T05:13:02.368Z
+date: 2026-09-24T05:13:23.282Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
 ---
 
 <sub>**[<   DOCS. Замечания](/ru/docs/issues)     **|**     [DOCS. Передача   >](/ru/docs/documentsTransfers)**</sub>
-  
-> **Актуальность статьи:** соответствует релизу 2026.17 от 14.09.2026.
-{.is-success}
  
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"> <a href="/docs/reviews/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
