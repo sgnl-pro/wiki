@@ -2,7 +2,7 @@
 title: HUB. Пользователь
 description: 
 published: true
-date: 2026-09-24T07:49:07.110Z
+date: 2026-09-24T07:55:21.202Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T17:30:45.102Z
@@ -20,22 +20,22 @@ dateCreated: 2025-06-24T17:30:45.102Z
 ----
 
 <div class="toc-card toc-green">
-  <h4 class="toc-card-title"><a href="#account">1. Регистрация и вход</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=account#account">1. Регистрация и вход</a></h4>
   <ul class="toc-list">
-    <li><a href="#invitation_login"><span class="toc-badge">1.1</span> Вход по приглашению</a></li>
-    <li><a href="#self_registration"><span class="toc-badge">1.2</span> Самостоятельная регистрация</a></li>
-    <li><a href="#sso_login"><span class="toc-badge">1.3</span> Вход по SSO</a></li>
+    <li><a href="?toc_target=invitation_login#invitation_login"><span class="toc-badge">1.1</span> Вход по приглашению</a></li>
+    <li><a href="?toc_target=self_registration#self_registration"><span class="toc-badge">1.2</span> Самостоятельная регистрация</a></li>
+    <li><a href="?toc_target=sso_login#sso_login"><span class="toc-badge">1.3</span> Вход по SSO</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-green">
-  <h4 class="toc-card-title"><a href="#profile">2. Профиль</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=profile#profile">2. Профиль</a></h4>
   <ul class="toc-list">
-    <li><a href="#my_companies"><span class="toc-badge">2.1</span> Мои компании</a></li>
-    <li><a href="#about_me"><span class="toc-badge">2.2</span> О себе</a></li>
-    <li><a href="#alternative_login"><span class="toc-badge">2.3</span> Альтернативный вход</a></li>
-    <li><a href="#security"><span class="toc-badge">2.4</span> Безопасность</a></li>
-    <li><a href="#notifications"><span class="toc-badge">2.5</span> Уведомления</a></li>
+    <li><a href="?toc_target=my_companies#my_companies"><span class="toc-badge">2.1</span> Мои компании</a></li>
+    <li><a href="?toc_target=about_me#about_me"><span class="toc-badge">2.2</span> О себе</a></li>
+    <li><a href="?toc_target=alternative_login#alternative_login"><span class="toc-badge">2.3</span> Альтернативный вход</a></li>
+    <li><a href="?toc_target=security#security"><span class="toc-badge">2.4</span> Безопасность</a></li>
+    <li><a href="?toc_target=notifications#notifications"><span class="toc-badge">2.5</span> Уведомления</a></li>
   </ul>
 </div>
 
@@ -97,13 +97,15 @@ dateCreated: 2025-06-24T17:30:45.102Z
 {.is-info}
 
 ### Вкладки {.tabset}
-#### 2.1. Мои компании {#my_companies}
+#### 2.1. Мои компании
+##### 2.1. Мои компании {#my_companies}
 
 На вкладке отображаются компании, в которых состоит учетная запись, и роль пользователя в каждой компании. Кнопка с корзиной позволяет покинуть компанию после подтверждения.
 
 ![browser_sae86tbptf.png](/hub/browser_sae86tbptf.png)
 
-#### 2.2. О себе {#about_me}
+#### 2.2. О себе
+##### 2.2. О себе {#about_me}
 
 Электронная почта учетной записи доступна только для просмотра. Измените фамилию, имя или отчество и нажмите **«Сохранить»**.
 
@@ -113,13 +115,15 @@ dateCreated: 2025-06-24T17:30:45.102Z
 
 <span style="color: #c62828; font-weight: 700;">Нужен новый скриншот: на вкладке «О себе» появились настройки Telegram, WhatsApp и MAX.</span>
 
-#### 2.3. Альтернативный вход {#alternative_login}
+#### 2.3. Альтернативный вход
+##### 2.3. Альтернативный вход {#alternative_login}
 
 На вкладке можно привязать доступные внешние учетные записи Google, Apple или Yandex, чтобы затем использовать их для входа в SIGNAL. Набор провайдеров зависит от настроек среды. Привязанный способ входа можно отвязать на этой же вкладке.
 
 ![browser_yqvpsku780.png](/hub/browser_yqvpsku780.png)
 
-#### 2.4. Безопасность {#security}
+#### 2.4. Безопасность
+##### 2.4. Безопасность {#security}
 
 Чтобы изменить пароль, введите текущий и новый пароль, затем нажмите **«Сохранить»**. Новый пароль должен содержать не менее 6 символов.
 
