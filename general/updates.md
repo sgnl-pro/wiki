@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2026-09-15T06:58:29.306Z
+date: 2026-09-24T04:07:01.058Z
 tags: general
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
@@ -13,7 +13,7 @@ dateCreated: 2025-09-25T13:55:16.192Z
 > См. также новости разработки в видеоформате: **[Telegram](https://t.me/signal_docs) [YouTube](https://youtube.com/playlist?list=PLtTaFDza_glCo_-5EBKg303YwiEXWG85K&si=mpVEam-DxdVom_dQ)	[Rutube](https://rutube.ru/plst/558794?r=wd) [VK](https://vkvideo.ru/playlist/-223002264_6)**
 {.is-info}
   
-> Для пользователей SIGNAL также доступен **[Telegam канал](https://t.me/+3JUq6QQyHkUyYzMy)** с информацией об этих и о более ранних обновлениях.
+> Для пользователей SIGNAL также доступен **[Telegram канал](https://t.me/+3JUq6QQyHkUyYzMy)** с информацией об этих и о более ранних обновлениях.
 {.is-info}
 
 ---
