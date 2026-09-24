@@ -1,8 +1,8 @@
 ---
 title: HUB. Администратор
-description: 
+description: Актуально для SIGNAL 2026.17
 published: true
-date: 2026-09-24T04:08:15.387Z
+date: 2026-09-24T04:25:12.199Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
