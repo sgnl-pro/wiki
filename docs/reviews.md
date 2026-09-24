@@ -1,8 +1,8 @@
 ---
 title: DOCS. Согласования
-description: ✅ Актуальность статьи проверена после релиза 2026.17
+description: ✅ Статья проверена после релиза 2026.17
 published: true
-date: 2026-09-24T05:12:19.962Z
+date: 2026-09-24T05:13:02.368Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
