@@ -1,8 +1,8 @@
 ---
 title: DOCS. Согласования
-description: 
+description: ✅ Актуальность статьи проверена после релиза 2026.17
 published: true
-date: 2026-09-24T05:08:20.405Z
+date: 2026-09-24T05:12:19.962Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:22:52.543Z
@@ -10,7 +10,7 @@ dateCreated: 2025-09-09T12:22:52.543Z
 
 <sub>**[<   DOCS. Замечания](/ru/docs/issues)     **|**     [DOCS. Передача   >](/ru/docs/documentsTransfers)**</sub>
   
-> **Актуальность статьи:** соответствует последнему релизу 2026.17 от 14.09.2026.
+> **Актуальность статьи:** соответствует релизу 2026.17 от 14.09.2026.
 {.is-success}
  
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
