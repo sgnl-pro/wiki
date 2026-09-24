@@ -2,7 +2,7 @@
 title: DOCS. Введение
 description: Возможности SIGNAL DOCS и ссылки на инструкции
 published: true
-date: 2026-09-23T16:51:04.057Z
+date: 2026-09-24T05:03:26.836Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T07:18:56.688Z
@@ -20,7 +20,7 @@ dateCreated: 2025-09-09T07:18:56.688Z
 {.is-info}
 
 # Вкладки {.tabset}
-## Основные функции пользователя
+## 1. Основные функции пользователя
 - [Просмотр, загрузка, скачивание и организация файлов и папок](/docs/folders), работа с версиями файлов
 - [Просмотр PDF, офисных документов и BIM-моделей](/docs/viewers), совместное редактирование офисных документов в Collabora
 - [Создание и отработка замечаний](/docs/issues)
@@ -30,14 +30,14 @@ dateCreated: 2025-09-09T07:18:56.688Z
 - [Подписание файлов электронной подписью и факсимиле](/docs/folders#crypto_pro)
 - [Работа с ИИ-ассистентом](/docs/ai), если он подключён для компании
 
-## Основные функции администратора проекта
+## 2. Основные функции администратора проекта
 - [Создание структуры папок, настройка прав и подписок](/docs/folders)
 - [Настройка атрибутов и сервисов проекта](/docs/settings)
 - [Настройка типов замечаний](/docs/issues#admin) и [маршрутов согласования](/docs/reviews)
 - [Восстановление файлов из корзины](/docs/folders#trashbin)
 - [Настройка инструкций и скиллов ИИ-ассистента](/docs/ai#skills), если он подключён для компании
 
-## Видеоинструкции для пользователя
+## 3. Видеоинструкции для пользователя
 - Часть I. Авторизация. Права доступа: [Telegram](https://t.me/signal_docs/255) [YouTube](https://youtu.be/m3YP_LYgpcM)	[Rutube](https://rutube.ru/video/e03d00bc13f1ec5f9a5349f4e0cf0c23/) [VK](https://vkvideo.ru/video-223002264_456239057)
 - Часть II. Фильтры. Поля. Атрибуты: [Telegram](https://t.me/signal_docs/259) [YouTube](https://youtu.be/FnXnPphpW18)	[Rutube](https://rutube.ru/video/711c787788f1e03131a05563ba28599c/) [VK](https://vkvideo.ru/video-223002264_456239058)
 - Часть III. Работа с PDF: [Telegram](https://t.me/signal_docs/284) [YouTube](https://youtu.be/APrrvpOYETM)	[Rutube](https://rutube.ru/video/6c121c69bdea591e00e8cee06e5cbdc1/) [VK](https://vkvideo.ru/video-223002264_456239070)
@@ -45,7 +45,7 @@ dateCreated: 2025-09-09T07:18:56.688Z
 - Часть V. Замечания в различных файлах: [Telegram](https://t.me/signal_docs/305) [YouTube](https://youtu.be/yON9Jtl_ifg)	[Rutube](https://rutube.ru/video/5adeaf2ce0acb999e8ff5b2568b5e6a8/) [VK](https://vkvideo.ru/video-223002264_456239085)
 - Часть VI. Работа с BIM моделями: [Telegram](https://t.me/signal_docs/316)
   
-## Видеоинструкции для администратора
+## 4. Видеоинструкции для администратора
 - Часть I. Создание проекта, добавление пользователей, права доступа к папкам, добавление и удаление файлов: [Telegram](https://t.me/signal_docs/194) [YouTube](https://youtu.be/QwunTC_lYDo?si=KzwE04tc3VoZgmfk)	[Rutube](https://rutube.ru/video/328b9099b6b7bea60e0235993cab47ab/?r=wd) [VK](https://vk.com/wall-223002264_13)
 - Часть II. Замечания и атрибуты: [Telegram](https://t.me/signal_docs/198) [YouTube](https://youtu.be/0ki2I6Tl2KE)	[Rutube](https://rutube.ru/video/ff98be6edbe568e45ddec40a0ebce695/) [VK](https://vk.com/wall-223002264_14)
 - Часть III. Ролевые доступы замечаний: [Telegram](https://t.me/signal_docs/208) [YouTube](https://youtu.be/X0aCckILkgc)	[Rutube](https://rutube.ru/video/df489d86a1ea6129a017b0d04bba640a/) [VK](https://vk.com/wall-223002264_19)
