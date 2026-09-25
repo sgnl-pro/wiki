@@ -2,7 +2,7 @@
 title: FORMS. Генерация документов
 description: 
 published: true
-date: 2026-09-22T06:44:38.892Z
+date: 2026-09-25T05:21:07.154Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
@@ -143,11 +143,11 @@ Email автора | `{{_form.createdBy.email}}` | `i.ivanov@example.com`
 Кто изменил, полное имя | `{{_form.modifiedBy.fullName}}` | `Петров П.П.`
 Кто изменил, краткое имя | `{{_form.modifiedBy.shortName}}` | `Петров П.П.`
 Email последнего редактора | `{{_form.modifiedBy.email}}` | `p.petrov@example.com`
-Ответственный этапа N | `{{_stage.N.responsible.fullName}}` | `Сидоров С.С.`
-Кто завершил этап N | `{{_stage.N.completedBy.fullName}}` | `Сидоров С.С.`
-Комментарий этапа N | `{{_stage.N.comment}}` | *Всё выполнено*
-Дата и время завершения этапа N | `{{_stage.N.completedAt}}` | `15.08.2026 14:30`
-Дата завершения этапа N | `{{_stage.N.completedAtOnlyDate}}` | `15.08.2026`
+Ответственный этапа N | `{{_stageN.responsible.fullName}}` | `Сидоров С.С.`
+Кто завершил этап N | `{{_stageN.completedBy.fullName}}` | `Сидоров С.С.`
+Комментарий этапа N | `{{_stageN.comment}}` | *Всё выполнено*
+Дата и время завершения этапа N | `{{_stageN.completedAt}}` | `15.08.2026 14:30`
+Дата завершения этапа N | `{{_stageN.completedAtOnlyDate}}` | `15.08.2026`
 Текущая дата при генерации | `{{_nowOnlyDate}}` | `17.08.2026`
 Текущие дата и время | `{{_now}}` | `17.08.2026 12:00`
 
