@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-26T10:40:40.422Z
+date: 2026-09-26T11:04:38.946Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -12,7 +12,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ---
 
-> Показываем основные направления развития и заметные выпущенные возможности SIGNAL. Статус «В работе» означает, что работа над направлением уже началась, отдельные возможности могут выходить поэтапно. Сроки в «Планах» — ориентиры команды и могут меняться. Для ранних обновлений без номера релиза рядом со статусом указана дата новости в канале.
+> Показываем основные направления развития и заметные выпущенные возможности SIGNAL. Статус «В работе» означает, что работа над направлением уже началась, отдельные возможности могут выходить поэтапно. Сроки в «Планах» — ориентиры команды и могут меняться.
 {.is-info}
 
 # Модули{.tabset}
@@ -76,6 +76,12 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Замещение сотрудников</strong>
     <p style="color:#64748b;margin:8px 0 0;">Назначение заместителей на время отпуска.</p>
+  </div>
+<!-- Tracker: HUB-517 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Обновление нормативных документов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Обновление справочника НТД из базы нормативных документов.</p>
   </div>
 </div>
 
@@ -178,7 +184,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Таблица пользователей</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили сортировку, изменение ширины столбцов и улучшили поиск в проектах.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 81 (15.08.2025); Asana; 1207169535975946 [2025.22 (07.08.2025)] -->
+<!-- Asana: 1207169535975946 [2025.22] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.22</span></div>
     <strong>Журнал действий пользователей</strong>
@@ -189,7 +195,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 48 (21.05.2025); Asana; 1210010246876794 [2025.13 (15.05.2025)] -->
+<!-- Asana: 1210010246876794 [2025.13] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.13</span></div>
     <strong>Корпоративный вход через SSO</strong>
@@ -200,19 +206,19 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 34 (24.03.2025); Asana; 1209148128651540 [2025.07], 1209115937318023 [2025.07] -->
+<!-- Asana: 1209148128651540 [2025.07], 1209115937318023 [2025.07] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.7</span></div>
     <strong>Уведомления в Telegram</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили привязку Telegram к профилю и получение уведомлений HUB и DOCS в мессенджере; почтовые уведомления можно отключить.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 14 (05.02.2025); Asana; 1208648074893147 [2025.03] -->
+<!-- Asana: 1208648074893147 [2025.03] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.3</span></div>
     <strong>Назначение пользователей в проекты</strong>
     <p style="color:#64748b;margin:8px 0 0;">В таблице пользователей появился столбец для быстрого добавления сотрудника в разные проекты.</p>
   </div>
-<!-- Источник: Asana; 1209123479521350 [2025.02] -->
+<!-- Asana: 1209123479521350 [2025.02] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.2</span></div>
     <strong>Архив проектов компании</strong>
@@ -223,9 +229,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/161; https://sgnl.pro/news/dev-digest-Q2-2024/ -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://sgnl.pro/news/dev-digest-Q2-2024/">II квартал 2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Экспорт пользователей и ролей в Excel</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили выгрузку пользователей компании с проектами и назначенными в них ролями.</p>
   </div>
@@ -234,9 +239,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2023</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/98 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/98">13.11.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Импорт пользователей из Excel</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили пакетное создание пользователей из Excel с заданными или автоматически сгенерированными паролями.</p>
   </div>
@@ -245,9 +249,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2023</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/69 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/69">19.09.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Единый вход и управление сервисами через HUB</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили собственную авторизацию SIGNAL и администрирование веб-сервисов через HUB.</p>
   </div>
@@ -278,11 +281,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>ИИ-проверка документов и работа с моделями</strong>
     <p style="color:#64748b;margin:8px 0 0;">Проверка файлов с помощью ИИ и ответы на вопросы по свойствам и составу BIM-моделей.</p>
   </div>
-<!-- Tracker: DOCS-415, DOCS-996 -->
+<!-- Tracker: DOCS-415, DOCS-996, DOCS-997 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>ИИ-поиск и краткое содержание</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Поиск по именам и содержимому файлов и подготовка краткого содержания документов.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Поиск по именам и содержимому файлов и подготовка краткого содержания одного документа или набора файлов.</p>
   </div>
 <!-- Tracker: DOCS-327, DOCS-369, DOCS-2031, DOCS-2289, DOCS-1246, DOCS-371 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
@@ -290,17 +293,17 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Обновление DOCS Disk и мобильного DOCS</strong>
     <p style="color:#64748b;margin:8px 0 0;">Новая версия DOCS Disk, кеширование замечаний, открытие офисных файлов и обмен ссылками с мобильного устройства.</p>
   </div>
-<!-- Tracker: DOCS-2003, DOCS-538, DOCS-1189, DOCS-957 -->
+<!-- Tracker: DOCS-2003, DOCS-538, DOCS-1189, DOCS-957, DOCS-545, DOCS-435, DOCS-2139 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Автозаполнение и массовая работа с замечаниями</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Подсказки при заполнении, создание замечания на несколько файлов, массовое изменение типа и даты устранения.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Подсказки и шаблоны заполнения, значения и статус по умолчанию, замечание на несколько файлов, массовое изменение типа и даты устранения.</p>
   </div>
-<!-- Tracker: DOCS-2358, DOCS-2112, DOCS-2119, DOCS-2034 -->
+<!-- Tracker: DOCS-2358, DOCS-2112, DOCS-2119, DOCS-2034, DOCS-1888, DOCS-2030, DOCS-557, DOCS-337 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>SIGNAL Viewer: сборки и работа с моделью</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Сборки в браузерном просмотрщике, изоляция элементов, улучшенная навигация и пакетная обработка моделей.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Сборки в браузерном просмотрщике и из связанных DWG, комментарии и простой просмотр, группировка дерева, изоляция элементов и пакетная обработка моделей.</p>
   </div>
 <!-- Tracker: DOCS-2164, DOCS-1887, DOCS-1890, DOCS-1891, DOCS-1889 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -308,11 +311,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>SIGNAL Viewer: проверка и сравнение</strong>
     <p style="color:#64748b;margin:8px 0 0;">Просмотр коллизий из Navisworks, сравнение моделей, обход от первого лица, оси и подрезка по этажам.</p>
   </div>
-<!-- Tracker: DOCS-278, DOCS-522, DOCS-523 -->
+<!-- Tracker: DOCS-278, DOCS-522, DOCS-523, DOCS-2085 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Защита файлов и публичных ссылок</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Ручная блокировка файлов, ограничение круга создателей публичных ссылок и защита ссылок паролем.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Ручная блокировка файлов и блокировка в процессе согласования, ограничение круга создателей публичных ссылок и защита ссылок паролем.</p>
   </div>
 <!-- Tracker: DOCS-407, DOCS-396, DOCS-397, DOCS-398, DOCS-554, DOCS-966, DOCS-1290 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -320,23 +323,89 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Сравнение PDF</strong>
     <p style="color:#64748b;margin:8px 0 0;">Наложение и раздельное отображение версий, сохранение положения листов и улучшенное управление совмещением.</p>
   </div>
-<!-- Tracker: DOCS-2159, DOCS-423, DOCS-584, DOCS-1874, DOCS-2487 -->
+<!-- Tracker: DOCS-2159, DOCS-423, DOCS-584, DOCS-1874, DOCS-2487, DOCS-1291 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Настройка комплектов и этапов согласования</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Вспомогательные файлы в комплекте, настройка штампов, чек-листы на этапах и маршруты по их значениям.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Настройка состава комплекта и вспомогательных файлов, штампов, чек-листов на этапах и маршрутов по их значениям.</p>
   </div>
-<!-- Tracker: DOCS-742, DOCS-2162, DOCS-2498, DOCS-1313 -->
+<!-- Tracker: DOCS-742, DOCS-2162, DOCS-2498, DOCS-1313, DOCS-419, DOCS-514, DOCS-437, DOCS-354, DOCS-1312 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Развитие передач</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Несколько внешних получателей, отправка компаниям из HUB, комментарии к передаче и переходы между передачей и согласованием.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Передачи между компаниями DOCS и внешним получателям, акты по шаблонам, приёмка без акта, просмотр переданных файлов, журнал событий и уведомления.</p>
   </div>
-<!-- Tracker: DOCS-409, DOCS-410 -->
+<!-- Tracker: DOCS-409, DOCS-410, DOCS-2141, DOCS-547 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Обсуждения в замечаниях</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Отдельные пользовательские комментарии и ответы в журнале событий замечания.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Отдельные пользовательские комментарии, ответы и вложения в обсуждении; общие замечания к комплекту согласования.</p>
+  </div>
+<!-- Tracker: DOCS-2039, DOCS-2157, DOCS-1550, DOCS-1176, DOCS-2038 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Атрибуты файлов и справочники компании</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Атрибуты из справочников и структуры объекта, обязательные значения, пакетное заполнение и расширение прав на изменение атрибутов файлов.</p>
+  </div>
+<!-- Tracker: DOCS-2151, DOCS-1629, DOCS-963 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Работа с офисными документами</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Сравнение версий в Collabora, расширение прав редактирования и поддержка встроенных шрифтов.</p>
+  </div>
+<!-- Tracker: DOCS-451, DOCS-422 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Журналы событий и чат проекта</strong>
+    <p style="color:#64748b;margin:8px 0 0;">История изменений файлов и папок, журнал событий и обсуждения на уровне проекта.</p>
+  </div>
+<!-- Tracker: DOCS-537, DOCS-1177, DOCS-561 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Избранное и актуальность документов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Быстрый доступ к избранным объектам, сроки документов с напоминаниями и проверка актуальности ссылок на нормативные документы.</p>
+  </div>
+<!-- Tracker: DOCS-2280, DOCS-432, DOCS-428, DOCS-1311 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
+    <strong>Экспорт замечаний и передач</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Комментарии и журнал замечания в отчётах, статусы документов комплекта, история передачи и исходный комплект в PDF.</p>
+  </div>
+<!-- Tracker: DOCS-439, DOCS-438 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Публикация листов Revit</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Выбор листов, папок и правил именования при публикации, специальный статус PDF-листов, сформированных из Revit.</p>
+  </div>
+<!-- Tracker: DOCS-737, DOCS-399, DOCS-1403 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Подготовка и перенос PDF-пометок</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Объединение листов при скачивании, копирование пометок между листами и дополнительные способы их смещения.</p>
+  </div>
+<!-- Tracker: DOCS-2126 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
+    <strong>Конвертация на серверах компании</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Подготовка DesktopConverter для установки SIGNAL на инфраструктуре заказчика.</p>
+  </div>
+<!-- Tracker: DOCS-1185, DOCS-743, DOCS-744 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Перенос настроек между проектами</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Копирование типов замечаний и согласований без совпадения имён, перенос настроек передач из другого проекта.</p>
+  </div>
+<!-- Tracker: DOCS-395 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Сравнение DWF и DWFX</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Сравнение версий документов в форматах DWF и DWFX.</p>
+  </div>
+<!-- Tracker: DOCS-1604 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Ручные подписи в передачах и PDF</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Ручная подпись актов передачи, выбор листов для подписания и распространение подписи на другие листы документа.</p>
   </div>
 </div>
 
@@ -348,6 +417,90 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Модель, документы и аналитика</strong>
     <p style="color:#64748b;margin:8px 0 0;">Документы, прикреплённые к элементам модели, раскраска по статусам замечаний и интеграция SIGNAL Viewer с Power BI.</p>
+  </div>
+<!-- Tracker: DOCS-1240, DOCS-2161, DOCS-442 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Лента уведомлений и подписки</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Лента уведомлений по проектам, подписка на отдельные файлы и управление подписками участников на папки.</p>
+  </div>
+<!-- Tracker: DOCS-2290, DOCS-350, DOCS-1220, DOCS-2037 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Свои фильтры и настройки таблиц</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Пользовательские быстрые фильтры, сохранение фильтрации и наборы столбцов для компании, проекта и папки.</p>
+  </div>
+<!-- Tracker: DOCS-551, DOCS-1871, DOCS-433 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Статусы и права в замечаниях</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Настройка доступных переходов между статусами для автора и ответственного, расширение прав на редактирование замечаний.</p>
+  </div>
+<!-- Tracker: DOCS-391, DOCS-1192, DOCS-549, DOCS-2402 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Инструменты пометок</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Выделение текста в PDF, сохранение измерений как пометок, выбор цветов и настройка доступных инструментов на проекте.</p>
+  </div>
+<!-- Tracker: DOCS-375, DOCS-429, DOCS-430, DOCS-431 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Экспорт замечаний с комментариями и QR</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Выгрузка дополнительных данных, комментариев и сведений о листах в PDF и XLSX; QR-коды для перехода к замечанию.</p>
+  </div>
+<!-- Tracker: DOCS-2158, DOCS-2262, DOCS-1862 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Ветвление и правила согласования</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Ветки с этапами второго уровня, допустимые статусы файлов на этапах и закрытие связанных замечаний при завершении этапа.</p>
+  </div>
+<!-- Tracker: DOCS-1875, DOCS-1876, DOCS-235 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Копирование согласованных файлов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Выбор файлов для копирования, распределение по разным папкам и поддержка относительных путей структуры.</p>
+  </div>
+<!-- Tracker: DOCS-569, DOCS-1867, DOCS-2260, DOCS-1866 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Больше данных в реестре согласований</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Новые версии файлов, количество замечаний, последние комментарии и быстрый отбор комплектов, которые пользователь согласовывал.</p>
+  </div>
+<!-- Tracker: DOCS-2150, DOCS-338 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Экспорт и актуальность передач</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Выгрузка реестра передач в XLSX вместе с файлами и индикация новых версий переданных документов.</p>
+  </div>
+<!-- Tracker: DOCS-1817, DOCS-560 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Создание офисных файлов и просмотр HTML</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Создание документов во встроенном редакторе Collabora и отображение HTML-файлов в DOCS.</p>
+  </div>
+<!-- Tracker: DOCS-1857, DOCS-1455, DOCS-1380 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Публичные ссылки и доступы к папкам</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Публикация выбранной части папки, экспорт прав доступа в XLSX и восстановление файлов пользователями с правом редактирования.</p>
+  </div>
+<!-- Tracker: DOCS-2142, DOCS-1175, DOCS-393, DOCS-2291 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Сравнение моделей и создание сборок</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Просмотр изменений параметров, настройка цветов и видимости элементов при сравнении; создание сборок из выбранных файлов.</p>
+  </div>
+<!-- Tracker: DOCS-420 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Личные папки пользователей</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Автоматическое создание личной папки пользователя в выбранном проекте с назначением прав на редактирование.</p>
+  </div>
+<!-- Tracker: DOCS-2403, DOCS-852 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Страницы и версии PDF</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Ссылки на конкретную страницу PDF и временное скрытие одной из версий при сравнении.</p>
   </div>
 </div>
 
@@ -607,25 +760,25 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Импорт настроек и штампование</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили обновление типов замечаний и согласований из другого проекта и вывод сведений о файле в штампе.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 71 (15.07.2025), 88 (22.08.2025); Asana; 1209523512766163 [2025.19 (14.07.2025)], 1210614201647499 [2025.24 (21.08.2025)] -->
+<!-- Asana: 1209523512766163 [2025.19], 1210614201647499 [2025.24] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.19 · 2025.24</span></div>
     <strong>Копирование и цветовые метки папок</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили копирование структуры папок без файлов и цветовые индикаторы для навигации по документам.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 81 (15.08.2025), 88 (22.08.2025); Asana; 1207889800234202 [2025.23 (14.08.2025)], 1209967757861159 [2025.24 (21.08.2025)] -->
+<!-- Asana: 1207889800234202 [2025.23], 1209967757861159 [2025.24] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.23 · 2025.24</span></div>
     <strong>Ссылки и ограничения отмены согласования</strong>
     <p style="color:#64748b;margin:8px 0 0;">В комплект можно добавлять ссылки как дополнительные материалы. В типе согласования появились ограничения отмены для инициатора и ответственного.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 71 (15.07.2025), 81 (15.08.2025); Asana; 1210451525245362 [2025.19 (14.07.2025)], 1209115937317916 [2025.23 (14.08.2025)], 1209157087591264 [2025.23 (14.08.2025)] -->
+<!-- Asana: 1210451525245362 [2025.19], 1209115937317916 [2025.23], 1209157087591264 [2025.23] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.19 · 2025.23</span></div>
     <strong>Настройки и редактирование передач</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили типы передач с настройкой доступов, акта и электронной подписи, корзину пакетов и редактирование отклонённых передач.</p>
   </div>
-<!-- Источник: Asana; 1210613753966035 [2025.20 (21.07.2025)] -->
+<!-- Asana: 1210613753966035 [2025.20] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.20</span></div>
     <strong>Текстовые файлы по публичной ссылке</strong>
@@ -636,49 +789,49 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 60 (20.06.2025); Asana; 1209523512766168 [2025.16 (19.06.2025)] -->
+<!-- Asana: 1209523512766168 [2025.16] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.16</span></div>
     <strong>Копирование типов замечаний и согласований</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили дублирование типов замечаний и согласований с сохранением настроек.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 60 (20.06.2025); Asana; 1207576140137474 [2025.16 (19.06.2025)] -->
+<!-- Asana: 1207576140137474 [2025.16] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.16</span></div>
     <strong>Упоминания в комментариях</strong>
     <p style="color:#64748b;margin:8px 0 0;">В комментариях к замечаниям появились упоминания пользователей и ролей через @.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 52 (27.05.2025); Asana; 1209595133665315 [2025.14 (22.05.2025)] -->
+<!-- Asana: 1209595133665315 [2025.14] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.14</span></div>
     <strong>Текстовые документы и Markdown</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили просмотр и редактирование TXT и форматированное отображение README.md с заголовками, списками и выделением текста.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 37 (04.04.2025), 52 (27.05.2025); Asana; 1209554040853678 [2025.09], 1209699111848230 [2025.09], 1209341618277422 [2025.14 (22.05.2025)], 1210110068752534 [2025.14 (22.05.2025)], 1209699112929828 [2025.14 (22.05.2025)] -->
+<!-- Asana: 1209554040853678 [2025.09], 1209699111848230 [2025.09], 1209341618277422 [2025.14], 1210110068752534 [2025.14], 1209699112929828 [2025.14] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.9 · 2025.14</span></div>
     <strong>Экспорт реестра передач</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили экспорт передач в Excel с номером договора; затем дополнили выгрузку статусом и компаниями отправителя и получателя.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 48 (21.05.2025); Asana; 1209554037245908 [2025.13 (15.05.2025)] -->
+<!-- Asana: 1209554037245908 [2025.13] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.13</span></div>
     <strong>Передача согласованных файлов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Из завершённого комплекта согласования можно создать пакет передачи с согласованными файлами.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 44 (13.05.2025); Asana; 1209825515789324 [2025.12 (12.05.2025)], 1209148128651719 [2025.12 (12.05.2025)] -->
+<!-- Asana: 1209825515789324 [2025.12], 1209148128651719 [2025.12] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.12</span></div>
     <strong>Быстрые фильтры замечаний и согласований</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили быстрый поиск своих задач, просроченных замечаний и комплектов с недавними изменениями.</p>
   </div>
-<!-- Источник: Asana; 1209694588922791 [2025.11] -->
+<!-- Asana: 1209694588922791 [2025.11] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.11</span></div>
     <strong>PDF с фильтрами и ссылкой на реестр замечаний</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили выгрузку в PDF списка применённых фильтров и QR-кода для перехода к отфильтрованному реестру замечаний.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 37 (04.04.2025); Asana; 1209157087591097 [2025.09], 1209157086828604 [2025.09] -->
+<!-- Asana: 1209157087591097 [2025.09], 1209157086828604 [2025.09] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.9</span></div>
     <strong>Сроки параллельных этапов и уведомления</strong>
@@ -689,49 +842,48 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Asana; 1209340388207282 [2025.08] -->
+<!-- Asana: 1209340388207282 [2025.08] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.8</span></div>
     <strong>Сравнение графиков MPP по коду</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили сравнение графиков MPP по коду.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 28 (24.03.2025); Asana; 1206947879964927 [2025.07], 1209148128651755 [2025.07] -->
+<!-- Asana: 1206947879964927 [2025.07], 1209148128651755 [2025.07] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.7</span></div>
     <strong>Сборки моделей и интеграция с Tangl</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили сборки моделей и открытие сконвертированной модели в Tangl Value и Tangl Control.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 23 (21.02.2025), 28 (24.03.2025); Asana; 1209000957844103 [2025.06], 1209148128651555 [2025.06], 1209341617273439 [2025.07], 1208803591644532 [2025.07] -->
+<!-- Asana: 1209000957844103 [2025.06], 1209148128651555 [2025.06], 1209341617273439 [2025.07], 1208803591644532 [2025.07] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.6 · 2025.7</span></div>
     <strong>Настройка замечаний и пометок</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили цвет пометки по статусу, обязательный комментарий при смене статуса, обязательную пометку для PDF и замену прикреплённого файла.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 28 (24.03.2025); Asana; 1209135107278497 [2025.07] -->
+<!-- Asana: 1209135107278497 [2025.07] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.7</span></div>
     <strong>Права доступа к настройкам DOCS</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили настройку прав доступа к разделам настроек DOCS.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 3 (05.02.2025), 21 (18.02.2025) -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 05.02.2025 · 18.02.2025</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Загрузка файлов через DOCS Disk</strong>
     <p style="color:#64748b;margin:8px 0 0;">Расширили работу DOCS Disk: добавили загрузку файлов из приложения и отслеживание перемещения и переименования папок Windows.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 15 (07.02.2025), 18 (14.02.2025); Asana; 1208679990828168 [2025.04], 1209135108254025 [2025.05] -->
+<!-- Asana: 1208679990828168 [2025.04], 1209135108254025 [2025.05] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.4 · 2025.5</span></div>
     <strong>Комментарии к версиям и проверка дублей</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили комментарии к версиям файлов и предупреждение о возможном дублировании при загрузке.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 18 (14.02.2025); Asana; 1208835606941767 [2025.05] -->
+<!-- Asana: 1208835606941767 [2025.05] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.5</span></div>
     <strong>Сохранение структуры проекта в S3</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили сохранение структуры DOCS по расписанию в S3 для последующего восстановления папочной структуры.</p>
   </div>
-<!-- Источник: Asana; 1209123479521277 [2025.01] -->
+<!-- Asana: 1209123479521277 [2025.01] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.1</span></div>
     <strong>Экспорт замечаний из комплекта согласования</strong>
@@ -742,39 +894,33 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/228 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/228">24.12.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Пакеты передачи документации</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили передачу комплекта документов с формированием акта, электронными подписями сторон и фиксацией состава переданных файлов.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/210; https://t.me/signal_docs/226 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/210">22.11.2024</a> · <a href="https://t.me/signal_docs/226">20.12.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Фильтры и экспорт замечаний в PDF</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили экспорт реестра замечаний в PDF, фильтры по пользовательским атрибутам и отбор замечаний по версии документа.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/224 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/224">12.12.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Мобильное приложение с офлайн-просмотром</strong>
     <p style="color:#64748b;margin:8px 0 0;">Выпустили мобильное приложение с предварительной загрузкой PDF и изображений для просмотра без интернета.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/213 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/213">27.11.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Пометки в Forge Viewer</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили графические пометки к замечаниям на 3D-видах и двумерных листах с сохранением изображения.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/199; https://t.me/signal_docs/203 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/199">16.10.2024</a> · <a href="https://t.me/signal_docs/203">05.11.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Встроенная подпись PDF и статусы файлов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили электронную подпись внутри PDF и возможность аннулировать статус согласования и QR-код отдельного файла без отмены всего согласования.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/201 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/201">31.10.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Ролевые права на замечания и согласования</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили настройку прав просмотра, создания и редактирования для каждого типа замечаний и согласований по ролям проекта.</p>
   </div>
@@ -783,21 +929,18 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/192 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/192">19.09.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Сравнение версий графиков MPP</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили сравнение версий графиков Microsoft Project.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/166; https://t.me/signal_docs/173 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/166">25.07.2024</a> · <a href="https://t.me/signal_docs/173">09.08.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Шаблоны проектов и рабочий календарь</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили создание проекта с переносом структуры папок, доступов и настроек из шаблона, а также календарь рабочих и выходных дней для согласований.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/160; https://t.me/signal_docs/163 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/160">04.07.2024</a> · <a href="https://t.me/signal_docs/163">11.07.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Атрибуты файлов и папок</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили пользовательские атрибуты для файлов и папок и редактирование значений из реестров.</p>
   </div>
@@ -806,27 +949,23 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/143; https://t.me/signal_docs/156 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/143">07.05.2024</a> · <a href="https://t.me/signal_docs/156">18.06.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Импорт комплектов и замечания в согласованиях</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили импорт комплектов согласований из Excel и отображение активных замечаний из входящих в комплект файлов.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/143 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/143">07.05.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Просмотр графиков Microsoft Project</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили открытие графиков MPP непосредственно в DOCS, включая просмотр со смартфона.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/141 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/141">19.04.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Замечания к элементам BIM-модели</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили привязку замечаний к выбранным элементам BIM-модели.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/137 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/137">10.04.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Первый выпуск DOCS Disk</strong>
     <p style="color:#64748b;margin:8px 0 0;">Выпустили приложение для работы с документами DOCS в программах на компьютере и синхронизации изменённых файлов.</p>
   </div>
@@ -835,21 +974,18 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/128; https://t.me/signal_docs/133 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/128">12.03.2024</a> · <a href="https://t.me/signal_docs/133">28.03.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Просмотр офисных документов и сравнение PDF</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили просмотр DOCX и XLSX, сравнение PDF и совмещение разных листов с масштабированием.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/132 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/132">26.03.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Просмотр IFC через Tangl</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили Tangl Viewer для просмотра IFC-моделей и выбор просмотрщика в настройках проекта.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/128 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/128">12.03.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Перезапуск и календарь согласований</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили повторный запуск согласования с обновлением файлов до последних версий и календарь этапов в реестре.</p>
   </div>
@@ -858,27 +994,23 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2023</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/108 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/108">27.12.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Комплекты согласований с подписью и QR-кодом</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили согласование комплектов документации, электронную подпись, QR-коды и копирование согласованных файлов с сохранением структуры папок.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/80; https://t.me/signal_docs/104 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/80">23.10.2023</a> · <a href="https://t.me/signal_docs/104">08.12.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Просмотр и сравнение BIM-моделей</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили просмотр BIM- и CAD-форматов через Forge и сравнение версий модели с отслеживанием изменений.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/79 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/79">17.10.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Публичные ссылки на файлы и папки</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили обмен файлами и папками по ссылке с просмотром в браузере и единым реестром опубликованных ссылок.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/76 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/76">05.10.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Замечания с пометками и атрибутами</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили замечания с вложениями, графическими пометками и настраиваемыми атрибутами; замечания можно создавать к файлу или из реестра.</p>
   </div>
@@ -887,9 +1019,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2023</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/60 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/60">02.08.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Выбор хранилища для проекта</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили подключение собственного S3-хранилища для файлов проекта.</p>
   </div>
@@ -920,17 +1051,17 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Генерация и подписание документов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Создание PDF по заполненной форме, подписание результата и расширение данных связанных объектов в шаблонах DOCX.</p>
   </div>
-<!-- Tracker: ID-384, ID-152, ID-344, ID-386 -->
+<!-- Tracker: ID-384, ID-152, ID-344, ID-386, ID-186 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Связи между формами и замечаниями</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Подстановка созданной формы или замечания в поле-источник, переходы по связям и копирование значений между формами.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Подстановка созданной формы или замечания в поле-источник, переходы и схема связей, копирование значений между формами.</p>
   </div>
-<!-- Tracker: ID-298, ID-299, ID-361, ID-360, ID-365, ID-404 -->
+<!-- Tracker: ID-298, ID-299, ID-361, ID-360, ID-365, ID-404, ID-296, ID-364 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Гибкие этапы и ответственные</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Назначение по условиям, ограниченные списки исполнителей, наблюдатели этапа, уведомления о просрочке и отклонение формы.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Назначение по условиям, наблюдатели и ограниченные списки исполнителей, уведомления о просрочке, запрос переноса срока, настройка статусов этапов и отклонение формы.</p>
   </div>
 <!-- Tracker: ID-180, ID-182, ID-391, ID-395, ID-177, ID-351, ID-123 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -967,6 +1098,18 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Заполнение с помощью ИИ</strong>
     <p style="color:#64748b;margin:8px 0 0;">Заполнение формы по документу или изображению и голосовой ввод данных.</p>
+  </div>
+<!-- Tracker: ID-191, ID-401, ID-283 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Повторное использование форм</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Конструктор на уровне компании, копирование экземпляров форм и перенос типов форм вместе с проектом.</p>
+  </div>
+<!-- Tracker: ID-405, ID-247 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>История полей и доступы контрагентов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Просмотр и восстановление значений отдельного поля, настройка доступа к формам на просмотр в рамках контрагента.</p>
   </div>
 </div>
 
@@ -1059,11 +1202,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Tracker: DASH-74, DASH-445 -->
+<!-- Tracker: DASH-74, DASH-445, DASH-454, DASH-124 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Работа с 3D-карточками</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Сохранение состояния карточек при изменении модели и отдельные снимки модели для отчётов.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Сохранение состояния при изменении модели, отдельные снимки для отчётов, выбор источника массы и обновление факта по модели.</p>
   </div>
 <!-- Tracker: DASH-91, DASH-81, DASH-411 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -1076,6 +1219,35 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Экспорт отчётов и карточек</strong>
     <p style="color:#64748b;margin:8px 0 0;">Выгрузка развёрнутых карточек в PDF и PPTX и экспорт отдельной карточки в XLSX.</p>
+  </div>
+<!-- Tracker: DASH-444 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>План-факт из ресурсов MPP</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Расчёт плановых объёмов в карточке план-факта по ресурсам графика Microsoft Project.</p>
+  </div>
+</div>
+
+<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
+<!-- Tracker: DASH-77 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Мои согласования по всем проектам</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Сводная таблица согласований, ожидающих действий пользователя, в отчёте компании.</p>
+  </div>
+<!-- Tracker: DASH-45 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Аналитика INSPECTION</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Карточки DASHBOARD по данным INSPECTION.</p>
+  </div>
+<!-- Tracker: DASH-452 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Ручные данные в план-факте MPP</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Дополнение данных графика ручными строками плана и факта с их сохранением при обновлении MPP.</p>
   </div>
 </div>
 
@@ -1192,25 +1364,25 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Карточка 67 и экспорт</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили процент выполнения и экспорт данных карточки в Excel.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 88 (22.08.2025); Asana; 1209148128651693 [2025.24 (21.08.2025)], 1210842815866332 [2025.24 (21.08.2025)] -->
+<!-- Asana: 1209148128651693 [2025.24], 1210842815866332 [2025.24] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.24</span></div>
     <strong>Персональные отчёты и отчёты компании</strong>
     <p style="color:#64748b;margin:8px 0 0;">К отчёту проекта добавили персональную аналитику и отчёт компании с доступом по ролям, а также выгрузку снимков карточек.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 81 (15.08.2025); Asana; 1210854211994215 [2025.22 (07.08.2025)], 1210420250614296 [2025.22 (07.08.2025)] -->
+<!-- Asana: 1210854211994215 [2025.22], 1210420250614296 [2025.22] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.22</span></div>
     <strong>Динамика замечаний и прогноз объёмов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Обновили карточку динамики замечаний DOCS и добавили карточку план-факт по объёмам с прогнозом.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 76 (29.07.2025); Asana; 1210716456112935 [2025.21 (28.07.2025)] -->
+<!-- Asana: 1210716456112935 [2025.21] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.21</span></div>
     <strong>3D-карточка с цветами</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили карточку «52_3D Цвета» для представления модели с раскраской элементов.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 68 (04.07.2025); Asana; 1210470463472883 [2025.18 (03.07.2025)] -->
+<!-- Asana: 1210470463472883 [2025.18] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.18</span></div>
     <strong>План-факт и сравнение графиков MPP</strong>
@@ -1221,13 +1393,13 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 60 (20.06.2025); Asana; 1209679737760155 [2025.16 (19.06.2025)] -->
+<!-- Asana: 1209679737760155 [2025.16] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.16</span></div>
     <strong>Оповещения о публикации отчётов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили выбор получателей уведомлений о публикации отчёта в настройках проекта.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 66 (26.06.2025); Asana; 1209640905587583 [2025.11], 1209640905587600 [2025.11] -->
+<!-- Asana: 1209640905587583 [2025.11], 1209640905587600 [2025.11] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.11</span></div>
     <strong>Контроль сроков согласования по SLA</strong>
@@ -1238,13 +1410,13 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 36 (24.03.2025); Asana; 1209338695185241 [2025.07] -->
+<!-- Asana: 1209338695185241 [2025.07] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.7</span></div>
     <strong>Экспорт отчётов в Word</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили экспорт в DOCX для карточек рисков и согласований DOCS.</p>
   </div>
-<!-- Источник: Лог разработки SIGNAL; сообщения 8 (05.02.2025); Asana; 1209115937317806 [2025.03] -->
+<!-- Asana: 1209115937317806 [2025.03] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.3</span></div>
     <strong>Свободная компоновка отчётов</strong>
@@ -1255,9 +1427,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/189 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/189">18.09.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Раздел «Онлайн» и ссылки на карточки</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили отчёты с автоматическим обновлением данных, отдельные ссылки на карточки и редактирование раздела «Онлайн» с мобильного устройства.</p>
   </div>
@@ -1266,15 +1437,13 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/161; https://sgnl.pro/news/dev-digest-Q2-2024/ -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://sgnl.pro/news/dev-digest-Q2-2024/">II квартал 2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Графики MPP с вехами из DOCS</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили карточки календарного графика из MPP-файла в DOCS, включая представление с ключевыми вехами.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/148 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/148">21.05.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Аналитика согласований DOCS</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили карточки общей статистики, динамики и реестра согласований с отображением опережения и просрочки.</p>
   </div>
@@ -1283,9 +1452,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2023</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/51 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/51">17.07.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Данные для отчётов из Google Таблиц</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили получение данных карточек из Google Таблиц при обновлении отчёта.</p>
   </div>
@@ -1294,9 +1462,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2021</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/8 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/8">09.02.2021</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Графики, план-факт и финансовая динамика</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили карточки графика Microsoft Project, сравнения плановой и фактической моделей и помесячных выплат.</p>
   </div>
@@ -1319,7 +1486,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 68 (04.07.2025); Asana; 1209694070192380 [2025.18 (03.07.2025)] -->
+<!-- Asana: 1209694070192380 [2025.18] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.18</span></div>
     <strong>Оповещения о новых фотографиях</strong>
@@ -1330,7 +1497,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 60 (20.06.2025); Asana; 1209842109784748 [2025.16 (19.06.2025)] -->
+<!-- Asana: 1209842109784748 [2025.16] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.16</span></div>
     <strong>Корзина объектов фотосъёмки</strong>
@@ -1341,7 +1508,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: Лог разработки SIGNAL; сообщения 5 (05.02.2025); Asana; 1208988186570663 [2025.03], 1209115937317645 [2025.03] -->
+<!-- Asana: 1208988186570663 [2025.03], 1209115937317645 [2025.03] -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : 2025.3</span></div>
     <strong>Статусы точек и даты фотографий</strong>
@@ -1406,6 +1573,12 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Серверная обработка и конвертация</strong>
     <p style="color:#64748b;margin:8px 0 0;">Развитие серверной обработки из Revit и Navisworks, конвертация DWG и моделей Renga.</p>
   </div>
+<!-- Tracker: TOOLS-155 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Плагины для AutoCAD LT</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Поддержка SIGNAL TOOLS для AutoCAD LT 2027.</p>
+  </div>
 </div>
 
 <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
@@ -1455,9 +1628,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/168 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/168">06.08.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Работы и замечания DOCS на элементах модели</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили отметку нескольких работ на одном элементе, прикрепление замечаний DOCS и их пакетный импорт из модели с обновлением статусов.</p>
   </div>
@@ -1466,9 +1638,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/130 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/130">14.03.2024</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Перенос свойств между версиями модели</strong>
     <p style="color:#64748b;margin:8px 0 0;">В сравнении версий модели добавили перенос свойств элементов из старой модели в новую.</p>
   </div>
@@ -1477,15 +1648,13 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2023</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/72 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/72">25.09.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Документы DOCS на элементах модели</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили прикрепление документов из DOCS к элементам модели в TOOLS.</p>
   </div>
-<!-- Источник: https://t.me/signal_docs/57 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/57">26.07.2023</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Первый выпуск TOOLS Free</strong>
     <p style="color:#64748b;margin:8px 0 0;">Выпустили бесплатные плагины для Revit и Navisworks с расчётом объёмов, отметками выполнения работ и инструментами работы со строительной моделью.</p>
   </div>
@@ -1494,9 +1663,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2022</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Источник: https://t.me/signal_docs/26 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="https://t.me/signal_docs/26">10.08.2022</a></span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Публикация моделей через BIM-Link</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили публикацию моделей Navisworks для просмотра в браузере и передачи по ссылке.</p>
   </div>
@@ -1526,6 +1694,12 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Публичный API INSPECTION</strong>
     <p style="color:#64748b;margin:8px 0 0;">Доступ к возможностям INSPECTION для внешних интеграций.</p>
+  </div>
+<!-- Tracker: DOCS-413, DOCS-959 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>События замечаний и электронные подписи</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Webhooks для замечаний и пакетное скачивание электронных подписей SIG через публичный API.</p>
   </div>
 </div>
 
