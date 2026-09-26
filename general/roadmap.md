@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-26T11:21:53.029Z
+date: 2026-09-26T12:33:14.155Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -146,6 +146,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2025<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">10 карточек</span></summary>
+<div style="padding:0 16px;">
+
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -226,6 +230,13 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+</div>
+</details>
+
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2024 и ранее<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">3 карточки</span></summary>
+<div style="padding:0 16px;">
+
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -255,6 +266,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Добавили собственную авторизацию SIGNAL и администрирование веб-сервисов через HUB.</p>
   </div>
 </div>
+
+</div>
+</details>
 
 ## <span style="background:linear-gradient(45deg,#00d1ff,#0695d7);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">DOCS</span>
 
@@ -365,29 +379,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Работа с офисными документами</strong>
     <p style="color:#64748b;margin:8px 0 0;">Сравнение версий в Collabora, расширение прав редактирования и поддержка встроенных шрифтов.</p>
   </div>
-<!-- Tracker: DOCS-451, DOCS-422 -->
+<!-- Tracker: DOCS-737 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Журналы событий и чат проекта</strong>
-    <p style="color:#64748b;margin:8px 0 0;">История изменений файлов и папок, журнал событий и обсуждения на уровне проекта.</p>
-  </div>
-<!-- Tracker: DOCS-537, DOCS-1177, DOCS-561 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Избранное и актуальность документов</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Быстрый доступ к избранным объектам, сроки документов с напоминаниями и проверка актуальности ссылок на нормативные документы.</p>
-  </div>
-<!-- Tracker: DOCS-439, DOCS-438 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Публикация листов Revit</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Выбор листов, папок и правил именования при публикации, специальный статус PDF-листов, сформированных из Revit.</p>
-  </div>
-<!-- Tracker: DOCS-737, DOCS-399, DOCS-1403 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Подготовка и перенос PDF-пометок</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Объединение листов при скачивании, копирование пометок между листами и дополнительные способы их смещения.</p>
+    <strong>Объединение листов PDF</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Объединение листов PDF при скачивании.</p>
   </div>
 <!-- Tracker: DOCS-1185, DOCS-743, DOCS-744 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -395,17 +391,17 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Перенос настроек между проектами</strong>
     <p style="color:#64748b;margin:8px 0 0;">Копирование типов замечаний и согласований без совпадения имён, перенос настроек передач из другого проекта.</p>
   </div>
-<!-- Tracker: DOCS-395 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Сравнение DWF и DWFX</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Сравнение версий документов в форматах DWF и DWFX.</p>
-  </div>
 <!-- Tracker: DOCS-1604 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Ручные подписи в передачах и PDF</strong>
     <p style="color:#64748b;margin:8px 0 0;">Ручная подпись актов передачи, выбор листов для подписания и распространение подписи на другие листы документа.</p>
+  </div>
+<!-- Tracker: DOCS-551, DOCS-1871, DOCS-433 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Статусы и права в замечаниях</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Настройка доступных переходов между статусами для автора и ответственного, расширение прав на редактирование замечаний.</p>
   </div>
 </div>
 
@@ -418,23 +414,17 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Модель, документы и аналитика</strong>
     <p style="color:#64748b;margin:8px 0 0;">Документы, прикреплённые к элементам модели, раскраска по статусам замечаний и интеграция SIGNAL Viewer с Power BI.</p>
   </div>
-<!-- Tracker: DOCS-1240, DOCS-2161, DOCS-442 -->
+<!-- Tracker: DOCS-2161 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Лента уведомлений и подписки</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Лента уведомлений по проектам, подписка на отдельные файлы и управление подписками участников на папки.</p>
+    <strong>Подписка на файлы</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Подписка на изменения отдельных файлов.</p>
   </div>
 <!-- Tracker: DOCS-2290, DOCS-350, DOCS-1220, DOCS-2037 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Свои фильтры и настройки таблиц</strong>
     <p style="color:#64748b;margin:8px 0 0;">Пользовательские быстрые фильтры, сохранение фильтрации и наборы столбцов для компании, проекта и папки.</p>
-  </div>
-<!-- Tracker: DOCS-551, DOCS-1871, DOCS-433 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Статусы и права в замечаниях</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Настройка доступных переходов между статусами для автора и ответственного, расширение прав на редактирование замечаний.</p>
   </div>
 <!-- Tracker: DOCS-391, DOCS-1192, DOCS-549, DOCS-2402 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -484,23 +474,46 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Публичные ссылки и доступы к папкам</strong>
     <p style="color:#64748b;margin:8px 0 0;">Публикация выбранной части папки, экспорт прав доступа в XLSX и восстановление файлов пользователями с правом редактирования.</p>
   </div>
-<!-- Tracker: DOCS-2142, DOCS-1175, DOCS-393, DOCS-2291 -->
+<!-- Tracker: DOCS-2403, DOCS-852 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Сравнение моделей и создание сборок</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Просмотр изменений параметров, настройка цветов и видимости элементов при сравнении; создание сборок из выбранных файлов.</p>
+    <strong>Страницы и версии PDF</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Ссылки на конкретную страницу PDF и временное скрытие одной из версий при сравнении.</p>
+  </div>
+<!-- Tracker: DOCS-451, DOCS-422 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Журналы событий и чат проекта</strong>
+    <p style="color:#64748b;margin:8px 0 0;">История изменений файлов и папок, журнал событий и обсуждения на уровне проекта.</p>
+  </div>
+<!-- Tracker: DOCS-537, DOCS-1177, DOCS-561 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Избранное и актуальность документов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Быстрый доступ к избранным объектам, сроки документов с напоминаниями и проверка актуальности ссылок на нормативные документы.</p>
+  </div>
+<!-- Tracker: DOCS-399, DOCS-1403 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Перенос PDF-пометок</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Копирование пометок между листами и дополнительные способы их смещения.</p>
+  </div>
+</div>
+
+<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">II квартал 2027</span></div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
+<!-- Tracker: DOCS-1240, DOCS-442 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Лента уведомлений и подписки на папки</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Лента уведомлений по проектам и управление подписками участников на папки.</p>
   </div>
 <!-- Tracker: DOCS-420 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Личные папки пользователей</strong>
     <p style="color:#64748b;margin:8px 0 0;">Автоматическое создание личной папки пользователя в выбранном проекте с назначением прав на редактирование.</p>
-  </div>
-<!-- Tracker: DOCS-2403, DOCS-852 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Страницы и версии PDF</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Ссылки на конкретную страницу PDF и временное скрытие одной из версий при сравнении.</p>
   </div>
 </div>
 
@@ -649,6 +662,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Пользователи могут управлять видимостью и порядком системных столбцов и атрибутов.</p>
   </div>
 </div>
+
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2025<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">37 карточек</span></summary>
+<div style="padding:0 16px;">
 
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2025</span></div>
 
@@ -891,6 +908,13 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+</div>
+</details>
+
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2024 и ранее<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">21 карточка</span></summary>
+<div style="padding:0 16px;">
+
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -1025,6 +1049,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Добавили подключение собственного S3-хранилища для файлов проекта.</p>
   </div>
 </div>
+
+</div>
+</details>
 
 ## <span style="background:linear-gradient(45deg,#ff5867,#88383f);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">FORMS</span>
 
@@ -1320,6 +1347,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2025<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">14 карточек</span></summary>
+<div style="padding:0 16px;">
+
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -1424,6 +1455,13 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+</div>
+</details>
+
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2024 и ранее<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">5 карточек</span></summary>
+<div style="padding:0 16px;">
+
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2024</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -1469,6 +1507,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+</div>
+</details>
+
 ## <span style="background:linear-gradient(45deg,#83e6c7,#00cd8d);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">INSPECTION</span>
 
 <span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
@@ -1482,6 +1523,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Добавили отдельный реестр для работы с комментариями к результатам проверок.</p>
   </div>
 </div>
+
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2025<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">3 карточки</span></summary>
+<div style="padding:0 16px;">
 
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2025</span></div>
 
@@ -1515,6 +1560,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Добавили статус точки «Нет доступа» и изменение даты фотографии.</p>
   </div>
 </div>
+
+</div>
+</details>
 
 ## <span style="background:linear-gradient(45deg,#66a8b8,#286579);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">BIM</span>
 
@@ -1614,6 +1662,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2025 и ранее<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">6 карточек</span></summary>
+<div style="padding:0 16px;">
+
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -1669,6 +1721,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Добавили публикацию моделей Navisworks для просмотра в браузере и передачи по ссылке.</p>
   </div>
 </div>
+
+</div>
+</details>
 
 ## <span style="background:linear-gradient(45deg,#7aa6cf,#7d96ad);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">API</span>
 
@@ -1748,6 +1803,10 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
+<details style="margin:18px 0 24px;border:1px solid #dce4ef;border-radius:12px;background:#fff;">
+<summary style="cursor:pointer;list-style-position:inside;padding:12px 16px;background:#e8f7f2;color:#0d8b72;border-radius:11px;font-size:16px;font-weight:700;line-height:24px;">2025<span style="margin-left:10px;color:#64748b;font-size:12px;font-weight:400;">6 карточек</span></summary>
+<div style="padding:0 16px;">
+
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2025</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
@@ -1788,6 +1847,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <p style="color:#64748b;margin:8px 0 0;">Добавили получение согласований проекта.</p>
   </div>
 </div>
+
+</div>
+</details>
 
 
 #
