@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-26T09:43:43.335Z
+date: 2026-09-26T09:52:49.420Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -26,43 +26,43 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: HUB-290, HUB-291, HUB-293, HUB-367, HUB-346, HUB-409 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В работе</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Компании, сотрудники и доверенности</strong>
     <p style="color:#64748b;margin:8px 0 0;">Поиск компаний по ИНН, сведения о сотрудниках и доверенностях, связь компаний со справочниками и проектами.</p>
   </div>
 <!-- Tracker: HUB-318 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В работе</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Структура объекта</strong>
     <p style="color:#64748b;margin:8px 0 0;">Дерево папок и планов объекта с базовыми операциями для организации данных проекта.</p>
   </div>
 <!-- Tracker: HUB-159, HUB-51, HUB-244 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Управление сотрудниками и ролями</strong>
     <p style="color:#64748b;margin:8px 0 0;">Удаление сотрудников с сохранением истории, структура подразделений и группировка ролей организации.</p>
   </div>
 <!-- Tracker: HUB-313 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Защита входа</strong>
     <p style="color:#64748b;margin:8px 0 0;">Двухфакторная авторизация для дополнительной защиты учётной записи.</p>
   </div>
 <!-- Tracker: HUB-448, HUB-449 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Справочники и атрибуты компании</strong>
     <p style="color:#64748b;margin:8px 0 0;">Собственные справочники и атрибуты со значениями из справочников, компаний и пользователей.</p>
   </div>
 <!-- Tracker: HUB-382, HUB-518 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Уведомления организации</strong>
     <p style="color:#64748b;margin:8px 0 0;">Настройки уведомлений по умолчанию для сотрудников и напоминания об окончании лицензий.</p>
   </div>
 <!-- Tracker: HUB-60 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Группы проектов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Объединение проектов в группы и портфели для навигации и управления.</p>
   </div>
@@ -73,7 +73,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: HUB-302 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● В планах</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Замещение сотрудников</strong>
     <p style="color:#64748b;margin:8px 0 0;">Назначение заместителей на время отпуска.</p>
   </div>
@@ -86,28 +86,28 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: HUB-12, HUB-45, HUB-52, HUB-54, HUB-121, HUB-163 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Управление проектами и пользователями</strong>
     <p style="color:#64748b;margin:8px 0 0;">Проект по умолчанию, редактирование пользователей, восстановление лицензий, удобный выбор ролей и пагинация.</p>
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-13">2026.13</a></p>
   </div>
 <!-- Tracker: HUB-58 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Контрагенты компании</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили компании-контрагенты и возможность назначать контрагента пользователю.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-15">2026.15</a></p>
   </div>
 <!-- Tracker: HUB-178 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Уведомления в MAX</strong>
     <p style="color:#64748b;margin:8px 0 0;">Подключили уведомления SIGNAL в мессенджере MAX через профиль пользователя.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-16">2026.16</a></p>
   </div>
 <!-- Tracker: HUB-88 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Новые поля и таблица проектов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили статус, сроки, стоимость и описание проекта и переработали таблицу проектов.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2026-17">2026.17</a></p>
@@ -118,19 +118,19 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Пользователи и роли в проектах</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили дату последнего входа, проекты в экспорт пользователей и синхронизацию ролей проекта с ролями организации.</p>
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-8">2026.8</a> · <a href="/ru/general/updates/2026-10">2026.10</a> · <a href="/ru/general/updates/2026-11">2026.11</a></p>
   </div>
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Настройки уведомлений</strong>
     <p style="color:#64748b;margin:8px 0 0;">Пользователь может управлять уведомлениями в своём профиле.</p>
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-9">2026.9</a></p>
   </div>
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Журнал событий компании</strong>
     <p style="color:#64748b;margin:8px 0 0;">Ускорили просмотр истории действий и добавили экспорт любого количества событий в Excel.</p>
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-7">2026.7</a></p>
@@ -141,7 +141,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Управление пользователями и ролями</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили групповое выделение пользователей, предупреждения при удалении используемой роли и отдельные приглашения для SSO.</p>
     <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-1">2026.1</a> · <a href="/ru/general/updates/2026-5">2026.5</a></p>
