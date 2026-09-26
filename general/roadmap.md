@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-26T11:16:57.822Z
+date: 2026-09-26T11:21:53.029Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -1516,7 +1516,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
-## <span style="background:linear-gradient(45deg,#66a8b8,#286579);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">SIGNAL BIM</span>
+## <span style="background:linear-gradient(45deg,#66a8b8,#286579);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">BIM</span>
 
 <span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 
