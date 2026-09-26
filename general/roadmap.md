@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-26T09:52:49.420Z
+date: 2026-09-26T09:57:33.656Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -86,10 +86,9 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: HUB-12, HUB-45, HUB-52, HUB-54, HUB-121, HUB-163 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово : <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-13">2026.13</a></span></div>
     <strong>Управление проектами и пользователями</strong>
     <p style="color:#64748b;margin:8px 0 0;">Проект по умолчанию, редактирование пользователей, восстановление лицензий, удобный выбор ролей и пагинация.</p>
-    <p style="margin:14px 0 0;">В релизах: <a href="/ru/general/updates/2026-12">2026.12</a> · <a href="/ru/general/updates/2026-13">2026.13</a></p>
   </div>
 <!-- Tracker: HUB-58 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
@@ -153,21 +152,21 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Источник: Что нового 2025.41 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Добавление пользователей в проект</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили выбор всех пользователей при назначении участников проекта.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2025-41">2025.41</a></p>
   </div>
 <!-- Источник: Что нового 2025.40 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Пакетное редактирование пользователей</strong>
     <p style="color:#64748b;margin:8px 0 0;">Администраторы могут массово изменять данные и параметры пользователей.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2025-40">2025.40</a></p>
   </div>
 <!-- Источник: Что нового 2025.28 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Массовый импорт пользователей</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили понятный результат импорта и исправили обработку адресов с лишними пробелами.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2025-28">2025.28</a></p>
@@ -179,14 +178,14 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Источник: Что нового 2025.27 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Новый HUB, контрагенты и справочники</strong>
     <p style="color:#64748b;margin:8px 0 0;">Обновили интерфейс и добавили управление контрагентами и справочниками организации.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2025-27">2025.27</a></p>
   </div>
 <!-- Источник: Что нового 2025.26 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #17a673;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">● Готово</span></div>
+    <div style="margin-bottom:10px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">Готово</span></div>
     <strong>Таблица пользователей</strong>
     <p style="color:#64748b;margin:8px 0 0;">Добавили сортировку, изменение ширины столбцов и улучшили поиск в проектах.</p>
     <p style="margin:14px 0 0;">В релизе: <a href="/ru/general/updates/2025-26">2025.26</a></p>
