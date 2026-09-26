@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-09-26T09:42:39.235Z
+date: 2026-09-26T09:43:43.335Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -19,7 +19,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 ## <span style="background:linear-gradient(45deg,#2d4e67,#112538);color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">HUB</span>
 
-<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none; display: flex">Планы</span>
+<span style="background:#2f6fed;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Планы</span>
 
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2026</span></div>
 
@@ -79,7 +79,7 @@ dateCreated: 2026-09-21T07:32:13.388Z
   </div>
 </div>
 
-<span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none; display: flex">Выпущено</span>
+<span style="background:#17865f;color:#fff;padding:3px 7px;border-radius:5px;font-weight:700;pointer-events:none;">Выпущено</span>
 
 <div style="margin:18px 0 12px;"><span style="background:#e8f7f2;color:#0d8b72;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">III квартал 2026</span></div>
 
