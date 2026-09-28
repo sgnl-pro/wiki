@@ -1,8 +1,8 @@
 ---
 title: СПРАВКА ПО ПРОДУКТАМ SIGNAL
-description: Текущая версия: 2026.17 от 14.09.2026
+description: Текущая версия: 2026.18 от 28.09.2026
 published: true
-date: 2026-09-24T04:06:30.040Z
+date: 2026-09-28T17:10:24.929Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T16:23:47.235Z
