@@ -2,13 +2,13 @@
 title: FORMS. Введение
 description: Возможности FORMS для создания и согласования строительных форм, работы со связанными данными и документами
 published: true
-date: 2026-09-23T16:51:31.438Z
+date: 2026-09-29T13:42:53.993Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T13:50:24.040Z
 ---
 
-<sub>**[<   DOCS. Дополнительно](/ru/docs/more)     **|**     [FORMS. Конструктор   >](/ru/forms/builder)**</sub>
+<sub>**[<   DOCS. Дополнительно](/en/docs/more)     **|**     [FORMS. Конструктор   >](/ru/forms/builder)**</sub>
 
 ---
   
