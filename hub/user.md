@@ -2,7 +2,7 @@
 title: HUB. Пользователь
 description: Регистрация, вход, настройки профиля и управление уведомлениями SIGNAL
 published: true
-date: 2026-09-24T09:36:02.512Z
+date: 2026-09-29T12:57:13.038Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T17:30:45.102Z
@@ -10,14 +10,14 @@ dateCreated: 2025-06-24T17:30:45.102Z
 
 <sub>**[<   HUB. Администратор](/ru/hub/admin)     **|**     [DOCS. Введение   >](/ru/docs/intro)**</sub>
   
-> См. также видеоинструкцию по авторизации и правам доступа: **[Telegram](https://t.me/signal_docs/255) [YouTube](https://youtu.be/m3YP_LYgpcM) [Rutube](https://rutube.ru/video/e03d00bc13f1ec5f9a5349f4e0cf0c23/) [VK](https://vkvideo.ru/video-223002264_456239057)**
-{.is-info}
-
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"><a href="/hub/user/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
   
 ----
+  
+> См. также видеоинструкцию по авторизации и правам доступа: **[Telegram](https://t.me/signal_docs/255) [YouTube](https://youtu.be/m3YP_LYgpcM) [Rutube](https://rutube.ru/video/e03d00bc13f1ec5f9a5349f4e0cf0c23/) [VK](https://vkvideo.ru/video-223002264_456239057)**
+{.is-info}
 
 <div class="toc-card toc-green">
   <h4 class="toc-card-title"><a href="?toc_target=account#account">1. Регистрация и вход</a></h4>
