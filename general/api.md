@@ -1,8 +1,8 @@
 ---
 title: SIGNAL. Публичный API
-description: 
+description: Ссылки на документацию публичного API SIGNAL, примеры использования и авторизация в Swagger
 published: true
-date: 2026-09-24T04:59:02.633Z
+date: 2026-09-29T08:29:14.130Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
