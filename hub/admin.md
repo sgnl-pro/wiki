@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: Управление пользователями, проектами и компаниями, настройками организации и справочниками HUB
 published: true
-date: 2026-09-24T15:01:16.709Z
+date: 2026-09-29T12:53:27.858Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -10,17 +10,18 @@ dateCreated: 2025-06-24T16:53:52.277Z
 
 <sub>**[<   HUB. Введение](/ru/hub/intro)     **|**     [HUB. Пользователь   >](/ru/hub/user)**</sub>
 
-> Для управления организацией и её настройками нужны права **Администратора** компании. Регистрация аккаунта и настройки собственного профиля доступны пользователю без этой роли.
-> {.is-warning}
-  
-> См. также видеоинструкцию по администрированию SIGNAL HUB: **[Telegram](https://t.me/signal_docs/188) [YouTube](https://youtu.be/vHpK0phOz4w?si=Skqy6mQrakER48nM)	[Rutube](https://rutube.ru/video/bc30683a2ead5fb4eecf1e87e80383a4/?r=wd) [VK](https://vk.com/video-223002264_456239031)**
-{.is-info}
-
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"><a href="/hub/admin/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
   
 ----
+  
+> Для управления организацией и её настройками нужны права **Администратора** компании. Регистрация аккаунта и настройки собственного профиля доступны пользователю без этой роли.
+> {.is-warning}
+  
+> См. также видеоинструкцию по администрированию SIGNAL HUB: **[Telegram](https://t.me/signal_docs/188) [YouTube](https://youtu.be/vHpK0phOz4w?si=Skqy6mQrakER48nM)	[Rutube](https://rutube.ru/video/bc30683a2ead5fb4eecf1e87e80383a4/?r=wd) [VK](https://vk.com/video-223002264_456239031)**
+{.is-info}
+  
 <!-- Оглавление в виде карточек -->
 <div class="toc-grid">
   <!-- 0. Сервисы и ссылки (Фиолетовый) -->
