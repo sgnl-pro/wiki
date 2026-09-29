@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Настройки проекта
-description: 
+description: Создание и публикация отчётов DASHBOARD, добавление карточек, обновление данных и настройка доступов
 published: true
 date: 2026-09-24T04:03:50.215Z
 tags: dash

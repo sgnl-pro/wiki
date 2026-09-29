@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Все карточки
-description: 
+description: Каталог карточек DASHBOARD для показателей проекта, данных DOCS, моделей и внешних источников
 published: true
 date: 2026-02-04T14:09:44.866Z
 tags: dash

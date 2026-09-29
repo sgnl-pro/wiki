@@ -1,6 +1,6 @@
 ---
 title: SIGNAL DOCS
-description: 
+description: Раздел справки по DOCS: файлы, согласования, замечания, передачи, настройки и дополнительные инструменты
 published: true
 date: 2026-09-09T10:38:32.416Z
 tags: 

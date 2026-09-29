@@ -1,6 +1,6 @@
 ---
 title: SIGNAL FORMS
-description: 
+description: Раздел справки по FORMS: конструктор, настройки, заполнение форм и генерация документов
 published: true
 date: 2026-08-15T12:13:04.666Z
 tags: 

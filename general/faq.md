@@ -1,6 +1,6 @@
 ---
 title: SIGNAL. Частые вопросы
-description: 
+description: Ответы на частые вопросы о входе в SIGNAL, документах, замечаниях и согласованиях
 published: true
 date: 2026-02-04T13:32:12.394Z
 tags: general

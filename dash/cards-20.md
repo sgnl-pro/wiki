@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Карточки 20. Деньги
-description:
+description: Карточки DASHBOARD для освоения денежных средств, финансирования и прогноза по месяцам
 published: true
 date: 2026-09-23T12:16:26.000Z
 tags: dash

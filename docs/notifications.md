@@ -1,6 +1,6 @@
 ---
 title: DOCS. Уведомления
-description: 
+description: Настройка уведомлений DOCS для проекта, личных подписок и подписок ролей на папки
 published: true
 date: 2026-09-23T08:01:05.735Z
 tags: docs

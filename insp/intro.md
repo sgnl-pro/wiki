@@ -1,6 +1,6 @@
 ---
 title: INSPECTION. Введение
-description: 
+description: Возможности INSPECTION для удалённого контроля строительства по фотографиям 360
 published: true
 date: 2026-09-23T16:52:50.085Z
 tags: insp

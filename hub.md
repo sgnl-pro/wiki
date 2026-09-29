@@ -1,6 +1,6 @@
 ---
 title: SIGNAL HUB
-description: 
+description: Раздел справки по HUB: начало работы, возможности администратора и настройки пользователя
 published: true
 date: 2026-03-24T08:32:14.789Z
 tags: 

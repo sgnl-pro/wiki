@@ -1,6 +1,6 @@
 ---
 title: DOCS. Публикация файлов
-description: 
+description: Публикация файлов, папок и моделей DOCS по ссылке и управление публичными ссылками проекта
 published: true
 date: 2026-09-23T07:21:29.295Z
 tags: docs

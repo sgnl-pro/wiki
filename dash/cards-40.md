@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Карточки 40. Объёмы
-description: 
+description: Карточки DASHBOARD для плановых и фактических объёмов работ, темпов и прогноза выполнения
 published: true
 date: 2026-09-23T15:03:51.463Z
 tags: dash

@@ -1,6 +1,6 @@
 ---
 title: SIGNAL. Миссия компании
-description: 
+description: Миссия SIGNAL и подход компании к цифровизации строительной отрасли
 published: true
 date: 2026-09-14T19:45:04.715Z
 tags: general

@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Карточки 10. Общие
-description: 
+description: Общие карточки DASHBOARD: альбом, показатели проекта, риски, графики и таблица из DOCS
 published: true
 date: 2026-09-23T12:29:00.000Z
 tags: dash

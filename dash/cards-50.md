@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Карточки 50. 3D карточки
-description: 
+description: 3D-карточки DASHBOARD для сравнения объёмов работ и отображения данных BIM-модели по цветам
 published: true
 date: 2026-09-23T15:14:48.000Z
 tags: dash

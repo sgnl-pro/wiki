@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Карточки 30. Сроки
-description: 
+description: Карточки DASHBOARD для контроля сроков проекта, вех и графиков Excel и MPP
 published: true
 date: 2026-02-04T14:10:30.513Z
 tags: dash

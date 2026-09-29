@@ -1,6 +1,6 @@
 ---
 title: ОБЩИЕ СВЕДЕНИЯ
-description: 
+description: Основные сведения о SIGNAL: миссия, соглашение, ответы на вопросы, поддержка, обновления и API
 published: true
 date: 2026-09-24T03:59:32.850Z
 tags: 

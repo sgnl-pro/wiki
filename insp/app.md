@@ -1,6 +1,6 @@
 ---
 title: INSPECTION. Приложение Photomaker
-description: 
+description: Подготовка камер и приложения Photomaker, съёмка фото 360 и загрузка снимков в INSPECTION
 published: true
 date: 2026-02-04T14:12:53.649Z
 tags: insp

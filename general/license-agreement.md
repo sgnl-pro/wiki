@@ -1,6 +1,6 @@
 ---
 title: SIGNAL. Лицензионное соглашение
-description: 
+description: Условия использования SIGNAL: виды лицензий, права и ограничения, поддержка и ответственность сторон
 published: true
 date: 2026-02-04T13:31:58.402Z
 tags: general

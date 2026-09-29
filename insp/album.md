@@ -1,6 +1,6 @@
 ---
 title: INSPECTION. Альбом
-description: 
+description: Публикация альбома фотографий INSPECTION и предоставление доступа по ссылке
 published: true
 date: 2026-07-21T09:22:49.261Z
 tags: insp

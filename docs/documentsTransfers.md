@@ -1,6 +1,6 @@
 ---
 title: DOCS. Передача
-description: 
+description: Создание и отправка пакетов передачи в DOCS, работа с реестром, актами и настройками типов передачи
 published: true
 date: 2026-09-24T05:09:13.548Z
 tags: docs

@@ -1,6 +1,6 @@
 ---
 title: SIGNAL INSPECTION
-description: 
+description: Раздел справки по INSPECTION: фото 360, планы и точки, запросы, альбомы и приложение Photomaker
 published: true
 date: 2026-03-24T08:32:31.325Z
 tags: 

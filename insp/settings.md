@@ -1,6 +1,6 @@
 ---
 title: INSPECTION. Настройки проекта
-description: 
+description: Настройки проекта INSPECTION: качество изображений, публикация фото, статусы точек и уведомления
 published: true
 date: 2026-02-04T14:12:13.875Z
 tags: insp

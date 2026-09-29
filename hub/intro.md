@@ -1,6 +1,6 @@
 ---
 title: HUB. Введение
-description: 
+description: Устройство HUB, роли в компании, начало работы и создание компании
 published: true
 date: 2026-09-24T05:03:00.489Z
 tags: hub

@@ -1,6 +1,6 @@
 ---
 title: Устранение неполадок
-description: 
+description: Самостоятельная диагностика и известные ошибки при работе с SIGNAL DOCS
 published: true
 date: 2025-12-17T15:21:38.827Z
 tags: 

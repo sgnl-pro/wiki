@@ -1,6 +1,6 @@
 ---
 title: SIGNAL. Поддержка
-description: 
+description: Контакты поддержки SIGNAL, официальные каналы и материалы для решения вопросов
 published: true
 date: 2026-02-04T13:32:32.046Z
 tags: general

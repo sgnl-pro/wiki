@@ -1,6 +1,6 @@
 ---
 title: DOCS. Работа в файлах
-description: 
+description: Просмотр офисных файлов, моделей, чертежей и PDF в DOCS, редактирование документов и создание XML
 published: true
 date: 2026-09-17T17:36:18.107Z
 tags: 

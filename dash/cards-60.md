@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Карточки 60. DOCS
-description: 
+description: Карточки DASHBOARD для анализа замечаний, согласований и SLA по данным DOCS
 published: true
 date: 2026-09-23T15:32:09.000Z
 tags: dash

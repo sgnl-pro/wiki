@@ -1,6 +1,6 @@
 ---
 title: DASHBOARD. Введение
-description: 
+description: Виды отчётов DASHBOARD и работа с плановым, онлайн, личным отчётом и отчётом компании
 published: true
 date: 2026-09-23T16:52:09.922Z
 tags: dash

@@ -1,6 +1,6 @@
 ---
 title: SIGNAL DASHBOARD
-description: 
+description: Раздел справки по DASHBOARD: виды отчётов, настройки и карточки показателей строительного проекта
 published: true
 date: 2025-11-29T00:00:42.237Z
 tags: 
