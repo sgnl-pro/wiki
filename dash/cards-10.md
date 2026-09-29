@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: Общие карточки DASHBOARD: альбом, показатели проекта, риски, графики и таблица из DOCS
 published: true
-date: 2026-09-23T12:29:00.000Z
+date: 2026-09-29T08:24:25.429Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
