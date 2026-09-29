@@ -1,8 +1,8 @@
 ---
 title: DOCS. Дополнительно
-description: Дополнительные возможности DOCS: резервное копирование, Android, Tangl, MinIO и настройка AD FS
+description: 
 published: true
-date: 2026-09-23T09:36:33.000Z
+date: 2026-09-29T08:23:45.639Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
