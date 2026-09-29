@@ -2,22 +2,23 @@
 title: DOCS. Замечания
 description: Создание и ведение замечаний, работа с реестром и настройка типов, доступов и шаблонов документов
 published: true
-date: 2026-09-24T05:08:54.293Z
+date: 2026-09-29T12:57:45.034Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:10:08.827Z
 ---
 
 <sub>**[<   DOCS. Работа в файлах](/ru/docs/viewers)     **|**     [DOCS. Согласования   >](/ru/docs/reviews)**</sub>
-
-> См. также видеоинструкцию по работе с замечаниями: **[Telegram](https://t.me/signal_docs/305) [YouTube](https://youtu.be/yON9Jtl_ifg)	[Rutube](https://rutube.ru/video/5adeaf2ce0acb999e8ff5b2568b5e6a8/) [VK](https://vkvideo.ru/video-223002264_456239085)**
-{.is-info}
-
+  
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"> <a href="/docs/issues/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
   
 ----
+> См. также видеоинструкцию по работе с замечаниями: **[Telegram](https://t.me/signal_docs/305) [YouTube](https://youtu.be/yON9Jtl_ifg)	[Rutube](https://rutube.ru/video/5adeaf2ce0acb999e8ff5b2568b5e6a8/) [VK](https://vkvideo.ru/video-223002264_456239085)**
+{.is-info}
+
+
 <div class="toc-grid">
   <!-- 1. Основные понятия (Синий) -->
   <div class="toc-card toc-blue">
