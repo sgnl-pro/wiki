@@ -2,7 +2,7 @@
 title: DOCS. Настройки проекта
 description: Настройки проекта DOCS: атрибуты, сервисы, доступы к функциям, доверенности, XML и маски документов
 published: true
-date: 2026-08-18T08:47:21.133Z
+date: 2026-09-29T08:23:05.504Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T08:02:36.643Z
