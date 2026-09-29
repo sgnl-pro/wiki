@@ -2,7 +2,7 @@
 title: FORMS. Конструктор
 description: Создание типов форм, полей и этапов согласования в конструкторе FORMS
 published: true
-date: 2026-08-28T10:08:26.486Z
+date: 2026-09-29T12:50:43.705Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T14:05:05.223Z
@@ -122,5 +122,4 @@ dateCreated: 2026-05-15T14:05:05.223Z
 **Описание** | Нет | Подсказка, оображается в карточке формы.
 
 #
----
 <sub>**[<   FORMS. Введение](/ru/forms/intro)     **|**     [FORMS. Настройки проекта   >](/ru/forms/settings)**</sub>
