@@ -2,7 +2,7 @@
 title: INSPECTION. Настройки проекта
 description: Настройки проекта INSPECTION: качество изображений, публикация фото, статусы точек и уведомления
 published: true
-date: 2026-02-04T14:12:13.875Z
+date: 2026-09-29T08:25:13.388Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T12:58:07.798Z
