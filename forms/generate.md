@@ -2,7 +2,7 @@
 title: FORMS. Генерация документов
 description: Подготовка шаблонов DOCX, синтаксис подстановки данных и создание документов из форм
 published: true
-date: 2026-09-29T12:48:26.877Z
+date: 2026-09-29T12:49:06.901Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
@@ -1487,12 +1487,9 @@ Email последнего редактора | `{{_form.modifiedBy.email}}` | `
 | Сметная стоимость согласно договору подряда, руб. | `Число` | {{cost}} |
 | Итого по акту, руб. | `Число` | {{totalCost}} |
 | Файлы | `Файл` | {{files}} |
-
-
-
 </details>
 
 
-  
 #
+  
 <sub>**[<   FORMS. Заполнение форм](/ru/forms/create)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
