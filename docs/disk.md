@@ -2,7 +2,7 @@
 title: DOCS Disk
 description: Работа с файлами DOCS в Проводнике Windows, автоматическая синхронизация, офлайн-доступ и восстановление локальных изменений
 published: true
-date: 2026-10-09T17:01:35.000Z
+date: 2026-10-09T17:17:47.304Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T12:34:10.627Z
@@ -19,40 +19,11 @@ dateCreated: 2025-09-09T12:34:10.627Z
 **SIGNAL DOCS Disk** — приложение для Windows, которое показывает проекты, папки и файлы DOCS прямо в Проводнике. Открывайте файлы в установленных программах, редактируйте и сохраняйте их: изменения автоматически отправляются в DOCS как новые версии. Изменения коллег также появляются на вашем компьютере.
 
 > Новое приложение находится на **расширенном бета-тестировании**. Публикация для всех пользователей запланирована в релизе **2026.20**.
+{.is-warning}
+
+
+> Прежний DOCS Disk с командами «Получить» и «Отправить» остаётся доступен. Его инструкция перенесена в [«DOCS. Дополнительно» → «DOCS Disk — прежняя версия»](/docs/more#legacy-disk).
 {.is-info}
-
-Прежний DOCS Disk с командами «Получить» и «Отправить» остаётся доступен. Его инструкция перенесена в [«DOCS. Дополнительно» → «DOCS Disk — прежняя версия»](/docs/more#legacy-disk).
-
-<div class="toc-grid">
-  <div class="toc-card toc-green">
-    <h4 class="toc-card-title"><a href="#started">1. Установка и вход</a></h4>
-    <ul class="toc-list"><li>Windows, установка и выбор компании</li></ul>
-  </div>
-  <div class="toc-card toc-green">
-    <h4 class="toc-card-title"><a href="#settings">2. Папка и буква диска</a></h4>
-    <ul class="toc-list"><li>Расположение файлов и длинные пути</li></ul>
-  </div>
-  <div class="toc-card toc-green">
-    <h4 class="toc-card-title"><a href="#interface">3. Работа с файлами</a></h4>
-    <ul class="toc-list"><li>Создание, редактирование, удаление и ссылки</li></ul>
-  </div>
-  <div class="toc-card toc-green">
-    <h4 class="toc-card-title"><a href="#sync">4. Синхронизация и офлайн-доступ</a></h4>
-    <ul class="toc-list"><li>Состояния файлов, загрузка и конфликты версий</li></ul>
-  </div>
-  <div class="toc-card toc-green">
-    <h4 class="toc-card-title"><a href="#permissions">5. Права и восстановление</a></h4>
-    <ul class="toc-list"><li>Ограничения доступа и локальные изменения</li></ul>
-  </div>
-  <div class="toc-card toc-green">
-    <h4 class="toc-card-title"><a href="#userSettings">6. Настройки и выход</a></h4>
-    <ul class="toc-list"><li>Смена компании, автозапуск и удаление приложения</li></ul>
-  </div>
-  <div class="toc-card toc-green">
-    <h4 class="toc-card-title"><a href="#troubleshooting">7. Решение проблем</a></h4>
-    <ul class="toc-list"><li>Связь с сервером, предупреждения и журнал</li></ul>
-  </div>
-</div>
 
 # Вкладки {.tabset}
 ## 1. Установка и вход
