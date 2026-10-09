@@ -1,8 +1,8 @@
 ---
 title: DOCS Disk — История изменений
-description:
+description: Статус нового приложения DOCS Disk и история обновлений прежней версии
 published: true
-date: 2026-09-23T08:46:39.000Z
+date: 2026-10-09T17:01:35.000Z
 tags: docs
 editor: markdown
 dateCreated: 2026-09-23T08:46:39.000Z
@@ -11,6 +11,15 @@ dateCreated: 2026-09-23T08:46:39.000Z
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"> <a href="/docs/disk" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">См. также основную статью <b>DOCS Disk</b></a></span>
 </summary>
+
+## Новое приложение DOCS Disk
+
+Новое приложение с автоматической синхронизацией через Проводник находится на **расширенном бета-тестировании**. Публикация для всех пользователей запланирована в релизе **2026.20**. Работа с ним описана в [основной статье](/docs/disk).
+
+## Прежняя версия DOCS Disk {#legacy-disk-updates}
+
+Ниже сохранена история приложения с командами «Получить» и «Отправить». Оно остаётся доступно; инструкция перенесена в [«DOCS. Дополнительно» → «DOCS Disk — прежняя версия»](/docs/more#legacy-disk).
+
 
 > Здесь перечислены основные изменения. Для получения подробностей нажмите на номер релиза.
 {.is-info}
