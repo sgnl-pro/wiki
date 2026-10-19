@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: Общие карточки DASHBOARD: альбом, показатели проекта, риски, графики и таблица из DOCS
 published: true
-date: 2026-10-19T11:17:46.204Z
+date: 2026-10-19T13:55:43.111Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -155,11 +155,11 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 В режиме просмотра отчёта:
 
-![42_Динамика рабочих.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNznMhJpjk5MUeoSePM-Qu73NBZURuOxKybDUCEssWtXKXWeOfZqgaAtGBH2pcQo8ZL-nkjJ-n2sqyPh_uQNTSTWTUaMtSD60Xa1L3eRCuGeDDJz34rLWtLzhUNiVziR4e6ngkNsUQrjbyNTPNog?key=fRbp-4QSI0yBB0UfzBD5EQ =300x)
+![14_внешний_вид1.png](/sgnl_dash/10_common/14_внешний_вид1.png)
 
 При открытии карточки:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfRlzgTKb-0D11Oc9Kgn05wKdy8rhR5F-bcs5h82ooH1AOCQgiuXsr1JkbNgO_ufahEkaYULvJCuHnunLW0gPQ2EWg_1yL4E6I9UzJhKV4l2nNcRIUrQaaXxGNA8j-Arb6d7P_9tUWKC9mG_JRiyQ?key=fRbp-4QSI0yBB0UfzBD5EQ)
+![14_раскрытая1.png](/sgnl_dash/10_common/14_раскрытая1.png)
 
 #### Настройка
 
