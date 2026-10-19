@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: Общие карточки DASHBOARD: альбом, показатели проекта, риски, графики и таблица из DOCS
 published: true
-date: 2026-09-29T08:24:25.429Z
+date: 2026-10-19T11:10:22.622Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -22,17 +22,17 @@ dateCreated: 2025-09-12T13:40:06.575Z
   
 Карточка представляет собой фотоальбом, в который можно загрузить несколько фотографий. Например, это может быть фотоотчёт со строительной площадки или фотографии для гео-маркетинга или рекламы:
 
-![image-1676895534452.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8S3cjLhFx_ppEY6-KyVObW5V8FFlZ4Ys8pYJYuYOtFy2nJVO4pIWK2HwCbJfddBD4TSsCXJfxedUKA5d_LG2eJXIghsOnRliBmXixRHPpTDZ63b1Gk_sVAaPaLdgUCXc3Y1CUWHk1W2FGb4x0kQ?key=pbozojj_UeH4ZM-gQ0LuQA =300x)
+![10_внешний_вид.png](/sgnl_dash/10_common/10_внешний_вид.png)
 
 Внутри карточки представлены загруженные фотографии, которые можно листать:
 
-![image-1676895655591.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnj4zCNei4QrhXWp2eTWBJ9utQRvB9HogI1WsnXX0A7b-OavTy2KBMiXX6KqSPdCy7t6a9WRNTCkvKYUxqmIcgknmrbfuwMmd3U_Yt-2VrRNqRbSGya7f8phwdOSJkSVkmNr-pdB9zhqqoCD5o?key=pbozojj_UeH4ZM-gQ0LuQA)
+![10_перелистывание.png](/sgnl_dash/10_common/10_перелистывание.png)
 
 ---
 
 **Настройка**
   
-![image-1676895564321.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHh5hLUaTRRactrMTjBrlHmps9NjWw_BVBQ_gAhULeDfxZXlxao2QtxgwX_ajyvGjS2zOqrP2wCkqY37-jmKL9d31j9OJ95eZFJNJBYPCoEd_0BQfbY_LtNCoJYun9B42pOCyvbSzje8QPh8ga?key=pbozojj_UeH4ZM-gQ0LuQA)
+![10_настройки.png](/sgnl_dash/10_common/10_настройки.png)
 
 1.  Добавление новых изображений.
 2.  Выбор главного изображения для превью.
