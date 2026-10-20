@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 30. Сроки
 description: Карточки DASHBOARD для контроля сроков проекта, вех и графиков Excel и MPP
 published: true
-date: 2026-10-20T13:53:38.203Z
+date: 2026-10-20T14:20:22.403Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:35:13.037Z
@@ -123,24 +123,11 @@ dateCreated: 2025-09-18T13:35:13.037Z
 ![image-1712821319149.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJudD2dqZZ7CvbZm6siLeP4TOp4pph-HeWgTOl92ZXncTTr3PHyXdUM9Eq7Adb0S1nyJc6F1YGhxldJRvl7rHTYQVlwZgEbDkawx0lR7IiyVZtlfIO_TrjyJcvXFSvp2Q04k6OwsiwE3yrmeMdxg?key=yxUxS-UIPIWstwBoHlElWw)
 
 **Настройка карточки**
-
+  
+![34_настройки.png](/sgnl_dash/30_timelines/34_настройки.png)
+  
 Укажите название и текущую дату, выберите файл `.mpp` в DOCS и нажмите «Импортировать данные». В открывшемся окне выберите работы для отображения и отметьте вехи, затем сохраните выбор и карточку. Изменения в файле DOCS можно загрузить в карточку повторно через её настройки.
 
-## 35_График Excel
-###### 35_График Excel {#card-35}
-
-Эта карточка больше не доступна при создании новых карточек в обычном отчёте. Если она уже есть в вашем отчёте, вы можете просматривать и редактировать её. Для нового графика с импортом XML или XLSX используйте [карточку 32_График Excel](#card-32).
-
-<details>
-<summary>Пример ранее созданной карточки 35</summary>
-
-![35_График.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLNKkqk5xYLbXyLi0rKlHi392wMh3xiG5R5KXD7wonk9CfRuJ1ZHUTyDH-CWEQmtOOOh7t3WY-p9AY3tcU7IrcFMm2sEV0Dt5glgjSP7e8od8Q9Kr6wnuNa2xnEGEnpiW-FK7zhjRUD6-MH5oK2Q?key=a1LP3kzGalnD3OKq76qSOQ)
-![33_Деньги_1.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHsc5rL7wrEqWEIbuuMo5nbc7NTXAPDe55Rh724-56q8WtdTB3X1q6q1yPzqFpElGqBbnRAcZj91xbOv3tB3xVKZi946M3cR1YekAeDKm5MHHxm9HlvV8CZcS0_xv2-r1Im9Zl2ekfHpNYU30F?key=a1LP3kzGalnD3OKq76qSOQ)
-![33_Деньги_2.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd2bJaopMIZZue94NpSHY4ShL0qsjrQXawhYp4FAySq1g2FuOvHTCPhrKNYRmdcVklGkWZRPxANtFqmtiV8Q9ikkdzk5fTJ3NzPbfOXjQuc2UNJOAsEMegW5Y8qpmXWaYPAepJAOnrSPw9bjoK-TA?key=a1LP3kzGalnD3OKq76qSOQ)
-![33_Деньги_3.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUccfTM4wb5-HZy3c0XhU4JNOoHXbAMYI-gSFGQs1fGBiLTHh-GYeG9VVn-YegJueSE9XxTHMtegOivJvvV5AFL_O2bQcbD-2DoLLHLjCxaCQnsZqv-i61-Vu7FoJeXj2oYQZGNcNDaD1JltvUPw?key=a1LP3kzGalnD3OKq76qSOQ)
-![33_Деньги_4.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfq0onuopUS50FlTYIrxmfCoyAzRDJPl8ueLHxefVu5kIpid_RFFMi06IB5x_ki8c48aCC1_7siUOtxIf4iqD16_EWU7us4_RumJuuDpCQHDe1XdFUeUwy2U_FcKXdzg4VAxkh13wEIFhzkcrfR?key=a1LP3kzGalnD3OKq76qSOQ)
-
-</details>
   
 #
 <sub>**[<   DASHBOARD. Карточки 20. Деньги](/ru/dash/cards-20)     **|**     [DASHBOARD. Карточки 40. Объёмы    >](/ru/dash/cards-40)**</sub>
