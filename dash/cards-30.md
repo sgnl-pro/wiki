@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 30. Сроки
 description: Карточки DASHBOARD для контроля сроков проекта, вех и графиков Excel и MPP
 published: true
-date: 2026-02-04T14:10:30.513Z
+date: 2026-10-20T13:53:38.203Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:35:13.037Z
@@ -22,7 +22,7 @@ dateCreated: 2025-09-18T13:35:13.037Z
 
 Карточка показывает даты начала и окончания работ, срок сдачи объекта, общую продолжительность проекта в календарных днях и число прошедших дней.
 
-![image-1677655872597.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXes_3bJPV9v4fuc6eh0ElXsgh-FS4RcKHlhd2500tyaZZ3wNG1kCW3gD_F7JUzVPHZKrC1nFqlpouwZJulUNWBcV6tUq1SgPNH-ai2zQhmaaqjk1jgkL_oSes35VU1db8nxh2TjkDBQQVSQ_N-G?key=TeVgs85e_U2enkb09y_tFw)
+![30_внешний_вид.png](/sgnl_dash/30_timelines/30_внешний_вид.png)
 
 **Настройка карточки**
 
@@ -32,20 +32,33 @@ dateCreated: 2025-09-18T13:35:13.037Z
 4. Если нужно показывать проценты с дробной частью, включите «Показывать дробные значения».
 5. Нажмите «Сохранить».
 
-![image-1677655897664.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcgT-jPc-QN4-AGQjAB9mJtByznjIDec1BStXXJHFbbI8nTNo5Mh2IeiA5nc6BCt6Sm-ydFM2HDE4_6cmrJh3v7Yi3DlgTa-RVLc29RM2LznJN4xxdTbHZfsg0izQJKGeSKL76QCdymTNAx_D7Phg?key=TeVgs85e_U2enkb09y_tFw)
+![30_настройки.png](/sgnl_dash/30_timelines/30_настройки.png)
 
 ## 31_Вехи на проекте
 ###### 31_Вехи на проекте {#card-31}
 
 Карточка показывает выполнение работ по вехам на выбранную дату. Данные можно внести вручную или импортировать из XML-файла MS Project.
+  
+**Отображение карточки в режиме пользователя**
 
-![image-1712822549696.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd-SU5Mu6dQxAaQ5pD_b4a6eKcUqK4vs8A3s_tnfEgA2QoPFKMvqYi6vavjKALQAQvfZjehDlA7wnr8ixcOgtgMTLkKbOaY3ryhxx90YrDBeb0BpICpiY-D9oE_SHSkESoWf9zy8kNp6LSWhMq6lw?key=LXYQylv4P2g0uc__R72ZFg)
+В режиме просмотра отчёта:
 
+![31_внешний_вид.png](/sgnl_dash/30_timelines/31_внешний_вид.png)
+  
+При открытии карточки:
+  
+![31_развернутый_вид.png](/sgnl_dash/30_timelines/31_развернутый_вид.png)
+  
+
+**Настройка карточки**
+  
+  ![31_настройки.png](/sgnl_dash/30_timelines/31_настройки.png)
+  
 В настройках укажите название, текущую дату и единицы измерения. Для каждой работы заполните WBS, название, даты начала и окончания, общий и выполненный объём. Дату фактического завершения можно указать для работы, у которой выполненный объём равен общему. Выполненный объём не должен превышать общий, а дата окончания не должна быть раньше даты начала.
 
 Для импорта нажмите кнопку загрузки XML-файла. Импортированные строки появятся в таблице карточки; проверьте их перед сохранением. Если данных нет, карточка показывает сообщение «Нет данных».
 
-![image-1712822699852.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrTv-vUC7bkH3P4cRk5azhwy0wLZ2fAAlKcxfSz5tm09L4rT3q9bw0KJD0OlCX9tzGzRf7Q877ZzV_wXWSlNyRQBcDB31P0L7Jd5u8enAXbiMcbrr4tnBAFfoVm8hLfZ_d3ANBRkQsWNqUEfmI8Q?key=LXYQylv4P2g0uc__R72ZFg)
+
 
 ## 32_График Excel
 ###### 32_График Excel {#card-32}
