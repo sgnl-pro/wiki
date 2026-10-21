@@ -1,11 +1,11 @@
 ---
-title: FORMS. Перечень форм и их полей
+title: FORMS. Библиотека форм
 description: Рабочие типы форм, названия и типы полей, системные имена для шаблонов DOCX
 published: true
-date: 2026-10-21T09:44:44.000Z
-tags:
+date: 2026-10-21T10:19:09.667Z
+tags: 
 editor: markdown
-dateCreated: 2026-10-21T09:44:44.000Z
+dateCreated: 2026-10-21T09:59:55.435Z
 ---
 
 <sub>**[<   FORMS. Генерация документов](/ru/forms/generate)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
