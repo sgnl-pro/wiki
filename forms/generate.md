@@ -2,13 +2,13 @@
 title: FORMS. Генерация документов
 description: Подготовка шаблонов DOCX, синтаксис подстановки данных и создание документов из форм
 published: true
-date: 2026-10-21T09:44:44.000Z
-tags:
+date: 2026-10-21T10:21:26.631Z
+tags: 
 editor: markdown
 dateCreated: 2026-07-01T15:50:50.506Z
 ---
 
-<sub>**[<   FORMS. Заполнение форм](/ru/forms/create)     **|**     [FORMS. Перечень форм и их полей   >](/ru/forms/library)**</sub>
+<sub>**[<   FORMS. Заполнение форм](/ru/forms/create)     **|**     [FORMS. Библиотека форм   >](/ru/forms/library)**</sub>
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"> <a href="/forms/generate/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
@@ -166,4 +166,4 @@ Email последнего редактора | `{{_form.modifiedBy.email}}` | `
 Сложные выражения — обращения по индексу, вычисления, условия, фильтры и выражения внутри циклов — не проходят полную проверку доступности данных до генерации. Поэтому перед использованием таких конструкций рекомендуется проверить шаблон на заполненной форме.
 
 #
-<sub>**[<   FORMS. Заполнение форм](/ru/forms/create)     **|**     [FORMS. Перечень форм и их полей   >](/ru/forms/library)**</sub>
+<sub>**[<   FORMS. Заполнение форм](/ru/forms/create)     **|**     [FORMS. Библиотека форм   >](/ru/forms/library)**</sub>
