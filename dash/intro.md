@@ -2,13 +2,13 @@
 title: DASHBOARD. Введение
 description: Виды отчётов DASHBOARD и работа с плановым, онлайн, личным отчётом и отчётом компании
 published: true
-date: 2026-10-21T09:44:44.000Z
+date: 2026-10-21T10:21:44.194Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:32:58.722Z
 ---
 
-<sub>**[<   FORMS. Перечень форм и их полей](/ru/forms/library)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
+<sub>**[<   FORMS. Библиотека форм](/ru/forms/library)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
 
 ---
 
@@ -49,4 +49,4 @@ dateCreated: 2025-09-12T13:32:58.722Z
 ![chrome_lxmtnjrsgs.png](/chrome_lxmtnjrsgs.png)
 
 #
-<sub>**[<   FORMS. Перечень форм и их полей](/ru/forms/library)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
+<sub>**[<   FORMS. Библиотека форм](/ru/forms/library)     **|**     [DASHBOARD. Настройки    >](/ru/dash/settings)**</sub>
