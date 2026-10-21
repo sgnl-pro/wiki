@@ -1,11 +1,11 @@
 ---
-title: FORMS. Перечень форм и их полей — История изменений
-description: Изменения состава библиотеки форм, полей и системных имён
+title: FORMS. Библиотека форм — История изменений
+description: 
 published: true
-date: 2026-10-21T09:44:44.000Z
-tags:
+date: 2026-10-21T10:19:31.644Z
+tags: 
 editor: markdown
-dateCreated: 2026-10-21T09:44:44.000Z
+dateCreated: 2026-10-21T10:00:00.935Z
 ---
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
