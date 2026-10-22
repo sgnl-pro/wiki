@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: Общие карточки DASHBOARD: альбом, показатели проекта, риски, графики и таблица из DOCS
 published: true
-date: 2026-10-19T14:52:59.624Z
+date: 2026-10-22T12:59:52.733Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -15,6 +15,47 @@ dateCreated: 2025-09-12T13:40:06.575Z
 </summary>
 
 ---
+
+
+<div class="toc-grid">
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-10">1. 10_Альбом</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-11">2. 11_ТЭПы</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-12">3. 12_Риски</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-13">4. 13_Видеотрансляция</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-14">5. 14_Динамика рабочих</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-15">6. 15_Динамика универсальная</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-16">7. 16_Процент готовности объекта</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-17">8. 17_Отчет</a></h4>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-18">9. 18_Таблица из DOCS</a></h4>
+  </div>
+
+</div>
 
 # Вкладки{.tabset}
 ## 10_Альбом
@@ -152,6 +193,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 График планового и фактического количества рабочих по дням. 
 
 #### Отображение карточки в режиме пользователя
+###### Отображение карточки в режиме пользователя {#otobrazhenie_kartochki_v_rezhime_polzovatelya}
 
 В режиме просмотра отчёта:
 
@@ -162,6 +204,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ![14_раскрытая1.png](/sgnl_dash/10_common/14_раскрытая1.png)
 
 #### Настройка
+###### Настройка {#nastroyka}
 
   <details>
 <summary>Шаблон Excel</summary>
@@ -189,6 +232,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXffcIRL2BCiV2s-E4CSMz4JFUftgEpaqwSODHWLD_ufjSV5h9l8Ld0l0CnTRwcAcj5s9cCxjzGiqTEzivfOUTo_v9c8amgJg_xx6QxZ-VyefUfLYpf-zeQeZj9NXyUQF26SN0rAS3kEsGQKRw_TjA?key=fRbp-4QSI0yBB0UfzBD5EQ)
 
 #### Импорт данных СКУД из DOCS
+###### Импорт данных СКУД из DOCS {#import_dannyh_skud_iz_docs}
 
 Карточка может строить фактическую динамику по данным системы контроля и управления доступом (СКУД). Сначала загрузите выгруженный из СКУД JSON-файл в проект DOCS. Затем в настройках карточки:
 
@@ -206,10 +250,12 @@ dateCreated: 2025-09-12T13:40:06.575Z
 Карточка отображает динамику по каким-либо работам. Например, можно показывать количество техники на стройплощадке в определенный день, количество подписанных или находящихся в работе актов и т.д.
 
 #### Отображение карточки в режиме пользователя
+###### Отображение карточки в режиме пользователя {#otobrazhenie_kartochki_v_rezhime_polzovatelya_2}
 
 ![image-1681292468949.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbebUh1fTcSqUJN-1741NGU620IMgkvQb2EPpqC93vn7lUE5OhBpPM0NcjpkT0u4LvPDM852Ehk8P0kQpzWBYBME4WkN05lE8eXgyBrWePiwZpKrma4b8T5qYCJjzYCWH5fZ5UQMjeSLEUUe13qQ?key=myod8CZdaq8YP84STX-MiA =300x)
 
 #### Настройка
+###### Настройка {#nastroyka_2}
   
   <details>
 <summary>Шаблон Excel</summary>
@@ -259,6 +305,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 -   Нажмите кнопку «Вставить данные» и скопируйте в карточку данные из Excel, используя комбинацию клавиш Ctrl+C и Ctrl+V
 
 #### Использование
+###### Использование {#ispolzovanie}
 
 Внутри карточки находится график, отражающий введенную информацию.
 
@@ -270,6 +317,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 Карточка показывает степень готовности объекта в процентном соотношении: план/факт/осталось. Например, можно визуализировать общий процент готовности по всему объекту или процент готовности по отдельному виду работы.
 
 #### Отображение карточки в режиме пользователя
+###### Отображение карточки в режиме пользователя {#otobrazhenie_kartochki_v_rezhime_polzovatelya_3}
 
 ![image-1677655525000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch7WyfpPzGofJwPDTV-uW73UQaxqykUOi72EVsdCPEw3mfpadsvMBNs2jr8uKWNrqRVEMlIEe9b4Gey0fucdjbxem_EiweBeNihPy4z9xD71-z5OSoLbnI0F7fYIreSSORymEMmFosKgJYIRWtwQ?key=WCWKhvs0TBg0F0UgEM_5cQ =450x)
 
@@ -278,6 +326,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 -   Серое тело - плановый объем
 
 #### Настройка
+###### Настройка {#nastroyka_3}
 
 1\. Основные настройки
 
@@ -297,10 +346,12 @@ dateCreated: 2025-09-12T13:40:06.575Z
 Карточка для отображения отчётной графической и текстовой информации.
 
 #### Отображение карточки в режиме пользователя
+###### Отображение карточки в режиме пользователя {#otobrazhenie_kartochki_v_rezhime_polzovatelya_4}
 
 ![image-1677491513000.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8aiFmihdEnbJS0tndaDB0-6WFSMUAjwzKpB_6K96CWNtsLptJxYzsAtAvsEEXSSrtbbOlwNWsWZ7HVNk7CIho1mMU2eRenHuW3xLc49NqWSC3vUYf-lzQjM9jifrKh6m3Xc95p6u0mjGmwjHjcA?key=4JGiycXz0KOTLWiJLf8rJQ =300x)
 
 #### Настройка
+###### Настройка {#nastroyka_4}
 
 ![image-1677491531644.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSrxn-dApn7i8pSUrN7PP0Xri4HuY-iZW-LUFV8lU33Kt-YGJqiPPgl-fUaQsfEIRuYXzC1C7uPLuFPhd8yQ4yZR4hPCOYjgb6kE06C3vRh-r_ZBF66OGqN-PplZwJt3stS-JPiE8QmE_K6evbDQ?key=4JGiycXz0KOTLWiJLf8rJQ)
 
@@ -312,6 +363,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 6.  Удалить окно с текстовой или графической информацией.
 
 #### Использование
+###### Использование {#ispolzovanie_2}
 
 Внутри карточки расположен созданный отчёт с текстовой и графической информацией
 
@@ -325,6 +377,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 ![Карточка 18 — таблица из DOCS](/release_notes/2026-13_-_карточка_18.png =900x)
 
 #### Настройка
+###### Настройка {#nastroyka_5}
 
 1. Загрузите XLSX-файл в DOCS и выберите его в поле «Файл» настроек карточки.
 2. В поле «Лист» выберите лист книги. Укажите начальные столбец и строку: таблица будет показана с этой ячейки. Первая строка выбранной области служит заголовками столбцов.
