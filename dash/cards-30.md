@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 30. Сроки
 description: Карточки DASHBOARD для контроля сроков проекта, вех и графиков Excel и MPP
 published: true
-date: 2026-10-20T14:20:22.403Z
+date: 2026-10-22T13:14:31.939Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:35:13.037Z
@@ -15,6 +15,23 @@ dateCreated: 2025-09-18T13:35:13.037Z
 </summary>
 
 ---
+
+
+
+<div class="toc-grid">
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-30">Карточки_30. Сроки</a></h4>
+    <ul class="toc-list">
+      <li><a href="#card-30"><span class="toc-badge">1.1</span> 30_Процент срока реализации</a></li>
+      <li><a href="#card-31"><span class="toc-badge">1.2</span> 31_Вехи на проекте</a></li>
+      <li><a href="#card-32"><span class="toc-badge">1.3</span> 32_График Excel</a></li>
+      <li><a href="#card-33"><span class="toc-badge">1.4</span> 33_График MPP</a></li>
+      <li><a href="#card-34"><span class="toc-badge">1.5</span> 34_График MPP с вехами</a></li>
+    </ul>
+  </div>
+
+</div>
 
 # Вкладки{.tabset}
 ## 30_Процент срока реализации
