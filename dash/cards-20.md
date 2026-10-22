@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 20. Деньги
 description: Карточки DASHBOARD для освоения денежных средств, финансирования и прогноза по месяцам
 published: true
-date: 2026-10-20T10:50:49.495Z
+date: 2026-10-22T13:14:59.349Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:21:31.877Z
@@ -15,6 +15,24 @@ dateCreated: 2025-09-18T13:21:31.877Z
 </summary>
 
 ---
+
+
+
+<div class="toc-grid">
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-20">1. Карточки</a></h4>
+    <ul class="toc-list">
+      <li><a href="#card-20"><span class="toc-badge">1.1</span> 20_Процент освоения денег</a></li>
+      <li><a href="#card-21"><span class="toc-badge">1.2</span> 21_Общая накопительная по деньгам</a></li>
+      <li><a href="#card-21-2"><span class="toc-badge">1.3</span> 21_2_Общая накопительная по деньгам 2</a></li>
+      <li><a href="#card-22"><span class="toc-badge">1.4</span> 22_Освоение денег по месяцам</a></li>
+      <li><a href="#card-23"><span class="toc-badge">1.5</span> 23_Освоение денег по месяцам с прогнозом</a></li>
+      <li><a href="#card-24"><span class="toc-badge">1.6</span> 24_План-факт финансирования</a></li>
+    </ul>
+  </div>
+
+</div>
 
 # Вкладки{.tabset}
 ## 20_Процент освоения денег
