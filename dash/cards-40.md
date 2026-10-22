@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 40. Объёмы
 description: Карточки DASHBOARD для плановых и фактических объёмов работ, темпов и прогноза выполнения
 published: true
-date: 2026-10-22T11:26:55.910Z
+date: 2026-10-22T13:13:40.707Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
@@ -15,6 +15,26 @@ dateCreated: 2025-09-18T13:37:28.921Z
 </summary>
 
 ---
+
+
+
+<div class="toc-grid">
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-40">1. Карточки</a></h4>
+    <ul class="toc-list">
+      <li><a href="#card-40"><span class="toc-badge">1.1</span> 40_Процент освоения объемов</a></li>
+      <li><a href="#card-41"><span class="toc-badge">1.2</span> 41_План-факт по объемам</a></li>
+      <li><a href="#card-41-mpp"><span class="toc-badge">1.3</span> 41_План-факт по объёмам MPP</a></li>
+      <li><a href="#card-42"><span class="toc-badge">1.4</span> 42_План-Факт-Замечания</a></li>
+      <li><a href="#card-43"><span class="toc-badge">1.5</span> 43_Темпы выполнения по объемам</a></li>
+      <li><a href="#card-44"><span class="toc-badge">1.6</span> 44_Прогноз выполнения</a></li>
+      <li><a href="#card-46"><span class="toc-badge">1.7</span> 46_План факт по объёмам с прогнозом</a></li>
+      <li><a href="#card-49"><span class="toc-badge">1.8</span> 49_DOCS</a></li>
+    </ul>
+  </div>
+
+</div>
 
 # Вкладки{.tabset}
 ## 40_Процент освоения объемов
