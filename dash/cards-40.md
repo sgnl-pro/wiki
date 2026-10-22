@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 40. Объёмы
 description: Карточки DASHBOARD для плановых и фактических объёмов работ, темпов и прогноза выполнения
 published: true
-date: 2026-10-22T13:13:40.707Z
+date: 2026-10-22T13:13:57.262Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:37:28.921Z
@@ -21,7 +21,7 @@ dateCreated: 2025-09-18T13:37:28.921Z
 <div class="toc-grid">
 
   <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-40">1. Карточки</a></h4>
+    <h4 class="toc-card-title"><a href="#card-40">Карточки_40. Объемы</a></h4>
     <ul class="toc-list">
       <li><a href="#card-40"><span class="toc-badge">1.1</span> 40_Процент освоения объемов</a></li>
       <li><a href="#card-41"><span class="toc-badge">1.2</span> 41_План-факт по объемам</a></li>
