@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: Общие карточки DASHBOARD: альбом, показатели проекта, риски, графики и таблица из DOCS
 published: true
-date: 2026-10-22T13:04:38.171Z
+date: 2026-10-22T13:05:01.968Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -20,7 +20,7 @@ dateCreated: 2025-09-12T13:40:06.575Z
 <div class="toc-grid">
 
   <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-10">Карточки_10</a></h4>
+    <h4 class="toc-card-title"><a href="#card-10">Карточки_10. Общие</a></h4>
     <ul class="toc-list">
       <li><a href="#card-10"><span class="toc-badge">1.1</span> 10_Альбом</a></li>
       <li><a href="#card-11"><span class="toc-badge">1.2</span> 11_ТЭПы</a></li>
