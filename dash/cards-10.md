@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 10. Общие
 description: Общие карточки DASHBOARD: альбом, показатели проекта, риски, графики и таблица из DOCS
 published: true
-date: 2026-10-22T12:59:52.733Z
+date: 2026-10-22T13:04:25.700Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-12T13:40:06.575Z
@@ -20,39 +20,18 @@ dateCreated: 2025-09-12T13:40:06.575Z
 <div class="toc-grid">
 
   <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-10">1. 10_Альбом</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-11">2. 11_ТЭПы</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-12">3. 12_Риски</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-13">4. 13_Видеотрансляция</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-14">5. 14_Динамика рабочих</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-15">6. 15_Динамика универсальная</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-16">7. 16_Процент готовности объекта</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-17">8. 17_Отчет</a></h4>
-  </div>
-
-  <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-18">9. 18_Таблица из DOCS</a></h4>
+    <h4 class="toc-card-title"><a href="#card-10">1. Карточки</a></h4>
+    <ul class="toc-list">
+      <li><a href="#card-10"><span class="toc-badge">1.1</span> 10_Альбом</a></li>
+      <li><a href="#card-11"><span class="toc-badge">1.2</span> 11_ТЭПы</a></li>
+      <li><a href="#card-12"><span class="toc-badge">1.3</span> 12_Риски</a></li>
+      <li><a href="#card-13"><span class="toc-badge">1.4</span> 13_Видеотрансляция</a></li>
+      <li><a href="#card-14"><span class="toc-badge">1.5</span> 14_Динамика рабочих</a></li>
+      <li><a href="#card-15"><span class="toc-badge">1.6</span> 15_Динамика универсальная</a></li>
+      <li><a href="#card-16"><span class="toc-badge">1.7</span> 16_Процент готовности объекта</a></li>
+      <li><a href="#card-17"><span class="toc-badge">1.8</span> 17_Отчет</a></li>
+      <li><a href="#card-18"><span class="toc-badge">1.9</span> 18_Таблица из DOCS</a></li>
+    </ul>
   </div>
 
 </div>
@@ -388,3 +367,5 @@ dateCreated: 2025-09-12T13:40:06.575Z
 
 #
 <sub>**[<   DASHBOARD. Все карточки](/ru/dash/cards)     **|**     [DASHBOARD. Карточки 20. Деньги    >](/ru/dash/cards-20)**</sub>
+
+
