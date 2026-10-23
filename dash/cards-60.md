@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: Карточки DASHBOARD для анализа замечаний, согласований и SLA по данным DOCS
 published: true
-date: 2026-10-23T14:39:43.670Z
+date: 2026-10-23T14:40:10.015Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:41:20.629Z
@@ -21,7 +21,7 @@ dateCreated: 2025-09-18T13:41:20.629Z
 <div class="toc-grid">
 
   <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#card-61">1. Карточки</a></h4>
+    <h4 class="toc-card-title"><a href="#card-61">Карточки_60. DOCS</a></h4>
     <ul class="toc-list">
       <li><a href="#card-61"><span class="toc-badge">1.1</span> 61_Динамика замечаний в DOCS</a></li>
       <li><a href="#card-62"><span class="toc-badge">1.2</span> 62_Замечания DOCS</a></li>
