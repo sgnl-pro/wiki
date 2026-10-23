@@ -2,7 +2,7 @@
 title: DASHBOARD. Карточки 60. DOCS
 description: Карточки DASHBOARD для анализа замечаний, согласований и SLA по данным DOCS
 published: true
-date: 2026-10-22T15:12:22.761Z
+date: 2026-10-23T14:39:43.670Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:41:20.629Z
@@ -15,6 +15,26 @@ dateCreated: 2025-09-18T13:41:20.629Z
 </summary>
 
 ---
+
+
+
+<div class="toc-grid">
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#card-61">1. Карточки</a></h4>
+    <ul class="toc-list">
+      <li><a href="#card-61"><span class="toc-badge">1.1</span> 61_Динамика замечаний в DOCS</a></li>
+      <li><a href="#card-62"><span class="toc-badge">1.2</span> 62_Замечания DOCS</a></li>
+      <li><a href="#card-63"><span class="toc-badge">1.3</span> 63_Общая по согласованиям в DOCS</a></li>
+      <li><a href="#card-64"><span class="toc-badge">1.4</span> 64_Динамика согласований в DOCS 2</a></li>
+      <li><a href="#card-65"><span class="toc-badge">1.5</span> 65_Реестр согласований в DOCS</a></li>
+      <li><a href="#card-65-2"><span class="toc-badge">1.6</span> 65_Согласования DOCS 2</a></li>
+      <li><a href="#card-66"><span class="toc-badge">1.7</span> 66_SLA по ролям</a></li>
+      <li><a href="#card-67"><span class="toc-badge">1.8</span> 67_SLA по согласованиям</a></li>
+    </ul>
+  </div>
+
+</div>
 
 # Вкладки{.tabset}
 ## 61_Динамика замечаний в DOCS
