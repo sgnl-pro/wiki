@@ -2,17 +2,17 @@
 title: TOOLS FOR REVIT. Замечания DOCS
 description: Создание и редактирование замечаний DOCS из Revit и привязка к элементам модели
 published: true
-date: 2026-10-24T07:40:58.044Z
-tags:
+date: 2026-10-24T08:25:27.561Z
+tags: 
 editor: markdown
-dateCreated: 2026-10-24T07:40:58.044Z
+dateCreated: 2026-10-24T07:59:42.411Z
 ---
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"><a href="/tools/revit/issues/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
 
-<sub>**[<   TOOLS FOR REVIT](/tools/revit)**</sub>
+<sub>**[<   TOOLS FOR REVIT. Вид](/tools/revit.view)**</sub>
 
 ## Выбор и привязка замечания {#link}
 
@@ -25,3 +25,5 @@ dateCreated: 2026-10-24T07:40:58.044Z
 В том же окне можно открыть существующее замечание для редактирования. После сохранения изменения передаются в DOCS. Доступ к созданию и редактированию определяется правами пользователя на соответствующий тип замечания проекта.
 
 Не путайте замечание DOCS с локальным комментарием элемента: замечание хранится в реестре проекта и доступно другим участникам с соответствующими правами.
+
+<sub>**[<   TOOLS FOR REVIT. Вид](/tools/revit.view)**</sub>
