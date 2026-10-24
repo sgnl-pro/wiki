@@ -1,8 +1,8 @@
 ---
 title: TOOLS FOR REVIT
-description: "Инструменты SIGNAL для Revit, настройки, обработка моделей и замечания DOCS"
+description: Инструменты SIGNAL для Revit, настройки, обработка моделей и замечания DOCS
 published: true
-date: 2026-10-24T07:40:58.044Z
+date: 2026-10-24T08:19:34.421Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-22T11:08:39.873Z
