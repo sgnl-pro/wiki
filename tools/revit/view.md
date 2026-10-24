@@ -2,13 +2,13 @@
 title: TOOLS. Вид
 description: 
 published: true
-date: 2026-02-04T14:18:21.113Z
+date: 2026-10-24T08:23:46.031Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:31:29.537Z
 ---
 
-<sub>[**<   TOOLS FOR REVIT. Классификация**  ](/ru/tools/revit/classification)     
+<sub>**[<   TOOLS FOR REVIT. Классификация**  ](/ru/tools/revit/classification)     **|**     [TOOLS FOR REVIT. Замечания DOCS    >](/ru/tools/revit/issues)**</sub>
 
 ---
 
@@ -52,4 +52,4 @@ dateCreated: 2025-09-21T13:31:29.537Z
 
 ![image-1683719398090.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJu7dXsw8PwiZm5vV0g-6fn-ykn4cZPUFGOIUIF8A3LNyWRBtrmEH06ZKggPtbGQSsnnTBXI1FwK1vAcmIPidMVJEur0I2CsAVH0TlF53q6uGb48cVwCV7iubX0bTL4FoLmwAg2D6wTkaI2NNnsg?key=XCm0BdtZvM48NGrhQR506w)
   #
-  <sub>[**<   TOOLS FOR REVIT. Классификация**  ](/ru/tools/revit/classification)  
+<sub>**[<   TOOLS FOR REVIT. Классификация**  ](/ru/tools/revit/classification)     **|**     [TOOLS FOR REVIT. Замечания DOCS    >](/ru/tools/revit/issues)**</sub> 
