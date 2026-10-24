@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API — История изменений
 description: 
 published: true
-date: 2026-08-31T00:00:00.000Z
+date: 2026-10-24T07:40:58.044Z
 tags: general
 editor: markdown
 dateCreated: 2026-08-31T00:00:00.000Z
@@ -19,6 +19,25 @@ dateCreated: 2026-08-31T00:00:00.000Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.19](/general/updates/2026-19)** ^23.10.2026^
+
+:sparkles: Добавили операции для замечаний с разметкой PDF, перемещения файлов и работы с передачами. Для версии согласования доступны передача, чтение и изменение комментария.
+
+| Действие | Метод |
+| --- | --- |
+| Создать замечание с привязкой к версии файла и графической разметкой PDF | `POST /public/v1/issues/create` |
+| Переместить файлы между папками | `PATCH /public/v1/items/move` |
+| Создать передачу | `POST /public/v1/documents-transfers/create` |
+| Добавить файлы в передачу | `POST /public/v1/documents-transfer-items/add` |
+| Прикрепить подготовленный акт к передаче | `POST /public/v1/acceptance-certificates/attach` |
+| Отправить передачу адресату | `POST /public/v1/documents-transfer-acceptances/send` |
+| Создать комплект и передать комментарий в поле `comment` | `POST /public/v1/reviews/create` |
+| Получить версии согласования вместе с полем `comment` | `POST /public/v1/reviews/versions` |
+| Изменить комментарий версии до запуска, в процессе или после завершения согласования | `PATCH /public/v1/reviews/comment` |
+
+Параметры запросов и ответы методов доступны в [Swagger](https://api.sgnl.pro/openapi/swagger/index.html).
 
 ----
 **[2026.18](/general/updates/2026-18)** ^28.09.2026^

@@ -2,7 +2,7 @@
 title: DOCS. Замечания — История изменений
 description: 
 published: true
-date: 2026-09-21T00:00:00.000Z
+date: 2026-10-24T07:40:58.044Z
 tags: docs
 editor: markdown
 dateCreated: 2026-09-21T00:00:00.000Z
@@ -19,6 +19,11 @@ dateCreated: 2026-09-21T00:00:00.000Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.19](/general/updates/2026-19)** ^23.10.2026^
+
+:sparkles: При экспорте замечаний в XLSX выгружаются пользовательские комментарии.
 
 ----
 **[2026.18](/general/updates/2026-18)** ^28.09.2026^

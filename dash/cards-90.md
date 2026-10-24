@@ -1,8 +1,8 @@
 ---
 title: DASHBOARD. Карточки 90. Другие
-description: Карточки DASHBOARD для встраивания внешних ресурсов, ссылок и данных Техзор
+description: "Интеграционные карточки DASHBOARD, ссылки на файлы и видео, подключение Техзора"
 published: true
-date: 2026-09-23T15:59:11.000Z
+date: 2026-10-24T07:40:58.044Z
 tags: dash
 editor: markdown
 dateCreated: 2025-09-18T13:42:30.202Z

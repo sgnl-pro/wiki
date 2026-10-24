@@ -1,12 +1,16 @@
 ---
 title: TOOLS. Настройки
-description: 
+description: "Настройки SIGNAL для Revit, раскраска, количественные свойства, компании и копирование параметров"
 published: true
-date: 2026-05-18T09:16:27.943Z
+date: 2026-10-24T07:40:58.044Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:04:35.671Z
 ---
+
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"><a href="/tools/revit/settings/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 <sub>**[<   TOOLS FOR NAVIS. Утилиты ](/ru/tools/navis/attachments)     **|**     [TOOLS FOR REVIT. Панель   >](/ru/tools/revit/panel)**</sub>
 
@@ -92,6 +96,10 @@ dateCreated: 2025-09-21T13:04:35.671Z
   
   
   
+## Пользовательские свойства {#custom-properties}
+
+При настройке добавляемых пользовательских свойств в Revit можно использовать до **50 свойств**.
+
 ## Параметры для копирования
 ### Параметры для копирования {#copying}
   

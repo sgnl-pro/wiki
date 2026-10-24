@@ -1,12 +1,16 @@
 ---
 title: TOOLS. Копирование элементов
-description: 
+description: "Копирование параметров и элементов, фиксация и обновление свойств SIGNAL в Revit"
 published: true
-date: 2026-02-04T14:17:28.269Z
+date: 2026-10-24T07:40:58.044Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T13:13:39.334Z
 ---
+
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"><a href="/tools/revit/copying/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 <sub>**[<   TOOLS FOR REVIT. Проверка  ](/ru/tools/revit/checker)     **|**     [TOOLS FOR REVIT. Утилиты    >](/ru/tools/revit/attachments)**</sub>
 

@@ -1,12 +1,16 @@
 ---
 title: TOOLS. Замечания
-description: 
+description: "Комментарии элементов, создание и редактирование замечаний DOCS и их привязка к модели Navisworks"
 published: true
-date: 2026-05-15T14:19:31.420Z
+date: 2026-10-24T07:40:58.044Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:21:15.211Z
 ---
+
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"><a href="/tools/navis/issues/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
 
 <sub>**[<   TOOLS FOR NAVIS. Согласование](/ru/tools/navis/approval)     **|**     [TOOLS FOR NAVIS. Расчет   >](/ru/tools/navis/calculation)**</sub>
 
@@ -20,7 +24,7 @@ dateCreated: 2025-09-21T12:21:15.211Z
   
   
   
-## Комментарий {#comment}
+## Комментарий
 ### Комментарий {#comment}
   
 > Инструмент позволяет вносить комментарии в элемент
@@ -46,17 +50,17 @@ dateCreated: 2025-09-21T12:21:15.211Z
 
   
   
-## Из DOCS {#from_docs_link}
+## Из DOCS
 ### Из DOCS {#from_docs_link}
   
 > *Инструмент для переноса и назначения замечаний из DOCS, на определенные элементы в модели, с ссылкой и комментариями полученными из веб-приложения.*
 {.is-info}
 
-Замечания на элемент назначаются из реестра замечаний. Для начала создайте необходимые замечания в нужной вкладке в веб-версии SIGNAL DOCS.
+Замечания на элемент назначаются из реестра DOCS. Можно выбрать уже существующее замечание либо создать новое прямо в окне выбора плагина — предварительно переходить в браузер не требуется.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd8KTYgkrnQyR1ABlvM_tFf5G2LToUkCV1irkklvKwICdJeunqpQTjMmpwQu2qain7Yvju5A0yNmjbuxjzWMVG3IMXm5NnyaNTDrWpFUrV6DNs1eY5a5EbhcMcN19Gj5vE6hJgVIg?key=IbnQ9QC0ZrgOH91pJKt7uA)
 
-После создания замечаний, переходите в модель Navisworks. 
+Откройте модель Navisworks и выберите элементы, к которым нужно привязать замечание. 
 
 В модели Navisworks выделите необходимые элементы которым хотите назначить замечания. Это может быть как один, так и несколько элементов.
 
@@ -78,7 +82,11 @@ dateCreated: 2025-09-21T12:21:15.211Z
   
   
   
-## Импорт замечаний {#from_docs}
+В окне выбора также можно редактировать существующее замечание. Изменения сохраняются в DOCS. Создание и редактирование доступны с учётом прав пользователя на тип замечания проекта.
+
+После сохранения выберите замечание и продолжите привязку к элементам модели.
+
+## Импорт замечаний
 ### Импорт замечаний {#from_docs}
   
 > *Инструмент позволяет импортировать и закреплять замечания с привязкой по элементам, из модели SIGNAL DOCS в ту же модель Navisworks, по коду элементов.*

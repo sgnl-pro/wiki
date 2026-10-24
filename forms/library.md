@@ -2,13 +2,13 @@
 title: FORMS. Библиотека форм
 description: Рабочие типы форм, названия и типы полей, системные имена для шаблонов DOCX
 published: true
-date: 2026-10-21T10:31:11.000Z
+date: 2026-10-24T07:40:58.044Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-21T09:59:55.435Z
 ---
 
-<sub>**[<   FORMS. Генерация документов](/ru/forms/generate)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+<sub>**[<   FORMS. Генерация XML (MVP)](/forms/xml)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
 <span style="flex-grow: 1;"> <a href="/forms/library/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений перечня форм)</a></span>
@@ -2156,4 +2156,4 @@ dateCreated: 2026-10-21T09:59:55.435Z
 </details>
 
 ---
-<sub>**[<   FORMS. Генерация документов](/ru/forms/generate)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>
+<sub>**[<   FORMS. Генерация XML (MVP)](/forms/xml)     **|**     [DASHBOARD. Введение   >](/ru/dash/intro)**</sub>

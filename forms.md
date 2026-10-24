@@ -1,8 +1,8 @@
 ---
 title: SIGNAL FORMS
-description: Раздел справки по FORMS: конструктор, настройки, заполнение форм и генерация документов
+description: "Конструктор, настройки, заполнение и согласование форм, генерация DOCX, PDF и XML"
 published: true
-date: 2026-10-21T10:18:53.389Z
+date: 2026-10-24T07:40:58.044Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-15T13:31:05.798Z
@@ -13,5 +13,6 @@ dateCreated: 2026-05-15T13:31:05.798Z
 - [Настройки проекта](/forms/settings)
 - [Заполнение форм](/forms/create)
 - [Генерация документов](/forms/generate)
+- [Генерация XML (MVP)](/forms/xml)
 - [Библиотека форм](/forms/library)
 {.links-list}
