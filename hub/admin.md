@@ -2,7 +2,7 @@
 title: HUB. Администратор
 description: "Управление пользователями, проектами, ролями, компаниями, доверенностями и справочниками организации"
 published: true
-date: 2026-10-24T07:40:58.044Z
+date: 2026-10-24T08:38:22.742Z
 tags: hub
 editor: markdown
 dateCreated: 2025-06-24T16:53:52.277Z
@@ -50,7 +50,6 @@ dateCreated: 2025-06-24T16:53:52.277Z
       <li><a href="#roles"><span class="toc-badge">2.3</span> Создание и назначение ролей</a></li>
       <li><a href="#log"><span class="toc-badge">2.4</span> Мониторинг действий (Логи)</a></li>
       <li><a href="#counterparties"><span class="toc-badge">2.5</span> Компании</a></li>
-
       <li><a href="#counterparties-mchd"><span class="toc-badge">2.5.1</span> Доверенности</a></li>
       <li><a href="#additional"><span class="toc-badge">2.6</span> Дополнительно</a></li>
     </ul>
