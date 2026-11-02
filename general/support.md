@@ -2,7 +2,7 @@
 title: SIGNAL. Поддержка
 description: Контакты поддержки SIGNAL, официальные каналы и материалы для решения вопросов
 published: true
-date: 2026-02-04T13:32:32.046Z
+date: 2026-11-02T13:48:09.192Z
 tags: general
 editor: markdown
 dateCreated: 2025-09-09T14:46:59.376Z
@@ -14,6 +14,7 @@ dateCreated: 2025-09-09T14:46:59.376Z
 
 - [sgnl.pro *Официальный сайт*](https://sgnl.pro)
 - [YouTube-канал *Видео-ролики и вебинары*](https://www.youtube.com/channel/UCys3KnaYRe417IwrMOj7rPQ)
+- [Rutube-канал *Видео-ролики и вебинары*](https://rutube.ru/channel/43554810/videos/)
 - [support@sgnl.pro *Техническая поддержка*](mailto:support@sgnl.pro)
 - [info@sgnl.pro *Электронная почта*](mailto:info@sgnl.pro)
 - [Telegram-канал *Новости и материалы*](https://t.me/signal_docs)
