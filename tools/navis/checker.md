@@ -2,7 +2,7 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-05-15T14:29:26.595Z
+date: 2026-11-03T13:43:16.179Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
@@ -80,6 +80,10 @@ dateCreated: 2025-09-21T12:01:58.429Z
 Добавьте свойство в виде пары “Категория-Свойство” и запустите проверку.
 
 ![image-1684132785866.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXA3GWjguPWrCClsLtVCWaCITVAEIsHNB3Qkiu0fAQPw9qEbhgIMeg9Yphsrux0h60nom2CtESpubUilHgHrmN26pO2nlWlKFNrKbeRYxZyagSMQ0wvRFqnYxKuBnZhQTiGvvpX6ajWS-os5Ko?key=kvd51ahbWRxAG7mrOPv7NQ)
+  
+  Шаблоны можно скачать по следующей ссылке:
+
+[SGNL_Navis_Checker_Template_Check_1.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 #### Наличие свойств для групп элементов
 
@@ -118,7 +122,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 Шаблоны можно скачать по следующей ссылке:
 
-[_Checker\_Template1.xlsx_](https://docs.sgnl.pro/s/f/4d8f615a-27fd-4b1a-a631-c7529eb99f03)
+[SGNL_Navis_Checker_Template_Check_2.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 #### Наличие одного из свойств
 
@@ -132,6 +136,10 @@ dateCreated: 2025-09-21T12:01:58.429Z
 Добавьте свойство и к нему список из возможных вариантов, где в элементе может быть указано данное свойство. Свойства указываются в виде пары “Категория-Свойство”
 
 ![image-1684132979590.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfD-z1hCdMLLOrTQLAq1JX7_oT3VI4uwQ8vIFMqxupA5w3PXbnvOk04vNCeRkY8JPggkeKtbQvBgw0M8NWM6xBL_dF8W3gzDRdZOX61dBS_SVWrzN4nO2QbLRvvV8dFXK5HLuirSQZc2L1I5Mw4KA?key=kvd51ahbWRxAG7mrOPv7NQ)
+  
+  Шаблоны можно скачать по следующей ссылке:
+
+[SGNL_Navis_Checker_Template_Check_3.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 #### Заполненность значений свойств для групп элементов
 
@@ -148,6 +156,10 @@ dateCreated: 2025-09-21T12:01:58.429Z
 ![image-1684133032765.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeOn9mNwctKgpQ_EB3rHcfxWKEEkV-_JW1jzO8aSGOack75PS8DpWpN2GcrAZ-Nu8SfNGB_luNCfkXTD9ccXAB2DriIZ6ufXAtrRKBvrsowsBe8EVMQlUkHN9sXULXwy4QgalA_tq77UkDCCxoxsQ?key=kvd51ahbWRxAG7mrOPv7NQ)
 
 -   Добавьте проверочное свойство в виде пары “Категория-Свойство” и значение, которое должно быть у данного свойства.
+  
+  Шаблоны можно скачать по следующей ссылке:
+
+[SGNL_Navis_Checker_Template_Check_4.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 #### Проверка на пересечения (Clash Detective)
 
@@ -166,6 +178,10 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 -   Отметьте галочкой какие группы необходимо проверить на пересечения и запустите проверку. Например, Шахты между собой, Шахты с Гор. конструкциями, Гор. конструкции между собой.
 -   При необходимости выставите допуск на пересечения в мм.
+  
+  Шаблоны можно скачать по следующей ссылке:
+
+[SGNL_Navis_Checker_Template_Check_5.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 #### Наличие элементов
 
@@ -183,6 +199,10 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   **В столбце “Значение”** запишите значение проверочного свойства.
 -   **В столбце “Описание”** можете добавить описание к свойству.
 -   **В столбце “Кол-во”** запишите количество элементов, которое должно быть в модели.
+  
+  Шаблоны можно скачать по следующей ссылке:
+
+[SGNL_Navis_Checker_Template_Check_6.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 
 
