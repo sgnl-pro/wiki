@@ -2,7 +2,7 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-11-05T09:51:00.419Z
+date: 2026-11-05T09:56:30.462Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
@@ -84,7 +84,8 @@ dateCreated: 2025-09-21T12:01:58.429Z
 ![image-1684132785866.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXA3GWjguPWrCClsLtVCWaCITVAEIsHNB3Qkiu0fAQPw9qEbhgIMeg9Yphsrux0h60nom2CtESpubUilHgHrmN26pO2nlWlKFNrKbeRYxZyagSMQ0wvRFqnYxKuBnZhQTiGvvpX6ajWS-os5Ko?key=kvd51ahbWRxAG7mrOPv7NQ)
 
 Правила к данной проверке можно создать в таблице Excel:
-  ![чекер_шаблон_1.png](/sgnl_tools_navis/checker/чекер_шаблон_1.png)
+
+  ![чекер_шаблон__1.png](/sgnl_tools_navis/checker/чекер_шаблон__1.png)
 
 -   В столбце A укажите категорию свойства, в столбце B — название свойства, например “Тип в приложении Revit” и “Код по классификатору”.
 -   Каждое проверочное свойство указывайте на отдельной строке.
@@ -130,7 +131,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 ![image-1684132887998.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfogA82mee4glJjx70R5QV54wVP6nYoL2HWhift0Ixea7-e4reW1DgUEYHV6GRvMvTShSDcFHvMWZT2ZHW6J08oLtHjY4xgX_TRFsYpX92cJ77kWHz2U5q_jzQjFfe_GMzhxIQwt_74qN12yGdMKg?key=kvd51ahbWRxAG7mrOPv7NQ)
 
-Шаблоны можно скачать по следующей ссылке:
+**Шаблоны можно скачать по следующей ссылке:**
 
 [SGNL_Navis_Checker_Template_Check_2.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
@@ -155,7 +156,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   Каждый вариант указывайте на отдельной строке и повторяйте в столбце A название проверочного свойства для всех его вариантов.
 -   Сохраните файл и в зоне правил нажмите **“ИМПОРТ”**.
   
-  Шаблоны можно скачать по следующей ссылке:
+  **Шаблоны можно скачать по следующей ссылке:**
 
 [SGNL_Navis_Checker_Template_Check_3.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
@@ -185,7 +186,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   Таким образом, получится: “Если свойство “Категория” имеет значение “Электрооборудование”, то свойство “Рабочий набор” должно иметь значение “ES\_01\_Panels””.
 -   Сохраните файл и в зоне правил нажмите **“ИМПОРТ”**.
   
-  Шаблоны можно скачать по следующей ссылке:
+  **Шаблоны можно скачать по следующей ссылке:**
 
 [SGNL_Navis_Checker_Template_Check_4.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
@@ -216,7 +217,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   Допуск на пересечения в таблице не указывается — выставите его в зоне правил после импорта.
 -   Сохраните файл и в зоне правил нажмите **“ИМПОРТ”**.
   
-  Шаблоны можно скачать по следующей ссылке:
+  **Шаблоны можно скачать по следующей ссылке:**
 
 [SGNL_Navis_Checker_Template_Check_5.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
@@ -248,7 +249,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   Каждое условие указывайте на отдельной строке.
 -   Сохраните файл и в зоне правил нажмите **“ИМПОРТ”**.
   
-  Шаблоны можно скачать по следующей ссылке:
+  **Шаблоны можно скачать по следующей ссылке:**
 
 [SGNL_Navis_Checker_Template_Check_6.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
