@@ -1,8 +1,8 @@
 ---
 title: DASHBOARD. Настройка проекта — История изменений
-description:
+description: "Изменения DASHBOARD. Настройки проекта"
 published: true
-date: 2026-09-23T11:31:43.000Z
+date: 2026-11-05T13:54:22.302Z
 tags: dash
 editor: markdown
 dateCreated: 2026-09-23T10:47:30.000Z
@@ -19,6 +19,11 @@ dateCreated: 2026-09-23T10:47:30.000Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.20](/general/updates/2026-20)** ^05.11.2026^
+
+:hammer_and_wrench: Пользователи с правом просмотра отчёта компании могут сворачивать и разворачивать группы карточек.
 
 ----
 **[2026.13](/general/updates/2026-13)** ^20.07.2026^

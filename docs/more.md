@@ -1,8 +1,8 @@
 ---
 title: DOCS. Дополнительно
-description: Резервное копирование DOCS, Android, Tangl, MinIO, настройка AD FS и прежняя версия DOCS Disk
+description: "Резервное копирование DOCS, Tangl, MinIO, AD FS, серверные опции on-premise и прежняя версия DOCS Disk"
 published: true
-date: 2026-10-09T17:01:35.000Z
+date: 2026-11-05T13:54:22.302Z
 tags: docs
 editor: markdown
 dateCreated: 2025-09-09T15:46:40.736Z
@@ -10,8 +10,8 @@ dateCreated: 2025-09-09T15:46:40.736Z
 
 <sub>**[<   DOCS Disk](/ru/docs/disk)     **|**     [FORMS. Введение   >](/ru/forms/intro)**</sub>
 
-<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; padding: 5px 16px; display: block; margin-top: 10px;">
-<a href="/docs/more/updates" style="color: inherit; text-decoration: none;">🔄 Что нового в этом разделе</a>
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"><a href="/docs/more/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
   
 ----
@@ -88,6 +88,12 @@ dateCreated: 2025-09-09T15:46:40.736Z
       <li><a href="#legacy-interface"><span class="toc-badge">7.3</span> Интерфейс</a></li>
       <li><a href="#legacy-sync"><span class="toc-badge">7.4</span> Синхронизация</a></li>
       <li><a href="#legacy-userSettings"><span class="toc-badge">7.5</span> Параметры приложения</a></li>
+    </ul>
+  </div>
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#onprem-user-emails">8. Отображение пользователей в on-premise</a></h4>
+    <ul class="toc-list">
+      <li><a href="#onprem-user-emails">Скрытие email при заполненном ФИО</a></li>
     </ul>
   </div>
 </div>
@@ -742,6 +748,23 @@ DOCS Disk отметит изменённый файл. Нажмите **«От�
 
 > Названия этих двух параметров в текущей версии приложения не соответствуют выполняемым действиям. В списке выше указано их фактическое поведение.
 {.is-warning}
+
+
+## 8. Отображение пользователей в on-premise
+###### 8. Отображение пользователей в on-premise {#onprem-user-emails}
+
+В on-premise-развёртывании администратор сервера может включить отображение участников DOCS без email, если у них заполнено ФИО. Опция задаётся на уровне окружения; пользовательского переключателя в интерфейсе нет.
+
+В конфигурации сервиса HUB задайте **`AppFeatures__UserEmailsHidingIsEnabled=true`** и примените конфигурацию способом, предусмотренным вашим развёртыванием. Значение `false` сохраняет отображение email вместе с ФИО.
+
+При включённой опции:
+
+- у участника с заполненным ФИО в списках, таблицах и сведениях DOCS показывается ФИО без email;
+- если заполнена только часть ФИО, отображается эта часть;
+- если ФИО отсутствует, показывается email;
+- для поиска участника с ФИО используйте его имя: скрытый email не участвует в поиске по списку пользователей.
+
+Опция меняет отображение участников, а не их учётные записи или способ входа. Администраторы компании продолжают видеть email пользователей в HUB.
 
 
 #

@@ -1,18 +1,22 @@
 ---
 title: TOOLS. Установка плагина
-description: 
+description: "Выбор и загрузка плагинов SIGNAL для Revit, Navisworks и AutoCAD, установка и вход в учётную запись"
 published: true
-date: 2026-02-04T14:13:54.616Z
+date: 2026-11-05T13:54:22.302Z
 tags: tools
 editor: markdown
 dateCreated: 2025-06-26T21:27:10.041Z
 ---
 
 <sub>**[<   INSPECTION. Приложение Photomaker](/ru/insp/app)     **|**     [TOOLS. Методология работы    >](/ru/tools/general/methodology)**</sub>
-  
+
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"><a href="/tools/general/plug-in-install/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
+</summary>
+
 ---
 
-1\. В HUB перейдите во вкладку “[_МОДУЛИ_](https://hub.sgnl.pro/hub/apps)” и выберете карточку “ПЛАГИНЫ”.  
+1\. В HUB откройте **«Модули»** и выберите **«Плагины»** либо перейдите прямо на [страницу загрузки плагинов](https://tools.sgnl.pro/plugins).
  
 
 ![image-1690191142768.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLn_j-XWNbYhEiRbDg2cFfZLzrzQpuWb1Ne88BS7_dFzGbDeLKQth0tINtwv2wX2wiTwz_Ttrtyv3o3BOudqzUVkx8c09oGREiPB-uNtPSO4YpMCQoj2sx4SA4qpsTzt57fVl9lvFErt6yFZ04MQ?key=oBVR7RC984DQbpSI4d7ShA)
@@ -28,7 +32,11 @@ dateCreated: 2025-06-26T21:27:10.041Z
   
  
 
-3\. Скачайте плагин, нажав на соответствующую карточку.
+3\. Выберите нужную программу: **Revit**, **Navisworks** или **AutoCAD**. Фильтр по программе оставит только соответствующую группу. Рядом с названием группы указаны поддерживаемые версии программы.
+
+Для Revit и Navisworks доступны варианты **FREE**, **BASIC** и **PRO**, для AutoCAD — **PRO**. Выберите нужный вариант и нажмите его карточку, чтобы скачать установщик. Перед загрузкой проверьте совместимость с версией установленного у вас ПО.
+
+Далее описаны установка и вход в плагины для Revit и Navisworks.
 
   
  
@@ -38,7 +46,7 @@ dateCreated: 2025-06-26T21:27:10.041Z
   
  
 
-ВНИМАНИЕ: если у Вас на компьютере имеются установленные плагины SIGNAL TOOLS более ранних версий, то их необходимо удалить, прежде чем устанавливать новую версию плагинов. Удаление можно произвести стандартным функционалом Windows "Установка и удаление программ".
+ВНИМАНИЕ: если у вас на компьютере имеются установленные плагины SIGNAL TOOLS более ранних версий, то их необходимо удалить, прежде чем устанавливать новую версию плагинов. Удаление можно произвести стандартным функционалом Windows "Установка и удаление программ".
 
   
  
@@ -48,10 +56,10 @@ dateCreated: 2025-06-26T21:27:10.041Z
   
  
 
-4\. Для установки плагинов у Вас на компьютере уже должны быть установлены ранее ПО Autodesk Revit и Autodesk Navisworks, версии старше 2020г. включительно.  
+4\. Перед запуском установщика установите ту программу Autodesk, для которой скачан плагин. Поддерживаемые версии перечислены в соответствующей группе на странице загрузки.
  
 
--   Запустите скачанные файлы двойным кликом, ознакомьтесь с Лицензионным соглашением, подтвердите свое согласие и нажмите “Далее”, затем “Готово”.  
+-   Запустите скачанные файлы двойным кликом, ознакомьтесь с Лицензионным соглашением, подтвердите свое согласие и нажмите «Далее», затем «Готово».
      
 
 ![image-1666257939947.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfD-IarJtXYWXcnVJIk9g1jB11_ktpsx6i_lox7RQChVd3Xz3Tj3kRoykxfIGevJ1mRx5RlMbpJ5Q80R6c0PLLdR5yPs4d5-HlVbMRjkmtKUeWhmyqV6JiqNxeGaoicGKtb0IMWGr3NeWOnumY1?key=oBVR7RC984DQbpSI4d7ShA)
@@ -61,21 +69,21 @@ dateCreated: 2025-06-26T21:27:10.041Z
   
  
 
-5\. После установки, на верхней панели управления ПО, появятся две вкладки:“SIGNAL” и “SIGNAL PRO”.
+5\. После установки, на верхней панели управления ПО, появятся две вкладки: «SIGNAL» и «SIGNAL PRO».
 
 ![image-1666257968763.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfuYUeZIva-TAywNGF2PyU-DjPGOmEN-HKbhXUMrZHCfptr0p4bu1X2EiR1v8dkomhWU7ZeZRzHul8Ov9Kq7bNAlqGlocYBnj5IA63UHvZ2N3vgLAcirYQfhhFugJ8TVDK6TwyD1FDYB713YT-lkQ?key=oBVR7RC984DQbpSI4d7ShA)
 
 6\. Активация Лицензии.
 
-Данное действие реализуется после того, как Администратор назначил Вам Лицензию.
+Данное действие реализуется после того, как Администратор назначил вам лицензию.
 
--   Вкладка “SIGNAL” ➤ “Настройки” ➤ “Основные” ➤ “Войти в учетную запись”.
+-   Вкладка «SIGNAL» ➤ «Настройки» ➤ «Основные» ➤ «Войти в учетную запись».
 
 ![image-1718787860209.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXelnxbdzRgt9jeknXezOcYIPXuteCfkXE5DkqZTHaDlTcwdbky28Hr5Kc0AzKKL6tcg0K4jotoDnqWSsZMEat0UKNBqtREkmXiDr_XbZuzHYYKJhzDqwNsuM4defwizr4iaPobJjOkNlnBLZDfA?key=oBVR7RC984DQbpSI4d7ShA)
 
 **Примечание:** Если на вашем устройстве отсутствует браузер Edge, или Вы используете Windows 7, то необходимо в папке **%appdata%/SIGNAL Common** создать файл **BrowserAuth.txt.** В таком случае авторизация будет происходить через стандартный браузер устройства.
 
-7\. В открывшемся окне введите Ваши почту и пароль, по которой Вас добавил Администратор.  
+7\. В открывшемся окне введите адрес электронной почты и пароль учётной записи, добавленной администратором.  
 
 ![image-1718788333029.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdtP6Blfqp4KMwcSOPMT0f7clUuF8P8mEVDIaMAV_BqAZxTz8tK8JjHdxehwEHVRBDZinR4RO_k6aXhRBPKB2-hK3EnBXYPyh8a0RgY-RJVDOSHRpFrvndRlfOW4Vpz_A_jtHx4RaC_SzLrJ1dRSg?key=oBVR7RC984DQbpSI4d7ShA)
 
@@ -90,7 +98,7 @@ dateCreated: 2025-06-26T21:27:10.041Z
 ###   
 **Установка плагина, если переустанавливали Navisworks**
 
-Перед переустановкой невиса выполните следующие действия:
+Перед переустановкой Navisworks выполните следующие действия:
 
 Скопируйте на рабочий стол
 
@@ -102,7 +110,7 @@ dateCreated: 2025-06-26T21:27:10.041Z
 
 ![image-1720435570216.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcYXBQiV-t43rqonL7vmsMEa_sUjrPf67aebig1rDHTCiVLZjy8PPZFriOAzi3vN_9V-eoA7BwlFmh4HJkcJkt1t80Ruw6aruNN1E9KnTEBImoMHKeDgmZ3ROT0JF4StQ?key=oBVR7RC984DQbpSI4d7ShA)
 
- После переустановки, установите плагин (скачать можно по ссылке [https://tools.sgnl.pro/](https://tools.sgnl.pro/)) и положите скопированные папки по тем же указанным путям из п.1 и п.2, а также импортируйте настройки (как на скрине, но кнопка "Импорт")
+ После переустановки, установите плагин (скачать можно на [странице плагинов](https://tools.sgnl.pro/plugins)) и положите скопированные папки по тем же указанным путям из п.1 и п.2, а также импортируйте настройки (как на скрине, но кнопка "Импорт")
   
 #
 <sub>**[<   INSPECTION. Приложение Photomaker](/ru/insp/app)     **|**     [TOOLS. Методология работы    >](/ru/tools/general/methodology)**</sub>

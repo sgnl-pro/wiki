@@ -1,14 +1,16 @@
 ---
 title: DOCS. Дополнительно — История изменений
-description:
+description: "Изменения DOCS. Дополнительно"
 published: true
-date: 2026-09-23T00:00:00.000Z
+date: 2026-11-05T13:54:22.302Z
 tags: docs
 editor: markdown
 dateCreated: 2026-09-23T00:00:00.000Z
 ---
 
-[← К статье «DOCS. Дополнительно»](/docs/more)
+<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
+<span style="flex-grow: 1;"><a href="/docs/more" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">См. также основную статью <b>DOCS. Дополнительно</b></a></span>
+</summary>
 
 > Здесь перечислены основные изменения. Для получения подробностей нажмите на номер версии.
 {.is-info}
@@ -17,6 +19,11 @@ dateCreated: 2026-09-23T00:00:00.000Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.20](/general/updates/2026-20)** ^05.11.2026^
+
+:sparkles: Для on-premise добавили [серверную опцию отображения пользователей без email при заполненном ФИО](/docs/more#onprem-user-emails).
 
 ----
 **[2026.17](/general/updates/2026-17)** ^14.09.2026^

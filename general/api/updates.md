@@ -1,8 +1,8 @@
 ---
 title: SIGNAL. Публичный API — История изменений
-description: 
+description: "Изменения SIGNAL. Публичный API"
 published: true
-date: 2026-10-24T07:40:58.044Z
+date: 2026-11-05T13:54:22.302Z
 tags: general
 editor: markdown
 dateCreated: 2026-08-31T00:00:00.000Z
@@ -19,6 +19,17 @@ dateCreated: 2026-08-31T00:00:00.000Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.20](/general/updates/2026-20)** ^05.11.2026^
+
+:fire: Добавили чтение папок, планов и точек фотомониторинга INSPECTION, подсчёт по фильтру и получение точки по идентификатору.
+
+:fire: Добавили создание и изменение типов согласований DOCS.
+
+:sparkles: В ответах версий файлов появился `itemVersionAddedBy`, в событиях журнала — `entityId`.
+
+Параметры и схемы методов описаны в [Swagger](https://api.sgnl.pro/openapi/swagger/index.html) и [ReDoc](https://api.sgnl.pro/openapi/redoc-v1/index.html).
 
 ----
 **[2026.19](/general/updates/2026-19)** ^23.10.2026^

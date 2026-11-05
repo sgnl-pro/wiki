@@ -1,8 +1,8 @@
 ---
 title: FORMS. Настройки проекта — История изменений
-description: 
+description: "Изменения FORMS. Настройки проекта"
 published: true
-date: 2026-10-24T07:40:58.044Z
+date: 2026-11-05T13:54:22.302Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-22T11:12:39.951Z
@@ -19,6 +19,13 @@ dateCreated: 2026-07-22T11:12:39.951Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.20](/general/updates/2026-20)** ^05.11.2026^
+
+:fire: Добавили [копирование настроек FORMS в новый проект](/forms/settings#copy-project) вместе с подключениями типов и их суффиксами.
+
+:sparkles: Для поля [бронирования времени](/forms/settings#booking-settings) можно ограничить доступных сотрудников пользователями и ролями проекта.
 
 ----
 **[2026.19](/general/updates/2026-19)** ^23.10.2026^

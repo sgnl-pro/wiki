@@ -1,8 +1,8 @@
 ---
 title: DOCS. Работа в файлах — История изменений
-description:
+description: "Изменения DOCS. Работа в файлах"
 published: true
-date: 2026-10-24T07:40:58.044Z
+date: 2026-11-05T13:54:22.302Z
 tags: docs
 editor: markdown
 dateCreated: 2026-08-31T00:00:00.000Z
@@ -19,6 +19,15 @@ dateCreated: 2026-08-31T00:00:00.000Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.20](/general/updates/2026-20)** ^05.11.2026^
+
+:sparkles: Обновили [управление камерой SIGNAL Viewer](/docs/viewers#signal-navigation), включая сенсорные жесты и точку вращения.
+
+:sparkles: Добавили [поиск по свойствам](/docs/viewers#signal-properties), изменение ширины колонок и подсказки для обрезанных значений.
+
+:sparkles: В [ошибках обработки моделей](/docs/viewers#signal-conversion-errors) показывается причина сбоя; повторный запуск доступен в зависимости от неё.
 
 ----
 **[2026.19](/general/updates/2026-19)** ^23.10.2026^

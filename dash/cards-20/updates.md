@@ -1,8 +1,8 @@
 ---
 title: DASHBOARD. Карточки 20. Деньги — История изменений
-description:
+description: "Изменения DASHBOARD. Карточки 20. Деньги"
 published: true
-date: 2026-09-23T12:16:26.000Z
+date: 2026-11-05T13:54:22.302Z
 tags: dash
 editor: markdown
 dateCreated: 2026-09-23T12:05:22.000Z
@@ -19,6 +19,11 @@ dateCreated: 2026-09-23T12:05:22.000Z
 :fire: — новые возможности
 :sparkles: — доработки функционала
 :hammer_and_wrench: — исправление ошибок
+
+----
+**[2026.20](/general/updates/2026-20)** ^05.11.2026^
+
+:hammer_and_wrench: В карточке 21 длинные суммы и названия не сливаются; обрезанный текст доступен в подсказке.
 
 ----
 **[2026.15](/general/updates/2026-15)** ^17.08.2026^
