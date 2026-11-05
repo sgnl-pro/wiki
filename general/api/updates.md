@@ -1,11 +1,11 @@
 ---
 title: SIGNAL. Публичный API — История изменений
-description: "Изменения SIGNAL. Публичный API"
+description: Изменения SIGNAL. Публичный API
 published: true
-date: 2026-11-05T13:54:22.302Z
+date: 2026-11-05T14:14:35.376Z
 tags: general
 editor: markdown
-dateCreated: 2026-08-31T00:00:00.000Z
+dateCreated: 2026-08-27T17:14:26.407Z
 ---
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
@@ -29,8 +29,6 @@ dateCreated: 2026-08-31T00:00:00.000Z
 
 :sparkles: В ответах версий файлов появился `itemVersionAddedBy`, в событиях журнала — `entityId`.
 
-Параметры и схемы методов описаны в [Swagger](https://api.sgnl.pro/openapi/swagger/index.html) и [ReDoc](https://api.sgnl.pro/openapi/redoc-v1/index.html).
-
 ----
 **[2026.19](/general/updates/2026-19)** ^23.10.2026^
 
@@ -47,8 +45,6 @@ dateCreated: 2026-08-31T00:00:00.000Z
 | Создать комплект и передать комментарий в поле `comment` | `POST /public/v1/reviews/create` |
 | Получить версии согласования вместе с полем `comment` | `POST /public/v1/reviews/versions` |
 | Изменить комментарий версии до запуска, в процессе или после завершения согласования | `PATCH /public/v1/reviews/comment` |
-
-Параметры запросов и ответы методов доступны в [Swagger](https://api.sgnl.pro/openapi/swagger/index.html).
 
 ----
 **[2026.18](/general/updates/2026-18)** ^28.09.2026^
