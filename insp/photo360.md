@@ -2,7 +2,7 @@
 title: INSPECTION. Фото360
 description: Создание планов и точек, загрузка и просмотр фото 360, сравнение снимков и работа с комментариями
 published: true
-date: 2026-02-04T14:12:25.887Z
+date: 2026-11-06T13:10:25.143Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T11:49:12.639Z
@@ -21,34 +21,40 @@ dateCreated: 2025-09-19T11:49:12.639Z
 
 >Структура проекта состоит из блоков (корпуса, секции, строения и т.д.) и планов (этажей, уровней, локаций) с точками и фотографиями.{.is-info}
 
-1.  Для создания блока нажмите три точки напротив «Весь объект» → «Добавить блок»       
+1.  Для создания блока нажмите три точки напротив «Весь объект» → «Добавить блок»
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXerJZd48LWhxQdO6cUa3qI8xgllMA54mFMIZhRtOFGkvYCReflwn5Nz0acxn6cJQXmi1tR_p2Gh6BUjlD4nijHvxvbi72Hf0PQRuNBqwu7-sbYLuXgwWrtAJr4_-AULNA?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
-1.  Для создания плана нажмите три точки напротив «Блока» → «Добавить план»       
+2.  Для создания плана нажмите три точки напротив блока → «Добавить план»
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePrWHB4Ez-S_Tm-dAF0UEtFYVQUsHwEzE7HENYRKsiMLYQ5gpl8K4Uz3GvLR2kLhqvsSkRY-sJyQxZV-EgIJ1_AJ-dc6-mJXFZhNV10hy6XJQuvoR7nTHPmO1vZNzUrmU?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
->В открывшемся окне введите название плана, например, Этаж 1, и загрузите изображение плана в формате PNG, JPEG или WEBP.   <span style="color:Red">Размер файла не более 25 мб</span>.{.is-info}  
+>В открывшемся окне введите название плана, например, Этаж 1, и загрузите изображение плана в формате PNG, JPEG или WEBP. <span style="color:Red">Размер файла - не более 25 МБ</span>.{.is-info}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaIHNCLs2LGHZYPlAcA7Za9PYKpR_Qf3ujHB5kDO0jSRvsw64JAQ0JqFacnLMvuU28BJb7il4AZVMFJITUsS5NGXCkQWHVhfUYq9cxJFUIdTdUcAiUZGiodf8COW57gTc?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
-1.  Добавьте остальные блоки и этажи по аналогии
+3.  Добавьте остальные блоки и этажи по аналогии
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZjiRKkmB6zMEx7C7byKSch-zqqizJkYMefzPUnsyoOHbRbn9CZSpFAcdJmjPsysRUn2UqOJibQfadRviYg-ojVgCsIGPKshJfHMzdLVCHoHBCysmlJYOaEb-HbfbZ5Iw?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
+В дереве рядом с блоками и планами показаны количество точек со статусами «Выполнено» и «Требуется» и дата последней активности.
+
 ### Редактирование и удаление планов
 
-1.  Чтобы заменить изображение плана, нажмите три точки напротив «Плана» → «Редактировать»
-2.  Чтобы удалить план, нажмите три точки напротив «Плана» → «Удалить»       
+1.  Чтобы изменить название или заменить изображение плана, нажмите три точки напротив плана → «Редактировать»
+2.  Чтобы удалить план, нажмите три точки напротив плана → «Удалить». Удалённый план можно восстановить в [«Корзине»](#trash).
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnlm5VppekaiO2EpbjrofRFhz1FDwPk6FDse01uyZhCTgsVklkhMqVhNLDokIiwQzELJRE-R-Z4SdHrO7BLt-028kNkYg2wiOS54xwgGdCtjmLHXcjy6tt4TuFjPvM_jI?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
+Блоки редактируются и удаляются так же, через меню трёх точек.
+
 ### Настройка плана
 
->Чтобы задать север относительно плана, перейдите во вкладку «ПЛАН» и, передвигая ползунок, выставьте правильное расположение севера (буква «N»), а затем нажмите «Установить азимут»{.is-info}   
+>Чтобы задать север относительно плана, перейдите на вкладку «План» и, передвигая ползунок, выставьте правильное расположение севера (буква «N»). Затем нажмите значок сохранения с подсказкой «Установить азимут».{.is-info}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeN1Pzzz2XxNUbLvbt1xFoQWl8331DqCA65HdIBZ-b7HAAuBYeE14ivSyAbIsxjADxK4MCIe1NC7wE55kud31xKTTZqxoxtOqZaxGzIu4-uduT16dAErt7U5xj3M6qoVoE?key=3hpsmQhvFqHd-U35R9gMfGGO)
+
+>Вкладки «План», «Точка» и «Фото» скрываются, если область плана слишком маленькая по высоте. Чтобы они появились, растяните область за правый нижний угол.{.is-info}
 
 ## Точки. Создание и настройка
 
