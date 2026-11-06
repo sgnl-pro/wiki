@@ -2,7 +2,7 @@
 title: INSPECTION. Фото360
 description: Создание планов и точек, загрузка и просмотр фото 360, сравнение снимков и работа с комментариями
 published: true
-date: 2026-11-06T13:10:25.143Z
+date: 2026-11-06T13:11:28.260Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T11:49:12.639Z
