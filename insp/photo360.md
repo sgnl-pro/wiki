@@ -1,265 +1,48 @@
 ---
-title: INSPECTION. Фото360
+title: INSPECTION. Пользователь
 description: Создание планов и точек, загрузка и просмотр фото 360, сравнение снимков и работа с комментариями
 published: true
-date: 2026-11-09T11:06:40.149Z
+date: 2026-11-10T09:00:53.097Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T11:49:12.639Z
 ---
 
-<sub>**[<   INSPECTION. Настройки проекта](/ru/insp/settings)     **|**     [INSPECTION. Альбом    >](/ru/insp/album)**</sub>
-
-<summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
-<span style="flex-grow: 1;"> <a href="/insp/photo360/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
-</summary>
+<sub>**[<   INSPECTION. Администратор](/ru/insp/admin)     **|**     [INSPECTION. Приложение Photomaker    >](/ru/insp/app)**</sub>
 
 ---
 
-# Вкладки{.tabset}
-## Планы. Создание и настройка
-
->Структура проекта состоит из блоков (корпуса, секции, строения и т.д.) и планов (этажей, уровней, локаций) с точками и фотографиями.{.is-info}
-
-1.  Для создания блока нажмите три точки напротив «Весь объект» → «Добавить блок»
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXerJZd48LWhxQdO6cUa3qI8xgllMA54mFMIZhRtOFGkvYCReflwn5Nz0acxn6cJQXmi1tR_p2Gh6BUjlD4nijHvxvbi72Hf0PQRuNBqwu7-sbYLuXgwWrtAJr4_-AULNA?key=3hpsmQhvFqHd-U35R9gMfGGO)
-
-2.  Для создания плана нажмите три точки напротив блока → «Добавить план»
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePrWHB4Ez-S_Tm-dAF0UEtFYVQUsHwEzE7HENYRKsiMLYQ5gpl8K4Uz3GvLR2kLhqvsSkRY-sJyQxZV-EgIJ1_AJ-dc6-mJXFZhNV10hy6XJQuvoR7nTHPmO1vZNzUrmU?key=3hpsmQhvFqHd-U35R9gMfGGO)
-
->В открывшемся окне введите название плана, например, Этаж 1, и загрузите изображение плана в формате PNG, JPEG или WEBP. <span style="color:Red">Размер файла - не более 25 МБ</span>.{.is-info}
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdaIHNCLs2LGHZYPlAcA7Za9PYKpR_Qf3ujHB5kDO0jSRvsw64JAQ0JqFacnLMvuU28BJb7il4AZVMFJITUsS5NGXCkQWHVhfUYq9cxJFUIdTdUcAiUZGiodf8COW57gTc?key=3hpsmQhvFqHd-U35R9gMfGGO)
-
-3.  Добавьте остальные блоки и этажи по аналогии
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZjiRKkmB6zMEx7C7byKSch-zqqizJkYMefzPUnsyoOHbRbn9CZSpFAcdJmjPsysRUn2UqOJibQfadRviYg-ojVgCsIGPKshJfHMzdLVCHoHBCysmlJYOaEb-HbfbZ5Iw?key=3hpsmQhvFqHd-U35R9gMfGGO)
-
-В дереве рядом с блоками и планами показаны количество точек со статусами «Выполнено» и «Требуется» и дата последней активности.
-
-### Редактирование и удаление планов
-
-1.  Чтобы изменить название или заменить изображение плана, нажмите три точки напротив плана → «Редактировать»
-2.  Чтобы удалить план, нажмите три точки напротив плана → «Удалить». Удалённый план можно восстановить в корзине.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnlm5VppekaiO2EpbjrofRFhz1FDwPk6FDse01uyZhCTgsVklkhMqVhNLDokIiwQzELJRE-R-Z4SdHrO7BLt-028kNkYg2wiOS54xwgGdCtjmLHXcjy6tt4TuFjPvM_jI?key=3hpsmQhvFqHd-U35R9gMfGGO)
-
-Блоки редактируются и удаляются так же, через меню трёх точек.
-
-### Настройка плана
-
->Чтобы задать север относительно плана, перейдите на вкладку «План» и, передвигая ползунок, выставьте правильное расположение севера (буква «N»). Затем нажмите значок сохранения с подсказкой «Установить азимут».{.is-info}
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeN1Pzzz2XxNUbLvbt1xFoQWl8331DqCA65HdIBZ-b7HAAuBYeE14ivSyAbIsxjADxK4MCIe1NC7wE55kud31xKTTZqxoxtOqZaxGzIu4-uduT16dAErt7U5xj3M6qoVoE?key=3hpsmQhvFqHd-U35R9gMfGGO)
-
->Вкладки «План», «Точка» и «Фото» скрываются, если область плана слишком маленькая по высоте. Чтобы они появились, растяните область за правый нижний угол.{.is-info}
-
-## Точки. Создание и настройка
-
-### Создание точки
-
-Точку можно создать двумя способами:
-
-1.  Зажмите CTRL на клавиатуре (Cmd на macOS) и левой кнопкой мыши нажмите в нужной области на плане
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfkyMOeoodHjuia9DyGr4YbZI2ioFb6SQrrEPPgfveGwJmsNYrBG7SZXQiwIg-5qcApP3C3uu55krW2Ce0KLT_muMKPGjrqdDFNC1K0UXRtmxTCjfyx-yUsQ9ctCP-QlIg?key=bctY_bKm3Ie_YgFV_b1XDl2j)
-
-2.  На вкладке «Точка» нажмите «Добавить». В центре плана появится указатель. Переместите план так, чтобы указатель оказался в нужном месте, и нажмите «Добавить» ещё раз
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfoYnZ1kE--iGws3fxX2UVc80_4bvcPLsk4E5hKXA2DmxvbbBzIog95dyet5gbMc1CsnYRXwFyTNAiVnt0TOFufFKU6JnfUrNu4_TUGiOG08KN8zZApDRrQsPn8fz-CoD8?key=bctY_bKm3Ie_YgFV_b1XDl2j)
-
-В появившемся окне введите название точки, например, 1, и нажмите «Сохранить»
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd68IWT31dGHQTjg82U1BlAEqTBDvfIrUr8T7kkxGc4JNYAcWplfEBk-0Xs1b-YKE1vDLENZ_gqmuARIs59DzezWy4vRyT-yVCycztE5QsRYzomBYjFkcanlAoi2Fdwkow?key=bctY_bKm3Ie_YgFV_b1XDl2j)
-
-Точка появится на плане
-
-![точка_на_плане.png](/sgnl_insp/точка_на_плане.png)
-
-### Настройка точек
-
-После выбора точки на вкладке «Точка» станут активны её настройки
-
-![редактирование_точки.png](/sgnl_insp/редактирование_точки.png)
-
-- Чтобы переименовать точку, нажмите «Редактировать».
-- Чтобы переместить точку, перетащите её на плане.
-- Чтобы удалить точку, нажмите «Удалить». Удалённую точку можно восстановить в корзине.
-
-**Точкам можно присвоить один из четырёх статусов:**
-
--   «Требуется» — красная точка. На точке требуется сделать фотографию.
--   «Выполнено» — зелёная точка. На точку загружена фотография, статус ещё не сброшен.
--   «Завершено» — синяя точка. На точке больше не требуется снимать фотографии. Автоматически этот статус не меняется.
--   «Нет доступа» — жёлтая точка. Фотомейкер не смог попасть на точку и отметил это в приложении Photomaker.
-
-Статусы помогают инженеру цифрового измерения определить точки, с которыми ему предстоит работать на объекте. Чтобы изменить статус вручную, выберите точку и нажмите нужный статус на вкладке «Точка».
-
-Можно настроить автоматический сброс статуса с «Выполнено» на «Требуется» в любой день недели, чтобы фотомейкер при синхронизации с проектом получал точки, на которые требуется загрузить фотографии. Подробнее — в разделе [«Настройки проекта»](/insp/settings).
-
-**Пример работы со статусами точек**
-
-Изначально точки создаются со статусом «Требуется» (красные). Инженер цифрового измерения (фотомейкер) приезжает на объект, синхронизируется в приложении Photomaker и получает точки, которые требуется пройти.
-
-После съёмки точка окрашивается в зелёный цвет в приложении, что упрощает поиск ещё не пройденных точек. Если попасть на точку нельзя, фотомейкер нажимает «Нет доступа», и точка становится жёлтой.
-
-После прохождения объекта фотомейкер отправляет данные в сервис INSPECTION. Статус «Нет доступа» передаётся при отправке. Если в настройках проекта включено [«Изменять статус на «Выполнено»…»](/insp/settings), точки с новыми фотографиями получат статус «Выполнено» (зелёные). Инженеры ПТО, СК, РП просматривают фотографии и добавляют новые точки.
-
-Рекомендуется в настройках проекта выставить автоматический сброс статуса точек с «Выполнено» обратно на «Требуется» перед следующим приходом фотомейкера. Тогда после синхронизации фотомейкер снова получит точки, которые требуется пройти. Статус «Нет доступа» по расписанию не сбрасывается: его сбрасывает кнопка «Сбросить сейчас», новая фотография на точке при включённой настройке изменения статуса или ручная смена статуса.
-  
-## Фото. Загрузка и настройка
-
-1.  Чтобы добавить фотографию, выберите точку, перейдите на вкладку «Фото» и нажмите «Добавить»
-
-  ![добавление_фото1.png](/sgnl_insp/добавление_фото1.png)
-
-2.  В появившемся окне выберите дату создания фото (по умолчанию — сегодня) и загрузите фотографию в формате PNG, JPEG или WEBP размером до 25 МБ. В поле «Тип фото» выберите «2D» или «Фото360» (по умолчанию). Нажмите «Сохранить»
-
-![добавление_фото2.png](/sgnl_insp/добавление_фото2.png)
-
->Для фотографий типа «2D» недоступны сравнение, выравнивание и комментарии.{.is-info}
-
-Добавленные фотографии можно просматривать в хронологическом порядке
-
-![версии_фото.png](/sgnl_insp/версии_фото.png)
-
-### Настройка фотографий
-
-После выбора фотографии на вкладке «Фото» станут активны её настройки. Изменять фотографию можно только в обычном режиме просмотра: не в режиме сравнения или выравнивания.
-  
-  ![настройки_фото.png](/sgnl_insp/настройки_фото.png)
-
-**Дата фотографии**
-
-Чтобы исправить дату, нажмите «Выбрать дату», укажите дату и сохраните.
-  
-![выбрать_дату1.png](/sgnl_insp/выбрать_дату1.png)
-
-**Фото по умолчанию**
-
-Переключатель «По умолчанию» определяет, какая фотография откроется при выборе точки. На одной точке такая фотография может быть только одна, в списке она отмечена звёздочкой. Если фотография по умолчанию не задана, откроется первая в списке. Фотография, отправленная из приложения Photomaker, автоматически становится фотографией по умолчанию.
-  
-  ![фото_по_умолчанию.png](/sgnl_insp/фото_по_умолчанию.png)
-
-**Удаление фотографии**
-
-Нажмите «Удалить» и подтвердите действие. Удалённую фотографию можно восстановить в корзине.
-  
-  ![удаление_фото.png](/sgnl_insp/удаление_фото.png)
-
-**Настройка азимута**
-
-Чтобы настроить направление фотографии относительно плана, поверните фотографию на север и нажмите «Установить азимут».
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJ4Mw6cv2RCiJZdS9U29XMtwv9HcqbLKPdcSimA8RA3dJybuOU4U3ezioFhy6_x8kdiSit9lfSdnFB_LjcIys0JnfNdpDXCTqT1aoTORQQX7i9KuMGHcqbkCC9Y67ebn4?key=U98hN5gD-nBhJUjJKalopyHl)
-
-**Настройка азимута с помощью выравнивания фото**
-
->Выравнивание используется для выставления азимута фотографии по другой фотографии, например, для снимков с квадрокоптера, когда проблематично определить направление на север. Кнопка доступна для фотографий 360, если на точке не меньше двух фотографий.{.is-info}
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMh6M_ZVUKc9DKZD9wMlTjx2J8gDmPip5u8lt9pGAVcjbo8gXU3cIad1HSSEDToHyTqiqKcaFYx1Umn9g5F2uHdbRSMkf4lZU1cy2a3foX8bSJJEITX7ffGOUD3ItusFg?key=U98hN5gD-nBhJUjJKalopyHl)
-
-1.  Выберите фото, которое требуется выровнять, и нажмите «Выравнивание»
-2.  Появившийся прицел на фотографии наведите на статичный объект, который не будет меняться от фотографии к фотографии. Например, это может быть здание.
-3.  Нажмите «Выбрать эталонную фотографию» в нижней части экрана.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6hV-b9XUH73Ff5mxB0B-IerWtMIVnzagYd9_6reAPbTyWGo6fCbyy3-ekstqP70oqlrXzqj6POVgdMvt2YmNzKz3-5I_K5uDIuXcCW0Mx-uDUWgXghZw7jI0Zen1zdGk?key=U98hN5gD-nBhJUjJKalopyHl)
-
-4.  Справа появится эталонная фотография, по которой будет выровнена левая. По умолчанию выбирается предыдущая в списке фотография. Можно выбрать другую фотографию из списка.
-5.  С помощью ползунка наведите прицел правой фотографии на объект, выбранный в пункте 2.
-6.  Нажмите «Сохранить».
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3t6ziswSKeNwq5ZT5g-CXSAy3OVkITQht110Elrm5BRC30MCH8l0emMgdw9E3cDxjcUdzDaRmxy8mfXK1Hp_S1-RM_CnHkcgRjVTTCmBfWSwemzCYiv42iTqFEZ8Gjr8?key=U98hN5gD-nBhJUjJKalopyHl)
-
-7.  Левая фотография примет ориентацию эталонной, т.е. их север будет смотреть в одну сторону.
-
-## Создание ссылки на фотографию
-
->Ссылки расшариваются на конкретную фотографию для использования, например, специалистами стройконтроля в замечании или департаментом продаж для отправки клиенту фото360 из его квартиры во время строительства.{.is-info}
-
-1.  Выберите фотографию и во вкладке ФОТО нажмите «Создать ссылку»    
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrpzBWgtfjVyud8GWj3WXUR6_A-83NKLbj7ANSPWqgprTu1MLM5yggvwi4SrQkIJtaE1_uNK-51ILeYd7bB20MiG8yndX7SDjvBxEAIWxOITkYjqx6yU_EpkinhiejBdE?key=VCnEbE7kFsWeWkNj4-gU32-d)
-
-1.  В появившемся окне введите название для ссылки и нажмите «Сохранить». Ссылка будет скопирована в буфер обмена и сохранится в «Списке общедоступных фотографий»
-     
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdu9MWfPsUVaxACc2syY6_DuR8egfjvTB77_FMqhwUGTjl56ckCY8Sgmx0rrRfLww8GNRGq__YSjsb_45TKtYPVlgJSyQWgCfGhItywJmqQ7OYwIKeUu_fRaze2aMNORQ?key=VCnEbE7kFsWeWkNj4-gU32-d) 
-
-1.  Все созданные ссылки хранятся в «Списке общедоступных фотографий». Нажмите кнопку «Ссылки на фото» (иконка фотоаппарата) и скопируйте ссылку.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeqMIAJbPVPZETHAmbrqcPZqSfgIsORhnNekCVjQZvDpP8pFNg34ePi8uBt5PWbEV9sLMW8hJxSxqHxW_oKZ2WN0uMQStdtaX153KbE5zu5y15_HdjKVWzjo_I4eFlytGc?key=VCnEbE7kFsWeWkNj4-gU32-d)
-
-## Сравнение со сборной ЦИМ
-
-### Экспорт фото
-
->Инструмент позволяет экспортировать выбранные точки обзора как панорамное изображение, чтобы в последующем вставить его в модуль INSPECTION.{.is-info}
-
-1. Для создания точки обзора необходимо выбрать место, где вы хотите получить панорамное фото, и расположить свой вид в этом месте.
-
->**Внимание!** Следует выровнять вид точно по вертикали с помощью команды «Выровнять камеру по вертикали». В противном случае, если камера не будет строго параллельна полу, при публикации в INSPECTION изображение сошьётся некорректно.{.is-warning}
-
-![image-1690287893433.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdF0YeBWzaQhlvBZYowbfYXbcHa_VXA55kq7wAm24WqrH0f3cIGy_2d5mgLzLRqNvdkrDTNW2YRwObXNvB9wNh9fG_CY2eNb9tGN7iVlNrB-y4LyiUx-_llnCNXdt44Aak?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-После этого нужно сохранить точку обзора, дав ей название.
-
-2. Нажмите на вкладке SIGNAL на панели Экспорт | Импорт ➤ Фото360
-
-![image-1683703522906.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUBiLXgMmQGMPy4HAw8jiH7Mn2zWZqKb8knKOQI4Z-uu8D9ouOF4IXYHEs-w_CY6sElg-Ah4Ff_UiqF6uC2CNLJLPrb8X930A3k1w2vmyetPke3X81LfzovwrD6cBCrzE?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-3. Выберите необходимые точки обзора, укажите настройки освещения и разрешение фотографии. Нажмите «ОК».
-
-![image-1690287874369.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdoWdoScnzqhK76rVzZ6dZbJ79M6REPCKygvjgP-kfkJQGE2HCnvDAJi8yKsZ17TQV4I_c-dxnpHRFrwdWJ6mSMkaOMpFUMDu-iUMDNKo0R3BZofl-plfzpZ8h5tZGKpw?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
->**Примечание:** Если на панорамном фото возникают засветы, то рекомендуется выбрать другой тип освещения.{.is-info}
-
->**Примечание:** Разрешение панорамного фото влияет на продолжительность его выгрузки. Низкое — 5–10 секунд. Среднее — 30–60 секунд. Высокое — 3–5 минут.{.is-info}
-
-4. Получившиеся панорамы в формате .png можно добавить в модуль INSPECTION для сравнения с фактическим состоянием на стройплощадке: выберите точку, на вкладке «Фото» нажмите «Добавить» и укажите тип «Фото360». Размер файла — до 25 МБ.
-
-![image-1683703576495.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdsg8KLiGnm6WaZwpRkvbl9sKGkuMpNkK9UWTAisPFe9M4GtOV4Zx8QNXo93VwlsbQB_j-nChgH1hJtVdSrP48WvTgU4Rf6WZ-psXz_my2OAq0bRtOyo6z46O0cV6EQ6Q?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-### Публикация фото360
-
-Инструмент позволяет загрузить в сервис INSPECTION точки обзора, сделанные в модели Navisworks, для сравнения модели с фактическим состоянием объекта строительства. Для загрузки фото необходимы права администратора в сервисе INSPECTION.
-
-1. Сперва создайте точки обзора в Navisworks. Для создания точки обзора необходимо выбрать место, где вы хотите получить панорамное фото, и расположить свой вид в этом месте.
-
->**Внимание!** Следует выровнять вид точно по вертикали с помощью команды «Выровнять камеру по вертикали». В противном случае, если камера не будет строго параллельна полу, при публикации в INSPECTION изображение сошьётся некорректно.{.is-warning}
-
-![image-1690287893433.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVFW3g3wl8N090Lr33WXxMCrux0Ue-RzMxGJ5VBVZmUact8J0jaLsYh6QDA0y2cDyD3Pv5IyjVmI4DqkVbthivi_0TJyQ5eEg90yz5SSgy3DgaBUwO5bsirFfoMviyAQ?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-После этого нужно сохранить точку обзора, дав ей соответствующее название. Рекомендуется соблюдать структуру дерева БЛОК-ЭТАЖ-ТОЧКА для автоматического сопоставления точек обзора с точками INSPECTION (см. пункт 4).
-
-2. В [_настройках SIGNAL_](/ru/tools/navis/settings) выберите проект, в который необходимо выгрузить панорамы 360
-
-![image-1697611332210.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe88LotT-RjdRfEuEAipCXAdhZiT2W03NxmVJPiWBnesCertocQDZPRet6DT5EaY2IVfAb2oCzJo1tiXjHgrSoYrktLb5U0gsD0ty-Bj5HGqgxHoxY6H-GmBZuAiornK68?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-3. Нажмите на вкладке SIGNAL PRO на панели Экспорт | Импорт ➤ Публикация Фото360
-
-![image-1697611345318.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeikoexofqXZr60DZewy9vctLqV4edIOAoC-tFjkCuURsES00Lu5c_vJg_VylMNCLHMRjmoFxa_eqHmsWqFVJds5IIpnKB6A9Ud49MP4ojP5uqh8ja7xVymQVuIFRxs_Ws?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-4. В открывшемся окне в левой части раскройте нужный план, а в правой части сопоставьте точку из INSPECTION с точкой обзора из Navisworks, выбрав последнюю из списка в столбце «Точка обзора».
-
-Для автоматического сопоставления точек обзора с точками из INSPECTION нажмите ОПРЕДЕЛИТЬ вверху окна.
-
-Точки обзора заполнятся самостоятельно при условии, что расположение точки обзора в дереве соответствует расположению точки в INSPECTION, т.е. совпадает структура дерева БЛОК-ЭТАЖ-ТОЧКА.
-
-![image-1697611362719.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-3Ok3GfPZbEVfwyKjDN-sH5kuEpVfU2f5PzzEqKtYAj8QA2lvDH8PPV3AsBKI0hft-dUBeafkPokWg-7nBLNl36TBCkYPgIqGLP40MG1GhQiKgTF5qi6NpItt0UgbEgM?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-5. Выберите тип освещения. Если на панорамном фото возникают засветы, то рекомендуется выбрать другой тип освещения.
-
-6. Выберите разрешение. Чем выше разрешение, тем дольше будет выгружаться панорамное фото. Низкое — 5–10 секунд. Среднее — 30–60 секунд. Высокое — 3–5 минут.
-
-7. Укажите дату публикации фотографии и, при необходимости, комментарий. Комментарий отображается в списке фотографий сервиса INSPECTION, необходим для обозначения фотографий, выгруженных из модели, и ограничен пятью символами.
-
-![image-1697611394261.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf8MZg_pFrIjTF26SL1QHhZY7GFjVzkzWMh4dQmX-t_E8iHiQivbesntCVDbUoA3RuFRe6lx0LqyOz_PMNzDOHiSz7vGOASyA46WjtCbSA4JwT3XqTHhiQK8c5Qq_J6QZA?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
-
-8. Нажмите «Опубликовать» и дождитесь окончания загрузки фотографий в сервис INSPECTION
-
-## Просмотр фотографий
+> Страница для всех пользователей проекта: просмотр фотографий, комментарии и личные настройки. Всё описанное на странице выполняется в пользовательском интерфейсе — pb.sgnl.pro. Те же действия доступны администратору. Планы, точки, загрузку фотографий и настройки проекта ведёт [администратор](/ru/insp/admin).
+{.is-info}
+
+<!-- Оглавление в виде карточек -->
+<div class="toc-grid">
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#photos">1. Фотографии</a></h4>
+    <ul class="toc-list">
+      <li><a href="#view"><span class="toc-badge">1.1</span> Просмотр фотографий</a></li>
+      <li><a href="#image-quality"><span class="toc-badge">1.2</span> Качество изображений</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#feedback">2. Комментарии</a></h4>
+    <ul class="toc-list">
+      <li><a href="#comments"><span class="toc-badge">2.1</span> Комментарии к фото</a></li>
+      <li><a href="#comments-registry"><span class="toc-badge">2.2</span> Реестр комментариев</a></li>
+    </ul>
+  </div>
+</div>
+
+----
+
+# Вкладки {.tabset}
+
+## 1. Фотографии
+
+###### 1. Фотографии {#photos}
+
+###### 1.1. Просмотр фотографий {#view}
 
 Пользователи INSPECTION могут просматривать фотографии на pb.sgnl.pro в разделе «Фото360».
 
@@ -271,7 +54,23 @@ dateCreated: 2025-09-19T11:49:12.639Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeeBnWiqaNniAwBHSIwOiAUPl2l9lDrQbW1h-TcF7cfITaKclQOAb5SMTk1CygdJ9Fcwyqtg9RQSjk7ZZvYDUrr24lTVwdIJbIKoogJxLtLY1f3xVPTFMTpFwzW6aorzQ?key=Xjop-ojvMgGZh2U1OC00T2th)
 
-## Комментарии к фото {#comments}
+###### 1.2. Качество изображений {#image-quality}
+
+Чтобы открыть настройки проекта, выберите проект, нажмите на своё имя в правом верхнем углу и выберите «Настройки».
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRm1ZONZ_DqMe53eMmWoqhxfDwlUv0YaGIVzN07_vsgp71TFRAC_cJaywBSvK_b7KRS1dGbX2R2FRATbKU1Hu3cvfFQvAZ63SUHMYhG62Bk8pWGJ3saNQPyr-_XlaKHyY?key=DWGZxmmaNZoCcEbYj-xKaPm8)
+
+На вкладке «Общие» в поле «Качество изображений» выберите, в каком качестве показывать планы и фотографии: «Исходное», «Оптимальное» или «Низкое». Чем выше качество, тем больше ресурсов потребляет браузер.
+
+По умолчанию выбрано «Оптимальное», на мобильных устройствах — «Низкое». Настройка сохраняется в браузере, поэтому действует только на вашем устройстве и не меняется для других пользователей.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVKJqe2jsU9rJLw4ffeW2pxQ1ttVbWGo2nWTPHi-pfNgSjfUHer5SfBO8u_9Oq6MYN3PsPwlRo6i-wIlaL9eruf_-kQ7Xt-KqFsEVDN50j6AFvDJ3qqsx3y90O7rIuGi4?key=DWGZxmmaNZoCcEbYj-xKaPm8)
+
+## 2. Комментарии
+
+###### 2. Комментарии {#feedback}
+
+###### 2.1. Комментарии к фото {#comments}
 
 Комментарий можно добавить к фотографии типа «Фото360». В режиме сравнения добавление недоступно. Создавать комментарии могут все пользователи проекта.
   
@@ -296,7 +95,7 @@ dateCreated: 2025-09-19T11:49:12.639Z
 
 Редактировать комментарий может его автор или администратор. Для остальных пользователей карточка доступна только для просмотра.
 
-### Реестр комментариев
+###### 2.2. Реестр комментариев {#comments-registry}
 
 Откройте раздел «Комментарии» в меню проекта. Здесь можно просматривать комментарии по проекту, открывать их карточки и создавать новые кнопкой добавления. Комментарий, созданный в реестре, не привязан к фотографии.
   
@@ -306,10 +105,10 @@ dateCreated: 2025-09-19T11:49:12.639Z
 
 Для поиска используйте строку поиска, быстрые фильтры «Выдано мной» и «Сегодня» и панель фильтров по номеру, статусу, приоритету, автору, датам добавления и изменения.
 
-
 Чтобы выгрузить комментарии в формате XLSX, нажмите кнопку экспорта в верхней левой части реестра.
 
-Удалить выбранные в реестре комментарии может администратор. Автор может удалить свой комментарий, выбрав в его карточке статус «Удален». Удалённый комментарий к фотографии администратор может восстановить в корзине.
+Удалить выбранные в реестре комментарии может администратор. Автор может удалить свой комментарий, выбрав в его карточке статус «Удален».
 
 #
-<sub>**[<   INSPECTION. Настройки проекта](/ru/insp/settings)     **|**     [INSPECTION. Альбом    >](/ru/insp/album)**</sub>
+
+<sub>**[<   INSPECTION. Администратор](/ru/insp/admin)     **|**     [INSPECTION. Приложение Photomaker    >](/ru/insp/app)**</sub>
