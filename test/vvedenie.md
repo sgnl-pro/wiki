@@ -2,7 +2,7 @@
 title: Vvedenie
 description: 
 published: true
-date: 2026-11-10T08:57:03.373Z
+date: 2026-11-10T08:57:56.216Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:51:25.182Z
