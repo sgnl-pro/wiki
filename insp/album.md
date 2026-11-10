@@ -1,8 +1,8 @@
 ---
 title: INSPECTION. Альбом
 description: Публикация альбома фотографий INSPECTION и предоставление доступа по ссылке
-published: true
-date: 2026-11-09T12:07:04.866Z
+published: false
+date: 2026-11-10T09:01:43.746Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T12:07:26.805Z
