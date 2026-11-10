@@ -1,8 +1,8 @@
 ---
 title: INSPECTION. Пользователь
-description: Создание планов и точек, загрузка и просмотр фото 360, сравнение снимков и работа с комментариями
+description: Просмотр и сравнение фото 360, качество изображений и комментарии в INSPECTION
 published: true
-date: 2026-11-10T09:00:53.097Z
+date: 2026-11-10T10:59:30.128Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T11:49:12.639Z
