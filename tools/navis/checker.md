@@ -2,8 +2,8 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-11-10T14:55:03.860Z
-tags: tools
+date: 2026-11-10T15:00:02.314Z
+tags: 
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
 ---
@@ -18,7 +18,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 ![image-1684131979882.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemH-0zmYNVCEGsCH9nD9dUvZPMypTpfCEzww2n9lmrQ1q5mKANSUYS8Yr5CcvTbh8oqEP9Hg41Jper5kvUmsDILT8lPhg6McpWkAOncLn2ijnJuC1cusVoHlrhF4htJVIzxDAYC5MRbmnEYpm7uQ?key=kvd51ahbWRxAG7mrOPv7NQ)
 
 # Вкладки{.tabset}
-## Общая информация Checker
+## Окно Checker
 Окно Checker разделено на 3 зоны: проверки, правила и результаты
 
 ![image-1684132005497.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfU_Ozp11RkFBGrn4ZcPZppQTREgk5MoIPj9FHao-cmdl1Q7Jefwh73-X1_1GMqIedwOAjB8XX7IYZftCRppiKO5hT7oyKHD3ubRKBv8e_xUIGBuktRzxZa2d6iknmT4pJJU_nxyvu9cRcgN_kBoQ?key=kvd51ahbWRxAG7mrOPv7NQ)
@@ -64,10 +64,11 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   **Нажмите “Экспорт результатов”**  , чтобы выгрузить результаты проверки в формате Excel или XML. XML можно подгрузить в Revit с помощью команды “Результат проверки” и посмотреть в каких элементах требуется исправить замечания. Также после исправления замечаний данный XML можно сравнить с новыми результатами через команду “Сравнить”.
 -   **Нажмите “Сравнить”** и загрузите XML файл с результатами предыдущей проверки, чтобы посмотреть какие замечания были устранены.
 
-#### Проверки Checker
+### Проверки Checker
 
 ![image-1684132695289.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf-PQhZuQURgLeeKuOVVF97khG4jvGRXU3_RG3xNQT5YcCKKGXg0U9oQb5Wp26f0Wyd02kl2mMahRpGjKHm_TWVIs7ks3v1sGQsXDhOoXaQkauVqs6nbC-_MPg9eICuiOo8UfxVd6wGQXKJsoGMeg?key=kvd51ahbWRxAG7mrOPv7NQ)
 
+# Вкладки{.tabset}
 ## 1.Наличие свойств
 
 > Проверяет заполненность значения проверочного свойства. Подходит для проверки свойств, которые должны быть заполнены у всех элементов модели.
@@ -94,6 +95,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 [SGNL_Navis_Checker_Template_Check_1.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
   
+# Вкладки{.tabset}
 ## 2.Наличие свойств для групп элементов
 
 > Проверяет, что у всех элементов модели, содержащих условное свойство с определенным значением, заполнены проверочные свойства. (В данном контексте условное свойство - это свойство, которое задает начальное условие: Если свойство “Категория” имеет значение “Стены”. Проверочные свойства - это свойства, которые проверяются на наличие заполненного значения.)
@@ -135,6 +137,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 [SGNL_Navis_Checker_Template_Check_2.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 
+# Вкладки{.tabset}
 ## 4.Заполненность значений свойств для групп элементов
 
 > Проверяет, что у всех элементов модели, содержащих условное свойство с определенным значением, проверочные свойства имеют конкретное значение.
