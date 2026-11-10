@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2026-11-10T08:15:27.922Z
+date: 2026-11-10T08:22:27.177Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:53:59.696Z
@@ -27,9 +27,9 @@ dateCreated: 2026-11-10T07:53:59.696Z
     <ul class="toc-list">
       <li><a href="#prepare"><span class="toc-badge">2.1</span> Подготовка к работе</a></li>
       <li><a href="#shooting"><span class="toc-badge">2.2</span> Процесс съёмки</a></li>
-      <li><a href="#point-colors">Цвета точек</a></li>
-      <li><a href="#point-no-access">Точка недоступна</a></li>
-      <li><a href="#shooting-tips">Рекомендации по съёмке</a></li>
+      <li><a href="#point-colors"><span class="toc-badge">2.2.1</span> Цвета точек</a></li>
+      <li><a href="#point-no-access"><span class="toc-badge">2.2.2</span> Точка недоступна</a></li>
+      <li><a href="#shooting-tips"><span class="toc-badge">2.2.3</span> Рекомендации по съёмке</a></li>
       <li><a href="#upload"><span class="toc-badge">2.3</span> Выгрузка фотографий</a></li>
     </ul>
   </div>
@@ -134,7 +134,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 4. Повторите съёмку (пункт 2) для остальных точек в проекте.
 
-##### Цвета точек {#point-colors}
+##### 2.2.1. Цвета точек {#point-colors}
 | Цвет в приложении | Статус |
 | --- | --- |
 | 🔴 Красный | «Требуется» |
@@ -145,10 +145,10 @@ dateCreated: 2026-11-10T07:53:59.696Z
 > Зелёный цвет после съёмки виден только в приложении. Статус в сервисе INSPECTION зависит от [настройки проекта](/ru/insp/admin#settings-project).
 {.is-info}
 
-##### Точка недоступна {#point-no-access}
+##### 2.2.2. Точка недоступна {#point-no-access}
 Если попасть на точку нельзя, выберите её и нажмите «Нет доступа». Точка станет жёлтой, а статус будет передан в INSPECTION при отправке данных. Чтобы снять отметку, нажмите «Нет доступа» ещё раз.
 
-##### Рекомендации по съёмке {#shooting-tips}
+##### 2.2.3. Рекомендации по съёмке {#shooting-tips}
 > В обычном режиме установку камеры на штативе выполняйте на высоте 1,80 м от уровня пола. В зависимости от задач съемки и снимаемого помещения настраивайте высоту исходя из ситуации. Например, съемка инженерных сетей в двухуровневом помещении с высотой потолка 7 м.
 {.is-info}
 
