@@ -2,7 +2,7 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-11-10T14:49:31.349Z
+date: 2026-11-10T14:53:40.722Z
 tags: tools
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
@@ -68,7 +68,6 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 ![image-1684132695289.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf-PQhZuQURgLeeKuOVVF97khG4jvGRXU3_RG3xNQT5YcCKKGXg0U9oQb5Wp26f0Wyd02kl2mMahRpGjKHm_TWVIs7ks3v1sGQsXDhOoXaQkauVqs6nbC-_MPg9eICuiOo8UfxVd6wGQXKJsoGMeg?key=kvd51ahbWRxAG7mrOPv7NQ)
 
-# Вкладки{.tabset}
 ## 1.Наличие свойств
 
 > Проверяет заполненность значения проверочного свойства. Подходит для проверки свойств, которые должны быть заполнены у всех элементов модели.
@@ -95,7 +94,6 @@ dateCreated: 2025-09-21T12:01:58.429Z
 
 [SGNL_Navis_Checker_Template_Check_1.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
   
-# Вкладки{.tabset}
 ## 2.Наличие свойств для групп элементов
 
 > Проверяет, что у всех элементов модели, содержащих условное свойство с определенным значением, заполнены проверочные свойства. (В данном контексте условное свойство - это свойство, которое задает начальное условие: Если свойство “Категория” имеет значение “Стены”. Проверочные свойства - это свойства, которые проверяются на наличие заполненного значения.)
@@ -137,7 +135,6 @@ dateCreated: 2025-09-21T12:01:58.429Z
 [SGNL_Navis_Checker_Template_Check_2.xlsx](https://docs.sgnl.pro/s/f/01a1a1a3-eee7-7e29-846d-fecb4f0a0b4b)
 
 
-# Вкладки{.tabset}
 ## 4.Заполненность значений свойств для групп элементов
 
 > Проверяет, что у всех элементов модели, содержащих условное свойство с определенным значением, проверочные свойства имеют конкретное значение.
