@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2026-11-10T08:02:42.001Z
+date: 2026-11-10T08:15:27.922Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:53:59.696Z
@@ -12,47 +12,54 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 ---
 
+<!-- Оглавление в виде карточек -->
+<div class="toc-grid">
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#software">1. Сопутствующее ПО и информация</a></h4>
+    <ul class="toc-list">
+      <li><a href="#app-download"><span class="toc-badge">1.1</span> Приложение SIGNAL Photomaker</a></li>
+      <li><a href="#cameras"><span class="toc-badge">1.2</span> Поддерживаемые камеры</a></li>
+    </ul>
+  </div>
 
-<div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=software#software">1. Сопутствующее ПО и информация</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=app_download#app_download"><span class="toc-badge">1.1</span> Приложение SIGNAL Photomaker</a></li>
-    <li><a href="?toc_target=cameras#cameras"><span class="toc-badge">1.2</span> Поддерживаемые камеры</a></li>
-  </ul>
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#field-work">2. Работа на объекте</a></h4>
+    <ul class="toc-list">
+      <li><a href="#prepare"><span class="toc-badge">2.1</span> Подготовка к работе</a></li>
+      <li><a href="#shooting"><span class="toc-badge">2.2</span> Процесс съёмки</a></li>
+      <li><a href="#point-colors">Цвета точек</a></li>
+      <li><a href="#point-no-access">Точка недоступна</a></li>
+      <li><a href="#shooting-tips">Рекомендации по съёмке</a></li>
+      <li><a href="#upload"><span class="toc-badge">2.3</span> Выгрузка фотографий</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#troubles">3. Возможные ошибки и проблемы</a></h4>
+    <ul class="toc-list">
+      <li><a href="#trouble-camera"><span class="toc-badge">3.1</span> Камера не работает или работает неправильно</a></li>
+      <li><a href="#trouble-compass"><span class="toc-badge">3.2</span> Фотографии размещаются на планах с явно некорректным направлением севера или отображается ошибка калибровки компаса</a></li>
+      <li><a href="#trouble-battery"><span class="toc-badge">3.3</span> График расхода батареи при различных режимах использования</a></li>
+      <li><a href="#trouble-webview"><span class="toc-badge">3.4</span> Ошибка при открытии приложения на смартфоне с ОС Android</a></li>
+      <li><a href="#trouble-messages"><span class="toc-badge">3.5</span> Сообщения в приложении</a></li>
+    </ul>
+  </div>
 </div>
 
-<div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=field_work#field_work">2. Работа на объекте</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=prepare#prepare"><span class="toc-badge">2.1</span> Подготовка к работе</a></li>
-    <li><a href="?toc_target=shooting#shooting"><span class="toc-badge">2.2</span> Процесс съёмки</a></li>
-    <li><a href="?toc_target=upload#upload"><span class="toc-badge">2.3</span> Выгрузка фотографий</a></li>
-  </ul>
-</div>
-
-<div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=troubles#troubles">3. Возможные ошибки и проблемы</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=trouble_camera#trouble_camera"><span class="toc-badge">3.1</span> Камера не работает или работает неправильно</a></li>
-    <li><a href="?toc_target=trouble_compass#trouble_compass"><span class="toc-badge">3.2</span> Фотографии размещаются на планах с явно некорректным направлением севера или отображается ошибка калибровки компаса</a></li>
-    <li><a href="?toc_target=trouble_battery#trouble_battery"><span class="toc-badge">3.3</span> График расхода батареи при различных режимах использования</a></li>
-    <li><a href="?toc_target=trouble_webview#trouble_webview"><span class="toc-badge">3.4</span> Ошибка при открытии приложения на смартфоне с ОС Android</a></li>
-    <li><a href="?toc_target=trouble_messages#trouble_messages"><span class="toc-badge">3.5</span> Сообщения в приложении</a></li>
-  </ul>
-</div>
+----
 
 # Вкладки {.tabset}
 ## 1. Сопутствующее ПО и информация
 
-### 1. Сопутствующее ПО и информация {#software}
+###### 1. Сопутствующее ПО и информация {#software}
 
-#### 1.1. Приложение SIGNAL Photomaker {#app_download}
+###### 1.1. Приложение SIGNAL Photomaker {#app-download}
 
 | Android | iOS |
 | --- | --- |
 | [Google Play](https://play.google.com/store/apps/details?id=com.sgnl.photomaker) | [App Store](https://apps.apple.com/ru/app/signal-photomaker/id1667758079) |
 
-#### 1.2. Поддерживаемые камеры {#cameras}
+###### 1.2. Поддерживаемые камеры {#cameras}
 
 | Камера | Руководство производителя |
 | --- | --- |
@@ -67,7 +74,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 ## 2. Работа на объекте
 
-### 2. Работа на объекте {#field_work}
+###### 2. Работа на объекте {#field-work}
 
 Работа на объекте состоит из трёх шагов: подготовка, съёмка и выгрузка фотографий в INSPECTION.
 
@@ -75,7 +82,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 #### 2.1. Подготовка к работе
 
-##### 2.1. Подготовка к работе {#prepare}
+###### 2.1. Подготовка к работе {#prepare}
 
 > Для синхронизации и отправки фотографий учётной записи нужна роль администратора приложения INSPECTION в выбранном проекте.
 {.is-warning}
@@ -111,7 +118,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 #### 2.2. Процесс съёмки
 
-##### 2.2. Процесс съёмки {#shooting}
+###### 2.2. Процесс съёмки {#shooting}
 
 1. Перейдите на вкладку «Фото». Выберите блок и план.
 
@@ -127,8 +134,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 4. Повторите съёмку (пункт 2) для остальных точек в проекте.
 
-###### Цвета точек
-
+##### Цвета точек {#point-colors}
 | Цвет в приложении | Статус |
 | --- | --- |
 | 🔴 Красный | «Требуется» |
@@ -136,16 +142,13 @@ dateCreated: 2026-11-10T07:53:59.696Z
 | 🔵 Синий | «Завершено» |
 | 🟡 Жёлтый | «Нет доступа» |
 
-> Зелёный цвет после съёмки виден только в приложении. Статус в сервисе INSPECTION зависит от [настройки проекта](/ru/insp/admin?toc_target=settings_project#settings_project).
+> Зелёный цвет после съёмки виден только в приложении. Статус в сервисе INSPECTION зависит от [настройки проекта](/ru/insp/admin#settings-project).
 {.is-info}
 
-###### Точка недоступна
-
+##### Точка недоступна {#point-no-access}
 Если попасть на точку нельзя, выберите её и нажмите «Нет доступа». Точка станет жёлтой, а статус будет передан в INSPECTION при отправке данных. Чтобы снять отметку, нажмите «Нет доступа» ещё раз.
 
-
-###### Рекомендации по съёмке
-
+##### Рекомендации по съёмке {#shooting-tips}
 > В обычном режиме установку камеры на штативе выполняйте на высоте 1,80 м от уровня пола. В зависимости от задач съемки и снимаемого помещения настраивайте высоту исходя из ситуации. Например, съемка инженерных сетей в двухуровневом помещении с высотой потолка 7 м.
 {.is-info}
 
@@ -170,7 +173,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 #### 2.3. Выгрузка фотографий
 
-##### 2.3. Выгрузка фотографий {#upload}
+###### 2.3. Выгрузка фотографий {#upload}
 
 1. Отключите Wi-Fi камеры и подключите рабочий Wi-Fi или мобильную сеть (при использовании безлимитных тарифов).
 2. Перейдите на вкладку «Отправка». Для выгрузки фотографий и статусов «Нет доступа» в сервис INSPECTION нажмите «Отправить все». Дождитесь окончания выгрузки данных.
@@ -192,9 +195,9 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 ## 3. Возможные ошибки и проблемы
 
-### 3. Возможные ошибки и проблемы {#troubles}
+###### 3. Возможные ошибки и проблемы {#troubles}
 
-#### 3.1. Камера не работает или работает неправильно {#trouble_camera}
+###### 3.1. Камера не работает или работает неправильно {#trouble-camera}
 
 Камеру можно принудительно выключить, зажав две кнопки одновременно (питание + Wi-Fi) на 20 секунд.
 
@@ -202,7 +205,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 Питание будет принудительно выключено.
 
-#### 3.2. Фотографии размещаются на планах с явно некорректным направлением севера или отображается ошибка калибровки компаса {#trouble_compass}
+###### 3.2. Фотографии размещаются на планах с явно некорректным направлением севера или отображается ошибка калибровки компаса {#trouble-compass}
 
 ![14.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7OEpfWT5JpECshmaB62NyCXI6TowNMDTk1hM-yk3phn_lz_Uv2qv-RZdXSx_PPJleHv1QUxVU-qDkl6fzkZFas8Npl49-AGIED2uIvt7xzRk-AnCnMcm3nxVxvuNavp0?key=qYR1nyhC8F91uJe_1WnpGRlc)
 
@@ -216,7 +219,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 Ещё один вариант калибровки — [видеоинструкция](https://youtu.be/VL5VLKWrdtw?t=395).
 
-#### 3.3. График расхода батареи при различных режимах использования {#trouble_battery}
+###### 3.3. График расхода батареи при различных режимах использования {#trouble-battery}
 
 - без BT и Wi-Fi;
 - с BT и Wi-Fi;
@@ -226,7 +229,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 ![17.jpg](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeG4z3MQJCUcBeThF8fAQXw5zjb5xLAmf4_A5jaqqr1D_aZnDSDh-gzFcW0OM3rtp9lHrz0ZBwG0zc-2u434H4rW8AiboPBIv2t48a2vZ_g6LyH5iMY5oK4MBCPMKTSKQ?key=qYR1nyhC8F91uJe_1WnpGRlc)
 
-#### 3.4. Ошибка при открытии приложения на смартфоне с ОС Android {#trouble_webview}
+###### 3.4. Ошибка при открытии приложения на смартфоне с ОС Android {#trouble-webview}
 
 ![image-1666006423645.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk_Rn8UIxhZ-UgKiCW7bGw2W4rl4UwqfBoV5fvUG52ROfxJgvaWTFMWY1N4cg_l_tJKV6YM8qsZDLMCEnqQC1YWrNRkUhk6XWTA8BLeZF9Th3D_G-b-vFEgtqSyQxhd8M?key=qYR1nyhC8F91uJe_1WnpGRlc)
 
@@ -240,7 +243,7 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 ![image-1666006967690.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcPjHxkANZSQESpH0qC4Ursv25qRMDIBTt-AlQJ1Y6kh_q82MvS6rqeoKcPjqCgZO3Osf2Y3O6tq4sKplut6BoyROkOzQCrWcj3SLyQccUaDSYe9MwD_BaNRQmLkxAAXw?key=qYR1nyhC8F91uJe_1WnpGRlc)
 
-#### 3.5. Сообщения в приложении {#trouble_messages}
+###### 3.5. Сообщения в приложении {#trouble-messages}
 
 | Сообщение | Что сделать |
 | --- | --- |
