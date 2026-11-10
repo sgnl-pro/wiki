@@ -2,7 +2,7 @@
 title: Vvedenie
 description: 
 published: true
-date: 2026-11-10T07:51:25.182Z
+date: 2026-11-10T08:03:13.216Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:51:25.182Z
@@ -20,16 +20,11 @@ dateCreated: 2026-11-10T07:51:25.182Z
 {.is-info}
 
 <div class="toc-card toc-green">
-  <h4 class="toc-card-title"><a href="?toc_target=roles#roles">1. Кто и где работает</a></h4>
-</div>
-
-<div class="toc-card toc-green">
-  <h4 class="toc-card-title"><a href="?toc_target=structure#structure">2. Как устроен проект</a></h4>
-</div>
-
-<div class="toc-card toc-green">
-  <h4 class="toc-card-title"><a href="?toc_target=point_statuses#point_statuses">3. Статусы точек</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=roles#roles">Общие сведения</a></h4>
   <ul class="toc-list">
+    <li><a href="?toc_target=roles#roles"><span class="toc-badge">1</span> Кто и где работает</a></li>
+    <li><a href="?toc_target=structure#structure"><span class="toc-badge">2</span> Как устроен проект</a></li>
+    <li><a href="?toc_target=point_statuses#point_statuses"><span class="toc-badge">3</span> Статусы точек</a></li>
     <li><a href="?toc_target=status_example#status_example"><span class="toc-badge">3.1</span> Пример работы со статусами</a></li>
   </ul>
 </div>
@@ -37,33 +32,32 @@ dateCreated: 2026-11-10T07:51:25.182Z
 <div class="toc-card toc-purple">
   <h4 class="toc-card-title"><a href="/ru/insp/admin">Администратор</a></h4>
   <ul class="toc-list">
-    <li><a href="/ru/insp/admin?toc_target=plans#plans">Планы, точки и фотографии</a></li>
+    <li><a href="/ru/insp/admin?toc_target=project_structure#project_structure">Структура проекта: планы, точки, фото</a></li>
     <li><a href="/ru/insp/admin?toc_target=settings#settings">Настройки проекта</a></li>
-    <li><a href="/ru/insp/admin?toc_target=photo_links#photo_links">Ссылки на фотографии и альбомы</a></li>
+    <li><a href="/ru/insp/admin?toc_target=publishing#publishing">Публикация фотографий</a></li>
     <li><a href="/ru/insp/admin?toc_target=bim#bim">Сравнение со сборной ЦИМ</a></li>
-    <li><a href="/ru/insp/admin?toc_target=trash#trash">Корзина</a></li>
-    <li><a href="/ru/insp/admin?toc_target=export#export">Экспорт</a></li>
+    <li><a href="/ru/insp/admin?toc_target=project_data#project_data">Комментарии, корзина и экспорт</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-blue">
   <h4 class="toc-card-title"><a href="/ru/insp/user">Пользователь</a></h4>
   <ul class="toc-list">
-    <li><a href="/ru/insp/user?toc_target=view#view">Просмотр фотографий</a></li>
-    <li><a href="/ru/insp/user?toc_target=comments#comments">Комментарии к фото</a></li>
-    <li><a href="/ru/insp/inquiries">Запросы</a></li>
+    <li><a href="/ru/insp/user?toc_target=photos#photos">Фотографии</a></li>
+    <li><a href="/ru/insp/user?toc_target=feedback#feedback">Комментарии и запросы</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-blue">
   <h4 class="toc-card-title"><a href="/ru/insp/app">Приложение Photomaker</a></h4>
+  <ul class="toc-list">
+    <li><a href="/ru/insp/app?toc_target=software#software">Сопутствующее ПО и информация</a></li>
+    <li><a href="/ru/insp/app?toc_target=field_work#field_work">Работа на объекте</a></li>
+    <li><a href="/ru/insp/app?toc_target=troubles#troubles">Возможные ошибки и проблемы</a></li>
+  </ul>
 </div>
 
-# Вкладки {.tabset}
-
-## 1. Кто и где работает
-
-### 1. Кто и где работает {#roles}
+## 1. Кто и где работает {#roles}
 
 | Роль | Где работает | Что доступно | Инструкция |
 | --- | --- | --- | --- |
@@ -75,17 +69,13 @@ dateCreated: 2026-11-10T07:51:25.182Z
 
 Без роли администратора приложения INSPECTION административный интерфейс pa.sgnl.pro показывает сообщение «Доступ запрещен». Функции управления проектом доступны только в pa.sgnl.pro: в pb.sgnl.pro они не отображаются, даже если у вас есть роль администратора.
 
-## 2. Как устроен проект
-
-### 2. Как устроен проект {#structure}
+## 2. Как устроен проект {#structure}
 
 Структура проекта состоит из блоков (корпуса, секции, строения и т.д.) и планов (этажей, уровней, локаций) с точками и фотографиями.
 
 В дереве рядом с блоками и планами показаны количество точек со статусами «Выполнено» и «Требуется» и дата последней активности.
 
-## 3. Статусы точек
-
-### 3. Статусы точек {#point_statuses}
+## 3. Статусы точек {#point_statuses}
 
 **Точкам можно присвоить один из четырёх статусов:**
 
@@ -96,7 +86,7 @@ dateCreated: 2026-11-10T07:51:25.182Z
 
 Статусы помогают инженеру цифрового измерения определить точки, с которыми ему предстоит работать на объекте.
 
-#### 3.1. Пример работы со статусами {#status_example}
+### 3.1. Пример работы со статусами {#status_example}
 
 Изначально точки создаются со статусом «Требуется» (красные). Инженер цифрового измерения (фотомейкер) приезжает на объект, синхронизируется в приложении Photomaker и получает точки, которые требуется пройти.
 
