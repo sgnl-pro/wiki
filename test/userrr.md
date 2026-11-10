@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2026-11-10T07:53:10.190Z
+date: 2026-11-10T08:02:01.996Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:53:10.190Z
@@ -16,29 +16,29 @@ dateCreated: 2026-11-10T07:53:10.190Z
 {.is-info}
 
 <div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=view#view">1. Просмотр фотографий</a></h4>
-</div>
-
-<div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=comments#comments">2. Комментарии к фото</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=photos#photos">1. Фотографии</a></h4>
   <ul class="toc-list">
-    <li><a href="?toc_target=comments_registry#comments_registry"><span class="toc-badge">2.1</span> Реестр комментариев</a></li>
+    <li><a href="?toc_target=view#view"><span class="toc-badge">1.1</span> Просмотр фотографий</a></li>
+    <li><a href="?toc_target=image_quality#image_quality"><span class="toc-badge">1.2</span> Качество изображений</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=inquiries#inquiries">3. Запросы</a></h4>
-</div>
-
-<div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=image_quality#image_quality">4. Качество изображений</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=feedback#feedback">2. Комментарии и запросы</a></h4>
+  <ul class="toc-list">
+    <li><a href="?toc_target=comments#comments"><span class="toc-badge">2.1</span> Комментарии к фото</a></li>
+    <li><a href="?toc_target=comments_registry#comments_registry"><span class="toc-badge">2.2</span> Реестр комментариев</a></li>
+    <li><a href="?toc_target=inquiries#inquiries"><span class="toc-badge">2.3</span> Запросы</a></li>
+  </ul>
 </div>
 
 # Вкладки {.tabset}
 
-## 1. Просмотр фотографий
+## 1. Фотографии
 
-### 1. Просмотр фотографий {#view}
+### 1. Фотографии {#photos}
+
+#### 1.1. Просмотр фотографий {#view}
 
 Пользователи INSPECTION могут просматривать фотографии на pb.sgnl.pro в разделе «Фото360».
 
@@ -50,9 +50,23 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeeBnWiqaNniAwBHSIwOiAUPl2l9lDrQbW1h-TcF7cfITaKclQOAb5SMTk1CygdJ9Fcwyqtg9RQSjk7ZZvYDUrr24lTVwdIJbIKoogJxLtLY1f3xVPTFMTpFwzW6aorzQ?key=Xjop-ojvMgGZh2U1OC00T2th)
 
-## 2. Комментарии к фото
+#### 1.2. Качество изображений {#image_quality}
 
-### 2. Комментарии к фото {#comments}
+Чтобы открыть настройки проекта, выберите проект, нажмите на своё имя в правом верхнем углу и выберите «Настройки».
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRm1ZONZ_DqMe53eMmWoqhxfDwlUv0YaGIVzN07_vsgp71TFRAC_cJaywBSvK_b7KRS1dGbX2R2FRATbKU1Hu3cvfFQvAZ63SUHMYhG62Bk8pWGJ3saNQPyr-_XlaKHyY?key=DWGZxmmaNZoCcEbYj-xKaPm8)
+
+На вкладке «Общие» в поле «Качество изображений» выберите, в каком качестве показывать планы и фотографии: «Исходное», «Оптимальное» или «Низкое». Чем выше качество, тем больше ресурсов потребляет браузер.
+
+По умолчанию выбрано «Оптимальное», на мобильных устройствах — «Низкое». Настройка сохраняется в браузере, поэтому действует только на вашем устройстве и не меняется для других пользователей.
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVKJqe2jsU9rJLw4ffeW2pxQ1ttVbWGo2nWTPHi-pfNgSjfUHer5SfBO8u_9Oq6MYN3PsPwlRo6i-wIlaL9eruf_-kQ7Xt-KqFsEVDN50j6AFvDJ3qqsx3y90O7rIuGi4?key=DWGZxmmaNZoCcEbYj-xKaPm8)
+
+## 2. Комментарии и запросы
+
+### 2. Комментарии и запросы {#feedback}
+
+#### 2.1. Комментарии к фото {#comments}
 
 Комментарий можно добавить к фотографии типа «Фото360». В режиме сравнения добавление недоступно. Создавать комментарии могут все пользователи проекта.
   
@@ -77,7 +91,7 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 Редактировать комментарий может его автор или администратор. Для остальных пользователей карточка доступна только для просмотра.
 
-#### 2.1. Реестр комментариев {#comments_registry}
+#### 2.2. Реестр комментариев {#comments_registry}
 
 Откройте раздел «Комментарии» в меню проекта. Здесь можно просматривать комментарии по проекту, открывать их карточки и создавать новые кнопкой добавления. Комментарий, созданный в реестре, не привязан к фотографии.
   
@@ -92,25 +106,9 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 Удалить выбранные в реестре комментарии может администратор. Автор может удалить свой комментарий, выбрав в его карточке статус «Удален».
 
-## 3. Запросы
-
-### 3. Запросы {#inquiries}
+#### 2.3. Запросы {#inquiries}
 
 Привязка запроса к месту на плане, назначение ответственного и отслеживание решения описаны на странице [«Запросы»](/ru/insp/inquiries).
-
-## 4. Качество изображений
-
-### 4. Качество изображений {#image_quality}
-
-Чтобы открыть настройки проекта, выберите проект, нажмите на своё имя в правом верхнем углу и выберите «Настройки».
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRm1ZONZ_DqMe53eMmWoqhxfDwlUv0YaGIVzN07_vsgp71TFRAC_cJaywBSvK_b7KRS1dGbX2R2FRATbKU1Hu3cvfFQvAZ63SUHMYhG62Bk8pWGJ3saNQPyr-_XlaKHyY?key=DWGZxmmaNZoCcEbYj-xKaPm8)
-
-На вкладке «Общие» в поле «Качество изображений» выберите, в каком качестве показывать планы и фотографии: «Исходное», «Оптимальное» или «Низкое». Чем выше качество, тем больше ресурсов потребляет браузер.
-
-По умолчанию выбрано «Оптимальное», на мобильных устройствах — «Низкое». Настройка сохраняется в браузере, поэтому действует только на вашем устройстве и не меняется для других пользователей.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVKJqe2jsU9rJLw4ffeW2pxQ1ttVbWGo2nWTPHi-pfNgSjfUHer5SfBO8u_9Oq6MYN3PsPwlRo6i-wIlaL9eruf_-kQ7Xt-KqFsEVDN50j6AFvDJ3qqsx3y90O7rIuGi4?key=DWGZxmmaNZoCcEbYj-xKaPm8)
 
 #
 
