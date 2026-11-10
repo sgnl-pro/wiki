@@ -2,13 +2,13 @@
 title: INSPECTION. Запросы
 description: Создание запросов на плане INSPECTION, назначение ответственных и отслеживание решения
 published: true
-date: 2026-09-23T16:55:11.000Z
+date: 2026-11-10T10:58:46.032Z
 tags: insp
 editor: markdown
-dateCreated: 2026-09-23T16:55:11.000Z
+dateCreated: 2026-09-23T17:04:44.833Z
 ---
 
-<sub>**[<   INSPECTION. Фото360](/ru/insp/photo360)     **|**     [INSPECTION. Альбом    >](/ru/insp/album)**</sub>
+<sub>**[<   INSPECTION. Пользователь](/ru/insp/user)     **|**     [INSPECTION. Приложение Photomaker    >](/ru/insp/app)**</sub>
 
 ---
 
