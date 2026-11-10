@@ -2,17 +2,17 @@
 title: Untitled Page
 description: 
 published: true
-date: 2026-11-10T08:14:59.837Z
+date: 2026-11-10T08:56:18.724Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:53:10.190Z
 ---
 
-<sub>**[<   INSPECTION. Администратор](/ru/insp/admin)     **|**     [INSPECTION. Запросы    >](/ru/insp/inquiries)**</sub>
+<sub>**[<   INSPECTION. Администратор](/ru/insp/admin)     **|**     [INSPECTION. Приложение Photomaker    >](/ru/insp/app)**</sub>
 
 ---
 
-> Страница для всех пользователей проекта: просмотр фотографий, комментарии и личные настройки. Те же действия доступны администратору. Планы, точки, загрузку фотографий и настройки проекта ведёт [администратор](/ru/insp/admin).
+> Страница для всех пользователей проекта: просмотр фотографий, комментарии и личные настройки. Всё описанное на странице выполняется в пользовательском интерфейсе — pb.sgnl.pro. Те же действия доступны администратору. Планы, точки, загрузку фотографий и настройки проекта ведёт [администратор](/ru/insp/admin).
 {.is-info}
 
 <!-- Оглавление в виде карточек -->
@@ -26,11 +26,10 @@ dateCreated: 2026-11-10T07:53:10.190Z
   </div>
 
   <div class="toc-card toc-blue">
-    <h4 class="toc-card-title"><a href="#feedback">2. Комментарии и запросы</a></h4>
+    <h4 class="toc-card-title"><a href="#feedback">2. Комментарии</a></h4>
     <ul class="toc-list">
       <li><a href="#comments"><span class="toc-badge">2.1</span> Комментарии к фото</a></li>
       <li><a href="#comments-registry"><span class="toc-badge">2.2</span> Реестр комментариев</a></li>
-      <li><a href="#inquiries"><span class="toc-badge">2.3</span> Запросы</a></li>
     </ul>
   </div>
 </div>
@@ -67,9 +66,9 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVKJqe2jsU9rJLw4ffeW2pxQ1ttVbWGo2nWTPHi-pfNgSjfUHer5SfBO8u_9Oq6MYN3PsPwlRo6i-wIlaL9eruf_-kQ7Xt-KqFsEVDN50j6AFvDJ3qqsx3y90O7rIuGi4?key=DWGZxmmaNZoCcEbYj-xKaPm8)
 
-## 2. Комментарии и запросы
+## 2. Комментарии
 
-###### 2. Комментарии и запросы {#feedback}
+###### 2. Комментарии {#feedback}
 
 ###### 2.1. Комментарии к фото {#comments}
 
@@ -110,10 +109,6 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 Удалить выбранные в реестре комментарии может администратор. Автор может удалить свой комментарий, выбрав в его карточке статус «Удален».
 
-###### 2.3. Запросы {#inquiries}
-
-Привязка запроса к месту на плане, назначение ответственного и отслеживание решения описаны на странице [«Запросы»](/ru/insp/inquiries).
-
 #
 
-<sub>**[<   INSPECTION. Администратор](/ru/insp/admin)     **|**     [INSPECTION. Запросы    >](/ru/insp/inquiries)**</sub>
+<sub>**[<   INSPECTION. Администратор](/ru/insp/admin)     **|**     [INSPECTION. Приложение Photomaker    >](/ru/insp/app)**</sub>
