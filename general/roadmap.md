@@ -2,7 +2,7 @@
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
 published: true
-date: 2026-11-09T10:27:09.691Z
+date: 2026-11-10T07:30:57.871Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
@@ -14,6 +14,8 @@ dateCreated: 2026-09-21T07:32:13.388Z
 
 > Показываем основные направления развития и заметные выпущенные возможности SIGNAL. Статус «В работе» означает, что работа над направлением уже началась, отдельные возможности могут выходить поэтапно. Сроки в «Планах» — ориентиры команды и могут меняться. В разделе «Без срока» — направления без назначенного релиза.
 {.is-info}
+
+<!-- Планирование wiki: открытые задачи релиза Tracker 2026.24 отображаются в I квартале 2027 по решению от 10.11.2026. Поле релиза в Tracker не изменялось. -->
 
 # Модули{.tabset}
 
@@ -36,11 +38,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Структура объекта</strong>
     <p style="color:#64748b;margin:8px 0 0;">Дерево папок и планов объекта с базовыми операциями для организации данных проекта.</p>
   </div>
-<!-- Tracker: HUB-159, HUB-51, HUB-244 -->
+<!-- Tracker: HUB-159 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
-    <strong>Управление сотрудниками и ролями</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Удаление сотрудников с сохранением истории, структура подразделений и группировка ролей организации.</p>
+    <strong>Удаление сотрудников</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Удаление сотрудников с сохранением истории.</p>
   </div>
 <!-- Tracker: HUB-518, HUB-578 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
@@ -54,6 +56,23 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Защита входа</strong>
     <p style="color:#64748b;margin:8px 0 0;">Двухфакторная авторизация для дополнительной защиты учётной записи.</p>
   </div>
+<!-- Tracker: ID-499 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Календари сотрудников</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Просмотр занятости и управление интервалами бронирования сотрудников в HUB.</p>
+  </div>
+</div>
+
+<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
+<!-- Tracker: HUB-51, HUB-244 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Структура подразделений и роли</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Структура подразделений и группировка ролей организации.</p>
+  </div>
 <!-- Tracker: HUB-448, HUB-449 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
@@ -66,17 +85,6 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Группы проектов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Объединение проектов в группы и портфели для навигации и управления.</p>
   </div>
-<!-- Tracker: ID-499 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Календари сотрудников</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Просмотр занятости и управление интервалами бронирования сотрудников в HUB.</p>
-  </div>
-</div>
-
-<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: HUB-302 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
@@ -342,17 +350,17 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Защита файлов и публичных ссылок</strong>
     <p style="color:#64748b;margin:8px 0 0;">Ручная блокировка файлов, ограничение круга создателей публичных ссылок и защита ссылок паролем.</p>
   </div>
-<!-- Tracker: DOCS-2162, DOCS-1313, DOCS-514, DOCS-1312, DOCS-436 -->
+<!-- Tracker: DOCS-2162, DOCS-1313, DOCS-1312 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Развитие передач</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Комментарий при отправке, связь передачи с комплектом согласования, акты по шаблонам, размещение акта в папке, журнал событий и уведомления.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Комментарий при отправке, связь передачи с комплектом согласования, журнал событий и уведомления.</p>
   </div>
-<!-- Tracker: DOCS-2039, DOCS-1550, DOCS-2038 -->
+<!-- Tracker: DOCS-1550, DOCS-2038 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
-    <strong>Атрибуты файлов и справочники компании</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Атрибуты из справочников и структуры объекта, обязательные значения и расширение прав на изменение атрибутов файлов.</p>
+    <strong>Атрибуты файлов и права редактирования</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Обязательные значения атрибутов файлов и расширение прав на их изменение.</p>
   </div>
 <!-- Tracker: DOCS-2281 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
@@ -366,29 +374,23 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Файлы и решения в согласованиях</strong>
     <p style="color:#64748b;margin:8px 0 0;">Вспомогательные файлы без изменения статуса и обязательный комментарий при решении «Не согласовано».</p>
   </div>
-<!-- Tracker: DOCS-2119, DOCS-2534 -->
+<!-- Tracker: DOCS-2534 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>SIGNAL Viewer: выбор и изоляция элементов</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Выбор элементов рамкой и полная изоляция выбранных элементов модели.</p>
+    <strong>SIGNAL Viewer: выбор рамкой</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Выбор элементов модели рамкой.</p>
   </div>
-<!-- Tracker: DOCS-2003, DOCS-1189, DOCS-957, DOCS-2139 -->
+<!-- Tracker: DOCS-2003, DOCS-1189, DOCS-957 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Автозаполнение и массовая работа с замечаниями</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Подсказки заполнения, доступные статусы и статус по умолчанию, массовое изменение типа и даты устранения.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Подсказки заполнения и массовое изменение типа и даты устранения замечания.</p>
   </div>
 <!-- Tracker: DOCS-407, DOCS-1290 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>Сравнение PDF</strong>
     <p style="color:#64748b;margin:8px 0 0;">Доработка действующих режимов сравнения, наложение, шторка и просмотр версий рядом.</p>
-  </div>
-<!-- Tracker: DOCS-409, DOCS-2141, DOCS-547 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Обсуждения в замечаниях</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Пользовательские комментарии с вложениями и замечания к набору файлов.</p>
   </div>
 <!-- Tracker: DOCS-1629 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -408,12 +410,6 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Перенос настроек между проектами</strong>
     <p style="color:#64748b;margin:8px 0 0;">Копирование типов замечаний, согласований и передач между проектами без совпадения имён.</p>
   </div>
-<!-- Tracker: DOCS-2416 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Маршрут и сроки перед запуском согласования</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Настройка маршрута и сроков инициатором перед запуском комплекта.</p>
-  </div>
 <!-- Tracker: DOCS-343, DOCS-1861, DOCS-1944, DOCS-2044 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
@@ -432,12 +428,6 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Оповещения по подпискам на папки</strong>
     <p style="color:#64748b;margin:8px 0 0;">Сведения о файлах и версиях в уведомлениях и подтверждение отправки администраторам.</p>
   </div>
-<!-- Tracker: DOCS-415 -->
-  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
-    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>ИИ-поиск по документам</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Поиск по именам и содержимому файлов с помощью ИИ.</p>
-  </div>
 </div>
 
 <div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
@@ -448,6 +438,48 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>SIGNAL Viewer: проверка и сравнение</strong>
     <p style="color:#64748b;margin:8px 0 0;">Просмотр коллизий из Navisworks, сравнение моделей, обход от первого лица, оси и подрезка по этажам.</p>
+  </div>
+<!-- Tracker: DOCS-514, DOCS-436 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Акты передачи по шаблонам</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Создание актов передачи по шаблонам и выбор папки для размещения акта.</p>
+  </div>
+<!-- Tracker: DOCS-2039 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Атрибуты из справочников компании</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Структура объекта и справочники компании в качестве значений атрибутов.</p>
+  </div>
+<!-- Tracker: DOCS-2119 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>SIGNAL Viewer: полная изоляция элементов</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Полная изоляция выбранных элементов модели.</p>
+  </div>
+<!-- Tracker: DOCS-2139 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Доступные статусы замечаний</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Настройка доступных статусов замечания и статуса по умолчанию.</p>
+  </div>
+<!-- Tracker: DOCS-409, DOCS-2141, DOCS-547 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Обсуждения в замечаниях</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Пользовательские комментарии с вложениями и замечания к набору файлов.</p>
+  </div>
+<!-- Tracker: DOCS-2416 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Маршрут и сроки перед запуском согласования</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Настройка маршрута и сроков инициатором перед запуском комплекта.</p>
+  </div>
+<!-- Tracker: DOCS-415 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>ИИ-поиск по документам</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Поиск по именам и содержимому файлов с помощью ИИ.</p>
   </div>
 <!-- Tracker: DOCS-1246, DOCS-371 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -1321,11 +1353,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>События и уведомления форм</strong>
     <p style="color:#64748b;margin:8px 0 0;">Расширение состава событий и уведомлений о работе с формами.</p>
   </div>
-<!-- Tracker: ID-328, ID-456, ID-424 -->
+<!-- Tracker: ID-328, ID-456 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
-    <strong>Данные и изображения в шаблонах DOCX</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Системные поля связанных форм, свойства пользователей и изображения по доступной ширине.</p>
+    <strong>Данные в шаблонах DOCX</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Системные поля связанных форм и свойства пользователей в шаблонах DOCX.</p>
   </div>
 <!-- Tracker: ID-344 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
@@ -1351,11 +1383,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Диспетчер форм</strong>
     <p style="color:#64748b;margin:8px 0 0;">Боковая панель типов форм с поиском и отбором доступных для создания форм.</p>
   </div>
-<!-- Tracker: ID-63, ID-190 -->
+<!-- Tracker: ID-190 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
-    <strong>Заполнение с помощью ИИ</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Создание и заполнение форм по документу или изображению, текстовому и голосовому запросу.</p>
+    <strong>Заполнение форм текстом и голосом</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Создание и заполнение форм ИИ-ассистентом по текстовому или голосовому запросу.</p>
   </div>
 <!-- Tracker: ID-247 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
@@ -1363,17 +1395,46 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Доступы контрагентов</strong>
     <p style="color:#64748b;margin:8px 0 0;">Настройка доступа к формам на просмотр в рамках контрагента.</p>
   </div>
-<!-- Tracker: ID-191, ID-401 -->
+<!-- Tracker: ID-401 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Повторное использование форм</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Доступность типов форм для компаний и копирование экземпляров форм.</p>
+    <strong>Копирование экземпляров форм</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Копирование экземпляров форм.</p>
   </div>
-<!-- Tracker: ID-198, ID-194 -->
+<!-- Tracker: ID-198 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Комплекты документов и шаблоны DOCX</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Формирование акта передачи по выбранным формам, склонение слов и запись чисел текстом в DOCX.</p>
+    <strong>Комплекты документов по формам</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Формирование акта передачи по выбранным формам.</p>
+  </div>
+</div>
+
+<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
+<!-- Tracker: ID-424 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Изображения в шаблонах DOCX</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Подгонка изображений под доступную ширину документа.</p>
+  </div>
+<!-- Tracker: ID-63 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Заполнение форм по документам и изображениям</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Создание и заполнение форм с помощью ИИ по документу или изображению.</p>
+  </div>
+<!-- Tracker: ID-191 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Типы форм для компаний</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Доступность типов форм для компаний.</p>
+  </div>
+<!-- Tracker: ID-194 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Склонение слов и числа в DOCX</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Склонение слов и запись чисел текстом в шаблонах DOCX.</p>
   </div>
 <!-- Tracker: ID-187 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -1405,11 +1466,6 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>XML внутри FORMS</strong>
     <p style="color:#64748b;margin:8px 0 0;">Подготовка XML и полного общего журнала работ по данным форм, подписание XML-частей и выгрузка готового пакета.</p>
   </div>
-</div>
-
-<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: ID-186 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
@@ -1625,11 +1681,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>План-факт из ресурсов MPP</strong>
     <p style="color:#64748b;margin:8px 0 0;">Расчёт плановых объёмов в карточке план-факта по ресурсам графика Microsoft Project.</p>
   </div>
-<!-- Tracker: DASH-445, DASH-454, DASH-479 -->
+<!-- Tracker: DASH-479 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
-    <strong>Работа с 3D-карточками</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Отдельные снимки для отчётов, выбор источника массы и 3D-объёмы в SIGNAL BIM.</p>
+    <strong>3D-объёмы в SIGNAL BIM</strong>
+    <p style="color:#64748b;margin:8px 0 0;">3D-объёмы в SIGNAL BIM для карточек 50 и 51.</p>
   </div>
 <!-- Tracker: DASH-411 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -1648,6 +1704,12 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
+<!-- Tracker: DASH-445, DASH-454 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Снимки и настройки 3D-карточек</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Отдельные снимки для отчётов с разрешением 4K и выбор источника массы.</p>
+  </div>
 <!-- Tracker: DASH-124 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
@@ -1984,11 +2046,11 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Tracker: TOOLS-19, TOOLS-99, TOOLS-77 -->
+<!-- Tracker: TOOLS-19, TOOLS-99 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Первая версия десктопного приложения</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Отдельное приложение SIGNAL BIM с измерениями, работой со строительной моделью и выгрузкой объёмов в Excel.</p>
+    <p style="color:#64748b;margin:8px 0 0;">Отдельное приложение SIGNAL BIM с измерениями и работой со строительной моделью.</p>
   </div>
 <!-- Tracker: TOOLS-7, TOOLS-72, TOOLS-52 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
@@ -2001,6 +2063,12 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
+<!-- Tracker: TOOLS-77 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Выгрузка объёмов модели в Excel</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Выгрузка объёмов из BIM-модели в Excel.</p>
+  </div>
 <!-- Tracker: TOOLS-5 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
@@ -2046,17 +2114,17 @@ dateCreated: 2026-09-21T07:32:13.388Z
     <strong>Плагины для AutoCAD LT</strong>
     <p style="color:#64748b;margin:8px 0 0;">Поддержка SIGNAL TOOLS для AutoCAD LT 2027.</p>
   </div>
+</div>
+
+<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: TOOLS-117 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
     <strong>S DESIGN: работа с Revit Server</strong>
     <p style="color:#64748b;margin:8px 0 0;">Интеграция DOCS и Revit Server для защищённой работы с моделями и публикации версий.</p>
   </div>
-</div>
-
-<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
 <!-- Tracker: TOOLS-137 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
@@ -2185,17 +2253,28 @@ dateCreated: 2026-09-21T07:32:13.388Z
 <div style="margin:18px 0 12px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">IV квартал 2026</span></div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
-<!-- Tracker: HUB-468, HUB-225, HUB-372, HUB-570 -->
+<!-- Tracker: HUB-468, HUB-570 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
-    <strong>Проекты, компании, справочники и роли</strong>
-    <p style="color:#64748b;margin:8px 0 0;">Чтение и изменение свойств проектов, работа с компаниями и справочниками видов работ, материалов и НТД, создание ролей.</p>
+    <strong>Проекты и роли через API</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Чтение и изменение свойств проектов и создание ролей через публичный API.</p>
   </div>
 <!-- Tracker: DOCS-1636 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #2f6fed;border-radius:12px;padding:16px;background:#fff;">
     <div style="margin-bottom:10px;"><span style="background:#eaf0ff;color:#2156d9;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В работе</span></div>
     <strong>Копирование папок через API</strong>
     <p style="color:#64748b;margin:8px 0 0;">Копирование папок между проектами вместе с файлами и версиями.</p>
+  </div>
+</div>
+
+<div style="margin:18px 0 12px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 9px;border-radius:7px;font-weight:700;pointer-events:none; display: flex">I квартал 2027</span></div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(max(240px,calc((100% - 56px)/5)),1fr));gap:14px;margin:14px 0 24px;">
+<!-- Tracker: HUB-225, HUB-372 -->
+  <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
+    <div style="margin-bottom:10px;"><span style="background:#eef2f6;color:#5d6878;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700;">В планах</span></div>
+    <strong>Компании и справочники через API</strong>
+    <p style="color:#64748b;margin:8px 0 0;">Работа с компаниями и справочниками видов работ, материалов и НТД через публичный API.</p>
   </div>
 <!-- Tracker: DOCS-413 -->
   <div style="border:1px solid #dce4ef;border-left:4px solid #9aa6b2;border-radius:12px;padding:16px;background:#fff;">
