@@ -2,7 +2,7 @@
 title: Insp-admin
 description: 
 published: true
-date: 2026-11-10T08:14:03.566Z
+date: 2026-11-10T08:22:01.702Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:52:06.190Z
@@ -21,13 +21,13 @@ dateCreated: 2026-11-10T07:52:06.190Z
     <h4 class="toc-card-title"><a href="#project-structure">1. Структура проекта</a></h4>
     <ul class="toc-list">
       <li><a href="#plans"><span class="toc-badge">1.1</span> Планы</a></li>
-      <li><a href="#plans-edit">Редактирование и удаление планов</a></li>
-      <li><a href="#plans-setup">Настройка плана</a></li>
+      <li><a href="#plans-edit"><span class="toc-badge">1.1.1</span> Редактирование и удаление планов</a></li>
+      <li><a href="#plans-setup"><span class="toc-badge">1.1.2</span> Настройка плана</a></li>
       <li><a href="#points"><span class="toc-badge">1.2</span> Точки</a></li>
-      <li><a href="#points-create">Создание точки</a></li>
-      <li><a href="#points-setup">Настройка точек</a></li>
+      <li><a href="#points-create"><span class="toc-badge">1.2.1</span> Создание точки</a></li>
+      <li><a href="#points-setup"><span class="toc-badge">1.2.2</span> Настройка точек</a></li>
       <li><a href="#photos"><span class="toc-badge">1.3</span> Фото</a></li>
-      <li><a href="#photos-setup">Настройка фотографий</a></li>
+      <li><a href="#photos-setup"><span class="toc-badge">1.3.1</span> Настройка фотографий</a></li>
     </ul>
   </div>
 
@@ -46,10 +46,10 @@ dateCreated: 2026-11-10T07:52:06.190Z
     <ul class="toc-list">
       <li><a href="#photo-links"><span class="toc-badge">3.1</span> Ссылки на фото</a></li>
       <li><a href="#album"><span class="toc-badge">3.2</span> Альбом</a></li>
-      <li><a href="#album-create">Создание альбома</a></li>
-      <li><a href="#album-content">Выбор содержимого</a></li>
-      <li><a href="#album-publish">Публикация</a></li>
-      <li><a href="#album-edit">Изменение и удаление</a></li>
+      <li><a href="#album-create"><span class="toc-badge">3.2.1</span> Создание альбома</a></li>
+      <li><a href="#album-content"><span class="toc-badge">3.2.2</span> Выбор содержимого</a></li>
+      <li><a href="#album-publish"><span class="toc-badge">3.2.3</span> Публикация</a></li>
+      <li><a href="#album-edit"><span class="toc-badge">3.2.4</span> Изменение и удаление</a></li>
     </ul>
   </div>
 
@@ -104,7 +104,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZjiRKkmB6zMEx7C7byKSch-zqqizJkYMefzPUnsyoOHbRbn9CZSpFAcdJmjPsysRUn2UqOJibQfadRviYg-ojVgCsIGPKshJfHMzdLVCHoHBCysmlJYOaEb-HbfbZ5Iw?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
-##### Редактирование и удаление планов {#plans-edit}
+##### 1.1.1. Редактирование и удаление планов {#plans-edit}
 1.  Чтобы изменить название или заменить изображение плана, нажмите три точки напротив плана → «Редактировать»
 2.  Чтобы удалить план, нажмите три точки напротив плана → «Удалить». Удалённый план можно восстановить в [корзине](#trash).
 
@@ -112,7 +112,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 Блоки редактируются и удаляются так же, через меню трёх точек.
 
-##### Настройка плана {#plans-setup}
+##### 1.1.2. Настройка плана {#plans-setup}
 >Чтобы задать север относительно плана, перейдите на вкладку «План» и, передвигая ползунок, выставьте правильное расположение севера (буква «N»). Затем нажмите значок сохранения с подсказкой «Установить азимут».{.is-info}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeN1Pzzz2XxNUbLvbt1xFoQWl8331DqCA65HdIBZ-b7HAAuBYeE14ivSyAbIsxjADxK4MCIe1NC7wE55kud31xKTTZqxoxtOqZaxGzIu4-uduT16dAErt7U5xj3M6qoVoE?key=3hpsmQhvFqHd-U35R9gMfGGO)
@@ -123,7 +123,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ###### 1.2. Точки {#points}
 
-##### Создание точки {#points-create}
+##### 1.2.1. Создание точки {#points-create}
 Точку можно создать двумя способами:
 
 1.  Зажмите CTRL на клавиатуре (Cmd на macOS) и левой кнопкой мыши нажмите в нужной области на плане
@@ -142,7 +142,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![точка_на_плане.png](/sgnl_insp/точка_на_плане.png)
 
-##### Настройка точек {#points-setup}
+##### 1.2.2. Настройка точек {#points-setup}
 После выбора точки на вкладке «Точка» станут активны её настройки
 
 ![редактирование_точки.png](/sgnl_insp/редактирование_точки.png)
@@ -175,7 +175,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![версии_фото.png](/sgnl_insp/версии_фото.png)
 
-##### Настройка фотографий {#photos-setup}
+##### 1.3.1. Настройка фотографий {#photos-setup}
 После выбора фотографии на вкладке «Фото» станут активны её настройки. Изменять фотографию можно только в обычном режиме просмотра: не в режиме сравнения или выравнивания.
   
   ![настройки_фото.png](/sgnl_insp/настройки_фото.png)
@@ -364,7 +364,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 Создавать и настраивать альбомы может администратор приложения INSPECTION в административном интерфейсе (pa.sgnl.pro). Для публикации одной фотографии без альбома используйте [ссылку на фотографию](#photo-links).
 
-##### Создание альбома {#album-create}
+##### 3.2.1. Создание альбома {#album-create}
 1. Перейдите на pa.sgnl.pro в раздел «Альбом».
 2. Нажмите три точки напротив «Весь объект» и выберите «Добавить альбом».
 
@@ -375,7 +375,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeRK_8TxsfwaENJiF_eKcrde6GGvEiHU-RAYBzPyDjdr6mSjlm5jpmmG7x5BqfTKSKrV7c3tOm4WoAjE76uam_YOuokQJpyDuoulzdqRm9gt3MU2-l9gQF8VyCfkumMAA?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
-##### Выбор содержимого {#album-content}
+##### 3.2.2. Выбор содержимого {#album-content}
 Содержимое альбома определяется двумя настройками: какие точки входят в альбом и какие фотографии этих точек опубликованы. В альбоме показываются только опубликованные фотографии отмеченных точек. Изменения сохраняются сразу.
 
 1. Раскройте альбом в дереве и выберите блок и план.
@@ -388,7 +388,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 > Если в [настройках проекта](#settings-project) включена «Авто публикация фотографий», новые фотографии публикуются автоматически во всех альбомах проекта. Новые точки всё равно нужно отметить вручную.
 {.is-info}
 
-##### Публикация {#album-publish}
+##### 3.2.3. Публикация {#album-publish}
 Нажмите три точки рядом с названием альбома и выберите форму публикации:
 
 - «Ссылка» — откроется окно со ссылкой на альбом. Нажмите «Копировать».
@@ -400,7 +400,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUVrnVQGWpRlihGfOVKlN6ssY944SWzU9vHGPbZbAJPlmtXPvr4tQtD1ACp5vyUBYneBuds-eJh_F9Fm46Np7hsOO2rNIDhV5F_cO690qthl0hd7_D0Ecp_0vAh4DMfw?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
-##### Изменение и удаление {#album-edit}
+##### 3.2.4. Изменение и удаление {#album-edit}
 В том же меню альбома доступны:
 
 - «Редактировать» — изменение названия и списка доменов;
