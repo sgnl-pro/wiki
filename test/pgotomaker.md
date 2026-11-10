@@ -2,13 +2,13 @@
 title: Untitled Page
 description: 
 published: true
-date: 2026-11-10T08:22:27.177Z
+date: 2026-11-10T08:58:21.030Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:53:59.696Z
 ---
 
-<sub>**[<   INSPECTION. Запросы](/ru/insp/inquiries)     **|**     [TOOLS. Настройки    >](/ru/tools/navis/settings)**</sub>
+<sub>**[<   INSPECTION. Пользователь](/ru/insp/user)     **|**     [TOOLS. Настройки    >](/ru/tools/navis/settings)**</sub>
 
 ---
 
@@ -253,4 +253,4 @@ dateCreated: 2026-11-10T07:53:59.696Z
 
 #
 
-<sub>**[<   INSPECTION. Запросы](/ru/insp/inquiries)     **|**     [TOOLS. Настройки    >](/ru/tools/navis/settings)**</sub>
+<sub>**[<   INSPECTION. Пользователь](/ru/insp/user)     **|**     [TOOLS. Настройки    >](/ru/tools/navis/settings)**</sub>
