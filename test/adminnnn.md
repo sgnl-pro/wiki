@@ -2,7 +2,7 @@
 title: Insp-admin
 description: 
 published: true
-date: 2026-11-10T07:52:06.190Z
+date: 2026-11-10T08:01:27.430Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:52:06.190Z
@@ -12,85 +12,67 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ---
 
-> Страница для администратора приложения INSPECTION и суперпользователя. Разделы 1–7, 9 и 10 выполняются в административном интерфейсе — pa.sgnl.pro. Просмотр фотографий и работа с комментариями описаны на странице [«Пользователь»](/ru/insp/user), съёмка — на странице [«Приложение Photomaker»](/ru/insp/app).
+> Страница для администратора приложения INSPECTION и суперпользователя. Всё описанное на странице выполняется в административном интерфейсе — pa.sgnl.pro. Просмотр фотографий и работа с комментариями описаны на странице [«Пользователь»](/ru/insp/user), съёмка — на странице [«Приложение Photomaker»](/ru/insp/app).
 {.is-info}
 
 <div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=plans#plans">1. Планы</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=project_structure#project_structure">1. Структура проекта</a></h4>
   <ul class="toc-list">
-    <li><a href="?toc_target=plans_edit#plans_edit"><span class="toc-badge">1.1</span> Редактирование и удаление планов</a></li>
-    <li><a href="?toc_target=plans_setup#plans_setup"><span class="toc-badge">1.2</span> Настройка плана</a></li>
+    <li><a href="?toc_target=plans#plans"><span class="toc-badge">1.1</span> Планы</a></li>
+    <li><a href="?toc_target=points#points"><span class="toc-badge">1.2</span> Точки</a></li>
+    <li><a href="?toc_target=photos#photos"><span class="toc-badge">1.3</span> Фото</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=points#points">2. Точки</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=settings#settings">2. Настройки проекта</a></h4>
   <ul class="toc-list">
-    <li><a href="?toc_target=points_create#points_create"><span class="toc-badge">2.1</span> Создание точки</a></li>
-    <li><a href="?toc_target=points_setup#points_setup"><span class="toc-badge">2.2</span> Настройка точек</a></li>
+    <li><a href="?toc_target=settings_project#settings_project"><span class="toc-badge">2.1</span> Вкладка «Проект»</a></li>
+    <li><a href="?toc_target=settings_points#settings_points"><span class="toc-badge">2.2</span> Вкладка «Точки»</a></li>
+    <li><a href="?toc_target=settings_notifications#settings_notifications"><span class="toc-badge">2.3</span> Вкладка «Уведомления»</a></li>
+    <li><a href="?toc_target=settings_transfer#settings_transfer"><span class="toc-badge">2.4</span> Вкладка «Перенос»</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=photos#photos">3. Фото</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=publishing#publishing">3. Публикация фотографий</a></h4>
   <ul class="toc-list">
-    <li><a href="?toc_target=photos_setup#photos_setup"><span class="toc-badge">3.1</span> Настройка фотографий</a></li>
+    <li><a href="?toc_target=photo_links#photo_links"><span class="toc-badge">3.1</span> Ссылки на фото</a></li>
+    <li><a href="?toc_target=album#album"><span class="toc-badge">3.2</span> Альбом</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=settings#settings">4. Настройки проекта</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=bim#bim">4. Сравнение со сборной ЦИМ</a></h4>
   <ul class="toc-list">
-    <li><a href="?toc_target=settings_project#settings_project"><span class="toc-badge">4.1</span> Вкладка «Проект»</a></li>
-    <li><a href="?toc_target=settings_points#settings_points"><span class="toc-badge">4.2</span> Вкладка «Точки»</a></li>
-    <li><a href="?toc_target=settings_notifications#settings_notifications"><span class="toc-badge">4.3</span> Вкладка «Уведомления»</a></li>
-    <li><a href="?toc_target=settings_transfer#settings_transfer"><span class="toc-badge">4.4</span> Вкладка «Перенос»</a></li>
+    <li><a href="?toc_target=bim_export#bim_export"><span class="toc-badge">4.1</span> Экспорт фото</a></li>
+    <li><a href="?toc_target=bim_publish#bim_publish"><span class="toc-badge">4.2</span> Публикация фото360</a></li>
   </ul>
 </div>
 
 <div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=photo_links#photo_links">5. Ссылки на фото</a></h4>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=album#album">6. Альбом</a></h4>
+  <h4 class="toc-card-title"><a href="?toc_target=project_data#project_data">5. Комментарии, корзина и экспорт</a></h4>
   <ul class="toc-list">
-    <li><a href="?toc_target=album_create#album_create"><span class="toc-badge">6.1</span> Создание альбома</a></li>
-    <li><a href="?toc_target=album_content#album_content"><span class="toc-badge">6.2</span> Выбор содержимого</a></li>
-    <li><a href="?toc_target=album_publish#album_publish"><span class="toc-badge">6.3</span> Публикация</a></li>
-    <li><a href="?toc_target=album_edit#album_edit"><span class="toc-badge">6.4</span> Изменение и удаление</a></li>
-  </ul>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=bim#bim">7. Сравнение с ЦИМ</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=bim_export#bim_export"><span class="toc-badge">7.1</span> Экспорт фото</a></li>
-    <li><a href="?toc_target=bim_publish#bim_publish"><span class="toc-badge">7.2</span> Публикация фото360</a></li>
-  </ul>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=moderation#moderation">8. Комментарии</a></h4>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=trash#trash">9. Корзина</a></h4>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=export#export">10. Экспорт</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=export_statistics#export_statistics"><span class="toc-badge">10.1</span> Экспорт статистики</a></li>
-    <li><a href="?toc_target=export_section#export_section"><span class="toc-badge">10.2</span> Раздел «Экспорт»</a></li>
+    <li><a href="?toc_target=moderation#moderation"><span class="toc-badge">5.1</span> Комментарии</a></li>
+    <li><a href="?toc_target=trash#trash"><span class="toc-badge">5.2</span> Корзина</a></li>
+    <li><a href="?toc_target=export_statistics#export_statistics"><span class="toc-badge">5.3</span> Экспорт статистики</a></li>
+    <li><a href="?toc_target=export_section#export_section"><span class="toc-badge">5.4</span> Раздел «Экспорт»</a></li>
   </ul>
 </div>
 
 # Вкладки {.tabset}
 
-## 1. Планы
+## 1. Структура проекта
 
-### 1. Планы {#plans}
+### 1. Структура проекта {#project_structure}
+
+Проект наполняется сверху вниз: блоки и планы, затем точки на планах, затем фотографии в точках. Как устроен проект — на странице [«Введение»](/ru/insp/intro?toc_target=structure#structure).
+
+### Вкладки {.tabset}
+
+#### 1.1. Планы
+
+##### 1.1. Планы {#plans}
 
 1.  Для создания блока нажмите три точки напротив «Весь объект» → «Добавить блок»
 
@@ -108,7 +90,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZjiRKkmB6zMEx7C7byKSch-zqqizJkYMefzPUnsyoOHbRbn9CZSpFAcdJmjPsysRUn2UqOJibQfadRviYg-ojVgCsIGPKshJfHMzdLVCHoHBCysmlJYOaEb-HbfbZ5Iw?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
-#### 1.1. Редактирование и удаление планов {#plans_edit}
+###### Редактирование и удаление планов
 
 1.  Чтобы изменить название или заменить изображение плана, нажмите три точки напротив плана → «Редактировать»
 2.  Чтобы удалить план, нажмите три точки напротив плана → «Удалить». Удалённый план можно восстановить в [корзине](?toc_target=trash#trash).
@@ -117,7 +99,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 Блоки редактируются и удаляются так же, через меню трёх точек.
 
-#### 1.2. Настройка плана {#plans_setup}
+###### Настройка плана
 
 >Чтобы задать север относительно плана, перейдите на вкладку «План» и, передвигая ползунок, выставьте правильное расположение севера (буква «N»). Затем нажмите значок сохранения с подсказкой «Установить азимут».{.is-info}
 
@@ -125,11 +107,11 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 >Вкладки «План», «Точка» и «Фото» скрываются, если область плана слишком маленькая по высоте. Чтобы они появились, растяните область за правый нижний угол.{.is-info}
 
-## 2. Точки
+#### 1.2. Точки
 
-### 2. Точки {#points}
+##### 1.2. Точки {#points}
 
-#### 2.1. Создание точки {#points_create}
+###### Создание точки
 
 Точку можно создать двумя способами:
 
@@ -149,7 +131,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![точка_на_плане.png](/sgnl_insp/точка_на_плане.png)
 
-#### 2.2. Настройка точек {#points_setup}
+###### Настройка точек
 
 После выбора точки на вкладке «Точка» станут активны её настройки
 
@@ -165,9 +147,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 Можно настроить автоматический сброс статуса с «Выполнено» на «Требуется» в любой день недели, чтобы фотомейкер при синхронизации с проектом получал точки, на которые требуется загрузить фотографии. Подробнее — в разделе [«Настройки проекта»](?toc_target=settings_points#settings_points).
 
-## 3. Фото
+#### 1.3. Фото
 
-### 3. Фото {#photos}
+##### 1.3. Фото {#photos}
 
 1.  Чтобы добавить фотографию, выберите точку, перейдите на вкладку «Фото» и нажмите «Добавить»
 
@@ -183,7 +165,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![версии_фото.png](/sgnl_insp/версии_фото.png)
 
-#### 3.1. Настройка фотографий {#photos_setup}
+###### Настройка фотографий
 
 После выбора фотографии на вкладке «Фото» станут активны её настройки. Изменять фотографию можно только в обычном режиме просмотра: не в режиме сравнения или выравнивания.
   
@@ -233,9 +215,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 7.  Левая фотография примет ориентацию эталонной, т.е. их север будет смотреть в одну сторону.
 
-## 4. Настройки проекта
+## 2. Настройки проекта
 
-### 4. Настройки проекта {#settings}
+### 2. Настройки проекта {#settings}
 
 Чтобы открыть настройки проекта, выберите проект, нажмите на своё имя в правом верхнем углу и выберите «Настройки».
 
@@ -253,9 +235,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ### Вкладки {.tabset}
 
-#### 4.1. Проект
+#### 2.1. Проект
 
-##### 4.1. Вкладка «Проект» {#settings_project}
+##### 2.1. Вкладка «Проект» {#settings_project}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeD1c9W3Y8jnxNRHuTlNoEkTdGRP6qxloY3P-WWaefxOhf5RlfmWR7KBDA-mK476c5CgePV-RXEcoa1QJVGoVUUwwld0WrNQV950lxl7l5MJC8TE8rnjoEo0l1HSixcZ80?key=DWGZxmmaNZoCcEbYj-xKaPm8)
 
@@ -271,9 +253,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 Если вам необходимо отслеживать выполненные фотографии, рекомендуется держать переключатель включённым. Также рекомендуется настроить автоматический сброс на вкладке «Точки», чтобы фотомейкер при синхронизации с проектом всегда получал актуальный список точек, которые требуется снять.
 
-#### 4.2. Точки
+#### 2.2. Точки
 
-##### 4.2. Вкладка «Точки» {#settings_points}
+##### 2.2. Вкладка «Точки» {#settings_points}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHTKwxwWWdmQyDIIdodnrGNoOhhy4OOVj_wmiFuIVnatdU9AWDGZQSQxOYbZDIQIJHTdVNcKTsycKS_Udvhzq6PNFMQEn-YMl42ciVuo1H-RCoMwZrNgFAPKSg0IpknQ?key=DWGZxmmaNZoCcEbYj-xKaPm8)
 
@@ -301,9 +283,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 > Статус «Завершено» не сбрасывается ни в одном из этих случаев.
 {.is-info}
 
-#### 4.3. Уведомления
+#### 2.3. Уведомления
 
-##### 4.3. Вкладка «Уведомления» {#settings_notifications}
+##### 2.3. Вкладка «Уведомления» {#settings_notifications}
 
 Здесь настраиваются получатели уведомления о загрузке фотографий в проект.
 
@@ -318,9 +300,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 > Уведомление приходит не на каждую фотографию, а одной сводкой по серии загрузок.{.is-info}
 
-#### 4.4. Перенос
+#### 2.4. Перенос
 
-##### 4.4. Вкладка «Перенос» {#settings_transfer}
+##### 2.4. Вкладка «Перенос» {#settings_transfer}
 
 > Вкладка доступна только суперпользователю.
 {.is-warning}
@@ -338,9 +320,17 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 > В целевой проект переносятся блоки вместе с планами, точками и фотографиями. Комментарии, запросы, расписание сброса и настройки проекта остаются в исходном проекте.{.is-info}
 
-## 5. Ссылки на фото
+## 3. Публикация фотографий
 
-### 5. Создание ссылки на фотографию {#photo_links}
+### 3. Публикация фотографий {#publishing}
+
+Отдельную фотографию можно опубликовать по ссылке, а подборку фотографий — в альбоме.
+
+### Вкладки {.tabset}
+
+#### 3.1. Ссылки на фото
+
+##### 3.1. Ссылки на фото {#photo_links}
 
 >Ссылки расшариваются на конкретную фотографию для использования, например, специалистами стройконтроля в замечании или департаментом продаж для отправки клиенту фото360 из его квартиры во время строительства.{.is-info}
 
@@ -356,16 +346,16 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeqMIAJbPVPZETHAmbrqcPZqSfgIsORhnNekCVjQZvDpP8pFNg34ePi8uBt5PWbEV9sLMW8hJxSxqHxW_oKZ2WN0uMQStdtaX153KbE5zu5y15_HdjKVWzjo_I4eFlytGc?key=VCnEbE7kFsWeWkNj4-gU32-d)
 
-## 6. Альбом
+#### 3.2. Альбом
 
-### 6. Альбом {#album}
+##### 3.2. Альбом {#album}
 
 > В SIGNAL INSPECTION можно опубликовать выбранные фотографии в альбоме. Альбом доступен для просмотра всем, у кого есть ссылка: вход и лицензия SIGNAL не требуются. Защита паролем и срок действия ссылки при создании альбома не настраиваются.
 {.is-info}
 
 Создавать и настраивать альбомы может администратор приложения INSPECTION в административном интерфейсе (pa.sgnl.pro). Для публикации одной фотографии без альбома используйте [ссылку на фотографию](?toc_target=photo_links#photo_links).
 
-#### 6.1. Создание альбома {#album_create}
+###### Создание альбома
 
 1. Перейдите на pa.sgnl.pro в раздел «Альбом».
 2. Нажмите три точки напротив «Весь объект» и выберите «Добавить альбом».
@@ -377,7 +367,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeRK_8TxsfwaENJiF_eKcrde6GGvEiHU-RAYBzPyDjdr6mSjlm5jpmmG7x5BqfTKSKrV7c3tOm4WoAjE76uam_YOuokQJpyDuoulzdqRm9gt3MU2-l9gQF8VyCfkumMAA?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
-#### 6.2. Выбор содержимого {#album_content}
+###### Выбор содержимого
 
 Содержимое альбома определяется двумя настройками: какие точки входят в альбом и какие фотографии этих точек опубликованы. В альбоме показываются только опубликованные фотографии отмеченных точек. Изменения сохраняются сразу.
 
@@ -391,7 +381,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 > Если в [настройках проекта](?toc_target=settings_project#settings_project) включена «Авто публикация фотографий», новые фотографии публикуются автоматически во всех альбомах проекта. Новые точки всё равно нужно отметить вручную.
 {.is-info}
 
-#### 6.3. Публикация {#album_publish}
+###### Публикация
 
 Нажмите три точки рядом с названием альбома и выберите форму публикации:
 
@@ -404,7 +394,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUVrnVQGWpRlihGfOVKlN6ssY944SWzU9vHGPbZbAJPlmtXPvr4tQtD1ACp5vyUBYneBuds-eJh_F9Fm46Np7hsOO2rNIDhV5F_cO690qthl0hd7_D0Ecp_0vAh4DMfw?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
-#### 6.4. Изменение и удаление {#album_edit}
+###### Изменение и удаление
 
 В том же меню альбома доступны:
 
@@ -413,11 +403,11 @@ dateCreated: 2026-11-10T07:52:06.190Z
   
   ![редактировать_удалить_альбом.png](/sgnl_insp/редактировать_удалить_альбом.png)
 
-## 7. Сравнение с ЦИМ
+## 4. Сравнение со сборной ЦИМ
 
-### 7. Сравнение со сборной ЦИМ {#bim}
+### 4. Сравнение со сборной ЦИМ {#bim}
 
-#### 7.1. Экспорт фото {#bim_export}
+#### 4.1. Экспорт фото {#bim_export}
 
 >Инструмент позволяет экспортировать выбранные точки обзора как панорамное изображение, чтобы в последующем вставить его в модуль INSPECTION.{.is-info}
 
@@ -445,7 +435,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![image-1683703576495.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdsg8KLiGnm6WaZwpRkvbl9sKGkuMpNkK9UWTAisPFe9M4GtOV4Zx8QNXo93VwlsbQB_j-nChgH1hJtVdSrP48WvTgU4Rf6WZ-psXz_my2OAq0bRtOyo6z46O0cV6EQ6Q?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
 
-#### 7.2. Публикация фото360 {#bim_publish}
+#### 4.2. Публикация фото360 {#bim_publish}
 
 Инструмент позволяет загрузить в сервис INSPECTION точки обзора, сделанные в модели Navisworks, для сравнения модели с фактическим состоянием объекта строительства. Для загрузки фото необходимы права администратора в сервисе INSPECTION.
 
@@ -483,9 +473,17 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 8. Нажмите «Опубликовать» и дождитесь окончания загрузки фотографий в сервис INSPECTION
 
-## 8. Комментарии
+## 5. Комментарии, корзина и экспорт
 
-### 8. Комментарии {#moderation}
+### 5. Комментарии, корзина и экспорт {#project_data}
+
+Управление комментариями, восстановление удалённого и выгрузка данных проекта.
+
+### Вкладки {.tabset}
+
+#### 5.1. Комментарии
+
+##### 5.1. Комментарии {#moderation}
 
 Создание комментариев и работа с реестром описаны на странице [«Пользователь»](/ru/insp/user?toc_target=comments#comments). Администратор дополнительно может:
 
@@ -493,9 +491,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 - удалить выбранные в реестре комментарии;
 - восстановить удалённый комментарий к фотографии в [корзине](?toc_target=trash#trash).
 
-## 9. Корзина
+#### 5.2. Корзина
 
-### 9. Корзина {#trash}
+##### 5.2. Корзина {#trash}
 
 В корзине отображаются удалённые блоки, планы, точки, фотографии и комментарии к фотографиям. Альбомы в корзине не отображаются.
 
@@ -515,11 +513,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 > В дереве показаны только неудалённые элементы. Чтобы восстановить, например, точку удалённого плана, сначала восстановите сам план.
 {.is-info}
 
-## 10. Экспорт
+#### 5.3. Экспорт статистики
 
-### 10. Экспорт {#export}
-
-#### 10.1. Экспорт статистики {#export_statistics}
+##### 5.3. Экспорт статистики {#export_statistics}
 
 Отчёт показывает состояние точек и объём съёмки за выбранную дату.
 
@@ -540,7 +536,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 > Столбцы статусов показывают текущее состояние точек, а не состояние на выбранную дату. Границы суток считаются по UTC.
 {.is-info}
 
-#### 10.2. Раздел «Экспорт» {#export_section}
+#### 5.4. Раздел «Экспорт»
+
+##### 5.4. Раздел «Экспорт» {#export_section}
 
 > Раздел виден только суперпользователю.
 {.is-warning}
