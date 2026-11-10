@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2026-11-10T08:02:01.996Z
+date: 2026-11-10T08:14:59.837Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:53:10.190Z
@@ -15,30 +15,35 @@ dateCreated: 2026-11-10T07:53:10.190Z
 > Страница для всех пользователей проекта: просмотр фотографий, комментарии и личные настройки. Те же действия доступны администратору. Планы, точки, загрузку фотографий и настройки проекта ведёт [администратор](/ru/insp/admin).
 {.is-info}
 
-<div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=photos#photos">1. Фотографии</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=view#view"><span class="toc-badge">1.1</span> Просмотр фотографий</a></li>
-    <li><a href="?toc_target=image_quality#image_quality"><span class="toc-badge">1.2</span> Качество изображений</a></li>
-  </ul>
+<!-- Оглавление в виде карточек -->
+<div class="toc-grid">
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#photos">1. Фотографии</a></h4>
+    <ul class="toc-list">
+      <li><a href="#view"><span class="toc-badge">1.1</span> Просмотр фотографий</a></li>
+      <li><a href="#image-quality"><span class="toc-badge">1.2</span> Качество изображений</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-blue">
+    <h4 class="toc-card-title"><a href="#feedback">2. Комментарии и запросы</a></h4>
+    <ul class="toc-list">
+      <li><a href="#comments"><span class="toc-badge">2.1</span> Комментарии к фото</a></li>
+      <li><a href="#comments-registry"><span class="toc-badge">2.2</span> Реестр комментариев</a></li>
+      <li><a href="#inquiries"><span class="toc-badge">2.3</span> Запросы</a></li>
+    </ul>
+  </div>
 </div>
 
-<div class="toc-card toc-blue">
-  <h4 class="toc-card-title"><a href="?toc_target=feedback#feedback">2. Комментарии и запросы</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=comments#comments"><span class="toc-badge">2.1</span> Комментарии к фото</a></li>
-    <li><a href="?toc_target=comments_registry#comments_registry"><span class="toc-badge">2.2</span> Реестр комментариев</a></li>
-    <li><a href="?toc_target=inquiries#inquiries"><span class="toc-badge">2.3</span> Запросы</a></li>
-  </ul>
-</div>
+----
 
 # Вкладки {.tabset}
 
 ## 1. Фотографии
 
-### 1. Фотографии {#photos}
+###### 1. Фотографии {#photos}
 
-#### 1.1. Просмотр фотографий {#view}
+###### 1.1. Просмотр фотографий {#view}
 
 Пользователи INSPECTION могут просматривать фотографии на pb.sgnl.pro в разделе «Фото360».
 
@@ -50,7 +55,7 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeeBnWiqaNniAwBHSIwOiAUPl2l9lDrQbW1h-TcF7cfITaKclQOAb5SMTk1CygdJ9Fcwyqtg9RQSjk7ZZvYDUrr24lTVwdIJbIKoogJxLtLY1f3xVPTFMTpFwzW6aorzQ?key=Xjop-ojvMgGZh2U1OC00T2th)
 
-#### 1.2. Качество изображений {#image_quality}
+###### 1.2. Качество изображений {#image-quality}
 
 Чтобы открыть настройки проекта, выберите проект, нажмите на своё имя в правом верхнем углу и выберите «Настройки».
 
@@ -64,9 +69,9 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 ## 2. Комментарии и запросы
 
-### 2. Комментарии и запросы {#feedback}
+###### 2. Комментарии и запросы {#feedback}
 
-#### 2.1. Комментарии к фото {#comments}
+###### 2.1. Комментарии к фото {#comments}
 
 Комментарий можно добавить к фотографии типа «Фото360». В режиме сравнения добавление недоступно. Создавать комментарии могут все пользователи проекта.
   
@@ -91,7 +96,7 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 Редактировать комментарий может его автор или администратор. Для остальных пользователей карточка доступна только для просмотра.
 
-#### 2.2. Реестр комментариев {#comments_registry}
+###### 2.2. Реестр комментариев {#comments-registry}
 
 Откройте раздел «Комментарии» в меню проекта. Здесь можно просматривать комментарии по проекту, открывать их карточки и создавать новые кнопкой добавления. Комментарий, созданный в реестре, не привязан к фотографии.
   
@@ -101,12 +106,11 @@ dateCreated: 2026-11-10T07:53:10.190Z
 
 Для поиска используйте строку поиска, быстрые фильтры «Выдано мной» и «Сегодня» и панель фильтров по номеру, статусу, приоритету, автору, датам добавления и изменения.
 
-
 Чтобы выгрузить комментарии в формате XLSX, нажмите кнопку экспорта в верхней левой части реестра.
 
 Удалить выбранные в реестре комментарии может администратор. Автор может удалить свой комментарий, выбрав в его карточке статус «Удален».
 
-#### 2.3. Запросы {#inquiries}
+###### 2.3. Запросы {#inquiries}
 
 Привязка запроса к месту на плане, назначение ответственного и отслеживание решения описаны на странице [«Запросы»](/ru/insp/inquiries).
 
