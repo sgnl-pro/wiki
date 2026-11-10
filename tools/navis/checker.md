@@ -2,7 +2,7 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-11-10T15:00:36.654Z
+date: 2026-11-10T15:01:05.044Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
@@ -64,7 +64,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 -   **Нажмите “Экспорт результатов”**  , чтобы выгрузить результаты проверки в формате Excel или XML. XML можно подгрузить в Revit с помощью команды “Результат проверки” и посмотреть в каких элементах требуется исправить замечания. Также после исправления замечаний данный XML можно сравнить с новыми результатами через команду “Сравнить”.
 -   **Нажмите “Сравнить”** и загрузите XML файл с результатами предыдущей проверки, чтобы посмотреть какие замечания были устранены.
 
-### Проверки Checker
+## Проверки Checker
 
 ![image-1684132695289.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf-PQhZuQURgLeeKuOVVF97khG4jvGRXU3_RG3xNQT5YcCKKGXg0U9oQb5Wp26f0Wyd02kl2mMahRpGjKHm_TWVIs7ks3v1sGQsXDhOoXaQkauVqs6nbC-_MPg9eICuiOo8UfxVd6wGQXKJsoGMeg?key=kvd51ahbWRxAG7mrOPv7NQ)
 
