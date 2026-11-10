@@ -2,7 +2,7 @@
 title: TOOLS. Checker
 description: 
 published: true
-date: 2026-11-10T15:03:11.385Z
+date: 2026-11-10T15:03:53.930Z
 tags: 
 editor: markdown
 dateCreated: 2025-09-21T12:01:58.429Z
@@ -18,7 +18,7 @@ dateCreated: 2025-09-21T12:01:58.429Z
 ![image-1684131979882.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXemH-0zmYNVCEGsCH9nD9dUvZPMypTpfCEzww2n9lmrQ1q5mKANSUYS8Yr5CcvTbh8oqEP9Hg41Jper5kvUmsDILT8lPhg6McpWkAOncLn2ijnJuC1cusVoHlrhF4htJVIzxDAYC5MRbmnEYpm7uQ?key=kvd51ahbWRxAG7mrOPv7NQ)
 
 # Вкладки{.tabset}
-## Окно Checker
+## Общая информация
 Окно Checker разделено на 3 зоны: проверки, правила и результаты
 
 ![image-1684132005497.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfU_Ozp11RkFBGrn4ZcPZppQTREgk5MoIPj9FHao-cmdl1Q7Jefwh73-X1_1GMqIedwOAjB8XX7IYZftCRppiKO5hT7oyKHD3ubRKBv8e_xUIGBuktRzxZa2d6iknmT4pJJU_nxyvu9cRcgN_kBoQ?key=kvd51ahbWRxAG7mrOPv7NQ)
