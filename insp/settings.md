@@ -1,8 +1,8 @@
 ---
-title: INSPECTION. Настройки проекта
+title: INSPECTION. Администратор
 description: Настройки проекта INSPECTION: качество изображений, публикация фото, статусы точек и уведомления
 published: true
-date: 2026-11-05T13:55:20.179Z
+date: 2026-11-10T08:59:54.813Z
 tags: insp
 editor: markdown
 dateCreated: 2025-09-19T12:58:07.798Z
