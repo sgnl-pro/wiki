@@ -2,7 +2,7 @@
 title: INSPECTION. Запросы
 description: Создание запросов на плане INSPECTION, назначение ответственных и отслеживание решения
 published: true
-date: 2026-11-10T11:02:20.082Z
+date: 2026-11-10T11:06:07.467Z
 tags: insp
 editor: markdown
 dateCreated: 2026-09-23T17:04:44.833Z
