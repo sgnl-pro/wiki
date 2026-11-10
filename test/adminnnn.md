@@ -2,7 +2,7 @@
 title: Insp-admin
 description: 
 published: true
-date: 2026-11-10T08:01:27.430Z
+date: 2026-11-10T08:14:03.566Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-10T07:52:06.190Z
@@ -15,64 +15,78 @@ dateCreated: 2026-11-10T07:52:06.190Z
 > Страница для администратора приложения INSPECTION и суперпользователя. Всё описанное на странице выполняется в административном интерфейсе — pa.sgnl.pro. Просмотр фотографий и работа с комментариями описаны на странице [«Пользователь»](/ru/insp/user), съёмка — на странице [«Приложение Photomaker»](/ru/insp/app).
 {.is-info}
 
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=project_structure#project_structure">1. Структура проекта</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=plans#plans"><span class="toc-badge">1.1</span> Планы</a></li>
-    <li><a href="?toc_target=points#points"><span class="toc-badge">1.2</span> Точки</a></li>
-    <li><a href="?toc_target=photos#photos"><span class="toc-badge">1.3</span> Фото</a></li>
-  </ul>
+<!-- Оглавление в виде карточек -->
+<div class="toc-grid">
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#project-structure">1. Структура проекта</a></h4>
+    <ul class="toc-list">
+      <li><a href="#plans"><span class="toc-badge">1.1</span> Планы</a></li>
+      <li><a href="#plans-edit">Редактирование и удаление планов</a></li>
+      <li><a href="#plans-setup">Настройка плана</a></li>
+      <li><a href="#points"><span class="toc-badge">1.2</span> Точки</a></li>
+      <li><a href="#points-create">Создание точки</a></li>
+      <li><a href="#points-setup">Настройка точек</a></li>
+      <li><a href="#photos"><span class="toc-badge">1.3</span> Фото</a></li>
+      <li><a href="#photos-setup">Настройка фотографий</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#settings">2. Настройки проекта</a></h4>
+    <ul class="toc-list">
+      <li><a href="#settings-project"><span class="toc-badge">2.1</span> Вкладка «Проект»</a></li>
+      <li><a href="#settings-points"><span class="toc-badge">2.2</span> Вкладка «Точки»</a></li>
+      <li><a href="#settings-notifications"><span class="toc-badge">2.3</span> Вкладка «Уведомления»</a></li>
+      <li><a href="#settings-transfer"><span class="toc-badge">2.4</span> Вкладка «Перенос»</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#publishing">3. Публикация фотографий</a></h4>
+    <ul class="toc-list">
+      <li><a href="#photo-links"><span class="toc-badge">3.1</span> Ссылки на фото</a></li>
+      <li><a href="#album"><span class="toc-badge">3.2</span> Альбом</a></li>
+      <li><a href="#album-create">Создание альбома</a></li>
+      <li><a href="#album-content">Выбор содержимого</a></li>
+      <li><a href="#album-publish">Публикация</a></li>
+      <li><a href="#album-edit">Изменение и удаление</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#bim">4. Сравнение со сборной ЦИМ</a></h4>
+    <ul class="toc-list">
+      <li><a href="#bim-export"><span class="toc-badge">4.1</span> Экспорт фото</a></li>
+      <li><a href="#bim-publish"><span class="toc-badge">4.2</span> Публикация фото360</a></li>
+    </ul>
+  </div>
+
+  <div class="toc-card toc-purple">
+    <h4 class="toc-card-title"><a href="#project-data">5. Комментарии, корзина и экспорт</a></h4>
+    <ul class="toc-list">
+      <li><a href="#moderation"><span class="toc-badge">5.1</span> Комментарии</a></li>
+      <li><a href="#trash"><span class="toc-badge">5.2</span> Корзина</a></li>
+      <li><a href="#export-statistics"><span class="toc-badge">5.3</span> Экспорт статистики</a></li>
+      <li><a href="#export-section"><span class="toc-badge">5.4</span> Раздел «Экспорт»</a></li>
+    </ul>
+  </div>
 </div>
 
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=settings#settings">2. Настройки проекта</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=settings_project#settings_project"><span class="toc-badge">2.1</span> Вкладка «Проект»</a></li>
-    <li><a href="?toc_target=settings_points#settings_points"><span class="toc-badge">2.2</span> Вкладка «Точки»</a></li>
-    <li><a href="?toc_target=settings_notifications#settings_notifications"><span class="toc-badge">2.3</span> Вкладка «Уведомления»</a></li>
-    <li><a href="?toc_target=settings_transfer#settings_transfer"><span class="toc-badge">2.4</span> Вкладка «Перенос»</a></li>
-  </ul>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=publishing#publishing">3. Публикация фотографий</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=photo_links#photo_links"><span class="toc-badge">3.1</span> Ссылки на фото</a></li>
-    <li><a href="?toc_target=album#album"><span class="toc-badge">3.2</span> Альбом</a></li>
-  </ul>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=bim#bim">4. Сравнение со сборной ЦИМ</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=bim_export#bim_export"><span class="toc-badge">4.1</span> Экспорт фото</a></li>
-    <li><a href="?toc_target=bim_publish#bim_publish"><span class="toc-badge">4.2</span> Публикация фото360</a></li>
-  </ul>
-</div>
-
-<div class="toc-card toc-purple">
-  <h4 class="toc-card-title"><a href="?toc_target=project_data#project_data">5. Комментарии, корзина и экспорт</a></h4>
-  <ul class="toc-list">
-    <li><a href="?toc_target=moderation#moderation"><span class="toc-badge">5.1</span> Комментарии</a></li>
-    <li><a href="?toc_target=trash#trash"><span class="toc-badge">5.2</span> Корзина</a></li>
-    <li><a href="?toc_target=export_statistics#export_statistics"><span class="toc-badge">5.3</span> Экспорт статистики</a></li>
-    <li><a href="?toc_target=export_section#export_section"><span class="toc-badge">5.4</span> Раздел «Экспорт»</a></li>
-  </ul>
-</div>
+----
 
 # Вкладки {.tabset}
 
 ## 1. Структура проекта
 
-### 1. Структура проекта {#project_structure}
+###### 1. Структура проекта {#project-structure}
 
-Проект наполняется сверху вниз: блоки и планы, затем точки на планах, затем фотографии в точках. Как устроен проект — на странице [«Введение»](/ru/insp/intro?toc_target=structure#structure).
+Проект наполняется сверху вниз: блоки и планы, затем точки на планах, затем фотографии в точках. Как устроен проект — на странице [«Введение»](/ru/insp/intro#structure).
 
 ### Вкладки {.tabset}
 
 #### 1.1. Планы
 
-##### 1.1. Планы {#plans}
+###### 1.1. Планы {#plans}
 
 1.  Для создания блока нажмите три точки напротив «Весь объект» → «Добавить блок»
 
@@ -90,17 +104,15 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZjiRKkmB6zMEx7C7byKSch-zqqizJkYMefzPUnsyoOHbRbn9CZSpFAcdJmjPsysRUn2UqOJibQfadRviYg-ojVgCsIGPKshJfHMzdLVCHoHBCysmlJYOaEb-HbfbZ5Iw?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
-###### Редактирование и удаление планов
-
+##### Редактирование и удаление планов {#plans-edit}
 1.  Чтобы изменить название или заменить изображение плана, нажмите три точки напротив плана → «Редактировать»
-2.  Чтобы удалить план, нажмите три точки напротив плана → «Удалить». Удалённый план можно восстановить в [корзине](?toc_target=trash#trash).
+2.  Чтобы удалить план, нажмите три точки напротив плана → «Удалить». Удалённый план можно восстановить в [корзине](#trash).
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnlm5VppekaiO2EpbjrofRFhz1FDwPk6FDse01uyZhCTgsVklkhMqVhNLDokIiwQzELJRE-R-Z4SdHrO7BLt-028kNkYg2wiOS54xwgGdCtjmLHXcjy6tt4TuFjPvM_jI?key=3hpsmQhvFqHd-U35R9gMfGGO)
 
 Блоки редактируются и удаляются так же, через меню трёх точек.
 
-###### Настройка плана
-
+##### Настройка плана {#plans-setup}
 >Чтобы задать север относительно плана, перейдите на вкладку «План» и, передвигая ползунок, выставьте правильное расположение севера (буква «N»). Затем нажмите значок сохранения с подсказкой «Установить азимут».{.is-info}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeN1Pzzz2XxNUbLvbt1xFoQWl8331DqCA65HdIBZ-b7HAAuBYeE14ivSyAbIsxjADxK4MCIe1NC7wE55kud31xKTTZqxoxtOqZaxGzIu4-uduT16dAErt7U5xj3M6qoVoE?key=3hpsmQhvFqHd-U35R9gMfGGO)
@@ -109,10 +121,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 1.2. Точки
 
-##### 1.2. Точки {#points}
+###### 1.2. Точки {#points}
 
-###### Создание точки
-
+##### Создание точки {#points-create}
 Точку можно создать двумя способами:
 
 1.  Зажмите CTRL на клавиатуре (Cmd на macOS) и левой кнопкой мыши нажмите в нужной области на плане
@@ -131,25 +142,24 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![точка_на_плане.png](/sgnl_insp/точка_на_плане.png)
 
-###### Настройка точек
-
+##### Настройка точек {#points-setup}
 После выбора точки на вкладке «Точка» станут активны её настройки
 
 ![редактирование_точки.png](/sgnl_insp/редактирование_точки.png)
 
 - Чтобы переименовать точку, нажмите «Редактировать».
 - Чтобы переместить точку, перетащите её на плане.
-- Чтобы удалить точку, нажмите «Удалить». Удалённую точку можно восстановить в [корзине](?toc_target=trash#trash).
+- Чтобы удалить точку, нажмите «Удалить». Удалённую точку можно восстановить в [корзине](#trash).
 
 **Статус точки**
 
-Чтобы изменить статус вручную, выберите точку и нажмите нужный статус на вкладке «Точка». Значения статусов и пример работы с ними — на странице [«Введение»](/ru/insp/intro?toc_target=point_statuses#point_statuses).
+Чтобы изменить статус вручную, выберите точку и нажмите нужный статус на вкладке «Точка». Значения статусов и пример работы с ними — на странице [«Введение»](/ru/insp/intro#point-statuses).
 
-Можно настроить автоматический сброс статуса с «Выполнено» на «Требуется» в любой день недели, чтобы фотомейкер при синхронизации с проектом получал точки, на которые требуется загрузить фотографии. Подробнее — в разделе [«Настройки проекта»](?toc_target=settings_points#settings_points).
+Можно настроить автоматический сброс статуса с «Выполнено» на «Требуется» в любой день недели, чтобы фотомейкер при синхронизации с проектом получал точки, на которые требуется загрузить фотографии. Подробнее — в разделе [«Настройки проекта»](#settings-points).
 
 #### 1.3. Фото
 
-##### 1.3. Фото {#photos}
+###### 1.3. Фото {#photos}
 
 1.  Чтобы добавить фотографию, выберите точку, перейдите на вкладку «Фото» и нажмите «Добавить»
 
@@ -165,8 +175,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![версии_фото.png](/sgnl_insp/версии_фото.png)
 
-###### Настройка фотографий
-
+##### Настройка фотографий {#photos-setup}
 После выбора фотографии на вкладке «Фото» станут активны её настройки. Изменять фотографию можно только в обычном режиме просмотра: не в режиме сравнения или выравнивания.
   
   ![настройки_фото.png](/sgnl_insp/настройки_фото.png)
@@ -185,7 +194,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 **Удаление фотографии**
 
-Нажмите «Удалить» и подтвердите действие. Удалённую фотографию можно восстановить в [корзине](?toc_target=trash#trash).
+Нажмите «Удалить» и подтвердите действие. Удалённую фотографию можно восстановить в [корзине](#trash).
   
   ![удаление_фото.png](/sgnl_insp/удаление_фото.png)
 
@@ -217,7 +226,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ## 2. Настройки проекта
 
-### 2. Настройки проекта {#settings}
+###### 2. Настройки проекта {#settings}
 
 Чтобы открыть настройки проекта, выберите проект, нажмите на своё имя в правом верхнем углу и выберите «Настройки».
 
@@ -231,13 +240,13 @@ dateCreated: 2026-11-10T07:52:06.190Z
 | «Проект», «Точки», «Уведомления» | В административном интерфейсе: администратору приложения INSPECTION и суперпользователю |
 | «Перенос» | В административном интерфейсе: только суперпользователю |
 
-Вкладка «Общие» описана на странице [«Пользователь»](/ru/insp/user?toc_target=image_quality#image_quality).
+Вкладка «Общие» описана на странице [«Пользователь»](/ru/insp/user#image-quality).
 
 ### Вкладки {.tabset}
 
 #### 2.1. Проект
 
-##### 2.1. Вкладка «Проект» {#settings_project}
+###### 2.1. Вкладка «Проект» {#settings-project}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeD1c9W3Y8jnxNRHuTlNoEkTdGRP6qxloY3P-WWaefxOhf5RlfmWR7KBDA-mK476c5CgePV-RXEcoa1QJVGoVUUwwld0WrNQV950lxl7l5MJC8TE8rnjoEo0l1HSixcZ80?key=DWGZxmmaNZoCcEbYj-xKaPm8)
 
@@ -246,7 +255,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 **Авто публикация фотографий** — новая фотография автоматически отмечается как опубликованная во всех альбомах проекта.
 
 - Фотография появится на странице альбома, только если её точка отмечена в этом альбоме. Новые точки в альбомы автоматически не добавляются.
-- Если настройка включена в момент создания альбома, в нём сразу публикуются все фотографии проекта. Точки всё равно нужно отметить — см. [«Альбом»](?toc_target=album#album).
+- Если настройка включена в момент создания альбома, в нём сразу публикуются все фотографии проекта. Точки всё равно нужно отметить — см. [«Альбом»](#album).
 - На фотографии, загруженные до включения настройки, в уже созданных альбомах она не влияет.
 
 **Изменять статус на «Выполнено» при появлении новой фотографии в точке** — при загрузке фотографии статус точки меняется с «Требуется» или «Нет доступа» на «Выполнено». Это работает и для загрузки через браузер, и для отправки из приложения Photomaker.
@@ -255,7 +264,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 2.2. Точки
 
-##### 2.2. Вкладка «Точки» {#settings_points}
+###### 2.2. Вкладка «Точки» {#settings-points}
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHTKwxwWWdmQyDIIdodnrGNoOhhy4OOVj_wmiFuIVnatdU9AWDGZQSQxOYbZDIQIJHTdVNcKTsycKS_Udvhzq6PNFMQEn-YMl42ciVuo1H-RCoMwZrNgFAPKSg0IpknQ?key=DWGZxmmaNZoCcEbYj-xKaPm8)
 
@@ -285,7 +294,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 2.3. Уведомления
 
-##### 2.3. Вкладка «Уведомления» {#settings_notifications}
+###### 2.3. Вкладка «Уведомления» {#settings-notifications}
 
 Здесь настраиваются получатели уведомления о загрузке фотографий в проект.
 
@@ -302,7 +311,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 2.4. Перенос
 
-##### 2.4. Вкладка «Перенос» {#settings_transfer}
+###### 2.4. Вкладка «Перенос» {#settings-transfer}
 
 > Вкладка доступна только суперпользователю.
 {.is-warning}
@@ -322,7 +331,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ## 3. Публикация фотографий
 
-### 3. Публикация фотографий {#publishing}
+###### 3. Публикация фотографий {#publishing}
 
 Отдельную фотографию можно опубликовать по ссылке, а подборку фотографий — в альбоме.
 
@@ -330,7 +339,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 3.1. Ссылки на фото
 
-##### 3.1. Ссылки на фото {#photo_links}
+###### 3.1. Ссылки на фото {#photo-links}
 
 >Ссылки расшариваются на конкретную фотографию для использования, например, специалистами стройконтроля в замечании или департаментом продаж для отправки клиенту фото360 из его квартиры во время строительства.{.is-info}
 
@@ -348,15 +357,14 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 3.2. Альбом
 
-##### 3.2. Альбом {#album}
+###### 3.2. Альбом {#album}
 
 > В SIGNAL INSPECTION можно опубликовать выбранные фотографии в альбоме. Альбом доступен для просмотра всем, у кого есть ссылка: вход и лицензия SIGNAL не требуются. Защита паролем и срок действия ссылки при создании альбома не настраиваются.
 {.is-info}
 
-Создавать и настраивать альбомы может администратор приложения INSPECTION в административном интерфейсе (pa.sgnl.pro). Для публикации одной фотографии без альбома используйте [ссылку на фотографию](?toc_target=photo_links#photo_links).
+Создавать и настраивать альбомы может администратор приложения INSPECTION в административном интерфейсе (pa.sgnl.pro). Для публикации одной фотографии без альбома используйте [ссылку на фотографию](#photo-links).
 
-###### Создание альбома
-
+##### Создание альбома {#album-create}
 1. Перейдите на pa.sgnl.pro в раздел «Альбом».
 2. Нажмите три точки напротив «Весь объект» и выберите «Добавить альбом».
 
@@ -367,8 +375,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeRK_8TxsfwaENJiF_eKcrde6GGvEiHU-RAYBzPyDjdr6mSjlm5jpmmG7x5BqfTKSKrV7c3tOm4WoAjE76uam_YOuokQJpyDuoulzdqRm9gt3MU2-l9gQF8VyCfkumMAA?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
-###### Выбор содержимого
-
+##### Выбор содержимого {#album-content}
 Содержимое альбома определяется двумя настройками: какие точки входят в альбом и какие фотографии этих точек опубликованы. В альбоме показываются только опубликованные фотографии отмеченных точек. Изменения сохраняются сразу.
 
 1. Раскройте альбом в дереве и выберите блок и план.
@@ -378,11 +385,10 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 3. Выберите точку. В блоке «Список опубликованных фотографий» включите переключатели у нужных фотографий. Чтобы опубликовать или снять с публикации все фотографии точки, нажмите «Опубликовать все фото».
 
-> Если в [настройках проекта](?toc_target=settings_project#settings_project) включена «Авто публикация фотографий», новые фотографии публикуются автоматически во всех альбомах проекта. Новые точки всё равно нужно отметить вручную.
+> Если в [настройках проекта](#settings-project) включена «Авто публикация фотографий», новые фотографии публикуются автоматически во всех альбомах проекта. Новые точки всё равно нужно отметить вручную.
 {.is-info}
 
-###### Публикация
-
+##### Публикация {#album-publish}
 Нажмите три точки рядом с названием альбома и выберите форму публикации:
 
 - «Ссылка» — откроется окно со ссылкой на альбом. Нажмите «Копировать».
@@ -394,8 +400,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUVrnVQGWpRlihGfOVKlN6ssY944SWzU9vHGPbZbAJPlmtXPvr4tQtD1ACp5vyUBYneBuds-eJh_F9Fm46Np7hsOO2rNIDhV5F_cO690qthl0hd7_D0Ecp_0vAh4DMfw?key=JuQfXaHGvlZ5zGjQZWBWIwt1)
 
-###### Изменение и удаление
-
+##### Изменение и удаление {#album-edit}
 В том же меню альбома доступны:
 
 - «Редактировать» — изменение названия и списка доменов;
@@ -405,9 +410,9 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ## 4. Сравнение со сборной ЦИМ
 
-### 4. Сравнение со сборной ЦИМ {#bim}
+###### 4. Сравнение со сборной ЦИМ {#bim}
 
-#### 4.1. Экспорт фото {#bim_export}
+###### 4.1. Экспорт фото {#bim-export}
 
 >Инструмент позволяет экспортировать выбранные точки обзора как панорамное изображение, чтобы в последующем вставить его в модуль INSPECTION.{.is-info}
 
@@ -435,7 +440,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ![image-1683703576495.png](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdsg8KLiGnm6WaZwpRkvbl9sKGkuMpNkK9UWTAisPFe9M4GtOV4Zx8QNXo93VwlsbQB_j-nChgH1hJtVdSrP48WvTgU4Rf6WZ-psXz_my2OAq0bRtOyo6z46O0cV6EQ6Q?key=Oa1KTxLTFP0p_IPLQVwdeIo-)
 
-#### 4.2. Публикация фото360 {#bim_publish}
+###### 4.2. Публикация фото360 {#bim-publish}
 
 Инструмент позволяет загрузить в сервис INSPECTION точки обзора, сделанные в модели Navisworks, для сравнения модели с фактическим состоянием объекта строительства. Для загрузки фото необходимы права администратора в сервисе INSPECTION.
 
@@ -475,7 +480,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 ## 5. Комментарии, корзина и экспорт
 
-### 5. Комментарии, корзина и экспорт {#project_data}
+###### 5. Комментарии, корзина и экспорт {#project-data}
 
 Управление комментариями, восстановление удалённого и выгрузка данных проекта.
 
@@ -483,17 +488,17 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 5.1. Комментарии
 
-##### 5.1. Комментарии {#moderation}
+###### 5.1. Комментарии {#moderation}
 
-Создание комментариев и работа с реестром описаны на странице [«Пользователь»](/ru/insp/user?toc_target=comments#comments). Администратор дополнительно может:
+Создание комментариев и работа с реестром описаны на странице [«Пользователь»](/ru/insp/user#comments). Администратор дополнительно может:
 
 - редактировать любой комментарий;
 - удалить выбранные в реестре комментарии;
-- восстановить удалённый комментарий к фотографии в [корзине](?toc_target=trash#trash).
+- восстановить удалённый комментарий к фотографии в [корзине](#trash).
 
 #### 5.2. Корзина
 
-##### 5.2. Корзина {#trash}
+###### 5.2. Корзина {#trash}
 
 В корзине отображаются удалённые блоки, планы, точки, фотографии и комментарии к фотографиям. Альбомы в корзине не отображаются.
 
@@ -515,7 +520,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 5.3. Экспорт статистики
 
-##### 5.3. Экспорт статистики {#export_statistics}
+###### 5.3. Экспорт статистики {#export-statistics}
 
 Отчёт показывает состояние точек и объём съёмки за выбранную дату.
 
@@ -538,7 +543,7 @@ dateCreated: 2026-11-10T07:52:06.190Z
 
 #### 5.4. Раздел «Экспорт»
 
-##### 5.4. Раздел «Экспорт» {#export_section}
+###### 5.4. Раздел «Экспорт» {#export-section}
 
 > Раздел виден только суперпользователю.
 {.is-warning}
