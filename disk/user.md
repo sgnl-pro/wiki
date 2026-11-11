@@ -2,13 +2,12 @@
 title: DOCS Disk
 description: SIGNAL DOCS Disk показывает проекты, папки и файлы SIGNAL DOCS прямо в Проводнике Windows, как обычную папку на компьютере. С файлами можно работать в любых программах: открывать, редактировать, сохранять, копировать, создавать новые
 published: true
-date: 2026-11-11T07:23:26.645Z
+date: 2026-11-11T07:28:42.567Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-11T06:17:31.770Z
 ---
 
-# DOCS Disk — руководство пользователя
 
 **Работайте с файлами DOCS в Проводнике Windows:** открывайте документы в привычных программах, сохраняйте изменения и делитесь ссылками с коллегами.
 
@@ -356,7 +355,7 @@ DOCS Disk соблюдает права DOCS для каждой папки и �
 
 Найдите свой вопрос и нажмите на него, чтобы раскрыть ответ.
 
-**Связь и синхронизация**
+### **Связь и синхронизация**
 
 <details style="border: 1px solid #cfd8dc; border-radius: 8px; margin: 12px 0;">
 <summary style="font-weight: 600; cursor: pointer;">Что делать, если сервер недоступен?</summary>
@@ -391,7 +390,7 @@ DOCS Disk соблюдает права DOCS для каждой папки и �
 
 </details>
 
-**Проводник и приложение**
+### **Проводник и приложение**
 
 <details style="border: 1px solid #cfd8dc; border-radius: 8px; margin: 12px 0;">
 <summary style="font-weight: 600; cursor: pointer;">Почему папка не открывается или пропали команды меню?</summary>
@@ -449,7 +448,7 @@ Excel и другие программы могут не открывать фа
 
 </details>
 
-**Сохранность данных и поддержка**
+### **Сохранность данных и поддержка**
 
 <details style="border: 1px solid #cfd8dc; border-radius: 8px; margin: 12px 0;">
 <summary style="font-weight: 600; cursor: pointer;">Где найти мои невыгруженные изменения?</summary>
