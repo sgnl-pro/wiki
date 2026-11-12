@@ -2,7 +2,7 @@
 title: СПРАВКА ПО ПРОДУКТАМ SIGNAL
 description: Текущая версия: 2026.20 от 05.11.2026
 published: true
-date: 2026-11-11T06:39:04.197Z
+date: 2026-11-12T07:58:07.607Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-24T16:23:47.235Z
@@ -20,5 +20,4 @@ dateCreated: 2025-06-24T16:23:47.235Z
 - [SIGNAL <span style="background: linear-gradient(45deg, #A09EFF, #4B47FF); color: white; padding: 2px 6px; border-radius: 4px;">DASHBOARD</span>](/dash)
 - [SIGNAL <span style="background: linear-gradient(45deg, #83E6C7, #00CD8D); color: white; padding: 2px 6px; border-radius: 4px;">INSPECTION</span>](/insp)
 - [SIGNAL <span style="background: linear-gradient(45deg, #7AA6CF, #7D96AD); color: white; padding: 2px 6px; border-radius: 4px;">TOOLS</span>](/tools)
-- [SIGNAL <span style="background: linear-gradient(45deg, #00D1FF, #0695D7); color: white; padding: 2px 6px; border-radius: 4px;">DOCS DISK</span>](/disk)
 {.links-list}
