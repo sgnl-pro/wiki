@@ -2,7 +2,7 @@
 title: SIGNAL BIM. Диспетчер файлов
 description: Модели сборки, размещение и версии
 published: true
-date: 2026-11-13T12:20:48.796Z
+date: 2026-11-13T12:41:49.143Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-13T08:57:03.354Z
@@ -10,7 +10,7 @@ dateCreated: 2026-11-13T08:57:03.354Z
 
 <sub><strong><a href="/ru/signalbim/window">&lt; &nbsp; Окно приложения</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="/ru/signalbim/structure">Структура &nbsp; &gt;</a></strong></sub>
 
-**Открыть:** 
+## Диспетчер файлов
 ![](/снимок_экрана_2026-11-13_150003.png =700x)
 
 Диспетчер показывает модели текущей сборки. Рядом с названием каждой модели отображается её версия.
