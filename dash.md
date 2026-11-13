@@ -2,25 +2,11 @@
 title: SIGNAL DASHBOARD
 description: Раздел справки по DASHBOARD: виды отчётов, настройки и карточки показателей строительного проекта
 published: true
-date: 2026-11-13T13:55:11.083Z
+date: 2026-11-13T14:19:34.054Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-27T17:00:16.079Z
 ---
-
-## Рабочие сценарии
-
-- [Начало работы и виды отчётов](/dash/intro#quick-start)
-- [Управление отчётом и уведомления](/dash/settings#lifecycle)
-- [Доступы и публичные ссылки](/dash/access)
-- [Источники данных, обновление и форматы файлов](/dash/data)
-- [Расчёт показателей](/dash/formulas)
-- [Корпоративные SLA: карточки 01 и 03](/dash/cards-company)
-- [Экспорт отчётов](/dash/export)
-- [Решение проблем](/dash/troubleshooting)
-{.links-list}
-
-## Каталог и подробные настройки
 
 - [Введение](/dash/intro)
 - [Настройки проекта](/dash/settings)
