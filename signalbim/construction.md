@@ -2,7 +2,7 @@
 title: SIGNAL BIM. Работа со строительной моделью
 description: Виды работ и отметки об их выполнении
 published: true
-date: 2026-11-13T09:50:59.839Z
+date: 2026-11-13T12:50:05.944Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-13T09:02:48.560Z
@@ -10,7 +10,8 @@ dateCreated: 2026-11-13T09:02:48.560Z
 
 <sub><strong><a href="/ru/signalbim/viewpoints">&lt; &nbsp; Точки обзора</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="/ru/signalbim/quick-calculation">Быстрый подсчёт &nbsp; &gt;</a></strong></sub>
 
-**Открыть:** вкладка «Строительство».
+## Работа со строительной моделью
+![снимок_экрана_2026-11-13_154918.png](/снимок_экрана_2026-11-13_154918.png)
 
 Действия применяются к выбранным элементам. Для работы нужна сборка с моделями, связанными с файлами DOCS.
 
