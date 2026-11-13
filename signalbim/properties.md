@@ -2,13 +2,14 @@
 title: SIGNAL BIM. Свойства
 description: Данные выбранных элементов
 published: true
-date: 2026-11-13T12:39:18.357Z
+date: 2026-11-13T12:40:30.070Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-13T08:59:55.791Z
 ---
 
 <sub><strong><a href="/ru/signalbim/structure">&lt; &nbsp; Структура</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="/ru/signalbim/measurements">Измерения &nbsp; &gt;</a></strong></sub>
+## Свойства
 ![снимок_экрана_2026-11-13_153359.png](/снимок_экрана_2026-11-13_153359.png)
 
 Выберите элемент в модели или через «Структуру». Панель покажет его свойства по категориям.
