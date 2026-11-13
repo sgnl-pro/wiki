@@ -2,7 +2,7 @@
 title: SIGNAL BIM. Структура
 description: Группы и поисковые наборы
 published: true
-date: 2026-11-13T12:31:38.805Z
+date: 2026-11-13T12:42:18.287Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-13T08:58:05.223Z
@@ -10,6 +10,7 @@ dateCreated: 2026-11-13T08:58:05.223Z
 
 <sub><strong><a href="/ru/signalbim/file-manager">&lt; &nbsp; Диспетчер файлов</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="/ru/signalbim/properties">Свойства &nbsp; &gt;</a></strong></sub>
 
+## Структура
 ![снимок_экрана_2026-11-13_151054.png](/снимок_экрана_2026-11-13_151054.png =50%x)
 
 **Группы** распределяют элементы по значениям свойства. 
