@@ -2,7 +2,7 @@
 title: Api New
 description: 
 published: true
-date: 2026-11-17T13:04:57.412Z
+date: 2026-11-17T13:18:15.356Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-17T13:04:57.412Z
@@ -41,9 +41,18 @@ dateCreated: 2026-11-17T13:04:57.412Z
   <div class="toc-card toc-green">
     <h4 class="toc-card-title"><a href="#reference">3. Справочник функций</a></h4>
     <ul class="toc-list">
-      <li><a href="#reference-v1"><span class="toc-badge">3.1</span> Методы v1</a></li>
-      <li><a href="#reference-v2"><span class="toc-badge">3.2</span> Методы v2</a></li>
-      <li><a href="#reference-errors"><span class="toc-badge">3.3</span> Коды ответов</a></li>
+      <li><a href="#reference-v1"><span class="toc-badge">3.1</span> Файлы и версии</a></li>
+      <li><a href="#reference-folders"><span class="toc-badge">3.2</span> Папки и доступ</a></li>
+      <li><a href="#reference-issues"><span class="toc-badge">3.3</span> Замечания</a></li>
+      <li><a href="#reference-reviews"><span class="toc-badge">3.4</span> Согласования</a></li>
+      <li><a href="#reference-transfers"><span class="toc-badge">3.5</span> Передачи</a></li>
+      <li><a href="#reference-forms"><span class="toc-badge">3.6</span> Формы</a></li>
+      <li><a href="#reference-attributes"><span class="toc-badge">3.7</span> Атрибуты</a></li>
+      <li><a href="#reference-access"><span class="toc-badge">3.8</span> Компания и проекты</a></li>
+      <li><a href="#reference-models"><span class="toc-badge">3.9</span> Модели и подписи</a></li>
+      <li><a href="#reference-modules"><span class="toc-badge">3.10</span> Другие модули</a></li>
+      <li><a href="#reference-v2"><span class="toc-badge">3.11</span> Методы v2</a></li>
+      <li><a href="#reference-errors"><span class="toc-badge">3.12</span> Коды ответов</a></li>
     </ul>
   </div>
 </div>
@@ -54,6 +63,9 @@ dateCreated: 2026-11-17T13:04:57.412Z
 ## 1. Начало работы
 ###### 1. Начало работы {#doc}
 
+### Подразделы {.tabset}
+
+#### 1.1. Адрес и документация
 ###### 1.1. Адрес и документация {#api-docs}
 
 Базовый адрес: **https://api.sgnl.pro**. Версия указывается в пути запроса: `/public/v1/...` или `/public/v2/...`.
@@ -65,6 +77,7 @@ dateCreated: 2026-11-17T13:04:57.412Z
 
 Сначала создайте интеграцию и выберите разрешения, затем получите токен. После этого используйте готовый [пример](#examples) или найдите нужный метод в [справочнике функций](#reference).
 
+#### 1.2. Подключение и авторизация в Swagger
 ###### 1.2. Подключение и авторизация в Swagger {#swagger}
 
 1. Добавьте интеграцию в [настройках компании в HUB](/hub/admin#settings). Выберите **scopes**, к которым хотите предоставить доступ через API в рамках этой интеграции. При необходимости ограничьте срок действия интеграции. Нажмите **Сохранить**:
@@ -93,6 +106,7 @@ dateCreated: 2026-11-17T13:04:57.412Z
 > Secret key и токен дают доступ к данным интеграции. Храните их на стороне сервера или в защищённых переменных окружения. Не добавляйте их в клиентский JavaScript, публичный репозиторий и тексты обращений.
 {.is-warning}
 
+#### 1.3. Запросы, ответы и ограничения
 ###### 1.3. Запросы, ответы и ограничения {#api-rules}
 
 Для получения токена передайте `clientId`, `clientSecret` и массив `scopes` в `POST /public/v1/auth/token`. В остальных запросах примеров используется заголовок:
@@ -114,6 +128,9 @@ Authorization: Bearer <token>
 ## 2. Примеры
 ###### 2. Примеры {#examples}
 
+### Подразделы {.tabset}
+
+#### 2.1. Подготовка
 ###### 2.1. Подготовка {#example-setup}
 
 Выберите Python или JavaScript. Для Python используйте Python 3.10+ и установите пакет:
@@ -153,6 +170,7 @@ python -m pip install requests
 
 Выходные файлы создаются в рабочей папке запуска. Если файл с выбранным именем уже существует, он будет заменён. Примеры рассчитаны на последовательный запуск; при долгой передаче увеличьте тайм-ауты под размер файла и скорость соединения.
 
+#### 2.2. Авторизация
 ###### 2.2. Авторизация {#example-auth}
 
 **Задача:** получить JWT и использовать его в последующих запросах. **Результат:** токен хранится в памяти; на экран выводится только срок действия. Общий модуль получает новый токен перед истечением срока и ограниченно повторяет запросы при HTTP 429. Ошибки авторизации, остальные HTTP-ошибки и сетевые ошибки останавливают сценарий.
@@ -319,6 +337,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
 ```
 
 
+#### 2.3. Загрузка файла
 ###### 2.3. Загрузка файла {#example-upload}
 
 **Задача:** создать новый файл в папке DOCS. Укажите `SIGNAL_PROJECT_ID`, `SIGNAL_FOLDER_ID` и `SIGNAL_FILE`. Размер в текущей схеме — от 10 байт до 5 ГиБ.
@@ -415,6 +434,7 @@ console.log("versionId:", version.data);
 ```
 
 
+#### 2.4. Скачивание файла
 ###### 2.4. Скачивание файла {#example-download}
 
 **Задача:** скачать выбранную версию файла DOCS. Укажите `SIGNAL_ITEM_ID` и `SIGNAL_VERSION_ID`. Для сохранения с нужным именем и расширением задайте `SIGNAL_OUTPUT`, например `document.pdf`.
@@ -454,6 +474,7 @@ console.log("Файл сохранён:", destination);
 ```
 
 
+#### 2.5. Данные согласования
 ###### 2.5. Данные согласования {#example-review}
 
 **Задача:** получить данные для собственного листа согласования. Укажите `SIGNAL_PROJECT_ID` и `SIGNAL_REVIEW_ID`.
@@ -517,6 +538,7 @@ console.log("Данные согласования сохранены:", destina
 ```
 
 
+#### 2.6. Реестр замечаний
 ###### 2.6. Реестр замечаний {#example-issues}
 
 **Задача:** собрать неудалённые замечания проекта. Укажите `SIGNAL_PROJECT_ID`. При необходимости дополните фильтр полями из модели `IssueFind`: например, типом замечания, статусами или ответственными.
@@ -640,6 +662,7 @@ await writeFile(stem + ".json", JSON.stringify(issues, null, 2), "utf8");
 console.log("Сохранено " + issues.length + " замечаний: " + stem + ".csv и " + stem + ".json");
 ```
 
+#### 2.7. Видео и интеграции
 ###### 2.7. Видео и интеграции {#example-videos}
 
 - Авторизация:
@@ -660,537 +683,236 @@ console.log("Сохранено " + issues.length + " замечаний: " + st
 ## 3. Справочник функций
 ###### 3. Справочник функций {#reference}
 
-Здесь перечислены все **153 операции** опубликованных схем на **17 ноября 2026 года**: **150 операций v1** и **3 операции v2**. Примеры выше используют только часть этих методов.
+В справочнике 153 операции по состоянию на 17 ноября 2026 года. Методы v1 сгруппированы по задачам. В отдельной вкладке собраны методы v2.
 
-Пути указаны относительно `https://api.sgnl.pro`. В колонке «Контракт» перечислены параметры пути и строки запроса, модель тела и тип успешного ответа. Звёздочкой отмечены обязательные параметры пути/строки запроса. Для тела запроса приведены обязательные поля верхнего уровня, если они заданы моделью. Необязательные поля, вложенные модели и ограничения значений смотрите по ссылке «Схема» в Swagger; для v2 выберите соответствующую версию схемы в интерфейсе. Обозначение «тело не описано» означает, что OpenAPI не задаёт содержимое успешного ответа.
+Пути указаны относительно `https://api.sgnl.pro`. Нажмите **Контракт** в строке метода, чтобы увидеть параметры, модель тела и формат успешного ответа. Звёздочка обозначает обязательный параметр. Ссылка **Схема** ведёт к полному описанию метода в Swagger.
 
-###### 3.1. Методы v1 {#reference-v1}
+### Разделы справочника {.tabset}
+#### 3.1. Файлы и версии
+###### 3.1. Файлы и версии {#reference-v1}
 
-- [3.1.1. Акты приёмки](#ref-v1-acceptancecertificate)
-- [3.1.2. Доступ пользователей к приложениям](#ref-v1-applicationuser)
-- [3.1.3. Атрибуты](#ref-v1-attribute)
-- [3.1.4. Типы атрибутов](#ref-v1-attributetype)
-- [3.1.5. Значения списочных типов](#ref-v1-attributetypelistitems)
-- [3.1.6. Значения атрибутов](#ref-v1-attributevalue)
-- [3.1.7. Авторизация](#ref-v1-auth)
-- [3.1.8. Дашборды](#ref-v1-board)
-- [3.1.9. Бронирования](#ref-v1-booking)
-- [3.1.10. CAdES-подписи](#ref-v1-cadessignature)
-- [3.1.11. Карточки дашбордов](#ref-v1-card)
-- [3.1.12. Публичные ссылки карточек](#ref-v1-cardpubliclink)
-- [3.1.13. Компания](#ref-v1-company)
-- [3.1.14. Пользователи компании](#ref-v1-companyuser)
-- [3.1.15. Дополнительные роли компании](#ref-v1-companyusercustomrole)
-- [3.1.16. Проекты DOCS](#ref-v1-docsproject)
-- [3.1.17. Передачи документов](#ref-v1-documentstransfer)
-- [3.1.18. Отправка передач](#ref-v1-documentstransferacceptance)
-- [3.1.19. Доступ к передачам](#ref-v1-documentstransferaccesses)
-- [3.1.20. Состав передач](#ref-v1-documentstransferitem)
-- [3.1.21. Типы передач](#ref-v1-documentstransfertype)
-- [3.1.22. Встроенные подписи](#ref-v1-embeddedsignature)
-- [3.1.23. Папки](#ref-v1-folder)
-- [3.1.24. Правила именования](#ref-v1-folderitemsnamingpattern)
-- [3.1.25. Просмотр моделей через Forge](#ref-v1-forge)
-- [3.1.26. Типы полей форм](#ref-v1-formfieldtype)
-- [3.1.27. Типы форм](#ref-v1-formtype)
-- [3.1.28. Группы типов форм](#ref-v1-formtypegroup)
-- [3.1.29. Группы карточек](#ref-v1-group)
-- [3.1.30. Папки фотомониторинга](#ref-v1-inspectionfolder)
-- [3.1.31. Замечания](#ref-v1-issue)
-- [3.1.32. Доступ к замечаниям](#ref-v1-issueaccesses)
-- [3.1.33. Вложения замечаний](#ref-v1-issueattachment)
-- [3.1.34. Комментарии замечаний](#ref-v1-issuecomment)
-- [3.1.35. События замечаний](#ref-v1-issueevents)
-- [3.1.36. Настройки замечаний проекта](#ref-v1-issueprojectsettings)
-- [3.1.37. Типы замечаний](#ref-v1-issuetype)
-- [3.1.38. Файлы и элементы](#ref-v1-item)
-- [3.1.39. Машиночитаемые доверенности](#ref-v1-mchd)
-- [3.1.40. Объекты хранилища](#ref-v1-object)
-- [3.1.41. Права на папки](#ref-v1-permissions)
-- [3.1.42. Планы фотомониторинга](#ref-v1-plan)
-- [3.1.43. Точки фотомониторинга](#ref-v1-point)
-- [3.1.44. Проекты](#ref-v1-project)
-- [3.1.45. Формы проекта](#ref-v1-projectform)
-- [3.1.46. Типы полей форм проекта](#ref-v1-projectformfieldtype)
-- [3.1.47. Типы форм проекта](#ref-v1-projectformtype)
-- [3.1.48. Пользователи проектов](#ref-v1-projectuser)
-- [3.1.49. Дополнительные роли проектов](#ref-v1-projectusercustomrole)
-- [3.1.50. Согласования](#ref-v1-review)
-- [3.1.51. Группы согласований](#ref-v1-reviewgroup)
-- [3.1.52. Документы согласований](#ref-v1-reviewitem)
-- [3.1.53. Запуск согласований](#ref-v1-reviewprocess)
-- [3.1.54. Типы согласований](#ref-v1-reviewtype)
-- [3.1.55. Публикации файлов](#ref-v1-share)
-- [3.1.56. Слоты](#ref-v1-slot)
-- [3.1.57. Хранилища](#ref-v1-storage)
-- [3.1.58. Просмотр моделей через Tangl](#ref-v1-tangl)
-- [3.1.59. Журнал действий](#ref-v1-userlog)
-- [3.1.60. Версии файлов](#ref-v1-version)
-
-##### 3.1.1. Акты приёмки {#ref-v1-acceptancecertificate}
-
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `GET /public/v1/acceptance-certificates/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AcceptanceCertificate/AcceptanceCertificateDownloadV1) | Выдаёт временный билет для скачивания файла акта приёмки.<br>**Scope:** `docs:docs_transfer:read` | `acceptanceCertificateId`* (query), `fileName` (query)<br>**Ответ:** `200` → `AcceptanceCertificateDownloadTicket` |
-| `POST /public/v1/acceptance-certificates/attach`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AcceptanceCertificate/AcceptanceCertificateAttachV1) | Прикрепляет акт приёмки к передаче документов.<br>**Scope:** `docs:docs_transfer:update` | JSON обязателен: `AcceptanceCertificateAttach`; поля: `authorId`, `companyRecipient`, `companySender`, `documentsTransferId`, `projectName`<br>**Ответ:** `200` → `uuid` |
+| <span id="ref-v1-item"></span>`PUT /public/v1/items/file`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemCreateV1) | <small>Файлы и элементы</small><br>Создаёт элемент типа «файл» вместе с версией и возвращает идентификатор элемента. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:create`<br>JSON обязателен: `FileItemCreate`; поля: `folderId`, `name`, `versionId`<br>**Ответ:** `200` → `GuidSimpleDto`</details> |
+| `PUT /public/v1/items/link`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemCreateV1) | <small>Файлы и элементы</small><br>Создаёт элемент типа «ссылка» и возвращает его идентификатор. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:create`<br>JSON обязателен: `LinkItemCreate`; поля: `folderId`, `link`, `name`<br>**Ответ:** `200` → `GuidSimpleDto`</details> |
+| `GET /public/v1/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemListV1) | <small>Файлы и элементы</small><br>Возвращает непосредственные элементы папки без вложенных элементов. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:list`<br>`folderId`* (query), `deleted` (query), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив ItemsListItem`</details> |
+| `GET /public/v1/items/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemListCountV1) | <small>Файлы и элементы</small><br>Подсчитывает непосредственные элементы папки без вложенных элементов. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:list`<br>`folderId`* (query), `deleted` (query)<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| `POST /public/v1/items/search`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemSearchV1) | <small>Файлы и элементы</small><br>Ищет элементы внутри папки, включая вложенные. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `ItemSearch`; поля: `folderId`<br>**Ответ:** `200` → `массив ItemsListItem`</details> |
+| `GET /public/v1/items/item-version`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemGetItemVersionV1) | <small>Файлы и элементы</small><br>Возвращает версию элемента по её идентификатору. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:read`<br>`id`* (query)<br>**Ответ:** `200` → `ItemVersion`</details> |
+| `GET /public/v1/items/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemDownloadV1) | <small>Файлы и элементы</small><br>Выдаёт билет для скачивания файла из S3. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:read`<br>`itemId`* (query), `versionId`* (query), `fileName` (query), `urlTtlSecOverride` (query)<br>**Ответ:** `200` → `ItemDownloadTicket`</details> |
+| `PUT /public/v1/items/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemAttachVersionV1) | <small>Файлы и элементы</small><br>Прикрепляет новую версию к существующему элементу. | <details><summary>Контракт</summary><br>**Scope:** `docs:version:create`<br>JSON обязателен: `ItemAttachVersion`; поля: `itemId`, `versionId`<br>**Ответ:** `204` → тело не описано</details> |
+| `PATCH /public/v1/items/update`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemUpdateV1) | <small>Файлы и элементы</small><br>Обновляет существующий элемент. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:update`<br>JSON обязателен: `ItemUpdate`; поля: `id`<br>**Ответ:** `204` → тело не описано</details> |
+| `PATCH /public/v1/items/move`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemMoveV1) | <small>Файлы и элементы</small><br>Перемещает элемент в другую папку. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:update`<br>JSON обязателен: `ItemMove`; поля: `id`, `newFolderId`<br>**Ответ:** `200` → тело не описано</details> |
+| `PATCH /public/v1/items/versions/update`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemUpdateVersionV1) | <small>Файлы и элементы</small><br>Обновляет существующую версию элемента. | <details><summary>Контракт</summary><br>**Scope:** `docs:version:update`<br>JSON обязателен: `ItemVersionUpdate`; поля: `id`<br>**Ответ:** `204` → тело не описано</details> |
+| `DELETE /public/v1/items/{itemId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemDeleteV1) | <small>Файлы и элементы</small><br>Перемещает элемент в корзину. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:delete`<br>`itemId`* (путь)<br>**Ответ:** `204` → тело не описано</details> |
+| <span id="ref-v1-version"></span>`POST /public/v1/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionCreateV1) | <small>Версии файлов</small><br>Создаёт новую версию объекта и возвращает её идентификатор. | <details><summary>Контракт</summary><br>**Scope:** `docs:version:create`<br>JSON обязателен: `VersionCreate`; поля: `name`, `objectId`, `projectId`<br>**Ответ:** `200` → `GuidSimpleDto`</details> |
+| `GET /public/v1/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionListV1) | <small>Версии файлов</small><br>Возвращает версии элемента. | <details><summary>Контракт</summary><br>**Scope:** `docs:version:list`<br>`itemId`* (query), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив VersionListItem`</details> |
+| `POST /public/v1/versions/find-batch`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionListBatchV1) | <small>Версии файлов</small><br>Возвращает версии для набора элементов. | <details><summary>Контракт</summary><br>**Scope:** `docs:version:list`<br>JSON обязателен: `VersionsByItemsFind`; поля: `itemIds`, `projectId`<br>**Ответ:** `200` → `массив VersionListItemsBatch`</details> |
+| `GET /public/v1/versions/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionCountV1) | <small>Версии файлов</small><br>Подсчитывает версии элемента. | <details><summary>Контракт</summary><br>**Scope:** `docs:version:list`<br>`itemId`* (query), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| <span id="ref-v1-object"></span>`PUT /public/v1/objects`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Object/ObjectCreateV1) | <small>Объекты хранилища</small><br>Выдаёт билет для загрузки объекта; после загрузки объект требуется подтвердить отдельным запросом. | <details><summary>Контракт</summary><br>**Scope:** `docs:object:create`<br>JSON обязателен: `ObjectCreate`; поля: `mimeType`, `projectId`, `size`<br>**Ответ:** `200` → `ObjectUploadTicket`</details> |
+| `POST /public/v1/objects/{objectId}/uploading/commit`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Object/ObjectCommitUploadingV1) | <small>Объекты хранилища</small><br>Подтверждает завершение загрузки объекта в S3. | <details><summary>Контракт</summary><br>**Scope:** `docs:object:create`<br>`objectId`* (путь)<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-share"></span>`POST /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareListV1) | <small>Публикации файлов</small><br>Ищет публикации файлов по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:share:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `ShareFind`; поля: `projectId`<br>**Ответ:** `200` → `массив ShareListItem`</details> |
+| `PUT /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareCreateV1) | <small>Публикации файлов</small><br>Создаёт публикацию указанного элемента. | <details><summary>Контракт</summary><br>**Scope:** `docs:share:create`<br>JSON обязателен: `ShareCreate`; поля: `sharedItemId`, `sharedItemType`, `shareType`<br>**Ответ:** `200` → `GuidSimpleDto`</details> |
+| `PATCH /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareUpdateV1) | <small>Публикации файлов</small><br>Обновляет существующую публикацию. | <details><summary>Контракт</summary><br>**Scope:** `docs:share:update`<br>JSON обязателен: `ShareUpdate`; поля: `id`<br>**Ответ:** `200` → тело не описано</details> |
+| `DELETE /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareDeleteV1) | <small>Публикации файлов</small><br>Изменяет состояние удаления существующей публикации. | <details><summary>Контракт</summary><br>**Scope:** `docs:share:delete`<br>JSON обязателен: `ShareDelete`; поля: `deleted`, `id`<br>**Ответ:** `200` → тело не описано</details> |
+| `POST /public/v1/shares/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareListCountV1) | <small>Публикации файлов</small><br>Подсчитывает публикации по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:share:list`<br>JSON обязателен: `ShareFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
 
-##### 3.1.2. Доступ пользователей к приложениям {#ref-v1-applicationuser}
+#### 3.2. Папки и доступ
+###### 3.2. Папки и доступ {#reference-folders}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `PUT /public/v1/application-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ApplicationUser/ApplicationUserUpsertApplicationUsersV1) | Пакетно назначает пользователям роли в нескольких приложениях.<br>**Scope:** `hub:application:user:update` | JSON обязателен: `ApplicationUsersUpsert`; поля: `applicationIds`, `role`, `userIds`<br>**Ответ:** `200` → тело не описано |
-| `DELETE /public/v1/application-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ApplicationUser/ApplicationUserDeleteApplicationUsersV1) | Пакетно отзывает доступ пользователей к приложениям.<br>**Scope:** `hub:application:user:delete` | JSON обязателен: `ApplicationUsersDelete`; поля: `applicationIds`, `userIds`<br>**Ответ:** `200` → тело не описано |
+| <span id="ref-v1-folder"></span>`GET /public/v1/folders/{folderId}/children`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderListChildrenV1) | <small>Папки</small><br>Возвращает непосредственных потомков папки. | <details><summary>Контракт</summary><br>**Scope:** `docs:folder:list`<br>`folderId`* (путь), `deleted` (query)<br>**Ответ:** `200` → `массив FolderListItem`</details> |
+| `PUT /public/v1/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderCreateV1) | <small>Папки</small><br>Создаёт папку и возвращает её идентификатор. | <details><summary>Контракт</summary><br>**Scope:** `docs:folder:create`<br>JSON обязателен: `FolderCreate`; поля: `name`, `parentId`<br>**Ответ:** `200` → `GuidSimpleDto`</details> |
+| `PATCH /public/v1/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderUpdateV1) | <small>Папки</small><br>Обновляет папку. | <details><summary>Контракт</summary><br>**Scope:** `docs:folder:update`<br>JSON обязателен: `FolderUpdate`; поля: `id`<br>**Ответ:** `204` → тело не описано</details> |
+| `DELETE /public/v1/folders/{folderId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderDeleteV1) | <small>Папки</small><br>Перемещает папку в корзину. | <details><summary>Контракт</summary><br>**Scope:** `docs:folder:delete`<br>`folderId`* (путь)<br>**Ответ:** `204` → тело не описано</details> |
+| `GET /public/v1/projects/{projectId}/folders/tree`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderGetProjectTreeV1) | <small>Папки</small><br>Возвращает полное дерево папок проекта с правами пользователя. | <details><summary>Контракт</summary><br>**Scope:** `docs:folder:read`<br>`projectId`* (путь)<br>**Ответ:** `200` → `FolderNodeUserPermissions`</details> |
+| <span id="ref-v1-folderitemsnamingpattern"></span>`GET /public/v1/naming-patterns/folder-items/find`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FolderItemsNamingPattern/FolderItemsNamingPatternFindV1) | <small>Правила именования</small><br>Возвращает правила именования файлов в папке. | <details><summary>Контракт</summary><br>**Scope:** `docs:item:create`<br>`folderId`* (query)<br>**Ответ:** `200` → `FolderItemsNamingPatternsValueDto`</details> |
+| <span id="ref-v1-storage"></span>`POST /public/v1/storages`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Storage/StorageListV1) | <small>Хранилища</small><br>Ищет хранилища документов по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:storage:list`<br>JSON обязателен: `StorageFind`<br>**Ответ:** `200` → `массив StorageListItem`</details> |
+| <span id="ref-v1-permissions"></span>`POST /public/v1/permissions/folders/upsert`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Permissions/PermissionsUpsertBatchV1) | <small>Права на папки</small><br>Создаёт или обновляет права пользователей и ролей на конкретную папку. | <details><summary>Контракт</summary><br>**Scope:** `docs:permissions:update`<br>JSON обязателен: `PermissionUpsertBatch`; поля: `folderId`, `items`<br>**Ответ:** `200` → тело не описано; `204` → тело не описано</details> |
+| `GET /public/v1/permissions/tree`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Permissions/PermissionsGetProjectPermissionsTreeV1) | <small>Права на папки</small><br>Возвращает дерево папок проекта с назначенными правами. | <details><summary>Контракт</summary><br>**Scope:** `docs:permissions:read`<br>`projectId`* (query)<br>**Ответ:** `200` → `FolderNodePermissions`</details> |
+| `DELETE /public/v1/permissions/{permissionId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Permissions/PermissionsDeleteV1) | <small>Права на папки</small><br>Удаляет конкретное разрешение. | <details><summary>Контракт</summary><br>**Scope:** `docs:permissions:delete`<br>`permissionId`* (путь)<br>**Ответ:** `200` → тело не описано</details> |
 
-##### 3.1.3. Атрибуты {#ref-v1-attribute}
+#### 3.3. Замечания
+###### 3.3. Замечания {#reference-issues}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/attributes`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Attribute/AttributeListV1) | Возвращает атрибуты по заданному фильтру.<br>**Scope:** `docs:attribute:list` | JSON обязателен: `AttributeFind`; поля: `projectId`, `type`<br>**Ответ:** `200` → `массив AttributeListItem` |
+| <span id="ref-v1-issue"></span>`POST /public/v1/issues`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueListV1) | <small>Замечания</small><br>Ищет замечания по фильтру с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `IssueFind`; поля: `projectId`<br>**Ответ:** `200` → `массив IssueListItem`</details> |
+| `PATCH /public/v1/issues`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueUpdateV1) | <small>Замечания</small><br>Пакетно обновляет несколько замечаний. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:update`<br>JSON обязателен: `массив IssueUpdate`<br>**Ответ:** `200` → тело не описано</details> |
+| `POST /public/v1/issues/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueListCountV1) | <small>Замечания</small><br>Подсчитывает замечания по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `IssueFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| `POST /public/v1/issues/items/counts`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueListItemIssuesCountV1) | <small>Замечания</small><br>Возвращает число замечаний, связанных с каждым из указанных элементов. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `ItemsIssuesCountGet`; поля: `itemIds`, `projectId`<br>**Ответ:** `200` → `массив IssueCountListItem`</details> |
+| `POST /public/v1/issues/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueCreateV1) | <small>Замечания</small><br>Создаёт замечание. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:create`<br>JSON обязателен: `IssueCreate`; поля: `authorId`, `issueTypeId`, `name`, `projectId`, `responsible`, `status`<br>**Ответ:** `200` → `uuid`</details> |
+| <span id="ref-v1-issueaccesses"></span>`POST /public/v1/issues/accesses`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueAccesses/IssueAccessesListV1) | <small>Доступ к замечаниям</small><br>Возвращает правила доступа к замечаниям. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `IssueAccessesFind`; поля: `issueTypeIds`<br>**Ответ:** `200` → `массив IssueAccessListItem`</details> |
+| <span id="ref-v1-issueattachment"></span>`POST /public/v1/issues/attachments`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueAttachment/IssueAttachmentListV1) | <small>Вложения замечаний</small><br>Возвращает вложения указанного замечания. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `IssueAttachmentFind`; поля: `issueId`<br>**Ответ:** `200` → `массив IssueAttachmentListItem`</details> |
+| `POST /public/v1/issues/attachments/object/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueAttachment/IssueAttachmentDownloadObjectV1) | <small>Вложения замечаний</small><br>Создаёт билет для скачивания объекта вложения. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:read`<br>JSON обязателен: `IssueAttachmentDownloadObject`; поля: `issueAttachmentId`<br>**Ответ:** `200` → `IssueAttachmentDownloadTicket`</details> |
+| <span id="ref-v1-issuecomment"></span>`POST /public/v1/issues/comments`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueComment/IssueCommentListV1) | <small>Комментарии замечаний</small><br>Возвращает комментарии к замечаниям указанного проекта. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `IssueCommentFind`; поля: `issueIds`, `projectId`<br>**Ответ:** `200` → `массив IssueCommentListItem`</details> |
+| `PUT /public/v1/issues/comments`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueComment/IssueCommentCreateV1) | <small>Комментарии замечаний</small><br>Создаёт комментарий к указанному замечанию. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:create`<br>JSON обязателен: `IssueCommentCreate`; поля: `issueId`, `text`<br>**Ответ:** `200` → `GuidSimpleDto`</details> |
+| `POST /public/v1/issues/comments/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueComment/IssueCommentListCountV1) | <small>Комментарии замечаний</small><br>Подсчитывает комментарии по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `IssueCommentFind`; поля: `issueIds`, `projectId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| <span id="ref-v1-issueevents"></span>`POST /public/v1/issues/events`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListV1) | <small>События замечаний</small><br>Возвращает события замечаний по фильтру с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `IssueEventFind`; поля: `issueId`<br>**Ответ:** `200` → `массив IssueEventListItem`</details> |
+| `POST /public/v1/issues/events/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListCountV1) | <small>События замечаний</small><br>Подсчитывает события замечаний по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `IssueEventFind`; поля: `issueId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| <span id="ref-v1-issueprojectsettings"></span>`GET /public/v1/issues/settings/project`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueProjectSettings/IssueProjectSettingsGetV1) | <small>Настройки замечаний проекта</small><br>Возвращает настройки замечаний для указанного проекта. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:read`<br>`projectId`* (query)<br>**Ответ:** `200` → `IssueProjectSettings`</details> |
+| <span id="ref-v1-issuetype"></span>`POST /public/v1/issues/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueType/IssueTypeListV1) | <small>Типы замечаний</small><br>Ищет типы замечаний по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `IssueTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив IssueTypeListItem`</details> |
 
-##### 3.1.4. Типы атрибутов {#ref-v1-attributetype}
+#### 3.4. Согласования
+###### 3.4. Согласования {#reference-reviews}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/attributes/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeType/AttributeTypeListV1) | Ищет типы атрибутов по фильтру.<br>**Scope:** `docs:attribute:list` | JSON обязателен: `AttributeTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив AttributeType` |
-| `PATCH /public/v1/attributes/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeType/AttributeTypeUpdateV1) | Обновляет существующие типы атрибутов.<br>**Scope:** `docs:attribute:update` | JSON обязателен: `AttributeTypesUpdate`; поля: `data`, `projectId`<br>**Ответ:** `200` → тело не описано |
-| `POST /public/v1/attributes/types/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeType/AttributeTypeCreateV1) | Создаёт новый тип атрибута.<br>**Scope:** `docs:attribute:create` | JSON обязателен: `AttributeTypeCreate`; поля: `isRequired`, `name`, `order`, `projectId`, `type`<br>**Ответ:** `200` → `uuid` |
+| <span id="ref-v1-review"></span>`POST /public/v1/reviews`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewListV1) | <small>Согласования</small><br>Возвращает согласования указанного проекта. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `ReviewFindOrdered`; поля: `find`<br>**Ответ:** `200` → `массив ReviewListItem`</details> |
+| `PATCH /public/v1/reviews`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewUpdateV1) | <small>Согласования</small><br>Изменяет основные сведения согласования. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:update`<br>JSON обязателен: `ReviewUpdate`; поля: `id`<br>**Ответ:** `200` → тело не описано</details> |
+| `POST /public/v1/reviews/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewListCountV1) | <small>Согласования</small><br>Подсчитывает согласования по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:list`<br>JSON обязателен: `ReviewFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| `POST /public/v1/reviews/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewGetVersionsV1) | <small>Согласования</small><br>Возвращает версии согласований по указанным идентификаторам. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:list`<br>JSON обязателен: `ReviewVersionsGet`; поля: `reviewVersionIds`<br>**Ответ:** `200` → `массив ReviewVersion`</details> |
+| `POST /public/v1/reviews/versions/item-versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewFindItemVersionIdsByReviewVersionIdsV1) | <small>Согласования</small><br>Возвращает идентификаторы версий элементов, сгруппированные по версиям согласований. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:list`<br>JSON обязателен: `ReviewVersionItemVersionIdsFind`; поля: `reviewVersionIds`<br>**Ответ:** `200` → `object`</details> |
+| `POST /public/v1/reviews/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewCreateV1) | <small>Согласования</small><br>Создаёт согласование. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:create`<br>JSON обязателен: `ReviewCreate`; поля: `behalfUserId`, `cipher`, `name`, `projectId`, `reviewTypeId`<br>**Ответ:** `200` → `uuid`</details> |
+| `PATCH /public/v1/reviews/type`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewSetTypeV1) | <small>Согласования</small><br>Устанавливает или изменяет тип согласования. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:update`<br>JSON обязателен: `ReviewSetType`; поля: `id`, `reviewTypeId`<br>**Ответ:** `200` → тело не описано</details> |
+| `PATCH /public/v1/reviews/comment`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewSetCommentV1) | <small>Согласования</small><br>Устанавливает или очищает комментарий последней версии согласования, кроме удалённого согласования. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:update`<br>JSON обязателен: `ReviewSetComment`; поля: `authorId`, `comment`, `id`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-reviewgroup"></span>`POST /public/v1/reviews/groups`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewGroup/ReviewGroupListV1) | <small>Группы согласований</small><br>Возвращает группы согласований указанного проекта. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `ReviewGroupFind`; поля: `projectId`<br>**Ответ:** `200` → `массив ReviewGroupListItem`</details> |
+| <span id="ref-v1-reviewitem"></span>`POST /public/v1/reviews/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewItem/ReviewItemGetReviewItemsStatusesV1) | <small>Документы согласований</small><br>Возвращает статусы согласования указанных версий элементов. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:list`<br>JSON обязателен: `ReviewItemsStatusesGet`; поля: `itemVersionIds`, `projectId`<br>**Ответ:** `200` → `массив ReviewItemStatusListItem`</details> |
+| `POST /public/v1/reviews/items/add`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewItem/ReviewItemAddItemV1) | <small>Документы согласований</small><br>Добавляет версию элемента в существующее согласование. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:update`<br>JSON обязателен: `ReviewItemAdd`; поля: `itemVersionId`, `reviewId`<br>**Ответ:** `200` → тело не описано</details> |
+| `POST /public/v1/reviews/items/remove`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewItem/ReviewItemRemoveItemV1) | <small>Документы согласований</small><br>Удаляет версию элемента из согласования. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:update`<br>JSON обязателен: `ReviewItemRemove`; поля: `itemVersionId`, `reviewId`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-reviewprocess"></span>`POST /public/v1/reviews/process/start`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewProcess/ReviewProcessStartV1) | <small>Запуск согласований</small><br>Запускает процесс указанного согласования. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:update`<br>JSON обязателен: `ReviewStart`; поля: `behalfUserId`, `reviewId`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-reviewtype"></span>`GET /public/v1/reviews/types/names`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewType/ReviewTypeFindNamesV1) | <small>Типы согласований</small><br>Возвращает названия типов согласований указанного проекта. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:list`<br>`projectId`* (query)<br>**Ответ:** `200` → `массив ReviewTypeName`</details> |
+| `POST /public/v1/reviews/types/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewType/ReviewTypeCreateV1) | <small>Типы согласований</small><br>Создаёт тип согласования проекта. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:create`<br>JSON обязателен: `ReviewTypeCreate`; поля: `name`, `projectId`, `version`<br>**Ответ:** `200` → `uuid`</details> |
+| `PATCH /public/v1/reviews/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewType/ReviewTypeUpdateV1) | <small>Типы согласований</small><br>Обновляет существующий тип согласования. | <details><summary>Контракт</summary><br>**Scope:** `docs:review:update`<br>JSON обязателен: `ReviewTypeUpdate`; поля: `id`, `projectId`<br>**Ответ:** `200` → тело не описано</details> |
 
-##### 3.1.5. Значения списочных типов {#ref-v1-attributetypelistitems}
+#### 3.5. Передачи
+###### 3.5. Передачи {#reference-transfers}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/attributes/types/list/items/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeTypeListItems/AttributeTypeListItemsCreateV1) | Добавляет варианты значений в атрибут типа «список».<br>**Scope:** `docs:attribute:create` | JSON обязателен: `AttributeTypeListItemsCreate`; поля: `attributeTypeId`, `items`<br>**Ответ:** `200` → тело не описано |
-| `PATCH /public/v1/attributes/types/list/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeTypeListItems/AttributeTypeListItemsUpdateV1) | Изменяет варианты значений атрибута типа «список».<br>**Scope:** `docs:attribute:update` | JSON обязателен: `AttributeTypeListItemsUpdate`; поля: `attributeTypeId`, `items`<br>**Ответ:** `200` → тело не описано |
+| <span id="ref-v1-documentstransfer"></span>`POST /public/v1/documents-transfers`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferListV1) | <small>Передачи документов</small><br>Ищет передачи документов по фильтру с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `DocumentsTransfersFind`; поля: `projectId`<br>**Ответ:** `200` → `массив DocumentsTransferListItem`</details> |
+| `GET /public/v1/documents-transfers`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferGetAllDataV1) | <small>Передачи документов</small><br>Возвращает подробные сведения об одной передаче документов по её идентификатору. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:read`<br>`id`* (query)<br>**Ответ:** `200` → `DocumentsTransferAllData`</details> |
+| `POST /public/v1/documents-transfers/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferListCountV1) | <small>Передачи документов</small><br>Подсчитывает передачи документов по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:list`<br>JSON обязателен: `DocumentsTransfersFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| `POST /public/v1/documents-transfers/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferCreateV1) | <small>Передачи документов</small><br>Создаёт передачу документов. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:create`<br>JSON обязателен: `DocumentsTransferCreate`; поля: `authorId`, `cipher`, `documentsTransferTypeId`, `name`<br>**Ответ:** `200` → `uuid`</details> |
+| <span id="ref-v1-documentstransferacceptance"></span>`POST /public/v1/documents-transfer-acceptances/send`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferAcceptance/DocumentsTransferAcceptanceSendV1) | <small>Отправка передач</small><br>Отправляет подготовленную передачу документов получателю. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:update`<br>JSON обязателен: `DocumentsTransferSend`; поля: `authorId`, `documentsTransferId`, `recipient`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-documentstransferaccesses"></span>`POST /public/v1/documents-transfers/accesses`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferAccesses/DocumentsTransferAccessesListV1) | <small>Доступ к передачам</small><br>Возвращает правила доступа для указанных типов передачи документов. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:list`<br>JSON: `DocumentsTransferAccessesFind`; поля: `documentsTransferTypeIds`<br>**Ответ:** `200` → `массив DocumentsTransferAccessListItem`</details> |
+| <span id="ref-v1-documentstransferitem"></span>`POST /public/v1/documents-transfer-items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemListV1) | <small>Состав передач</small><br>Возвращает элементы указанной передачи документов с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `DocumentsTransferItemFind`; поля: `documentsTransferId`<br>**Ответ:** `200` → `массив DocumentsTransferItemListItem`</details> |
+| `POST /public/v1/documents-transfer-items/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemListCountV1) | <small>Состав передач</small><br>Подсчитывает элементы указанной передачи документов. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:list`<br>JSON обязателен: `DocumentsTransferItemFind`; поля: `documentsTransferId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
+| `GET /public/v1/documents-transfer-items/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemDownloadV1) | <small>Состав передач</small><br>Выдаёт временный билет для скачивания элемента передачи документов. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:read`<br>`documentsTransferItemId`* (query), `fileName` (query)<br>**Ответ:** `200` → `DocumentsTransferItemDownloadTicket`</details> |
+| `POST /public/v1/documents-transfer-items/add`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemAddItemsV1) | <small>Состав передач</small><br>Добавляет версии элементов в передачу документов. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:update`<br>JSON обязателен: `DocumentsTransferItemsAdd`; поля: `documentsTransferId`, `itemVersionIds`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-documentstransfertype"></span>`POST /public/v1/documents-transfers/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferType/DocumentsTransferTypeListV1) | <small>Типы передач</small><br>Ищет типы передачи документов по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:list`<br>JSON обязателен: `DocumentsTransferTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив DocumentsTransferTypeListItem`</details> |
+| <span id="ref-v1-acceptancecertificate"></span>`GET /public/v1/acceptance-certificates/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AcceptanceCertificate/AcceptanceCertificateDownloadV1) | <small>Акты приёмки</small><br>Выдаёт временный билет для скачивания файла акта приёмки. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:read`<br>`acceptanceCertificateId`* (query), `fileName` (query)<br>**Ответ:** `200` → `AcceptanceCertificateDownloadTicket`</details> |
+| `POST /public/v1/acceptance-certificates/attach`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AcceptanceCertificate/AcceptanceCertificateAttachV1) | <small>Акты приёмки</small><br>Прикрепляет акт приёмки к передаче документов. | <details><summary>Контракт</summary><br>**Scope:** `docs:docs_transfer:update`<br>JSON обязателен: `AcceptanceCertificateAttach`; поля: `authorId`, `companyRecipient`, `companySender`, `documentsTransferId`, `projectName`<br>**Ответ:** `200` → `uuid`</details> |
 
-##### 3.1.6. Значения атрибутов {#ref-v1-attributevalue}
+#### 3.6. Формы
+###### 3.6. Формы {#reference-forms}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/attributes/values/issues`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueListIssuesV1) | Возвращает значения атрибутов замечаний по фильтру.<br>**Scope:** `docs:attribute:list` | JSON обязателен: `IssueAttributeValueFind`; поля: `issueIds`, `projectId`<br>**Ответ:** `200` → `массив IssueAttributeValueListItem` |
-| `POST /public/v1/attributes/values/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueListItemsV1) | Возвращает значения атрибутов элементов по фильтру.<br>**Scope:** `docs:attribute:list` | JSON обязателен: `ItemAttributeValueFind`; поля: `itemIds`, `projectId`<br>**Ответ:** `200` → `массив ItemAttributeValueListItem` |
-| `POST /public/v1/attributes/values/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueListFoldersV1) | Возвращает значения атрибутов папок по фильтру.<br>**Scope:** `docs:attribute:list` | JSON обязателен: `FolderAttributeValueFind`; поля: `folderIds`, `projectId`<br>**Ответ:** `200` → `массив FolderAttributeValueListItem` |
-| `POST /public/v1/attributes/values/set`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueSetV1) | Устанавливает значения атрибутов для указанной сущности.<br>**Scope:** `docs:attribute:update` | JSON обязателен: `AttributeValuesSet`; поля: `type`, `values`<br>**Ответ:** `200` → тело не описано; `204` → тело не описано |
+| <span id="ref-v1-projectform"></span>`POST /public/v1/projects/forms`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormListV1) | <small>Формы проекта</small><br>Ищет формы проекта по фильтру и сортировке с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `ProjectFormFindOrdered`; поля: `find`<br>**Ответ:** `200` → `ProjectFormRegistryResult`</details> |
+| `POST /public/v1/projects/forms/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormListCountV1) | <small>Формы проекта</small><br>Подсчитывает формы проекта по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:list`<br>JSON обязателен: `ProjectFormFind`; поля: `formTypeId`, `projectId`<br>**Ответ:** `200` → `int32`</details> |
+| `POST /public/v1/projects/forms/get`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetV1) | <small>Формы проекта</small><br>Возвращает форму проекта по идентификатору. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:read`<br>JSON обязателен: `ProjectFormGet`; поля: `projectFormId`<br>**Ответ:** `200` → `ProjectForm`</details> |
+| `POST /public/v1/projects/forms/get-summary`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetSummaryV1) | <small>Формы проекта</small><br>Возвращает сводные данные указанных форм проекта. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:read`<br>JSON обязателен: `ProjectFormsSummaryGet`; поля: `projectFormIds`, `projectIds`<br>**Ответ:** `200` → `массив ProjectFormSummary`</details> |
+| `POST /public/v1/projects/forms/find-form-source`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormFindFormSourceV1) | <small>Формы проекта</small><br>Ищет формы проекта, которые могут быть источниками данных для указанного типа поля, по заданным критериям. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:list`<br>JSON обязателен: `FormSourceProjectFormFind`; поля: `formFieldTypeId`, `projectId`<br>**Ответ:** `200` → `FormSourceProjectFormResult`</details> |
+| `POST /public/v1/projects/forms/get-values-for-template-item`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetValuesForTemplateItemV1) | <small>Формы проекта</small><br>Возвращает значения элемента шаблона формы проекта. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:read`<br>JSON обязателен: `ProjectFormValuesForTemplateItemGet`; поля: `projectFormId`<br>**Ответ:** `200` → `ProjectFormValuesForTemplateItem`</details> |
+| `POST /public/v1/projects/forms/get-download-url-by-template-item`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetDownloadUrlByTemplateItemV1) | <small>Формы проекта</small><br>Выдаёт временную ссылку для скачивания элемента шаблона формы проекта. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:read`<br>JSON обязателен: `ProjectFormTemplateItemDownloadUrlGet`; поля: `projectFormId`, `templateItemId`<br>**Ответ:** `200` → `ProjectFormItemDownloadTicket`</details> |
+| `POST /public/v1/projects/forms/create-batch`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormCreateBatchV1) | <small>Формы проекта</small><br>Создаёт несколько форм проекта одним запросом. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:create`<br>JSON обязателен: `ProjectFormBatchCreate`; поля: `forms`, `projectFormTypeId`<br>**Ответ:** `200` → `массив uuid`</details> |
+| `PATCH /public/v1/projects/forms/update`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormUpdateV1) | <small>Формы проекта</small><br>Обновляет существующую форму проекта. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:update`<br>JSON обязателен: `ProjectFormUpdate`; поля: `projectFormFields`, `projectFormId`<br>**Ответ:** `200` → тело не описано</details> |
+| `PATCH /public/v1/projects/forms/complete`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormCompleteV1) | <small>Формы проекта</small><br>Переводит существующую форму проекта в завершённое состояние. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form:update`<br>JSON обязателен: `ProjectFormComplete`; поля: `projectFormId`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-projectformfieldtype"></span>`POST /public/v1/projects/forms/fields/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectFormFieldType/ProjectFormFieldTypeListV1) | <small>Типы полей форм проекта</small><br>Ищет типы полей форм проекта и связанные источники отображения по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form_field_type:list`<br>JSON обязателен: `ProjectFormFieldTypeFind`; поля: `projectFormTypeId`<br>**Ответ:** `200` → `ProjectFormFieldTypeFindResult`</details> |
+| <span id="ref-v1-projectformtype"></span>`POST /public/v1/projects/forms/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectFormType/ProjectFormTypeListV1) | <small>Типы форм проекта</small><br>Ищет типы форм проекта по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `forms:project_form_type:list`<br>JSON обязателен: `ProjectFormTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив ProjectFormType`</details> |
+| <span id="ref-v1-formfieldtype"></span>`POST /public/v1/forms/fields/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FormFieldType/FormFieldTypeListV1) | <small>Типы полей форм</small><br>Ищет типы полей форм по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `forms:form_field_type:list`<br>JSON обязателен: `FormFieldTypeFind`<br>**Ответ:** `200` → `массив FormFieldType`</details> |
+| <span id="ref-v1-formtype"></span>`POST /public/v1/forms/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FormType/FormTypeListV1) | <small>Типы форм</small><br>Ищет типы форм по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `forms:form_type:list`<br>JSON обязателен: `FormTypeFind`<br>**Ответ:** `200` → `массив FormType`</details> |
+| <span id="ref-v1-formtypegroup"></span>`POST /public/v1/forms/types/groups`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FormTypeGroup/FormTypeGroupListV1) | <small>Группы типов форм</small><br>Ищет группы типов форм по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `forms:form_type_group:list`<br>JSON обязателен: `FormTypeGroupFind`<br>**Ответ:** `200` → `массив FormTypeGroup`</details> |
 
-##### 3.1.7. Авторизация {#ref-v1-auth}
+#### 3.7. Атрибуты
+###### 3.7. Атрибуты {#reference-attributes}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/auth/token`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Auth/AuthGetTokenV1) | Выдаёт JWT указанному клиенту; запрошенные scope определяют права токена.<br>**Scope:** clientId, clientSecret и запрошенные scopes | JSON обязателен: `AuthCredentials`; поля: `clientId`, `clientSecret`, `scopes`<br>**Ответ:** `200` → `AuthToken` |
+| <span id="ref-v1-attribute"></span>`POST /public/v1/attributes`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Attribute/AttributeListV1) | <small>Атрибуты</small><br>Возвращает атрибуты по заданному фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:list`<br>JSON обязателен: `AttributeFind`; поля: `projectId`, `type`<br>**Ответ:** `200` → `массив AttributeListItem`</details> |
+| <span id="ref-v1-attributetype"></span>`POST /public/v1/attributes/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeType/AttributeTypeListV1) | <small>Типы атрибутов</small><br>Ищет типы атрибутов по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:list`<br>JSON обязателен: `AttributeTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив AttributeType`</details> |
+| `PATCH /public/v1/attributes/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeType/AttributeTypeUpdateV1) | <small>Типы атрибутов</small><br>Обновляет существующие типы атрибутов. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:update`<br>JSON обязателен: `AttributeTypesUpdate`; поля: `data`, `projectId`<br>**Ответ:** `200` → тело не описано</details> |
+| `POST /public/v1/attributes/types/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeType/AttributeTypeCreateV1) | <small>Типы атрибутов</small><br>Создаёт новый тип атрибута. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:create`<br>JSON обязателен: `AttributeTypeCreate`; поля: `isRequired`, `name`, `order`, `projectId`, `type`<br>**Ответ:** `200` → `uuid`</details> |
+| <span id="ref-v1-attributetypelistitems"></span>`POST /public/v1/attributes/types/list/items/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeTypeListItems/AttributeTypeListItemsCreateV1) | <small>Значения списочных типов</small><br>Добавляет варианты значений в атрибут типа «список». | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:create`<br>JSON обязателен: `AttributeTypeListItemsCreate`; поля: `attributeTypeId`, `items`<br>**Ответ:** `200` → тело не описано</details> |
+| `PATCH /public/v1/attributes/types/list/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeTypeListItems/AttributeTypeListItemsUpdateV1) | <small>Значения списочных типов</small><br>Изменяет варианты значений атрибута типа «список». | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:update`<br>JSON обязателен: `AttributeTypeListItemsUpdate`; поля: `attributeTypeId`, `items`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-attributevalue"></span>`POST /public/v1/attributes/values/issues`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueListIssuesV1) | <small>Значения атрибутов</small><br>Возвращает значения атрибутов замечаний по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:list`<br>JSON обязателен: `IssueAttributeValueFind`; поля: `issueIds`, `projectId`<br>**Ответ:** `200` → `массив IssueAttributeValueListItem`</details> |
+| `POST /public/v1/attributes/values/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueListItemsV1) | <small>Значения атрибутов</small><br>Возвращает значения атрибутов элементов по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:list`<br>JSON обязателен: `ItemAttributeValueFind`; поля: `itemIds`, `projectId`<br>**Ответ:** `200` → `массив ItemAttributeValueListItem`</details> |
+| `POST /public/v1/attributes/values/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueListFoldersV1) | <small>Значения атрибутов</small><br>Возвращает значения атрибутов папок по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:list`<br>JSON обязателен: `FolderAttributeValueFind`; поля: `folderIds`, `projectId`<br>**Ответ:** `200` → `массив FolderAttributeValueListItem`</details> |
+| `POST /public/v1/attributes/values/set`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/AttributeValue/AttributeValueSetV1) | <small>Значения атрибутов</small><br>Устанавливает значения атрибутов для указанной сущности. | <details><summary>Контракт</summary><br>**Scope:** `docs:attribute:update`<br>JSON обязателен: `AttributeValuesSet`; поля: `type`, `values`<br>**Ответ:** `200` → тело не описано; `204` → тело не описано</details> |
 
-##### 3.1.8. Дашборды {#ref-v1-board}
+#### 3.8. Компания и проекты
+###### 3.8. Компания и проекты {#reference-access}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/boards`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Board/BoardListV1) | Возвращает дашборды проекта по фильтру; удалённые дашборды исключены.<br>**Scope:** `dash:board:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `BoardFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Board` |
+| <span id="ref-v1-auth"></span>`POST /public/v1/auth/token`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Auth/AuthGetTokenV1) | <small>Авторизация</small><br>Выдаёт JWT указанному клиенту; запрошенные scope определяют права токена. | <details><summary>Контракт</summary><br>**Scope:** clientId, clientSecret и запрошенные scopes<br>JSON обязателен: `AuthCredentials`; поля: `clientId`, `clientSecret`, `scopes`<br>**Ответ:** `200` → `AuthToken`</details> |
+| <span id="ref-v1-company"></span>`GET /public/v1/company/users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Company/CompanyListUsersV1) | <small>Компания</small><br>Возвращает пользователей компании. | <details><summary>Контракт</summary><br>**Scope:** `company:user:list`<br>`Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив CompanyUserInfo`</details> |
+| `GET /public/v1/company/roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Company/CompanyListRolesV1) | <small>Компания</small><br>Возвращает роли компании. | <details><summary>Контракт</summary><br>**Scope:** `company:role:list`<br>`Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив RoleInfo`</details> |
+| <span id="ref-v1-companyuser"></span>`GET /public/v1/company-users/by-telegram-id`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUser/CompanyUserGetUserIdByTelegramIdV1) | <small>Пользователи компании</small><br>Возвращает идентификатор пользователя компании по Telegram ID. | <details><summary>Контракт</summary><br>**Scope:** В схеме не указан<br>`telegramId`* (query)<br>**Ответ:** `200` → `uuid`</details> |
+| `PUT /public/v1/company-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUser/CompanyUserAddCompanyUsersV1) | <small>Пользователи компании</small><br>Пакетно приглашает или добавляет пользователей в компанию. | <details><summary>Контракт</summary><br>**Scope:** `hub:company:user:create`<br>JSON обязателен: `CompanyUsersAdd`; поля: `users`<br>**Ответ:** `200` → `массив CompanyUserAddResult`</details> |
+| `DELETE /public/v1/company-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUser/CompanyUserDeleteCompanyUsersV1) | <small>Пользователи компании</small><br>Пакетно удаляет пользователей из компании. | <details><summary>Контракт</summary><br>**Scope:** `hub:company:user:delete`<br>JSON обязателен: `CompanyUsersDelete`; поля: `userIds`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-companyusercustomrole"></span>`PUT /public/v1/company-user-custom-roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUserCustomRole/CompanyUserCustomRoleSetCompanyUserCustomRolesV1) | <small>Дополнительные роли компании</small><br>Заменяет дополнительные роли пользователя на уровне компании переданным списком. | <details><summary>Контракт</summary><br>**Scope:** `company:role:update`<br>JSON обязателен: `CompanyUserCustomRolesSet`; поля: `customRoleIds`, `userId`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-applicationuser"></span>`PUT /public/v1/application-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ApplicationUser/ApplicationUserUpsertApplicationUsersV1) | <small>Доступ пользователей к приложениям</small><br>Пакетно назначает пользователям роли в нескольких приложениях. | <details><summary>Контракт</summary><br>**Scope:** `hub:application:user:update`<br>JSON обязателен: `ApplicationUsersUpsert`; поля: `applicationIds`, `role`, `userIds`<br>**Ответ:** `200` → тело не описано</details> |
+| `DELETE /public/v1/application-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ApplicationUser/ApplicationUserDeleteApplicationUsersV1) | <small>Доступ пользователей к приложениям</small><br>Пакетно отзывает доступ пользователей к приложениям. | <details><summary>Контракт</summary><br>**Scope:** `hub:application:user:delete`<br>JSON обязателен: `ApplicationUsersDelete`; поля: `applicationIds`, `userIds`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-project"></span>`GET /public/v1/projects/{projectId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectGetV1) | <small>Проекты</small><br>Возвращает сведения об указанном проекте. | <details><summary>Контракт</summary><br>**Scope:** `project:read`<br>`projectId`* (путь)<br>**Ответ:** `200` → `HubProjectInfo`</details> |
+| `GET /public/v1/projects`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectListV1) | <small>Проекты</small><br>Возвращает список проектов компании. | <details><summary>Контракт</summary><br>**Scope:** `project:list`<br>`Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив ProjectListItem`</details> |
+| `PATCH /public/v1/projects`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectUpdateV1) | <small>Проекты</small><br>Изменяет основные сведения существующего проекта. | <details><summary>Контракт</summary><br>**Scope:** `project:update`<br>JSON обязателен: `ProjectUpdate`; поля: `id`, `name`, `timeZoneOffset`<br>**Ответ:** `200` → тело не описано</details> |
+| `GET /public/v1/projects/{projectId}/users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectListUsersV1) | <small>Проекты</small><br>Возвращает пользователей проекта. | <details><summary>Контракт</summary><br>**Scope:** `project:user:list`<br>`projectId`* (путь), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив ProjectUserInfo`</details> |
+| `GET /public/v1/projects/{projectId}/users/{userId}/permissions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectGetUserPermissionsV1) | <small>Проекты</small><br>Возвращает права пользователя в проекте; при отсутствии прав схема предусматривает ответ 404. | <details><summary>Контракт</summary><br>**Scope:** `project:user:read`<br>`projectId`* (путь), `userId`* (путь)<br>**Ответ:** `200` → `ProjectUserPermissions`</details> |
+| `GET /public/v1/projects/{projectId}/roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectListRolesV1) | <small>Проекты</small><br>Возвращает роли проекта. | <details><summary>Контракт</summary><br>**Scope:** `project:role:list`<br>`projectId`* (путь), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив RoleInfo`</details> |
+| <span id="ref-v1-docsproject"></span>`GET /public/v1/docs/projects/{projectId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocsProject/DocsProjectGetInfoV1) | <small>Проекты DOCS</small><br>Возвращает сведения о проекте в SIGNAL DOCS. | <details><summary>Контракт</summary><br>**Scope:** `project:read`<br>`projectId`* (путь)<br>**Ответ:** `200` → `DocsProjectInfo`</details> |
+| `GET /public/v1/docs/projects/storage-id`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocsProject/DocsProjectGetStorageIdV1) | <small>Проекты DOCS</small><br>Возвращает идентификатор хранилища, назначенного проекту. | <details><summary>Контракт</summary><br>**Scope:** `project:read`<br>`projectId`* (query)<br>**Ответ:** `200` → `GuidNullableSimpleDto`</details> |
+| <span id="ref-v1-projectuser"></span>`PUT /public/v1/project-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectUser/ProjectUserAddProjectsUsersV1) | <small>Пользователи проектов</small><br>Пакетно добавляет пользователей в несколько проектов. | <details><summary>Контракт</summary><br>**Scope:** `hub:project:user:create`<br>JSON обязателен: `ProjectsUsersAdd`; поля: `projectIds`, `userIds`<br>**Ответ:** `200` → тело не описано</details> |
+| `DELETE /public/v1/project-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectUser/ProjectUserDeleteProjectsUsersV1) | <small>Пользователи проектов</small><br>Пакетно удаляет пользователей из нескольких проектов. | <details><summary>Контракт</summary><br>**Scope:** `hub:project:user:delete`<br>JSON обязателен: `ProjectsUsersDelete`; поля: `projectIds`, `userIds`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-projectusercustomrole"></span>`PUT /public/v1/project-user-custom-roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectUserCustomRole/ProjectUserCustomRoleSetProjectUserCustomRolesV1) | <small>Дополнительные роли проектов</small><br>Заменяет дополнительные роли пользователя в проекте переданным списком. | <details><summary>Контракт</summary><br>**Scope:** `project:role:update`<br>JSON обязателен: `ProjectUserCustomRolesSet`; поля: `customRoleIds`, `projectId`, `userId`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-userlog"></span>`POST /public/v1/user-logs`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/UserLog/UserLogListV1) | <small>Журнал действий</small><br>Возвращает записи журнала действий пользователей по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `logs:user:list`<br>JSON обязателен: `UserLogFind`<br>**Ответ:** `200` → `массив UserLogListItem`</details> |
 
-##### 3.1.9. Бронирования {#ref-v1-booking}
+#### 3.9. Модели и подписи
+###### 3.9. Модели и подписи {#reference-models}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/bookings`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Booking/BookingListV1) | Возвращает бронирования компании интеграции, упорядоченные по времени изменения и идентификатору.<br>**Scope:** `settings:booking:list` | JSON обязателен: `BookingFind`; поля: `paging`<br>**Ответ:** `200` → `массив Booking` |
-| `DELETE /public/v1/bookings`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Booking/BookingDeleteBatchV1) | Удаляет указанные бронирования компании интеграции.<br>**Scope:** `settings:booking:delete` | JSON обязателен: `BookingBatchDelete`; поля: `bookingIds`<br>**Ответ:** `200` → тело не описано |
+| <span id="ref-v1-forge"></span>`POST /public/v1/forge/convert`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Forge/ForgeConvertV1) | <small>Просмотр моделей через Forge</small><br>Запускает преобразование модели через Forge для просмотра; поддерживаемые форматы перечислены в Swagger. | <details><summary>Контракт</summary><br>**Scope:** `docs:viewer:execute`<br>JSON обязателен: `ForgeConvert`; поля: `versionId`<br>**Ответ:** `204` → тело не описано</details> |
+| `POST /public/v1/forge/item-versions/viewer`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Forge/ForgeGetViewersDataV1) | <small>Просмотр моделей через Forge</small><br>Возвращает токен доступа и URN моделей для отображения версий файлов в Forge Viewer. | <details><summary>Контракт</summary><br>**Scope:** `docs:viewer:read`<br>JSON обязателен: `ForgeModelsToViewRequest`; поля: `itemVersionIds`, `projectId`<br>**Ответ:** `200` → `ForgeModelsToView`</details> |
+| <span id="ref-v1-tangl"></span>`POST /public/v1/tangl/convert`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Tangl/TanglConvertV1) | <small>Просмотр моделей через Tangl</small><br>Запускает преобразование модели через Tangl для просмотра; схема указывает форматы .rvt и .ifc. | <details><summary>Контракт</summary><br>**Scope:** `docs:viewer:execute`<br>JSON обязателен: `TanglConvert`; поля: `versionId`<br>**Ответ:** `204` → тело не описано</details> |
+| <span id="ref-v1-cadessignature"></span>`GET /public/v1/cades/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CadesSignature/CadesSignatureListV1) | <small>CAdES-подписи</small><br>Возвращает CAdES-подписи версии файла. | <details><summary>Контракт</summary><br>**Scope:** `docs:signing:list`<br>`versionId`* (query), `searchMchdIds` (query)<br>**Ответ:** `200` → `массив CadesVersionSignatureListItem`</details> |
+| `PUT /public/v1/cades/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CadesSignature/CadesSignatureCreateV1) | <small>CAdES-подписи</small><br>Создаёт новую CAdES-подпись. | <details><summary>Контракт</summary><br>**Scope:** `docs:signing:create`<br>JSON обязателен: `CadesSignatureCreate`; поля: `certificateId`, `signature`, `versionId`<br>**Ответ:** `204` → тело не описано</details> |
+| <span id="ref-v1-embeddedsignature"></span>`GET /public/v1/embedded/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/EmbeddedSignature/EmbeddedSignatureListV1) | <small>Встроенные подписи</small><br>Возвращает встроенные подписи элемента. | <details><summary>Контракт</summary><br>**Scope:** `docs:signing:list`<br>`itemId`* (query)<br>**Ответ:** `200` → `массив EmbeddedVersionSignatureListItem`</details> |
+| `PUT /public/v1/embedded/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/EmbeddedSignature/EmbeddedSignatureCreateV1) | <small>Встроенные подписи</small><br>Создаёт встроенную подпись. | <details><summary>Контракт</summary><br>**Scope:** `docs:signing:create`<br>JSON обязателен: `EmbeddedSignatureCreate`; поля: `certificateId`, `itemId`, `signature`, `versionId`<br>**Ответ:** `204` → тело не описано</details> |
+| <span id="ref-v1-mchd"></span>`GET /public/v1/mchd/company`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Mchd/MchdGetCompanyMchdDocumentsV1) | <small>Машиночитаемые доверенности</small><br>Возвращает UUID машиночитаемых доверенностей (МЧД) компании. | <details><summary>Контракт</summary><br>**Scope:** `docs:signing:list`<br>`Take` (query), `Skip` (query)<br>**Ответ:** `200` → `GuidIReadOnlyCollectionSimpleDto`</details> |
+| `GET /public/v1/mchd/cades/signatures/{cadesSignatureId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Mchd/MchdGetAttachedMchdDocumentsV1) | <small>Машиночитаемые доверенности</small><br>Возвращает идентификаторы МЧД, связанных с CAdES-подписью. | <details><summary>Контракт</summary><br>**Scope:** `docs:signing:list`<br>`cadesSignatureId`* (путь)<br>**Ответ:** `200` → `массив AttachedMchdDocumentListItem`</details> |
+| `GET /public/v1/mchd/{mchdId}/object/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Mchd/MchdDownloadV1) | <small>Машиночитаемые доверенности</small><br>Выдаёт билет для скачивания МЧД. | <details><summary>Контракт</summary><br>**Scope:** `docs:signing:read`<br>`mchdId`* (путь)<br>**Ответ:** `200` → `MchdObjectDownloadTicket`</details> |
 
-##### 3.1.10. CAdES-подписи {#ref-v1-cadessignature}
+#### 3.10. Другие модули
+###### 3.10. Другие модули {#reference-modules}
 
-| Метод и путь | Назначение и права | Контракт |
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `GET /public/v1/cades/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CadesSignature/CadesSignatureListV1) | Возвращает CAdES-подписи версии файла.<br>**Scope:** `docs:signing:list` | `versionId`* (query), `searchMchdIds` (query)<br>**Ответ:** `200` → `массив CadesVersionSignatureListItem` |
-| `PUT /public/v1/cades/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CadesSignature/CadesSignatureCreateV1) | Создаёт новую CAdES-подпись.<br>**Scope:** `docs:signing:create` | JSON обязателен: `CadesSignatureCreate`; поля: `certificateId`, `signature`, `versionId`<br>**Ответ:** `204` → тело не описано |
+| <span id="ref-v1-board"></span>`POST /public/v1/boards`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Board/BoardListV1) | <small>Дашборды</small><br>Возвращает дашборды проекта по фильтру; удалённые дашборды исключены. | <details><summary>Контракт</summary><br>**Scope:** `dash:board:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `BoardFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Board`</details> |
+| <span id="ref-v1-card"></span>`POST /public/v1/boards/cards`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Card/CardListV1) | <small>Карточки дашбордов</small><br>Возвращает карточки дашборда с возможностью отбора по группам; удалённые карточки и карточки удалённых групп или дашбордов исключены. | <details><summary>Контракт</summary><br>**Scope:** `dash:card:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `CardFind`; поля: `boardId`<br>**Ответ:** `200` → `массив Card`</details> |
+| `GET /public/v1/boards/cards/{cardId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Card/CardGetV1) | <small>Карточки дашбордов</small><br>Возвращает карточку с содержимым по её идентификатору. | <details><summary>Контракт</summary><br>**Scope:** `dash:card:read`<br>`cardId`* (путь)<br>**Ответ:** `200` → `Card`</details> |
+| <span id="ref-v1-cardpubliclink"></span>`PATCH /public/v1/card-public-links/regenerate`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CardPublicLink/CardPublicLinkRegenerateCardPubLinkV1) | <small>Публичные ссылки карточек</small><br>Перегенерирует публичную ссылку на карточку дашборда. | <details><summary>Контракт</summary><br>**Scope:** `dash:card_public_link:update`<br>`pubLink`* (query)<br>**Ответ:** `200` → `CardPubLink`</details> |
+| <span id="ref-v1-group"></span>`POST /public/v1/boards/groups`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Group/GroupListV1) | <small>Группы карточек</small><br>Возвращает группы карточек дашборда; удалённые группы и группы удалённого дашборда исключены. | <details><summary>Контракт</summary><br>**Scope:** `dash:group:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `GroupFind`; поля: `boardId`<br>**Ответ:** `200` → `массив Group`</details> |
+| <span id="ref-v1-inspectionfolder"></span>`POST /public/v1/inspection/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/InspectionFolder/InspectionFolderListV1) | <small>Папки фотомониторинга</small><br>Возвращает папки фотомониторинга проекта по фильтру с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `inspection:folder:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `FolderFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Folder`</details> |
+| `POST /public/v1/inspection/folders/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/InspectionFolder/InspectionFolderListCountV1) | <small>Папки фотомониторинга</small><br>Подсчитывает папки фотомониторинга по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `inspection:folder:list`<br>JSON обязателен: `FolderFind`; поля: `projectId`<br>**Ответ:** `200` → `int32`</details> |
+| <span id="ref-v1-plan"></span>`POST /public/v1/inspection/plans`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Plan/PlanListV1) | <small>Планы фотомониторинга</small><br>Возвращает планы фотомониторинга проекта по фильтру с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `inspection:plan:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `PlanFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Plan`</details> |
+| `POST /public/v1/inspection/plans/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Plan/PlanListCountV1) | <small>Планы фотомониторинга</small><br>Подсчитывает планы фотомониторинга по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `inspection:plan:list`<br>JSON обязателен: `PlanFind`; поля: `projectId`<br>**Ответ:** `200` → `int32`</details> |
+| <span id="ref-v1-point"></span>`POST /public/v1/inspection/points`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Point/PointListV1) | <small>Точки фотомониторинга</small><br>Возвращает точки фотомониторинга проекта по фильтру с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `inspection:point:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `PointFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Point`</details> |
+| `POST /public/v1/inspection/points/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Point/PointListCountV1) | <small>Точки фотомониторинга</small><br>Подсчитывает точки фотомониторинга по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `inspection:point:list`<br>JSON обязателен: `PointFind`; поля: `projectId`<br>**Ответ:** `200` → `int32`</details> |
+| `GET /public/v1/inspection/points/{pointId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Point/PointGetV1) | <small>Точки фотомониторинга</small><br>Возвращает точку фотомониторинга по идентификатору. | <details><summary>Контракт</summary><br>**Scope:** `inspection:point:read`<br>`pointId`* (путь)<br>**Ответ:** `200` → `Point`</details> |
+| <span id="ref-v1-booking"></span>`POST /public/v1/bookings`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Booking/BookingListV1) | <small>Бронирования</small><br>Возвращает бронирования компании интеграции, упорядоченные по времени изменения и идентификатору. | <details><summary>Контракт</summary><br>**Scope:** `settings:booking:list`<br>JSON обязателен: `BookingFind`; поля: `paging`<br>**Ответ:** `200` → `массив Booking`</details> |
+| `DELETE /public/v1/bookings`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Booking/BookingDeleteBatchV1) | <small>Бронирования</small><br>Удаляет указанные бронирования компании интеграции. | <details><summary>Контракт</summary><br>**Scope:** `settings:booking:delete`<br>JSON обязателен: `BookingBatchDelete`; поля: `bookingIds`<br>**Ответ:** `200` → тело не описано</details> |
+| <span id="ref-v1-slot"></span>`POST /public/v1/slots`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Slot/SlotListV1) | <small>Слоты</small><br>Возвращает слоты компании интеграции, упорядоченные по началу и идентификатору. | <details><summary>Контракт</summary><br>**Scope:** `settings:slot:list`<br>JSON обязателен: `SlotFind`; поля: `paging`<br>**Ответ:** `200` → `массив Slot`</details> |
+| `DELETE /public/v1/slots`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Slot/SlotDeleteBatchV1) | <small>Слоты</small><br>Удаляет указанные слоты компании интеграции. | <details><summary>Контракт</summary><br>**Scope:** `settings:slot:delete`<br>JSON обязателен: `SlotBatchDelete`; поля: `slotIds`<br>**Ответ:** `200` → тело не описано</details> |
+| `POST /public/v1/slots/create-batch`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Slot/SlotCreateBatchV1) | <small>Слоты</small><br>Создаёт несколько слотов компании интеграции. | <details><summary>Контракт</summary><br>**Scope:** `settings:slot:create`<br>JSON обязателен: `SlotBatchCreate`; поля: `slots`<br>**Ответ:** `200` → `массив SlotCreateResult`</details> |
 
-##### 3.1.11. Карточки дашбордов {#ref-v1-card}
+#### 3.11. Методы v2
+###### 3.11. Методы v2 {#reference-v2}
 
-| Метод и путь | Назначение и права | Контракт |
+В Swagger выберите схему v2. Если вы переходите с v1 на v2, сравните модели запроса и ответа для событий замечаний.
+
+| Метод и путь | Назначение | Параметры и ответ |
 | --- | --- | --- |
-| `POST /public/v1/boards/cards`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Card/CardListV1) | Возвращает карточки дашборда с возможностью отбора по группам; удалённые карточки и карточки удалённых групп или дашбордов исключены.<br>**Scope:** `dash:card:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `CardFind`; поля: `boardId`<br>**Ответ:** `200` → `массив Card` |
-| `GET /public/v1/boards/cards/{cardId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Card/CardGetV1) | Возвращает карточку с содержимым по её идентификатору.<br>**Scope:** `dash:card:read` | `cardId`* (путь)<br>**Ответ:** `200` → `Card` |
+| `GET /public/v2/dummy/{someId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Dummy/DummyGetV2) | <small>DummyItem</small><br>Возвращает объект `DummyItem` по параметру `someId`. В схеме нет текстового описания назначения запроса. | <details><summary>Контракт</summary><br>**Scope:** В схеме не указан<br>`someId`* (путь)<br>**Ответ:** `200` → `DummyItem`</details> |
+| `POST /public/v2/issues/events`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListV2) | <small>События замечаний</small><br>Возвращает события замечаний по фильтру с постраничным выводом. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>`Take` (query), `Skip` (query)<br>JSON обязателен: `IssueEventFind`; поля: `projectId`<br>**Ответ:** `200` → `массив IssueEventListItem`</details> |
+| `POST /public/v2/issues/events/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListCountV2) | <small>События замечаний</small><br>Подсчитывает события замечаний по фильтру. | <details><summary>Контракт</summary><br>**Scope:** `docs:issue:list`<br>JSON обязателен: `IssueEventFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto`</details> |
 
-##### 3.1.12. Публичные ссылки карточек {#ref-v1-cardpubliclink}
+Назначение операции с DummyItem и её scope в OpenAPI не описаны.
 
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `PATCH /public/v1/card-public-links/regenerate`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CardPublicLink/CardPublicLinkRegenerateCardPubLinkV1) | Перегенерирует публичную ссылку на карточку дашборда.<br>**Scope:** `dash:card_public_link:update` | `pubLink`* (query)<br>**Ответ:** `200` → `CardPubLink` |
-
-##### 3.1.13. Компания {#ref-v1-company}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/company/users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Company/CompanyListUsersV1) | Возвращает пользователей компании.<br>**Scope:** `company:user:list` | `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив CompanyUserInfo` |
-| `GET /public/v1/company/roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Company/CompanyListRolesV1) | Возвращает роли компании.<br>**Scope:** `company:role:list` | `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив RoleInfo` |
-
-##### 3.1.14. Пользователи компании {#ref-v1-companyuser}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/company-users/by-telegram-id`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUser/CompanyUserGetUserIdByTelegramIdV1) | Возвращает идентификатор пользователя компании по Telegram ID.<br>**Scope:** В схеме не указан | `telegramId`* (query)<br>**Ответ:** `200` → `uuid` |
-| `PUT /public/v1/company-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUser/CompanyUserAddCompanyUsersV1) | Пакетно приглашает или добавляет пользователей в компанию.<br>**Scope:** `hub:company:user:create` | JSON обязателен: `CompanyUsersAdd`; поля: `users`<br>**Ответ:** `200` → `массив CompanyUserAddResult` |
-| `DELETE /public/v1/company-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUser/CompanyUserDeleteCompanyUsersV1) | Пакетно удаляет пользователей из компании.<br>**Scope:** `hub:company:user:delete` | JSON обязателен: `CompanyUsersDelete`; поля: `userIds`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.15. Дополнительные роли компании {#ref-v1-companyusercustomrole}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `PUT /public/v1/company-user-custom-roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/CompanyUserCustomRole/CompanyUserCustomRoleSetCompanyUserCustomRolesV1) | Заменяет дополнительные роли пользователя на уровне компании переданным списком.<br>**Scope:** `company:role:update` | JSON обязателен: `CompanyUserCustomRolesSet`; поля: `customRoleIds`, `userId`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.16. Проекты DOCS {#ref-v1-docsproject}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/docs/projects/{projectId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocsProject/DocsProjectGetInfoV1) | Возвращает сведения о проекте в SIGNAL DOCS.<br>**Scope:** `project:read` | `projectId`* (путь)<br>**Ответ:** `200` → `DocsProjectInfo` |
-| `GET /public/v1/docs/projects/storage-id`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocsProject/DocsProjectGetStorageIdV1) | Возвращает идентификатор хранилища, назначенного проекту.<br>**Scope:** `project:read` | `projectId`* (query)<br>**Ответ:** `200` → `GuidNullableSimpleDto` |
-
-##### 3.1.17. Передачи документов {#ref-v1-documentstransfer}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/documents-transfers`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferListV1) | Ищет передачи документов по фильтру с постраничным выводом.<br>**Scope:** `docs:docs_transfer:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `DocumentsTransfersFind`; поля: `projectId`<br>**Ответ:** `200` → `массив DocumentsTransferListItem` |
-| `GET /public/v1/documents-transfers`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferGetAllDataV1) | Возвращает подробные сведения об одной передаче документов по её идентификатору.<br>**Scope:** `docs:docs_transfer:read` | `id`* (query)<br>**Ответ:** `200` → `DocumentsTransferAllData` |
-| `POST /public/v1/documents-transfers/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferListCountV1) | Подсчитывает передачи документов по фильтру.<br>**Scope:** `docs:docs_transfer:list` | JSON обязателен: `DocumentsTransfersFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-| `POST /public/v1/documents-transfers/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransfer/DocumentsTransferCreateV1) | Создаёт передачу документов.<br>**Scope:** `docs:docs_transfer:create` | JSON обязателен: `DocumentsTransferCreate`; поля: `authorId`, `cipher`, `documentsTransferTypeId`, `name`<br>**Ответ:** `200` → `uuid` |
-
-##### 3.1.18. Отправка передач {#ref-v1-documentstransferacceptance}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/documents-transfer-acceptances/send`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferAcceptance/DocumentsTransferAcceptanceSendV1) | Отправляет подготовленную передачу документов получателю.<br>**Scope:** `docs:docs_transfer:update` | JSON обязателен: `DocumentsTransferSend`; поля: `authorId`, `documentsTransferId`, `recipient`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.19. Доступ к передачам {#ref-v1-documentstransferaccesses}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/documents-transfers/accesses`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferAccesses/DocumentsTransferAccessesListV1) | Возвращает правила доступа для указанных типов передачи документов.<br>**Scope:** `docs:docs_transfer:list` | JSON: `DocumentsTransferAccessesFind`; поля: `documentsTransferTypeIds`<br>**Ответ:** `200` → `массив DocumentsTransferAccessListItem` |
-
-##### 3.1.20. Состав передач {#ref-v1-documentstransferitem}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/documents-transfer-items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemListV1) | Возвращает элементы указанной передачи документов с постраничным выводом.<br>**Scope:** `docs:docs_transfer:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `DocumentsTransferItemFind`; поля: `documentsTransferId`<br>**Ответ:** `200` → `массив DocumentsTransferItemListItem` |
-| `POST /public/v1/documents-transfer-items/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemListCountV1) | Подсчитывает элементы указанной передачи документов.<br>**Scope:** `docs:docs_transfer:list` | JSON обязателен: `DocumentsTransferItemFind`; поля: `documentsTransferId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-| `GET /public/v1/documents-transfer-items/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemDownloadV1) | Выдаёт временный билет для скачивания элемента передачи документов.<br>**Scope:** `docs:docs_transfer:read` | `documentsTransferItemId`* (query), `fileName` (query)<br>**Ответ:** `200` → `DocumentsTransferItemDownloadTicket` |
-| `POST /public/v1/documents-transfer-items/add`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferItem/DocumentsTransferItemAddItemsV1) | Добавляет версии элементов в передачу документов.<br>**Scope:** `docs:docs_transfer:update` | JSON обязателен: `DocumentsTransferItemsAdd`; поля: `documentsTransferId`, `itemVersionIds`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.21. Типы передач {#ref-v1-documentstransfertype}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/documents-transfers/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/DocumentsTransferType/DocumentsTransferTypeListV1) | Ищет типы передачи документов по фильтру.<br>**Scope:** `docs:docs_transfer:list` | JSON обязателен: `DocumentsTransferTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив DocumentsTransferTypeListItem` |
-
-##### 3.1.22. Встроенные подписи {#ref-v1-embeddedsignature}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/embedded/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/EmbeddedSignature/EmbeddedSignatureListV1) | Возвращает встроенные подписи элемента.<br>**Scope:** `docs:signing:list` | `itemId`* (query)<br>**Ответ:** `200` → `массив EmbeddedVersionSignatureListItem` |
-| `PUT /public/v1/embedded/signatures`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/EmbeddedSignature/EmbeddedSignatureCreateV1) | Создаёт встроенную подпись.<br>**Scope:** `docs:signing:create` | JSON обязателен: `EmbeddedSignatureCreate`; поля: `certificateId`, `itemId`, `signature`, `versionId`<br>**Ответ:** `204` → тело не описано |
-
-##### 3.1.23. Папки {#ref-v1-folder}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/folders/{folderId}/children`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderListChildrenV1) | Возвращает непосредственных потомков папки.<br>**Scope:** `docs:folder:list` | `folderId`* (путь), `deleted` (query)<br>**Ответ:** `200` → `массив FolderListItem` |
-| `PUT /public/v1/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderCreateV1) | Создаёт папку и возвращает её идентификатор.<br>**Scope:** `docs:folder:create` | JSON обязателен: `FolderCreate`; поля: `name`, `parentId`<br>**Ответ:** `200` → `GuidSimpleDto` |
-| `PATCH /public/v1/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderUpdateV1) | Обновляет папку.<br>**Scope:** `docs:folder:update` | JSON обязателен: `FolderUpdate`; поля: `id`<br>**Ответ:** `204` → тело не описано |
-| `DELETE /public/v1/folders/{folderId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderDeleteV1) | Перемещает папку в корзину.<br>**Scope:** `docs:folder:delete` | `folderId`* (путь)<br>**Ответ:** `204` → тело не описано |
-| `GET /public/v1/projects/{projectId}/folders/tree`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Folder/FolderGetProjectTreeV1) | Возвращает полное дерево папок проекта с правами пользователя.<br>**Scope:** `docs:folder:read` | `projectId`* (путь)<br>**Ответ:** `200` → `FolderNodeUserPermissions` |
-
-##### 3.1.24. Правила именования {#ref-v1-folderitemsnamingpattern}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/naming-patterns/folder-items/find`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FolderItemsNamingPattern/FolderItemsNamingPatternFindV1) | Возвращает правила именования файлов в папке.<br>**Scope:** `docs:item:create` | `folderId`* (query)<br>**Ответ:** `200` → `FolderItemsNamingPatternsValueDto` |
-
-##### 3.1.25. Просмотр моделей через Forge {#ref-v1-forge}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/forge/convert`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Forge/ForgeConvertV1) | Запускает преобразование модели через Forge для просмотра; поддерживаемые форматы перечислены в Swagger.<br>**Scope:** `docs:viewer:execute` | JSON обязателен: `ForgeConvert`; поля: `versionId`<br>**Ответ:** `204` → тело не описано |
-| `POST /public/v1/forge/item-versions/viewer`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Forge/ForgeGetViewersDataV1) | Возвращает токен доступа и URN моделей для отображения версий файлов в Forge Viewer.<br>**Scope:** `docs:viewer:read` | JSON обязателен: `ForgeModelsToViewRequest`; поля: `itemVersionIds`, `projectId`<br>**Ответ:** `200` → `ForgeModelsToView` |
-
-##### 3.1.26. Типы полей форм {#ref-v1-formfieldtype}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/forms/fields/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FormFieldType/FormFieldTypeListV1) | Ищет типы полей форм по фильтру.<br>**Scope:** `forms:form_field_type:list` | JSON обязателен: `FormFieldTypeFind`<br>**Ответ:** `200` → `массив FormFieldType` |
-
-##### 3.1.27. Типы форм {#ref-v1-formtype}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/forms/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FormType/FormTypeListV1) | Ищет типы форм по фильтру.<br>**Scope:** `forms:form_type:list` | JSON обязателен: `FormTypeFind`<br>**Ответ:** `200` → `массив FormType` |
-
-##### 3.1.28. Группы типов форм {#ref-v1-formtypegroup}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/forms/types/groups`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/FormTypeGroup/FormTypeGroupListV1) | Ищет группы типов форм по фильтру.<br>**Scope:** `forms:form_type_group:list` | JSON обязателен: `FormTypeGroupFind`<br>**Ответ:** `200` → `массив FormTypeGroup` |
-
-##### 3.1.29. Группы карточек {#ref-v1-group}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/boards/groups`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Group/GroupListV1) | Возвращает группы карточек дашборда; удалённые группы и группы удалённого дашборда исключены.<br>**Scope:** `dash:group:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `GroupFind`; поля: `boardId`<br>**Ответ:** `200` → `массив Group` |
-
-##### 3.1.30. Папки фотомониторинга {#ref-v1-inspectionfolder}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/inspection/folders`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/InspectionFolder/InspectionFolderListV1) | Возвращает папки фотомониторинга проекта по фильтру с постраничным выводом.<br>**Scope:** `inspection:folder:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `FolderFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Folder` |
-| `POST /public/v1/inspection/folders/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/InspectionFolder/InspectionFolderListCountV1) | Подсчитывает папки фотомониторинга по фильтру.<br>**Scope:** `inspection:folder:list` | JSON обязателен: `FolderFind`; поля: `projectId`<br>**Ответ:** `200` → `int32` |
-
-##### 3.1.31. Замечания {#ref-v1-issue}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/issues`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueListV1) | Ищет замечания по фильтру с постраничным выводом.<br>**Scope:** `docs:issue:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `IssueFind`; поля: `projectId`<br>**Ответ:** `200` → `массив IssueListItem` |
-| `PATCH /public/v1/issues`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueUpdateV1) | Пакетно обновляет несколько замечаний.<br>**Scope:** `docs:issue:update` | JSON обязателен: `массив IssueUpdate`<br>**Ответ:** `200` → тело не описано |
-| `POST /public/v1/issues/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueListCountV1) | Подсчитывает замечания по фильтру.<br>**Scope:** `docs:issue:list` | JSON обязателен: `IssueFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-| `POST /public/v1/issues/items/counts`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueListItemIssuesCountV1) | Возвращает число замечаний, связанных с каждым из указанных элементов.<br>**Scope:** `docs:issue:list` | JSON обязателен: `ItemsIssuesCountGet`; поля: `itemIds`, `projectId`<br>**Ответ:** `200` → `массив IssueCountListItem` |
-| `POST /public/v1/issues/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Issue/IssueCreateV1) | Создаёт замечание.<br>**Scope:** `docs:issue:create` | JSON обязателен: `IssueCreate`; поля: `authorId`, `issueTypeId`, `name`, `projectId`, `responsible`, `status`<br>**Ответ:** `200` → `uuid` |
-
-##### 3.1.32. Доступ к замечаниям {#ref-v1-issueaccesses}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/issues/accesses`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueAccesses/IssueAccessesListV1) | Возвращает правила доступа к замечаниям.<br>**Scope:** `docs:issue:list` | JSON обязателен: `IssueAccessesFind`; поля: `issueTypeIds`<br>**Ответ:** `200` → `массив IssueAccessListItem` |
-
-##### 3.1.33. Вложения замечаний {#ref-v1-issueattachment}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/issues/attachments`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueAttachment/IssueAttachmentListV1) | Возвращает вложения указанного замечания.<br>**Scope:** `docs:issue:list` | JSON обязателен: `IssueAttachmentFind`; поля: `issueId`<br>**Ответ:** `200` → `массив IssueAttachmentListItem` |
-| `POST /public/v1/issues/attachments/object/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueAttachment/IssueAttachmentDownloadObjectV1) | Создаёт билет для скачивания объекта вложения.<br>**Scope:** `docs:issue:read` | JSON обязателен: `IssueAttachmentDownloadObject`; поля: `issueAttachmentId`<br>**Ответ:** `200` → `IssueAttachmentDownloadTicket` |
-
-##### 3.1.34. Комментарии замечаний {#ref-v1-issuecomment}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/issues/comments`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueComment/IssueCommentListV1) | Возвращает комментарии к замечаниям указанного проекта.<br>**Scope:** `docs:issue:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `IssueCommentFind`; поля: `issueIds`, `projectId`<br>**Ответ:** `200` → `массив IssueCommentListItem` |
-| `PUT /public/v1/issues/comments`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueComment/IssueCommentCreateV1) | Создаёт комментарий к указанному замечанию.<br>**Scope:** `docs:issue:create` | JSON обязателен: `IssueCommentCreate`; поля: `issueId`, `text`<br>**Ответ:** `200` → `GuidSimpleDto` |
-| `POST /public/v1/issues/comments/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueComment/IssueCommentListCountV1) | Подсчитывает комментарии по фильтру.<br>**Scope:** `docs:issue:list` | JSON обязателен: `IssueCommentFind`; поля: `issueIds`, `projectId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-
-##### 3.1.35. События замечаний {#ref-v1-issueevents}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/issues/events`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListV1) | Возвращает события замечаний по фильтру с постраничным выводом.<br>**Scope:** `docs:issue:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `IssueEventFind`; поля: `issueId`<br>**Ответ:** `200` → `массив IssueEventListItem` |
-| `POST /public/v1/issues/events/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListCountV1) | Подсчитывает события замечаний по фильтру.<br>**Scope:** `docs:issue:list` | JSON обязателен: `IssueEventFind`; поля: `issueId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-
-##### 3.1.36. Настройки замечаний проекта {#ref-v1-issueprojectsettings}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/issues/settings/project`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueProjectSettings/IssueProjectSettingsGetV1) | Возвращает настройки замечаний для указанного проекта.<br>**Scope:** `docs:issue:read` | `projectId`* (query)<br>**Ответ:** `200` → `IssueProjectSettings` |
-
-##### 3.1.37. Типы замечаний {#ref-v1-issuetype}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/issues/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueType/IssueTypeListV1) | Ищет типы замечаний по фильтру.<br>**Scope:** `docs:issue:list` | JSON обязателен: `IssueTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив IssueTypeListItem` |
-
-##### 3.1.38. Файлы и элементы {#ref-v1-item}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `PUT /public/v1/items/file`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemCreateV1) | Создаёт элемент типа «файл» вместе с версией и возвращает идентификатор элемента.<br>**Scope:** `docs:item:create` | JSON обязателен: `FileItemCreate`; поля: `folderId`, `name`, `versionId`<br>**Ответ:** `200` → `GuidSimpleDto` |
-| `PUT /public/v1/items/link`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemCreateV1) | Создаёт элемент типа «ссылка» и возвращает его идентификатор.<br>**Scope:** `docs:item:create` | JSON обязателен: `LinkItemCreate`; поля: `folderId`, `link`, `name`<br>**Ответ:** `200` → `GuidSimpleDto` |
-| `GET /public/v1/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemListV1) | Возвращает непосредственные элементы папки без вложенных элементов.<br>**Scope:** `docs:item:list` | `folderId`* (query), `deleted` (query), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив ItemsListItem` |
-| `GET /public/v1/items/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemListCountV1) | Подсчитывает непосредственные элементы папки без вложенных элементов.<br>**Scope:** `docs:item:list` | `folderId`* (query), `deleted` (query)<br>**Ответ:** `200` → `Int32SimpleDto` |
-| `POST /public/v1/items/search`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemSearchV1) | Ищет элементы внутри папки, включая вложенные.<br>**Scope:** `docs:item:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `ItemSearch`; поля: `folderId`<br>**Ответ:** `200` → `массив ItemsListItem` |
-| `GET /public/v1/items/item-version`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemGetItemVersionV1) | Возвращает версию элемента по её идентификатору.<br>**Scope:** `docs:item:read` | `id`* (query)<br>**Ответ:** `200` → `ItemVersion` |
-| `GET /public/v1/items/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemDownloadV1) | Выдаёт билет для скачивания файла из S3.<br>**Scope:** `docs:item:read` | `itemId`* (query), `versionId`* (query), `fileName` (query), `urlTtlSecOverride` (query)<br>**Ответ:** `200` → `ItemDownloadTicket` |
-| `PUT /public/v1/items/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemAttachVersionV1) | Прикрепляет новую версию к существующему элементу.<br>**Scope:** `docs:version:create` | JSON обязателен: `ItemAttachVersion`; поля: `itemId`, `versionId`<br>**Ответ:** `204` → тело не описано |
-| `PATCH /public/v1/items/update`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemUpdateV1) | Обновляет существующий элемент.<br>**Scope:** `docs:item:update` | JSON обязателен: `ItemUpdate`; поля: `id`<br>**Ответ:** `204` → тело не описано |
-| `PATCH /public/v1/items/move`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemMoveV1) | Перемещает элемент в другую папку.<br>**Scope:** `docs:item:update` | JSON обязателен: `ItemMove`; поля: `id`, `newFolderId`<br>**Ответ:** `200` → тело не описано |
-| `PATCH /public/v1/items/versions/update`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemUpdateVersionV1) | Обновляет существующую версию элемента.<br>**Scope:** `docs:version:update` | JSON обязателен: `ItemVersionUpdate`; поля: `id`<br>**Ответ:** `204` → тело не описано |
-| `DELETE /public/v1/items/{itemId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Item/ItemDeleteV1) | Перемещает элемент в корзину.<br>**Scope:** `docs:item:delete` | `itemId`* (путь)<br>**Ответ:** `204` → тело не описано |
-
-##### 3.1.39. Машиночитаемые доверенности {#ref-v1-mchd}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/mchd/company`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Mchd/MchdGetCompanyMchdDocumentsV1) | Возвращает UUID машиночитаемых доверенностей (МЧД) компании.<br>**Scope:** `docs:signing:list` | `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `GuidIReadOnlyCollectionSimpleDto` |
-| `GET /public/v1/mchd/cades/signatures/{cadesSignatureId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Mchd/MchdGetAttachedMchdDocumentsV1) | Возвращает идентификаторы МЧД, связанных с CAdES-подписью.<br>**Scope:** `docs:signing:list` | `cadesSignatureId`* (путь)<br>**Ответ:** `200` → `массив AttachedMchdDocumentListItem` |
-| `GET /public/v1/mchd/{mchdId}/object/download`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Mchd/MchdDownloadV1) | Выдаёт билет для скачивания МЧД.<br>**Scope:** `docs:signing:read` | `mchdId`* (путь)<br>**Ответ:** `200` → `MchdObjectDownloadTicket` |
-
-##### 3.1.40. Объекты хранилища {#ref-v1-object}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `PUT /public/v1/objects`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Object/ObjectCreateV1) | Выдаёт билет для загрузки объекта; после загрузки объект требуется подтвердить отдельным запросом.<br>**Scope:** `docs:object:create` | JSON обязателен: `ObjectCreate`; поля: `mimeType`, `projectId`, `size`<br>**Ответ:** `200` → `ObjectUploadTicket` |
-| `POST /public/v1/objects/{objectId}/uploading/commit`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Object/ObjectCommitUploadingV1) | Подтверждает завершение загрузки объекта в S3.<br>**Scope:** `docs:object:create` | `objectId`* (путь)<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.41. Права на папки {#ref-v1-permissions}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/permissions/folders/upsert`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Permissions/PermissionsUpsertBatchV1) | Создаёт или обновляет права пользователей и ролей на конкретную папку.<br>**Scope:** `docs:permissions:update` | JSON обязателен: `PermissionUpsertBatch`; поля: `folderId`, `items`<br>**Ответ:** `200` → тело не описано; `204` → тело не описано |
-| `GET /public/v1/permissions/tree`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Permissions/PermissionsGetProjectPermissionsTreeV1) | Возвращает дерево папок проекта с назначенными правами.<br>**Scope:** `docs:permissions:read` | `projectId`* (query)<br>**Ответ:** `200` → `FolderNodePermissions` |
-| `DELETE /public/v1/permissions/{permissionId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Permissions/PermissionsDeleteV1) | Удаляет конкретное разрешение.<br>**Scope:** `docs:permissions:delete` | `permissionId`* (путь)<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.42. Планы фотомониторинга {#ref-v1-plan}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/inspection/plans`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Plan/PlanListV1) | Возвращает планы фотомониторинга проекта по фильтру с постраничным выводом.<br>**Scope:** `inspection:plan:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `PlanFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Plan` |
-| `POST /public/v1/inspection/plans/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Plan/PlanListCountV1) | Подсчитывает планы фотомониторинга по фильтру.<br>**Scope:** `inspection:plan:list` | JSON обязателен: `PlanFind`; поля: `projectId`<br>**Ответ:** `200` → `int32` |
-
-##### 3.1.43. Точки фотомониторинга {#ref-v1-point}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/inspection/points`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Point/PointListV1) | Возвращает точки фотомониторинга проекта по фильтру с постраничным выводом.<br>**Scope:** `inspection:point:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `PointFind`; поля: `projectId`<br>**Ответ:** `200` → `массив Point` |
-| `POST /public/v1/inspection/points/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Point/PointListCountV1) | Подсчитывает точки фотомониторинга по фильтру.<br>**Scope:** `inspection:point:list` | JSON обязателен: `PointFind`; поля: `projectId`<br>**Ответ:** `200` → `int32` |
-| `GET /public/v1/inspection/points/{pointId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Point/PointGetV1) | Возвращает точку фотомониторинга по идентификатору.<br>**Scope:** `inspection:point:read` | `pointId`* (путь)<br>**Ответ:** `200` → `Point` |
-
-##### 3.1.44. Проекты {#ref-v1-project}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/projects/{projectId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectGetV1) | Возвращает сведения об указанном проекте.<br>**Scope:** `project:read` | `projectId`* (путь)<br>**Ответ:** `200` → `HubProjectInfo` |
-| `GET /public/v1/projects`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectListV1) | Возвращает список проектов компании.<br>**Scope:** `project:list` | `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив ProjectListItem` |
-| `PATCH /public/v1/projects`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectUpdateV1) | Изменяет основные сведения существующего проекта.<br>**Scope:** `project:update` | JSON обязателен: `ProjectUpdate`; поля: `id`, `name`, `timeZoneOffset`<br>**Ответ:** `200` → тело не описано |
-| `GET /public/v1/projects/{projectId}/users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectListUsersV1) | Возвращает пользователей проекта.<br>**Scope:** `project:user:list` | `projectId`* (путь), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив ProjectUserInfo` |
-| `GET /public/v1/projects/{projectId}/users/{userId}/permissions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectGetUserPermissionsV1) | Возвращает права пользователя в проекте; при отсутствии прав схема предусматривает ответ 404.<br>**Scope:** `project:user:read` | `projectId`* (путь), `userId`* (путь)<br>**Ответ:** `200` → `ProjectUserPermissions` |
-| `GET /public/v1/projects/{projectId}/roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Project/ProjectListRolesV1) | Возвращает роли проекта.<br>**Scope:** `project:role:list` | `projectId`* (путь), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив RoleInfo` |
-
-##### 3.1.45. Формы проекта {#ref-v1-projectform}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/projects/forms`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormListV1) | Ищет формы проекта по фильтру и сортировке с постраничным выводом.<br>**Scope:** `forms:project_form:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `ProjectFormFindOrdered`; поля: `find`<br>**Ответ:** `200` → `ProjectFormRegistryResult` |
-| `POST /public/v1/projects/forms/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormListCountV1) | Подсчитывает формы проекта по фильтру.<br>**Scope:** `forms:project_form:list` | JSON обязателен: `ProjectFormFind`; поля: `formTypeId`, `projectId`<br>**Ответ:** `200` → `int32` |
-| `POST /public/v1/projects/forms/get`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetV1) | Возвращает форму проекта по идентификатору.<br>**Scope:** `forms:project_form:read` | JSON обязателен: `ProjectFormGet`; поля: `projectFormId`<br>**Ответ:** `200` → `ProjectForm` |
-| `POST /public/v1/projects/forms/get-summary`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetSummaryV1) | Возвращает сводные данные указанных форм проекта.<br>**Scope:** `forms:project_form:read` | JSON обязателен: `ProjectFormsSummaryGet`; поля: `projectFormIds`, `projectIds`<br>**Ответ:** `200` → `массив ProjectFormSummary` |
-| `POST /public/v1/projects/forms/find-form-source`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormFindFormSourceV1) | Ищет формы проекта, которые могут быть источниками данных для указанного типа поля, по заданным критериям.<br>**Scope:** `forms:project_form:list` | JSON обязателен: `FormSourceProjectFormFind`; поля: `formFieldTypeId`, `projectId`<br>**Ответ:** `200` → `FormSourceProjectFormResult` |
-| `POST /public/v1/projects/forms/get-values-for-template-item`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetValuesForTemplateItemV1) | Возвращает значения элемента шаблона формы проекта.<br>**Scope:** `forms:project_form:read` | JSON обязателен: `ProjectFormValuesForTemplateItemGet`; поля: `projectFormId`<br>**Ответ:** `200` → `ProjectFormValuesForTemplateItem` |
-| `POST /public/v1/projects/forms/get-download-url-by-template-item`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormGetDownloadUrlByTemplateItemV1) | Выдаёт временную ссылку для скачивания элемента шаблона формы проекта.<br>**Scope:** `forms:project_form:read` | JSON обязателен: `ProjectFormTemplateItemDownloadUrlGet`; поля: `projectFormId`, `templateItemId`<br>**Ответ:** `200` → `ProjectFormItemDownloadTicket` |
-| `POST /public/v1/projects/forms/create-batch`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormCreateBatchV1) | Создаёт несколько форм проекта одним запросом.<br>**Scope:** `forms:project_form:create` | JSON обязателен: `ProjectFormBatchCreate`; поля: `forms`, `projectFormTypeId`<br>**Ответ:** `200` → `массив uuid` |
-| `PATCH /public/v1/projects/forms/update`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormUpdateV1) | Обновляет существующую форму проекта.<br>**Scope:** `forms:project_form:update` | JSON обязателен: `ProjectFormUpdate`; поля: `projectFormFields`, `projectFormId`<br>**Ответ:** `200` → тело не описано |
-| `PATCH /public/v1/projects/forms/complete`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectForm/ProjectFormCompleteV1) | Переводит существующую форму проекта в завершённое состояние.<br>**Scope:** `forms:project_form:update` | JSON обязателен: `ProjectFormComplete`; поля: `projectFormId`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.46. Типы полей форм проекта {#ref-v1-projectformfieldtype}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/projects/forms/fields/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectFormFieldType/ProjectFormFieldTypeListV1) | Ищет типы полей форм проекта и связанные источники отображения по фильтру.<br>**Scope:** `forms:project_form_field_type:list` | JSON обязателен: `ProjectFormFieldTypeFind`; поля: `projectFormTypeId`<br>**Ответ:** `200` → `ProjectFormFieldTypeFindResult` |
-
-##### 3.1.47. Типы форм проекта {#ref-v1-projectformtype}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/projects/forms/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectFormType/ProjectFormTypeListV1) | Ищет типы форм проекта по фильтру.<br>**Scope:** `forms:project_form_type:list` | JSON обязателен: `ProjectFormTypeFind`; поля: `projectId`<br>**Ответ:** `200` → `массив ProjectFormType` |
-
-##### 3.1.48. Пользователи проектов {#ref-v1-projectuser}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `PUT /public/v1/project-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectUser/ProjectUserAddProjectsUsersV1) | Пакетно добавляет пользователей в несколько проектов.<br>**Scope:** `hub:project:user:create` | JSON обязателен: `ProjectsUsersAdd`; поля: `projectIds`, `userIds`<br>**Ответ:** `200` → тело не описано |
-| `DELETE /public/v1/project-users`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectUser/ProjectUserDeleteProjectsUsersV1) | Пакетно удаляет пользователей из нескольких проектов.<br>**Scope:** `hub:project:user:delete` | JSON обязателен: `ProjectsUsersDelete`; поля: `projectIds`, `userIds`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.49. Дополнительные роли проектов {#ref-v1-projectusercustomrole}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `PUT /public/v1/project-user-custom-roles`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ProjectUserCustomRole/ProjectUserCustomRoleSetProjectUserCustomRolesV1) | Заменяет дополнительные роли пользователя в проекте переданным списком.<br>**Scope:** `project:role:update` | JSON обязателен: `ProjectUserCustomRolesSet`; поля: `customRoleIds`, `projectId`, `userId`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.50. Согласования {#ref-v1-review}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/reviews`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewListV1) | Возвращает согласования указанного проекта.<br>**Scope:** `docs:review:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `ReviewFindOrdered`; поля: `find`<br>**Ответ:** `200` → `массив ReviewListItem` |
-| `PATCH /public/v1/reviews`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewUpdateV1) | Изменяет основные сведения согласования.<br>**Scope:** `docs:review:update` | JSON обязателен: `ReviewUpdate`; поля: `id`<br>**Ответ:** `200` → тело не описано |
-| `POST /public/v1/reviews/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewListCountV1) | Подсчитывает согласования по фильтру.<br>**Scope:** `docs:review:list` | JSON обязателен: `ReviewFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-| `POST /public/v1/reviews/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewGetVersionsV1) | Возвращает версии согласований по указанным идентификаторам.<br>**Scope:** `docs:review:list` | JSON обязателен: `ReviewVersionsGet`; поля: `reviewVersionIds`<br>**Ответ:** `200` → `массив ReviewVersion` |
-| `POST /public/v1/reviews/versions/item-versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewFindItemVersionIdsByReviewVersionIdsV1) | Возвращает идентификаторы версий элементов, сгруппированные по версиям согласований.<br>**Scope:** `docs:review:list` | JSON обязателен: `ReviewVersionItemVersionIdsFind`; поля: `reviewVersionIds`<br>**Ответ:** `200` → `object` |
-| `POST /public/v1/reviews/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewCreateV1) | Создаёт согласование.<br>**Scope:** `docs:review:create` | JSON обязателен: `ReviewCreate`; поля: `behalfUserId`, `cipher`, `name`, `projectId`, `reviewTypeId`<br>**Ответ:** `200` → `uuid` |
-| `PATCH /public/v1/reviews/type`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewSetTypeV1) | Устанавливает или изменяет тип согласования.<br>**Scope:** `docs:review:update` | JSON обязателен: `ReviewSetType`; поля: `id`, `reviewTypeId`<br>**Ответ:** `200` → тело не описано |
-| `PATCH /public/v1/reviews/comment`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Review/ReviewSetCommentV1) | Устанавливает или очищает комментарий последней версии согласования, кроме удалённого согласования.<br>**Scope:** `docs:review:update` | JSON обязателен: `ReviewSetComment`; поля: `authorId`, `comment`, `id`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.51. Группы согласований {#ref-v1-reviewgroup}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/reviews/groups`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewGroup/ReviewGroupListV1) | Возвращает группы согласований указанного проекта.<br>**Scope:** `docs:review:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `ReviewGroupFind`; поля: `projectId`<br>**Ответ:** `200` → `массив ReviewGroupListItem` |
-
-##### 3.1.52. Документы согласований {#ref-v1-reviewitem}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/reviews/items`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewItem/ReviewItemGetReviewItemsStatusesV1) | Возвращает статусы согласования указанных версий элементов.<br>**Scope:** `docs:review:list` | JSON обязателен: `ReviewItemsStatusesGet`; поля: `itemVersionIds`, `projectId`<br>**Ответ:** `200` → `массив ReviewItemStatusListItem` |
-| `POST /public/v1/reviews/items/add`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewItem/ReviewItemAddItemV1) | Добавляет версию элемента в существующее согласование.<br>**Scope:** `docs:review:update` | JSON обязателен: `ReviewItemAdd`; поля: `itemVersionId`, `reviewId`<br>**Ответ:** `200` → тело не описано |
-| `POST /public/v1/reviews/items/remove`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewItem/ReviewItemRemoveItemV1) | Удаляет версию элемента из согласования.<br>**Scope:** `docs:review:update` | JSON обязателен: `ReviewItemRemove`; поля: `itemVersionId`, `reviewId`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.53. Запуск согласований {#ref-v1-reviewprocess}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/reviews/process/start`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewProcess/ReviewProcessStartV1) | Запускает процесс указанного согласования.<br>**Scope:** `docs:review:update` | JSON обязателен: `ReviewStart`; поля: `behalfUserId`, `reviewId`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.54. Типы согласований {#ref-v1-reviewtype}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v1/reviews/types/names`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewType/ReviewTypeFindNamesV1) | Возвращает названия типов согласований указанного проекта.<br>**Scope:** `docs:review:list` | `projectId`* (query)<br>**Ответ:** `200` → `массив ReviewTypeName` |
-| `POST /public/v1/reviews/types/create`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewType/ReviewTypeCreateV1) | Создаёт тип согласования проекта.<br>**Scope:** `docs:review:create` | JSON обязателен: `ReviewTypeCreate`; поля: `name`, `projectId`, `version`<br>**Ответ:** `200` → `uuid` |
-| `PATCH /public/v1/reviews/types`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/ReviewType/ReviewTypeUpdateV1) | Обновляет существующий тип согласования.<br>**Scope:** `docs:review:update` | JSON обязателен: `ReviewTypeUpdate`; поля: `id`, `projectId`<br>**Ответ:** `200` → тело не описано |
-
-##### 3.1.55. Публикации файлов {#ref-v1-share}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareListV1) | Ищет публикации файлов по фильтру.<br>**Scope:** `docs:share:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `ShareFind`; поля: `projectId`<br>**Ответ:** `200` → `массив ShareListItem` |
-| `PUT /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareCreateV1) | Создаёт публикацию указанного элемента.<br>**Scope:** `docs:share:create` | JSON обязателен: `ShareCreate`; поля: `sharedItemId`, `sharedItemType`, `shareType`<br>**Ответ:** `200` → `GuidSimpleDto` |
-| `PATCH /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareUpdateV1) | Обновляет существующую публикацию.<br>**Scope:** `docs:share:update` | JSON обязателен: `ShareUpdate`; поля: `id`<br>**Ответ:** `200` → тело не описано |
-| `DELETE /public/v1/shares`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareDeleteV1) | Изменяет состояние удаления существующей публикации.<br>**Scope:** `docs:share:delete` | JSON обязателен: `ShareDelete`; поля: `deleted`, `id`<br>**Ответ:** `200` → тело не описано |
-| `POST /public/v1/shares/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Share/ShareListCountV1) | Подсчитывает публикации по фильтру.<br>**Scope:** `docs:share:list` | JSON обязателен: `ShareFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-
-##### 3.1.56. Слоты {#ref-v1-slot}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/slots`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Slot/SlotListV1) | Возвращает слоты компании интеграции, упорядоченные по началу и идентификатору.<br>**Scope:** `settings:slot:list` | JSON обязателен: `SlotFind`; поля: `paging`<br>**Ответ:** `200` → `массив Slot` |
-| `DELETE /public/v1/slots`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Slot/SlotDeleteBatchV1) | Удаляет указанные слоты компании интеграции.<br>**Scope:** `settings:slot:delete` | JSON обязателен: `SlotBatchDelete`; поля: `slotIds`<br>**Ответ:** `200` → тело не описано |
-| `POST /public/v1/slots/create-batch`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Slot/SlotCreateBatchV1) | Создаёт несколько слотов компании интеграции.<br>**Scope:** `settings:slot:create` | JSON обязателен: `SlotBatchCreate`; поля: `slots`<br>**Ответ:** `200` → `массив SlotCreateResult` |
-
-##### 3.1.57. Хранилища {#ref-v1-storage}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/storages`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Storage/StorageListV1) | Ищет хранилища документов по фильтру.<br>**Scope:** `docs:storage:list` | JSON обязателен: `StorageFind`<br>**Ответ:** `200` → `массив StorageListItem` |
-
-##### 3.1.58. Просмотр моделей через Tangl {#ref-v1-tangl}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/tangl/convert`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Tangl/TanglConvertV1) | Запускает преобразование модели через Tangl для просмотра; схема указывает форматы .rvt и .ifc.<br>**Scope:** `docs:viewer:execute` | JSON обязателен: `TanglConvert`; поля: `versionId`<br>**Ответ:** `204` → тело не описано |
-
-##### 3.1.59. Журнал действий {#ref-v1-userlog}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/user-logs`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/UserLog/UserLogListV1) | Возвращает записи журнала действий пользователей по фильтру.<br>**Scope:** `logs:user:list` | JSON обязателен: `UserLogFind`<br>**Ответ:** `200` → `массив UserLogListItem` |
-
-##### 3.1.60. Версии файлов {#ref-v1-version}
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `POST /public/v1/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionCreateV1) | Создаёт новую версию объекта и возвращает её идентификатор.<br>**Scope:** `docs:version:create` | JSON обязателен: `VersionCreate`; поля: `name`, `objectId`, `projectId`<br>**Ответ:** `200` → `GuidSimpleDto` |
-| `GET /public/v1/versions`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionListV1) | Возвращает версии элемента.<br>**Scope:** `docs:version:list` | `itemId`* (query), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `массив VersionListItem` |
-| `POST /public/v1/versions/find-batch`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionListBatchV1) | Возвращает версии для набора элементов.<br>**Scope:** `docs:version:list` | JSON обязателен: `VersionsByItemsFind`; поля: `itemIds`, `projectId`<br>**Ответ:** `200` → `массив VersionListItemsBatch` |
-| `GET /public/v1/versions/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Version/VersionCountV1) | Подсчитывает версии элемента.<br>**Scope:** `docs:version:list` | `itemId`* (query), `Take` (query), `Skip` (query)<br>**Ответ:** `200` → `Int32SimpleDto` |
-
-###### 3.2. Методы v2 {#reference-v2}
-
-В Swagger выберите схему v2. Методы событий v1 и v2 представлены отдельно: сравните их модели перед заменой версии в интеграции. Наличие v2 не означает, что все методы v1 имеют аналог v2.
-
-| Метод и путь | Назначение и права | Контракт |
-| --- | --- | --- |
-| `GET /public/v2/dummy/{someId}`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/Dummy/DummyGetV2) | Возвращает объект `DummyItem` по параметру `someId`. В схеме нет текстового описания назначения запроса.<br>**Scope:** В схеме не указан | `someId`* (путь)<br>**Ответ:** `200` → `DummyItem` |
-| `POST /public/v2/issues/events`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListV2) | Возвращает события замечаний по фильтру с постраничным выводом.<br>**Scope:** `docs:issue:list` | `Take` (query), `Skip` (query)<br>JSON обязателен: `IssueEventFind`; поля: `projectId`<br>**Ответ:** `200` → `массив IssueEventListItem` |
-| `POST /public/v2/issues/events/count`<br>[Схема](https://api.sgnl.pro/openapi/swagger/index.html#/IssueEvents/IssueEventsListCountV2) | Подсчитывает события замечаний по фильтру.<br>**Scope:** `docs:issue:list` | JSON обязателен: `IssueEventFind`; поля: `projectId`<br>**Ответ:** `200` → `Int32SimpleDto` |
-
-
-Операция с DummyItem включена для полноты опубликованной схемы. Её прикладное назначение и scope в OpenAPI не описаны; для пользовательских сценариев выше она не используется.
-
-###### 3.3. Коды ответов {#reference-errors}
+#### 3.12. Коды ответов
+###### 3.12. Коды ответов {#reference-errors}
 
 | Код | Значение и следующий шаг |
 | --- | --- |
