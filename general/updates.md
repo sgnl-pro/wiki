@@ -2,7 +2,7 @@
 title: SIGNAL. Что нового
 description: История версий продуктов
 published: true
-date: 2026-11-05T13:54:22.302Z
+date: 2026-11-18T14:21:47.883Z
 tags: general
 editor: markdown
 dateCreated: 2025-09-25T13:55:16.192Z
