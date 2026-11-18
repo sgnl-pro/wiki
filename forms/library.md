@@ -2,7 +2,7 @@
 title: FORMS. Библиотека форм
 description: Рабочие типы форм, их поля и ключи для шаблонов DOCX. Пример связей форм при подготовке АОСР
 published: true
-date: 2026-11-18T07:17:07.000Z
+date: 2026-11-18T10:16:57.171Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-21T09:59:55.435Z
@@ -31,27 +31,6 @@ dateCreated: 2026-10-21T09:59:55.435Z
 </a>
 
 Подробнее: [генерация документов](/forms/generate), [согласование и подписание файлов](/docs/reviews).
-
-## Разделы библиотеки {#contents}
-
-| Раздел | Перечень форм и полей |
-| :--- | :--- |
-| Справочники | [Открыть раздел](#group-spravochniki) |
-| Общие сведения | [Открыть раздел](#group-obschie-svedeniya) |
-| Проектирование | [Открыть раздел](#group-proektirovanie) |
-| Документы ИД | [Открыть раздел](#group-dokumenty-id) |
-| Журналы общего управления, ЖВК и персонала | [Открыть раздел](#group-zhurnaly-obschego-upravleniya) |
-| Журналы геодезических работ и ГРО | [Открыть раздел](#group-zhurnaly-geodezicheskih-rabot-i-gro) |
-| Журналы земляных, буровых и свайных работ | [Открыть раздел](#group-zhurnaly-zemlyanyh-burovyh-i-svaynyh-rabot) |
-| Несущие конструкции и общестроительные работы | [Открыть раздел](#group-nesuschie-konstruktsii-i-obschestroitelnye-raboty) |
-| Журналы трубопроводов и кабельных сетей | [Открыть раздел](#group-zhurnaly-truboprovodov-i-kabelnyh-setey) |
-| Журналы лаборатории и неразрушающего контроля | [Открыть раздел](#group-zhurnaly-laboratorii-i-nerazrushayuschego-kontrolya) |
-| Акты ИД | [Открыть раздел](#group-akty-id) |
-| Сопровождение строительства | [Открыть раздел](#group-soprovozhdenie-stroitelstva) |
-| Строительный контроль | [Открыть раздел](#group-stroitelnyy-kontrol) |
-| Организационные документы | [Открыть раздел](#group-organizatsionnye-dokumenty) |
-| Финансовые документы | [Открыть раздел](#group-finansovye-dokumenty) |
-| Структура объекта | [Открыть раздел](#group-struktura-obekta) |
 
 ## Поля и ключи для шаблонов {#fields}
 
