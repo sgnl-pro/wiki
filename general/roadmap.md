@@ -1,8 +1,8 @@
 ---
 title: SIGNAL. Дорожная карта
 description: Планы развития и выпущенные возможности SIGNAL
-published: true
-date: 2026-11-10T07:30:57.871Z
+published: false
+date: 2026-11-19T10:24:58.028Z
 tags: general
 editor: markdown
 dateCreated: 2026-09-21T07:32:13.388Z
