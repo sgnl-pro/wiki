@@ -2,7 +2,7 @@
 title: Api New
 description: 
 published: true
-date: 2026-11-20T15:18:44.956Z
+date: 2026-11-23T06:44:25.227Z
 tags: 
 editor: markdown
 dateCreated: 2026-11-17T13:04:57.412Z
@@ -68,10 +68,11 @@ dateCreated: 2026-11-17T13:04:57.412Z
 #### Документация
 ###### 1.1. Адрес и документация {#api-docs}
 
-Адрес API — `https://api.sgnl.pro`. Версия входит в путь запроса, например `/public/v1/projects`.
+-  Адрес API: `https://api.sgnl.pro`. 
 
-- ReDoc — документация [v1](https://api.sgnl.pro/openapi/redoc-v1/index.html) и [v2](https://api.sgnl.pro/openapi/redoc-v2/index.html).
-- [Swagger](https://api.sgnl.pro/openapi/swagger/index.html) — запуск запросов.
+- Swagger: https://api.sgnl.pro/openapi/swagger/index.html
+- ReDoc: https://api.sgnl.pro/openapi/redoc-v1/index.html
+
 
 #### Вход в Swagger
 ###### 1.2. Подключение и авторизация в Swagger {#swagger}
