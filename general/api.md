@@ -2,7 +2,7 @@
 title: SIGNAL. Публичный API
 description: Ссылки на документацию публичного API SIGNAL, примеры использования и авторизация в Swagger
 published: true
-date: 2026-11-23T07:14:58.324Z
+date: 2026-11-24T05:33:34.232Z
 tags: general
 editor: markdown
 dateCreated: 2025-11-06T14:53:09.140Z
@@ -11,7 +11,7 @@ dateCreated: 2025-11-06T14:53:09.140Z
 <sub>**[<   SIGNAL. Что нового](/ru/general/updates)     **|**     [HUB. Введение   >](/ru/hub/intro)**</sub>
 
 <summary style="font-size: 16px; color: #0D47A1; background: #E3F2FD; border-radius: 7px; border: 1px solid #64B5F6; display: flex; gap: 10px; padding: 5px 16px; display: block; margin-top: 10px;">
-<span style="flex-grow: 1;"> <a href="/general/api/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">Что нового в API</a></span>
+<span style="flex-grow: 1;"> <a href="/general/api/updates" onclick="event.stopPropagation();" style="color: inherit; text-decoration: none;">🔄 Что нового (история изменений этого функционала)</a></span>
 </summary>
 
 > Через API можно работать с файлами, замечаниями, согласованиями и другими данными SIGNAL из своей системы.
