@@ -900,6 +900,15 @@ console.log("Сохранено " + issues.length + " замечаний: " + st
 #### Папки
 ###### 3.2. Папки и доступ {#reference-folders}
 
+##### Копирование папок DOCS {#copy-folders}
+
+Копировать папки можно внутри проекта и между проектами одной компании. У исходных папок должен быть общий родитель. Системные и корневые папки исключены из источников. Вложенные папки включаются в копию автоматически.
+
+- Чтобы перенести только структуру, вызовите [копирование без файлов](#ref-v1-folder-copy-structure).
+- Для [копирования с файлами](#ref-v1-folder-copy-with-files) выберите целевую папку без маски именования. Сохраните идентификаторы из ответа и запрашивайте [состояние заданий](#ref-v1-folder-copy-jobs) до завершения. Новое копирование с файлами можно запустить, когда завершатся все задания предыдущего копирования в этой компании.
+
+Если в целевой папке уже есть одноимённая папка, копия получит уникальное имя.
+
 <div aria-label="Справочник API — Папки" role="region" tabindex="0" style="width:100%;max-width:100%;box-sizing:border-box;overflow-x:auto;border:1px solid rgba(128,128,128,.32);border-radius:6px">
 <table style="width:100%;min-width:48rem;table-layout:fixed;box-sizing:border-box;border:0;border-radius:0;margin:0">
 <thead>
@@ -940,6 +949,24 @@ console.log("Сохранено " + issues.length + " замечаний: " + st
 <td style="overflow-wrap:anywhere">Возвращает полное дерево папок проекта с правами пользователя.</td>
 <td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">docs:folder:read</code></td>
 <td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br>В пути замените <code style="white-space:normal;overflow-wrap:anywhere">{projectId}</code> на нужные значения.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — дерево папок. У каждого узла есть <code style="white-space:normal;overflow-wrap:anywhere">id</code>, <code style="white-space:normal;overflow-wrap:anywhere">name</code>, <code style="white-space:normal;overflow-wrap:anywhere">permissions</code> и <code style="white-space:normal;overflow-wrap:anywhere">children</code>.</div></details></td>
+</tr>
+<tr>
+<td style="overflow-wrap:anywhere"><span id="ref-v1-folder-copy-structure"></span><code style="white-space:normal;overflow-wrap:anywhere">POST /public/v1/folders/copy-structure</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/Folder/operation/FolderCopyStructureV1">ReDoc</a></td>
+<td style="overflow-wrap:anywhere">Копирует папки и вложенную структуру без файлов.</td>
+<td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">docs:folder:create</code></td>
+<td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br><code style="white-space:normal;overflow-wrap:anywhere">sourceFolderIds</code> — от 1 до 30 разных папок. <code style="white-space:normal;overflow-wrap:anywhere">destinationFolderId</code> — ID целевой папки.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — без тела.</div></details></td>
+</tr>
+<tr>
+<td style="overflow-wrap:anywhere"><span id="ref-v1-folder-copy-with-files"></span><code style="white-space:normal;overflow-wrap:anywhere">POST /public/v1/folders/copy-structure-with-files</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/Folder/operation/FolderCopyStructureWithFilesV1">ReDoc</a></td>
+<td style="overflow-wrap:anywhere">Копирует структуру и запускает фоновые задания для копирования файлов.</td>
+<td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">docs:folder:create</code></td>
+<td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br><code style="white-space:normal;overflow-wrap:anywhere">sourceFolderIds</code> — от 1 до 30 разных папок. <code style="white-space:normal;overflow-wrap:anywhere">destinationFolderId</code> — ID целевой папки. При <code style="white-space:normal;overflow-wrap:anywhere">copyAllVersions = true</code> копируются все доступные версии в исходном порядке. По умолчанию копируется только актуальная версия.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — JSON-массив идентификаторов фоновых заданий.</div></details></td>
+</tr>
+<tr>
+<td style="overflow-wrap:anywhere"><span id="ref-v1-folder-copy-jobs"></span><code style="white-space:normal;overflow-wrap:anywhere">POST /public/v1/folders/copy-jobs-statuses</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/Folder/operation/FolderListCopyJobsStatusesV1">ReDoc</a></td>
+<td style="overflow-wrap:anywhere">Возвращает состояния заданий копирования файлов.</td>
+<td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">docs:folder:list</code></td>
+<td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br><code style="white-space:normal;overflow-wrap:anywhere">projectId</code> — ID проекта, в котором находится целевая папка. <code style="white-space:normal;overflow-wrap:anywhere">jobIds</code> — от 1 до 200 ID заданий из ответа на запуск копирования.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — Массив объектов с <code style="white-space:normal;overflow-wrap:anywhere">jobId</code> и <code style="white-space:normal;overflow-wrap:anywhere">state</code>. <code style="white-space:normal;overflow-wrap:anywhere">PendingExecution</code> означает ожидание или выполнение, <code style="white-space:normal;overflow-wrap:anywhere">Success</code> — успех, <code style="white-space:normal;overflow-wrap:anywhere">Error</code> — частичную или полную ошибку. Если известно число нескопированных файлов, оно возвращается в <code style="white-space:normal;overflow-wrap:anywhere">error.failedToCopyFilesCount</code>. Уже скопированные файлы остаются в целевых папках.</div></details></td>
 </tr>
 <tr>
 <td style="overflow-wrap:anywhere"><span id="ref-v1-folderitemsnamingpattern"></span><code style="white-space:normal;overflow-wrap:anywhere">GET /public/v1/naming-patterns/folder-items/find</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/FolderItemsNamingPattern/operation/FolderItemsNamingPatternFindV1">ReDoc</a></td>
@@ -1512,6 +1539,12 @@ console.log("Сохранено " + issues.length + " замечаний: " + st
 <td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br>Для пагинации в URL можно указать <code style="white-space:normal;overflow-wrap:anywhere">Take</code> и <code style="white-space:normal;overflow-wrap:anywhere">Skip</code>.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — JSON-массив записей. Поля записи включают <code style="white-space:normal;overflow-wrap:anywhere">id</code> и <code style="white-space:normal;overflow-wrap:anywhere">name</code>.</div></details></td>
 </tr>
 <tr>
+<td style="overflow-wrap:anywhere"><span id="ref-v1-company-roles-create-batch"></span><code style="white-space:normal;overflow-wrap:anywhere">POST /public/v1/company/roles/create-batch</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/Company/operation/CompanyCreateRolesV1">ReDoc</a></td>
+<td style="overflow-wrap:anywhere">Создаёт несколько ролей компании одним запросом.</td>
+<td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">company:role:create</code></td>
+<td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br>В массиве <code style="white-space:normal;overflow-wrap:anywhere">roles</code> передайте от 1 до 200 объектов с полем <code style="white-space:normal;overflow-wrap:anywhere">name</code>. В названии допускается до 255 символов, запятые запрещены. Пробелы по краям удаляются. Названия проверяются на уникальность в компании и в запросе без учёта регистра.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — JSON-массив UUID созданных ролей в порядке запроса. Если хотя бы одно название не прошло проверку, весь пакет отклоняется с <code style="white-space:normal;overflow-wrap:anywhere">400</code>.</div></details></td>
+</tr>
+<tr>
 <td style="overflow-wrap:anywhere"><span id="ref-v1-companyuser"></span><code style="white-space:normal;overflow-wrap:anywhere">GET /public/v1/company-users/by-telegram-id</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/CompanyUser/operation/CompanyUserGetUserIdByTelegramIdV1">ReDoc</a></td>
 <td style="overflow-wrap:anywhere">Возвращает идентификатор пользователя компании по Telegram ID.</td>
 <td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">company:user:read</code></td>
@@ -1555,7 +1588,7 @@ console.log("Сохранено " + issues.length + " замечаний: " + st
 </tr>
 <tr>
 <td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">GET /public/v1/projects</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/Project/operation/ProjectListV1">ReDoc</a></td>
-<td style="overflow-wrap:anywhere">Возвращает список проектов компании.</td>
+<td style="overflow-wrap:anywhere">Возвращает проекты компании, доступные интеграции.</td>
 <td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">project:list</code></td>
 <td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br>Для пагинации в URL можно указать <code style="white-space:normal;overflow-wrap:anywhere">Take</code> и <code style="white-space:normal;overflow-wrap:anywhere">Skip</code>.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — JSON-массив записей. Поля записи включают <code style="white-space:normal;overflow-wrap:anywhere">id</code> и <code style="white-space:normal;overflow-wrap:anywhere">name</code>.</div></details></td>
 </tr>
@@ -1617,7 +1650,7 @@ console.log("Сохранено " + issues.length + " замечаний: " + st
 <td style="overflow-wrap:anywhere"><span id="ref-v1-userlog"></span><code style="white-space:normal;overflow-wrap:anywhere">POST /public/v1/user-logs</code><br><a href="https://api.sgnl.pro/openapi/redoc-v1/index.html#tag/UserLog/operation/UserLogListV1">ReDoc</a></td>
 <td style="overflow-wrap:anywhere">Возвращает записи журнала действий пользователей по фильтру.</td>
 <td style="overflow-wrap:anywhere"><code style="white-space:normal;overflow-wrap:anywhere">logs:user:list</code></td>
-<td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br>В теле запроса передайте JSON-объект. Все его поля необязательны. Для фильтрации можно указать <code style="white-space:normal;overflow-wrap:anywhere">projectIds</code>, <code style="white-space:normal;overflow-wrap:anywhere">userIds</code> и <code style="white-space:normal;overflow-wrap:anywhere">logTypes</code>.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — JSON-массив записей. Поля записи включают <code style="white-space:normal;overflow-wrap:anywhere">id</code> и <code style="white-space:normal;overflow-wrap:anywhere">type</code>.</div></details></td>
+<td style="overflow-wrap:anywhere"><details style="box-sizing:border-box;max-width:100%"><summary>Контракт</summary><div><strong>Что передать</strong><br>В теле запроса передайте JSON-объект. Все его поля необязательны. Для фильтрации можно указать <code style="white-space:normal;overflow-wrap:anywhere">projectIds</code>, <code style="white-space:normal;overflow-wrap:anywhere">userIds</code> и <code style="white-space:normal;overflow-wrap:anywhere">logTypes</code>. Все проекты в <code style="white-space:normal;overflow-wrap:anywhere">projectIds</code> должны быть доступны интеграции.<br><br><strong>Ответ</strong><br><code style="white-space:normal;overflow-wrap:anywhere">200</code> — JSON-массив записей. Поля записи включают <code style="white-space:normal;overflow-wrap:anywhere">id</code> и <code style="white-space:normal;overflow-wrap:anywhere">type</code>.</div></details></td>
 </tr>
 </tbody>
 </table>
@@ -1863,7 +1896,7 @@ console.log("Сохранено " + issues.length + " замечаний: " + st
 | Код | Значение и следующий шаг |
 | --- | --- |
 | 200 / 204 | Успешное выполнение. Наличие и формат тела зависят от метода. |
-| 400 | Ошибка запроса. Проверьте обязательные поля, типы, UUID, ограничения массивов и ответ ValidationProblemDetails. |
+| 400 | Ошибка запроса. Проверьте обязательные поля, типы, UUID, ограничения массивов и допустимые значения перечислений. Подробности смотрите в `ValidationProblemDetails`. |
 | 401 | Ошибка авторизации. Проверьте заголовок Bearer и срок действия токена. |
 | 403 | Доступ запрещён. Проверьте scopes токена и доступ интеграции к нужным данным. |
 | 404 | Запрошенный ресурс не найден. Проверьте идентификаторы и контекст запроса. |
